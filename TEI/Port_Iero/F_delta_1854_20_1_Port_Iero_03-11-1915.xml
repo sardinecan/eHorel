@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>         
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Port_Iero">Port Iero,</placeName>
+               <date when="1915-11-03">le 03 novembre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+               <placeName ref="#Beaune">Beaune</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Port_Iero">Port Iero</placeName>, <date notBefore="1915-10-27" notAfter="1915-11-03">date inconnue</date>
+               </ref>
+               <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Port_Iero">Port Iero</placeName>, le <date when="1915-11-10">10 novembre 1915</date>
+               </ref>
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915">
+      <body xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_163.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_163.jpg"/>
+               <figDesc>
+                  Occupation de <placeName ref="#Metelin" xml:id="Metelin_03111915">Mételin.</placeName> Le debarquement des troupes hellènes.
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_164.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Port_Iero" xml:id="Port_Iero_03111915">Ile de Port Iero</placeName>&vir;
+                  <date when="1915-11-03"><hi rend="minimize">L</hi>e 3 <choice><abbr>9<hi rend="super">bre</hi></abbr><expan>novembre</expan></choice>1915</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_03111915">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Ces jours derniers le chalutier français le Goëland a capturé 
+               <lb/>sur la c&ô;te d'<hi rend="capitalize">a</hi>sie <choice><orig>12</orig><reg>douze</reg></choice> contrebandiers qui se trouvaient
+               <lb/>dans une barcasse dans laquelle ces messieurs avaient
+               <lb/><choice><orig>12</orig><reg>douze</reg></choice> boeufs qu'ils tuaient un &a; un quand ils trouvaient
+               <lb/>un <w rend="hyphen">sous<choice><orig>marins</orig><reg>marin</reg></choice></w> <hi rend="minimize">B</hi>oche<pc>.</pc> <hi rend="capitalize">n</hi>ous leurs avons <choice><orig>confisquer</orig><reg>confisqué</reg></choice>
+               <lb/>le tout et nous les avons fait <sic>renfermer</sic><pc>.</pc> <hi rend="capitalize">c</hi>e même
+               <lb/>jour&vir; il a été pris une petite <unclear>pirogue</unclear> chargée de
+               <lb/>poissons qui voguait sur la mer attendant qu'un <w rend="hyphen">sous</w>
+               <lb/><w>marin</w> se relève de plongée
+               <lb/>paré<del rend="overline">e</del> &a; l'approvisionner&pt;
+               <lb/><hi rend="capitalize">d</hi>ans cette petite <unclear>pirogue</unclear> il
+               <lb/>y avait <choice><orig>2</orig><reg>deux</reg></choice> hommes&vir; nous les 
+               <lb/>avons fait prisonniers&pt; <hi rend="capitalize">p</hi>resque 
+               <lb/>tous les jours les chalutiers
+               <lb/>en capture&pt;
+               <cb/>
+               <address n="1">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>48 rue de la Comédie 48</addrLine>
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaun_03111915">Beaune</placeName></addrLine>
+                  <addrLine>Cote d'or</addrLine>
+                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Port_Iero_03-11-1915_note1" n="1"/></addrLine>   
+               </address>
+               </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_161.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_161.jpg"/>
+               <figDesc>
+                  <placeName ref="#Metelin">Mételin.</placeName> Rue du Capitanat du Port
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_162.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center">2<pc>.</pc></add>
+               <lb/>Par ailleurs rien de nouveau&vir;
+               <lb/>il fait un temps superbe <pc type="supplied">;</pc> depuis
+               <lb/>quelques jours il fait même
+               <lb/>chaud<pc>.</pc> <hi rend="capitalize">d</hi>e pluie&vir; il n'en tombe
+               <lb/>plus<pc>.</pc> Je suis toujours en bonne 
+               <lb/>santé et souhaite qu'à l'arrivée 
+               <lb/>de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes<choice><reg>&vir;</reg><orig><pc>.</pc></orig></choice> <hi rend="minimize">C</hi>omtesse&vir; que
+               <lb/>vous vous trouviez de même&pt;
+            </p>
+            <closer>
+               <salute>
+                  <lb/><hi rend="capitalize">n</hi>e voyant rien autre chose 
+                  <lb/>&a; vous dire pour le moment&vir;
+                  <lb/>je termine mes <choice><orig>2</orig><reg>deux</reg></choice> cartes en 
+                  <lb/>vous envoyant mes meilleurs
+                  <lb/>amitiés<pc>.</pc>
+               </salute>
+               <signed><persName ref="#Horel" xml:id="Horel_03111915">Armand Horel</persName></signed>
+               <lb/>toujours la même adresse&pt;
+               <cb/>
+               <address n="2">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>48 rue de la Comédie 48</addrLine>
+                  <addrLine>Beaune</addrLine>
+                  <addrLine>Cote d'or</addrLine>
+                  <addrLine>France</addrLine>   
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915_note1" n="1">
+               Adresse présente sur toutes les cartes postales.
+            </note>
+         </div>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>         
+      </back>
+  </text>
+</TEI>

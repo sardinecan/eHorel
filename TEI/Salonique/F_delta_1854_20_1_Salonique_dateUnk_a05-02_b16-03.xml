@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName>Salonique,</placeName>
+               <date notBefore="1916-02-05" notAfter="1916-03-16">Date inconnue</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+            </correspAction>            
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-10">10 mars 1916</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à la <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-16">16 mars 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03">
+      <body xml:id="F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03_b">
+         <div type="letter">
+            <gap reason="missing"/>
+            <pb n="1" facs="../../FACS//BDIC_FD_1854_20_1_071.jpg"/>
+            <figure>
+               <graphic url="../../FACS//BDIC_FD_1854_20_1_071.jpg"/>
+               <figDesc>
+                  L'Eglise du Prohète Elie à <placeName ref="#Salonique">Salonique</placeName> - Grèce
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS//BDIC_FD_1854_20_1_072.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="right">(2)</add>
+               <lb/>que son moteur qui était légèrement attaqué
+               <lb/>et son aile droite qui avait reçu <choice><orig>2</orig><reg>deux</reg></choice> ou <choice><orig>3</orig><reg>trois</reg></choice> balles<pc>,</pc>
+               <lb/>les drageurs sont venus pour l'escorter jusqu'au
+               <lb/>camp d'aviation car nous avons d&é;j&a; réparé
+               <lb/>le <choice><orig>1<hi rend="super">er</hi></orig><reg>premier</reg></choice> qui a été abattu&pt; <hi rend="capitalize">n</hi>ous lui avons <choice><orig>changer</orig><reg>changé</reg></choice>
+               <lb/>la peinture et nous nous en servons comme
+               <lb/>nous en <unclear>servir</unclear> d'un des n&ô;tres&vir; celui ci fera la
+               <lb/>même chose<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs rien de nouveau si ce 
+               <lb/>n'est que des courriers qui arrivent 
+               continuell<lb rend="hyphen"/>ement chargés de troupes et de matériel<pc>.</pc> 
+            </p>
+            <closer>
+               <salute>
+                  <hi rend="capitalize">r</hi>ien
+                  <lb/>autre chose &a; vous dire pour l'instant&vir; un
+                  <lb/>petit ami qui ne vous oublie pas&vir;
+               </salute>
+               <signed>
+                  <persName ref="#Horel" xml:id="Horel_a05-02_B16-03">Armand 
+                     <lb/> Horel&vir;</persName>                  
+               </signed>
+               <address>
+                     <addrLine>
+                        <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier <address><addrLine><name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03">&a; bord du chalutier
+                        <lb/>Shamrock II&vir;</name></addrLine> <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_a05-02_B16-03">Dardanelles</placeName>
+                        <lb/>&a; <placeName ref="#Salonique" xml:id="Salonique_a05-02_B16-03">Salonique</placeName></addrLine></address>
+                     </addrLine>
+                  </address>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>      
+   </text>
+</TEI>

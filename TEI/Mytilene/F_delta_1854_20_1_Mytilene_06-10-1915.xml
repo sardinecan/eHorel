@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>         
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Mytilene">Mytilène</placeName>
+               <date when="1915-10-06">06 octobre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName>Bonne sur Menoge</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Imbros">Imbros</placeName> le <date when="1915-09-23">23 septembre 1915</date>
+               </ref>
+               <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-10-09">09 octobre 1915</date>
+               </ref>
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Mytilene_06-10-1915">
+      <body xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
+               <figDesc>
+                  L'Eglise St Therapion, <placeName ref="#Metelin">Mételin</placeName>
+               </figDesc>
+            </figure>               
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_178.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Mytilene"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName>&vir;
+                  <date when="1915-10-06"><hi rend="minimize">L</hi>e 6 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>
+               </dateline>
+               <salute rend="center">
+                  <persName ref="#Comtesse_Forest">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je profite que ayant un petit moment
+               <lb/>devant moi pour vous envoyer de
+               <lb/>mes nouvelles&vir; que je suis toujours
+               <lb/>en <choice><orig>excéllente</orig><reg>excellente</reg></choice> santé et je désire
+               <lb/>qu'à l'arrivée de mes cartes
+               <lb/>vous vous trouviez de même&pt;
+               <lb/>Si j'ai tant tardé à vous écrire
+               <lb/>ce n'est pas de ma faute car
+               <lb/>dans l'<hi rend="minimize">I</hi>le o&ù; nous sommes&vir;
+               <lb/>les départs et arriv&é;es de 
+               <lb/>de courriers ne sont guère
+               <lb/>réguliers&vir; car nous devions
+               <lb/>recevoir un courrier venant
+               <lb/>de France <hi rend="minimize">M</hi>ardi soir et
+               <lb/>nous n'avons jusqu'ici rien
+               <lb/>eu&pt; <hi rend="capitalize">c</hi>e qui nous fait que
+               <cb/>
+               <address n="1">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France</addrLine>   
+               </address>
+               <gap reason="missing"/>
+            </p>
+         </div>         
+      </body>
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>      
+  </text>
+</TEI>

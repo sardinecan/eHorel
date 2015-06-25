@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Correspondance d'Armand Horel</title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="../../STYLE/foundation/css/foundation.css"/>
+      <link rel="stylesheet"
+            type="text/css"
+            href="../../STYLE/personnalisation/style.css"/>
+      <script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>
+      <link rel="stylesheet"
+            href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+      <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">//</script>
+      <script src="../../JS/carte/cartographie.js">//</script>
+      <script src="../../JS/js/jquery.js">//</script>
+   </head>
+   <body onload="InitialiserCarte() ;" class="corps">
+      <header class="row">
+         <img src="../../STYLE/images/header.jpg" alt="header"/>
+         <nav class="top-bar" data-topbar="yes" role="navigation">
+            <ul class="title-area">
+               <li class="name">
+                  <h1>
+                     <a href="http://www.bdic.fr/">BDIC</a>
+                  </h1>
+               </li>
+               <li class="toggle-topbar menu-icon">
+                  <a href="#">
+                     <span>Menu</span>
+                  </a>
+               </li>
+            </ul>
+            <section class="top-bar-section">
+               <ul class="left">
+                  <li>
+                     <a href="../index.html">Accueil</a>
+                  </li>
+                  <li class="has-dropdown">
+                     <a href="#">Correspondance d'Armand Horel</a>
+                     <ul class="dropdown">
+                        <li>
+                           <a href="chronologie.html">Accès chronologique</a>
+                        </li>
+                        <li>
+                           <a href="geographie.html">Accès géographique</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="right">
+                  <li class="has-dropdown">
+                     <a href="#">Index et Glossaire</a>
+                     <ul class="dropdown">
+                        <li>
+                           <a href="#">Personnes</a>
+                        </li>
+                        <li>
+                           <a href="#">Lieux</a>
+                        </li>
+                        <li>
+                           <a href="#">Glossaire</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#">A propos de l'édition</a>
+                  </li>
+               </ul>
+            </section>
+         </nav>
+      </header>
+      <div class="row" id="corps">
+         <div class="large-12 columns">
+            <h2>Accès géographique</h2>
+            <div id="map"/>
+         </div>
+      </div>
+      <p>
+         <ul id="Salonique1915-05-15">
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_15-05-1915.html">Salonique 15 mai 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.html">Salonique 16 novembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.html">Salonique 23 novembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.html">Salonique 30 novembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.html">Salonique 07 décembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.html">Salonique 14 décembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.html">Salonique 17 décembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.html">Salonique 20 décembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.html">Salonique 27 décembre 1915</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.html">Salonique 03 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.html">Salonique 07 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.html">Salonique 12 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.html">Salonique 19 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.html">Salonique 24 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.html">Salonique 25 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.html">Salonique 31 janvier 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.html">Salonique 05 février 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.html">Salonique 16 février 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.html">Salonique 21 février 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.html">Salonique 10 mars 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03.html">Salonique date inconnue</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.html">Salonique 16 mars 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.html">Salonique 17 mars 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.html">Salonique 22 mars 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.html">Salonique 28 mars 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.html">Salonique 03 avril 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.html">Salonique 09 avril 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.html">Salonique 15 avril 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.html">Salonique 21 avril 1916</a>
+            </li>
+            <li>
+               <a href="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.html">Salonique 27 avril 1916</a>
+            </li>
+         </ul>
+         <ul id="Toulon1915-08-08">
+            <li>
+               <a href="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.html">Toulon 08 août 1915</a>
+            </li>
+            <li>
+               <a href="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.html">Toulon 29 août 1915</a>
+            </li>
+         </ul>
+         <ul id="Port_Iero1915-10-09">
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.html">Port Iero 09 octobre 1915</a>
+            </li>
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.html">Port Iero 20 octobre 1915</a>
+            </li>
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.html">Port Iero 27 octobre 1915</a>
+            </li>
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.html">Port Iero date inconnue</a>
+            </li>
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.html">Port Iero 03 novembre 1915</a>
+            </li>
+            <li>
+               <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.html">Port Iero 10 novembre 1915</a>
+            </li>
+         </ul>
+         <ul id="Mytilene1915-10-06">
+            <li>
+               <a href="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.html">Mythilene 06 octobre 1915</a>
+            </li>
+         </ul>
+         <ul id="Imbros1915-09-23">
+            <li>
+               <a href="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.html">Imbros 23 septembre 1915</a>
+            </li>
+         </ul>
+         <ul id="Moudros1915-09-03">
+            <li>
+               <a href="../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.html">Moudros 03 septembre 1915</a>
+            </li>
+         </ul>
+         <ul id="Corfou1916-11-04">
+            <li>
+               <a href="../Corfou/F_delta_1854_20_1_Corfou_04-11-1916.html">Corfou 04 novembre 1916</a>
+            </li>
+         </ul>
+      </p>
+      <script src="../../STYLE/foundation/js/vendor/jquery.js">//</script>
+      <script src="../../STYLE/foundation/js/foundation.min.js">//</script>
+      <script>$(document).foundation();</script>
+   </body>
+</html>

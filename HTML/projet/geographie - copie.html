@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Correspondance d'Armand Horel</title>
+    	<meta charset="utf-8"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<!--feuilles de style-->  
+    	<link rel="stylesheet" href="../../STYLE/foundation/css/foundation.css" />
+		<link rel="stylesheet" type="text/css" href="../../STYLE/personnalisation/style.css"/>    
+    	<script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>
+    	<!--cartographie-->
+    	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src="../../JS/carte/cartographie.js">//</script>
+		<script src="../../JS/js/jquery.js">//</script>
+	</head>
+	<body onload="InitialiserCarte() ;">
+		<header class="row">
+         	<img src="../../STYLE/images/header.jpg" alt="header"/>
+         	<nav class="top-bar" data-topbar="yes" role="navigation">
+            	<ul class="title-area">
+            		<li class="name">
+                		<h1>
+                    		<a href="http://www.bdic.fr/">BDIC</a>
+                  		</h1>
+               		</li>
+               		<li class="toggle-topbar menu-icon">
+                		<a href="#">
+                    		<span>Menu</span>
+                  		</a>
+               		</li>
+            	</ul>
+            	<section class="top-bar-section">
+               		<ul class="left">
+                  		<li>
+                     		<a href="../index.html">Accueil</a>
+                  		</li>
+                  		<li class="has-dropdown">
+                     		<a href="#">Correspondance d'Armand Horel</a>
+                     		<ul class="dropdown">
+                        		<li>
+                           			<a href="chronologie.html">Accès chronologique</a>
+                        		</li>
+                        		<li>
+                           			<a href="geographie.html">Accès géographique</a>
+                        		</li>
+                     		</ul>
+                  		</li>
+               		</ul>
+               		<ul class="right">
+                  		<li class="has-dropdown">
+                     		<a href="#">Index et Glossaire</a>
+                     		<ul class="dropdown">
+                        		<li>
+                           			<a href="#">Personnes</a>
+                        		</li>
+                        		<li>
+                           			<a href="#">Lieux</a>
+                        		</li>
+                        		<li>
+                           			<a href="#">Glossaire</a>
+                        		</li>
+                     		</ul>
+                  		</li>
+                  		<li>
+                     		<a href="#">A propos de l'édition</a>
+                  		</li>
+               		</ul>
+            	</section>
+        	</nav>
+    	</header>
+    	<div class="row" id="corps">
+         <div class="large-12 columns">
+            <h2>Accès géographique</h2>
+            <div id="map"></div>
+         </div>
+      </div>		
+	</body>
+</html>

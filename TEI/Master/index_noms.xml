@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt xml:id="titleStmt">
+            <title n="1">Don de Madame <persName ref="#Comtesse_Forest">la Comtesse de la Forest</persName> : Cartes postales illustrées</title>
+            <title n="2">Souvenir de soldats</title>
+            <respStmt>
+               <resp>Transcription et encodage XML/TEI : </resp>
+               <name xml:id="J_M">Josselin Morvan (étudiant à l'École des Chartes)</name>
+            </respStmt>
+            <respStmt>
+               <resp>Sous la direction de </resp>
+               <name xml:id="F_J_S">Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibibliothèque de Documentation Internationale Contemporaine</orgName>)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt xml:id="publicationStmt">
+            <p>A Définir.</p>
+         </publicationStmt>
+         <sourceDesc xml:id="sourceDesc">
+            <msDesc> <!-- Groupe de discussion sur les corresp. La matérialité de la collection peut être encodée avec les éléments du msDesc -->
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Nanterre</settlement>
+                  <repository>Bibliothèque de Documentation Internationale Comtemporaine</repository>
+                  <idno>F delta 1854/20</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>
+                     Ensemble de lettres (cartes) envoyées à la Comtesse de la Forest par l'un de ses obligés, 
+                     Armand Horel, quartier maître canonnier à bords de divers bâtiments de la flotte française 
+                     entre 1915 et 1919. L'essentiel des courriers est envoyé depuis Toulon puis Salonique, 
+                     Patras, le Canal de Suez, etc. De nombreux éléments sur le quotidien à bord, les épisodes de 
+                     guerre, mais aussi sur la grippe espagnole en 1918. La très grande majorité des courriers est 
+                     rédigée sur des cartes postales et le fonds constitue part là une collection rare de cartes 
+                     (154 au total, dont beaucoup en couleur) de cette région (Grèce, Turquie, Dardanelles) durant 
+                     la période de guerre. Le fonds comprend en outre une lettre du frère de Armand Horel, ainsi qu'un 
+                     programme de théâtre (« Achi Baba and the forty thieves »).
+                  </p> 
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>210 pièces</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     Don de Madame la Comtesse de la Forest
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage xml:id="langUsage">
+            <language ident="fr">Français</language>
+         </langUsage>
+         <textDesc xml:id="textDesc">
+            <channel mode="w"/>
+            <constitution type="composite">Les correspondances tiennent généralement sur plusieurs cartes. Certaines sont manquantes.</constitution>
+            <derivation type="original"/>
+            <domain type="domestic"/> <!-- Note des Guidelines : élément généralement vide sauf si besoin de clarifier les @ttributs. domestic : sphère privée -->
+            <factuality type="fact"/> <!-- Idem <domain> : fact: décrit des fait réels -->
+            <!-- Nous ne disposons que des cartes écrites par Armand Horel et reçues par la Comtesse 
+           Aucune interraction (@type) un seul participant (@active) et un seul participant passif (@passive)-->
+            <interaction type="none" active="singular" passive="single"/> 
+            <preparedness type="none"/><!-- texte spontané -->
+            <purpose type="express" cert="high"/><!-- intention de communication unique du texte = confession -->
+         </textDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="front">
+         <div>
+            <listPerson xml:id="person">
+               <listPerson>
+                  <person xml:id="Horel">
+                     <persName>Armand Horel</persName>
+                  </person>
+                  <person xml:id="Comtesse_Forest">
+                     <persName>Comtesse L. de la Forest</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Le_Mire">Le Mire de Villers</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="G_Locke">G Locke</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Sarrail">Sarrail</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Kitchener">Lord Kitchener</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Joffre">Joffre</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Poincare">Poincaré</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Pierre_Serbie">Pierre de Serbie</persName>
+                  </person>
+                  <person>
+                     <persName xml:id="Papadracos">Papadracos</persName> <!--carte 097-->
+                  </person>
+               </listPerson>
+            </listPerson>
+            <listPlace xml:id="place">
+               <place>
+                  <placeName xml:id="Toulon">Toulons</placeName>
+                  <location>
+                     <geo/>
+                     <settlement/>
+                  </location>
+               </place>
+               <place>
+                  <placeName xml:id="Var">Var</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Tamaris">Tamaris</placeName> <!-- Carte postale 199 -->
+               </place>
+               <place>
+                  <placeName xml:id="Dardanelles">Dardanelles</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="St-Germain">Saint-Germain</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Melun">Melun</placeName> <!-- à propose du frère d'Armand, 193-198 -->
+               </place>
+               <place>
+                  <placeName xml:id="St-Mandrier">Saint-Mandrier</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Paris">Paris</placeName> <!-- Adresse par Paris  cartes 193-->
+               </place>
+               <place>
+                  <placeName xml:id="Lorient">Lorient</placeName> <!-- agraffe à l'inscription maritime de Lorian carte 193 -->
+               </place>
+               <place>
+                  <placeName xml:id="Moudros">Moudros</placeName> <!-- stationnement carte 185-190 -->
+               </place>
+               <place>
+                  <placeName xml:id="Imbros">Imbros</placeName> <!-- carte 179 -->
+               </place>
+               <place>
+                  <placeName xml:id="Golf_Saros">Golf de Saros</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Metelin">Mételin</placeName> <!-- carte 177-178 -->
+               </place>
+               <place>
+                  <placeName xml:id="Mytilene">Mytilène</placeName> <!-- stationnement carte 177-178 -->
+               </place>
+               <place>
+                  <placeName xml:id="Mandamados">Mandamados</placeName> <!-- carte 173-176 /-/-(salonique) -->
+               </place>
+               <place>
+                  <placeName xml:id="Port_Iero">Port Iéro</placeName> <!-- stationnement carte 173-176 -->
+               </place>
+               <place>
+                  <placeName xml:id="Roumanie">Roumanie</placeName> <!-- Bulgarie référence à l'entrée en guerre de ces pays lettre 173-176 -->
+               </place>
+               <place>
+                  <placeName xml:id="Grece">Grèce</placeName> <!-- idem Bulgarie 173-176 -->
+               </place>
+               <place>
+                  <placeName xml:id="Salonique">Salonique</placeName> <!-- référence lettre 173-176 - 151-154 -->
+               </place>
+               <place>
+                  <placeName xml:id="Sanary">Sanary</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Marmara">mer de Marmara</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Canal_Suez">Canal de Suez</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Idadie">Idadié</placeName> <!-- carte 151-154 -->
+               </place>
+               <place>
+                  <placeName xml:id="Beaune">Beaune</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Port_Said">Port-Saïd</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Bessarabie">Bessarabie</placeName>
+               </place>
+               <place>
+                  <placeName xml:id="Serbie">Serbie</placeName>
+               </place>
+            </listPlace>
+            <listNym xml:id="nyn">
+               <nym>
+                  <nym xml:id="H_IV"></nym>
+               </nym>
+               <nym>
+                  <form xml:id="Lavoisier">Lavoisier</form>
+               </nym>
+               <nym>
+                  <form xml:id="Turquoise">Turquoise</form>
+               </nym>
+               <nym>
+                  <form xml:id="Charlemagne">Charlemagne</form>
+               </nym>
+               <nym>
+                  <form xml:id="Dupleix">Dupleix</form>
+               </nym>
+               <nym>
+                  <form xml:id="Hussard">Hussard</form>
+               </nym>
+               <nym>
+                  <form xml:id="Spahis">Spahis</form>
+               </nym>
+               <nym>
+                  <form xml:id="Askold">Askold</form>
+               </nym>
+               <nym>
+                  <form xml:id="Shamrock_II">Shamrock II</form>
+               </nym>
+               <nym>
+                  <form xml:id="Lutetia">Lutétia</form>
+               </nym>
+            </listNym>
+         </div>
+      </front>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

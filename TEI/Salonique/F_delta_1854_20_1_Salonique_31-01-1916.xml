@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1916-01-31">le 31 janvier 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+               <placeName ref="#Sanary">Hôtel de Bains, Sanary sur mer</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-25">25 janvier 1916</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-02-05">05 février 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_31-01-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_31-01-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS//BDIC_FD_1854_20_1_095.jpg"/>
+            <figure>
+               <graphic url="../../FACS//BDIC_FD_1854_20_1_095.jpg"/>
+               <figDesc>
+                  La Porte du Vardar <placeName ref="#Salonique">Salonique</placeName> - Grèce
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS//BDIC_FD_1854_20_1_096.jpg"/>
+            <opener>
+               <dateline>
+                  Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_31011916">Salonique</placeName>&vir;
+                  <date when="1916-01-31">le 31 janvier 1916</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_31011916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Au moment o&ù; je vous écris nous faisons <choice><orig>2</orig><reg>deux</reg></choice> pêches &a; la 
+               <lb/>fois&vir; la p&ê;che aux <w rend="hyphen">sous</w><w>marins</w> et aux poissons car
+               <lb/>nous avons <choice><orig>2</orig><reg>deux</reg></choice> filets &a; la mer&pt; <hi rend="capitalize">u</hi>n pour essayer de
+               <lb/>p&ê;cher les <w rend="hyphen">sous</w><w>marins</w> et l'autre pour le poisson&pt;
+               <lb/><hi rend="capitalize">i</hi>l y a <choice><orig>5</orig><reg>cinq</reg></choice> minutes&vir; nous venons de tirer le filet aux
+               <lb/>poissons&vir; il y a dedans&vir; <choice><orig>10</orig><reg>dix</reg></choice> <choice><orig>sôles</orig><reg>soles</reg></choice> et <choice><orig>2</orig><reg>deux</reg></choice> raies<pc>.</pc> <hi rend="capitalize">n</hi>ous 
+               <lb/>l'avons <choice><orig>rejeter</orig><reg>rejeté</reg></choice> de manière &a; essayer <sic>a</sic> attraper
+               <lb/>une bonne friture pour ce soir&pt; <hi rend="capitalize">e</hi>t &a; quel prix&vir; tout 
+               <lb/>cela pour rien<pc>.</pc> <hi rend="capitalize">c</hi>ela nous emp&ê;che pas de faire notre
+               <lb/>service contre ces sales <w rend="hyphen">sous</w><w>marins</w> boches&vir; que je
+               <lb/>crois nous r&é;ussirons jamais &a; détruire car
+               <lb/>&a; me<del rend="overline">me</del>sure que nous <supplied reason="omitted">en</supplied> d&é;truisons <choice><orig>1</orig><reg>un</reg></choice> il en revient
+               <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres après et pourtant tout cela nous emmène
+               <lb/>pas la fin de la guerre&pt; <hi rend="capitalize">j</hi>e crois qu'il faut encore 
+               <lb/>beaucoup de patience pour pouvoir arriver &a; bout&pt;
+            </p>
+            <pb n="3" facs="../../FACS//BDIC_FD_1854_20_1_093.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS//BDIC_FD_1854_20_1_093.jpg"/>
+               <figDesc>
+                  L'Eglise Ste-Cathérine à <placeName ref="#Salonique">Salonique</placeName>
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS//BDIC_FD_1854_20_1_094.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="right"><pc>.</pc>2<pc>.</pc></add>
+               <lb/>La sant&é; est toujours parfaite&vir; je souhaite qu'&a;
+               <lb/>l'arrivée de mes deux ../../FACS/&vir; que vous en soyez
+               <lb/>de même&vir; ainsi que votre fille et sa gosse<pc>.</pc>
+            </p>
+            <closer>
+               <salute>
+                  <lb/><hi rend="capitalize">r</hi>ien autre chose &a;
+                  <lb/>vous dire pour
+                  <lb/>l'instant<pc>,</pc> un petit
+                  <lb/>ami qui ne vous
+                  <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
+               </salute>
+               <lb/>
+               <signed>
+                  <persName ref="#Horel" xml:id="Horel_31011916">Armand Horel</persName>
+               </signed>
+               <address>
+                  <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier</addrLine>
+                  <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>
+                  <addrLine>Division des <lb/><placeName ref="#Dardanelles" xml:id="Dardanelles_31011916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>   
+               </address>
+               <cb/>
+               <address n="1">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Hôtel de Bains</addrLine>
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>
+                  <addrLine>Var</addrLine>
+                  <addrLine>France</addrLine>   
+               </address>
+            </closer>
+         </div>
+      </body>      
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1916-03-17">le 17 mars 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-16">16 mars 1916</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-22">22 mars 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_17-03-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_17-03-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_047.jpg"/> 
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_047.jpg"/>
+               <figDesc>
+                  Vue occidentale de colonnes du temple de Jupiter - <placeName ref="#Athenes" xml:id="Athenes_17031916">Athènes</placeName>
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_048.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Salonique" xml:id="Salonique_17031916">Salonique</placeName>&vir;
+                  <date when="1916-03-17">le 17 Mars 1916</date>
+               </dateline>
+               <salute rend="center">
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_17031916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Ayant reçu votre colis dans lequel il y avait
+               <lb/><choice><orig>4</orig><reg>quatre</reg></choice> bouquins&vir; <choice><orig>3</orig><reg>trois</reg></choice> rires et la baïonette&vir; je m'empresse
+               <lb/>de vous remercier pour votre bon cœur<pc>.</pc> <hi rend="capitalize">c</hi>ette
+               <lb/>fois quand je vais partir en mer j'aurai de quoi
+               <lb/>me distraire ainsi que mes camarades de bord
+               <lb/>car des <choice><orig>journeaux</orig><reg>journaux</reg></choice> j'en reçois de M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi>
+               <lb/><persName ref="#Bussiere" xml:id="Bussiere_17031916">Bussière</persName> mais voil&a; bient&ô;t <choice><orig>2</orig><reg>deux</reg></choice> mois que je
+               <lb/>n'ai pas eu de leurs nouvelles&pt; <hi rend="capitalize">j</hi>e ne sais trop
+               <lb/>ce que cela veut dire&vir; serait-<choice><sic>il</sic><corr>ce</corr></choice> les courriers
+               <lb/>qui ne sont pas r&é;guliers ou bien alors le
+               <lb/>papa <persName ref="#Bussiere">Bussière</persName>&vir; qui est mon correspondant&vir;
+               <lb/>serait tombé malade<pc type="supplied">?</pc> <hi rend="capitalize">e</hi>n tous les cas je
+               <lb/>suis bougrement inquiet de ne pas <choice><orig>reçevoir</orig><reg>recevoir</reg></choice>
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_045.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_045.jpg"/>
+               <figDesc>
+                  Vue d'<placeName ref="#Athenes">Athènes</placeName> prise d'Aréopage - Athènes
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_046.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="right">(2)</add>
+               <lb/><choice><orig>aucune</orig><reg>aucunes</reg></choice> nouvelles d'eux<pc>.</pc> J'ai trouvé drôle de
+               <lb/>re<choice><orig>ç</orig><reg>c</reg></choice>evoir ce colis sans avoir eu de lettre ni avant
+               <lb/>ni après car depuis que je suis sur le <name ref="#Shamrock_II" xml:id="Shamrock_II_17031916">Shamrock</name>&vir;
+               <lb/>je n'ai pas eu aucune nouvelle de vous mais
+               <lb/>ce qui doit dépendre &a; ce que je ne reçois pas
+               <lb/>de nouvelles&vir; c'est que les courriers soient
+               <lb/>coulés ou que alors mes lettres&vir; au lieu de
+               <lb/>venir &a; <placeName ref="#Salonique">Salonique</placeName>&vir; s'en iraient &a; <placeName ref="#Corfou" xml:id="Corfou_17031916">Corfou</placeName> car
+               <lb/>tous les chalutiers de notre escadrille sont
+               <lb/><choice><orig>parti</orig><reg>partis</reg></choice> <w rend="hyphen">l&a;</w><w>bas</w> depuis le <date when="1916-01-01">1<hi rend="super">er</hi> janvier</date> et depuis
+               <lb/>cela nous n'avons reçu aucun courrier qui soit
+               <lb/>régulier<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs je suis toujours en <choice><orig>exellente</orig><reg>excellente</reg></choice> 
+               <lb/>santé et souhaite qu'&a; l'arrivée de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes
+               <lb/>que vous en êtes de même ainsi que votre fille et petite
+               <lb/>fille<pc>.</pc>
+            </p>
+            <closer>
+               <salute>
+                  <hi rend="capitalize">u</hi>n petit ami qui ne vous 
+                  <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais<pc>.</pc>
+               </salute>
+               <signed>
+                  <persName ref="#Horel" xml:id="Horel_17031916">Armand Horel</persName> 
+               </signed>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>

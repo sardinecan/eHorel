@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName>Salonique,</placeName>
+               <date when="1916-01-03">le 3 janvier 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-27">27 décembre 1915</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-07">07 janvier 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_03-01-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_03-01-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_105.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_105.jpg"/>
+               <figDesc>
+                  La remise des drapeaux aux Nouveaux Régiments par S. M. R. Le roi 
+                  Constantin XII. dans la région de Drama 
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_106.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Salonique" xml:id="Salonique_03011916">Salonique</placeName>&vir;
+                  <date when="1916-01-03">le 3 janvier 1916</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_03011916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je vous écris pour vous <choice><sic>compter</sic><corr>conter</corr></choice> quelques exploits
+               <lb/>des <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice> boches qui ont survolé <placeName ref="#Salonique">Salonique</placeName> le
+               <lb/>30 <choice><abbr>Xbre</abbr><expan>décembre</expan></choice> &a; 10 <supplied reason="omitted">h</supplied> 1/2 du matin&pt; <hi rend="capitalize">i</hi>ls nous <choice><orig>on</orig><reg>ont</reg></choice> <choice><orig>lancer</orig><reg>lancé</reg></choice> une dizaine
+               <lb/>de bombes sans aucun dégat&vir; il y en a qu'une seulement
+               <lb/>qui <choice><sic>a</sic><corr>est</corr></choice> tombée tout &a; coté d'un troupeau de moutons
+               <lb/>qui a tué le berger et <choice><orig>6</orig><reg>six</reg></choice> moutons<pc>.</pc> <hi rend="capitalize">u</hi>ne autre qui <choice><sic>a</sic><corr>est</corr></choice> <choice><orig>tombe</orig><reg>tombée</reg></choice>
+               <lb/>&a; coté de soldats grecs qui faisaient quelque exercices&vir;
+               <lb/>la bombe <choice><sic>a</sic><corr>est</corr></choice> tomb&é;e &a; environ <choice><orig>20</orig><reg>vingt</reg></choice> m&è;tres du g&é;n&é;ral grec
+               <lb/>qui les commandait mais il n'a pas seulement eu
+               <lb/>une &é;gratignure<pc>.</pc> Ils n'ont pas perdu courage pour
+               <lb/>cela&vir; il y en a un d'eux autres qui est retourné <choice><orig>2</orig><reg>deux</reg></choice>
+               <lb/>heures après <pc type="supplied">;</pc> il a laiss&é; <choice><orig>tombé</orig><reg>tomber</reg></choice> deux bombes&vir; une de
+               <lb/>chaque coté de notre grand parc de r&é;serve de munitions
+               <lb/>mais <choice><orig>il</orig><reg>ils</reg></choice> n'y ont absolument rient fait et heureusement
+               <lb/>car c'est le grand approvisionnement de nos armées
+               <lb/>en munitions qui se trouvait l&a;<pc>.</pc> <hi rend="capitalize">u</hi>ne bombe <choice><sic>aurait</sic><corr>serait</corr></choice>
+               <lb/>tombée dedans il y <supplied reason="omitted">en</supplied> aurait eu au moins pour
+               <lb/><choice><orig>8</orig><reg>huit</reg></choice> jours d'incendie&pt;                                                  
+               <add type="closer" place="margin-top"  rend="rotate" n="1">
+                  <add place="margin-top"  rend="rotate" n="1">                  
+                     <lb/><hi rend="capitalize">j</hi>e suis en parfaite santé et souhaite que vous soyez de                                     
+                     <lb/>même à l'arrivée de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir;
+                  </add>
+                  <add place="margin-bottom" rend="rotate" n="1">un petit ami qui ne vous oublie                  
+                     <lb/>pas&vir; <surplus reason="repeated"><persName ref="#Horel">A Horel</persName>&pt;</surplus>
+                  </add>  
+                  <add type="signed" place="margin-right" rend="vertical" n="1">               
+                     <persName ref="#Horel" xml:id="Horel_03011916">A Horel</persName>                  
+                  </add>
+               </add>                                                                         
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_107.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_107.jpg"/>
+               <figDesc>
+                  Paysage de Kassandra à Macedoine
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_108.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center">2</add>
+               <lb/>La <choice><abbr>1<hi rend="super">ere</hi></abbr><expan>première</expan></choice> fois qu'ils sont venus ils étaient <choice><orig>3</orig><reg>trois</reg></choice> et la seconde
+               <lb/><choice><orig>1</orig><reg>un</reg></choice> seulement<pc>.</pc> Nous avons eu la visite du roi <persName ref="#Pierre_Serbie" xml:id="Pierre_Serbie_03011916">Pierre de Serbie</persName>&pt;
+               <lb/><hi rend="capitalize">i</hi>l est arrivé &a; <placeName ref="#Salonique">Salonique</placeName> le <date when="1916-01-01">1<hi rend="super">er</hi> janvier</date> &a; 5 heures du 
+               <lb/>soir &a; bord du <name type="navire" ref="#Hussard" xml:id="Hussard_03011916">Hussard</name> et le contre torpilleur <name type="navire" ref="#Spahis" xml:id="Spahis_03011916">Spahis</name>
+               <lb/>l'accompagnait&pt; <hi rend="capitalize">l</hi>es grecs sont venus au quai pour
+               <lb/>lui rendre les honneurs&vir; quand il a su cela il a retardé
+               <lb/>jusqu'au lendemant pour se rendre au consulat de
+               <lb/><placeName ref="#Serbie" xml:id="Serbie_03011916">Serbie</placeName><pc>.</pc> <hi rend="capitalize">s</hi>i vous aviez vu le phare qu'ils ont piqué les
+               <lb/>grecs en ne le voyant pas venir&vir; ils ont été <choice><orig>oblige</orig><reg>obligés</reg></choice> de
+               <lb/><choice><orig>ployé</orig><reg>ployer</reg></choice> armes et bagages et de s'en retourner au
+               <lb/>camps bredouille<pc>.</pc> <hi rend="capitalize">l</hi>e roi <persName ref="#Pierre_Serbie">Pierre de Serbie</persName> a <choice><orig>diner</orig><reg>dîné</reg></choice> avec
+               <lb/>le g&é;néral <persName ref="#Sarrail" xml:id="Sarrail_03011916">Sarrail</persName> et le soir même il est parti pour
+               <lb/>une destination inconnue toujours &a; bord du contre
+               <lb/>torpilleur <name ref="#Hussard" type="navire">Hussard</name><pc>.</pc> En guise de représaille pour nous
+               <lb/>avoir <choice><orig>lancer</orig><reg>lancé</reg></choice> des bombes&vir; le g&é;n&é;ral <persName ref="#Sarrail">Sarrail</persName> a <choice><orig>donner</orig><reg>donné</reg></choice>
+               <lb/>l'ordre de faire arr&ê;ter <del rend="overline">tous les consuls ennemis ainsi</del>
+               <lb/>que leurs femmes et enfants et domestiques&vir; ils ont tous
+               <lb/>&é;t&é; <choice><orig>arreté</orig><reg>arrêtés</reg></choice> le soir même que les <choice><orig>areoplanes</orig><reg>aéroplanes</reg></choice> boches sont venus
+               <lb/>nous voir et le lendemain ils sont <choice><orig>parti</orig><reg>partis</reg></choice> &a; bord du cargot
+               <lb/>des messageries <choice><orig>maritime</orig><reg>maritimes</reg></choice> <name type="navire" ref="#Memphis" xml:id="Memphis_03011916">Le Memphis</name> qui les a
+               <lb/><add type="normal" place="margin-right" rend="vertical" n="2">conduit en France&pt;</add>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>      
+   </text>
+</TEI>

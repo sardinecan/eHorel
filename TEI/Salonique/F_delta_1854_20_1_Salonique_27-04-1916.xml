@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1916-04-27">le 27 avril 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+               <placeName ref="#Beaune">10 rue Oudot, Beaune</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-21">21 avril 1916</date>
+               </ref>
+               <ref type="next" target="../Corfou/F_delta_1854_20_1_Corfou_04-11-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-11-04">04 novembre 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_27-04-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_27-04-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_009.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_009.jpg"/>
+               <figDesc>
+                  Ile d'<placeName ref="#Eubee" xml:id="Eubee_27041916">Eubée</placeName> <placeName ref="#Karystos" xml:id="Karystos_27041916">Karistos</placeName>
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_010.jpg"/>
+            <opener>
+               <dateline>
+                  Bord <placeName ref="#Salonique" xml:id="Salonique_27041916">Salonique</placeName>&vir;
+                  <date when="1916-04-27">le 27. 4. 1916</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_27041916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Ayant reçu vos <choice><orig>2</orig><reg>deux</reg></choice> cartes de deux dates diff&é;rentes
+               <lb/>dans la même enveloppe&vir; je m'empresse de vous
+               <lb/>en rendre réponse et suis très content de vous savoir
+               <lb/>en assez bonne santé ainsi que M<hi rend="super">me</hi> <persName ref="#Gauthier" xml:id="Gauthier_27041916"><hi rend="capitalize">g</hi>authier</persName> et sa
+               <lb/>petite fille<pc>.</pc> Tant qu'à la victoire&vir; nous en sommes <choice><orig>sur</orig><reg>sûrs</reg></choice>
+               <lb/>de la <choice><orig>gagnée</orig><reg>gagner</reg></choice> mais ce sera long et dur pour nous&pt;
+               <lb/><hi rend="capitalize">m</hi>ais tant qu'&a; perdre non <pc type="supplied">;</pc> jamais je <supplied reason="omitted">ne</supplied> saurai
+               <lb/>devenir boche après cette guerre&pt; <hi rend="capitalize">j</hi>e pr&é;f&é;rerai
+               <lb/>me tuer plut&ô;t que de rentrer en France sous le
+               <lb/>joug des sales boches<pc>.</pc> Ils croyaient pourtant M<hi rend="super">ieurs</hi>
+               <lb/>les boches faire une trouée sur notre front de
+               <lb/><placeName ref="#Verdun" xml:id="Verdun_27041916">Verdun</placeName> mais ils se sont <choice><orig>trompé</orig><reg>trompés</reg></choice> et de beaucoup<pc>.</pc>
+               <lb/><hi rend="capitalize">p</hi>our la famille <persName ref="#Bussiere" xml:id="Bussiere_27041916">Bussière</persName> ça va bien&vir; il n'y a que
+               <lb/>le papa Bussière qui est un peu fatigué lui aussi
+               <lb/>mais voil&a; l'été qui arrive qui lui donnera un
+               <lb/>bon coup de main pour l'amélioration &a; sa santé
+               <add type="closer" place="margin-left" rend="vertical" n="1">
+                  Bonne santé &a; tous et bonne<lb/> chance
+               </add>
+               <add type="signed" place="margin-right" rend="vertical" n="1">
+                  <persName ref="#Horel" xml:id="Horel_27041916">Armand Horel</persName>
+               </add>
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_007.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_007.jpg"/>
+               <figDesc>
+                  <placeName ref="#Athenes" xml:id="Athenes_27041916">ATHÈNES</placeName>. Eglise St. Elefterios
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_008.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="left">(2)</add>
+               <lb/>ainsi qu'à la votre<pc>.</pc> Alors M<hi rend="super">ieur</hi> <persName ref="#Gauthier"><hi rend="capitalize">g</hi>authier</persName> se trouve
+               <lb/>au front de <placeName ref="#Verdun"><hi rend="capitalize">v</hi>erdun</placeName>&pt; <hi rend="capitalize">c</hi>'est que par l&a; ça chauffe dur&pt;
+               <lb/>Combien de malheureux qui vont trouver la mort dans
+               <lb/>ce lieu <pc type="supplied">;</pc> et dire que ce n'est encore pas en bonne <choice><sic>voix</sic><corr>voie</corr></choice>
+               <lb/>pour finir<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; je souhaite de tout cœur qui ne
+               <lb/>lui arrive rien &a; M<hi rend="super">ieur</hi> <persName ref="#Gauthier"><hi rend="capitalize">g</hi>authier</persName><pc>.</pc> Vos neveux sont en
+               <lb/>France dans le nord&pt; <choice><sic><hi rend="capitalize">j</hi>'ai</sic><corr>Je suis</corr></choice> descendu <choice><orig>3</orig><reg>trois</reg></choice> fois &a; terre
+               <lb/>pour me renseigner <supplied reason="omitted">et</supplied> savoir o&ù; <choice><orig>il</orig><reg>ils</reg></choice> se <choice><orig>trouvait</orig><reg>trouvaient</reg></choice>&pt; <hi rend="capitalize">j</hi>'ai été
+               <lb/>il y a <choice><orig>3</orig><reg>trois</reg></choice> jours au consulat d'Angleterre&vir; ils m'ont 
+               <lb/>répondu que ce nom était inconnu dans l'armée
+               <lb/>d'Orient aux <placeName ref="#Dardanelles" xml:id="Dardanelles_27041916">Dardanelles</placeName>&vir; oui ils y étaient mais <supplied reason="omitted">à</supplied>
+               <lb/><placeName ref="#Salonique">Salonique</placeName> non <pc type="supplied">;</pc> ils ne sont pas <choice><orig>venu</orig><reg>venus</reg></choice><pc>.</pc> <hi rend="capitalize">j</hi>'ai <choice><orig>remercier</orig><reg>remercié</reg></choice> le
+               <lb/>consul de m'avoir si bien <choice><orig>renseigner</orig><reg>renseigné</reg></choice> et je vois
+               <lb/>maintenant par votre carte qu'ils sont tous les deux
+               <lb/>en France<pc>.</pc> Moi de ce coté&vir; je crois que les <hi rend="minimize">B</hi>ulgares vont
+               <lb/>voir du rude quand nous allons prendre l'<choice><orig>offensif</orig><reg>offensive</reg></choice>
+               <lb/>car des troupes serbes il en arrive tous les jours&pt;
+            </p>
+            <closer>
+               <salute>
+                  <add place="margin-right" rend="vertical" n="2">
+                     un petit ami qui vous envoie ses
+                  </add> 
+                  <add place="margin-left" rend="vertical" n="2">
+                     meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>
+                  </add>
+               </salute>
+            </closer>
+         </div>
+         <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_011.jpg ../../FACS/BDIC_FD_1854_20_1_012.jpg">
+            <p>
+               <address>
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>10 rue Oudot 10</addrLine>
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_27041916">&a; Beaûne</placeName> Cote d'or</addrLine>
+                  <addrLine>France</addrLine>      
+               </address>
+               <stamp type="postmark">
+                  <orgName>postes - navales</orgName> <date cert="high" when="1916-04-27">27 avril 1916</date>
+               </stamp>
+            </p>               
+            <pb/>
+            <p>
+               envoi de
+               <address>
+                  <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier 
+                     <lb/><name ref="#Shamrock_II" xml:id="Shamrock_II_27041916">Shamrock II</name> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_27041916">Marseille</placeName>
+                  </addrLine>
+               </address>
+            </p>
+         </div>
+      </body>  
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>

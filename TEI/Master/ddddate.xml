@@ -1,0 +1,28 @@
+<data>
+   <event start="1915-05-15"
+          end="1916-11-04"
+          title="#Salonique 1915-05-15"
+          link="#Salonique1915-05-15">
+testeeefefefef <a href="#Salonique1915-05-15" style="color:blue;">tototototot</a>
+        </event>
+   <event start="1915-08-08"
+          end="1915-08-29"
+          title="#Toulon 1915-08-08"
+          link="#Toulon1915-08-08"/>
+   <event start="1915-10-09"
+          end="1915-11-10"
+          title="#Port_Iero 1915-10-09"
+          link="#Port_Iero1915-10-09"/>
+   <event start="1915-10-06"
+          title="#Mytilene 1915-10-06"
+          link="#Mytilene1915-10-06"/>
+   <event start="1915-09-23"
+          title="#Imbros 1915-09-23"
+          link="#Imbros1915-09-23"/>
+   <event start="1915-09-03"
+          title="#Moudros 1915-09-03"
+          link="#Moudros1915-09-03"/>
+   <event start="1916-11-04"
+          title="#Corfou 1916-11-04"
+          link="#Corfou1916-11-04"/>
+</data>

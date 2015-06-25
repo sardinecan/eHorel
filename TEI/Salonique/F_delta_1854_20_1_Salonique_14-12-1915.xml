@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1915-12-14">le 14 décembre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-07">07 décembre 1915</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-17">17 décembre 1915</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_14-12-1915">
+      <body xml:id="F_delta_1854_20_1_Salonique_14-12-1915_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_129.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_129.jpg"/>
+               <figDesc>
+                  Souvenir de <placeName ref="#Salonique">Salonique</placeName> cimetière turcs derrière l'Enceinte de la ville
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_130.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Salonique" xml:id="Salonique_14121915">Salonique</placeName>&vir;
+                  <date when="1915-12-14">le 14 <choice><orig>X<hi rend="super">bre</hi></orig><expan>décembre</expan></choice> 1915</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_14121915">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je vous écris ces quelques mots pour vous donner
+               <lb/>de mes nouvelles&vir; que je suis toujours en bonne
+               <lb/>santé et je désire qu'à l'arrivée de mes cartes
+               <lb/>que vous vous trouviez de même ainsi que votre
+               <lb/>demoiselle<pc>.</pc> Toujours temps bumeux et une
+               <lb/>brume très épaisse qui ne donne gu&è;re la main
+               <lb/>&a; nos troupes pour combattre car vraiment
+               <lb/>on ne voit pas &a; <choice><orig>50</orig><reg>cinquante</reg></choice> m&è;tres de distance tellement
+               <lb/>ce brouillard est épais<pc>.</pc> <hi rend="capitalize">p</hi>our combattre avec 
+               <lb/>cela c'est gu&è;re possible car pour voir son
+               <lb/>adversaire il faudrait qu'il soit &a; une trentaine
+               <lb/>de mètres de vous et comme on ne combat pas
+               <lb/>de si près sur se front car ici la bataille se
+               <lb/>fait en rase campagne<pc>.</pc> Je crois que depuis 
+               <lb/><unclear><choice><orig>5</orig><reg>cinq</reg></choice></unclear> ou <choice><orig>4</orig><reg>quatre</reg></choice> jours nos troupes on eu l'ordre de
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_131.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_131.jpg"/>
+               <figDesc>
+                  MAKE∆ONIA <placeName ref="#Salonique">Salonique</placeName> Temple des Cavirs
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_132.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center">2</add>
+               <lb/>battre en retraite&pt; <hi rend="capitalize">e</hi>n premier nos troupiers se
+               <lb/>demandaient mais pourquoi bat-on en retraite
+               <lb/>sans voir l'ennemi&pt; <hi rend="capitalize">l</hi>es officiers leur ont répondu
+               <lb/>mes petits amis&vir; c'est un ordre du g&é;n&é;ralissime
+               <lb/><persName ref="#Joffre" xml:id="Joffre_14121915">Joffre</persName><pc>.</pc> <hi rend="capitalize">p</hi>ourtant j'en ai vu qui revenaient du front
+               <lb/>et qui avaient été bless&é;s&vir; ils me disaient qu'ils
+               <lb/>&é;taient en trop grand nombre pour pouvoir r&é;sister
+               <lb/>&a; leurs attaques et que c'était &a; ce sujet que nous
+               <lb/>battions en retraite<pc>.</pc> <hi rend="capitalize">d</hi>u renfort il nous en 
+               <lb/>arrive tous les jours par <choice><orig>7</orig><reg>sept</reg></choice> ou <choice><orig>8</orig><reg>huit</reg></choice> bateaux soit
+               <lb/><hi rend="minimize">A</hi>nglais ou <hi rend="minimize">F</hi>rançais et en plus un mat&é;riel
+               <lb/>considérable&pt; <hi rend="capitalize">c</hi>ette victoire ne dépend  plus que
+               <lb/>des <hi rend="minimize">R</hi>usses car il doit venir <choice><orig>3</orig><reg>trois</reg></choice> ou <choice><orig>400 000</orig><reg>quatre cent mille</reg></choice> <surplus reason="repeated">mille</surplus>
+               <lb/>russes en <placeName ref="#Bessarabie" xml:id="Bessarabie_14121915"><choice><orig>Bésarabie</orig><reg>Bessarabie</reg></choice></placeName><pc>.</pc> Nous tenons toujours la
+               <lb/>ville de <placeName ref="#Salonique">Salonique</placeName> &a; port&é;e de nos canons en
+               <lb/>cas ou elle voudrait nous trahir&pt; 
+            </p>
+            <closer>
+               <salute>
+                  <hi rend="capitalize">r</hi>ien autre 
+                  <lb/>chose &a; vous dire&vir; un petit ami 
+                  <lb/>qui ne vous oublie pas&vir;
+               </salute>
+               <signed><persName ref="#Horel" xml:id="Horel_14121915">Armand Horel</persName></signed>
+               <salute>
+                  <add type="normal" place="margin-right" rend="vertical" n="2">
+                     et meilleure                  
+                     <lb/> santé pour votre demoiselle&pt;
+                  </add>
+               </salute>
+            </closer>
+            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_126.jpg" type="postcardBreak"/>
+            <postscript n="1">
+               <p>
+                  <add type="numbering" rend="center" n="3">3</add>
+                  <lb/><persName ref="#Comtesse_Forest">Comtesse</persName>&vir; <choice><orig>2</orig><reg>deux</reg></choice> minutes avant que j'allais <choice><orig>fermé</orig><reg>fermer</reg></choice> ma
+                  <lb/>lettre je reçois une lettre de vous<pc type="surplus">.</pc> qui m'a fait 
+                  <lb/>peine de vous savoir tant souffrante<pc type="surplus">.</pc> car 
+                  vrai<lb break="no"/>ment c'est trop pour les mêmes<pc>.</pc> Dieu devrait
+                  <lb/>partager le mal<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; j'espère que pour 
+                  main<lb rend="hyphen"/>tenant vous soyer compl&è;tement rétablie<pc>.</pc> Tous
+                  <lb/>ces temps ci c'est tr&è;s difficile de voyager car
+                  <lb/>il y a beaucoup trop de voyageurs principalement
+                  <lb/>des militaires&pt; <hi rend="capitalize">p</hi>our ne pas &ê;tre serré il faudrait
+                  <lb/>prendre le train &a; son premier départ et venir 
+                  <lb/>dans ces conditions au moins une ou <choice><orig>2</orig><reg>deux</reg></choice> heures
+                  <lb/>&a; l'avance<pc>.</pc> Surement que vous avez d<choice><orig>u</orig><reg>û</reg></choice> vous 
+                  <lb/>fatiguer de faire un si long voyage.<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1"/>
+               </p>
+            </postscript>
+            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_125.jpg"/>
+            <postscript n="2">
+               <p>
+                  <add type="numbering" n="4" rend="center">4</add>
+                  <lb/>Ah que vous &ê;tes bien gentill<supplied reason="illegible">e</supplied> comtesse de vous
+                  <lb/>occuper autant de mon p<supplied reason="illegible">a</supplied>uvre frère&pt; <hi rend="capitalize">i</hi>l a eu
+                  <lb/>un an de grâce et il est toujours proposé pour
+                  <lb/>la conditionnelle ce qui fait qu'il peut sortir
+                  <lb/>d'un jour &a; l'autre <pc type="supplied">;</pc> si seulement ça pouvait
+                  <lb/>&ê;tre vrai qu'il puisse aller combattre comme
+                  <lb/>ses camarades&vir; quelle joie pour lui quand
+                  <lb/>il apprendrait cette nouvelle<pc>.</pc> <hi rend="capitalize">p</hi>our la tante&vir;
+                  <lb/>il n'y a qu'elle et moi qui pouvions nous en occuper
+                  <lb/>du frère <pc type="supplied">;</pc> mes parents par ailleurs ne savent
+                  <lb/>ni lire ni écrire et ne connaissent personne&vir;
+                  <lb/>si nous ne serions pas l&a; tous les
+                  <lb/>deux&vir; il serait malheureux comme
+                  <lb/>tout<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; esp&é;rons qu'un jour
+                  <lb/>&a; venir il sera heureux comme
+                  <lb/>nous une fois qu'il aura racheté
+                  <lb/>sa peine<pc>.</pc>
+               </p>
+               <closer>
+                  <salute>
+                     <hi rend="capitalize">j</hi>e vous remercie beaucoup de
+                     <lb/>votre bon coeur <persName ref="#Comtesse_Forest">comtesse</persName><pc>,</pc> un petit ami qui ne vous 
+                     <add type="normal" place="margin-right" rend="vertical" n="4"><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;</add>   
+                  </salute>
+                  <signed>
+                     <add type="normal" place="margin-right" rend="vertical" n="4"><persName ref="#Horel">A Horel&pt;</persName></add>
+                  </signed>
+               </closer>
+            </postscript>
+         </div>
+      </body>
+      <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">
+               La correspondance se poursuit au recto de cette carte-lettre.
+            </note>
+         </div>        
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{desenclos_edition_????}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=50cf10e8b3fd8a0981cafff37b2e366a}{Desenclos}{D\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=50cf10e8b3fd8a0981cafff37b2e366a}{Desenclos}{D\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{50cf10e8b3fd8a0981cafff37b2e366a}
+      \strng{fullhash}{50cf10e8b3fd8a0981cafff37b2e366a}
+      \field{sortinit}{D}
+      \field{labeltitle}{Édition de correspondances}
+      \field{title}{Édition de correspondances}
+      \field{urlday}{28}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \verb{file}
+      \verb :/Users/josselinmorvan/Library/Application Support/Firefox/Profiles/m7vu74lq.default/zotero/storage/NJPMRKMP/correspondance.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://developpements.enc.sorbonne.fr/diple/schema/correspondance
+      \endverb
+    \endentry
+    \entry{nougaret_ledition_2015}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=9988c68aea155605b3af39059bdb6f3d}{Nougaret}{N\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=eee43ae79ee43f8e0cc735b53e6e03f4}{Parinet}{P\bibinitperiod}{Élisabeth}{É\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9988c68aea155605b3af39059bdb6f3d}{Nougaret}{N\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=eee43ae79ee43f8e0cc735b53e6e03f4}{Parinet}{P\bibinitperiod}{Élisabeth}{É\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {FR}%
+      }
+      \list{publisher}{1}{%
+        {École nationale des chartes}%
+      }
+      \strng{namehash}{6cf5e148b41da8797845754c01715be6}
+      \strng{fullhash}{6cf5e148b41da8797845754c01715be6}
+      \field{sortinit}{N}
+      \field{labeltitle}{L'édition critique des textes contemporains ({XIXe}-{XXIe} siècle)}
+      \field{abstract}{L'édition critique des textes contemporains (XIXe-XXIe siècle). Ce manuel présente les principes qui assureront rigueur scientifique et lisibilité à l'édition de textes contemporains : constitution du corpus, respect des règles de droit, transcription, annotation, présentation du texte, constitution des index...}
+      \field{isbn}{9782357230620}
+      \field{title}{L'édition critique des textes contemporains ({XIXe}-{XXIe} siècle)}
+      \field{year}{2015}
+      \verb{file}
+      \verb Snapshot:/Users/josselinmorvan/Library/Application Support/Firefox/Profiles/m7vu74lq.default/zotero/storage/XIV3W3GK/livre.html:text/html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

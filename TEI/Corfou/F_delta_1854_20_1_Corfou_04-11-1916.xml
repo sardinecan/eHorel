@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Corfou">Corfou,</placeName>
+               <date when="1916-11-04">le 04 novembre 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst,</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à la <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-27">27 avril 1916</date>
+               </ref>
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Corfou_04-11-1916">
+      <body xml:id="F_delta_1854_20_1_Corfou_04-11-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
+               <figDesc>
+                  Athènes. Musée National.
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_006.jpg"/>
+            <opener>
+               <dateline>
+                  Bord en mer&vir; environ de <placeName ref="#Corfou">Corfou</placeName>&vir;
+                  <date when="1916-11-04">le 04 Novembre 1916</date>
+               </dateline>
+               <salute rend="center">
+                  <lb/><persName ref="#Comtesse_Forest">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Etant de retour de permission de <choice><orig>14</orig><reg>quatorze</reg></choice> jours&vir; je m'empresse
+               <lb/>de vous faire parvenir de mes nouvelles&vir; que je suis arrivé
+               <lb/>&a; bord en parfaite santé et d&é;sire qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
+               <lb/>cartes que vous en &ê;tes de même<pc>.</pc> <hi rend="capitalize">j</hi>'ai passé <choice><orig>9</orig><reg>neuf</reg></choice> jours chez
+               <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere">Bussière</persName> <placeName>rue <unclear>Richepause</unclear></placeName>&vir; je me suis
+               <lb/>bien amusé pendant ce petit séjour parmi eux<pc>.</pc> <hi rend="capitalize">j</hi>'ai été
+               <lb/>voir mes parents &a; <placeName ref="#Lorient">Lorient</placeName>&pt; <hi rend="capitalize">j</hi>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
+               <lb/>prie de croire que je n'ai pas trouvé le temps long<pc>.</pc>
+               <lb/><hi rend="capitalize">p</hi>ar cette même occasion j'ai été voir mon frère &a;
+               <lb/><placeName ref="#Melun">Melun</placeName> le <date when="1916-10-18">mercredi 18 octobre</date> pour la dernière
+               <lb/>fois car il doit sortir aujourd'hui <date when="1916-11-04">4 novembre</date>&pt;
+               <lb/><hi rend="capitalize">&a;</hi> sa sortie il doit se rendre &a; <placeName ref="#Montpellier">Montpellier</placeName> o&ù; l&a;
+               <lb/>il sera dirigé sur <placeName ref="#Marseille">Marseille</placeName> pour prendre le paquebot
+               <lb/>qui le m&è;nera en <placeName ref="#Algerie">Algérie</placeName> &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName> &a; <choice><orig>4</orig><reg>quatre</reg></choice> 
+               kil<lb rend="hyphen"/>omètres d'<placeName ref="#Oran">Oran</placeName>&pt; <hi rend="capitalize">j</hi>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
+               <lb/>poudrière d'<placeName ref="#Oran">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <hi rend="capitalize">i</hi>l est
+               <lb/>parti <w rend="hyphen">l&a;</w><w>bas</w> pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_003.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_003.jpg"/>
+               <figDesc>
+                  Athènes. Ecole Française.
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_004.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="left">(2)</add>
+               <lb/>service actif qui lui restait &a; faire<pc>.</pc> <hi rend="capitalize">a</hi>près avoir termin&é;
+               <lb/>ce <choice><orig>lapt</orig><reg>laps</reg></choice> de temps je ne sais trop o&ù; il sera dirigé <pc type="supplied">;</pc>
+               <lb/>peut &ê;tre bien sur le front ou je crois plut&ô;t qu'ils
+               <lb/>l'enverront au <placeName ref="#Maroc">Maroc</placeName><pc>.</pc> Enfin&vir; je suis content qu'il en soit
+               <lb/>sorti de cette maudite prison de <placeName ref="#Melun">Melun</placeName> car d'arpès
+               <lb/>lui il en aura assez souffert principalement <supplied reason="omitted">de la</supplied> privation
+               <lb/>de nourriture<choice><orig><pc>,</pc></orig><reg>&pt;</reg></choice> <hi rend="capitalize">p</hi>our moi je ne me plais plus guère &a; bord
+               <lb/>de ce chalutier car la vie est bien trop dure&pt; <hi rend="capitalize">n</hi>ous sommes
+               <lb/>compl&è;tement &é;reintés par la mer <pc type="supplied">;</pc> surtout dans les
+               <lb/>parages o&ù; nous sommes en ce moment&pt; <hi rend="capitalize">i</hi>l n'y a jamais eu
+               <lb/>un jour de beau temps <pc type="supplied">;</pc> du matin au soir il faut être
+               <lb/>cramponné de manière &a; pouvoir ce tenir debout&pt;
+               <lb/><hi rend="capitalize">o</hi>n dira ce que l'on voudra mais ce n'est pas une <choice><orig>excistence</orig><reg>existence</reg></choice>
+               <lb/>de mener une vie pareille&pt; <hi rend="capitalize">p</hi>our moi la marine n'est pas
+               <lb/>juste&vir; nous devrions &ê;tre <choice><orig>remplacé</orig><reg>remplacés</reg></choice> tous les ans sur ces
+               <lb/>chalutiers car une année sur un chalutier vaut <choice><orig>3</orig><reg>trois</reg></choice> sur
+               <lb/>un cuirassé car eux autres<pc>,</pc> ils ne bougent pour ainsi
+               <lb/>dire jamais tandis que nous <supplied>sommes</supplied> d'un bout de l'année &a; l'autre en mer&pt;
+            </p>
+            <closer>
+               <salute>
+                  <lb/><hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous 
+                  <lb/>oublie pas&vir;
+               </salute>
+               <signed>
+                  <persName ref="#Horel">Armand Horel</persName> 
+               </signed>
+            </closer>
+            <postscript n="1">
+               <p>
+                  le bonjour &a; M<hi rend="super">me</hi> <persName ref="#Gauthier">Gauthier</persName> et sa <unclear>fille</unclear>
+                  <add type="normal" place="margin-left" rend="vertical" n="2">
+                     toujours la même adresse&pt;
+                  </add>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>      
+   </text>
+</TEI>

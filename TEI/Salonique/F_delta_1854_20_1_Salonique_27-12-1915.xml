@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName>Salonique,</placeName>
+               <date when="1915-12-27">le 27 décembre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+               <placeName>Hôtel de Bains Sanary sur mer</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-20">20 décembre 1915</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-03">03 janvier 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_27-12-1915">
+      <body xml:id="F_delta_1854_20_1_Salonique_27-12-1915_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_115.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_115.jpg"/>
+               <figDesc>
+                  Souvenir de <placeName ref="#Salonique">Salonique</placeName>
+                  l'Auto Royal stationnant devant la porte de l'Eglise St. Minas 
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_116.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Salonique" xml:id="Salonique_27121915">Salonique</placeName>&vir;
+                  <date when="1915-12-27">le 27 <choice><orig>X<hi rend="super">bre</hi></orig><expan>décembre</expan></choice> 1915</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_27121915">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Ayant reçu votre carte hier&vir; je m'empresse de vous en
+               <lb/>faire réponse<pc>.</pc> <hi rend="capitalize">e</hi>lle m'a fait beaucoup de peine
+               <lb/>de vous savoir toujours souffrante mais il ne
+               <lb/>faut pas vous faire de mauvaises idées car petit
+               <lb/>&a; petit je pense que le soleil du midi vous rétablira<pc>.</pc>
+               <lb/><hi rend="capitalize">c</hi>e courrier a été tout &a; fait mauvais car pour ainsi
+               <lb/>dire je n'ai reçu que des mauvaises nouvelles<pc>.</pc> <hi rend="capitalize">m</hi>a
+               <lb/>maman est bien mal tous ces <w rend="hyphen">temps</w><w>ci</w><pc>.</pc> <hi rend="capitalize">i</hi>l faut qu'elle
+               <lb/>le soit car elle est rentrée &a; l'hôpital pour prendre
+               <lb/>un peu d'air de la campagne car o&ù; nous habitons
+               <lb/>il n'y a pas <w rend="aggl">du</w><w>tout</w> d'air<pc>.</pc> <hi rend="capitalize">n</hi>os chambres donnent
+               <lb/>sur la cour et notre cour est toute petite&pt; <hi rend="capitalize">e</hi>lle
+               <lb/>fait juste <choice><orig>2</orig><reg>deux</reg></choice> <choice><orig>metres</orig><reg>mètres</reg></choice> <choice><orig>carrés</orig><reg>carré</reg></choice> et elle est entourée
+               <lb/>de maisons &a; <choice><orig>4</orig><reg>quatre</reg></choice> étages&vir; ce qui rend impossible
+               <lb/>l'air de venir d'aucun coté et comme il lui
+               <lb/>fallait de l'air et beaucoup de soin&vir; elle est rentrée
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_113.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_113.jpg"/>
+               <figDesc>
+                  Souvenir de <placeName ref="#Salonique">Salonique</placeName>
+                  Ex Eglise St. Georges 
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_114.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center">2</add>
+               <lb/>&a; l'hôpital en payant 2<hi rend="super">¢</hi> 50 par jour&pt; <hi rend="capitalize">ç</hi>a revient
+               <lb/>encore assez cher<pc type="surplus">.</pc> mais on ne regarde pas &a;
+               <lb/>si <choice><orig>prèt</orig><reg>près</reg></choice> quand c'est pour la santé des siens&pt;
+               <lb/><hi rend="capitalize">c</hi>'est que ça commence &a; <choice><orig>compté</orig><reg>compter</reg></choice> voil&a; <choice><orig>15</orig><reg>quinze</reg></choice> mois
+               <lb/>qu'elle traine&pt; <hi rend="capitalize">e</hi>lle est <choice><orig>2</orig><reg>deux</reg></choice> jours debout et <choice><orig>8</orig><reg>huit</reg></choice> jours
+               <lb/>couchée&pt; <hi rend="capitalize">c</hi>e n'est pas une existence&vir; c'est trop
+               <lb/><w>long temps</w> malade<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; j'espère &a; la prochaine 
+               <lb/>lettre avoir de meilleures nouvelles de partout&pt;
+               <lb/>Je n'ai pas encore reçu la boite de moutarde&pt; <hi rend="capitalize">a</hi>ussit&ô;t
+               <lb/>que je vais la recevoir je ferai la distribution &a; mes
+               <lb/>meilleurs camarades<pc type="supplied">;</pc> car ici quand il y en a pour
+               <lb/>un il y en a pour <unclear><choice><orig>20</orig><reg>vingt</reg></choice></unclear>&pt; <hi rend="capitalize">n</hi>ous vivons pour dire en frères
+               <lb/>car &a; mon plat nous sommes <choice><orig>5</orig><reg>cinq</reg></choice>&vir; celui de nous
+               <lb/>qui reçoit un colis soit au diner ou au souper&vir;
+               <lb/>il le met sur la table et chacun prend sa
+               <lb/>petite part comme dans une famille&pt; De
+               <lb/><hi rend="minimize">M</hi>onsieur <persName ref="#G_Locke" xml:id="G_Locke_27121915"><hi rend="capitalize">l</hi>ocke</persName> je n'ai encore pas eu de ses nouvelles&vir;
+            </p>
+            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_111.jpg" type="postcardBreak"/>
+            <ab>
+               <persName ref="#Horel" xml:id="Horel_27121915">Horel Armand</persName> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier
+               <address>                          
+                  <addrLine><name type="navire" ref="#H_IV" xml:id="H_IV_27121915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelles_27121915">Dardanelles</placeName></addrLine>                        
+               </address>               
+               <address n="1">                  
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
+                  <addrLine>Hôtel de Bains</addrLine>                  
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_27121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
+                  <addrLine>Var</addrLine>                  
+                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_note1" n="1"/></addrLine>                     
+               </address>               
+            </ab>
+            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_112.jpg"/>
+            <p>
+               <add type="numbering" n="3" rend="center">3</add>
+               <lb/><hi rend="minimize">I</hi>l y a mon frère qui me demande son adresse&pt; <hi rend="capitalize">c</hi>e serait
+               <lb/>plus facile pour lui d'expliquer son cas et
+               <lb/>avec cela il sait &a; quelle personne qu'il faut 
+               <lb/>que M<hi rend="super">ieur</hi> <persName ref="#G_Locke">Locke</persName> s'adresse et qu'une seule parole
+               <lb/>de ce <hi rend="minimize">M</hi>onsieur suffit pour le faire sortir<pc>.</pc>
+               <lb/>Je m'en vais vous expliquer ce qu'il en est&pt; <hi rend="capitalize">i</hi>l a eu
+               <lb/>un an de grâce <pc type="supplied">;</pc> comme il ne lui restait plus que
+               <lb/><choice><orig>2</orig><reg>deux</reg></choice> ans &a; faire &a; ce moment l&a;&vir; ça fait que 
+               maint<lb break="no"/>enant il ne lui reste plus qu'un an &a; faire&pt; <hi rend="capitalize">i</hi>l
+               <lb/>fini sa peine le <date when="1916-11-04">4 novembre 1916</date> mais il est
+               <lb/>toujours proposé pour la conditionnelle ce qui
+               <lb/>fait qu'il peut sortir au moment ou il 
+               s'att<lb break="no"/>endra le moins<pc>.</pc> <hi rend="capitalize">c</hi>omme il me dit&vir; que ce n'est
+               <lb/>pas qu'une fois que la paix sera signée qu'il
+               <lb/>faudra que je sorte car alors je ne pourrai plus
+               <lb/>m'engager en temps de paix&vir; je n'ai pas le droit&pt;
+            </p>
+            <pb n="7" facs="../../FACS/BDIC_FD_1854_20_1_110.jpg" type="postcardBreak"/>
+            <p>
+               <add type="numbering" n="4" rend="center">4</add>
+               <lb/>C'est pour cela si il pouvait sortir un de ses
+               <lb/>jours&vir; il s'engagerait comme volontaire
+               <lb/>pour aller au front racheter sa peine&pt; Je
+               <lb/>m'en vais lui donner l'adresse de M<hi rend="super">ieur</hi> <persName ref="#G_Locke">Locke</persName>
+               <lb/>et lui dire qu'il s'explique bien comme il faut<pc>.</pc>
+               <lb/>Alors votre <w rend="hyphen">beau</w><w>fils</w> a &é;t&é; en permission de <choice><orig>6</orig><reg>six</reg></choice> jours
+               <lb/>et est reparti de nouveau sur le front <pc type="supplied">;</pc> <choice><orig>sa</orig><reg>ça</reg></choice> fait de la 
+               <lb/>peine de les voir partir&pt; <hi rend="capitalize">s</hi>i on était <choice><orig>sur</orig><reg>sûr</reg></choice> qu'il 
+               revie<lb rend="hyphen"/>nnent&vir; on ne se ferait pas tant de peine mais
+               <lb/>malheureusement on ne peut pas le devnier<pc>.</pc>
+               <lb/><hi rend="capitalize">h</hi>eureusement d'un coté tout le monde ne meurt pas
+               <lb/>&a; la guerre<pc>.</pc> <hi rend="capitalize">i</hi>ci depuis quelques jours la temp&é;rature <choice><orig>c</orig><reg>s</reg></choice>'est 
+               <lb/>adoucie un tout petit peu<pc>.</pc> Je crois que cet hiver partout
+               <lb/>dans les tranchées il ne fera gu&è;re chaud<pc>.</pc> <hi rend="capitalize">f</hi>aut esp&é;rer
+               <lb/>que ce sera le dernier hiver pour la victoire <pc type="supplied">;</pc> comme
+               <lb/>vous me dites <persName ref="#Comtesse_Forest">comtesse</persName> on est <choice><orig>sur</orig><reg>sûr</reg></choice> de la <choice><orig>gagné</orig><reg>gagner</reg></choice> mais
+               <lb/>quand <pc>?</pc>
+            </p>
+            <closer>
+               <hi rend="capitalize">j</hi>e termine mes cartes en vous souhaitant<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_note2" n="2"/>
+            </closer>
+            <pb n="8" facs="../../FACS/BDIC_FD_1854_20_1_109.jpg"/>
+            <closer>
+               <add type="numbering" n="5" rend="center">5</add>
+               <lb/>une meilleure santé et prompt rétablissement&vir;
+               <salute>
+                  un petit
+                  <lb/>ami qui ne vous
+                  <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
+               </salute>
+               <signed><persName ref="#Horel">A Horel</persName></signed>
+               <address rend="vertical">
+                  <addrLine><add type="normal" place="margin" rend="vertical" n="5"><persName ref="#Horel">Horel Armand</persName> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</add></addrLine>
+                  <addrLine><add type="normal" place="margin" rend="vertical" n="5"><name type="navire" ref="#H_IV">Henri IV</name></add></addrLine> 
+                  <addrLine><add type="normal" place="margin" rend="vertical" n="5">aux <placeName ref="#Dardanelles">Dardanelles</placeName></add></addrLine>
+               </address>
+               <address n="2">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Hôtel de Bains</addrLine>
+                  <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>
+                  <addrLine>Var</addrLine>
+                  <addrLine>France</addrLine>   
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_note1" n="1">
+               Cette adresse est reprise au dos des deux cartes-lettres qui composent cette correspondance.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_note2" n="2">
+               La correspondance se poursuit au recto de cette carte lettre.
+            </note>
+         </div>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>

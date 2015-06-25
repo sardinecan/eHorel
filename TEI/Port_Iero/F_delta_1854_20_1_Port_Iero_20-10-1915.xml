@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Port_Iero">Port Iero</placeName>
+               <date when="1915-10-20">20 octobre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName>Bonne sur Menoge</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-10-09">09 octobre 1915</date>
+               </ref>
+               <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-10-27">27 octobre 1915</date>
+               </ref>
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915">
+      <body xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_169.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_169.jpg"/>
+               <figDesc> Vue Générale du village d'Ayassos (<placeName ref="#Metelin">Mételin</placeName>)
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_170.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Port_Iero">Ile de port Iéro</placeName>&vir;
+                  <date when="1915-10-20"><hi rend="minimize">L</hi>e 20 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice>1915</date>
+               </dateline>
+               <salute>Comtesse&vir;</salute>
+            </opener>
+            <p>
+               <lb/>Ne sachant trop que faire pour <unclear>distraire</unclear> au temps&vir; je
+               <lb/>m'empresse de vous envoyer de mes nouvelles qui sont
+               <lb/>très <choice><orig>bonne</orig><reg>bonnes</reg></choice> en ce moment et je désire qu'à l'arrivée de
+               <lb/>mes <choice><orig>2</orig><reg>deux</reg></choice> cartes vous vous trouviez de même<pc>.</pc> <hi rend="capitalize">P</hi>ar ici le 
+               <lb/>temps n'est plus tout &a; fait si beau&pt; <hi rend="capitalize">i</hi>l commence &a;
+               <lb/>pleuvoir <pc type="supplied">;</pc> il se fait rare si nous n'avons pas de la pluie
+               <lb/>chaque jour<pc type="surplus">.</pc> et il commence &a; faire un petit peu plus
+               <lb/>frais mais c'est supp-
+               <lb/>ortable<pc>.</pc> Je m'y plais
+               <lb/>assez dans cette petite
+               <lb/><hi rend="minimize">I</hi>le mais depuis quelques
+               <lb/>jours je commence &a;
+               <lb/><choice><orig>trouvé</orig><reg>trouver</reg></choice> le temps long
+               <lb/>car les nouvelles se
+               <lb/>font très rares depuis
+               <lb/>que nous sommes ici&pt;
+               <cb/>
+               <address n="1">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France <ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1"/></addrLine>   
+               </address>               
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_167.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_167.jpg"/>
+               <figDesc>
+                  <name ref="#H_IV">Henri IV</name>
+               </figDesc>
+               <ab>
+                  <stamp type="armee">
+                     Cachet circulaire avec ancre marine <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
+                  </stamp>
+                  <stamp type="postmark">
+                     Cachet de la Poste <placeName>ne ma<gap reason="illegible" agent="rubbing"></gap></placeName> <date cert="medium" when="1915">15</date>
+                  </stamp>
+                  <add resp="#Horel">Présence d'une croix ajoutée à la main</add>
+               </ab>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_168.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
+               <lb/><hi rend="capitalize">N</hi>ous avons eu juste un seul courrier&vir; ce qui nous fait <choice><orig>24</orig><reg>vingt-quatre</reg></choice>
+               <lb/>jours ici pour ainsi dire sans nouvelles. <hi rend="capitalize">n</hi>os dernières
+               <lb/>correspondances reçues sont datées du <date when="1915-09-17">17 <choice><abbr>7bre</abbr><expan>septembre</expan></choice></date> ce qui nous
+               <lb/>met &a; un mois sans nouvelles<pc>.</pc> <hi rend="capitalize">c</hi>'est tout de même trop peu&pt;
+               <lb/><hi rend="capitalize">p</hi>ar ailleurs nous sommes assez bien&pt; <hi rend="capitalize">i</hi>l y a encore une
+               <lb/>deuxième chose qui ne va pas&vir; c'est toujours cette maudite
+               <lb/>nourriture car nous mangeons très mal<pc>.</pc> <hi rend="capitalize">e</hi>nfin patience&pt;
+               <lb/><hi rend="capitalize">p</hi>ar cette même occasion je
+               <lb/>vous <choice><orig>envoi</orig><reg>envoie</reg></choice> la photographie
+               <lb/>de mon bateau en carte postale&vir;
+               <lb/>on aperçoit le canon avec lequel
+               <lb/>j'ai tué tant de turcs&pt; <hi rend="capitalize">j</hi>e vous le
+               <lb/>marque avec une croix au dessus&pt;
+               <lb/><hi rend="capitalize">e</hi>lle ne sera guère visible cette
+               <lb/>croix car elle tombe pour
+               <lb/>ainsi dire dans le noire mais
+               <lb/>regardez bien&vir; le canon se trouve
+               <lb/>au dessous juste d'un petit canot&pt;
+               <cb/>
+               <address n="2">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France</addrLine>   
+               </address>
+            </p>
+            <closer>
+               <salute>
+                  Votre petit ami tout dévoué&vir;
+               </salute>                  
+               <signed>                  
+                  <lb/><persName ref="#Horel">Horel Armand</persName>                 
+               </signed>               
+            </closer>
+         </div>         
+      </body>
+      <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">
+               Adresse présente sur toutes les cartes postales.
+            </note>
+         </div> 
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+  </text>
+</TEI>

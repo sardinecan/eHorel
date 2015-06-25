@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1916-03-28">le 28 mars 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-22">22 mars 1916</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-03">03 avril 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_28-03-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_28-03-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_037.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_037.jpg"/>
+               <figDesc>
+                  Pazar «Oun-Capan <placeName ref="#Salonique">Salonique</placeName> - Grèce
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_038.jpg"/>
+            <opener>
+               <dateline>
+                  Bord <placeName ref="#Salonique" xml:id="Salonique_28031916">Salonique</placeName>&vir;
+                  <date when="1916-03-28">le 28 Mars 1916</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_28031916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je vous &é;cris ces quelques mots pour vous
+               <lb/>donner de mes nouvelles&vir; que je suis toujours
+               <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
+               <lb/>cartes que vous en <sic>êtes</sic> de même ainsi que votre
+               <lb/>fille et petite fille<pc>.</pc> Les <w rend="hyphen">sous</w><w>marins</w> <hi rend="minimize">B</hi>oches
+               <lb/>on fait encore des leurs&vir; ils nous ont 
+               <lb/><choice><orig>torpiller</orig><reg>torpillé</reg></choice> un chalutier qui faisait parti
+               <lb/>de mon groupe&pt; <hi rend="capitalize">é</hi>tant &a; Salonique car
+               <lb/>il y a eu <choice><orig>4</orig><reg>quatre</reg></choice> <supplied reason="omitted">chalutiers</supplied> qui sont <choice><orig>parti</orig><reg>partis</reg></choice> pour <placeName ref="#Corfou" xml:id="Corfou_28031916">Corfou</placeName> mais
+               <lb/>comme nous étions <choice><orig>charger</orig><reg>chargés</reg></choice> d'un secteur
+               <lb/>utile<pc>,</pc> ce sont <choice><orig>4</orig><reg>quatre</reg></choice> autres qui ont été <choice><orig>designé</orig><reg>désignés</reg></choice>
+               <lb/>&a; notre place et sur ces <choice><orig>4</orig><reg>quatre</reg></choice> il y a eu un de
+               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un <w rend="hyphen">sous</w><w>marin</w>
+               <lb/>Autrichien&pt; <hi rend="capitalize">p</hi>our le nombre de mort&vir;
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_035.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_035.jpg"/>
+               <figDesc>
+                  Vue générale de <placeName ref="#Salonique">Salonique</placeName> - Grèce
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_036.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="right">(2)</add>
+               <lb/><hi rend="minimize">J</hi>e ne peux vous le dire en ce moment mais
+               <lb/>dans une dizaine de jours je vous le dirai exactement&pt;
+               <lb/><hi rend="capitalize">c</hi>es jours derniers&vir; nous avons eu un biplan
+               <lb/>d'abattu par les bulgares&pt; <hi rend="capitalize">l</hi>e pilote était
+               <lb/>un <hi rend="minimize">S</hi>alonicien et l'observateur un <hi rend="minimize">F</hi>rançais&vir;
+               <lb/>ils ont été tués tous les deux<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs
+               <lb/>rien de nouveau<pc>.</pc> Tant qu'&a; votre commission
+               <lb/><hi rend="minimize">C</hi>omtesse&vir; je n'ai pas eu encore aucune
+               <lb/>occasion pour la faire car nous avons
+               <lb/><choice><orig>appareiller</orig><reg>appareillé</reg></choice> pour <choice><orig>6</orig><reg>six</reg></choice> jours&pt; <hi rend="capitalize">j</hi>e pense la faire
+               <lb/>dans une quinzaine de jours environ&vir;
+               <lb/>pour avant je ne pense le faire&pt; Tant
+               <lb/>qu'ici&vir; il fait un temps magnifique&vir; un
+               <lb/>soleil d'été et je crois que nous avons pris
+               <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice><pc>.</pc> 
+            </p>
+            <closer>
+               <salute>
+                  <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
+                  <lb/>moment&vir; un petit ami qui ne vous oublie
+                  <lb/>
+                  <add type="normal" place="margin-right" rend="vertical" n="2">
+                     pas&vir;
+                  </add>
+               </salute>
+               <signed>
+                  <add type="normal" place="margin-right" rend="vertical" n="2"><persName ref="#Horel" xml:id="Horel_28031916">Armand Horel</persName></add> 
+               </signed>
+            </closer>
+         </div>
+      </body>      
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>

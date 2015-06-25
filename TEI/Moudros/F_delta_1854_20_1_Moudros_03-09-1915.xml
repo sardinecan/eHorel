@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>         
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Moudros">Moudros</placeName>
+               <date when="1915-09-03">03 septembre 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName>Bonne sur Menoge</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Toulon">Toulon</placeName> le <date when="1915-08-29">29 août 1915</date>
+               </ref>
+               <ref type="next" target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Imbros">Imbros</placeName> le <date when="1915-09-23">23 septembre 1915</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Moudros_03-09-1915">
+      <body xml:id="F_delta_1854_20_1_Moudros_03-09-1915_b">
+         <div type="letter">
+            <pb n="1"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_189.jpg"/>
+               <figDesc>
+                  Un bonjour de <placeName ref="#Toulon">Toulon</placeName>
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_190.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Moudros">Moudros</placeName>&vir;
+                  <date when="1915-09-03">le 3 septembre 1915</date>
+               </dateline>
+               <salute rend="center">
+                  Ma brave <persName ref="#Comtesse_Forest">comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> ces quelques mots
+               <lb/>pour vous dire que je suis
+               <lb/>arrivé &a; bon port sans incident
+               <lb/>ni avarie au bâtiment<pc>.</pc> <hi rend="capitalize">n</hi>ous
+               <lb/>avons <supplied reason="omitted">eu</supplied> un temps superbe pendant
+               <lb/>toute notre traversée de <placeName ref="#Toulon">Toulon</placeName>
+               <lb/>&a; <placeName ref="#Moudros">Moudros</placeName><pc>.</pc> <hi rend="capitalize">h</hi>ier au soir nous
+               <lb/>avons rencontré <choice><orig>2</orig><reg>deux</reg></choice> <w rend="hyphen">sous</w><w>marins</w>
+               <lb/><hi rend="minimize">A</hi>nglais qui étaient <choice><orig>accompagné</orig><reg>accompagnés</reg></choice>
+               <lb/>par deux remorqueurs et qui 
+               <lb/>faisaient route pour les <placeName ref="#Dardanelles">dar
+               <lb rend="hyphen"/>danelles</placeName><pc>.</pc> <hi rend="capitalize">q</hi>uel bonheur pour
+               <lb/>nous que ce soit pas <choice><orig>2</orig><reg>deux</reg></choice> allemands
+               <lb/>ou autrichiens&vir; autrement ça aurait
+               <lb/>surement changé de note&pt;
+               <cb/>
+               <address n="1">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1"></ref></addrLine>
+               </address>
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_187.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_187.jpg"/>
+               <figDesc>
+                  <placeName ref="#Toulon">Toulon</placeName> - Le Quai Cronstadt
+               </figDesc>
+            </figure>
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_188.jpg"/> 
+            <p>
+               <add type="numbering" n="2" rend="left"><pc>.</pc>2<pc>.</pc></add>
+               <lb/><hi rend="capitalize">p</hi>our votre commission
+               <lb/>comtesse je ferai tout mon
+               <lb/>possible pour vous la transmettre <pc type="supplied">;</pc>
+               <lb/>pas peut &ê;tre de suite mais
+               <lb/>t&ô;t ou tard&pt; <hi rend="capitalize">s</hi>i ils faisaient
+               <lb/>comme la dernière fois que 
+               <lb/>nous étions <w rend="aggl">l&a;</w><w>bàs</w>&vir; ils ont
+               <lb/>envoyé <choice><orig>2</orig><reg>deux</reg></choice> quartiers maitres 
+               <lb/>fusiliers et un major canonnier
+               <lb/>&a; terre aux <placeName ref="#Dardanelles"><hi rend="capitalize">d</hi>ardanelles</placeName>&pt;
+               <lb/><hi rend="capitalize">j</hi>e ferai faire votre commission
+               <lb/>par l'un d'eux mais en tous
+               <lb/>les cas je vais faire mon
+               <lb/>possible en même temps
+               <lb/>que de vous écrire comtesse&pt;
+               <cb/>
+               <address n="2">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France</addrLine>
+               </address>
+            </p>
+            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_185.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_185.jpg"/>
+               <figDesc>
+                  <placeName ref="#Toulon">Toulon</placeName> - Porte Notre-Dame
+               </figDesc>
+            </figure>
+            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_186.jpg"/>
+            <p>
+               <add type="numbering" n="3" rend="left"><pc>.</pc>3<pc>.</pc></add>
+               <lb/>Je vais envoyer comme vous
+               <lb/>me l'avez dit sur votre lettre
+               <lb/>quelques lignes &a; M<hi rend="super">ieur</hi> <persName ref="#Le_Mire">Le Mire
+               <lb/>de Viller</persName><pc type="surplus">.</pc> et je lui expliquerai
+               <lb/>textuellement comme vous 
+               <lb/>m'avez dit de lui dire<pc>.</pc> <hi rend="capitalize">j</hi>amais
+               <lb/>je vous payerai les services 
+               <lb/>que vous me rendez au sujet
+               <lb/>de mon frère&vir; <hi rend="minimize">J</hi>e vous serai
+               <lb/>toujours redevable<pc>.</pc>
+            </p>
+            <closer>
+               <salute> 
+                  Je vous
+                  <lb/>souhaite comtesse une 
+                  <lb/>bonne santé et une prompte
+                  <lb/>guérison pour votre bras
+                  <lb/>toujours malade<pc>.</pc> <hi rend="capitalize">u</hi>n petit
+                  <lb/>ami qui ne vous oublieras
+                  <lb/>jamais&vir;
+               </salute>
+               <signed><persName ref="#Horel">Armand Horel</persName></signed>
+               <cb/>
+               <address n="3">
+                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
+                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine>Haute Savoie</addrLine>
+                  <addrLine>France</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">
+               Adresse présente sur toutes les cartes postales.
+            </note>
+         </div>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>         
+      </back>
+  </text>
+</TEI>

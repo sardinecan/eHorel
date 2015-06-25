@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
+<!ENTITY vir '<pc type="supplied">,</pc>'>
+<!ENTITY pt '<pc type="supplied">.</pc>'>
+<!ENTITY ù '<choice><orig>u</orig><reg>ù</reg></choice>'>
+<!ENTITY ê '<choice><orig>e</orig><reg>ê</reg></choice>'>
+<!ENTITY é '<choice><orig>e</orig><reg>é</reg></choice>'>
+<!ENTITY è '<choice><orig>e</orig><reg>è</reg></choice>'>
+<!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
+<!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <xi:include href="../master/Master.xml" xpointer="titleStmt" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="publicationStmt" parse="xml"/>         
+         <sourceDesc>
+            <msDesc>
+               <xi:include href="../master/Master.xml" xpointer="msIdentifier" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="physDesc" parse="xml"/>
+               <xi:include href="../master/Master.xml" xpointer="history" parse="xml"/>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
+            <correspAction type="sent">
+               <persName ref="#Horel">Armand Horel</persName>
+               <placeName ref="#Salonique">Salonique,</placeName>
+               <date when="1916-01-24">le 24 janvier 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml">
+                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-19">19 janvier 1916</date>
+               </ref>
+               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml">
+                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-25">25 janvier 1916</date>
+               </ref>               
+            </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F_delta_1854_20_1_Salonique_24-01-1916">
+      <body xml:id="F_delta_1854_20_1_Salonique_24-01-1916_b">
+         <div type="letter">
+            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_087.jpg"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_087.jpg"/>
+               <figDesc>
+                  Le Jardin Public dans la Tour Blanche<placeName ref="#Salonique">Salonique</placeName>
+               </figDesc>
+            </figure>
+            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_088.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="#Salonique" xml:id="Salonique_24011916">Salonique</placeName>&vir;
+                  <date when="1916-01-24">le 24 janvier 1916</date>
+               </dateline>
+               <salute>
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_24011916">Comtesse</persName>&vir;
+               </salute>
+            </opener>
+            <p>
+               <lb/>Je vous raconte un exploit <choice><orig>de</orig><reg>des</reg></choice> <w rend="hyphen">sous</w><w>marins</w> <choice><orig>boche</orig><reg>boches</reg></choice>
+               <lb/>qui ont eu le culot de venir &a; l'entrée de <placeName ref="#Salonique">Salonique</placeName>
+               <lb/><choice><orig>torpillé</orig><reg>torpiller</reg></choice> un grand cargot <hi rend="minimize">A</hi>nglais chargé de chevaux<pc>,</pc>
+               <lb/>et de canons<pc>.</pc> <hi rend="capitalize">h</hi>eureusement il y a eu personne de noyé
+               <lb/>sauf environ <choice><orig>500</orig><reg>cinq cents</reg></choice> chevaux et mulets qui se trouvaient
+               <lb/>dans la cale arrière qui ont été tous noyés car la
+               <lb/>torpille a frappé l'arrière du batiment&vir; juste au 
+               <lb/>dessous de ces <choice><orig>2</orig><reg>deux</reg></choice> cales <choice><orig>arrière</orig><reg>arrières</reg></choice><pc>.</pc> <hi rend="capitalize">i</hi>l a mis environ <choice><orig>3</orig><reg>trois</reg></choice>
+               <lb/>heures pour <choice><orig>coulé</orig><reg>couler</reg></choice> &a; moiti&é; car le premier batiment
+               <lb/>qui a été à son secours était le mien&pt; <choice><sic><hi rend="capitalize">j</hi>'ai</sic><corr>Je suis</corr></choice> monté &a;
+               <lb/>bord avec <choice><orig>4</orig><reg>quatre</reg></choice> hommes pour passer les <choice><orig>ammarres</orig><reg>ammares</reg></choice> <unclear>pour</unclear>
+               <lb/>t&â;cher de l'envoyer &a; la côte mais nous ne pouvions
+               <lb/>pas le faire tout seul&pt; <hi rend="capitalize">u</hi>ne heure après il est arrivé
+               <lb/><choice><orig>2</orig><reg>deux</reg></choice> remorqueurs français&vir; le Boeuf et un autre&vir; plus
+               <lb/>des <choice><orig>chaluties</orig><reg>chalutiers</reg></choice> <hi rend="minimize">A</hi>nglais et torpilleurs&pt; <hi rend="capitalize">n</hi>ous l'avons
+               <lb/>pris &a; la remorque et l'avons envoyé &a; terre au
+               <lb/>sec&pt; <hi rend="capitalize">n</hi>ous avons <choice><orig>reussi</orig><reg>réussi</reg></choice> &a; sauver la moitié de
+            </p>
+            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_085.jpg" type="postcardBreak"/>
+            <figure>
+               <graphic url="../../FACS/BDIC_FD_1854_20_1_085.jpg"/>
+               <figDesc>
+                  Costumes à <placeName ref="#Salonique">Salonique</placeName>
+               </figDesc>
+            </figure>               
+            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_086.jpg"/>
+            <p>
+               <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
+               <lb/>son chargement<pc type="surplus">.</pc> car le bateau repose au font <pc type="supplied">;</pc>
+               <lb/>il n'y a que la moitié dans l'eau et le reste est tout
+               <lb/>en dehors&pt; tous les jours nous y <unclear>pr&ê;tons</unclear> la main pour
+               <lb/>d&é;barquer le mat&é;riel et les chevaux et mulets
+               <lb/>qui s'y trouvaient dans les deux cales <choice><orig>avant</orig><reg>avants</reg></choice> qui n'ont 
+               <lb/>absolument rien eu&pt; De <choice><sic>perdre</sic><corr>perdu</corr></choice>&vir; il y a eu environ entre
+               <lb/>chevaux et mulets&vir; <choice><orig>500</orig><reg>cinq cents</reg></choice> de noyés <pc type="supplied">;</pc> <choice><orig>tous</orig><reg>toutes</reg></choice> les pauvres bêtes
+               <lb/>qui se trouvaient dans les 2 cales arri&è;re de <choice><orig>mort</orig><reg>mortes</reg></choice>&pt;
+               <lb/><hi rend="capitalize">d</hi>'hommes&vir; il n'y a eu heureusement personne<choice><orig><pc>.</pc></orig><reg><pc type="supplied">,</pc></reg></choice> ils
+               <lb/>se sont réfugiés tous dans des canots&pt; <hi rend="capitalize">i</hi>l n'y avait
+               <lb/>qu'un seul homme qui était &a; la mer avec une bou&é;e
+               <lb/>de sauvetage&pt; <hi rend="capitalize">n</hi>ous avons mis notre petit canot
+               <lb/>&a; la mer pour aller le chercher moi et un autre
+               <lb/>homme&pt; <hi rend="capitalize">n</hi>ous l'avons attrappé et nous l'avons 
+               <lb/>d&é;posé sur un bateau <hi rend="minimize">A</hi>nglais qui s'y trouvait
+               <lb/>&a; notre portée <unclear>yy</unclear>&pt; 
+            </p>
+            <closer>
+               <salute>
+                  <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le 
+                  <lb/>moment&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&pt; <hi rend="capitalize">j</hi>e sui en
+                  <lb/>parfaite santé et je souhaite que vous en &ê;tes de m&ê;me&vir;
+               </salute>
+               <signed>
+                  <add type="normal" place="margin-right" rend="vertical" n="2"><persName ref="#Horel" xml:id="Horel_24011916">Armand Horel</persName></add>
+               </signed>
+            </closer>
+         </div>
+      </body>      
+      <back>
+         <div type="index">
+            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+         </div>
+      </back>
+   </text>
+</TEI>
