@@ -5,17 +5,17 @@ var eventSource = new Timeline.DefaultEventSource();
 var bandInfos = [
 Timeline.createBandInfo({
     eventSource:    eventSource,
-    date:           "Jun 28 1916",
+    date:           "Sep 01 1915",
 
-    width:          "55%", 
+    width:          "45%", 
     intervalUnit:   Timeline.DateTime.MONTH, 
     intervalPixels: 150
 }),
 Timeline.createBandInfo({
     eventSource:    eventSource,
-    date:           "Jun 28 1916",
+    date:           "Sep 01 1915",
 
-    width:          "45%", 
+    width:          "55%", 
     intervalUnit:   Timeline.DateTime.YEAR, 
     intervalPixels: 200
 })

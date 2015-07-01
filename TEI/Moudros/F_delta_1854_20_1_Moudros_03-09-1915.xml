@@ -59,17 +59,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_189.jpg"/>
                <figDesc>
-                  Un bonjour de <placeName ref="#Toulon">Toulon</placeName>
+                  Un bonjour de <placeName ref="#Toulon" xml:id="Toulon_03091915">Toulon</placeName>
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_190.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="#Moudros">Moudros</placeName>&vir;
+                  <placeName ref="#Moudros" xml:id="Moudros_03091915">Moudros</placeName>&vir;
                   <date when="1915-09-03">le 3 septembre 1915</date>
                </dateline>
                <salute rend="center">
-                  Ma brave <persName ref="#Comtesse_Forest">comtesse</persName>&vir;
+                  Ma brave <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_03091915">comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
@@ -83,7 +83,7 @@
                <lb/>avons rencontré <choice><orig>2</orig><reg>deux</reg></choice> <w rend="hyphen">sous</w><w>marins</w>
                <lb/><hi rend="minimize">A</hi>nglais qui étaient <choice><orig>accompagné</orig><reg>accompagnés</reg></choice>
                <lb/>par deux remorqueurs et qui 
-               <lb/>faisaient route pour les <placeName ref="#Dardanelles">dar
+               <lb/>faisaient route pour les <placeName ref="#Dardanelles" xml:id="Dardanelles_03091915">dar
                <lb rend="hyphen"/>danelles</placeName><pc>.</pc> <hi rend="capitalize">q</hi>uel bonheur pour
                <lb/>nous que ce soit pas <choice><orig>2</orig><reg>deux</reg></choice> allemands
                <lb/>ou autrichiens&vir; autrement ça aurait
@@ -91,7 +91,7 @@
                <cb/>
                <address n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_03091915">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1"></ref></addrLine>
                </address>
@@ -120,11 +120,11 @@
                <lb/>par l'un d'eux mais en tous
                <lb/>les cas je vais faire mon
                <lb/>possible en même temps
-               <lb/>que de vous écrire comtesse&pt;
+               <lb/>que de vous écrire <persName ref="#Comtesse_Forest">comtesse</persName>&pt;
                <cb/>
                <address n="2">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>
                </address>
@@ -141,7 +141,7 @@
                <add type="numbering" n="3" rend="left"><pc>.</pc>3<pc>.</pc></add>
                <lb/>Je vais envoyer comme vous
                <lb/>me l'avez dit sur votre lettre
-               <lb/>quelques lignes &a; M<hi rend="super">ieur</hi> <persName ref="#Le_Mire">Le Mire
+               <lb/>quelques lignes &a; M<hi rend="super">ieur</hi> <persName ref="#Le_Mire" xml:id="Le_Mire_03091915">Le Mire
                <lb/>de Viller</persName><pc type="surplus">.</pc> et je lui expliquerai
                <lb/>textuellement comme vous 
                <lb/>m'avez dit de lui dire<pc>.</pc> <hi rend="capitalize">j</hi>amais
@@ -160,11 +160,11 @@
                   <lb/>ami qui ne vous oublieras
                   <lb/>jamais&vir;
                </salute>
-               <signed><persName ref="#Horel">Armand Horel</persName></signed>
+               <signed><persName ref="#Horel" xml:id="Horel_03091915">Armand Horel</persName></signed>
                <cb/>
                <address n="3">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne sur Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>
                </address>

@@ -46,11 +46,11 @@
                             <!-- Partie droite -->                            
                             <ul class="right">                            
                                 <li class="has-dropdown">                                
-                                    <a href="#">Index et Glossaire</a>                                    
+                                    <a href="glossaire.html">Index et Glossaire</a>                                    
                                     <ul class="dropdown">                                    
-                                        <li><a href="#">Personnes</a></li>                                        
-                                        <li><a href="#">Lieux</a></li>                                        
-                                        <li><a href="#">Glossaire</a></li>                                        
+                                        <li><a href="../projet/glossaire.html#personnes">Personnes</a></li>                                        
+                                        <li><a href="../projet/glossaire.html#lieux">Lieux</a></li>                                        
+                                        <li><a href="../projet/glossaire.html#glossaire">Glossaire</a></li>                                        
                                     </ul>                                    
                                 </li>                                
                                 <li><a href="#">A propos de l'édition</a></li>                                    
@@ -64,7 +64,7 @@
                 </div>
                 <div class="row corps">                    
                     <!-- Colonne de Gauche / "Context" -->
-                    <div class="large-2 columns" style="text-align:left;">                    
+                    <div class="medium-2 large-2 columns" style="text-align:left;">                    
                         <h3 style="font-size:11pt;"><a href="#a_mettre_en_place">Correspondance d'Armand Horel</a></h3>                        
                         <ul style="list-style:none; padding-left:0;">                        
                             <xsl:apply-templates select="//tei:ref[@type='context']" mode="lien"/>                            
@@ -72,7 +72,7 @@
                     </div>                    
                     <!-- Colonne milieu -->
                         <!-- Liens next-previous -->
-                    <div class="large-7 columns">                                                            
+                    <div class="medium-7 large-7 columns">                                                            
                         <xsl:choose><!-- Permet de maintenir la superposition des blocs même  lorsque que la carte est la première ou la dernière -->                                   
                             <xsl:when test="//tei:ref[@type='previous'] and //tei:ref[@type='next']">                            
                                 <div class="row">
@@ -131,7 +131,7 @@
                             </dir>                                           
                         </div>                       
                     </div>                                            
-                    <div class="large-3 columns" style="text-align:left;">                       
+                    <div class="medium-3 large-3 columns" style="text-align:left;">                       
                         <xsl:apply-templates select="//tei:teiHeader" mode="aside"/>                      
                         <xsl:apply-templates select="//tei:pb" mode="affichage"/>                                                                                                            
                     </div>                                       
@@ -415,7 +415,7 @@
     
     <xsl:template match="tei:div[@type='letter']//tei:persName | tei:div[@type='letter']//tei:placeName | tei:div[@type='letter']//tei:name">
         <xsl:variable name="ref">
-            <xsl:value-of select="@ref"/>
+            <xsl:value-of select="concat('../projet/glossaire.html',@ref)"/>
         </xsl:variable>
         <xsl:variable name="id"><!-- todo Pose faire xsl choose pose problème lors que répétition des noms avec absence xml id l'idi n'a pas de valeur -->
             <xsl:value-of select="@xml:id"/>
@@ -423,7 +423,7 @@
         <xsl:variable name="def" select="replace(@ref,'#','')"/>
         <xsl:variable name="defi" select="//tei:person[@xml:id=$def]/tei:persName"/>
         
-        <a href="{$ref}" id="{$id}" title="{$defi}"><xsl:apply-templates/><sup>*<span><xsl:value-of select="$defi"></xsl:value-of></span></sup></a>
+        <a href="{$ref}" id="{$id}" title="{$defi}" class="glossary"><xsl:apply-templates/><span><xsl:value-of select="$defi"></xsl:value-of></span></a>
     </xsl:template>    
     
 
@@ -432,8 +432,7 @@
         <div class="row">
             <xsl:choose>
                 <xsl:when test="tei:address and tei:stamp">
-                    <div class="col-lg-6">                 
-                        <p>                
+                    <div class="large-6 columns">                                                         
                             <i>(Destinataire :)</i>                            
                             <br/>                            
                             <xsl:apply-templates select="tei:address"/>                
@@ -442,16 +441,14 @@
                                 <i>(D'une autre main :)</i>
                                 <br/>
                                 <xsl:apply-templates select="tei:add[@hand='other']"/>
-                            </xsl:if>                
-                        </p>
+                            </xsl:if>                                        
                     </div>        
-                    <div class="col-lg-6">            
+                    <div class="large-6 columns">            
                         <xsl:apply-templates select="tei:stamp"/>        
                     </div>
                 </xsl:when>
                 <xsl:otherwise>
-                    <div class="col-lg-12">
-                        <p>                
+                    <div class="large-12">                                        
                             <i>(Destinataire :)</i>                            
                             <br/>                            
                             <xsl:apply-templates select="tei:address"/>                
@@ -461,37 +458,36 @@
                                 <br/>
                                 <xsl:apply-templates select="tei:add[@hand='other']"/>
                             </xsl:if>                
-                        </p>
+                        
                     </div>
                 </xsl:otherwise>
-            </xsl:choose>
-            
+            </xsl:choose>            
         </div>
     </xsl:template>
     <xsl:template match="tei:div[@type='enveloppe']/tei:pb">
-        <p>        
-            <i>(Au dos :)</i>
-        </p>
+        <div class="row">        
+            <div class="large-12 columns"><i>(Au dos :)</i></div>
+        </div>
     </xsl:template>
     <xsl:template match="tei:div[@type='enveloppe']/tei:p[2]">
-        <div class="row">
-        <xsl:choose>
-            <xsl:when test="tei:address and tei:stamp">
-                <div class="col-lg-6">
-                    <i>(Expéditeur :)</i>
-                    <br/>
-                    <xsl:apply-templates select="tei:address"/>
-                </div>
-                <div class="col-lg-6">
-                    <xsl:apply-templates select="tei:stamp"/>
-                </div>
-            </xsl:when>
-            <xsl:otherwise>
-                <div class="col-lg-12">
-                    <xsl:apply-templates select="tei:address"/>
-                </div>
-            </xsl:otherwise>
-        </xsl:choose>                
+        <div class="row">        
+            <xsl:choose>            
+                <xsl:when test="tei:address and tei:stamp">                
+                    <div class="large-6 columns">                    
+                        <i>(Expéditeur :)</i>                    
+                        <br/>                    
+                        <xsl:apply-templates select="tei:address"/>                
+                    </div>                
+                    <div class="large-6 columns">                    
+                        <xsl:apply-templates select="tei:stamp"/>                
+                    </div>            
+                </xsl:when>            
+                <xsl:otherwise>                
+                    <div class="large-12 columns">                    
+                        <xsl:apply-templates select="tei:address"/>                
+                    </div>            
+                </xsl:otherwise> 
+            </xsl:choose>                        
         </div>
     </xsl:template>
     <xsl:template match="tei:div[@type='enveloppe']//tei:stamp">

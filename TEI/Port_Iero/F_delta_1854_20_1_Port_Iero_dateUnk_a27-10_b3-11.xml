@@ -59,18 +59,18 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_171.jpg"/>
                <figDesc> 
-                  Une Villa de <placeName ref="#Metelin">Metelin</placeName>
+                  Une Villa de <placeName ref="#Metelin" xml:id="Metelin_a27-10_b3-11">Metelin</placeName>
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_172.jpg"/>
             <p>
-               <lb/>Un bonjour de <placeName ref="#Port_Iero">Port
+               <lb/>Un bonjour de <placeName ref="#Port_Iero" xml:id="Port_Iero_a27-10_b3-11">Port
                <lb/>Iéro</placeName> d'un petit ami qui 
                <lb/>ne vous oubliera jamais&pt;
             </p>
             <closer>
                <signed>   
-                  <lb/><persName ref="#Horel">Armand Horel&vir;</persName>
+                  <lb/><persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand Horel&vir;</persName>
                   <lb/>toujours la même adresse
                </signed>
             </closer>
@@ -90,8 +90,8 @@
             </postscript>
             <closer>
                <address n="1">               
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>                  
-                  <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>                  
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_a27-10_b3-11">Comtesse L. de la Forest</persName>                  
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
                   <addrLine>Haute Savoie</addrLine>                  
                   <addrLine>France</addrLine>                        
                </address>

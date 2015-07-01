@@ -2,8 +2,25 @@ body {
     background: url(../images/BACKGROUND_01.jpg);
     text-align:justify;
 }
+
+.glossary {
+    text-decoration:none;    
+    border-bottom: 1px dotted;
+    color:black;
+}
+
 .corps {
-    background-color: white;
+    background-color: white;    
+}
+
+.list {
+    list-style:none;    
+}
+
+.list2 {
+    list-style:none;
+    text-align:left;
+    font-size:11pt;
 }
 
 #map {
@@ -27,7 +44,8 @@ h1 {
     border:1px solid; 
     border-radius:5px; 
     box-shadow: 3px 3px 3px #656565; 
-    padding:10px;
+    padding:5px;
+    margin-top:20px;
 }
 sup span 
 {
@@ -114,3 +132,28 @@ sup:hover span /* affichage des notes au survol */
 {
      border-radius: 0 0 4px 4px;
 }
+
+
+.glossary:hover {
+background: none; /* correction d'un bug IE */
+}
+.glossary span { /* définition de la 
+balise <span> inclue dans <a> */
+	display: none;
+	height: auto;
+	width: 100%;
+	height: auto;
+	border:1px solid;
+	border-color: black;
+	border-radius: 4px;
+}
+.glossary:hover span { /* définition de 
+la balise <span> au survol */
+    display:inline-block;
+	position: absolute;
+	background-color: rgba(25,25,25,.7); /* légère transparence */		
+	z-index: 500;
+	color: white;
+	line-height: 10px;
+}
+

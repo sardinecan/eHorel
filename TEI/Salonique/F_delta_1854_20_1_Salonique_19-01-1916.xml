@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+
 <!DOCTYPE TEI [
 <!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
 <!ENTITY vir '<pc type="supplied">,</pc>'>
@@ -12,6 +12,7 @@
 <!ENTITY â '<choice><orig>a</orig><reg>â</reg></choice>'>
 <!ENTITY ô '<choice><orig>o</orig><reg>ô</reg></choice>'>
 ]>
+<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>

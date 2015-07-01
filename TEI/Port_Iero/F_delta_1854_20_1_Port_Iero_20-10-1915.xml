@@ -64,10 +64,10 @@
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_170.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="#Port_Iero">Ile de port Iéro</placeName>&vir;
+                  <placeName ref="#Port_Iero" xml:id="Port_Iero_20101915">Ile de port Iéro</placeName>&vir;
                   <date when="1915-10-20"><hi rend="minimize">L</hi>e 20 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice>1915</date>
                </dateline>
-               <salute>Comtesse&vir;</salute>
+               <salute><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_20101915">Comtesse</persName>&vir;</salute>
             </opener>
             <p>
                <lb/>Ne sachant trop que faire pour <unclear>distraire</unclear> au temps&vir; je
@@ -89,7 +89,7 @@
                <cb/>
                <address n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_20101915">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France <ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1"/></addrLine>   
                </address>               
@@ -98,7 +98,7 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_167.jpg"/>
                <figDesc>
-                  <name ref="#H_IV">Henri IV</name>
+                  <name ref="#H_IV" xml:id="H_IV_20101915">Henri IV</name>
                </figDesc>
                <ab>
                   <stamp type="armee">
@@ -144,7 +144,7 @@
                   Votre petit ami tout dévoué&vir;
                </salute>                  
                <signed>                  
-                  <lb/><persName ref="#Horel">Horel Armand</persName>                 
+                  <lb/><persName ref="#Horel" xml:id="Horel_20101915">Horel Armand</persName>                 
                </signed>               
             </closer>
          </div>         

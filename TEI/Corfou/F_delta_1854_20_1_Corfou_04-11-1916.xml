@@ -54,17 +54,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
                <figDesc>
-                  Athènes. Musée National.
+                  <placeName ref="#Athenes" xml:id="Athenes_04111916">Athènes</placeName>. Musée National.
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_006.jpg"/>
             <opener>
                <dateline>
-                  Bord en mer&vir; environ de <placeName ref="#Corfou">Corfou</placeName>&vir;
+                  Bord en mer&vir; environ de <placeName ref="#Corfou" xml:id="Corfou_04111916">Corfou</placeName>&vir;
                   <date when="1916-11-04">le 04 Novembre 1916</date>
                </dateline>
                <salute rend="center">
-                  <lb/><persName ref="#Comtesse_Forest">Comtesse</persName>&vir;
+                  <lb/><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_04111916">Comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
@@ -72,18 +72,18 @@
                <lb/>de vous faire parvenir de mes nouvelles&vir; que je suis arrivé
                <lb/>&a; bord en parfaite santé et d&é;sire qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>cartes que vous en &ê;tes de même<pc>.</pc> <hi rend="capitalize">j</hi>'ai passé <choice><orig>9</orig><reg>neuf</reg></choice> jours chez
-               <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere">Bussière</persName> <placeName>rue <unclear>Richepause</unclear></placeName>&vir; je me suis
+               <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere" xml:id="Bussiere_04111916">Bussière</persName> <placeName>rue <unclear>Richepause</unclear></placeName>&vir; je me suis
                <lb/>bien amusé pendant ce petit séjour parmi eux<pc>.</pc> <hi rend="capitalize">j</hi>'ai été
-               <lb/>voir mes parents &a; <placeName ref="#Lorient">Lorient</placeName>&pt; <hi rend="capitalize">j</hi>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
+               <lb/>voir mes parents &a; <placeName ref="#Lorient" xml:id="Lorient_04111916">Lorient</placeName>&pt; <hi rend="capitalize">j</hi>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
                <lb/>prie de croire que je n'ai pas trouvé le temps long<pc>.</pc>
                <lb/><hi rend="capitalize">p</hi>ar cette même occasion j'ai été voir mon frère &a;
-               <lb/><placeName ref="#Melun">Melun</placeName> le <date when="1916-10-18">mercredi 18 octobre</date> pour la dernière
+               <lb/><placeName ref="#Melun" xml:id="Melun_04111916">Melun</placeName> le <date when="1916-10-18">mercredi 18 octobre</date> pour la dernière
                <lb/>fois car il doit sortir aujourd'hui <date when="1916-11-04">4 novembre</date>&pt;
-               <lb/><hi rend="capitalize">&a;</hi> sa sortie il doit se rendre &a; <placeName ref="#Montpellier">Montpellier</placeName> o&ù; l&a;
-               <lb/>il sera dirigé sur <placeName ref="#Marseille">Marseille</placeName> pour prendre le paquebot
-               <lb/>qui le m&è;nera en <placeName ref="#Algerie">Algérie</placeName> &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName> &a; <choice><orig>4</orig><reg>quatre</reg></choice> 
+               <lb/><hi rend="capitalize">&a;</hi> sa sortie il doit se rendre &a; <placeName ref="#Montpellier" xml:id="Montpellier_04111916">Montpellier</placeName> o&ù; l&a;
+               <lb/>il sera dirigé sur <placeName ref="#Marseille" xml:id="Marseille_04111916">Marseille</placeName> pour prendre le paquebot
+               <lb/>qui le m&è;nera en <placeName ref="#Algerie" xml:id="Algérie_04111916">Algérie</placeName> &a; <placeName ref="#Mers_el_Kebir" xml:id="Mers_el_Kebir_04111916"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName> &a; <choice><orig>4</orig><reg>quatre</reg></choice> 
                kil<lb rend="hyphen"/>omètres d'<placeName ref="#Oran">Oran</placeName>&pt; <hi rend="capitalize">j</hi>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
-               <lb/>poudrière d'<placeName ref="#Oran">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <hi rend="capitalize">i</hi>l est
+               <lb/>poudrière d'<placeName ref="#Oran" xml:id="Oran_04111916">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <hi rend="capitalize">i</hi>l est
                <lb/>parti <w rend="hyphen">l&a;</w><w>bas</w> pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
             </p>
             <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_003.jpg" type="postcardBreak"/>
@@ -99,7 +99,7 @@
                <lb/>service actif qui lui restait &a; faire<pc>.</pc> <hi rend="capitalize">a</hi>près avoir termin&é;
                <lb/>ce <choice><orig>lapt</orig><reg>laps</reg></choice> de temps je ne sais trop o&ù; il sera dirigé <pc type="supplied">;</pc>
                <lb/>peut &ê;tre bien sur le front ou je crois plut&ô;t qu'ils
-               <lb/>l'enverront au <placeName ref="#Maroc">Maroc</placeName><pc>.</pc> Enfin&vir; je suis content qu'il en soit
+               <lb/>l'enverront au <placeName ref="#Maroc" xml:id="Maroc_04111916">Maroc</placeName><pc>.</pc> Enfin&vir; je suis content qu'il en soit
                <lb/>sorti de cette maudite prison de <placeName ref="#Melun">Melun</placeName> car d'arpès
                <lb/>lui il en aura assez souffert principalement <supplied reason="omitted">de la</supplied> privation
                <lb/>de nourriture<choice><orig><pc>,</pc></orig><reg>&pt;</reg></choice> <hi rend="capitalize">p</hi>our moi je ne me plais plus guère &a; bord
@@ -121,12 +121,12 @@
                   <lb/>oublie pas&vir;
                </salute>
                <signed>
-                  <persName ref="#Horel">Armand Horel</persName> 
+                  <persName ref="#Horel" xml:id="Horel_04111916">Armand Horel</persName> 
                </signed>
             </closer>
             <postscript n="1">
                <p>
-                  le bonjour &a; M<hi rend="super">me</hi> <persName ref="#Gauthier">Gauthier</persName> et sa <unclear>fille</unclear>
+                  le bonjour &a; M<hi rend="super">me</hi> <persName ref="#Gauthier" xml:id="Gauthier_04111916">Gauthier</persName> et sa <unclear>fille</unclear>
                   <add type="normal" place="margin-left" rend="vertical" n="2">
                      toujours la même adresse&pt;
                   </add>

@@ -45,11 +45,11 @@
                             <!-- Partie droite -->                            
                             <ul class="right">                            
                                 <li class="has-dropdown">                                
-                                    <a href="#">Index et Glossaire</a>                                    
+                                    <a href="glossaire.html">Index et Glossaire</a>                                    
                                     <ul class="dropdown">                                    
-                                        <li><a href="#">Personnes</a></li>                                        
-                                        <li><a href="#">Lieux</a></li>                                        
-                                        <li><a href="#">Glossaire</a></li>                                        
+                                        <li><a href="glossaire.html#personnes">Personnes</a></li>                                        
+                                        <li><a href="glossaire.html#lieux">Lieux</a></li>                                        
+                                        <li><a href="glossaire.html#glossaire">Glossaire</a></li>                                        
                                     </ul>                                    
                                 </li>                                
                                 <li><a href="#">A propos de l'édition</a></li>                                    
@@ -57,15 +57,16 @@
                         </section>                        
                     </nav>                    
                 </header>                                                
-                <div class="row" id="corps">                
+                <div class="row corps">                
                     <div class="large-12 columns">                    
                         <h2>Accès chronologique</h2>                        
-                        <div id="frise"></div>                    
-                    </div>                
-                </div>                                                                                                                                                                                                                              
-                <p>                                                                                   
-                    <xsl:apply-templates select="//tei:correspDesc"/>                                    
-                </p>                                                                                                                                                                                                                                     
+                        <div id="frise"></div>                         
+                    </div>
+                    <div class="large-12 columns">
+                        <h4>Selectionnez une correspondance :</h4>
+                        <xsl:apply-templates select="//tei:correspDesc[@type='sommaire']"/>
+                    </div>
+                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                 <!--Permettent aux listes de se dérouler automatiquement + menu adaptatif (doivent être placés en bas de page)-->    
                 <script src="../../STYLE/foundation/js/vendor/jquery.js">//</script>
                 <script src="../../STYLE/foundation/js/foundation.min.js">//</script>
@@ -74,28 +75,64 @@
         </html>    
     </xsl:template>
       
-    <xsl:template match="//tei:correspDesc">
+    <xsl:template match="//tei:correspDesc[@type='sommaire']">
       <xsl:for-each select="tei:correspContext">
-          <ul>
-              <xsl:variable name="ref" select="../tei:correspAction/tei:placeName/@ref"/>
-              <xsl:variable name="placeName" select="replace($ref,'#','')"/>
-              <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-              <xsl:attribute name="id" select="concat($placeName,$date)">                  
-              </xsl:attribute>
-              <xsl:for-each select="tei:ref">
-                  <li>
-                      <xsl:element name="a">
-                          <xsl:variable name="target">
-                              <xsl:value-of select="replace(@target,'xml','html')"></xsl:value-of>
-                          </xsl:variable> 
-                          <xsl:attribute name="href" select="$target"></xsl:attribute>
-                          <xsl:value-of select="tei:placeName"/>                    
-                          <xsl:text> </xsl:text>                    
-                          <xsl:value-of select="tei:date"/>
-                      </xsl:element>                                           
-                  </li>
-              </xsl:for-each>
-          </ul>
+          <div class="row">
+              <h3 style="margin-left:20px;">                  
+                  <xsl:variable name="ref" select="../tei:correspAction[@type='sent']/tei:placeName/@ref"/>
+                  <xsl:variable name="placeName" select="replace($ref,'#','')"/>
+                  <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
+                  <xsl:attribute name="id" select="concat($placeName,$date)">                  
+                  </xsl:attribute>
+                  <xsl:value-of select="../tei:correspAction[@type='sent']/tei:placeName"/>
+                  <xsl:text> </xsl:text>
+                  <small>
+                      <xsl:choose>                      
+                          <xsl:when test="../tei:correspAction/tei:date/@from">
+                              <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
+                              <xsl:variable name="dateDebut" select="format-date($date, '[D01] [MNn] [Y]','fr',(),())"/>
+                              <xsl:value-of select="$dateDebut"/>
+                              <xsl:text> &#x2014; </xsl:text>
+                              <xsl:variable name="dateFin" select="format-date(../tei:correspAction/tei:date/@to, '[D01] [MNn] [Y]','fr',(),())"/>
+                              <xsl:value-of select="$dateFin"/>
+                          </xsl:when>
+                          <xsl:otherwise>
+                              <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
+                              <xsl:variable name="dateFormat" select="format-date($date, '[D01] [MNn] [Y]','fr',(),())"/>
+                              <xsl:value-of select="$dateFormat"/>
+                          </xsl:otherwise>
+                      </xsl:choose>
+                  </small>
+              </h3>
+              <hr/>
+              <div class="large-5 small-5 large-offset-1 columns">
+                  <xsl:variable name="nombre" select="count(tei:ref)"/>
+                  <ul class="list2">
+                      <li>
+                          <xsl:text>Destinataire : </xsl:text>                                                       
+                          <xsl:value-of select="../tei:correspAction[@type='received']/tei:persName"/>                          
+                      </li>
+                      <li>
+                          <xsl:text>Nombre de cartes envoyées : </xsl:text> <xsl:value-of select="$nombre"/>
+                      </li>
+                  </ul>                                                      
+              </div>
+              <div class="large-4 small-4 large-offset-2 columns">
+                  <ul class="list">
+                      <xsl:for-each select="tei:ref">
+                          <li>
+                              <xsl:element name="a">
+                                  <xsl:variable name="target">
+                                      <xsl:value-of select="replace(@target,'xml','html')"></xsl:value-of>
+                                  </xsl:variable> 
+                                  <xsl:attribute name="href" select="$target"></xsl:attribute>                  
+                                  <xsl:value-of select="tei:date"/>
+                              </xsl:element>                                           
+                          </li>
+                      </xsl:for-each>
+                  </ul>
+              </div>
+          </div>
       </xsl:for-each>
   </xsl:template>      
 </xsl:stylesheet>

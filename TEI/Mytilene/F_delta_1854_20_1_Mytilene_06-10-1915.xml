@@ -59,17 +59,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
                <figDesc>
-                  L'Eglise St Therapion, <placeName ref="#Metelin">Mételin</placeName>
+                  L'Eglise St Therapion, <placeName ref="#Metelin" xml:id="Metelin_06101915">Mételin</placeName>
                </figDesc>
             </figure>               
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_178.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="#Mytilene"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName>&vir;
+                  <placeName ref="#Mytilene" xml:id="Mytilene_06101915"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName>&vir;
                   <date when="1915-10-06"><hi rend="minimize">L</hi>e 6 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>
                </dateline>
                <salute rend="center">
-                  <persName ref="#Comtesse_Forest">Comtesse</persName>&vir;
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_06101915">Comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
@@ -92,7 +92,7 @@
                <cb/>
                <address n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_06101915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>   
                </address>

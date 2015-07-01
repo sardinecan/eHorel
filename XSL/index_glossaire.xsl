@@ -15,14 +15,9 @@
                 <!--feuilles de style-->  
                 <link rel="stylesheet" href="../../STYLE/foundation/css/foundation.css" />
                 <link rel="stylesheet" type="text/css" href="../../STYLE/personnalisation/style.css"/>    
-                <script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>
-                <!--cartographie-->
-                <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-                <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">//</script>
-                <script src="../../JS/carte/cartographie.js">//</script>
-                <script src="../../JS/js/jquery.js">//</script>
+                <script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>                               
             </head>
-            <body onload="InitialiserCarte() ;">                                                                                     
+            <body>                                                                                     
                 <header class="row">                         
                     <img src="../../STYLE/images/header.jpg" alt="header"/>                                                                                            
                     <nav class="top-bar" data-topbar="yes" role="navigation">                    
@@ -50,7 +45,7 @@
                                     <ul class="dropdown">                                    
                                         <li><a href="glossaire.html#personnes">Personnes</a></li>                                        
                                         <li><a href="glossaire.html#lieux">Lieux</a></li>                                        
-                                        <li><a href="glossaire;html#glossaire">Glossaire</a></li>                                        
+                                        <li><a href="glossaire.html#glossaire">Glossaire</a></li>                                        
                                     </ul>                                    
                                 </li>                                
                                 <li><a href="#">A propos de l'édition</a></li>                                    
@@ -60,12 +55,10 @@
                 </header>                                                
                 <div class="row corps">                
                     <div class="large-12 columns">                    
-                        <h2>Accès géographique</h2>
-                        <div id="map"></div>                    
+                        <h2>Index et Glossaire</h2>                                         
                     </div>
-                    <div class="large-12 columns">
-                        <h3>Selectionnez un lieu d'envoi :</h3>
-                        <xsl:apply-templates select="//tei:correspDesc"/>
+                    <div class="large-12 columns">                       
+                        <xsl:apply-templates select="//tei:list[@xml:id='glossaire']"/>
                     </div>
                 </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
                 <!--Permettent aux listes de se dérouler automatiquement + menu adaptatif (doivent être placés en bas de page)-->    
@@ -75,51 +68,36 @@
             </body>        
         </html>    
     </xsl:template>
-    <xsl:template match="//tei:correspDesc">
-        <xsl:choose>
-            <xsl:when test="@type='sommaire'"/>
-            <xsl:otherwise>
-                <xsl:for-each select="tei:correspContext">
-                    <div class="row">
-                        <xsl:variable name="ref" select="../tei:correspAction/tei:placeName/@ref"/>
-                        <xsl:variable name="place" select="../tei:correspAction/tei:placeName"/>                            
-                        <h3><xsl:value-of select="$place"/></h3>
-                        <hr/>
-                        <div class="large-5 small-5 large-offset-1 columns">
-                            <xsl:variable name="nombre" select="count(tei:ref)"/>
-                            <ul class="list2">
-                                <li>
-                                    <xsl:text>Destinataire : </xsl:text>                                                       
-                                    <xsl:value-of select="../tei:correspAction[@type='received']/tei:persName"/>                          
-                                </li>
-                                <li>
-                                    <xsl:text>Nombre de cartes envoyées : </xsl:text> <xsl:value-of select="$nombre"/>
-                                </li>
-                            </ul>                               
-                        </div>
-                        <div class="large-4 small-4 large-offset-2 columns">
-                            <ul class="list">
-                                <xsl:variable name="ref" select="../tei:correspAction/tei:placeName/@ref"/>
-                                <xsl:variable name="placeName" select="replace($ref,'#','')"/>
-                                <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-                                <xsl:attribute name="id" select="concat($placeName,$date)">                  
-                                </xsl:attribute>
-                                <xsl:for-each select="tei:ref">
-                                    <li>
-                                        <xsl:element name="a">
-                                            <xsl:variable name="target">
-                                                <xsl:value-of select="replace(@target,'xml','html')"></xsl:value-of>
-                                            </xsl:variable> 
-                                            <xsl:attribute name="href" select="$target"></xsl:attribute>                                                
-                                            <xsl:value-of select="tei:date"/>
-                                        </xsl:element>                                           
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
-                        </div>
-                    </div>
-                </xsl:for-each>
-            </xsl:otherwise>
-        </xsl:choose>        
-    </xsl:template>      
+    <xsl:template match="//tei:list[@xml:id='glossaire']">
+        <dl>
+            <xsl:for-each select="tei:item">
+                <dt>
+                    <xsl:attribute name="id" select="@xml:id"/>
+                    <xsl:apply-templates select="tei:label"/>
+                </dt>
+                <dd>
+                    <xsl:text>Citations : </xsl:text>
+                    <xsl:for-each select="tei:note/tei:ref">
+                        <a>
+                            <xsl:variable name="lien">
+                                <xsl:value-of select="replace(@target, 'xml', 'html')"/>
+                            </xsl:variable>
+                            <xsl:attribute name="href" select="$lien"/>
+                            <xsl:choose>
+                                <xsl:when test="position() = 1">
+                                    <xsl:value-of select="tei:placeName"/>, <xsl:value-of select=" format-date(tei:date/@when,'[D01] [Mn,*-3] [Y0001]', 'fr', (), ())"/>
+                                </xsl:when>
+                                <xsl:when test="position() = last()">
+                                    <xsl:text> &#x2014; </xsl:text><xsl:value-of select="tei:placeName"/>, <xsl:value-of select=" format-date(tei:date/@when,'[D01] [Mn,*-3] [Y0001]', 'fr', (), ())"/><xsl:text>.</xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text> &#x2014; </xsl:text><xsl:value-of select="tei:placeName"/>, <xsl:value-of select=" format-date(tei:date/@when,'[D01] [Mn,*-3] [Y0001]', 'fr', (), ())"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </a>                        
+                    </xsl:for-each>
+                </dd>
+            </xsl:for-each>
+        </dl>
+    </xsl:template>
 </xsl:stylesheet>

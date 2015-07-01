@@ -60,17 +60,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_157.jpg"/>
                <figDesc>
-                  Office Sanitaire les <choice><orig>bureau</orig><reg>bureaux</reg></choice> &amp; dépôts de la Régie<placeName ref="#Metelin">Mételin.</placeName>
+                  Office Sanitaire les <choice><orig>bureau</orig><reg>bureaux</reg></choice> &amp; dépôts de la Régie<placeName ref="#Metelin" xml:id="Metelin_10111915">Mételin.</placeName>
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_158.jpg"/>
             <opener>
                <dateline rend="center">
-                  <placeName ref="#Port_Iero">Ile de Port Iéro</placeName>&vir;
+                  <placeName ref="#Port_Iero" xml:id="Port_Iero_10111915">Ile de Port Iéro</placeName>&vir;
                   <date when="1915-11-10"><hi rend="minimize">L</hi>e 10 <choice><abbr>9<hi rend="super">bre</hi></abbr><expan>novembre</expan></choice>1915</date>
                </dateline>
                <salute rend="center">
-                  <lb/><persName>Comtesse</persName>&vir;
+                  <lb/><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_10111915">Comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
@@ -80,16 +80,16 @@
                <lb/>fait parvenir dans cette lettre&pt; <hi rend="capitalize">t</hi>ous les jours je lis quelques
                <lb/>paragraphes que vous m'avez indiqué avec une plume<pc>.</pc>
                <lb/><hi rend="capitalize">i</hi>l est très intéressant<pc>.</pc> Vous me dites que vous devez
-               <lb/>venir <choice><orig>habité</orig><reg>habiter</reg></choice> <placeName ref="#Sanary">Sanary</placeName><pc>.</pc> <hi rend="capitalize">c</hi>'est bien près de <placeName ref="#Toulon">Toulon</placeName> &a; <choice><orig>10</orig><reg>dix</reg></choice>
+               <lb/>venir <choice><orig>habité</orig><reg>habiter</reg></choice> <placeName ref="#Sanary" xml:id="Sanary_10111915">Sanary</placeName><pc>.</pc> <hi rend="capitalize">c</hi>'est bien près de <placeName ref="#Toulon">Toulon</placeName> &a; <choice><orig>10</orig><reg>dix</reg></choice>
                <lb/>minutes de train&vir; c'est la <choice><abbr>2<hi rend="super">eme</hi></abbr><expan>deuxième</expan></choice> station avant d'arriver
-               <lb/>&a; <placeName ref="#Toulon">Toulon</placeName><pc>.</pc> <hi rend="capitalize">c</hi>'est dommage que je ne sois pas l&a; en ce 
+               <lb/>&a; <placeName ref="#Toulon" xml:id="Toulon_10111915">Toulon</placeName><pc>.</pc> <hi rend="capitalize">c</hi>'est dommage que je ne sois pas l&a; en ce 
                <lb/>moment car j'aurais été surement vous voir en 
                <lb/>permission de <choice><orig>24</orig><reg>vingt-quatre</reg></choice> heures<pc>.</pc> Je souhaite de tout coeur 
                <lb/>une prompte guérison &a; votre demoiselle<pc type="surplus">.</pc> et pour 
                <lb/>vous comtesse une bonne santé<pc>.</pc> Ces jours derniers
                <lb/>il est arrivé malheur &a; nos <w rend="hyphen">sous</w><w>marins</w> dans
-               <lb/>la <placeName ref="#Marmara">mer de Marmara</placeName>&vir; il y a le <w rend="hyphen">sous</w><w>marin</w> français
-               <lb/><name ref="#Turquoise">Turquoise</name> qui a été pris dans les filets&pt;               
+               <lb/>la <placeName ref="#Marmara" xml:id="Marmara_10111915">mer de Marmara</placeName>&vir; il y a le <w rend="hyphen">sous</w><w>marin</w> français
+               <lb/><name ref="#Turquoise" xml:id="Turquoise_10111915">Turquoise</name> qui a été pris dans les filets&pt;               
             </p>
             <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_155.jpg" type="postcardBreak"/>
             <figure>
@@ -138,12 +138,12 @@
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>France</addrLine>
                   <addrLine rend="overline" >48 rue de la Comédie 48</addrLine>        
-                  <addrLine rend="overline">Beaune Cote d'or</addrLine>
+                  <addrLine rend="overline"><placeName ref="#Beaune" xml:id="Beaune_10111915">Beaune</placeName> Cote d'or</addrLine>
                   <addrLine>France</addrLine>
                </address>
                <add hand="other">
                   <address>
-                     <addrLine>Sanary sur mer</addrLine>      
+                     <addrLine><placeName ref="#Sanary">Sanary</placeName> sur mer</addrLine>      
                      <addrLine>Var <hi rend="underline">G R</hi></addrLine>
                   </address>
                </add>                             
@@ -155,8 +155,8 @@
             <p>
                envoi de 
                <address>
-                  <addrLine><persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName></addrLine>
-                  <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine> <addrLine>aux Dardanelles</addrLine>      
+                  <addrLine><persName ref="#Horel" xml:id="Horel_10111915">M<hi rend="super">ieur</hi>Horel Armand</persName></addrLine>
+                  <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_10111915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelleq_10111915">Dardanelles</placeName></addrLine>      
                </address>
                <stamp type="postmark">
                   <placeName><choice><unclear><gap reason="illegible" agent="rubbing"/>anar<gap reason="illegible" agent="rubbing"/> va<gap reason="illegible" agent="rubbing"/></unclear><reg type="supplied" cert="high">Sanary Var</reg></choice></placeName> <date when="1915-11-21" cert="medium">21 novembre 1915</date>.

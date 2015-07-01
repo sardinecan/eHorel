@@ -59,17 +59,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_181.jpg"/>
                <figDesc>
-                  <placeName ref="#Toulon">TOULON.</placeName> - Le Casino
+                  <placeName ref="#Toulon" xml:id="Toulon_23091915">TOULON.</placeName> - Le Casino
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_182.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="#Imbros">Imbros</placeName>&vir;
+                  <placeName ref="#Imbros" xml:id="Imbros_23091915">Imbros</placeName>&vir;
                   <date when="1915-09-23"><hi rend="minimize">L</hi>e 23 <choice><abbr>7<hi rend="super">bre</hi></abbr><expan>septembre</expan></choice>1915</date>
                </dateline>
                <salute>
-                  <hi rend="center"><persName>Comtesse</persName>&vir;</hi>
+                  <hi rend="center"><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_23091915">Comtesse</persName>&vir;</hi>
                </salute>
             </opener>
             <p>
@@ -78,7 +78,7 @@
                <lb/>petites nouvelles de guerre<pc>.</pc> <hi rend="capitalize">n</hi>ous
                <lb/>sommes <choice><orig>appareiller</orig><reg>appareillés</reg></choice> pour l'<hi rend="minimize">I</hi>le
                <lb/><placeName ref="#Imbros">d'Imbros</placeName> qui se trouve juste &a;
-               <lb/>l'embouchoure du <placeName ref="#Golf_Saros">golfe de <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
+               <lb/>l'embouchoure du <placeName ref="#Golf_Saros" xml:id="Golf_Saros_23091915">golfe de <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
                <lb/>Figurez vous que le <date when="1915-09-16">16 <choice><abbr>7<hi rend="super">bre</hi></abbr><expan>septembre</expan></choice></date> vers
                <lb/>7 <supplied reason="omitted">h</supplied> <hi rend="super">1/2</hi> du matin&vir; tout en nous lavant
                <lb/>la figure&vir; qui est ce que nous aper
@@ -88,7 +88,7 @@
                <cb/>
                <address n="1">                              
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>                  
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>                  
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_23091915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
                   <addrLine>Haute Savoie</addrLine>                  
                   <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1"/></addrLine>                  
                </address>
@@ -96,7 +96,7 @@
                   <lb/>Comme je n'ai pas pu acheter d'autres cartes je vous <supplied reason="omitted">en</supplied> envoie <choice><orig>3</orig><reg>trois</reg></choice> de <placeName ref="#Toulon">Toulon</placeName>
                   <lb/>en attendant de m'en faire porter d'autres par les cuisiniers
                   <lb/>quand ils descendront &a; terre faire leur marché car nous
-                  <lb/>ici&vir; <choice><orig>1</orig><reg>un</reg></choice> an aux <placeName ref="#Dardanelles"><hi rend="capitalize">d</hi>ardanelles</placeName>&vir; <choice><orig>1</orig><reg>un</reg></choice> an sans mettre
+                  <lb/>ici&vir; <choice><orig>1</orig><reg>un</reg></choice> an aux <placeName ref="#Dardanelles" xml:id="Dardanelles_23091915"><hi rend="capitalize">d</hi>ardanelles</placeName>&vir; <choice><orig>1</orig><reg>un</reg></choice> an sans mettre
                   <lb/>pied &a; terre<pc>.</pc> <hi rend="capitalize">c</hi>'est cela qui est le plus dur pour nous<pc>.</pc>
                </add>
                <gap reason="missing"/>
@@ -143,7 +143,7 @@
                <lb/>d'autre on est obligé de la manger&pt;
                <address n="2">         
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>
                </address>
@@ -153,7 +153,7 @@
             <p n="1">
                <address n="a">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>   
                </address>
@@ -168,11 +168,11 @@
             <p n="2">
                envoi de 
                <address n="e">  
-                  <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</addrLine>
-                  <addrLine>&a; bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine> <addrLine>aux Dardanelles</addrLine> <addrLine>Paris Etranger</addrLine>      
+                  <persName ref="#Horel" xml:id="Horel_23091915">M<hi rend="super">ieur</hi>Horel Armand</persName> <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</addrLine>
+                  <addrLine>&a; bord du <name type="navire" ref="#H_IV" xml:id="H_IV_23091915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine> <addrLine><placeName ref="#Paris">Paris</placeName> Etranger</addrLine>      
                </address>
                <stamp type="postmark">
-                  <placeName cert="medium">Bonne sur Menoge</placeName><date><gap reason="illegible" agent="rubbing"/></date>
+                  <placeName cert="medium" ref="#Bonne_Menoge">Bonne sur Menoge</placeName><date><gap reason="illegible" agent="rubbing"/></date>
                </stamp>
             </p>
          </div>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../SCHEMA/bdic_modelisation.rng"?>
-<?xml-stylesheet type="text/xsl" href="../../XSL/Armand_Horel.xsl"?>
+<?xml-model href="../../SCHEMA/bdic_modelisation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../XSL/Armand_Horel.xsl"?>
 <!DOCTYPE TEI [
 <!ENTITY a '<choice><orig>a</orig><reg>à</reg></choice>'>
 <!ENTITY vir '<pc type="supplied">,</pc>'>

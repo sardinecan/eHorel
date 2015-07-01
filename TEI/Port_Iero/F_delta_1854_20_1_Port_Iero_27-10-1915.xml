@@ -59,17 +59,17 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_165.jpg"/>
                <figDesc>
-                  <placeName ref="#Metelin">METELIN.</placeName> L'entrée du Marché
+                  <placeName ref="#Metelin" xml:id="Metelin_27101915">METELIN.</placeName> L'entrée du Marché
                </figDesc>
             </figure>
             <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_166.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="#Port_Iero">Ile de Port Iéro</placeName>&vir;
+                  <placeName ref="#Port_Iero" xml:id="Port_Iero_27101915">Ile de Port Iéro</placeName>&vir;
                   <date when="1915-10-27"><hi rend="minimize">L</hi>e 27 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice>15</date>
                </dateline>
                <salute rend="center">
-                  <lb/><persName>Comtesse</persName>&vir;
+                  <lb/><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_27101915">Comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
@@ -103,7 +103,7 @@
                <lb/>leurs nouvelles &a; tous<pc>.</pc>
                <address n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_27101915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
                   <addrLine>France</addrLine>   
                </address>
