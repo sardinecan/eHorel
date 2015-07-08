@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -121,19 +120,20 @@
                <lb/><hi rend="minimize">M</hi>onsieur <persName ref="#G_Locke" xml:id="G_Locke_27121915"><hi rend="capitalize">l</hi>ocke</persName> je n'ai encore pas eu de ses nouvelles&vir;
             </p>
             <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_111.jpg" type="postcardBreak"/>
-            <ab>
-               <persName ref="#Horel" xml:id="Horel_27121915">Horel Armand</persName> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier
-               <address>                          
-                  <addrLine><name type="navire" ref="#H_IV" xml:id="H_IV_27121915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelles_27121915">Dardanelles</placeName></addrLine>                        
+            <p>               
+               <address place="back" type="sender">
+                  <persName ref="#Horel" xml:id="Horel_27121915">Horel Armand</persName>
+                  <addrLine> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier <name type="navire" ref="#H_IV" xml:id="H_IV_27121915">Henri IV</name></addrLine> 
+                  <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelles_27121915">Dardanelles</placeName></addrLine>                        
                </address>               
-               <address n="1">                  
+               <address place="back" type="sender">                  
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_27121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
                   <addrLine>Var</addrLine>                  
                   <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_note1" n="1"/></addrLine>                     
                </address>               
-            </ab>
+            </p>
             <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_112.jpg"/>
             <p>
                <add type="numbering" n="3" rend="center">3</add>
@@ -187,13 +187,15 @@
                   <lb/>ami qui ne vous
                   <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
-               <signed><persName ref="#Horel">A Horel</persName></signed>
-               <address rend="vertical">
-                  <addrLine><add type="normal" place="margin" rend="vertical" n="5"><persName ref="#Horel">Horel Armand</persName> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</add></addrLine>
-                  <addrLine><add type="normal" place="margin" rend="vertical" n="5"><name type="navire" ref="#H_IV">Henri IV</name></add></addrLine> 
-                  <addrLine><add type="normal" place="margin" rend="vertical" n="5">aux <placeName ref="#Dardanelles">Dardanelles</placeName></add></addrLine>
+               <signed>
+                  <persName ref="#Horel">A Horel</persName>
+               </signed>
+               <address rend="vertical" type="sender" place="postcard">
+                  <addrLine><add place="margin" rend="vertical"><persName ref="#Horel">Horel Armand</persName> <choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</add></addrLine>
+                  <addrLine><add place="margin" rend="vertical"><name type="navire" ref="#H_IV">Henri IV</name></add></addrLine> 
+                  <addrLine><add place="margin" rend="vertical">aux <placeName ref="#Dardanelles">Dardanelles</placeName></add></addrLine>
                </address>
-               <address n="2">
+               <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Hôtel de Bains</addrLine>
                   <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>

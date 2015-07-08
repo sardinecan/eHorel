@@ -3,12 +3,13 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2015-07-03T15:09:42Z. .
+Schema generated from ODD source 2015-07-02T15:16:36Z. .
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
   
---><!----><define name="tei_macro.paraContent">
+--><!---->
+   <define name="tei_macro.paraContent">
       <zeroOrMore>
          <choice>
             <text/>
@@ -227,7 +228,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">noms des unités utilisées pour la mesure.
-Les valeurs suggérées comprennent: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) </a:documentation>
+Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) </a:documentation>
             <choice>
                <value>cm</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimètres) </a:documentation>
@@ -272,7 +273,7 @@ Les valeurs suggérées comprennent: 1] cm(centimetres) ; 2] mm(millimetres) ; 3
       <optional>
          <attribute name="scope">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">spécifie l'applicabilité de cette mesure, là où plus d'un objet est mesuré.
-Exemple de valeurs possibles: 1] all; 2] most; 3] range</a:documentation>
+Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <ref name="tei_data.enumerated"/>
          </attribute>
       </optional>
@@ -295,7 +296,7 @@ Exemple de valeurs possibles: 1] all; 2] most; 3] range</a:documentation>
       <optional>
          <attribute name="agent">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">caractérise la raison des dommages, lorsqu'elle peut être identifiée
-Exemple de valeurs possibles: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
+Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
             <ref name="tei_data.enumerated"/>
          </attribute>
       </optional>
@@ -574,7 +575,7 @@ Exemple de valeurs possibles: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unité) indique les unités de mesure utilisées ; il s'agit en général du symbole normalisé pour les unités dont on a besoin.
-Les valeurs suggérées comprennent: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second) ; 4] Hz(hertz) ; 5] Pa(pascal) ; 6] Ω(ohm) ; 7] L(litre) ; 8] t(tonne) ; 9] ha(hectare) ; 10] Å(ångström) ; 11] mL(millilitre) ; 12] cm(centimetre) ; 13] dB(decibel) ; 14] kbit(kilobit) ; 15] Kibit(kibibit) ; 16] kB(kilobyte) ; 17] KiB(kibibyte) ; 18] MB(megabyte) ; 19] MiB(mebibyte) </a:documentation>
+Suggested values include: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second) ; 4] Hz(hertz) ; 5] Pa(pascal) ; 6] Ω(ohm) ; 7] L(litre) ; 8] t(tonne) ; 9] ha(hectare) ; 10] Å(ångström) ; 11] mL(millilitre) ; 12] cm(centimetre) ; 13] dB(decibel) ; 14] kbit(kilobit) ; 15] Kibit(kibibit) ; 16] kB(kilobyte) ; 17] KiB(kibibyte) ; 18] MB(megabyte) ; 19] MiB(mebibyte) </a:documentation>
             <choice>
                <value>m</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mètre) unité SI (système international) de longueur</a:documentation>
@@ -637,7 +638,7 @@ Les valeurs suggérées comprennent: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second
       <optional>
          <attribute name="place">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifie où cet item se trouve
-Les valeurs suggérées comprennent: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace</a:documentation>
+Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace</a:documentation>
             <list>
                <oneOrMore>
                   <choice>
@@ -690,8 +691,8 @@ Les valeurs suggérées comprennent: 1] below; 2] bottom; 3] margin; 4] top; 5] 
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="bdic_modelisation-att.typed-subtypeTyped-constraint-1">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 context="*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype
@@ -786,7 +787,7 @@ Les valeurs suggérées comprennent: 1] below; 2] bottom; 3] margin; 4] top; 5] 
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifie le type d'information que transmet l'élément, par exemple colonnes, pages, volume, etc.
-Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] part; 7] column</a:documentation>
+Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] part; 7] column</a:documentation>
             <choice>
                <value>volume</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">l'élément contient un numéro de volume.</a:documentation>
@@ -915,8 +916,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
          <ref name="tei_foreign"/>
          <ref name="tei_emph"/>
          <ref name="tei_mentioned"/>
-         <ref name="tei_gloss"/>
-         <ref name="tei_term"/>
          <ref name="tei_title"/>
          <ref name="tei_code"/>
          <ref name="tei_ident"/>
@@ -927,8 +926,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
          <ref name="tei_foreign"/>
          <ref name="tei_emph"/>
          <ref name="tei_mentioned"/>
-         <ref name="tei_gloss"/>
-         <ref name="tei_term"/>
          <ref name="tei_title"/>
          <ref name="tei_code"/>
          <ref name="tei_ident"/>
@@ -938,8 +935,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
       <ref name="tei_foreign"/>
       <ref name="tei_emph"/>
       <ref name="tei_mentioned"/>
-      <ref name="tei_gloss"/>
-      <ref name="tei_term"/>
       <ref name="tei_title"/>
       <ref name="tei_code"/>
       <ref name="tei_ident"/>
@@ -953,12 +948,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
       </optional>
       <optional>
          <ref name="tei_mentioned"/>
-      </optional>
-      <optional>
-         <ref name="tei_gloss"/>
-      </optional>
-      <optional>
-         <ref name="tei_term"/>
       </optional>
       <optional>
          <ref name="tei_title"/>
@@ -981,12 +970,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
          <ref name="tei_mentioned"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="tei_gloss"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="tei_term"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="tei_title"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -1005,12 +988,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_mentioned"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="tei_gloss"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="tei_term"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_title"/>
@@ -2293,7 +2270,6 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
    </define>
    <define name="tei_model.glossLike">
       <choice>
-         <ref name="tei_gloss"/>
          <ref name="tei_equiv"/>
          <ref name="tei_altIdent"/>
       </choice>
@@ -2882,7 +2858,7 @@ Les valeurs suggérées comprennent: 1] volume; 2] issue; 3] page; 4] line; 5] c
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">peut être utilisé pour indiquer si le passage cité correspond à une parole ou à une pensée ou encore pour le caractériser plus finement.
-Les valeurs suggérées comprennent: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign; 6] distinct; 7] term; 8] emph; 9] mentioned</a:documentation>
+Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign; 6] distinct; 7] term; 8] emph; 9] mentioned</a:documentation>
                <choice>
                   <value>spoken</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">notation du discours direct</a:documentation>
@@ -2924,33 +2900,6 @@ Les valeurs suggérées comprennent: 1] spoken; 2] thought; 3] written; 4] soCal
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.translatable.attributes"/>
          <ref name="tei_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_gloss">
-      <element name="gloss">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(glose) identifie une expression ou un mot utilisé pour fournir une glose ou une définition à quelque autre mot ou expression. [3.3.4. Terms, Glosses, Equivalents, and Descriptions 22.4.1. Description of Components]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.translatable.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.pointing.attributes"/>
-         <ref name="tei_att.cReferencing.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_term">
-      <element name="term">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(terme) contient un mot simple, un mot composé ou un symbole, qui est considéré comme un terme technique. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.pointing.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <ref name="tei_att.sortable.attributes"/>
-         <ref name="tei_att.cReferencing.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3038,7 +2987,7 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <optional>
             <attribute name="agent">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lorsque du texte est omis de la transcription en raison d'un dommage, catégorise la cause du dommage, si celle-ci peut être identifiée.
-Exemple de valeurs possibles: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
+Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -3091,7 +3040,7 @@ Exemple de valeurs possibles: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <optional>
             <attribute name="agent">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lorsque la difficulté de transcription vient d'un dommage, catégorise la cause du dommage si celle-ci peut être identifiée
-Exemple de valeurs possibles: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
+Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -3150,7 +3099,7 @@ Licensing, etc. 3.11.2.4. Imprint, Size of a Document, and Reprint Information]<
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dans le cas de correspondance cet attribut permet de préciser l'origine de cette adresse.
-Les valeurs suggérées comprennent: 1] addressee; 2] sender</a:documentation>
+Suggested values include: 1] addressee; 2] sender</a:documentation>
                <choice>
                   <value>addressee</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3163,7 +3112,7 @@ Les valeurs suggérées comprennent: 1] addressee; 2] sender</a:documentation>
          <optional>
             <attribute name="place">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Précise la localisation de l'adresse.
-Les valeurs suggérées comprennent: 1] letter; 2] back; 3] postcard; 4] envelope </a:documentation>
+Suggested values include: 1] letter; 2] back; 3] postcard; 4] envelope </a:documentation>
                <choice>
                   <value>letter</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3274,7 +3223,7 @@ Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Docum
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet à l'encodeur de caractériser l'abréviation selon une typologie adéquate
-Exemple de valeurs possibles: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
+Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -3397,7 +3346,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the nature of the items in the list.
-Les valeurs suggérées comprennent: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism</a:documentation>
+Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism</a:documentation>
                <choice>
                   <value>gloss</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">chaque item de la liste commente un terme ou un concept qui est donné par un élément label précédant l'item de la liste.</a:documentation>
@@ -3505,7 +3454,6 @@ Les valeurs suggérées comprennent: 1] gloss; 2] index; 3] instructions; 4] lit
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(entrée d'index) marque un emplacement à indexer dans un but quelconque. [3.8.2. Index Entries]</a:documentation>
          <zeroOrMore>
             <group>
-               <ref name="tei_term"/>
                <optional>
                   <ref name="tei_index"/>
                </optional>
@@ -3740,7 +3688,7 @@ Elements]</a:documentation>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">caractérise le titre selon une typologie adaptée.
-Exemple de valeurs possibles: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </a:documentation>
+Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -3864,8 +3812,8 @@ Licensing, etc.]</a:documentation>
                <sch:report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
-                           role="nonfatal"
-                           test="child::tei:idno">WARNING: use of deprecated method — the use of the idno element as a direct child of the biblStruct element will be removed from the TEI on 2016-09-18</sch:report>
+                           test="child::tei:idno"
+                           role="nonfatal">WARNING: use of deprecated method — the use of the idno element as a direct child of the biblStruct element will be removed from the TEI on 2016-09-18</sch:report>
             </rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
@@ -4033,7 +3981,7 @@ Licensing, etc.]</a:documentation>
                        name="type"
                        a:defaultValue="text">
                <a:documentation>spécifie le type de document auquel l'en-tête TEI se rapporte.
-Exemple de valeurs possibles: 1] text; 2] corpus</a:documentation>
+Sample values include: 1] text; 2] corpus</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -4646,7 +4594,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <optional>
             <attribute name="scope">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where CSS is used, provides a way of defining pseudo-elements, that is, styling rules applicable to specific sub-portions of an element.
-Exemple de valeurs possibles: 1] first-line; 2] first-letter; 3] before; 4] after</a:documentation>
+Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -4664,7 +4612,7 @@ Exemple de valeurs possibles: 1] first-line; 2] first-letter; 3] before; 4] afte
                        name="datum"
                        a:defaultValue="WGS84">
                <a:documentation>donne un nom de code d'usage général pour les données employées.
-Les valeurs suggérées comprennent: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) </a:documentation>
+Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) </a:documentation>
                <choice>
                   <value>WGS84</value>
                   <a:documentation>(Système Géodésique Mondial) couple de nombres destinés à être interprétés comme la latitude suivie de la longitude selon le Système Géodésique Mondial.</a:documentation>
@@ -4779,9 +4727,6 @@ Les valeurs suggérées comprennent: 1] WGS84(World Geodetic System) ; 2] MGRS(M
       <element name="keywords">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mot clé) contient une liste de mots clés ou d’expressions décrivant la nature ou le sujet d’un texte. [2.4.3. The Text Classification]</a:documentation>
          <choice>
-            <oneOrMore>
-               <ref name="tei_term"/>
-            </oneOrMore>
             <ref name="tei_list"/>
          </choice>
          <ref name="tei_att.global.attributes"/>
@@ -4830,7 +4775,7 @@ Les valeurs suggérées comprennent: 1] WGS84(World Geodetic System) ; 2] MGRS(M
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the nature of the action
-Les valeurs suggérées comprennent: 1] sent; 2] received; 3] transmitted; 4] redirected; 5] forwarded</a:documentation>
+Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5] forwarded</a:documentation>
                <choice>
                   <value>sent</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">information concerning the sending or dispatch of a message</a:documentation>
@@ -5487,7 +5432,7 @@ Les valeurs suggérées comprennent: 1] sent; 2] received; 3] transmitted; 4] re
          <optional>
             <attribute name="attachment">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the method by which this surface is or was connected to the main surface
-Exemple de valeurs possibles: 1] glued; 2] pinned; 3] sewn</a:documentation>
+Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -6976,7 +6921,7 @@ The element <name/> may appear once only
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indique quel aspect de l'objet est mesuré.
-Exemple de valeurs possibles: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniatures; 6] binding; 7] box</a:documentation>
+Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniatures; 6] binding; 7] box</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -7537,7 +7482,7 @@ Exemple de valeurs possibles: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] mi
          <optional>
             <attribute name="material">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(matériau) contient un nom abrégé propre au projet désignant le matériau qui a principalement servi pour fabriquer le support.
-Les valeurs suggérées comprennent: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentation>
+Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentation>
                <choice>
                   <value>paper</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -8044,8 +7989,8 @@ Les valeurs suggérées comprennent: 1] paper; 2] parch(parchment) ; 3] mixed</a
                <sch:report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
-                           role="nonfatal"
-                           test="child::tei:altIdentifier">WARNING: use of deprecated method — the use of the altIdentifier element as a direct child of the msPart element will be removed from the TEI on 2016-09-09</sch:report>
+                           test="child::tei:altIdentifier"
+                           role="nonfatal">WARNING: use of deprecated method — the use of the altIdentifier element as a direct child of the msPart element will be removed from the TEI on 2016-09-09</sch:report>
             </rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
@@ -8485,7 +8430,7 @@ Les valeurs suggérées comprennent: 1] paper; 2] parch(parchment) ; 3] mixed</a
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">qualifie la forme comme simple, composée, etc.
-Les valeurs suggérées comprennent: 1] simple; 2] lemma; 3] variant; 4] compound; 5] derivative; 6] inflected; 7] phrase</a:documentation>
+Suggested values include: 1] simple; 2] lemma; 3] variant; 4] compound; 5] derivative; 6] inflected; 7] phrase</a:documentation>
                <choice>
                   <value>simple</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">item lexical simple</a:documentation>
@@ -8525,7 +8470,7 @@ Les valeurs suggérées comprennent: 1] simple; 2] lemma; 3] variant; 4] compoun
                        name="extent"
                        a:defaultValue="full">
                <a:documentation>donne l'étendue des informations fournies sur l'orthographe.
-Exemple de valeurs possibles: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suffix) ; 4] part(partial) </a:documentation>
+Sample values include: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suffix) ; 4] part(partial) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8543,7 +8488,7 @@ Exemple de valeurs possibles: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suf
                        name="extent"
                        a:defaultValue="full">
                <a:documentation>indique si la prononciation se rapporte au mot entier ou seulement à une partie
-Exemple de valeurs possibles: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suffix) ; 4] part(partial) </a:documentation>
+Sample values include: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suffix) ; 4] part(partial) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8591,7 +8536,7 @@ Exemple de valeurs possibles: 1] full(full form) ; 2] pref(prefix) ; 3] suff(suf
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classe l'information grammaticale fournie selon une typologie particulière : dans le cas d'informations terminologiques, de préférence au moyen du dictionnaire des types d'éléments de données spécifiés dans la norme ISO 12620.
-Exemple de valeurs possibles: 1] pos(part of speech) ; 2] gen(gender) ; 3] num(number) ; 4] animate; 5] proper</a:documentation>
+Sample values include: 1] pos(part of speech) ; 2] gen(gender) ; 3] num(number) ; 4] animate; 5] proper</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8661,7 +8606,7 @@ Exemple de valeurs possibles: 1] pos(part of speech) ; 2] gen(gender) ; 3] num(n
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">donne le type d'indicateur employé pour indiquer la classe flexionnelle, quand on a besoin de distinguer entre les abréviations usuelles (par exemple inv) et d'autres types d'indicateurs tels que des codes spéciifiques faisant référence à des modèles de conjugaison, etc.
-Exemple de valeurs possibles: 1] abbrev; 2] verbTable</a:documentation>
+Sample values include: 1] abbrev; 2] verbTable</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8764,7 +8709,7 @@ Exemple de valeurs possibles: 1] abbrev; 2] verbTable</a:documentation>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classe les informations sur l'usage en utilisant n'importe quelle typologie adaptée
-Exemple de valeurs possibles: 1] geo(geographic) ; 2] time; 3] dom(domain) ; 4] register; 5] style; 6] plev(preference level) ; 7] lang(language) ; 8] gram(grammatical) ; 9] syn(synonym) ; 10] hyper(hypernym) ; 11] colloc(collocation) ; 12] comp(complement) ; 13] obj(object) ; 14] subj(subject) ; 15] verb; 16] hint</a:documentation>
+Sample values include: 1] geo(geographic) ; 2] time; 3] dom(domain) ; 4] register; 5] style; 6] plev(preference level) ; 7] lang(language) ; 8] gram(grammatical) ; 9] syn(synonym) ; 10] hyper(hypernym) ; 11] colloc(collocation) ; 12] comp(complement) ; 13] obj(object) ; 14] subj(subject) ; 15] verb; 16] hint</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8805,7 +8750,7 @@ Exemple de valeurs possibles: 1] geo(geographic) ; 2] time; 3] dom(domain) ; 4] 
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indique le type de renvoi, en utilisant n'importe quelle typologie adaptée
-Exemple de valeurs possibles: 1] syn(synonym) ; 2] etym(etymological) ; 3] cf(compare or consult) ; 4] illus(illustration) </a:documentation>
+Sample values include: 1] syn(synonym) ; 2] etym(etymological) ; 3] cf(compare or consult) ; 4] illus(illustration) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8841,7 +8786,7 @@ Exemple de valeurs possibles: 1] syn(synonym) ; 2] etym(etymological) ; 3] cf(co
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indique le type de modification typographique apportée au mot-vedette dans la référence.
-Exemple de valeurs possibles: 1] cap(capital) ; 2] noHyph(no hyphen) </a:documentation>
+Sample values include: 1] cap(capital) ; 2] noHyph(no hyphen) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8864,7 +8809,7 @@ Exemple de valeurs possibles: 1] cap(capital) ; 2] noHyph(no hyphen) </a:documen
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indique le type de variante impliquée
-Exemple de valeurs possibles: 1] pt(past tense) ; 2] pp(past participle) ; 3] prp(present participle) ; 4] f(feminine) ; 5] pl(plural) </a:documentation>
+Sample values include: 1] pt(past tense) ; 2] pp(past participle) ; 3] prp(present participle) ; 4] f(feminine) ; 5] pl(plural) </a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -8925,8 +8870,8 @@ Exemple de valeurs possibles: 1] pt(past tense) ; 2] pp(past participle) ; 3] pr
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-link-linkTargets3-constraint-9">
             <rule context="tei:link">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            test="contains(normalize-space(@target),' ')">You must supply at least two values for @target or  on <sch:name/>
                </sch:assert>
@@ -8997,7 +8942,7 @@ Exemple de valeurs possibles: 1] pt(past tense) ; 2] pp(past participle) ; 3] pr
          <optional>
             <attribute name="unit">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">spécifie l'unité de temps dans laquelle la valeur de l'attribut interval est exprimée, si elle n'est pas héritée de l'élément parent timeLine.
-Les valeurs suggérées comprennent: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
+Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
                <choice>
                   <value>d</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(jours) </a:documentation>
@@ -9044,7 +8989,7 @@ Les valeurs suggérées comprennent: 1] d(days) ; 2] h(hours) ; 3] min(minutes) 
          <optional>
             <attribute name="unit">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">spécifie l'unité de temps correspondant à la valeur de l'attribut interval de la frise chronologique ou des points temporels qui la constituent.
-Les valeurs suggérées comprennent: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
+Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
                <choice>
                   <value>d</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(jours) </a:documentation>
@@ -9229,9 +9174,9 @@ You must supply at least two values for @target on <name/>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="bdic_modelisation-att.identified-spec-in-module-constraint-3">
-      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:s="http://www.ascc.net/xml/schematron"
+      <rule xmlns:s="http://www.ascc.net/xml/schematron"
             xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+            xmlns:rng="http://relaxng.org/ns/structure/1.0"
             context="tei:elementSpec[@module]|tei:classSpec[@module]|tei:macroSpec[@module]">
         <assert test="         (not(ancestor::tei:schemaSpec | ancestor::tei:TEI | ancestor::tei:teiCorpus)) or         (not(@module) or          (not(//tei:moduleSpec) and not(//tei:moduleRef))  or         (//tei:moduleSpec[@ident = current()/@module]) or          (//tei:moduleRef[@key = current()/@module]))         ">
         Specification <value-of select="@ident"/>: the value of the module attribute ("<value-of select="@module"/>") 
@@ -9265,7 +9210,7 @@ should correspond to an existing module, via a moduleSpec or
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>(schéma) fournit l'identifiant du schéma dans lequel ce nom est défini.
-Exemple de valeurs possibles: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] imaginary; 5] XHTML; 6] XML; 7] XI</a:documentation>
+Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] imaginary; 5] XHTML; 6] XML; 7] XI</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -9335,7 +9280,7 @@ Exemple de valeurs possibles: 1] TEI(text encoding initiative) ; 2] DBK(docbook)
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>fournit le nom du modèle dans lequel ce nom est défini
-Exemple de valeurs possibles: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
+Sample values include: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -9380,7 +9325,7 @@ Exemple de valeurs possibles: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Sche
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>fournit le nom du modèle dans lequel ce nom est défini
-Exemple de valeurs possibles: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
+Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
                <ref name="tei_data.enumerated"/>
             </attribute>
          </optional>
@@ -9517,9 +9462,9 @@ Exemple de valeurs possibles: 1] TEI(text encoding initiative) ; 2] DBK(docbook)
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-moduleRef-modref-constraint-4">
-            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:s="http://www.ascc.net/xml/schematron"
+            <rule xmlns:s="http://www.ascc.net/xml/schematron"
                   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                   context="tei:moduleRef">
                <report test="* and @key">
 Child elements of <name/> are only allowed when an external module is being loaded
@@ -9536,9 +9481,9 @@ Child elements of <name/> are only allowed when an external module is being load
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-moduleRef-prefix-not-same-prefix-constraint-5">
-            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:s="http://www.ascc.net/xml/schematron"
+            <rule xmlns:s="http://www.ascc.net/xml/schematron"
                   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                   context="tei:moduleRef">
                <report test="//*[ not( generate-id(.) eq generate-id(      current() ) ) ]/@prefix = @prefix">The prefix attribute
 	    of <name/> should not match that of any other
@@ -10090,9 +10035,9 @@ Child elements of <name/> are only allowed when an external module is being load
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-sequence-sequencechilden-constraint-12">
             <rule context="tei:sequence">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns:s="http://www.ascc.net/xml/schematron"
+               <sch:assert xmlns:s="http://www.ascc.net/xml/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            test="count(*)&gt;1">The sequence element must have at least two child elements</sch:assert>
             </rule>
@@ -10117,9 +10062,9 @@ Child elements of <name/> are only allowed when an external module is being load
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-alternate-alternatechilden-constraint-13">
             <rule context="tei:alternate">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns:s="http://www.ascc.net/xml/schematron"
+               <sch:assert xmlns:s="http://www.ascc.net/xml/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            test="count(*)&gt;1">The alternate element must have at least two child elements</sch:assert>
             </rule>
@@ -10160,9 +10105,9 @@ Child elements of <name/> are only allowed when an external module is being load
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-constraintSpec-sch-constraint-14">
             <rule context="tei:constraintSpec">
-               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns:s="http://www.ascc.net/xml/schematron"
+               <sch:report xmlns:s="http://www.ascc.net/xml/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            test="tei:constraint/s:* and    not(@scheme='schematron')">
 	Rules in the Schematron 1.* language must be inside
@@ -10176,9 +10121,9 @@ Child elements of <name/> are only allowed when an external module is being load
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-constraintSpec-isosch-constraint-15">
             <rule context="tei:constraintSpec">
-               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns:s="http://www.ascc.net/xml/schematron"
+               <sch:report xmlns:s="http://www.ascc.net/xml/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            test="tei:constraint/sch:* and    not(@scheme='isoschematron')">
 	Rules in the ISO Schematron language must be inside
@@ -10191,9 +10136,9 @@ Child elements of <name/> are only allowed when an external module is being load
              uri="http://purl.oclc.org/dsdl/schematron"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-constraintSpec-needrules-constraint-6">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:s="http://www.ascc.net/xml/schematron"
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:macroSpec/tei:constraintSpec[@scheme='isoschematron']/tei:constraint">
 	              <sch:report test="sch:assert|sch:report">An ISO Schematron constraint specification for a macro should not have an 'assert' or 'report' element without a parent 'rule' element</sch:report>
@@ -10285,9 +10230,9 @@ Child elements of <name/> are only allowed when an external module is being load
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-attDef-attDefContents-constraint-16">
             <rule context="tei:attDef">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:s="http://www.ascc.net/xml/schematron"
+               <assert xmlns:s="http://www.ascc.net/xml/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::teix:egXML[@valid='feasible'] or @mode eq 'change' or @mode eq 'delete' or tei:datatype or tei:valList[@type='closed']">Attribute: the definition of the @<value-of select="@ident"/> attribute in the <value-of select="ancestor::*[@ident][1]/@ident"/>
                   <value-of select="' '"/>
                   <value-of select="local-name(ancestor::*[@ident][1])"/> should have a closed valList or a datatype</assert>
@@ -10295,9 +10240,9 @@ Child elements of <name/> are only allowed when an external module is being load
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-attDef-noDefault4Required-constraint-7">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:s="http://www.ascc.net/xml/schematron"
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:attDef[@usage eq 'req']">
 	              <sch:report test="tei:defaultVal">It does not make sense to make "<sch:value-of select="normalize-space(tei:defaultVal)"/>" the default value of @<sch:value-of select="@ident"/>, because that attribute is required.</sch:report>
@@ -10305,9 +10250,9 @@ Child elements of <name/> are only allowed when an external module is being load
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-attDef-defaultIsInClosedList-twoOrMore-constraint-8">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:s="http://www.ascc.net/xml/schematron"
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    @maxOccurs &gt; 1    or    @minOccurs &gt; 1    or    @maxOccurs = 'unbounded'    ]   ]">
 	              <sch:assert test="     tokenize(normalize-space(tei:defaultVal),' ')     =     tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
@@ -10318,9 +10263,9 @@ Child elements of <name/> are only allowed when an external module is being load
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="bdic_modelisation-attDef-defaultIsInClosedList-one-constraint-9">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:s="http://www.ascc.net/xml/schematron"
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    not(@maxOccurs)    or (    if ( @maxOccurs castable as xs:integer )     then ( @maxOccurs cast as xs:integer eq 1 )     else false()    )]   ]">
 	              <sch:assert test="string(tei:defaultVal)      =      tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining

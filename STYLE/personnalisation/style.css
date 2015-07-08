@@ -9,6 +9,31 @@ body {
     color:black;
 }
 
+.entree {
+    font-variant:small-caps;
+    padding-bottom: 1em;
+}
+
+.desc {
+    font-variant:normal;
+    font-size:9pt;
+}
+
+li {
+    list-style:none;
+}
+
+.item {
+    font-variant:small-caps;
+    font-size:09pt;
+    list-style:none;
+}
+
+
+.signed {
+    text-align:center;
+}
+
 .corps {
     background-color: white;    
 }
@@ -38,6 +63,11 @@ h1 {
 }
 .next{
     text-align:right;
+}
+
+.link {
+    font-size:9pt;
+    list-style:none;
 }
 
 .adresse{
@@ -70,70 +100,6 @@ sup:hover span /* affichage des notes au survol */
      background-color: grey/*rgba(37,138,77,.9)*/; /* légère transparence */
 }
 
-#menu_deroulant, #menu_deroulant ul /* menu déroulant commun à toutes les pages récupération de l'effet de transition sur le site http://www.frogweb.fr/menu-deroulant-horizontal/ */
-{
-     padding:0; /* permet aux éléments du menu déroulant de se 'dérouler' correctement ( les li des listes font la même largeur que les ul )  */
-     margin:0; /* Permet de coller le menu de navigation à la photo_titre */
-     list-style:none; /* supprime les effets des listes */
-     text-align: center;
-    font-size: 12px;
-     font-weight: bold;
-     background-color: #BD3B33;
-}
-
-
-#menu_deroulant ul /* Cache les balises ul 'déroulantes' */
-{
-     position:absolute; /* permet d'aligner les éléments du menu et faire en sorte que le menu se déroule de façon normale */
-     max-height:0;
-     overflow:hidden;
-     transition: .8s all .3s; /* effet de transition du menu déroulant */
-     -o-transition: .8s all .3s; /* effet de transition Opéra */
-     -ms-transition: .8s all .3s; /* effet de transition IE */ 
-     -moz-transition: .8s all .3s; /* effet de transition pour mozilla */
-     -webkit-transition: .8s all .3s; /* idem Safari et Chrome */
-}
-
-
-#menu_deroulant li
-{
-     display:inline-block; /* affiche le menu déroulant sur une ligne */
-     position:relative; /* permet que les sous-éléments des menus se déroulent sous leurs parents */
-}
-
-
-#menu_deroulant li:hover ul /* détermine la hauter maximale des éléments li lors du survol (si suppression les éléments ne s'affiche pas au survol) */
-{
-     max-height:15em;
-}
-
-
-#menu_deroulant a /* aspect visuel des liens du menu */
-{
-    text-decoration: none; /* supprime l'affichage standard des liens */
-    display: block; /* permet au menu de s'afficher correctement */
-     color:#000;
-     width: 170px;
-     line-height: 30px;
-     background: #BD3B33;
-     color: white;
-     border-bottom : 3px solid;
-     border-color: #BD3B33;
-}
-
-
-#menu_deroulant a:hover /* idem lors du survol : la couleur de la bordure inférieure changent */
-{
-     border-color: #194571;
-}
-
-
-#menu_deroulant ul:last-child /* les derniers éléments déroulés disposent des angles inférieurs arrondis */
-{
-     border-radius: 0 0 4px 4px;
-}
-
-
 .glossary:hover {
 background: none; /* correction d'un bug IE */
 }
@@ -157,3 +123,6 @@ la balise <span> au survol */
 	line-height: 10px;
 }
 
+small {
+    font-size : 10pt;
+}

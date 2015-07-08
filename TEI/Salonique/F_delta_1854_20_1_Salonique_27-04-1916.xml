@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -89,11 +88,13 @@
                <lb/>le papa Bussière qui est un peu fatigué lui aussi
                <lb/>mais voil&a; l'été qui arrive qui lui donnera un
                <lb/>bon coup de main pour l'amélioration &a; sa santé
-               <add type="closer" place="margin-left" rend="vertical" n="1">
-                  Bonne santé &a; tous et bonne<lb/> chance
-               </add>
-               <add type="signed" place="margin-right" rend="vertical" n="1">
-                  <persName ref="#Horel" xml:id="Horel_27041916">Armand Horel</persName>
+               <add type="closer">
+                  <add type="signed" place="margin-right" rend="vertical">                  
+                     <persName ref="#Horel" xml:id="Horel_27041916">Armand Horel</persName>               
+                  </add>
+                  <add place="margin-left" rend="vertical">
+                     Bonne santé &a; tous et bonne<lb/> chance
+                  </add>                                                              
                </add>
             </p>
             <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_007.jpg" type="postcardBreak"/>
@@ -126,18 +127,18 @@
             </p>
             <closer>
                <salute>
-                  <add place="margin-right" rend="vertical" n="2">
+                  <add place="margin-right" rend="vertical">
                      un petit ami qui vous envoie ses
                   </add> 
-                  <add place="margin-left" rend="vertical" n="2">
-                     meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>
+                  <add place="margin-left" rend="vertical">
+                     meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>&vir;
                   </add>
                </salute>
             </closer>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_011.jpg ../../FACS/BDIC_FD_1854_20_1_012.jpg">
             <p>
-               <address>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>10 rue Oudot 10</addrLine>
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_27041916">&a; Beaûne</placeName> Cote d'or</addrLine>
@@ -150,7 +151,7 @@
             <pb/>
             <p>
                envoi de
-               <address>
+               <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier 
                      <lb/><name ref="#Shamrock_II" xml:id="Shamrock_II_27041916">Shamrock II</name> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_27041916">Marseille</placeName>

@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>         
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -89,7 +88,7 @@
                <lb/>tous les jours les chalutiers
                <lb/>en capture&pt;
                <cb/>
-               <address n="1">
+               <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>48 rue de la Comédie 48</addrLine>
                   <addrLine><placeName ref="#Beaune" xml:id="Beaun_03111915">Beaune</placeName></addrLine>
@@ -127,7 +126,7 @@
                <signed><persName ref="#Horel" xml:id="Horel_03111915">Armand Horel</persName></signed>
                <lb/>toujours la même adresse&pt;
                <cb/>
-               <address n="2">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>48 rue de la Comédie 48</addrLine>
                   <addrLine>Beaune</addrLine>

@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -105,7 +104,7 @@
                <lb/>si ils veulent m'y envoyer&pt;
                <lb/>J'ai &a; vous apprendre que la <hi rend="capitalize">g</hi>rèce a <choice><orig>démobiliser</orig><reg>démobilisé</reg></choice> ce
                <cb/>
-               <address n="1">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>48 rue de la Comédie 48</addrLine>
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_23111915">Beaûne</placeName></addrLine><addrLine>Cote d'or</addrLine>
@@ -121,7 +120,7 @@
                <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille
                <lb/>contre les <w rend="hyphen">sous</w><w>marins</w>&vir; il en <sic>mourait</sic> du froid qu'il fait<pc>.</pc>
                <lb/>Heureusement que moi j'ai fait toutes mes provisions 
-               n&é;ces<lb rend="hyphen"/>ssaires <add type="normal" place="above">&a; <placeName ref="#Toulon" xml:id="Toulon_23111915">Toulon</placeName></add> contre le froid<pc>.</pc> <hi rend="capitalize">d</hi>es <hi rend="minimize">S</hi>abots je m'en suis fait venir
+               n&é;ces<lb rend="hyphen"/>ssaires <add place="above">&a; <placeName ref="#Toulon" xml:id="Toulon_23111915">Toulon</placeName></add> contre le froid<pc>.</pc> <hi rend="capitalize">d</hi>es <hi rend="minimize">S</hi>abots je m'en suis fait venir
                <lb/>une paire de la maison avec des chaussures <choice><orig>boureés</orig><reg>bourrées</reg></choice> <supplied reason="omitted">et</supplied> un
                <lb/>cache nez<pc>.</pc> <hi rend="capitalize">j</hi>'ai tout ce qu'il faut pour pouvoir r&é;sister &a;
                <lb/>n'<choice><sic>apporte</sic><corr>importe</corr></choice> quel hiver<pc>.</pc> 
@@ -138,14 +137,14 @@
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_149.jpg ../../FACS/BDIC_FD_1854_20_1_150.jpg">
             <p>
-               <address>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><del hand="#other" rend="overline">48 rue de la Comédie 48</del></addrLine>
                   <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune">Beaune</placeName> Cote d'or</del></addrLine>
                   <addrLine>France</addrLine>
                </address>               
                <add hand="#other">
-                  <address>
+                  <address type="addressee" place="envelope">
                      <addrLine><placeName ref="#Sanary" xml:id="Sanary_23111915">Sanary sur mer</placeName></addrLine>
                      <addrLine>Var <hi rend="underline">G R</hi></addrLine>        
                   </address>
@@ -157,7 +156,7 @@
             <pb/>
             <p>
                envoi de 
-               <address>
+               <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_23111915">Henri IV</name></addrLine> 
                   <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelles_23111915">Dardanelles</placeName></addrLine>

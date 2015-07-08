@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -83,7 +82,7 @@
                <lb/>cela n'en fini plus<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; j'espère que lorsque vous aurez
                <lb/>reçu ces <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir; que votre main soit complètement guérie
                <lb/><unclear>et</unclear> que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey">Gauffrey</persName> soit de nouveau debout en bonne
-               <lb/>santé<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> <hi rend="capitalize">a</hi>lors M<hi rend="super">ieur</hi> <persName ref="#MR_Gauffrey">Gauffrey</persName> votre gendre a été blessé<pc>,</pc> je <choice><orig>penses</orig><reg>pense</reg></choice>
+               <lb/>santé<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> <hi rend="capitalize">a</hi>lors M<hi rend="super">ieur</hi> <persName ref="#MR_Gauffrey" xml:id="MR_Gauffrey_25011916">Gauffrey</persName> votre gendre a été blessé<pc>,</pc> je <choice><orig>penses</orig><reg>pense</reg></choice>
                <lb/>que <choice><orig>ces</orig><reg>ses</reg></choice> blessures n'étaient pas trop graves car il est retourné
                <lb/>&a; son poste<pc type="surplus">,</pc> dans la <placeName ref="#Somme" xml:id="Somme_25011916">Somme</placeName><pc>.</pc> Je souhaite de tout coeur qu'il
                <lb/>s'en <surplus reason="repeated">en</surplus> réchappe de cette guerre<pc type="surplus">.</pc> et en plus qu'elle en finisse

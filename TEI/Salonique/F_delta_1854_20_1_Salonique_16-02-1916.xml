@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -118,10 +117,9 @@
                   <lb/>jamais&vir;
                </salute>
                <signed>                                    
-                  <persName ref="#Horel" xml:id="Horel_16021916">Armand Horel</persName>&vir; <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier                  
-                  <lb/>                  
-                  <address>                                            
-                     <addrLine><name ref="#Shamrock_II" xml:id="Shamrock_II_16021916">&a; bord du chalutier Shamrock II&vir;</name></addrLine>                      
+                  <address type="sender" place="postcard">                  
+                     <persName ref="#Horel" xml:id="Horel_16021916">Armand Horel&vir;</persName>                                                                        
+                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier <lb/>&a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_16021916">Shamrock II&vir;</name></addrLine>                      
                      <addrLine>Division <lb/>des <placeName ref="#Dardanelles" xml:id="Dardanelles_16021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName>&pt;</addrLine>                                             
                   </address>                  
                </signed>

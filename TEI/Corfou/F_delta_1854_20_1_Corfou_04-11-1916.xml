@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -127,7 +126,7 @@
             <postscript n="1">
                <p>
                   le bonjour &a; M<hi rend="super">me</hi> <persName ref="#Gauthier" xml:id="Gauthier_04111916">Gauthier</persName> et sa <unclear>fille</unclear>
-                  <add type="normal" place="margin-left" rend="vertical" n="2">
+                  <add place="margin-left" rend="vertical">
                      toujours la même adresse&pt;
                   </add>
                </p>

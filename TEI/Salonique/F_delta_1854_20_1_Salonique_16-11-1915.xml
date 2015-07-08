@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -87,11 +86,13 @@
                <lb/><choice><orig>7</orig><reg>sept</reg></choice> ou <choice><orig>8</orig><reg>huit</reg></choice> cargots français et <hi rend="minimize">A</hi>nglais charg&é;s eux
                <lb/>aussi de troupes et de canon de 75 <pc type="supplied">;</pc> il y a un
                <lb/>mouvement terrible &a; terre avec toute la troupe&pt;
-               <add type="closer" place="margin-top" rend="rotate" n="1">
-                  <lb/>un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice>
-                  <lb/>jamais&vir;
-                  <add type="signed">
-                     <persName ref="#Horel" type="signed" xml:id="Horel_16111915">A Horel</persName>
+               <add type="closer">
+                  <add place="margin-top" rend="rotate">
+                     <lb/>un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice>                  
+                     <lb/>jamais&vir;
+                  </add>
+                  <add type="signed" place="margin-top" rend="rotate">
+                     <persName ref="#Horel" xml:id="Horel_16111915">A Horel</persName>
                      <lb/>toujours la même adresse
                   </add>
                </add>

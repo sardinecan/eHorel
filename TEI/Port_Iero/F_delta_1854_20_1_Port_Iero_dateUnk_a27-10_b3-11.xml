@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -71,8 +70,15 @@
             <closer>
                <signed>   
                   <lb/><persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand Horel&vir;</persName>
-                  <lb/>toujours la même adresse
-               </signed>
+               </signed>                  
+               <lb/>toujours la même adresse
+               <cb/>
+               <address place="postcard" type="addressee">               
+                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_a27-10_b3-11">Comtesse L. de la Forest</persName>                  
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
+                  <addrLine>Haute Savoie</addrLine>                  
+                  <addrLine>France</addrLine>                        
+               </address>               
             </closer>
             <postscript n="1">
                <p>
@@ -84,18 +90,9 @@
                   <lb/>de cette mauvaise
                   <lb/>rougeole qui a <choice><orig>regnée</orig><reg>régné</reg></choice>
                   <lb/>chez nous pendant
-                  <lb/><choice><orig>1</orig><reg>un</reg></choice> mois environ&pt;
-                  <cb/>
+                  <lb/><choice><orig>1</orig><reg>un</reg></choice> mois environ&pt;                  
                </p>
-            </postscript>
-            <closer>
-               <address n="1">               
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_a27-10_b3-11">Comtesse L. de la Forest</persName>                  
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
-                  <addrLine>Haute Savoie</addrLine>                  
-                  <addrLine>France</addrLine>                        
-               </address>
-            </closer>
+            </postscript>          
          </div>        
       </body>
       <back>

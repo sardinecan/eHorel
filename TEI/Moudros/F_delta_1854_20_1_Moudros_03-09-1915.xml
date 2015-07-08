@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>         
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -83,13 +82,13 @@
                <lb/>avons rencontré <choice><orig>2</orig><reg>deux</reg></choice> <w rend="hyphen">sous</w><w>marins</w>
                <lb/><hi rend="minimize">A</hi>nglais qui étaient <choice><orig>accompagné</orig><reg>accompagnés</reg></choice>
                <lb/>par deux remorqueurs et qui 
-               <lb/>faisaient route pour les <placeName ref="#Dardanelles" xml:id="Dardanelles_03091915">dar
-               <lb rend="hyphen"/>danelles</placeName><pc>.</pc> <hi rend="capitalize">q</hi>uel bonheur pour
+               <lb/>faisaient route pour les 
+               <placeName ref="#Dardanelles" xml:id="Dardanelles_03091915">dar<lb rend="hyphen"/>danelles</placeName><pc>.</pc> <hi rend="capitalize">q</hi>uel bonheur pour
                <lb/>nous que ce soit pas <choice><orig>2</orig><reg>deux</reg></choice> allemands
                <lb/>ou autrichiens&vir; autrement ça aurait
                <lb/>surement changé de note&pt;
                <cb/>
-               <address n="1">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_03091915">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
@@ -122,7 +121,7 @@
                <lb/>possible en même temps
                <lb/>que de vous écrire <persName ref="#Comtesse_Forest">comtesse</persName>&pt;
                <cb/>
-               <address n="2">
+               <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
@@ -162,7 +161,7 @@
                </salute>
                <signed><persName ref="#Horel" xml:id="Horel_03091915">Armand Horel</persName></signed>
                <cb/>
-               <address n="3">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>

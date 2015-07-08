@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -100,7 +99,7 @@
             <p>
                <add type="numbering" n="2" rend="right"><pc>.</pc>2<pc>.</pc></add>
                <lb/>La sant&é; est toujours parfaite&vir; je souhaite qu'&a;
-               <lb/>l'arrivée de mes deux ../../FACS/&vir; que vous en soyez
+               <lb/>l'arrivée de mes deux cartes&vir; que vous en soyez
                <lb/>de même&vir; ainsi que votre fille et sa gosse<pc>.</pc>
             </p>
             <closer>
@@ -112,16 +111,16 @@
                   <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
                <lb/>
-               <signed>
-                  <persName ref="#Horel" xml:id="Horel_31011916">Armand Horel</persName>
+               <signed>                                                
+                  <address place="postcard" type="sender">
+                     <persName ref="#Horel" xml:id="Horel_31011916">Armand Horel</persName>
+                     <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier</addrLine>                  
+                     <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>                  
+                     <addrLine>Division des <lb/><placeName ref="#Dardanelles" xml:id="Dardanelles_31011916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>                  
+                  </address>
                </signed>
-               <address>
-                  <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier</addrLine>
-                  <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>
-                  <addrLine>Division des <lb/><placeName ref="#Dardanelles" xml:id="Dardanelles_31011916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>   
-               </address>
-               <cb/>
-               <address n="1">
+                  <cb/>
+               <address type="addressee" place="postcard" n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Hôtel de Bains</addrLine>
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>

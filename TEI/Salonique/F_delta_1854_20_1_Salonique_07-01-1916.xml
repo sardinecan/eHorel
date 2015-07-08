@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>         
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -78,16 +77,15 @@
                <lb/><name type="navire" ref="#H_IV" xml:id="H_IV_07011916">Henri IV</name>&pt; <hi rend="capitalize">j</hi>e suis embarqué
                <lb/>sur un petit chalutier&vir;
                <lb/>un dragueur de mines<pc>.</pc> Voici
-               <lb/>ma nouvelle adresse<pc>,</pc> M<hi rend="super">ieur</hi>
-               <lb/>
-               <address>
-                  <addrLine><persName ref="#Horel" xml:id="Horel_07011916">Horel Armand</persName>&vir; <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> <lb/>canonnier</addrLine> 
-                  <addrLine>&a; bord du <lb/>chalutier <name type="navire" xml:id="Shamrock_II_07011916">Shamrock II</name>&vir;</addrLine><lb/>
+               <lb/>ma nouvelle adresse<pc>,</pc>               
+               <address type="sender" place="postcard">
+                  <persName ref="#Horel" xml:id="Horel_07011916">M<hi rend="super">ieur</hi><lb/> Horel Armand&vir;</persName> 
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> <lb/>canonnier &a; bord du <lb/>chalutier <name type="navire" xml:id="Shamrock_II_07011916">Shamrock II</name>&vir;</addrLine><lb/>
                   <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_07011916">Dardanelles</placeName></addrLine><lb/>
-                  <addrLine>Salonique&pt;</addrLine>
+                  <addrLine><supplied reason="omitted">à</supplied> Salonique&pt;</addrLine>
                </address>
                <cb/>
-               <address n="1">                        
+               <address place="postcard" type="addressee" n="1">                        
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                       
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_07011916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                        

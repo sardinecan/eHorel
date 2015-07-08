@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -91,8 +90,7 @@
                <lb/>nous avons mis chacun 5<pc type="surplus">.</pc><hi rend="super">&#162;</hi> ce qui fait 2ƒ<pc type="surplus">.</pc><hi rend="super">&#162;</hi> &a; nous <choice><orig>5</orig><reg>cinq</reg></choice><choice><orig><pc>.</pc></orig><reg>,</reg></choice>
                <lb/>c'est un joli commencement<pc>.</pc> <hi rend="capitalize">&a;</hi> la prochaine correspondance
                <lb/>que je vous enverrai comtesse&vir; je vous ferai savoir
-               <lb/>le résultat de notre quête&vir; &a; quel total elle <choice><sic>a</sic><corr>est</corr></choice> montée&pt;
-               <lb/>
+               <lb/>le résultat de notre quête&vir; &a; quel total elle <choice><sic>a</sic><corr>est</corr></choice> montée&pt;               
             </p>
             <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_135.jpg" type="postcardBreak"/>
             <figure>
@@ -160,7 +158,7 @@
                <p>
                   <add type="numbering" n="4" rend="center">4</add>
                   <lb/><choice><orig>arrive</orig><reg>arrivent</reg></choice> &a; ce pauvre bougre<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; je m'en vais toujours &é;crire &a;
-                  <lb/>M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Lock_07121915"><hi rend="capitalize">g</hi> Locke</persName> lui expliquer son cas et en même temps je lui
+                  <lb/>M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_07121915"><hi rend="capitalize">g</hi> Locke</persName> lui expliquer son cas et en même temps je lui
                   <lb/>ferai parvenir mes &é;tats de service<pc>.</pc> 
                </p>
                <closer>
@@ -176,7 +174,7 @@
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_133.jpg ../../FACS/BDIC_FD_1854_20_1_134.jpg">
             <p>
-               <address>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_07121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
@@ -190,7 +188,7 @@
             <pb/>
             <p>
                envoi de 
-               <address>
+               <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                     
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_07121915">Henri IV</name></addrLine>                  
                   <addrLine><placeName ref="#Dardanelles" xml:id="Dardanelles_07121915">aux Dardanelles</placeName></addrLine>

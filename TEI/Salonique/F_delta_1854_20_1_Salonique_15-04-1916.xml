@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -86,7 +85,7 @@
                <lb/>sur le front tout est
                <lb/><choice><orig>tranquile</orig><reg>tranquille</reg></choice>&vir; nous ne prendrons
                <cb/>
-               <address n="1">               
+               <address place="postcard" type="addressee">               
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                                          
                   <addrLine>10 rue Oudot 10 &a;</addrLine>                                       
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_15041916">Beâune</placeName></addrLine>                                       
@@ -126,7 +125,7 @@
                   <persName ref="#Horel" xml:id="Horel_15041916">A. Horel</persName> 
                </signed>
                <cb/>
-               <address n="2">                       
+               <address type="addressee" place="postcard">                       
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                  
                   <addrLine>10 rue Oudot 10 </addrLine>                  
                   <addrLine><placeName ref="#Beaune">&a; Beâune</placeName></addrLine>                  
@@ -137,7 +136,7 @@
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_023.jpg ../../FACS/BDIC_FD_1854_20_1_024.jpg">
             <p>
-               <address>                       
+               <address place="envelope" type="addressee">                       
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>10 rue Oudot 10</addrLine>                  
                   <addrLine><placeName ref="#Beaune">&a; Beaûne</placeName> Cote d'or</addrLine>                  
@@ -150,7 +149,7 @@
             <pb/>
             <p>
                envoi de
-               <address n="e">
+               <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
                   <addrLine> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_15041916">Marseille</placeName></addrLine>

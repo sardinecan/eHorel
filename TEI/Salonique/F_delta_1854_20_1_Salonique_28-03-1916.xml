@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -118,12 +117,12 @@
                   <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
                   <lb/>moment&vir; un petit ami qui ne vous oublie
                   <lb/>
-                  <add type="normal" place="margin-right" rend="vertical" n="2">
+                  <add place="margin-right" rend="vertical">
                      pas&vir;
                   </add>
                </salute>
                <signed>
-                  <add type="normal" place="margin-right" rend="vertical" n="2"><persName ref="#Horel" xml:id="Horel_28031916">Armand Horel</persName></add> 
+                  <add place="margin-right" rend="vertical"><persName ref="#Horel" xml:id="Horel_28031916">Armand Horel</persName></add> 
                </signed>
             </closer>
          </div>

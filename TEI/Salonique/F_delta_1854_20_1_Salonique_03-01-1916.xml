@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -91,15 +90,15 @@
                <lb/>en munitions qui se trouvait l&a;<pc>.</pc> <hi rend="capitalize">u</hi>ne bombe <choice><sic>aurait</sic><corr>serait</corr></choice>
                <lb/>tombée dedans il y <supplied reason="omitted">en</supplied> aurait eu au moins pour
                <lb/><choice><orig>8</orig><reg>huit</reg></choice> jours d'incendie&pt;                                                  
-               <add type="closer" place="margin-top"  rend="rotate" n="1">
-                  <add place="margin-top"  rend="rotate" n="1">                  
+               <add type="closer">
+                  <add place="margin-top"  rend="rotate">                  
                      <lb/><hi rend="capitalize">j</hi>e suis en parfaite santé et souhaite que vous soyez de                                     
                      <lb/>même à l'arrivée de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir;
                   </add>
-                  <add place="margin-bottom" rend="rotate" n="1">un petit ami qui ne vous oublie                  
+                  <add place="margin-bottom" rend="rotate">un petit ami qui ne vous oublie                  
                      <lb/>pas&vir; <surplus reason="repeated"><persName ref="#Horel">A Horel</persName>&pt;</surplus>
                   </add>  
-                  <add type="signed" place="margin-right" rend="vertical" n="1">               
+                  <add type="signed" place="margin-right" rend="vertical">               
                      <persName ref="#Horel" xml:id="Horel_03011916">A Horel</persName>                  
                   </add>
                </add>                                                                         
@@ -134,7 +133,7 @@
                <lb/>&é;t&é; <choice><orig>arreté</orig><reg>arrêtés</reg></choice> le soir même que les <choice><orig>areoplanes</orig><reg>aéroplanes</reg></choice> boches sont venus
                <lb/>nous voir et le lendemain ils sont <choice><orig>parti</orig><reg>partis</reg></choice> &a; bord du cargot
                <lb/>des messageries <choice><orig>maritime</orig><reg>maritimes</reg></choice> <name type="navire" ref="#Memphis" xml:id="Memphis_03011916">Le Memphis</name> qui les a
-               <lb/><add type="normal" place="margin-right" rend="vertical" n="2">conduit en France&pt;</add>
+               <lb/><add place="margin-right" rend="vertical">conduit en France&pt;</add>
             </p>
          </div>
       </body>

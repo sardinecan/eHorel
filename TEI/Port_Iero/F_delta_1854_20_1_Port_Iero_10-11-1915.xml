@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -123,9 +122,9 @@
                </salute>
                <signed>A<pc>.</pc> H<pc>.</pc></signed>
             </closer>
-            <postscript n="1">
+            <postscript>
                <p>
-                  <add type="normal" place="margin-top" rend="rotate" n="2">              
+                  <add place="margin-top" rend="rotate">              
                      Dans une charge de cavalerie les <unclear>Sudous</unclear> ou autrement dit les <unclear>eurcasses</unclear>
                      <lb/>ont écrasé beaucoup de <hi rend="minimize">B</hi>ulgares&pt;
                   </add>   
@@ -134,15 +133,15 @@
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_159.jpg, ../../FACS/BDIC_FD_1854_20_1_160.jpg">
             <p>
-               <address>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>France</addrLine>
-                  <addrLine rend="overline" >48 rue de la Comédie 48</addrLine>        
-                  <addrLine rend="overline"><placeName ref="#Beaune" xml:id="Beaune_10111915">Beaune</placeName> Cote d'or</addrLine>
+                  <addrLine><del hand="#other" rend="overline">48 rue de la Comédie 48</del></addrLine>        
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune" xml:id="Beaune_10111915">Beaune</placeName></del> Cote d'or</addrLine>
                   <addrLine>France</addrLine>
                </address>
-               <add hand="other">
-                  <address>
+               <add hand="#other">
+                  <address type="addressee" place="envelope">
                      <addrLine><placeName ref="#Sanary">Sanary</placeName> sur mer</addrLine>      
                      <addrLine>Var <hi rend="underline">G R</hi></addrLine>
                   </address>
@@ -154,7 +153,7 @@
             <pb/>
             <p>
                envoi de 
-               <address>
+               <address place="envelope" type="sender">
                   <addrLine><persName ref="#Horel" xml:id="Horel_10111915">M<hi rend="super">ieur</hi>Horel Armand</persName></addrLine>
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_10111915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelleq_10111915">Dardanelles</placeName></addrLine>      
                </address>

@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -82,17 +81,19 @@
                   <lb/>autre chose &a; vous dire pour l'instant&vir; un
                   <lb/>petit ami qui ne vous oublie pas&vir;
                </salute>
-               <signed>
-                  <persName ref="#Horel" xml:id="Horel_a05-02_B16-03">Armand 
-                     <lb/> Horel&vir;</persName>                  
-               </signed>
-               <address>
+               <signed>                  
+                  <address place="postcard" type="sender">
+                     <persName ref="#Horel" xml:id="Horel_a05-02_B16-03">Armand 
+                     <lb/> Horel&vir;</persName>
                      <addrLine>
-                        <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier <address><addrLine><name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03">&a; bord du chalutier
-                        <lb/>Shamrock II&vir;</name></addrLine> <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_a05-02_B16-03">Dardanelles</placeName>
-                        <lb/>&a; <placeName ref="#Salonique" xml:id="Salonique_a05-02_B16-03">Salonique</placeName></addrLine></address>
-                     </addrLine>
-                  </address>
+                        <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier<name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03"> <lb/>Shamrock II&vir;</name>
+                     </addrLine> 
+                     <addrLine>
+                        Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_a05-02_B16-03">Dardanelles</placeName>
+                        <lb/>&a; <placeName ref="#Salonique" xml:id="Salonique_a05-02_B16-03">Salonique</placeName>
+                     </addrLine>                                                      
+                  </address>                  
+               </signed>               
             </closer>
          </div>
       </body>

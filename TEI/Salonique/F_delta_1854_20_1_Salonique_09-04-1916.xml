@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -66,7 +65,7 @@
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_09041916">Salonique</placeName>&vir;
-                  <date when="1916-04-09">le 9 <del rend="overline">Mars</del><add type="normal" place="above" n="1">Avril</add> 1916</date>
+                  <date when="1916-04-09">le 9 <del rend="overline">Mars</del><add place="above">Avril</add> 1916</date>
                </dateline>
                <salute>
                   <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_09041916">Comtesse</persName>&vir;
@@ -120,7 +119,7 @@
          </div>            
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_029.jpg ../../FACS/BDIC_FD_1854_20_1_030.jpg">
             <p>
-               <address>
+               <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>10 rue Oudot 10</addrLine>                  
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_09041916">&a; Beaûne</placeName> Cote d'or</addrLine>                                    
@@ -133,7 +132,7 @@
             <pb/>
             <p>
                envoi de
-               <address>
+               <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_09041916">Shamrock II</name></addrLine>                      
                   <addrLine>Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_09041916">Marseille</placeName></addrLine>

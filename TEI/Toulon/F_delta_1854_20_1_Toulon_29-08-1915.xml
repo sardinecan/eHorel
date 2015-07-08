@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -82,8 +81,8 @@
                <lb/>jour de notre départ 
                <lb/>est arrivé&vir; c'est aujourd'hui 
                <lb/><date when="1915-08-29">dimanche 29 août</date> &a; <choice><orig>5</orig><reg>cinq</reg></choice> heures du soir&pt;
-               <cb/>
-               <address n="1">
+               <cb/>               
+               <address type="addressee" place="Postcard">
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>
                   <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_29081915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie<ref type="note" target="#F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1"/></addrLine>  
@@ -112,7 +111,7 @@
                <lb/><placeName ref="#Melun" xml:id="Melun_29081915">Melun</placeName><pc>.</pc> Je vous en serai
                <lb/>toujours reconnaissant&pt;  
                <cb/>
-               <address n="2">               
+               <address type="addressee" place="Postcard">               
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                  
                   <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>                                    
                   <addrLine>Haute Savoie</addrLine>   
@@ -157,8 +156,10 @@
                   <lb/>au plus vite&vir; un petit ami
                   <lb/>qui ne vous oublie pas&vir;
                </salute>
-               <signed><lb/><persName ref="#Horel">Armand Horel</persName></signed> 
-               <address n="3">
+               <signed>
+                  <lb/><persName ref="#Horel">Armand Horel</persName>
+               </signed> 
+               <address type="addressee" place="Postcard">
                   <persName ref="#Comtesse_Forest">Comtesse de la Forêst</persName>
                   <addrLine>Bonne sur Menoge</addrLine>
                   <addrLine>Haute Savoie</addrLine>

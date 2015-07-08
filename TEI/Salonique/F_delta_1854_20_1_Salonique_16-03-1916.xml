@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -108,8 +107,8 @@
                <lb/>la victoire&pt; <hi rend="capitalize">p</hi>our nous marins c'est la même 
                <lb/>chose&vir; nous avons mis dans notre idée de
                <lb/>gagner et surement nous gagnerons<pc>.</pc> <hi rend="capitalize">j</hi>e vous
-               <lb/>fait part de ma nouvelle adresse<pc>.</pc> M<hi rend="super">ieur</hi>
-               <lb/><persName ref="#Horel">Horel Armand</persName> <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier &a; <address><addrLine>bord
+               <lb/>fait part de ma nouvelle adresse<pc>.</pc> <address place="postcard" type="sender"><persName ref="#Horel">M<hi rend="super">ieur</hi>
+               <lb/>Horel Armand&vir;</persName> <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier &a; bord
                      <lb/>du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_16031916">Shamrock II</name>&vir;</addrLine> <addrLine>Bureau 
                      <lb/>central naval</addrLine> <addrLine><placeName ref="#Marseille" xml:id="Marseille_16031916">Marseille</placeName></addrLine></address><choice><orig><pc>.</pc></orig><reg>&vir;</reg></choice> mais notre
                <lb/>adresse est &a; <name ref="#Marseille">Marseille</name> ce qui nous emp&ê;che
@@ -119,16 +118,16 @@
             <closer>
                <salute>
                   <hi rend="capitalize">u</hi>n petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice>
-                  <lb/><add type="normal" place="margin-right" rend="vertical" n="2">jamais</add>
+                  <lb/><add place="margin-right" rend="vertical">jamais</add>
                </salute>
                <signed>
-                  <add type="normal" place="margin-right" rend="vertical"><persName ref="#Horel" xml:id="Horel_16031916">A. Horel</persName></add> 
+                  <add place="margin-right" rend="vertical"><persName ref="#Horel" xml:id="Horel_16031916">A. Horel</persName></add> 
                </signed>
             </closer>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_053.jpg ../../FACS/BDIC_FD_1854_20_1_054.jpg">
             <p>
-               <address>
+               <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>                  
                   <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_16031916">Sanary s/ mer</placeName></del></addrLine>                  
@@ -136,7 +135,7 @@
                   <addrLine>France</addrLine>                    
                </address>
                <add hand="#other">
-                  <address>                        
+                  <address type="addressee" place="envelope">                        
                      <addrLine>48 rue de la Comédie</addrLine>                  
                      <addrLine><placeName ref="#Beaune" xml:id="Beaune_16031916">Beaune</placeName> Cote d'or</addrLine>                  
                   </address>
@@ -148,7 +147,7 @@
             <pb/>
             <p>
                envoi de
-               <address>
+               <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                      
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>                  
                   <addrLine> Bureau central - naval <placeName ref="#Marseille">Marseille</placeName></addrLine>

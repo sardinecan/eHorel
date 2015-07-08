@@ -26,8 +26,7 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -120,12 +119,12 @@
                   un petit 
                   <lb/>ami qui ne vous oublie pas&vir;
                </salute>
-               <signed><add type="normal" place="margin-right" rend="vertical" n="2"><persName ref="#Horel" xml:id="Horel_21021916">Armand Horel</persName></add></signed>
+               <signed><add place="margin-right" rend="vertical"><persName ref="#Horel" xml:id="Horel_21021916">Armand Horel</persName></add></signed>
             </closer>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_065.jpg ../../FACS/BDIC_FD_1854_20_1_066.jpg">
             <p>
-               <address>                        
+               <address type="addressee" place="envelope">                        
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_21021916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
@@ -139,7 +138,7 @@
             <pb/>
             <p>
                envoi de 
-               <address>
+               <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_21021916">Shamrock II</name></addrLine> 
                   <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_21021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>

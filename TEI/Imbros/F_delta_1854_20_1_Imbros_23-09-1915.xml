@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -81,18 +80,18 @@
                <lb/>l'embouchoure du <placeName ref="#Golf_Saros" xml:id="Golf_Saros_23091915">golfe de <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
                <lb/>Figurez vous que le <date when="1915-09-16">16 <choice><abbr>7<hi rend="super">bre</hi></abbr><expan>septembre</expan></choice></date> vers
                <lb/>7 <supplied reason="omitted">h</supplied> <hi rend="super">1/2</hi> du matin&vir; tout en nous lavant
-               <lb/>la figure&vir; qui est ce que nous aper
-               <lb rend="hyphen"/>çevont qui planait au dessus de 
+               <lb/>la figure&vir; qui est ce que nous 
+               aper<lb rend="hyphen"/>çevont qui planait au dessus de 
                <lb/>notre tête<pc type="supplied">?</pc> <hi rend="capitalize" >u</hi>n <choice><orig>aréoplane</orig><reg>aéroplane</reg></choice> boche&pt; <hi rend="capitalize" >i</hi>l
                <lb/>a <choice><orig>laisser</orig><reg>laissé</reg></choice> tomber <choice><orig>5</orig><reg>cinq</reg></choice> bombes sur le
                <cb/>
-               <address n="1">                              
+               <address place="postcard" type="addressee">                              
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>                  
                   <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_23091915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
                   <addrLine>Haute Savoie</addrLine>                  
                   <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1"/></addrLine>                  
                </address>
-               <add type="closer" place="margin-top" n="1">
+               <add type="postscript" place="margin-top">
                   <lb/>Comme je n'ai pas pu acheter d'autres cartes je vous <supplied reason="omitted">en</supplied> envoie <choice><orig>3</orig><reg>trois</reg></choice> de <placeName ref="#Toulon">Toulon</placeName>
                   <lb/>en attendant de m'en faire porter d'autres par les cuisiniers
                   <lb/>quand ils descendront &a; terre faire leur marché car nous
@@ -141,7 +140,7 @@
                <lb/>donne quand même &a;
                <lb/>manger et comme il n'y en a pas 
                <lb/>d'autre on est obligé de la manger&pt;
-               <address n="2">         
+               <address type="addressee" place="postcard">         
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>
                   <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
@@ -150,8 +149,8 @@
             </p>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_183.jpg ../../FACS/BDIC_FD_1854_20_1_184.jpg">
-            <p n="1">
-               <address n="a">
+            <p>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
@@ -165,9 +164,9 @@
                </stamp>               
             </p>
             <pb/>
-            <p n="2">
+            <p>
                envoi de 
-               <address n="e">  
+               <address type="sender" place="envelope">  
                   <persName ref="#Horel" xml:id="Horel_23091915">M<hi rend="super">ieur</hi>Horel Armand</persName> <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier</addrLine>
                   <addrLine>&a; bord du <name type="navire" ref="#H_IV" xml:id="H_IV_23091915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine> <addrLine><placeName ref="#Paris">Paris</placeName> Etranger</addrLine>      
                </address>

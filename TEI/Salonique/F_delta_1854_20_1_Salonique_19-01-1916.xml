@@ -28,7 +28,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -115,23 +114,21 @@
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> ans de plus que de perdre car je ne veux 
                ret<lb break="no"/>ourner dans mes foyers que <hi rend="minimize">F</hi>rançais et non
                <lb/>boche et je lutterai jusqu'&a; la mort pour rester
-               <lb/>un bon <hi rend="minimize">F</hi>rançais<pc>.</pc> 
+               <lb/>un bon <hi rend="minimize">F</hi>rançais<pc>.</pc> <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
+               <lb/>moment&vir; 
             </p>
             <closer>
                <salute>
-                  <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
-                  <lb/>moment&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
+                  un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
                <lb/>
                <signed>
                   <persName ref="#Horel" xml:id="Horel_19011916">Armand Horel</persName>
                </signed>
+               <salute>
+                  Bonne santé &a; tous les trois&pt;
+               </salute>
             </closer>
-            <postscript n="1">            
-               <p>
-                  Bonne santé &a; tous les trois
-               </p>
-            </postscript>
          </div>
       </body>
       <back>

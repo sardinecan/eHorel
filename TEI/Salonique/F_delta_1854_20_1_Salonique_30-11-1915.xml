@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -118,15 +117,15 @@
                <lb/>et dire que nous sommes qu'au commencement
             </p>
             <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_141.jpg" type="postcardBreak"/>
-            <ab> 
-               <address n="1">
+            <p> 
+               <address place="back" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>48 rue de la Comedie <surplus reason="repeated">48</surplus></addrLine>
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_30111915">Beaune</placeName></addrLine>
                   <addrLine>Cote d'or</addrLine> 
                   <addrLine>France<ref target="#F_delta_1854_20_1_Salonique_30-11-1915_note1" type="note" n="1"/></addrLine>     
                </address>
-            </ab>
+            </p>
             <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_142.jpg"/>
             <p>
                <add type="numbering" n="3" rend="center">3</add>

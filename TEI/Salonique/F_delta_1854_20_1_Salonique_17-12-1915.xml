@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -93,14 +92,14 @@
                <salute>
                   un petit ami qui vous souhaite
                   <lb/>une bonne et heureuse année
-                  <lb/><add type="normal" place="margin-right" rend="vertical">et une parfaite santé</add>&vir;
+                  <lb/><add place="margin-right" rend="vertical">et une parfaite santé</add>&vir;
                </salute>
-               <signed><add type="normal" place="margin-left" rend="vertical"><persName ref="#Horel" xml:id="Horel_17121915">Armand Horel</persName></add></signed>
+               <signed><add place="margin-left" rend="vertical"><persName ref="#Horel" xml:id="Horel_17121915">Armand Horel</persName></add></signed>
             </closer>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_121.jpg ../../FACS/BDIC_FD_1854_20_1_122.jpg">
             <p>
-               <address>
+               <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
@@ -114,7 +113,7 @@
             <pb/>
             <p>
                envoi de 
-               <address>
+               <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_17121915">Henri IV</name></addrLine> 
                   <addrLine>aux Dardanelles</addrLine>

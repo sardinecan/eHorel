@@ -27,7 +27,6 @@
       </fileDesc>
       <profileDesc>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="textDesc" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
@@ -87,7 +86,7 @@
                <lb/>font très rares depuis
                <lb/>que nous sommes ici&pt;
                <cb/>
-               <address n="1">
+               <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_20101915">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
                   <addrLine>Haute Savoie</addrLine>
@@ -100,7 +99,7 @@
                <figDesc>
                   <name ref="#H_IV" xml:id="H_IV_20101915">Henri IV</name>
                </figDesc>
-               <ab>
+               <p>
                   <stamp type="armee">
                      Cachet circulaire avec ancre marine <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
                   </stamp>
@@ -108,7 +107,7 @@
                      Cachet de la Poste <placeName>ne ma<gap reason="illegible" agent="rubbing"></gap></placeName> <date cert="medium" when="1915">15</date>
                   </stamp>
                   <add resp="#Horel">Présence d'une croix ajoutée à la main</add>
-               </ab>
+               </p>
             </figure>
             <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_168.jpg"/>
             <p>
@@ -132,7 +131,7 @@
                <lb/>regardez bien&vir; le canon se trouve
                <lb/>au dessous juste d'un petit canot&pt;
                <cb/>
-               <address n="2">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>
                   <addrLine>Haute Savoie</addrLine>
