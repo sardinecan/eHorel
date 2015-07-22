@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Moudros_03-09-1915">
       <body xml:id="F_delta_1854_20_1_Moudros_03-09-1915_b">
          <div type="letter">
-            <pb n="1"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_189.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_189.jpg"/>
                <figDesc>
                   Un bonjour de <placeName ref="#Toulon" xml:id="Toulon_03091915">Toulon</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_190.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_190.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Moudros" xml:id="Moudros_03091915">Moudros</placeName>&vir;
@@ -78,31 +82,35 @@
                <lb/>ni avarie au bâtiment<pc>.</pc> <hi rend="capitalize">n</hi>ous
                <lb/>avons <supplied reason="omitted">eu</supplied> un temps superbe pendant
                <lb/>toute notre traversée de <placeName ref="#Toulon">Toulon</placeName>
-               <lb/>&a; <placeName ref="#Moudros">Moudros</placeName><pc>.</pc> <hi rend="capitalize">h</hi>ier au soir nous
-               <lb/>avons rencontré <choice><orig>2</orig><reg>deux</reg></choice> <w rend="hyphen">sous</w><w>marins</w>
+               <lb/>&a; <placeName ref="#Moudros">Moudros</placeName><ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1"></ref><pc>.</pc> <hi rend="capitalize">h</hi>ier au soir nous
+               <lb/>avons rencontré <choice><orig>2</orig><reg>deux</reg></choice> sous<supplied reason="compose">-</supplied>marins
                <lb/><hi rend="minimize">A</hi>nglais qui étaient <choice><orig>accompagné</orig><reg>accompagnés</reg></choice>
                <lb/>par deux remorqueurs et qui 
-               <lb/>faisaient route pour les 
-               <placeName ref="#Dardanelles" xml:id="Dardanelles_03091915">dar<lb rend="hyphen"/>danelles</placeName><pc>.</pc> <hi rend="capitalize">q</hi>uel bonheur pour
+               <lb/>faisaient route pour les                
+               <placeName ref="#Dardanelles" xml:id="Dardanelles_03091915"><w><hi rend="capitalize">d</hi>ar<lb rend="hyphen"/>danelles</w><pc>.</pc></placeName> <hi rend="capitalize">q</hi>uel bonheur pour
                <lb/>nous que ce soit pas <choice><orig>2</orig><reg>deux</reg></choice> allemands
                <lb/>ou autrichiens&vir; autrement ça aurait
                <lb/>surement changé de note&pt;
                <cb/>
                <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_03091915">Bonne sur Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1"></ref></addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_03091915">Bonne<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_03091915">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_03091915">France</placeName><ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_notea" n="a"></ref></addrLine>
                </address>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_187.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_187.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_187.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon">Toulon</placeName> - Le Quai Cronstadt
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_188.jpg"/> 
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_188.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/> 
             <p>
                <add type="numbering" n="2" rend="left"><pc>.</pc>2<pc>.</pc></add>
                <lb/><hi rend="capitalize">p</hi>our votre commission
@@ -123,25 +131,29 @@
                <cb/>
                <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>
                </address>
             </p>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_185.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_185.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_185.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon">Toulon</placeName> - Porte Notre-Dame
                </figDesc>
             </figure>
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_186.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_186.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="3" rend="left"><pc>.</pc>3<pc>.</pc></add>
                <lb/>Je vais envoyer comme vous
                <lb/>me l'avez dit sur votre lettre
-               <lb/>quelques lignes &a; M<hi rend="super">ieur</hi> <persName ref="#Le_Mire" xml:id="Le_Mire_03091915">Le Mire
-               <lb/>de Viller</persName><pc type="surplus">.</pc> et je lui expliquerai
+               <lb/>quelques lignes &a; M<hi rend="super">ieur</hi> <persName ref="#Le_Mire" xml:id="Le_Mire_03091915">Le <choice><orig>Mire</orig><reg>Myre</reg></choice>
+               <lb/>de <choice><orig>Viller</orig><reg>Vilers</reg></choice></persName><pc type="surplus">.</pc> et je lui expliquerai
                <lb/>textuellement comme vous 
                <lb/>m'avez dit de lui dire<pc>.</pc> <hi rend="capitalize">j</hi>amais
                <lb/>je vous payerai les services 
@@ -163,23 +175,30 @@
                <cb/>
                <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge">Bonne sur Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>
                </address>
             </closer>
          </div>
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_notea" n="a">
                Adresse présente sur toutes les cartes postales.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">
+               En mai 1915, le général <persName ref="#Gouraud" xml:id="Gouraud_03091915">Gouraud</persName>, commandant le corps expéditionnaire d'Orient, cherche des alternatives à la prise de Gallipoli. 
+               Il oeuvre pour une installation des troupes française sur l'île de <placeName ref="#Mytilene" xml:id="Mytilene_03091915">Mytilène</placeName> au Sud-Ouest de <placeName ref="#Lemnos" xml:id="Lemnos_03091915">Lemnos</placeName> mais le gouvernement français refuse
+               sa requête pour ne pas froisser la neutralité grecque. 
+               <bibl corresp="#Andurain_Gouraud"/>
             </note>
          </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>         
       </back>
   </text>

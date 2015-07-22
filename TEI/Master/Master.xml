@@ -19,8 +19,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt xml:id="titleStmt">
-            <title n="1">Don de Madame <persName ref="#Comtesse_Forest">la Comtesse de la Forest</persName>, Cartes postales illustrées</title>
+            <title n="1">Don de Madame <persName ref="#Comtesse_Forest">la Comtesse de la Forest</persName></title>
             <title n="2">Souvenir de soldats</title>
+            <title n="3">Cartes postales illustrées</title>
             <respStmt>
                <resp>Transcription et encodage XML/TEI : </resp>
                <name xml:id="J_M">Josselin Morvan (étudiant à l'École des Chartes)</name>
@@ -353,19 +354,42 @@
          </fileDesc>
       </teiHeader>
       <text>
+         <front xml:id="introduction">
+            <p>
+               Originaire du Morbihan, <persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né le 3 septembre 1889 à Caudan. 
+               Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer,
+               se savent ni lire ni écrire. 
+               En <date when="1906">1907</date>, alors qu'il n'a que dix-huit ans, il s'engage, pour cinq années, dans la marine.
+               Il est alors incorporé à <placeName ref="#Lorient">Lorient</placeName>,  au troisième dépôt des équipages de la Flotte, comme apprenti canonnier. 
+               Blessé en service commandé sur la «<name type="navire" ref="#Couronne">Couronne</name>» le 12 août 1908, il sera décoré de la médaille militaire puis reçu matelot de 2<hi rend="super">e</hi> classe canonnier breveté le <date when="1908-11-01">1<hi rend="super">er</hi> novembre de la même année</date>.
+               Il se réengage pour trois ans en 1912 en tant que quartier-maitre canonnier de 2<hi rend="super">e</hi> classe.
+               A partir d'avril 1913, il est affecté par des décisions ministérielles à différentes compagnies de gendarmerie maritime.
+            </p>
+            <p>
+               Lorsque la guerre éclate, <persName ref="#Horel">Armand Horel</persName> est réintégré dans les unités combattantes dès le <date when="1914-08-02">2 août 1914</date>.
+               Jusqu'à sa démobilisation le <date when="1919-03-19">19 mars 1919</date>, il servira sur différents bâtiments de la Flotte française ; d'abord durant la campagne des <placeName ref="#Dardanelles">Dardanelles</placeName>
+               puis à Salonique, Corfou et Patras. A travers cet ensemble épistolaire, composée de cent cinquante-quatre cartes postales et quelques lettres qu'il a envoyées à la <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>,
+               plus connue sous le nom de <persName ref="#Silve_Claude">Claude Silve</persName>, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, 
+               témoin du théâtre d'opérations du front d'Orient. 
+               Il évoque certains faits marquant du conflit, comme l'entrée en guerre de la <placeName ref="#Bulgarie">Bulgarie</placeName>, le développement de la guerre sous-marine, ou l'épisode de grippe espagnole en 1918.                 
+            </p>
+            <linkGrp corresp="#Horel" type="Sender">               
+               <link type="naissance" target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0#id:1479049212?center=1210.0452674897138,-2149.5925925925935&amp;zoom=5"/>
+               <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta5461abaea1e01/daogrp/0/layout:table/idsearch:RECH_5c3d4b98b4e4cb3f25200e099a55fbcd#id:1534499178?center=988,-1493"/>            
+            </linkGrp>
+            <linkGrp corresp="#Comtesse_Forest" type="received">
+               <link type="naissance" target="http://mdr-archives.ariege.fr/mdr/index.php/docnumViewer/afficheDocnum/40/N/vue"/>
+            </linkGrp>
+            <linkGrp corresp="#Horel_Louis">
+               <link type="naissance" target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=3286.3855490876335,-2182.1979306282437&amp;zoom=5"/>
+               <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta545b94d6d71fe/daogrp/0/layout:table/idsearch:RECH_be32f1aa6a0426e5a1e4083a83279fd3#id:414562807?center=1013.5,-1513.5"/>
+               <link type="mpf" target="http://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/m005239ee9fc8c0e/5242be4be00d9"/>
+            </linkGrp>
+
+         </front>
          <body>
             <list xml:id="glossaire">              
-               <item xml:id="H_IV" corresp="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#H_IV_08081915
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#H_IV_29081915
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#H_IV_07011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#H_IV_07121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml#H_IV_12011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#H_IV_17121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#H_IV_19011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#H_IV_27121915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#H_IV_20101915
-                  ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#H_IV_23091915
-                  ">
+               <item xml:id="H_IV">
                   <label>
                      <name type="navire">Henri IV</name>
                      <w>le</w>                     
@@ -395,52 +419,123 @@
                      <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#H_IV_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>
                   </note>
                </item>
-               <item xml:id="Lavoisier" corresp="
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Turquoise_10111915
-                  ">
+               <item xml:id="Couronne">
+                  <label>
+                     <name type="navire">Couronne</name>
+                     <rs>la</rs>
+                  </label>
+                  <desc>
+                     Frégate cuirassée type Gloire <date from="1862" to="1911"/>
+                  </desc>
+                  <listEvent>
+                     <event><p><date when="1888">1888</date> Transformé en vaisseau-école pour canonniers</p></event>
+                     <event><p><date from="1908" to="1931">1908-1903</date> Caserne-atelier central de la Flotte</p></event>
+                  </listEvent>
+                  <note>
+                     <!-- todo -->
+                  </note>
+               </item>
+               <item xml:id="Lavoisier">
                   <label>
                      <name type="navire">Lavoisier</name>
-                     <w>le</w>
-                     <state>
-                        <p>Croiseur de 2e classe <date from="1897" to="1920"/></p>
-                     </state>
+                     <rs>le</rs>
                   </label>
+                  <desc>
+                     Croiseur de 2e classe <date from="1897" to="1920"/>
+                  </desc>
                   <listEvent>
                      <event><p><date when="1915-12-30">1915 (décembre) </date> Envoyé à <placeName ref="#Port_Said">Port-Saïd</placeName></p></event>
                      <event><p><date when="1916-02">1916 (février)</date> Affecté au secteur de Méditérranée occidentale</p></event>
                      <event><p><date when="1916-09">1916 (septembre)</date> Envoyé au <placeName ref="#Maroc">Maroc</placeName></p></event>
                      <event><p><date when="1919">1919</date> Stationnement en Syrie</p></event>
                   </listEvent>
+                  <note>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#lavoisier_10111915"><placeName ref="#Port_Iero"><date when="1915-11-10"></date></placeName></ref>
+                  </note>
                </item>
-               <item xml:id="Turquoise" corresp="
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Turquoise_10111915
-                  ">
+               <item xml:id="Boeuf">
+                  <label>
+                     <name type="navire">Boeuf</name>
+                     <rs>le</rs>
+                  </label>
+                  <desc>
+                     Remorqueur <date from="1909" to="1942"/>
+                  </desc>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml#Boeuf_24011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-24"/></ref>
+                  </note>                  
+               </item>
+               <item xml:id="Goeland">
+                  <label>
+                     <name type="navire">Goéland III</name><!-- todo faire une note sur tout les goelands -->
+                     <rs>le</rs>                     
+                  </label>
+                  <desc>
+                     Dragueur auxiliaire <date from="1915" to="1919"/>
+                  </desc>
+                  <note>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Goeland_03111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                  </note>                  
+               </item>
+               <item xml:id="Provence">
+                  <label>
+                     <name type="navire">Provence II</name>
+                     <rs>le</rs>                     
+                  </label>
+                  <desc>Croiseur auxiliaire <date from="1914" to="1916"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date notAfter="1914">Avant 1914</date> Paquebot «Provence» de la Compagnie générale transtlantique</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-04-25">1915 (avril)</date> Participe au débarquement de dans les <placeName>Dardanelles</placeName> et au bombardement des côtes</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-02-16">26 février 1916</date> Torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Egée alors qu'il transportait des troupes. </p>
+                     </event>
+                  </listEvent>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Provence_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
+                  </note>                  
+               </item>
+               <item xml:id="U_35">
+                  <label>
+                     <name type="navire">Unterseeboot 35</name>
+                     <rs>le</rs>                     
+                  </label>
+                  <desc>Sous-marins allemand type U-31 <date from="1914" to="1918"/></desc>
+                  <listEvent>
+                     <event><p><date from="1916-01" to="1916-10">1916 (janvier à octobre)</date> Coule 52 navires alliés, ce qui reste le tableau de chasse le plus important de la première guerre.</p></event>
+                  </listEvent>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#U_35_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
+                  </note>                  
+               </item>
+               <item xml:id="Turquoise">
                   <label>
                      <name type="navire">Turquoise</name>
-                     <w>le</w>
-                     <state>
-                        <p>Sous-marin pur type Emeraude <date from="1910" to="1915"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Sous-marin pur type Emeraude <date from="1910" to="1915"/>                     
+                  </desc>
                   <listEvent>
                      <event><p><date when="1915">1915</date> Stationnement aux <placeName ref="#Dardanelles">Dardanelles</placeName> pour le blocus du détroit</p></event>
-                     <event><p><date when="1915-10-30">1915 (octobre)</date> Capturé par des filets turcs devant Nagara, l'équipage rend</p></event>
+                     <event><p><date when="1915-10-30">1915 (octobre)</date> Capturé par des filets turcs devant Nagara, l'équipage est contraint de se rendre</p></event>
                      <event><p><date when="1919-11-12">1919 (novembre)</date> Restitué et condamné par la marine française</p></event>
                   </listEvent>
                   <note>
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Turquoise_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
                   </note>
                </item>
-               <item xml:id="Charlemagne" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Charlemagne_16111915
-                  ">
+               <item xml:id="Charlemagne">
                   <label>                     
                      <name type="navire">Charlemagne</name>
-                     <w>le</w>
-                     <state>
-                        <p>Cuirassé type Charlemagne <date from="1897" to="1920"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Cuirassé type Charlemagne <date from="1897" to="1920"/>                     
+                  </desc>
                   <listEvent>                     
                      <event><p><date from="1914-11" to="1915-04">1914 (novembre) &#x2014; 1915 (avril)</date> Envoyé au <placeName ref="#Dardanelles">Dardanelles</placeName></p></event>
                      <event><p><date when="1915-03">1915 (mars)</date> Affecté au bombardement des côtes</p></event>
@@ -457,16 +552,14 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Charlemagne_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
                   </note>
                </item>
-               <item xml:id="Dupleix" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Dupleix_16111915
-                  ">
+               <item xml:id="Dupleix">
                   <label>
                      <name type="navire">Dupleix</name>
-                     <w>le</w>
-                     <state>
-                        <p>Croiseur cuirassé type Dupleix <date from="1903" to="1919"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Croiseur cuirassé type Dupleix <date from="1903" to="1919"/>                     
+                  </desc>
                   <listEvent>
                      <event><p><date when="1915">1915</date> Transport de troupe à <placeName ref="#Canal_Suez">Suez</placeName></p></event>
                      <event><p><date when="1915-05">1915 (mai)</date> Participe au bombardement de Boudrum</p></event>
@@ -476,34 +569,30 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Dupleix_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
                   </note>
                </item>
-               <item xml:id="Hussard" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Hussard_03011916
-                  ">
+               <item xml:id="Hussard">
                   <label>
                      <name type="navire">Hussard</name>
-                     <w>le</w>
-                     <state>
-                        <p>Contre-torpilleur de 450t type Spahi <date from="1911" to="1922"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Contre-torpilleur de 450t type Spahi <date from="1911" to="1922"/>                     
+                  </desc>
                   <listEvent>
-                     <event><p><date when="1913">1913</date> Torpilleur d'escadre, stationnement en mer Adriatique</p></event>
+                     <event><p><date when="1913">1913</date> Torpilleur d'escadre, stationné en mer Adriatique</p></event>
                      <event><p><date when="1916">1916</date> Envoyé en mer Egée</p></event>
                   </listEvent>
                   <note>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Hussard_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>
                   </note>
                </item>
-               <item xml:id="Spahis" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Spahis_03011916
-                  ">
+               <item xml:id="Spahis">
                   <label>
                      <name type="navire">Spahis</name>
-                     <w>le</w>
-                     <state>
-                        <p>Contre-torpilleur de 450t type Spahi <date from="1910" to="1927"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Contre-torpilleur de 450t type Spahi <date from="1910" to="1927"/>                     
+                  </desc>
                   <listEvent>
                      <event><p><date when="1913">1913</date> Torpilleur d'escadre, stationnement en mer Adriatique</p></event>
                      <event><p><date when="1916">1916</date> Envoyé en mer Egée puis affecté à la défense mobile de Tunisie</p></event>
@@ -512,16 +601,14 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Spahis_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>
                   </note>
                </item>
-               <item xml:id="Askold" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Askold_07121915
-                  ">
+               <item xml:id="Askold">
                   <label>
                      <name type="navire">Askold</name>
-                     <w>l'</w>
-                     <state>
-                        <p>Croiseur protégé (marine impériale russe) <date from="1902" to="1918"/></p>
-                     </state>
+                     <rs>l'</rs>                     
                   </label>
+                  <desc>
+                     Croiseur protégé (marine impériale russe) <date from="1902" to="1918"/>
+                  </desc>
                   <listEvent>
                      <event><p><date when="1914">1914</date> Affecté à la recherche de l'escadre allemande dans le Pacifique sud</p></event>
                      <event><p><date when="1914">1914</date> Transféré en méditerranée</p></event>
@@ -530,37 +617,23 @@
                      <event><p><date when="1916">1916</date> Subit des réparations à Toulon</p></event>
                      <event><p><date when="1916-09-01">1916 (septembre)</date> Acte de sabotage à bord du navire</p></event>
                      <event><p><date when="1917">1917</date> Intégré dans l'Armée blanche pour combattre les bolchéviks, il est capturé en décembre 1917</p></event>
-                     <event><p><date when="1918-07-14">1918 (juillet)</date> Les troupes anglaises s'empararent du croiseur qui est rebaptisé HMS Glory IV par la Royal Navy</p></event>
+                     <event><p><date when="1918-07-14">1918 (juillet)</date> Les troupes anglaises s'emparent du croiseur qui est rebaptisé HMS Glory IV par la Royal Navy</p></event>
                   </listEvent>
                   <note>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Askold_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>
                   </note>
                </item>
-               <item xml:id="Shamrock_II" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Shamrock_II_05021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Shamrock_II_07011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Shamrock_II_09041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Shamrock_II_10031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Shamrock_II_15041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Shamrock_II_16021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Shamrock_II_16031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Shamrock_II_17031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Shamrock_II_21021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Shamrock_II_21041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Shamrock_II_27041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Shamrock_II_31011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Shamrock_II_a05-02_B16-03
-                  ">
+               <item xml:id="Shamrock_II">
                   <label>
                      <name type="navire">Shamrock II</name>
-                     <w>le</w>
-                     <state>
-                        <p>Patrouilleur auxilliaire <date from="1915" to="1919"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Patrouilleur auxilliaire <date from="1915" to="1919"/>
+                  </desc>
                   <listEvent>
                      <event><p><date notAfter="1915">Avant 1915</date> Chalutier</p></event>
-                     <event><p><date from="1915-02-07" to="1919-03-08">1915 (février) &#x2014; 1919 (mars)</date> Réquisitionné à La Rochelle, envoyé en mer Ionnienne</p></event>
+                     <event><p><date from="1915-02-07" to="1919-03-08">1915 (février) &#x2014; 1919 (mars)</date> Réquisitionné à La Rochelle puis envoyé en mer Ionnienne</p></event>
                   </listEvent>
                   <note>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Shamrock_II_05021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-05"/></ref>
@@ -578,51 +651,45 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Shamrock_II_a05-02_B16-03"><placeName ref="#Salonique">Salonique</placeName><date type="unknow"/></ref>
                   </note>
                </item>
-               <item xml:id="Lutetia" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Lutetia_19011916
-                  ">
+               <item xml:id="Lutetia">
                   <label>
                      <name type="navire">Lutétia</name>
-                     <w>le</w>
-                     <state>
-                        <p>Croiseur auxilliaire <date from="1915" to="1917"/></p>
-                     </state>
-                  </label>                  
+                     <rs>le</rs>                     
+                  </label>      
+                  <desc>
+                     Croiseur auxilliaire <date from="1915" to="1917"/>
+                  </desc>
                   <listEvent>
                      <event><p><date notAfter="1915">Avant 1915</date> Paquebot sud Atlantique</p></event>
                      <event><p><date when="1915-03-19">1915 (mars)</date> Réquisitionné</p></event>
-                     <event><p><date when="1916-04-10">1916 (avril)</date> Transport de troupe russes à <placeName ref="#Salonique">Salonique</placeName></p></event>
+                     <event><p><date when="1916-04-10">1916 (avril)</date> Transport des troupes russes à <placeName ref="#Salonique">Salonique</placeName></p></event>
                   </listEvent>
                   <note>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Lutetia_19011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-19"/></ref>
                   </note>
                </item>
-               <item xml:id="Aviatik" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Aviatik_05021916
-                  ">
+               <item xml:id="Aviatik">
                   <label>
-                     <name>Aviatik</name>
-                     <state>
-                        <p>Biplan allemand</p>
-                     </state>
+                     <name type="entree">Aviatik</name>                     
                   </label>
+                  <desc>
+                     Biplan allemand
+                  </desc>
                   <listEvent>
                      <event><p>Aviatik B1 : Biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p></event>
-                     <event><p>Aviatik B2 : Proche du B1, il est de fabrication autrichienne. Il a été utilisé comme bombardier léger</p></event>
+                     <event><p>Aviatik B2 : Proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p></event>
                   </listEvent>
                   <note>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Aviatik_05021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-05"/></ref>
                   </note>
                </item>
-               <item xml:id="Lebel" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Lebel_21041916
-                  ">
+               <item xml:id="Lebel">
                   <label>
-                     <name>Lebel</name>
-                     <state>
-                        <p>Fusil</p>
-                     </state>
+                     <name type="entree">Lebel</name>                     
                   </label>
+                  <desc>
+                     Fusil
+                  </desc>
                   <listEvent>
                      <event><p>Du nom du Colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point.</p></event>
                      <event><p>Fusil à culasse verrouillée d'un calibre de 8mm et d'un poids d'environ 4,200kg. Il peut être équipé d'une baïonnette.</p></event>
@@ -631,20 +698,18 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Lebel_21041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-21"/></ref>
                   </note>
                </item>
-               <item xml:id="Memphis" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Memphis_03011916
-                  ">
+               <item xml:id="Memphis">
                   <label>
                      <name type="navire">Memphis</name>
-                     <w>le</w>
-                     <state>
-                        <p>Transport auxilliaire <date from="1915" to="1916"/></p>
-                     </state>
+                     <rs>le</rs>                     
                   </label>
+                  <desc>
+                     Transport auxilliaire <date from="1915" to="1916"/>
+                  </desc>
                   <listEvent>
-                     <event><p><date notAfter="1915">Avant 1915</date>Paquebot Byzantion, racheté en 1895 par la compagnie des Messagerie Maritimes et rabaptisé <name ref="#Memphis">Memphis</name></p></event>
+                     <event><p><date notAfter="1915">Avant 1915</date> Paquebot Byzantion, racheté en 1895 par la compagnie des Messagerie Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p></event>
                      <event><p><date when="1915">1915</date> Réquisitionné</p></event>
-                     <event><p><date when="1916">1916</date> affecté au transport de troupe serbe de Durazzo à <placeName ref="#Corfou">Corfou</placeName></p></event>
+                     <event><p><date when="1916">1916</date> affecté au transport des troupes serbes de Durazzo à <placeName ref="#Corfou">Corfou</placeName></p></event>
                      <event><p><date when="1916-02-16">1916 (février)</date> Saute sur une mine et échoue près de Durazzo</p></event>
                   </listEvent>
                   <note>
@@ -653,16 +718,7 @@
                </item>
             </list>
             <listPlace xml:id="place">            
-               <place xml:id="Toulon" corresp="                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Toulon_08081915                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Toulon_29081915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Toulon_17121915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Toulon_19011916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml#Toulon_20121915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Toulon_23111915                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Toulon_10111915                  
-                  ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Toulon_03091915
-                  ">                     
+               <place xml:id="Toulon">                     
                   <placeName type="ville_fr">
                      Toulon                                             
                   </placeName>
@@ -679,20 +735,31 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Toulon_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>                     
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Toulon_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>                     
                      <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Toulon_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>                     
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Toulon_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
                   </note>                  
                </place>                  
-               <place xml:id="Var" corresp="                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Var_08081915                  
-                  ">               
+               <place xml:id="Var">               
                   <placeName type="dep_fr">                  
                   Var                  
-                  </placeName>
+                  </placeName>                  
                   <location>
                      <country>France</country>
                      <district type="region">Provence-Alpes-Côte d'azur</district>
                   </location>                  
-                  <note>                  
-                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Var_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>                     
+                  <note>                      
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Var_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Var_05021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-05"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Var_07011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-07"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Var_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>                     
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Var_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Var_16031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-16"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Var_17121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-17"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Var_21021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-21"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Var_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Var_27121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Var_31011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-31"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Var_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1916-01-31"/></ref>
+                     
                   </note>                  
                </place>               
                <place xml:id="Tamaris">               
@@ -708,27 +775,25 @@
                      <district type="arrondissement">Toulon</district>
                      <district type="ville">La Seyne-sur-mer</district>
                   </location>                  
+               </place>
+               <place xml:id="Bulgarie">               
+                  <placeName>
+                     Bulgarie                     
+                  </placeName>                  
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Bulgarie_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Bulgarie_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-09"/></ref>
+                  </note>                  
+               </place>
+               <place xml:id="Autriche_Hongrie">               
+                  <placeName>
+                     Autriche-Hongrie                    
+                  </placeName>                  
+                  <note>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Autriche_Hongrie_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-09"/></ref>
+                  </note>                  
                </place>               
-               <place xml:id="Dardanelles" corresp="                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Dardanelles_08081915                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Dardanelles_29081915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Dardanelles_05021916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Dardanelles_07011916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Dardanelles_07121915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Dardanelles_09041916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Dardanelles_10031916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Dardanelles_16021916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Dardanelles_21021916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Dardanelles_23111915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Dardanelles_27041916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Dardanelles_27121915                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Dardanelles_31011916                  
-                  ../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Dardannelles_a05-02_B16-03                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Dardanelles_09101915                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Dardanelles_10111915                  
-                  ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Dardanelles_23091915                  
-                  ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Dardanelles_03091915                  
-                  ">               
+               <place xml:id="Dardanelles">               
                   <placeName>                                                      
                      Dardanelles                                                                                    
                   </placeName>  
@@ -742,7 +807,11 @@
                      </desc>                       
                   </location>                                 
                   <event>
-                     <p>Lieu de la bataille dite des Dardanelles qui opposa les troupes de la triple entente (Royaume-Uni, France, Russie Impriale) aux troupes de la triple alliance (Empires allemand, austro-hongrois et ottoman</p>
+                     <p>Entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en 
+                        guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des 
+                        Dardanelles devient un enjeux stratégique pour les deux camps.
+                        Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée 
+                        à la mer Noire devait permettre d'assurer une liaison entre entre la Russie et les forces franco-britanniques.</p>
                   </event>
                   <note>                  
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Dardanelles_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>                     
@@ -763,11 +832,10 @@
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Dardanelles_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>                     
                      <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Dardanelles_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>                     
                      <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Dardanelles_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>                     
+                     <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Dardanelles_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>
                   </note>                     
                </place>               
-               <place xml:id="St-Germain" corresp="                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#St-Germain_08081915                  
-                  ">               
+               <place xml:id="St-Germain">               
                   <placeName type="ville_fr">                  
                   Saint-Germain-en-Laye                  
                   </placeName>
@@ -779,16 +847,7 @@
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#St-Germain_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Bonne_Menoge" corresp="                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Bonne_Menoge_08081915                  
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Bonne_Menoge_29081915                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#Bonne_Menoge_20101915                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Bonne_Menoge_27101915                  
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Bonne_Menoge_a27-10_b3-11                  
-                  ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Bonne_Menoge_23091915                  
-                  ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Bonne_Menoge_03091915                  
-                  ../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Bonne_Menoge_06101915                  
-                  ">               
+               <place xml:id="Bonne_Menoge">               
                   <placeName type="ville_fr">                  
                   Bonne-sur-Menoge                  
                   </placeName>                     
@@ -808,11 +867,7 @@
                      <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Bonne_Menoge_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>                    
                   </note>                  
                </place>               
-               <place xml:id="Melun" corresp="               
-               ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Melun_29081915               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Melun_16021916               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Melun_04111916               
-               ">               
+               <place xml:id="Melun">               
                   <placeName type="ville_fr">Melun</placeName> <!-- à propose du frère d'Armand, 193-198 -->
                   <location>                        
                      <country>France</country>
@@ -824,9 +879,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Melun_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="St-Mandrier" corresp="               
-               ../Toulon//F_delta_1854_20_1_Toulon_29-08-1915.xml#St_Mandrier_29081915               
-               ">               
+               <place xml:id="St-Mandrier">               
                   <placeName type="ville_fr">Saint-Mandrier-sur-Mer</placeName>
                   <location>                        
                      <country>France</country>
@@ -837,23 +890,19 @@
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#St_Mandrier_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Paris" corresp="               
-               ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Paris_29081915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Paris_09101915               
-               ">               
+               <place xml:id="Paris">               
                   <placeName type="ville_fr">Paris</placeName> <!-- Adresse par Paris  cartes 193-->  
                   <location>                        
                      <country>France</country>
                      <district type="departement">ch.-l.dép. Paris</district>                    
                   </location>
                   <note>                  
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Paris_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Paris_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>                     
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Paris_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Lorient" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Lorient_04111916               
-               ">               
+               <place xml:id="Lorient" >               
                   <placeName type="ville_fr">Lorient</placeName> <!-- agraffe à l'inscription maritime de carte 193 --> 
                   <location>                        
                      <country>France</country>
@@ -863,10 +912,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Lorient_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Moudros" corresp="               
-               ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Moudros_29081915               
-               ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Moudros_03091915               
-               ">               
+               <place xml:id="Moudros">               
                   <placeName type="ville_gr">
                      Moudros                                           
                   </placeName> <!-- stationnement carte 185-190 -->
@@ -880,31 +926,27 @@
                      <district type="deme">Lemnos</district><!-- communauté -->                                            
                   </location>
                   <event>
-                     <p>Le 30 octobre 1918, l'Empire ottoman signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
+                     <p>Le 30 octobre 1918, l'Empire ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
                   </event>                  
                   <note>                  
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Moudros_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>                     
                      <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Moudros_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Imbros" corresp="               
-               ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Imbros_23091915               
-               ">               
-                  <placeName><orig>Imbros</orig><reg></reg></placeName> <!-- carte 179 -->  
+               <place xml:id="Imbros">               
+                  <placeName type="ville_tc">Imbros</placeName> <!-- carte 179 -->  
                   <!--<placeName type="other" subtype="today">Gökçeada ou İmroz (turc)</placeName>-->
                   <location>
                      <country>Turquie</country>
                      <district type="region">Marmara</district><!-- région -->
                      <district type="province">Çanakkale</district><!-- district régional -->
-                     <district type="district">District de Gökçeada</district><!-- communauté -->                                            
+                     <district type="district">Gökçeada</district><!-- communauté -->                                            
                   </location>
                   <note>                  
                      <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Imbros_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Golf_Saros" corresp="               
-               ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Golf_Saros_23091915               
-               ">               
+               <place xml:id="Golf_Saros">               
                   <placeName>Golf de Saros</placeName>
                   <location>
                      <country>Turquie</country>
@@ -917,16 +959,7 @@
                      <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Golf_Saros_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>                   
                   </note>                  
                </place>               
-               <place xml:id="Metelin" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Metelin_16111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Metelin_30111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Metelin_03111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Metelin_09101915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Metelin_10111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Metelin_27101915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Metelin_a27-10_b3-11               
-               ../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Metelin_06101915               
-               ">               
+               <place xml:id="Metelin">               
                   <placeName>Mételin</placeName>
                   <note type="link">
                      <ref corresp="#Mytilene">voir Mytilène</ref>
@@ -942,9 +975,7 @@
                      <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Metelin_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Mytilene" corresp="               
-               ../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Mytilene_06101915               
-               ">               
+               <place xml:id="Mytilene">               
                   <placeName type="ville_gr">Mytilène</placeName> <!-- stationnement carte 177-178 -->
                   <location>
                      <country>Grèce</country>
@@ -952,14 +983,53 @@
                      <district type="district">Lesbos</district><!-- district régional -->
                      <district type="deme">Lesbos</district><!-- communauté -->                                            
                   </location>                  
-                  <note>                  
+                  <note>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Mytilene_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>
                      <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Mytilene_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>                     
+                     <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Mytilene_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
                   </note>                  
-               </place>               
-               <place xml:id="Mandamados" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Mandamados_30111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Mandamados_09101915               
-               ">               
+               </place>
+               <place xml:id="Lemnos">               
+                  <placeName>Lemnos</placeName> <!-- stationnement carte 177-178 -->
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Egée-Septentrionale</district><!-- région -->
+                     <district type="deme">Lemnos</district><!-- district régional -->                                                                 
+                  </location>                  
+                  <note>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Lemnos_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>                                          
+                     <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Lemnos_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
+                  </note>                  
+               </place>
+               <place xml:id="Gallipoli">
+                  <placeName type="renvoi">Gallipoli</placeName>
+                  <link target="#Canakkale"/>                                    
+               </place>
+               <place xml:id="Canakkale">               
+                  <placeName type="ville_tc">Çanakkale</placeName>
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district><!-- région -->
+                     <district type="province">Çanakkale</district><!-- district régional -->
+                     <district type="district">Marmara</district><!-- communauté -->
+                  </location>                 
+                  <note>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_08-08-1915.xml#Gallipoli_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>                                          
+                  </note>
+               </place>
+               <place xml:id="Tenedos">               
+                  <placeName type="ville_tc">Ténédos</placeName> <!-- stationnement carte 177-178 -->
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district><!-- région -->
+                     <district type="province">Çanakkale</district><!-- district régional -->
+                     <district type="district">Bozcaada</district><!-- communauté -->                                                                                                         
+                  </location>                  
+                  <note>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Tenedos_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>                     
+                  </note>                  
+               </place>
+               <place xml:id="Mandamados">               
                   <placeName type="ville_gr">Mandamados</placeName> <!-- carte 173-176 /-/-(salonique) -->   
                   <location>
                      <country>Grèce</country>
@@ -972,15 +1042,7 @@
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Mandamados_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Port_Iero" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Port_Iero_16111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Port_Iero_03111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Port_Iero_09101915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Port_Iero_10111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#Port_Iero_20101915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Port_iero_27101915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Port_iero_a27-10_b3-11               
-               ">               
+               <place xml:id="Port_Iero">               
                   <placeName type="ville_gr">Port Iéro</placeName> <!-- stationnement carte 173-176 -->
                   <location>
                      <country>Grèce</country>
@@ -998,58 +1060,24 @@
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Port_Iero_a27-10_b3-11"><placeName ref="#Port_Iero">Port Iero</placeName><date type="unknow"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Roumanie" corresp="               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Roumanie_09101915               
-               ">               
+               <place xml:id="Roumanie">               
                   <placeName>Roumanie</placeName> <!-- Bulgarie référence à l'entrée en guerre de ces pays lettre 173-176 -->                  
                   <event><p>Le 17 août 1916 une traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".</p></event>
-                  <note>                  
+                  <note>   
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Roumanie_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Roumanie_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Grece" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Grece_07121915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Grece_09101915               
-               ">               
+               <place xml:id="Grece">               
                   <placeName>Grèce</placeName> <!-- idem Bulgarie 173-176 -->  <!-- to do page 403 -->                
-                  <note>                  
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Grece_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Grece_19011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-19"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Grece_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>                     
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Grece_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-09"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Salonique" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Salonique_03011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml#Salonique_03041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Salonique_05021916               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Salonique_07011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Salonique_07121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Salonique_09041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Salonique_10031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml#Salonique_12011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Salonique_14121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Salonique_15041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_15-05-1915.xml#Salonique_15051915               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Salonique_16021916               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Salonique_16031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Salonique_16111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Salonique_17031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Salonique_17121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Salonique_19011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml#Salonique_20121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Salonique_21021916               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Salonique_21041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Salonique_22031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Salonique_23111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml#Salonique_24011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Salonique_25011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Salonique_27041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Salonique_27121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Salonique_28031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Salonique_30111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Salonique_31011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Salonique_a05-02_B16-03               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Salonique_09101915               
-               ">               
+               <place xml:id="Salonique">               
                   <placeName type="ville_gr">
                      Salonique                     
                   </placeName>
@@ -1063,9 +1091,10 @@
                      <p>Durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles.</p>
                   </event>
                   <event>
-                     <p>Le 29 septembre 1918, un armistice est signé entre les bulgares et les alliés,</p>
+                     <p>Le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés,</p>
                   </event>
-                  <note>                  
+                  <note> 
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_08-08-1915.xml#Salonique_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Salonique_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml#Salonique_03041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-03"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Salonique_05021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-05"/></ref>                     
@@ -1098,22 +1127,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Salonique_a05-02_B16-03"><placeName ref="#Salonique">Salonique</placeName><date type="unknow"/></ref>                     
                   </note>                                       
                </place>               
-               <place xml:id="Sanary" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Sanary_05021916               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Sanary_07011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Sanary_07121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Sanary_10031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Sanary_16031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Sanary_17121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Sanary_19011916               
-               ../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml#Sanary_20121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Sanary_21021916               
-               ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Sanary_22031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Sanary_23111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Sanary_27121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Sanary_31011916               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Sanary_10111915               
-               ">               
+               <place xml:id="Sanary">               
                   <placeName type="ville_fr">Sanary-sur-Mer</placeName>
                   <location>
                      <country>France</country>                     
@@ -1137,25 +1151,19 @@
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Sanary_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Marmara" corresp="               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Marmara_10111915               
-               ">               
+               <place xml:id="Marmara">               
                   <placeName>Mer de Marmara</placeName>
                   <location>
                      <country>Turquie</country>
                      <desc>
-                        Mer reliant la mer Noire par le Bosphore et la mer Egée par le détroie de Dardanelles.
+                        Mer reliant la mer Noire par le Bosphore et la mer Egée par le détroit de <placeName ref="#Dardanelles">Dardanelles</placeName>.
                      </desc>                                                              
                   </location>                  
                   <note>                  
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Marmara_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Canal_Suez" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Canal_Suez_07121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml#Canal_Suez_20121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Canal_Suez_30111915               
-               ">               
+               <place xml:id="Canal_Suez">               
                   <placeName>
                      Suez                      
                   </placeName>
@@ -1173,26 +1181,13 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Canal_Suez_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Idadie" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Idadie_16111915               
-               ">               
+               <place xml:id="Idadie">               
                   <placeName>Idadié</placeName> <!-- carte 151-154 -->                                     
                   <note>                                    
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Idadie_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Beaune" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Beaune_09041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Beaune_10031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Beaune_15041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Beaune_16031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Beaune_21041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Beaune_22031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Beaune_23111915               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Beaune_27041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Beaune_30111915               
-               ../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Beaune_03111915               
-               ">               
+               <place xml:id="Beaune">               
                   <placeName type="ville_fr">Beaune</placeName> 
                   <location>
                      <country>France</country>
@@ -1211,10 +1206,7 @@
                      <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Beaune_03111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Port_Said" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Port_Said_07121915               
-               ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Port_Said_30111915               
-               ">               
+               <place xml:id="Port_Said">               
                   <placeName type="ville_eg">Port-Saïd</placeName>
                   <location>
                      <country>Egypte</country>
@@ -1226,9 +1218,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Port_Said_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Bessarabie" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Bessarabie_14121915               
-               ">               
+               <place xml:id="Bessarabie">               
                   <placeName>Bessarabie</placeName>
                   <location>
                      <placeName type="today">République de Moldavie</placeName> <placeName type="today">Ukraine</placeName> <!-- todo traitement xslt -->
@@ -1244,18 +1234,21 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Bessarabie_14121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-14"/></ref>                                                               
                   </note>                  
                </place>               
-               <place xml:id="Serbie" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Serbie_03011916               
-               ">               
+               <place xml:id="Serbie">               
                   <placeName>Serbie</placeName>
-                  <state><p>Pays allié à l'Empire russe</p></state>                                    
-                  <note>                  
+                  <event>
+                     <p>
+                        Pays allié à l'Empire russe
+                     </p>
+                  </event>                                                      
+                  <note> 
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Serbie_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Serbie_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>                     
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Serbie_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-09"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Serbie_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
                   </note>                  
                </place>               
-               <place xml:id="Zante" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Zante_25011916               
-               ">               
+               <place xml:id="Zante">               
                   <placeName type="ville_gr">Zante</placeName>
                   <location>
                      <country>Grèce</country>
@@ -1267,9 +1260,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Zante_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Somme" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Somme_25011916               
-               ">               
+               <place xml:id="Somme">               
                   <placeName type="dep_fr">Somme</placeName>
                   <location>
                      <country>France</country>
@@ -1282,9 +1273,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Somme_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Corinth" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Corinth_25011916               
-               ">               
+               <place xml:id="Corinth">               
                   <placeName type="ville_gr">Corinthe</placeName>
                   <location>
                      <country>Grèce</country>
@@ -1296,12 +1285,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Corinth_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Athenes" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Athenes_17031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Athenes_21041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Athenes_27041916               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Athenes_04111916               
-               ">               
+               <place xml:id="Athenes">               
                   <placeName type="ville_gr">Athènes</placeName>
                   <location>
                      <country>Grèce</country>
@@ -1315,14 +1299,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Athenes_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Marseille" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Marseille_09041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Marseille_15041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Marseille_16031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Marseille_21041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Marseille_27041916               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Marseille_04111916               
-               ">               
+               <place xml:id="Marseille">               
                   <placeName type="ville_fr">Marseille</placeName>
                   <location>
                      <country>France</country>
@@ -1335,30 +1312,24 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Marseille_21041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-21"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Marseille_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>                     
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Marseille_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Marseille_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
                   </note>                  
                </place>               
-               <place xml:id="Corfou" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Corfou_17031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Corfou_28031916               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Corfou_04111916               
-               ">               
+               <place xml:id="Corfou">               
                   <placeName type="ville_gr">Corfou</placeName>
                   <location>
                      <country>Grèce</country>
                      <district type="peripherie">Îles Ioniennes</district><!-- région -->
                      <district type="district">Corfou</district><!-- district régional -->                                                               
                   </location>                  
-                  <note>                  
+                  <note>  
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Corfou_21041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-21"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Corfou_17031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-17"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Corfou_28031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-28"/></ref>                     
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Corfou_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Verdun" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Verdun_09041916               
-               ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Verdun_22031916               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Verdun_27041916               
-               ">               
+               <place xml:id="Verdun">               
                   <placeName type="ville_fr">Verdun</placeName>
                   <location>
                      <country>France</country>
@@ -1367,12 +1338,11 @@
                   <note>                  
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Verdun_09041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-09"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Verdun_22031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-22"/></ref>                     
-                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Verdun_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>                     
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Verdun_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Verdun_28031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-28"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Montpellier" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Montpellier_04111916               
-               ">               
+               <place xml:id="Montpellier">               
                   <placeName type="ville_fr">Montpellier</placeName>
                   <location>
                      <country>France</country>
@@ -1382,18 +1352,14 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Montpellier_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Algerie" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Algerie_04111916               
-               ">               
-                  <placeName>Algérie</placeName>
+               <place xml:id="Algerie">               
+                  <placeName>Algérie</placeName>                  
                   <state><p>Anciens départements français d'Algérie</p></state>                  
                   <note>                  
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Algerie_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Mers_el_Kebir" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Mers_el_Kebir_04111916               
-               ">               
+               <place xml:id="Mers_el_Kebir">               
                   <placeName type="ville_al">Mers el-Kébir</placeName>
                   <location>
                      <country>Algérie</country>
@@ -1404,9 +1370,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Mers_el_Kebir_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Oran" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Oran_04111916               
-               ">               
+               <place xml:id="Oran">               
                   <placeName type="ville_al">Oran</placeName>
                   <location>
                      <country>Algérie</country>
@@ -1417,25 +1381,41 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Oran_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="Maroc" corresp="               
-               ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Maroc_04111916               
-               ">               
+               <place xml:id="Maroc">               
                   <placeName>Maroc</placeName>                  
                   <note>                  
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Maroc_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>                     
                   </note>                  
                </place>               
-               <place xml:id="France" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#France_16111915               
-               ">               
+               <place xml:id="France">               
                   <placeName>France</placeName>                  
-                  <note>                  
-                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#France_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>                     
+                  <note>   
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#France_05021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-05"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#France_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#France_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#France_09041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-09"/></ref>                     
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#France_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#France_15041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-15"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#France_16031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-16"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#France_17121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-17"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#France_21021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-21"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#France_21041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-21"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#France_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#France_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#France_27121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#France_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#France_31011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-31"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#France_03111915"><placeName ref="#Port_Iero">Port_Iero</placeName><date when="1915-11-03"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#France_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#France_a27-10_b3-11"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#France_20101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-20"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#France_27101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-27"/></ref>
+                     <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#France_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>
+                     <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#France_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
+                     <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#France_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>
                   </note>                                 
                </place>               
-               <place xml:id="Eubee" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Eubee_27041916               
-               ">               
+               <place xml:id="Eubee">               
                   <placeName type="ville_gr">Eubée</placeName>
                   <location>
                      <country>Grèce</country>
@@ -1445,10 +1425,45 @@
                   <note>                  
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Eubee_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>                     
                   </note>                  
-               </place>               
-               <place xml:id="Karystos" corresp="               
-               ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Karystos_27041916               
-               ">               
+               </place>            
+               <place xml:id="Haute_Savoie">               
+                  <placeName type="dep_fr">Haute-Savoie</placeName>
+                  <location>
+                     <country>France</country>
+                     <district type="region">Rhône-Alpes</district><!-- région -->
+                     <district></district><!-- district régional -->                                                               
+                  </location>                  
+                  <note>                  
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_08-08-1915.xml#Haute_Savoie_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Haute_Savoie_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Haute_Savoie_a27-10_b3-11"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#Haute_Savoie_20101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-20"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Haute_Savoie_27101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-27"/></ref>
+                     <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Haute_Savoie_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>
+                     <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Haute_Savoie_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
+                     <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Haute_Savoie_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>
+                  </note>                  
+               </place>
+               <place xml:id="Cote_Dor">               
+                  <placeName type="dep_fr">Cote d'or</placeName>
+                  <location>
+                     <country>France</country>
+                     <district type="region">Bourgogne</district><!-- région -->                                                                                  
+                  </location>                  
+                  <note>                  
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Cote_Dor_09041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-09"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Cote_Dor_10031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-10"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Cote_Dor_15041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-15"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Cote_Dor_16031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-16"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Cote_Dor_21041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-21"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Cote_Dor_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Cote_Dor_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Cote_Dor_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Cote_Dor_03111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>
+                     <ref target="../Port_iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Cote_Dor_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                  </note>                  
+               </place>
+               <place xml:id="Karystos">               
                   <placeName type="ville_gr">Karystos</placeName>
                   <location>
                      <country>Grèce</country>
@@ -1458,48 +1473,103 @@
                   <note>                  
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Karystos_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>                     
                   </note>                                                      
-               </place>                                 
+               </place>
+               <place xml:id="Milos">               
+                  <placeName type="ville_gr">Milos</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Méridionale</district><!-- région -->
+                     <district type="district">Milos</district><!-- district régional -->
+                     <district type="deme">Milos</district><!-- communauté -->                                                              
+                  </location>                  
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Milos_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                                          
+                  </note>                                                      
+               </place>
             </listPlace>            
             <listPerson xml:id="person">
-               <person xml:id="Horel" corresp="
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Horel_08081915
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Horel_29081915
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Horel_03011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml#Horel_03041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Horel_05021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Horel_07011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Horel_07121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Horel_09041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Horel_10031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Horel_14121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Horel_15041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_15-05-1915.xml#Horel_15051915
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Horel_16021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Horel_16031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Horel_16111915
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Horel_17031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Horel_17121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Horel_19011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Horel_21021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Horel_21041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Horel_22031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Horel_23111915
-                  ../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml#Horel_24011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Horel_25011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Horel_27041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Horel_27121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Horel_28031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Horel_31011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_B16-03.xml#Horel_a05-02_B16-03
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Horel_03111915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Horel_09101915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Horel_10111915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#Horel_20101915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Horel_a27-10_b3-11
-                  ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Horel_04111916
-                  ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Horel_23091915
-                  ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Horel_03091915
-                  ">
+               <person xml:id="Skoudoulis">
+                  <persName type="normal">
+                     <forename>Stephanos</forename>
+                     <surname>Skoudoulis</surname>
+                     <roleName type="office">Premier ministre grec</roleName>                     
+                  </persName>                                   
+                  <birth when="1836">1836</birth>
+                  <death when="1928">1928</death>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Skoudoulis_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>                     
+                  </note>
+               </person>
+               <person xml:id="Venizelos">
+                  <persName type="normal">
+                     <forename>Elefthérios</forename>
+                     <surname>Venizélos</surname>
+                     <roleName type="office">Premier ministre grec</roleName>                     
+                  </persName>                  
+                  <birth when="1864">1864</birth>
+                  <death when="1936">1936</death>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Venizelos_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Venizelos_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
+                     <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Venizelos_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>
+                  </note>
+               </person>
+               <person xml:id="Gouraud">
+                  <persName type="normal">
+                     <forename>Henri</forename>
+                     <surname>Gouraud</surname>
+                     <roleName type="military">Général</roleName>                     
+                  </persName>                  
+                  <birth when="1867">1867</birth>
+                  <death when="1946">1946</death>
+                  <note>
+                     <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Gouraud_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
+                  </note>
+               </person>
+               <person xml:id="Ravenel">
+                  <persName type="normal">
+                     <forename>Léon</forename>
+                     <surname>Ravenel</surname>
+                     <roleName type="military">Lieutenant de vaisseau</roleName>                     
+                  </persName>                  
+                  <birth when="1867">1891</birth>
+                  <death>19..</death>
+                  <note>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Ravenel_10111915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-10"/></ref>
+                  </note>
+               </person>
+               <person xml:id="Putnik">
+                  <persName type="normal">
+                     <forename>Radomir</forename>
+                     <surname>Putnik</surname>
+                     <roleName type="military">Voïvode (Maréchal)</roleName>                     
+                  </persName>                  
+                  <birth when="1847">1847</birth>
+                  <death when="1917">1917</death>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Putnik_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>
+                  </note>
+               </person>
+               <person xml:id="Horel_Louis">
+                  <persName type="normal">                     
+                     <surname>Horel</surname>
+                     <forename>Louis</forename>                     
+                  </persName>
+                  <note>
+                     <ref target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Horel_Louis_23091915"><placeName ref="#Imbros">Imbros</placeName><date when="1915-09-23"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Horel_Louis_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-09"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Horel_Louis_27101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Horel_Louis_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Horel_Louis_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Horel_Louis_14121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-14"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Horel_Louis_27121915"><placeName ref="#Salonique">Salonique</placeName><date when="1916-12-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Horel_Louis_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Horel_Louis_16021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-16"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Horel_Louis_22031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-22"/></ref>
+                  </note>
+               </person>
+               <person xml:id="Horel">
                   <persName type="normal">
                      <forename>Armand</forename>
                      <surname>Horel</surname>
@@ -1545,64 +1615,19 @@
                      <ref target="../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Horel_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
                   </note>
                </person>
-               <person xml:id="Comtesse_Forest" corresp="
-                  ../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Comtesse_Forest_08081915
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Comtesse_Forest_29081915
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Comtesse_Forest_03011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml#Comtesse_Forest_03041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml#Comtesse_Forest_05021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.xml#Comtesse_Forest_07011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Comtesse_Forest_07121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.xml#Comtesse_Forest_10031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml#Comtesse_Forest_12011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Comtesse_Forest_14121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Comtesse_Forest_15041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_15-05-1915.xml#Comtesse_Forest_15051915
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#Comtesse_Forest_16021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.xml#Comtesse_Forest_16031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Comtesse_Forest_16111915
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Comtesse_Forest_17031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml#Comtesse_Forest_17121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.xml#Comtesse_Forest_19011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml#Comtesse_Forest_21021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml#Comtesse_Forest_21041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#Comtesse_Forest_22031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Comtesse_Forest_23111915
-                  ../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml#Comtesse_Forest_24011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Comtesse_Forest_25011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Comtesse_Forest_27041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#Comtesse_Forest_27121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Comtesse_Forest_28031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Comtesse_Forest_30111915
-                  ../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml#Comtesse_Forest_31011916
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml#Comtesse_Forest_03111915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Comtesse_Forest_09101915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml#Comtesse_Forest_10111915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml#Comtesse_Forest_20101915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml#Comtesse_Forest_27101915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.xml#Comtesse_Forest_a27-10_b3-11
-                  ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Comtesse_Forest_04111916
-                  ../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml#Comtesse_Forest_23091915
-                  ../Moudros/F_delta_1854_20_1_Moudros_23-09-1915.xml#Comtesse_Forest_03091915
-                  ../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Comtesse_Forest_06101915
-                  ">
-                  <persName type="pseudo">
-                     <name type="pseudo">
-                        <forename>Claude</forename>
-                        <surname>Silve</surname>
-                     </name>
-                     <name type="young" subtype="rejected">
-                        <surname>Lévis-Mirepoix</surname>
-                        <forename>Philomène</forename>
-                        <nameLink>de</nameLink>                        
-                     </name> 
-                     <name type="nobility" subtype="rejected">
-                        <roleName type="nobility">Comtesse</roleName>                        
-                        <surname>de la Forest Divonne</surname>
-                     </name>                                                              
+               <person xml:id="Comtesse_Forest">
+                  <persName type="multiple" xml:id="idx_comtesse">                                                                     
+                     <surname type="nobility">La Forest Divonne</surname>
+                     <surname type="young">Lévis-Mirepoix</surname>
+                     <forename>Philomène</forename>
+                     <nameLink>de</nameLink>
+                     <roleName type="nobility">Comtesse</roleName>                                                            
                   </persName>
-                  <birth when="1887">1887</birth>
-                  <death when="1978">1978</death>
+                  <state>
+                     <p>
+                        voir <persName ref="#Silve_Claude">Silve (Claude).</persName>
+                     </p>
+                  </state>
                   <note>
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml#Comtesse_Forest_08081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-08"/></ref>
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Comtesse_Forest_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>
@@ -1647,11 +1672,17 @@
                      <ref target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml#Comtesse_Forest_06101915"><placeName ref="#Mytilene">Mytilene</placeName><date when="1915-10-06"/></ref>
                   </note>
                </person>
-               <person xml:id="Le_Mire" corresp="
-                  ../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Le_Mire_29081915
-                  ../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Le_Mire_09101915
-                  ../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.xml#Le_Mire_03091915
-                  ">
+               <person xml:id="Silve_Claude">
+                  <persName type="pseudo">
+                     <name type="pseudo">
+                        <forename>Claude</forename>
+                        <surname>Silve</surname>
+                     </name>                                                            
+                  </persName>
+                  <birth when="1887">1887</birth>
+                  <death when="1978">1978</death>
+               </person>
+               <person xml:id="Le_Mire">
                   <persName type="normal">
                      <forename>Charles</forename>
                      <surname>Le Myre de Vilers</surname>
@@ -1661,18 +1692,11 @@
                   <death when="1918">1918</death>
                   <note>
                      <ref target="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.xml#Le_Mire_29081915"><placeName ref="#Toulon">Toulon</placeName><date when="1915-08-29"/></ref>
-                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Le_Mire_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-11-03"/></ref>
+                     <ref target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml#Le_Mire_09101915"><placeName ref="#Port_Iero">Port Iero</placeName><date when="1915-10-09"/></ref>
                      <ref target="../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.xml#Le_Mire_03091915"><placeName ref="#Moudros">Moudros</placeName><date when="1915-09-03"/></ref>
                   </note>
                </person>
-               <person xml:id="G_Locke" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#G_Locke_07121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#G_locke_16021916
-                  ../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#G_Locke_16111915 
-                  ../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#G_Locke_22031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#G_Locke_27121915
-                  ../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#G_Locke_30111915
-                  ">
+               <person xml:id="G_Locke">
                   <persName type="normal">
                      <surname>Locke</surname>
                      <forename>G.</forename>                     
@@ -1685,14 +1709,11 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.xml#G_Locke_16021916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-02-16"/></ref>                       
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#G_Locke_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml#G_Locke_22031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-22"/></ref>
-                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#G_Locke_27121915"><placeName ref="#Salonique">Salonique</placeName><date when="1015-12-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml#G_Locke_27121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-27"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#G_Locke_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
                   </note>
                </person>
-               <person xml:id="Sarrail" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Sarrail_03011916
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Sarrail_23111915
-                  ">
+               <person xml:id="Sarrail">
                   <persName type="normal">
                      <forename>Maurice</forename>
                      <surname>Sarrail</surname>
@@ -1712,13 +1733,15 @@
                      </p>
                   </event>
                   <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Sarrail_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Sarrail_15041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-15"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Sarrail_14121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-14"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Sarrail_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Sarrail_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Sarrail_28031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-28"/></ref>
                   </note>                     
                </person>
-               <person xml:id="Kitchener" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Kitchener_23111915
-                  ">
+               <person xml:id="Kitchener">
                   <persName type="normal">
                      <forename>Horatio</forename>
                      <surname>Kitchener</surname>
@@ -1739,9 +1762,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Kitchener_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
                   </note>
                </person>
-               <person xml:id="Joffre" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Joffre_14121915
-                  ">
+               <person xml:id="Joffre">
                   <persName type="normal">
                      <forename>Joseph</forename>
                      <surname>Joffre</surname>
@@ -1762,13 +1783,14 @@
                      </p>
                   </event>
                   <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Joffre_27041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-27"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml#Joffre_15041916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-04-15"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml#Joffre_28031916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-03-28"/></ref>                     
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml#Joffre_14121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-14"/></ref>
-                     
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml#Joffre_30111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-30"/></ref>
                   </note>
                </person>
-               <person xml:id="Poincare" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Poincare_07121915
-                  ">
+               <person xml:id="Poincare">
                   <persName type="normal">
                      <forename>Raymond</forename>
                      <surname>Poincaré</surname>
@@ -1780,9 +1802,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.xml#Poincare_07121915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-12-07"/></ref>                        
                   </note>
                </person>
-               <person xml:id="Pierre_Serbie" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Pierre_Serbie_03011916
-                  ">
+               <person xml:id="Pierre_Serbie">
                   <persName type="nobility">
                      <forename>Pierre</forename>
                      <genName>Ier</genName>
@@ -1802,9 +1822,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.xml#Pierre_Serbie_03011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-03"/></ref>
                   </note>
                </person>
-               <person xml:id="Papadracos" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml#Papadracos_12011916
-                  ">
+               <person xml:id="Papadracos">
                   <persName type="normal">
                      <surname>Papadracos</surname>
                      <forename>M.</forename>                     
@@ -1818,9 +1836,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml#Papadracos_12011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-12"/></ref>
                   </note>
                </person>
-               <person xml:id="MME_Gauffrey" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#MME_Gauffrey_25011916
-                  ">
+               <person xml:id="MME_Gauffrey">
                   <persName type="normal">
                      <surname>Gauffrey</surname>
                      <forename>Mme.</forename>
@@ -1834,9 +1850,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#MME_Gauffrey_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>
                   </note>
                </person>
-               <person xml:id="MR_Gauffrey" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#MR_Gauffrey_25011916
-                  ">
+               <person xml:id="MR_Gauffrey">
                   <persName type="normal">
                      <surname>Gauffrey</surname>
                      <forename>M.</forename>
@@ -1850,12 +1864,7 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#MR_Gauffrey_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>
                   </note>
                </person>
-               <person xml:id="Bussiere" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml#Bussiere_09041916
-                  ../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.xml#Bussiere_17031916
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Bussiere_27041916
-                  ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Bussiere_04111916
-                  ">
+               <person xml:id="Bussiere">
                   <persName type="normal">
                      <surname>Bussière</surname>
                      <forename>les</forename>                     
@@ -1872,10 +1881,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Bussiere_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>
                   </note>
                </person>
-               <person xml:id="Gauthier" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml#Gauthier_27041916
-                  ../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Gauthier_04111916
-                  ">
+               <person xml:id="Gauthier">
                   <persName type="normal">
                      <surname>Gauthier</surname>
                      <forename>les</forename>
@@ -1890,9 +1896,7 @@
                      <ref target="../Corfou/F_delta_1854_20_1_Corfou_16-02-1916.xml#Gauthier_04111916"><placeName ref="#Corfou">Corfou</placeName><date when="1916-11-04"/></ref>
                   </note>
                </person>
-               <person xml:id="Frederic_Guillaume" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Frederic_Guillaume_25011916
-                  ">
+               <person xml:id="Frederic_Guillaume">
                   <persName type="nobility">
                      <forename>Frédéric-Guillaume</forename>
                      <nameLink>de</nameLink>
@@ -1916,9 +1920,20 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Frederic_Guillaume_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>
                   </note>
                </person>
-               <person xml:id="Guillaume_II" corresp="
-                  ../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Guillaume_II_25011916
-                  ">
+               <person xml:id="Constantin">
+                  <persName type="nobility">
+                     <forename>Constantin</forename>
+                     <genName>I<hi rend="super">er</hi></genName>                     
+                     <nameLink>de</nameLink>
+                     <placeName>Grèce</placeName>
+                     <roleName type="nobility">Roi des Hellènes</roleName>
+                  </persName>
+                  <note>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml#Constantin_23111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-23"/></ref>
+                     <ref target="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.xml#Constantin_16111915"><placeName ref="#Salonique">Salonique</placeName><date when="1915-11-16"/></ref>
+                  </note>
+               </person>               
+               <person xml:id="Guillaume_II">
                   <persName type="nobility">
                      <forename>Guillaume</forename>
                      <genName>II</genName>
@@ -1930,7 +1945,66 @@
                      <ref target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml#Guillaume_II_25011916"><placeName ref="#Salonique">Salonique</placeName><date when="1916-01-25"/></ref>
                   </note>
                </person>
-            </listPerson>                
+            </listPerson>
+            <listBibl xml:id="bibl">
+               <bibl type="monographie" xml:id="Roche_flotte">
+                  <author><forename>Jean-Michel</forename><surname>Roche</surname></author>
+                  <title>Dictionnaire des bâtiments de la flotte de guerre française de Colbert à nos jours</title>
+                  <date when="2005">2005</date>
+                  <placeName>Toulon</placeName>
+               </bibl>
+               <bibl type="article" xml:id="Cochet_Orient">
+                  <author><forename>François</forename><surname>Cochet</surname></author>
+                  <title>L'armée d'Orient, des expériences combattantes loin de Verdun</title>
+                  <editor n="81">Cahiers de la Mediterranée</editor>
+                  <date when="2010">2010</date>
+                  <link target="http://cdlm.revues.org/5498?lang=en"/>                  
+               </bibl>
+               <bibl type="article" xml:id="Andurain_Gouraud">
+                  <author><forename>Andurain</forename><nameLink>d'</nameLink><surname>Julie</surname></author>
+                  <title>Le général Gouraud, chef du corps expéditionnaire des Dardanelles en 1915</title>
+                  <editor n="258">Revue historique des armées</editor>
+                  <date when="2010">2010</date>
+                  <link target="http://rha.revues.org/6921#text"/>                  
+               </bibl>
+               <bibl type="dossier" xml:id="Bulgarie_centenaire">
+                  <title>La Bulgarie dans les collections de l'ECPAD</title>
+                  <editor>Mission centenaire</editor>
+                  <date when="2012">2012</date>
+                  <link target="http://centenaire.org/fr/bulgarie/la-bulgarie-dans-les-collections-de-lecpad"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Roumanie_centenaire">
+                  <title>La Roumanie dans la Grande Guerre : des affrontements aux monuments</title>
+                  <author><orgName>Ambassade de France en Roumanie</orgName></author>
+                  <editor>Mission centenaire</editor>                  
+                  <date when="2013">2013</date>
+                  <link target="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Grece_centenaire">
+                  <title>La Grèce dans les collections de l'ECPAD</title>                  
+                  <editor>Mission centenaire</editor>                  
+                  <date when="2012">2012</date>
+                  <link target="http://centenaire.org/fr/dans-le-monde/europe/grece/la-grece-dans-les-collections-de-lecpad"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Senat_Decker">
+                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>                  
+                  <editor>Sénat</editor>                                    
+                  <link target="http://www.senat.fr/evenement/archives/D48/risq.html"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Front_orient_centenaire">
+                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>
+                  <author><forename>Max</forename><surname>Schiavon</surname></author>                  
+                  <editor>Mission centnaire</editor>                                                      
+                  <link target="http://centenaire.org/fr/espace-scientifique/pays-belligerants/le-front-dorient-1915-1918#2"/>
+               </bibl>
+               <bibl type="monographie" xml:id="Schiavon_front">
+                  <title type="title">Le Front d'Orient</title><title type="subtitle">Du désastre des Dardanelles à la victoire finale <date from="1915" to="1918">1915-1918</date></title>
+                  <author><forename>Max</forename><surname>Schiavon</surname></author>
+                  <editor>Tallandier</editor>
+                  <placeName>Paris</placeName>
+                  <date when="2014">2014</date>                  
+               </bibl>               
+            </listBibl>
          </body>
       </text>
    </TEI>

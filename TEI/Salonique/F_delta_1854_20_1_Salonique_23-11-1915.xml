@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_23-11-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_23-11-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_147.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_147.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_147.jpg"/>
                <figDesc>
                   <choice><sic>Panorame</sic><reg>Panorama</reg></choice> général de <placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_148.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_148.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_23111915">Salonique</placeName>
@@ -90,25 +94,25 @@
                <lb/>petit canot &a; vapeur<pc>.</pc> <hi rend="capitalize">l</hi>e matin
                <lb/>quand il va envoyer les cuisiniers
                <lb/>&a; terre il me fait les 
-               commiss<lb rend="hyphen"/>ions nécessaires<pc>.</pc> <hi rend="capitalize">t</hi>outes les cartes
+               <w>commiss<lb rend="hyphen"/>ions</w> nécessaires<pc>.</pc> <hi rend="capitalize">t</hi>outes les cartes
                <lb/>postales que je vous <choice><orig>envoi</orig><reg>envoie</reg></choice>
                <lb/>comtesse&vir; c'est lui qui me les 
                <lb/>porte de terre<pc>.</pc> Il y a un
                <lb/>ordre qui a paru &a; bord 
-               auj<lb rend="hyphen"/>ourd'hui demandant des
+               <w>auj<lb rend="hyphen"/>ourd'hui</w> demandant des
                <lb/><choice><orig>volaires</orig><reg>volontaires</reg></choice> pour les autos canons
                <lb/>pour aller sur le front <hi rend="minimize">S</hi>erbe <pc type="supplied">;</pc>
                <lb/>rien que des canonniers&vir; j'y
                <lb/>ai mis mon nom le <choice><abbr>1<hi rend="super">er</hi></abbr><expan>premier</expan></choice> en tête
                <lb/>de liste<pc>.</pc> <hi rend="capitalize">n</hi>ous allons voir
                <lb/>si ils veulent m'y envoyer&pt;
-               <lb/>J'ai &a; vous apprendre que la <hi rend="capitalize">g</hi>rèce a <choice><orig>démobiliser</orig><reg>démobilisé</reg></choice> ce
+               <lb/>J'ai &a; vous apprendre que la <hi rend="capitalize">g</hi>rèce a <choice><orig>démobiliser</orig><reg>démobilisé</reg></choice><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1"/> ce
                <cb/>
                <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>48 rue de la Comédie 48</addrLine>
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_23111915">Beaûne</placeName></addrLine><addrLine>Cote d'or</addrLine>
-                  <addrLine>France</addrLine>    
+                  <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
+                  <addrLine><placeName ref="#Beaune"><choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine><addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a"/></addrLine>    
                </address>
             <pb n="4"/>
                <add type="numbering" n="3" rend="center">3</add>
@@ -120,7 +124,7 @@
                <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille
                <lb/>contre les <w rend="hyphen">sous</w><w>marins</w>&vir; il en <sic>mourait</sic> du froid qu'il fait<pc>.</pc>
                <lb/>Heureusement que moi j'ai fait toutes mes provisions 
-               n&é;ces<lb rend="hyphen"/>ssaires <add place="above">&a; <placeName ref="#Toulon" xml:id="Toulon_23111915">Toulon</placeName></add> contre le froid<pc>.</pc> <hi rend="capitalize">d</hi>es <hi rend="minimize">S</hi>abots je m'en suis fait venir
+               <w>n&é;ces<lb rend="hyphen"/>ssaires</w> <add place="above">&a; <placeName ref="#Toulon" xml:id="Toulon_23111915">Toulon</placeName></add> contre le froid<pc>.</pc> <hi rend="capitalize">d</hi>es <hi rend="minimize">S</hi>abots je m'en suis fait venir
                <lb/>une paire de la maison avec des chaussures <choice><orig>boureés</orig><reg>bourrées</reg></choice> <supplied reason="omitted">et</supplied> un
                <lb/>cache nez<pc>.</pc> <hi rend="capitalize">j</hi>'ai tout ce qu'il faut pour pouvoir r&é;sister &a;
                <lb/>n'<choice><sic>apporte</sic><corr>importe</corr></choice> quel hiver<pc>.</pc> 
@@ -132,21 +136,22 @@
                   <lb/>que votre demoiselle<pc type="surplus">.</pc> car tant qu'à la mienne on ne peut 
                   <lb/>&ê;tre mieux portant&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
-               <signed rend="vertical" xml:id="Horel_23111915">Armand H<pc>.</pc></signed> 
+               <signed rend="vertical"><persName ref="#Horel" xml:id="Horel_23111915">Armand H</persName><pc>.</pc></signed> 
             </closer>
          </div>
          <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_149.jpg ../../FACS/BDIC_FD_1854_20_1_150.jpg">
             <p>
                <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><del hand="#other" rend="overline">48 rue de la Comédie 48</del></addrLine>
-                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune">Beaune</placeName> Cote d'or</del></addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><del hand="#other" rend="overline">48 rue de la Comédie <surplus reason="repeated">48</surplus></del></addrLine>
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune" xml:id="Beaune_23111915">Beaune</placeName></del></addrLine>
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor" xml:id="Cote_Dor_23111915">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></del></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_23111915">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a"/></addrLine>
                </address>               
                <add hand="#other">
                   <address type="addressee" place="envelope">
-                     <addrLine><placeName ref="#Sanary" xml:id="Sanary_23111915">Sanary sur mer</placeName></addrLine>
-                     <addrLine>Var <hi rend="underline">G R</hi></addrLine>        
+                     <addrLine><placeName ref="#Sanary" xml:id="Sanary_23111915">Sanary<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>mer</placeName></addrLine>
+                     <addrLine><placeName ref="#Var" xml:id="Var_23111915">Var</placeName> <hi rend="underline">G R</hi></addrLine>        
                   </address>
                </add>               
                <stamp type="armee">
@@ -169,12 +174,21 @@
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note_1" n="1">Adresse placée sur le second volet de la carte postale.</note>
-         </div>
+            <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a">Adresse placée sur le second volet de la carte postale et sur l'enveloppe.</note>
+            <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">
+               Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin" xml:id="Constantin_23111915">Constantin I<hi rend="super">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos" xml:id="Venizelos_23111915">Elefthérios Venizélos</persName> pour avoir laissé
+               les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir, le 9 novembre 1915, par son nouveau premier ministre <persName ref="Skoudoulis" xml:id="Skoudoulis_23111915">Skoudoulis</persName> que la <placeName ref="#Grece" xml:id="Grece_23111915">grèce</placeName> souhaite 
+               «désarmer toutes les troupes étrangères se trouvant sur le territoire grec.» Le 21 novembre un escadre française prend position devant <placeName ref="#Milos" xml:id="Milos_23111915">Milos</placeName>. Le 23, 
+               une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. un accord est finalement trouvé, 
+               les troupes grecques doivent quitter la région de <placeName ref="#Salonique">Salonique</placeName>.  
+               <bibl corresp="#Schiavon_front" n="222"/>
+            </note>
+         </div>                              
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

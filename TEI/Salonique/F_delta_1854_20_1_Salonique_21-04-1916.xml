@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_21-04-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_21-04-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_013.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_013.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_013.jpg"/>
                <figDesc>
                   <placeName ref="#Athenes" xml:id="Athenes_21041916">Athènes</placeName>: Théâtre de Bacchus
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_014.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_014.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_21041916">Salonique</placeName>&vir;
@@ -86,14 +90,18 @@
                <lb/>qui leur a forcé &a; rebrousser chemin&pt; <hi rend="capitalize">i</hi>ls ont
                <lb/><choice><orig>lancer</orig><reg>lancé</reg></choice> quelques bombes mais sans résultat&pt;
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_015.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_015.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_015.jpg"/>
                <figDesc>
                   Edipso. Yaltra
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_016.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_016.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>Depuis tout est calme&pt;
@@ -102,8 +110,8 @@
                <lb/>les troupes serbes qui arrivent
                <lb/>tous les jours<pc>.</pc> <hi rend="capitalize">i</hi>ls sont
                <lb/>équipés par nous&vir; ils ont
-               <lb/>la baïonnette française
-               <lb/>et le fusil <name ref="#Lebel" xml:id="Lebel_21041916"><choice><orig>le bel</orig><reg>Lebel</reg></choice></name><pc>.</pc> 
+               <lb/>la baïonnette française<ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1"/>
+               <lb/>et le fusil <name ref="#Lebel" xml:id="Lebel_21041916"><choice><orig>le bel</orig><reg>Lebel</reg></choice></name><ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2"/><pc>.</pc> 
             </p>
             <closer>
                <salute>
@@ -117,11 +125,11 @@
                   <persName ref="#Horel" xml:id="Horel_21041916">Armand Horel</persName> 
                </signed>
                <address type="addressee" place="postcard">
-                  <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>
-                  <addrLine>10 rue Oudot 10 </addrLine>
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_21041916">&a; Beâune</placeName></addrLine>
-                  <addrLine>Cote d'or</addrLine>
-                  <addrLine>France</addrLine>   
+                  <persName ref="#Comtesse_Forest">Comtesse L<pc>.</pc> de la Forest</persName>
+                  <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus> </addrLine>
+                  <addrLine><placeName ref="#Beaune">&a; <choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>   
                </address>
             </closer>
          </div>
@@ -129,9 +137,10 @@
             <p>
                <address place="envelope" type="addressee">                     
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
-                  <addrLine>10 rue Oudot 10</addrLine>                  
-                  <addrLine><placeName ref="#Beaune">&a; Beaûne</placeName> Cote d'or</addrLine>                  
-                  <addrLine>France</addrLine>                     
+                  <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus></addrLine>                  
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_21041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_21041916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_21041916">France</placeName></addrLine>                     
                </address>
                <stamp type="postmark">
                   <orgName>postes - navales</orgName> <date cert="high" when="1916-04-22">22 avril 1916</date>
@@ -142,17 +151,29 @@
                envoi de 
                <address type="sender" place="envelope">               
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                   
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <lb/><name ref="#Shamrock_II" xml:id="Shamrock_II_21041916">Shamrock II</name></addrLine>                   
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_21041916">Shamrock II</name></addrLine>                   
                   <addrLine>Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_21041916">Marseille</placeName></addrLine>   
                </address>
             </p>
          </div>     
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1">
+               La baïonnette française est caractérisée par une lame cruciforme censée causer d'importantes hémorragies lorsque, 
+               plantée dans le corps de son adversaire, le soldat faisait pivoter son arme d'un quart de tour.                                
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2">
+               Suite à la retraite serbe et au rapatriement des troupes sur l'<placeName ref="#Corfou" xml:id="Corfou_21041916">île de Corfou</placeName>, les autorités françaises décident de prendre en charge
+               l'équipement des troupes serbes alors que les britanniques s'occuperont du ravitaillement.  
+               <bibl corresp="#Schiavon_front" n="156"/>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_14-12-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_14-12-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_129.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_129.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_129.jpg"/>
                <figDesc>
                   Souvenir de <placeName ref="#Salonique">Salonique</placeName> cimetière turcs derrière l'Enceinte de la ville
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_130.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_130.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_14121915">Salonique</placeName>&vir;
@@ -75,7 +79,7 @@
                <lb/>de mes nouvelles&vir; que je suis toujours en bonne
                <lb/>santé et je désire qu'à l'arrivée de mes cartes
                <lb/>que vous vous trouviez de même ainsi que votre
-               <lb/>demoiselle<pc>.</pc> Toujours temps bumeux et une
+               <lb/>demoiselle<pc>.</pc> Toujours temps brumeux et une
                <lb/>brume très épaisse qui ne donne gu&è;re la main
                <lb/>&a; nos troupes pour combattre car vraiment
                <lb/>on ne voit pas &a; <choice><orig>50</orig><reg>cinquante</reg></choice> m&è;tres de distance tellement
@@ -87,21 +91,25 @@
                <lb/>fait en rase campagne<pc>.</pc> Je crois que depuis 
                <lb/><unclear><choice><orig>5</orig><reg>cinq</reg></choice></unclear> ou <choice><orig>4</orig><reg>quatre</reg></choice> jours nos troupes on eu l'ordre de
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_131.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_131.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_131.jpg"/>
                <figDesc>
                   MAKE∆ONIA <placeName ref="#Salonique">Salonique</placeName> Temple des Cavirs
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_132.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_132.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/>battre en retraite&pt; <hi rend="capitalize">e</hi>n premier nos troupiers se
                <lb/>demandaient mais pourquoi bat-on en retraite
                <lb/>sans voir l'ennemi&pt; <hi rend="capitalize">l</hi>es officiers leur ont répondu
                <lb/>mes petits amis&vir; c'est un ordre du g&é;n&é;ralissime
-               <lb/><persName ref="#Joffre" xml:id="Joffre_14121915">Joffre</persName><pc>.</pc> <hi rend="capitalize">p</hi>ourtant j'en ai vu qui revenaient du front
+               <lb/><persName ref="#Joffre" xml:id="Joffre_14121915">Joffre</persName><ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1"/><pc>.</pc> <hi rend="capitalize">p</hi>ourtant j'en ai vu qui revenaient du front
                <lb/>et qui avaient été bless&é;s&vir; ils me disaient qu'ils
                <lb/>&é;taient en trop grand nombre pour pouvoir r&é;sister
                <lb/>&a; leurs attaques et que c'était &a; ce sujet que nous
@@ -112,7 +120,7 @@
                <lb/>des <hi rend="minimize">R</hi>usses car il doit venir <choice><orig>3</orig><reg>trois</reg></choice> ou <choice><orig>400 000</orig><reg>quatre cent mille</reg></choice> <surplus reason="repeated">mille</surplus>
                <lb/>russes en <placeName ref="#Bessarabie" xml:id="Bessarabie_14121915"><choice><orig>Bésarabie</orig><reg>Bessarabie</reg></choice></placeName><pc>.</pc> Nous tenons toujours la
                <lb/>ville de <placeName ref="#Salonique">Salonique</placeName> &a; port&é;e de nos canons en
-               <lb/>cas ou elle voudrait nous trahir&pt; 
+               <lb/>cas ou elle voudrait nous trahir<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2"/>&pt; 
             </p>
             <closer>
                <salute>
@@ -128,7 +136,9 @@
                   </add>
                </salute>
             </closer>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_126.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_126.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <postscript n="1">
                <p>
                   <add type="numbering" rend="center" n="3">3</add>
@@ -144,15 +154,17 @@
                   <lb/>prendre le train &a; son premier départ et venir 
                   <lb/>dans ces conditions au moins une ou <choice><orig>2</orig><reg>deux</reg></choice> heures
                   <lb/>&a; l'avance<pc>.</pc> Surement que vous avez d<choice><orig>u</orig><reg>û</reg></choice> vous 
-                  <lb/>fatiguer de faire un si long voyage.<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1"/>
+                  <lb/>fatiguer de faire un si long voyage.<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_notea" n="a"/>
                </p>
             </postscript>
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_125.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_125.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <postscript n="2">
                <p>
                   <add type="numbering" n="4" rend="center">4</add>
                   <lb/>Ah que vous &ê;tes bien gentill<supplied reason="illegible">e</supplied> comtesse de vous
-                  <lb/>occuper autant de mon p<supplied reason="illegible">a</supplied>uvre frère&pt; <hi rend="capitalize">i</hi>l a eu
+                  <lb/>occuper autant de mon p<supplied reason="illegible">a</supplied>uvre <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_14121915">frère</rs>&pt; <hi rend="capitalize">i</hi>l a eu
                   <lb/>un an de grâce et il est toujours proposé pour
                   <lb/>la conditionnelle ce qui fait qu'il peut sortir
                   <lb/>d'un jour &a; l'autre <pc type="supplied">;</pc> si seulement ça pouvait
@@ -160,7 +172,7 @@
                   <lb/>ses camarades&vir; quelle joie pour lui quand
                   <lb/>il apprendrait cette nouvelle<pc>.</pc> <hi rend="capitalize">p</hi>our la tante&vir;
                   <lb/>il n'y a qu'elle et moi qui pouvions nous en occuper
-                  <lb/>du frère <pc type="supplied">;</pc> mes parents par ailleurs ne savent
+                  <lb/>du <rs type="person" ref="#Horel_Louis">frère</rs> <pc type="supplied">;</pc> mes parents par ailleurs ne savent
                   <lb/>ni lire ni écrire et ne connaissent personne&vir;
                   <lb/>si nous ne serions pas l&a; tous les
                   <lb/>deux&vir; il serait malheureux comme
@@ -184,14 +196,28 @@
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_notea" n="a">
                La correspondance se poursuit au recto de cette carte-lettre.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">
+               Mi-novembre le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. Le <persName ref="#Joffre">généralissime Joffre</persName> pense que les troupes françaises
+               ne doivent pas battre en retraite immédiatement, afin d'apporter un soutien aux serbes et rester crédible face aux États encore neutres. 
+               Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail" xml:id="Sarrail_14121915">général Sarrail</persName> commandant l'armée d'Orient. Il adopte dans un premier temps un position 
+               défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un «recul par échelon successif» qui est décidé le
+               3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.
+               <bibl corresp="#Schiavon_front" n="147"/>
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">
+                Malgré l'accord trouvé quelques semaines plus tôt la situation n'a pas véritablement évoluée et les grecs restent une menace pour les troupes alliées.                
+               <!-- Page 143 : la conservation de Salonique est une priorité -->
+               <bibl corresp="#Schiavon_front" n="222"/>
             </note>
          </div>        
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

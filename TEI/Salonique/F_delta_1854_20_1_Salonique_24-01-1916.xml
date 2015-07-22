@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_24-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_24-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_087.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_087.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_087.jpg"/>
                <figDesc>
                   Le Jardin Public dans la Tour Blanche<placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_088.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_088.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_24011916">Salonique</placeName>&vir;
@@ -71,32 +75,36 @@
                </salute>
             </opener>
             <p>
-               <lb/>Je vous raconte un exploit <choice><orig>de</orig><reg>des</reg></choice> <w rend="hyphen">sous</w><w>marins</w> <choice><orig>boche</orig><reg>boches</reg></choice>
+               <lb/>Je vous raconte un exploit <choice><orig>de</orig><reg>des</reg></choice> sous<supplied reason="compose">-</supplied>marins <choice><orig>boche</orig><reg>boches</reg></choice>
                <lb/>qui ont eu le culot de venir &a; l'entrée de <placeName ref="#Salonique">Salonique</placeName>
-               <lb/><choice><orig>torpillé</orig><reg>torpiller</reg></choice> un grand cargot <hi rend="minimize">A</hi>nglais chargé de chevaux<pc>,</pc>
+               <lb/><choice><orig>torpillé</orig><reg>torpiller</reg></choice> un grand <choice><orig>cargot</orig><reg>cargo</reg></choice> <hi rend="minimize">A</hi>nglais chargé de chevaux<pc>,</pc>
                <lb/>et de canons<pc>.</pc> <hi rend="capitalize">h</hi>eureusement il y a eu personne de noyé
                <lb/>sauf environ <choice><orig>500</orig><reg>cinq cents</reg></choice> chevaux et mulets qui se trouvaient
                <lb/>dans la cale arrière qui ont été tous noyés car la
                <lb/>torpille a frappé l'arrière du batiment&vir; juste au 
-               <lb/>dessous de ces <choice><orig>2</orig><reg>deux</reg></choice> cales <choice><orig>arrière</orig><reg>arrières</reg></choice><pc>.</pc> <hi rend="capitalize">i</hi>l a mis environ <choice><orig>3</orig><reg>trois</reg></choice>
+               <lb/>dessous de <choice><orig>ces</orig><reg>ses</reg></choice> <choice><orig>2</orig><reg>deux</reg></choice> cales <choice><orig>arrière</orig><reg>arrières</reg></choice><pc>.</pc> <hi rend="capitalize">i</hi>l a mis environ <choice><orig>3</orig><reg>trois</reg></choice>
                <lb/>heures pour <choice><orig>coulé</orig><reg>couler</reg></choice> &a; moiti&é; car le premier batiment
                <lb/>qui a été à son secours était le mien&pt; <choice><sic><hi rend="capitalize">j</hi>'ai</sic><corr>Je suis</corr></choice> monté &a;
-               <lb/>bord avec <choice><orig>4</orig><reg>quatre</reg></choice> hommes pour passer les <choice><orig>ammarres</orig><reg>ammares</reg></choice> <unclear>pour</unclear>
+               <lb/>bord avec <choice><orig>4</orig><reg>quatre</reg></choice> hommes pour passer les <choice><orig>ammarres</orig><reg>amarres</reg></choice> <unclear>pour</unclear>
                <lb/>t&â;cher de l'envoyer &a; la côte mais nous ne pouvions
                <lb/>pas le faire tout seul&pt; <hi rend="capitalize">u</hi>ne heure après il est arrivé
-               <lb/><choice><orig>2</orig><reg>deux</reg></choice> remorqueurs français&vir; le Boeuf et un autre&vir; plus
+               <lb/><choice><orig>2</orig><reg>deux</reg></choice> remorqueurs français&vir; <name type="navire" ref="#Boeuf" xml:id="Boeuf__24011916">le Boeuf</name> et un autre&vir; plus
                <lb/>des <choice><orig>chaluties</orig><reg>chalutiers</reg></choice> <hi rend="minimize">A</hi>nglais et torpilleurs&pt; <hi rend="capitalize">n</hi>ous l'avons
                <lb/>pris &a; la remorque et l'avons envoyé &a; terre au
                <lb/>sec&pt; <hi rend="capitalize">n</hi>ous avons <choice><orig>reussi</orig><reg>réussi</reg></choice> &a; sauver la moitié de
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_085.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_085.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_085.jpg"/>
                <figDesc>
                   Costumes à <placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>               
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_086.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_086.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
                <lb/>son chargement<pc type="surplus">.</pc> car le bateau repose au font <pc type="supplied">;</pc>
@@ -106,7 +114,7 @@
                <lb/>qui s'y trouvaient dans les deux cales <choice><orig>avant</orig><reg>avants</reg></choice> qui n'ont 
                <lb/>absolument rien eu&pt; De <choice><sic>perdre</sic><corr>perdu</corr></choice>&vir; il y a eu environ entre
                <lb/>chevaux et mulets&vir; <choice><orig>500</orig><reg>cinq cents</reg></choice> de noyés <pc type="supplied">;</pc> <choice><orig>tous</orig><reg>toutes</reg></choice> les pauvres bêtes
-               <lb/>qui se trouvaient dans les 2 cales arri&è;re de <choice><orig>mort</orig><reg>mortes</reg></choice>&pt;
+               <lb/>qui se trouvaient dans les <choice><orig>2</orig><reg>deux</reg></choice> cales arri&è;re de <choice><orig>mort</orig><reg>mortes</reg></choice>&pt;
                <lb/><hi rend="capitalize">d</hi>'hommes&vir; il n'y a eu heureusement personne<choice><orig><pc>.</pc></orig><reg><pc type="supplied">,</pc></reg></choice> ils
                <lb/>se sont réfugiés tous dans des canots&pt; <hi rend="capitalize">i</hi>l n'y avait
                <lb/>qu'un seul homme qui était &a; la mer avec une bou&é;e
@@ -133,6 +141,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

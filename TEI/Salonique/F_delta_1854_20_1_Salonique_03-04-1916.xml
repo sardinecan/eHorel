@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_03-04-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_03-04-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_033.jpg"/> 
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_033.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/> 
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_033.jpg"/>
                <figDesc>
                   <placeName ref="#Salonique">Salonique</placeName> - Quai de Salonique
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_034.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_034.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_03041916">Salonique</placeName>&vir;
@@ -87,14 +91,18 @@
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres de <choice><orig>descendu</orig><reg>descendus</reg></choice> dans nos lignes&vir; ce
                <lb/>qui leurs fait <choice><orig>8</orig><reg>huit</reg></choice> de <choice><orig>descendu</orig><reg>descendus</reg></choice> contre nous un seul&pt;
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_031.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_031.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_031.jpg"/>
                <figDesc>
                   Le Quai de <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure> 
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_032.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_032.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>Mais c'est bizarre&vir; &a; chaque fois que<del rend="overline">s</del> ces <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice>
@@ -128,6 +136,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

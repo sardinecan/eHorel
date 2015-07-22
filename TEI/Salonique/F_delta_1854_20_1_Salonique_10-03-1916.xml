@@ -55,14 +55,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_10-03-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_10-03-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_057.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_057.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_057.jpg"/>
                <figDesc>
                   Costumes de paysannes à <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>  
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_058.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_058.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_10031916">Salonique</placeName>&vir;
@@ -86,30 +90,34 @@
                <lb/><hi rend="capitalize">i</hi>ls n'ont pas pu venir survoler la rade
                <lb/>ni la ville de <placeName ref="#Salonique">Salonique</placeName><pc type="surplus">.</pc> car ils ont été 
                <lb/><choice><orig>chasser</orig><reg>chassé</reg></choice> avec pertes et fracas<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs
-               <lb/>rien de nouveau <choice><orig>de</orig><reg>des</reg></choice> <w rend="hyphen">sous</w><w>marins</w> depuis 
+               <lb/>rien de nouveau <choice><orig>de</orig><reg>des</reg></choice> sous<supplied reason="compose">-</supplied>marins depuis 
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_055.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_055.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_055.jpg"/>
                <figDesc>
                   Derviche tournant à <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_056.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_056.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>celui qui <choice><sic>a</sic><corr>est</corr></choice> passé dans les filets des <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>petits pêcheurs grecs&pt; <hi rend="capitalize">n</hi>ous n'avons pas vu
                <lb/>aucun autre<pc type="surplus">.</pc> mais n'empêche qu'ils nous
                <lb/>ont coulé notre plus beau paquebot
-               <lb/>et le plus grand de France&pt; <hi rend="capitalize">s</hi>i il n'y avait
+               <lb/>et le plus grand de France<ref type="note" target="#F_delta_1854_20_1_Salonique_10-03-1916_note1" n="1"></ref>&pt; <hi rend="capitalize">s</hi>i il n'y avait
                <lb/>eu que le bateau ce n'était qu'un demi
                <lb/>mal mais malheureusement il y a eu&vir; sur
                <lb/><choice><orig>1800</orig><reg>mille huit cents</reg></choice> hommes entre l'équipage et les soldats
                <lb/>coloniaux&vir; il y a eu <choice><orig>900</orig><reg>neuf cents</reg></choice> victimes et tout
                <lb/>cela &a; cause qu'il lui est arrivé une avarie
                <lb/>de machine ce qui l'a forcé de stopper&pt;
-               <lb/><hi rend="capitalize">l</hi>e <w rend="hyphen">sous</w><w>marin</w> qui se trouvait sur sa 
+               <lb/><hi rend="capitalize">l</hi>e sous<supplied reason="compose">-</supplied>marin qui se trouvait sur sa 
                <lb/>route ne pouvait pas trouver plus belle
                <lb/>occasion que de lui envoyer sa torpille&pt;
                <lb/><hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le moment&vir;
@@ -135,14 +143,15 @@
                <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                   
                   <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>                                             
-                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_10031916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></del></addrLine>                                            
-                  <addrLine><del hand="#other" rend="overline">Var</del></addrLine>                  
-                  <addrLine>France</addrLine>
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_10031916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></del></addrLine>                                            
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Var" xml:id="Var_10031916">Var</placeName></del></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_10031916">France</placeName></addrLine>
                </address>               
                <add hand="#other">
                   <address type="addressee" place="envelope">                                             
                      <addrLine>48 rue de la Comédie</addrLine>                                    
-                     <addrLine><placeName ref="#Beaune" xml:id="Beaune_10031916">Beaune</placeName> Cote d'or</addrLine>                                 
+                     <addrLine><placeName ref="#Beaune" xml:id="Beaune_10031916">Beaune</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_10031916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
                   </address>
                </add>
                <stamp type="armee">
@@ -154,7 +163,7 @@
                envoi de
                <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>
                   <addrLine> Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_10031916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
                </address>
                <stamp type="postmark">
@@ -164,10 +173,17 @@
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_10-03-1916_note1" n="1">
+               Il s'agit très certainement du «<name type="navire" ref="#Provence" xml:id="Provence_10031916">Provence II</name>». Au départ de <placeName ref="#Toulon" xml:id="Toulon_10031916">Toulon</placeName>, il se rendait à <placeName ref="#Salonique">Salonique</placeName>
+               chargé de troupes et de matériel. Il est torpillé par le sous-marin allemand <name type="navire" ref="U_35" xml:id="U_35_10031916">U-35</name> le <date when="1916-02-26">26 février 1916</date>.
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

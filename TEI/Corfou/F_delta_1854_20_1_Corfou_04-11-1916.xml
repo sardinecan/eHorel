@@ -30,11 +30,11 @@
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
             <correspAction type="sent">
                <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Corfou">Corfou,</placeName>
+               <placeName ref="#Corfou">Corfou</placeName>
                <date when="1916-11-04">le 04 novembre 1916</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst,</persName>
+               <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
             </correspAction>
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml">
@@ -49,14 +49,18 @@
    <text xml:id="F_delta_1854_20_1_Corfou_04-11-1916">
       <body xml:id="F_delta_1854_20_1_Corfou_04-11-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_005.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
                <figDesc>
                   <placeName ref="#Athenes" xml:id="Athenes_04111916">Athènes</placeName>. Musée National.
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_006.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_006.jpg 
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; environ de <placeName ref="#Corfou" xml:id="Corfou_04111916">Corfou</placeName>&vir;
@@ -71,7 +75,7 @@
                <lb/>de vous faire parvenir de mes nouvelles&vir; que je suis arrivé
                <lb/>&a; bord en parfaite santé et d&é;sire qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>cartes que vous en &ê;tes de même<pc>.</pc> <hi rend="capitalize">j</hi>'ai passé <choice><orig>9</orig><reg>neuf</reg></choice> jours chez
-               <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere" xml:id="Bussiere_04111916">Bussière</persName> <placeName>rue <unclear>Richepause</unclear></placeName>&vir; je me suis
+               <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere" xml:id="Bussiere_04111916">Bussière</persName> rue <unclear>Richepause</unclear>&vir; je me suis
                <lb/>bien amusé pendant ce petit séjour parmi eux<pc>.</pc> <hi rend="capitalize">j</hi>'ai été
                <lb/>voir mes parents &a; <placeName ref="#Lorient" xml:id="Lorient_04111916">Lorient</placeName>&pt; <hi rend="capitalize">j</hi>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
                <lb/>prie de croire que je n'ai pas trouvé le temps long<pc>.</pc>
@@ -81,18 +85,22 @@
                <lb/><hi rend="capitalize">&a;</hi> sa sortie il doit se rendre &a; <placeName ref="#Montpellier" xml:id="Montpellier_04111916">Montpellier</placeName> o&ù; l&a;
                <lb/>il sera dirigé sur <placeName ref="#Marseille" xml:id="Marseille_04111916">Marseille</placeName> pour prendre le paquebot
                <lb/>qui le m&è;nera en <placeName ref="#Algerie" xml:id="Algérie_04111916">Algérie</placeName> &a; <placeName ref="#Mers_el_Kebir" xml:id="Mers_el_Kebir_04111916"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName> &a; <choice><orig>4</orig><reg>quatre</reg></choice> 
-               kil<lb rend="hyphen"/>omètres d'<placeName ref="#Oran">Oran</placeName>&pt; <hi rend="capitalize">j</hi>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
+               <w>kil<lb rend="hyphen"/>omètres</w> d'<placeName ref="#Oran">Oran</placeName>&pt; <hi rend="capitalize">j</hi>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
                <lb/>poudrière d'<placeName ref="#Oran" xml:id="Oran_04111916">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <hi rend="capitalize">i</hi>l est
-               <lb/>parti <w rend="hyphen">l&a;</w><w>bas</w> pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
+               <lb/>parti l&a;<supplied reason="compose">-</supplied>bas pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_003.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_003.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_003.jpg"/>
                <figDesc>
                   Athènes. Ecole Française.
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_004.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_004.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " />           
             <p>
                <add type="numbering" n="2" rend="left">(2)</add>
                <lb/>service actif qui lui restait &a; faire<pc>.</pc> <hi rend="capitalize">a</hi>près avoir termin&é;
@@ -138,6 +146,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

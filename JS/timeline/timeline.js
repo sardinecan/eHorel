@@ -7,7 +7,7 @@ Timeline.createBandInfo({
     eventSource:    eventSource,
     date:           "Sep 01 1915",
 
-    width:          "45%", 
+    width:          "50%", 
     intervalUnit:   Timeline.DateTime.MONTH, 
     intervalPixels: 150
 }),
@@ -15,9 +15,9 @@ Timeline.createBandInfo({
     eventSource:    eventSource,
     date:           "Sep 01 1915",
 
-    width:          "55%", 
+    width:          "50%", 
     intervalUnit:   Timeline.DateTime.YEAR, 
-    intervalPixels: 200
+    intervalPixels: 250
 })
   ];
 bandInfos[1].syncWith = 0;

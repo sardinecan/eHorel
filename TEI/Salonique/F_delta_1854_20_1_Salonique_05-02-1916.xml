@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_05-02-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_05-02-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_075.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_075.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_075.jpg"/>
                <figDesc>
                   Costumes de paysannes à <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>   
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_076.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_076.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_05021916">Salonique</placeName>&vir;
@@ -74,34 +78,38 @@
             <p>
                <lb/>Cette fois je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> quelques petits exploits
                <lb/>de guerre &a; notre profit<pc>.</pc> Il y a des jeunes
-               <lb/>aviateurs qui ont descendu un <name ref="#Aviatik" xml:id="Aviatik_05021916"><hi rend="capitalize">a</hi>viatiK</name> <hi rend="minimize">B</hi>oche&pt;
+               <lb/>aviateurs qui ont descendu un <name type="entree" ref="#Aviatik" xml:id="Aviatik_05021916"><hi rend="capitalize">a</hi>viatiK</name> <hi rend="minimize">B</hi>oche&pt;
                <lb/><hi rend="capitalize">i</hi>l y avait <choice><orig>2</orig><reg>deux</reg></choice> officiers &a; bord&vir; un <hi rend="minimize">B</hi>ulgare et
                <lb/>un <hi rend="minimize">A</hi>llemand&pt; <hi rend="capitalize">l</hi>'officier <hi rend="minimize">B</hi>ulgare qui faisait
                <lb/>le pilote a été blessé aux jambes et nos <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>aviateurs qui les <choice><orig>poursuivait</orig><reg>poursuivaient</reg></choice> ont endommagé leur
                <lb/>moteur et ils ont été <choice><orig>forcé</orig><reg>forcés</reg></choice> d'<choice><orig>atterir</orig><reg>atterrir</reg></choice> dans nos
-               <lb/>lignes<pc>.</pc> <choice><orig>2</orig><reg>Deux</reg></choice> jours après l'<name ref="#Aviatik"><hi rend="capitalize">a</hi>viatiK</name> a été trainé
+               <lb/>lignes<pc>.</pc> <choice><orig>2</orig><reg>Deux</reg></choice> jours après l'<name type="entree" ref="#Aviatik"><hi rend="capitalize">a</hi>viatiK</name> a été trainé
                <lb/>dans les rues de <placeName ref="#Salonique">Salonique</placeName> pour leur faire
                <lb/>voir les exploits de nos jeunes aviateurs
-               <lb/>et avec tout cela&vir; dans un huitaine de
+               <lb/>et avec tout cela&vir; dans une huitaine de
                <lb/>jours nous allons nous servir de leur
                <lb/><name ref="#Aviatik"><hi rend="capitalize">a</hi>viatiK</name>&pt; <hi rend="capitalize">n</hi>ous avons déjà <choice><orig>changer</orig><reg>changé</reg></choice>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_073.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_073.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_073.jpg"/>
                <figDesc>
                   <placeName ref="#Salonique">SALONIQUE.</placeName> Boulevard du Roi Constantin
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_074.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_074.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/><hi rend="minimize">L</hi>a peinture et nous allons nous en servir
                <lb/>pour combattre leurs <choice><orig>frère</orig><reg>frères</reg></choice> les boches<pc>.</pc> <hi rend="capitalize">i</hi>l y a
                <lb/><choice><orig>3</orig><reg>trois</reg></choice> jours nous avons eu la visite d'un zeppelin
                <lb/><hi rend="minimize">A</hi>llemand&vir; il est venu &a; 11 heures du soir <supplied reason="omitted">et</supplied> il
-               <lb/>a <choice><orig>lancer</orig><reg>lancé</reg></choice> des bombes sur <placeName ref="#Salonique">Salonique</placeName>&pt; <hi rend="capitalize">i</hi>l a
+               <lb/>a <choice><orig>lancer</orig><reg>lancé</reg></choice> des bombes sur <placeName ref="#Salonique">Salonique&pt;</placeName> <hi rend="capitalize">i</hi>l a
                <lb/>brulé tout le camp d'approvisionnement
                <lb/>grec&vir; il y a en pour <choice><orig>3</orig><reg>trois</reg></choice> millions de dégat&pt;
                <lb/><hi rend="capitalize">c</hi>'est &a; eux de r&é;clamer leur d&é;g<choice><orig>a</orig><reg>â</reg></choice>t aux
@@ -124,9 +132,8 @@
                <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                       
                   <addrLine>Hôtel de Bains</addrLine>                  
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_050201916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
-                  <addrLine>Var</addrLine>                  
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_050201916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></addrLine>                                                    
+                  <addrLine><placeName ref="#Var" xml:id="Var_050201916">Var</placeName>&vir; <placeName ref="#France" xml:id="France_050201916">France</placeName></addrLine>
                </address>
                <stamp type="armee">
                   <orgName>Marine Française, Service à la Mer</orgName>
@@ -137,7 +144,7 @@
                envoi de 
                <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                     
-                  <addrLine><lb/>quartier maitre canonnier &a; bord <lb/>du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_05021916">Shamrock II</name></addrLine> 
+                  <addrLine><lb/>quartier maitre canonnier &a; bord <lb/>du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_05021916">Shamrock II</name></addrLine> 
                   <addrLine>Division <lb/>des <placeName ref="#Dardanelles" xml:id="Dardanelles_05021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
                </address>
                <stamp type="postmark">
@@ -151,6 +158,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

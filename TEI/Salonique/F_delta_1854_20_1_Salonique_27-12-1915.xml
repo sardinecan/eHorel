@@ -54,7 +54,9 @@
    <text xml:id="F_delta_1854_20_1_Salonique_27-12-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_27-12-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_115.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_115.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_115.jpg"/>
                <figDesc>
@@ -62,7 +64,9 @@
                   l'Auto Royal stationnant devant la porte de l'Eglise St. Minas 
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_116.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_116.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_27121915">Salonique</placeName>&vir;
@@ -90,7 +94,9 @@
                <lb/>l'air de venir d'aucun coté et comme il lui
                <lb/>fallait de l'air et beaucoup de soin&vir; elle est rentrée
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_113.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_113.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_113.jpg"/>
                <figDesc>
@@ -98,7 +104,9 @@
                   Ex Eglise St. Georges 
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_114.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_114.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/>&a; l'hôpital en payant 2<hi rend="super">¢</hi> 50 par jour&pt; <hi rend="capitalize">ç</hi>a revient
@@ -119,7 +127,9 @@
                <lb/>petite part comme dans une famille&pt; De
                <lb/><hi rend="minimize">M</hi>onsieur <persName ref="#G_Locke" xml:id="G_Locke_27121915"><hi rend="capitalize">l</hi>ocke</persName> je n'ai encore pas eu de ses nouvelles&vir;
             </p>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_111.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_111.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <p>               
                <address place="back" type="sender">
                   <persName ref="#Horel" xml:id="Horel_27121915">Horel Armand</persName>
@@ -130,14 +140,16 @@
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_27121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
-                  <addrLine>Var</addrLine>                  
-                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_note1" n="1"/></addrLine>                     
+                  <addrLine><placeName ref="#Var" xml:id="Var_27121915">Var</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_27121915">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_notea" n="a"/></addrLine>                     
                </address>               
             </p>
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_112.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_112.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="3" rend="center">3</add>
-               <lb/><hi rend="minimize">I</hi>l y a mon frère qui me demande son adresse&pt; <hi rend="capitalize">c</hi>e serait
+               <lb/><hi rend="minimize">I</hi>l y a mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_27121915">frère</rs> qui me demande son adresse&pt; <hi rend="capitalize">c</hi>e serait
                <lb/>plus facile pour lui d'expliquer son cas et
                <lb/>avec cela il sait &a; quelle personne qu'il faut 
                <lb/>que M<hi rend="super">ieur</hi> <persName ref="#G_Locke">Locke</persName> s'adresse et qu'une seule parole
@@ -154,7 +166,9 @@
                <lb/>faudra que je sorte car alors je ne pourrai plus
                <lb/>m'engager en temps de paix&vir; je n'ai pas le droit&pt;
             </p>
-            <pb n="7" facs="../../FACS/BDIC_FD_1854_20_1_110.jpg" type="postcardBreak"/>
+            <pb n="7" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_110.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <p>
                <add type="numbering" n="4" rend="center">4</add>
                <lb/>C'est pour cela si il pouvait sortir un de ses
@@ -166,22 +180,23 @@
                <lb/>et est reparti de nouveau sur le front <pc type="supplied">;</pc> <choice><orig>sa</orig><reg>ça</reg></choice> fait de la 
                <lb/>peine de les voir partir&pt; <hi rend="capitalize">s</hi>i on était <choice><orig>sur</orig><reg>sûr</reg></choice> qu'il 
                revie<lb rend="hyphen"/>nnent&vir; on ne se ferait pas tant de peine mais
-               <lb/>malheureusement on ne peut pas le devnier<pc>.</pc>
+               <lb/>malheureusement on ne peut pas le deviner<pc>.</pc>
                <lb/><hi rend="capitalize">h</hi>eureusement d'un coté tout le monde ne meurt pas
                <lb/>&a; la guerre<pc>.</pc> <hi rend="capitalize">i</hi>ci depuis quelques jours la temp&é;rature <choice><orig>c</orig><reg>s</reg></choice>'est 
                <lb/>adoucie un tout petit peu<pc>.</pc> Je crois que cet hiver partout
                <lb/>dans les tranchées il ne fera gu&è;re chaud<pc>.</pc> <hi rend="capitalize">f</hi>aut esp&é;rer
                <lb/>que ce sera le dernier hiver pour la victoire <pc type="supplied">;</pc> comme
                <lb/>vous me dites <persName ref="#Comtesse_Forest">comtesse</persName> on est <choice><orig>sur</orig><reg>sûr</reg></choice> de la <choice><orig>gagné</orig><reg>gagner</reg></choice> mais
-               <lb/>quand <pc>?</pc>
-            </p>
-            <closer>
-               <hi rend="capitalize">j</hi>e termine mes cartes en vous souhaitant<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_note2" n="2"/>
-            </closer>
-            <pb n="8" facs="../../FACS/BDIC_FD_1854_20_1_109.jpg"/>
-            <closer>
+               <lb/>quand <pc>?</pc> <hi rend="capitalize">j</hi>e termine mes cartes en vous souhaitant<ref type="note" target="#F_delta_1854_20_1_Salonique_27-12-1915_noteb" n="b"/>
+            </p>            
+            <pb n="8" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_109.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
+            <p>
                <add type="numbering" n="5" rend="center">5</add>
                <lb/>une meilleure santé et prompt rétablissement&vir;
+            </p>
+            <closer>               
                <salute>
                   un petit
                   <lb/>ami qui ne vous
@@ -199,18 +214,18 @@
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Hôtel de Bains</addrLine>
                   <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>
-                  <addrLine>Var</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine><placeName ref="#Var">Var</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>   
                </address>
             </closer>
          </div>
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_notea" n="a">
                Cette adresse est reprise au dos des deux cartes-lettres qui composent cette correspondance.
             </note>
-            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_note2" n="2">
+            <note xml:id="F_delta_1854_20_1_Salonique_27-12-1915_noteb" n="b">
                La correspondance se poursuit au recto de cette carte lettre.
             </note>
          </div>
@@ -218,6 +233,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

@@ -53,7 +53,9 @@
    <text xml:id="F_delta_1854_20_1_Salonique_20-12-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_20-12-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_117.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_117.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_117.jpg"/>
                <figDesc>
@@ -61,7 +63,9 @@
                   Arrivée de l'armée hellénique à Salonique
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_118.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_118.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_20121915">Salonique</placeName>&vir;
@@ -83,7 +87,7 @@
                <lb/>envoyer &a; <placeName ref="#Toulon" xml:id="Toulon_20121915">Toulon</placeName> pour une quarantaine de jours
                <lb/>pour prendre <choice><orig>2</orig><reg>deux</reg></choice> canons de 100 pour remplacer les <choice><orig>4</orig><reg>quatre</reg></choice>
                <lb/>canons de 47 que nous avons <choice><orig>debarqué</orig><reg>débarqués</reg></choice> qui vont servir
-               <lb/>&a; mettre sur les cargots qui vont faire le commerce&pt;
+               <lb/>&a; mettre sur les <choice><orig>cargots</orig><reg>cargos</reg></choice> qui vont faire le commerce&pt;
                <lb/><hi rend="capitalize">s</hi>i nous y allons &a; <placeName ref="#Toulon">Toulon</placeName> prendre ces canons ce sera
                <lb/>pour aller dans le <placeName ref="#Canal_Suez" xml:id="Canal_Suez_20121915">canal de Suez</placeName> pour empêcher
                <lb/>les Turcs de le franchir&pt; <hi rend="capitalize">s</hi>i c'est vrai l&a; nous serons

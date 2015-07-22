@@ -14,17 +14,18 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <!--feuilles de style-->  
                 <link rel="stylesheet" href="../../STYLE/foundation/css/foundation.css" />
-                <link rel="stylesheet" type="text/css" href="../../STYLE/personnalisation/style.css"/>    
-                <script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>
+                <link rel="stylesheet" type="text/css" href="../../STYLE/personnalisation/style.css"/>
+                <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+                <script src="../../STYLE/foundation/js/vendor/modernizr.js">/*Pour transformation xslt*/</script>
                 <!--cartographie-->
                 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
                 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">//</script>
-                <script src="../../JS/carte/cartographie.js">//</script>
-                <script src="../../JS/js/jquery.js">//</script>
+                <script src="../../JS/carte/cartographie.js">/*Pour transformation xslt*/</script>
+                <script src="../../JS/js/jquery.js">/*Pour transformation xslt*/</script>
             </head>
             <body onload="InitialiserCarte() ;">                                                                                     
-                <header class="row">                         
-                    <img src="../../STYLE/images/header.jpg" alt="header"/>                                                                                            
+                <header class="row border-top">
+                    <img src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/>
                     <nav class="top-bar" data-topbar="yes" role="navigation">                    
                         <ul class="title-area">                        
                             <li class="name"><h1><a href="http://www.bdic.fr/">BDIC</a></h1></li>                            
@@ -57,69 +58,60 @@
                             </ul>                              
                         </section>                        
                     </nav>                    
-                </header>                                                
-                <div class="row corps">                
+                </header>
+                <div class="row">
+                    <img src="../../STYLE/images/slide_14_18_1.jpg" alt="header"/>
+                </div>
+                <div class="row border">                
                     <div class="large-12 columns">                    
-                        <h2>Accès géographique</h2>
-                        <div id="map"></div>                    
+                        <h2>Accès géographique</h2> 
+                        <small>Selectionnez un lieu d'envoi :</small>
+                        <div id="map"><xsl:comment>pour traitement xslt</xsl:comment></div>                    
+                    </div>                    
+                </div>            
+                <footer class="row border">
+                    <div class="small-12 medium-12 large-6 columns">                                                                                 
+                        <div class="block_footer_img">
+                            <a href="http://www.bdic.fr/"><img style="margin-top:5px;" src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/></a>
+                            <a href="http://www.u-paris10.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_ouest.png" alt="logo_Paris_Ouest"/></a>
+                            <a href="http://www.u-plum.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_lumieres.png" alt="logo_Paris_Lumiere"/></a>
+                        </div>
                     </div>
-                    <div class="large-12 columns">
-                        <h3>Selectionnez un lieu d'envoi :</h3>
-                        <xsl:apply-templates select="//tei:correspDesc"/>
-                    </div>
-                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                    <div class="small-12 medium-12 large-6 columns">
+                        <div class="row">
+                            <div class="small-6 medium-6 large-6 columns">                            
+                                <div class="block_footer">
+                                    <b>La bibliothèque</b>                            
+                                    <ul class="link">                                
+                                        <li>Site de Nanterre</li>                                
+                                        <li>6, allée de l'Université</li>                                
+                                        <li>F-92001 Nanterre Cedex</li>                                                                                                                                
+                                    </ul>
+                                </div>                                    
+                            </div>
+                            <div class="small-6 medium-6 large-6 columns">                            
+                                <div class="block_footer">
+                                    <b>Le musée</b>                            
+                                    <ul class="link">                                
+                                        <li>Site de Paris</li>                                
+                                        <li>Hôtel national des Invalides</li>                                
+                                        <li>129, rue de Grenelle 75007 Paris</li>                                                                                                                                
+                                    </ul>
+                                </div>                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 text-right">
+                                <a class="lien_footer" href="credits.html">Crédits</a>                        
+                            </div>
+                        </div>
+                    </div>                
+                </footer>
                 <!--Permettent aux listes de se dérouler automatiquement + menu adaptatif (doivent être placés en bas de page)-->    
-                <script src="../../STYLE/foundation/js/vendor/jquery.js">//</script>
-                <script src="../../STYLE/foundation/js/foundation.min.js">//</script>
+                <script src="../../STYLE/foundation/js/vendor/jquery.js">/*Pour transformation xslt*/</script>
+                <script src="../../STYLE/foundation/js/foundation.min.js">/*Pour transformation xslt*/</script>
                 <script>$(document).foundation();</script>
             </body>        
         </html>    
-    </xsl:template>
-    <xsl:template match="//tei:correspDesc">
-        <xsl:choose>
-            <xsl:when test="@type='sommaire'"/>
-            <xsl:otherwise>
-                <xsl:for-each select="tei:correspContext">
-                    <div class="row">
-                        <xsl:variable name="ref" select="../tei:correspAction/tei:placeName/@ref"/>
-                        <xsl:variable name="place" select="../tei:correspAction/tei:placeName"/>                            
-                        <h3><xsl:value-of select="$place"/></h3>
-                        <hr/>
-                        <div class="large-5 small-5 large-offset-1 columns">
-                            <xsl:variable name="nombre" select="count(tei:ref)"/>
-                            <ul class="list2">
-                                <li>
-                                    <xsl:text>Destinataire : </xsl:text>                                                       
-                                    <xsl:value-of select="../tei:correspAction[@type='received']/tei:persName"/>                          
-                                </li>
-                                <li>
-                                    <xsl:text>Nombre de cartes envoyées : </xsl:text> <xsl:value-of select="$nombre"/>
-                                </li>
-                            </ul>                               
-                        </div>
-                        <div class="large-4 small-4 large-offset-2 columns">
-                            <ul class="list">
-                                <xsl:variable name="ref" select="../tei:correspAction/tei:placeName/@ref"/>
-                                <xsl:variable name="placeName" select="replace($ref,'#','')"/>
-                                <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-                                <xsl:attribute name="id" select="concat($placeName,$date)">                  
-                                </xsl:attribute>
-                                <xsl:for-each select="tei:ref">
-                                    <li>
-                                        <xsl:element name="a">
-                                            <xsl:variable name="target">
-                                                <xsl:value-of select="replace(@target,'xml','html')"></xsl:value-of>
-                                            </xsl:variable> 
-                                            <xsl:attribute name="href" select="$target"></xsl:attribute>                                                
-                                            <xsl:value-of select="tei:date"/>
-                                        </xsl:element>                                           
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
-                        </div>
-                    </div>
-                </xsl:for-each>
-            </xsl:otherwise>
-        </xsl:choose>        
-    </xsl:template>      
+    </xsl:template>          
 </xsl:stylesheet>

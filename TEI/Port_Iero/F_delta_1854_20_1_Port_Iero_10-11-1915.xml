@@ -55,14 +55,18 @@
    <text xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915">
       <body xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_157.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_157.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_157.jpg"/>
                <figDesc>
                   Office Sanitaire les <choice><orig>bureau</orig><reg>bureaux</reg></choice> &amp; dépôts de la Régie<placeName ref="#Metelin" xml:id="Metelin_10111915">Mételin.</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_158.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_158.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline rend="center">
                   <placeName ref="#Port_Iero" xml:id="Port_Iero_10111915">Ile de Port Iéro</placeName>&vir;
@@ -86,34 +90,38 @@
                <lb/>permission de <choice><orig>24</orig><reg>vingt-quatre</reg></choice> heures<pc>.</pc> Je souhaite de tout coeur 
                <lb/>une prompte guérison &a; votre demoiselle<pc type="surplus">.</pc> et pour 
                <lb/>vous comtesse une bonne santé<pc>.</pc> Ces jours derniers
-               <lb/>il est arrivé malheur &a; nos <w rend="hyphen">sous</w><w>marins</w> dans
-               <lb/>la <placeName ref="#Marmara" xml:id="Marmara_10111915">mer de Marmara</placeName>&vir; il y a le <w rend="hyphen">sous</w><w>marin</w> français
-               <lb/><name ref="#Turquoise" xml:id="Turquoise_10111915">Turquoise</name> qui a été pris dans les filets&pt;               
+               <lb/>il est arrivé malheur &a; nos sous<supplied reason="compose">-</supplied>marins dans
+               <lb/>la <placeName ref="#Marmara" xml:id="Marmara_10111915">mer de Marmara</placeName>&vir; il y a le sous<supplied reason="compose">-</supplied>marin français
+               <lb/><name type="navire" ref="#Turquoise" xml:id="Turquoise_10111915">Turquoise</name> qui a été pris dans les filets&pt;               
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_155.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_155.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_155.jpg"/>
                <figDesc>
                   Panorama du village Pafla de<placeName ref="#Metelin">Mételin.</placeName>
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_156.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_156.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
                <lb/><hi rend="capitalize">s</hi>on équipage est sauvé mais malheuresement ils sont 
                <lb/>tous fait prisonniers&vir; mais les turcs n'ont pas eu le bonheur
-               <lb/>d'avoir notre <w rend="hyphen">sous</w><w>marin</w> entre leurs mains car avant de
-               <lb/>se rendre ils l'ont coulé<pc>.</pc> <hi rend="capitalize">e</hi>n plus il y a aussi le <w rend="hyphen">sous</w>
-               <lb/><choice><orig>marins</orig><reg>marin</reg></choice> <hi rend="minimize">A</hi>nglais qui avait coulé le cuirass&é; turc
+               <lb/>d'avoir notre sous<supplied reason="compose">-</supplied>marin entre leurs mains car avant de
+               <lb/>se rendre ils l'ont coulé<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1"></ref><pc>.</pc> <hi rend="capitalize">e</hi>n plus il y a aussi le 
+               <w type="compose">sous<lb/><choice><orig>marins</orig><reg>marin</reg></choice></w> <hi rend="minimize">A</hi>nglais qui avait coulé le cuirass&é; turc
                <lb/>et bien d'autres bateaux <pc type="supplied">;</pc> il a été perdu corps et bien&vir; personne
                <lb/>de sauvé<pc>.</pc> <hi rend="capitalize">d</hi>u <choice><abbr>5<hi rend="super">eme</hi></abbr><expan>cinquième</expan></choice> <choice><orig>depôt</orig><reg>dépôt</reg></choice> qui est <placeName ref="#Toulon">Toulon</placeName> il est parti <choice><orig>5000</orig><reg>cinq mille</reg></choice>
-               <lb/><w>marins</w> qui viennent&vir; une fois <choice><orig>habillé</orig><reg>habillés</reg></choice> en colonial&vir; sur le 
+               <lb/>marins qui viennent&vir; une fois <choice><orig>habillé</orig><reg>habillés</reg></choice> en colonial&vir; sur le 
                <lb/>front <hi rend="minimize">S</hi>erbe pour faire face &a; ces salauds de <hi rend="minimize">B</hi>ulgares&pt;
                <lb/><hi rend="capitalize">l</hi>e marin dans ce parti va surement encore se faire voir&vir;
                <lb/>un marin un tout petit peu exité par la boisson n'a
                <lb/>peur de rien&vir; va au danger comme s'en <sic>aller</sic> dans
                <lb/>un bal de noce&pt; <hi rend="capitalize">d</hi>e tous les autres <choice><orig>depots</orig><reg>dépôts</reg></choice> il en est parti
-               <lb/>aussi <pc type="supplied">;</pc> enfin en tout il y a environ <choice><orig>10000</orig><reg>dix mille</reg></choice> hommes marins&pt;
+               <lb/>aussi <pc type="supplied">;</pc> enfin en tout il y a environ <choice><orig>10000</orig><reg>dix mille</reg></choice> hommes marins<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2"></ref>&pt;
             </p>
             <closer>
                <salute>
@@ -125,7 +133,7 @@
             <postscript>
                <p>
                   <add place="margin-top" rend="rotate">              
-                     Dans une charge de cavalerie les <unclear>Sudous</unclear> ou autrement dit les <unclear>eurcasses</unclear>
+                     Dans une charge de cavalerie les <unclear>Sudous</unclear> ou autrement dit les <choice><reg>cuirassiers</reg><unclear>currasses</unclear></choice>
                      <lb/>ont écrasé beaucoup de <hi rend="minimize">B</hi>ulgares&pt;
                   </add>   
                </p>
@@ -136,14 +144,15 @@
                <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>France</addrLine>
-                  <addrLine><del hand="#other" rend="overline">48 rue de la Comédie 48</del></addrLine>        
-                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune" xml:id="Beaune_10111915">Beaune</placeName></del> Cote d'or</addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><del hand="#other" rend="overline">48 rue de la Comédie <surplus reason="repeated">48</surplus></del></addrLine>        
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune" xml:id="Beaune_10111915">Beaune</placeName></del></addrLine>
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor" xml:id="Cote_Dor_10111915">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></del></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_10111915">France</placeName></addrLine>
                </address>
                <add hand="#other">
-                  <address type="addressee" place="envelope">
-                     <addrLine><placeName ref="#Sanary">Sanary</placeName> sur mer</addrLine>      
-                     <addrLine>Var <hi rend="underline">G R</hi></addrLine>
+                  <address>
+                     <addrLine><placeName ref="#Sanary">Sanary<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>mer</placeName></addrLine>      
+                     <addrLine><placeName ref="#Var" xml:id="Var_10111915">Var</placeName> <hi rend="underline">G R</hi></addrLine>
                   </address>
                </add>                             
                <stamp type="armee">
@@ -155,10 +164,10 @@
                envoi de 
                <address place="envelope" type="sender">
                   <addrLine><persName ref="#Horel" xml:id="Horel_10111915">M<hi rend="super">ieur</hi>Horel Armand</persName></addrLine>
-                  <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_10111915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles" xml:id="Dardanelleq_10111915">Dardanelles</placeName></addrLine>      
+                  <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_10111915">Henri IV</name> aux <placeName ref="#Dardanelles" xml:id="Dardanelleq_10111915">Dardanelles</placeName></addrLine>      
                </address>
                <stamp type="postmark">
-                  <placeName><choice><unclear><gap reason="illegible" agent="rubbing"/>anar<gap reason="illegible" agent="rubbing"/> va<gap reason="illegible" agent="rubbing"/></unclear><reg type="supplied" cert="high">Sanary Var</reg></choice></placeName> <date when="1915-11-21" cert="medium">21 novembre 1915</date>.
+                  <placeName><choice><unclear><gap reason="illegible" agent="rubbing"/>anar<gap reason="illegible" agent="rubbing"/> va<gap reason="illegible" agent="rubbing"/></unclear><reg type="supplied" cert="high">Sanary&vir; Var</reg></choice></placeName> <date when="1915-11-21" cert="medium">21 novembre 1915</date>.
                </stamp>
                <stamp rend="rtl" type="armee">
                   <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>
@@ -166,11 +175,25 @@
             </p>
          </div>
       </body>
-      <back> 
+      <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">
+               Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé ; cannoné et forcé à faire surface, 
+               le lieutenant de vaisseau <persName ref="#Ravenel" xml:id="Ravenel_10111915">Ravenel</persName> et son équipage sont contraints de se rendre.
+               Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.
+               <bibl corresp="#Roche_flotte"/>               
+            </note>            
+            <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">
+               Les troupes françaises partent de <placeName ref="#Marseille" xml:id="Marseille_10111915">Marseilles</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, 
+               le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend. 
+               <bibl corresp="#Schiavon_front"/> 
+            </note>            
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
   </text>

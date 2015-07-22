@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_16-11-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_16-11-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_153.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_153.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_153.jpg"/>
                <figDesc>
                   L'école turque „<placeName ref="#Idadie" xml:id="Idadie_16111915">Idadié</placeName>”.
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_154.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_154.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline rend="center">                                    
                   <placeName ref="#Salonique" xml:id="Salonique_16111915">Salonique</placeName>&vir;                  
@@ -97,22 +101,26 @@
                   </add>
                </add>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_151.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_151.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_151.jpg"/>
                <figDesc>
                   <placeName ref="#Metelin" xml:id="Metelin_16111915">Mételin.</placeName> Direction du port <foreign>(Limenarchion)</foreign>
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_152.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_152.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
-               <lb/>Qu'il y a de grecs mobilis&é;s <pc type="supplied">;</pc> il y a environ <choice><orig>10000</orig><reg>dix-mille</reg></choice> <supplied reason="omitted">hommes</supplied> des  
+               <lb/>Qu'il y a de grecs mobilis&é;s<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1"></ref> <pc type="supplied">;</pc> il y a environ <choice><orig>10000</orig><reg>dix-mille</reg></choice> <supplied reason="omitted">hommes</supplied> des  
                <lb/>troupes françaises et <hi rend="minimize">A</hi>nglaises il y en a en quantité&vir;
                <lb/>enfin on ne peut pas faire un pas dans la ville sans
                <lb/>rencontrer un militaire&pt; <hi rend="capitalize">c</hi>e sont les trains qui
-               <lb/>marchent beaucoup par ici&pt; <hi rend="capitalize">n</hi>uit et jour ils font
-               <lb/>le <w rend="hyphen">va</w><w rend="hyphen">et</w><w>vient</w> <choice><orig>chargé</orig><reg>chargés</reg></choice> de troupes de <placeName ref="#Salonique">Salonique</placeName> &a;
+               <lb/>marchent beaucoup par ici<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2"></ref>&pt; <hi rend="capitalize">n</hi>uit et jour ils font
+               <lb/>le va<supplied reason="compose">-</supplied>et<supplied reason="compose">-</supplied>vient <choice><orig>chargé</orig><reg>chargés</reg></choice> de troupes de <placeName ref="#Salonique">Salonique</placeName> &a;
                <lb/>la frontière <hi rend="minimize">S</hi>erbe<pc>.</pc> Je crois que ça va pour le mieux&pt;
                <lb/><hi rend="capitalize">a</hi>vant hier un chalutier français a arreté une barcasse
                <lb/>dans laquelle il y avait <choice><orig>41</orig><reg>quarante-et-un</reg></choice> turcs <del rend="overline">et</del> <del rend="overline">1</del> dont <choice><orig>11</orig><reg>onze</reg></choice> officiers
@@ -128,10 +136,24 @@
          </div>
       </body>      
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">
+               En octobre et malgré un accord entre les deux nations, le roi <persName ref="#Constantin" xml:id="Constantin_16111915">Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de la <placeName ref="#Serbie" xml:id="Serbi_16111915">Serbie</placeName> arguant que
+               cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à la <placeName ref="#Bulgarie" xml:id="Bulgarie_16111915">Bulgarie</placeName>, en raison de la menace allemande et autro-hongroise,
+               l'accord était devenu caduc. A la demande du premier ministre grec <persName ref="#Venizelos" xml:id="Venizelos_16111915">Venizélos</persName>, les alliés acceptent de soutenir les serbes et d'envoyer des troupes.
+               Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.
+               <bibl corresp="#Schiavon_front" n="224"/>               
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">
+               Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à la <placeName ref="#Serbie">Serbie</placeName> est un réseau à voie unique ; seul six trains (dans les deux sens) peuvent faire le voyage dans la journée. 
+               <bibl corresp="#Schiavon_front" n="248"/>               
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

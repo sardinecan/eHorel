@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_31-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_31-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS//BDIC_FD_1854_20_1_095.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_095.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS//BDIC_FD_1854_20_1_095.jpg"/>
                <figDesc>
                   La Porte du Vardar <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS//BDIC_FD_1854_20_1_096.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_096.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_31011916">Salonique</placeName>&vir;
@@ -73,29 +77,33 @@
             </opener>
             <p>
                <lb/>Au moment o&ù; je vous écris nous faisons <choice><orig>2</orig><reg>deux</reg></choice> pêches &a; la 
-               <lb/>fois&vir; la p&ê;che aux <w rend="hyphen">sous</w><w>marins</w> et aux poissons car
+               <lb/>fois&vir; la p&ê;che aux sous<supplied reason="compose">-</supplied>marins et aux poissons car
                <lb/>nous avons <choice><orig>2</orig><reg>deux</reg></choice> filets &a; la mer&pt; <hi rend="capitalize">u</hi>n pour essayer de
-               <lb/>p&ê;cher les <w rend="hyphen">sous</w><w>marins</w> et l'autre pour le poisson&pt;
+               <lb/>p&ê;cher les sous<supplied reason="compose">-</supplied>marins et l'autre pour le poisson&pt;
                <lb/><hi rend="capitalize">i</hi>l y a <choice><orig>5</orig><reg>cinq</reg></choice> minutes&vir; nous venons de tirer le filet aux
                <lb/>poissons&vir; il y a dedans&vir; <choice><orig>10</orig><reg>dix</reg></choice> <choice><orig>sôles</orig><reg>soles</reg></choice> et <choice><orig>2</orig><reg>deux</reg></choice> raies<pc>.</pc> <hi rend="capitalize">n</hi>ous 
                <lb/>l'avons <choice><orig>rejeter</orig><reg>rejeté</reg></choice> de manière &a; essayer <sic>a</sic> attraper
                <lb/>une bonne friture pour ce soir&pt; <hi rend="capitalize">e</hi>t &a; quel prix&vir; tout 
                <lb/>cela pour rien<pc>.</pc> <hi rend="capitalize">c</hi>ela nous emp&ê;che pas de faire notre
-               <lb/>service contre ces sales <w rend="hyphen">sous</w><w>marins</w> boches&vir; que je
+               <lb/>service contre ces sales sous<supplied reason="compose">-</supplied>marins boches&vir; que je
                <lb/>crois nous r&é;ussirons jamais &a; détruire car
                <lb/>&a; me<del rend="overline">me</del>sure que nous <supplied reason="omitted">en</supplied> d&é;truisons <choice><orig>1</orig><reg>un</reg></choice> il en revient
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres après et pourtant tout cela nous emmène
-               <lb/>pas la fin de la guerre&pt; <hi rend="capitalize">j</hi>e crois qu'il faut encore 
+               <lb/>pas la fin de la guerre<ref type="note" target="#F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1"></ref>&pt; <hi rend="capitalize">j</hi>e crois qu'il faut encore 
                <lb/>beaucoup de patience pour pouvoir arriver &a; bout&pt;
             </p>
-            <pb n="3" facs="../../FACS//BDIC_FD_1854_20_1_093.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_093.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS//BDIC_FD_1854_20_1_093.jpg"/>
                <figDesc>
                   L'Eglise Ste-Cathérine à <placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS//BDIC_FD_1854_20_1_094.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_094.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right"><pc>.</pc>2<pc>.</pc></add>
                <lb/>La sant&é; est toujours parfaite&vir; je souhaite qu'&a;
@@ -114,27 +122,34 @@
                <signed>                                                
                   <address place="postcard" type="sender">
                      <persName ref="#Horel" xml:id="Horel_31011916">Armand Horel</persName>
-                     <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier</addrLine>                  
-                     <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>                  
-                     <addrLine>Division des <lb/><placeName ref="#Dardanelles" xml:id="Dardanelles_31011916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>                  
+                     <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier </addrLine>                  
+                     <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>                  
+                     <addrLine>Division des <lb/><placeName ref="#Dardanelles" xml:id="Dardanelles_31011916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique&pt;</placeName></addrLine>                  
                   </address>
                </signed>
                   <cb/>
                <address type="addressee" place="postcard" n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Hôtel de Bains</addrLine>
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>
-                  <addrLine>Var</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Var" xml:id="Var_31011916">Var</placeName>&vir; <placeName ref="#France" xml:id="France_31011916">France</placeName></addrLine>   
                </address>
             </closer>
          </div>
       </body>      
       <back>
+         <div type="note">            
+            <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">
+               Si les alliés dominent sur les mers, il en est tout autre en dessous. Les sous-marins allemands resteronts une menace importante pour les navires de l'
+               l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.
+               <bibl corresp="#Schiavon_front" n="159"></bibl>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

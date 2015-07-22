@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_17-03-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_17-03-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_047.jpg"/> 
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_047.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/> 
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_047.jpg"/>
                <figDesc>
                   Vue occidentale de colonnes du temple de Jupiter - <placeName ref="#Athenes" xml:id="Athenes_17031916">Athènes</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_048.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_048.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_17031916">Salonique</placeName>&vir;
@@ -81,30 +85,34 @@
                <lb/>n'ai pas eu de leurs nouvelles&pt; <hi rend="capitalize">j</hi>e ne sais trop
                <lb/>ce que cela veut dire&vir; serait-<choice><sic>il</sic><corr>ce</corr></choice> les courriers
                <lb/>qui ne sont pas r&é;guliers ou bien alors le
-               <lb/>papa <persName ref="#Bussiere">Bussière</persName>&vir; qui est mon correspondant&vir;
-               <lb/>serait tombé malade<pc type="supplied">?</pc> <hi rend="capitalize">e</hi>n tous les cas je
+               <lb/>papa <persName ref="#Bussiere">Bussière&vir;</persName> qui est mon correspondant&vir;
+               <lb/>serait tombé malade <pc type="supplied">?</pc> <hi rend="capitalize">e</hi>n tous les cas je
                <lb/>suis bougrement inquiet de ne pas <choice><orig>reçevoir</orig><reg>recevoir</reg></choice>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_045.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_045.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_045.jpg"/>
                <figDesc>
                   Vue d'<placeName ref="#Athenes">Athènes</placeName> prise d'Aréopage - Athènes
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_046.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_046.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/><choice><orig>aucune</orig><reg>aucunes</reg></choice> nouvelles d'eux<pc>.</pc> J'ai trouvé drôle de
                <lb/>re<choice><orig>ç</orig><reg>c</reg></choice>evoir ce colis sans avoir eu de lettre ni avant
-               <lb/>ni après car depuis que je suis sur le <name ref="#Shamrock_II" xml:id="Shamrock_II_17031916">Shamrock</name>&vir;
+               <lb/>ni après car depuis que je suis sur le <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_17031916">Shamrock</name>&vir;
                <lb/>je n'ai pas eu aucune nouvelle de vous mais
                <lb/>ce qui doit dépendre &a; ce que je ne reçois pas
                <lb/>de nouvelles&vir; c'est que les courriers soient
                <lb/>coulés ou que alors mes lettres&vir; au lieu de
-               <lb/>venir &a; <placeName ref="#Salonique">Salonique</placeName>&vir; s'en iraient &a; <placeName ref="#Corfou" xml:id="Corfou_17031916">Corfou</placeName> car
+               <lb/>venir &a; <placeName ref="#Salonique">Salonique</placeName>&vir; s'en iraient &a; <placeName ref="#Corfou" xml:id="Corfou_17031916">Corfou</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1"/> car
                <lb/>tous les chalutiers de notre escadrille sont
-               <lb/><choice><orig>parti</orig><reg>partis</reg></choice> <w rend="hyphen">l&a;</w><w>bas</w> depuis le <date when="1916-01-01">1<hi rend="super">er</hi> janvier</date> et depuis
+               <lb/><choice><orig>parti</orig><reg>partis</reg></choice> l&a;<supplied reason="compose">-</supplied>bas depuis le <date when="1916-01-01">1<hi rend="super">er</hi> janvier</date> et depuis
                <lb/>cela nous n'avons reçu aucun courrier qui soit
                <lb/>régulier<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs je suis toujours en <choice><orig>exellente</orig><reg>excellente</reg></choice> 
                <lb/>santé et souhaite qu'&a; l'arrivée de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes
@@ -123,10 +131,18 @@
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">
+               Suite à la retraite, fin 1915, des troupes serbes, ces dernières sont envoyées sur l'île de <placeName ref="#Corfou">Corfou</placeName> afin d'y être soignées
+               et rééquipées. Fin février l'île compte déjà plus de cent trente mille hommes.   
+               <bibl corresp="#Schiavon_front" n="156"></bibl>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

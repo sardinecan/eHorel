@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_07-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_07-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_101.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_101.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_101.jpg"/>
                <figDesc>
                   Un evzone (soldat grec)
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_102.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_102.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_07011916">Salonique</placeName>&vir;
@@ -74,13 +78,13 @@
             <p>
                <lb/>Je vous &é;cris ces deux mots
                <lb/>pour vous faire savoir que je ne suis plus &a; bord du
-               <lb/><name type="navire" ref="#H_IV" xml:id="H_IV_07011916">Henri IV</name>&pt; <hi rend="capitalize">j</hi>e suis embarqué
+               <lb/><name type="navire" ref="#H_IV" xml:id="H_IV_07011916">Henri IV&pt;</name> <hi rend="capitalize">j</hi>e suis embarqué
                <lb/>sur un petit chalutier&vir;
                <lb/>un dragueur de mines<pc>.</pc> Voici
                <lb/>ma nouvelle adresse<pc>,</pc>               
                <address type="sender" place="postcard">
                   <persName ref="#Horel" xml:id="Horel_07011916">M<hi rend="super">ieur</hi><lb/> Horel Armand&vir;</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> <lb/>canonnier &a; bord du <lb/>chalutier <name type="navire" xml:id="Shamrock_II_07011916">Shamrock II</name>&vir;</addrLine><lb/>
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> <lb/>canonnier &a; bord du <lb/>chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_07011916">Shamrock II</name>&vir;</addrLine><lb/>
                   <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_07011916">Dardanelles</placeName></addrLine><lb/>
                   <addrLine><supplied reason="omitted">à</supplied> Salonique&pt;</addrLine>
                </address>
@@ -88,8 +92,8 @@
                <address place="postcard" type="addressee" n="1">                        
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                       
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_07011916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                        
-                  <addrLine>Var</addrLine>                       
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_07011916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></addrLine>                        
+                  <addrLine><placeName ref="#Var" xml:id="Var_07011916">Var</placeName></addrLine>                       
                   <addrLine>France</addrLine>                   
                </address>
             </p>
@@ -100,6 +104,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

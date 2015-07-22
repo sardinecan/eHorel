@@ -54,14 +54,18 @@
       <body xml:id="F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03_b">
          <div type="letter">
             <gap reason="missing"/>
-            <pb n="1" facs="../../FACS//BDIC_FD_1854_20_1_071.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_071.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS//BDIC_FD_1854_20_1_071.jpg"/>
                <figDesc>
                   L'Eglise du Prohète Elie à <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS//BDIC_FD_1854_20_1_072.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_072.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>que son moteur qui était légèrement attaqué
@@ -73,7 +77,7 @@
                <lb/>nous en <unclear>servir</unclear> d'un des n&ô;tres&vir; celui ci fera la
                <lb/>même chose<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs rien de nouveau si ce 
                <lb/>n'est que des courriers qui arrivent 
-               continuell<lb rend="hyphen"/>ement chargés de troupes et de matériel<pc>.</pc> 
+               <w type="compose">continuell<lb rend="hyphen"/>ement</w> chargés de troupes et de matériel<pc>.</pc> 
             </p>
             <closer>
                <salute>
@@ -86,7 +90,7 @@
                      <persName ref="#Horel" xml:id="Horel_a05-02_B16-03">Armand 
                      <lb/> Horel&vir;</persName>
                      <addrLine>
-                        <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier<name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03"> <lb/>Shamrock II&vir;</name>
+                        <choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier<name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03"> <lb/>Shamrock II&vir;</name>
                      </addrLine> 
                      <addrLine>
                         Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_a05-02_B16-03">Dardanelles</placeName>
@@ -102,6 +106,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_09-04-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_09-04-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_027.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_027.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_027.jpg"/>
                <figDesc>
                   Orei Negrepont
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_028.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_028.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_09041916">Salonique</placeName>&vir;
@@ -72,7 +76,7 @@
                </salute>
             </opener>
             <p>
-               <lb/><hi rend="capitalize"><w rend="aggl">&a;</w></hi><w>propos</w> de la carte de visite que vous m'avez
+               <lb/><w rend="aggl"><choice><orig>a</orig><reg>A</reg></choice></w><w>propos</w> de la carte de visite que vous m'avez
                <lb/>remise dans la dernière lettre&pt; <hi rend="capitalize">j</hi>'ai &é;t&é; me renseigner
                <lb/>au corps <del rend="overline">divisionn</del> expéditionnaire d'Australie&vir;
                <lb/>on m'a répondu qu'ils n'y &é;taient pas <choice><orig>passer</orig><reg>passés</reg></choice> &a;
@@ -83,14 +87,18 @@
                <lb/>vais me renseigner au consul <hi rend="minimize">A</hi>nglais&vir; l&a; je
                <lb/>pourrai peut &ê;tre avoir de bons renseignements&pt;
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_025.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_025.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_025.jpg"/>
                <figDesc>
                   Paysage de Grèce
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_026.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_026.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="left">(2)</add>
                <lb/><hi rend="capitalize">p</hi>ar ailleurs pas grand chose de nouveau&vir;
@@ -100,9 +108,9 @@
                <lb/>fille<pc>.</pc> M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere" xml:id="Bussiere_09041916">Bussière</persName> de <placeName ref="#Paris">Paris</placeName> me
                <lb/><choice><orig>prie</orig><reg>prient</reg></choice> de bien souhaiter le bonjour de leur
                <lb/>part ainsi que leur fille qui a fait le 
-               déménage<lb break="no"/>ment avec moi pendant ma permission<pc>.</pc> Ici
+               <w>déménage<lb/>ment</w> avec moi pendant ma permission<pc>.</pc> Ici
                <lb/>il fait un temps superbe&pt; <hi rend="capitalize">p</hi>ar ailleurs sur le 
-               <lb/>front c'est tr&è;s calme&vir; ce n'est plus comme
+               <lb/>front c'est tr&è;s calme<ref type="note" target="#F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1"/>&vir; ce n'est plus comme
                <lb/>&a; <placeName ref="#Verdun" xml:id="Verdun_09041916">Verdun</placeName> o&ù; <choice><orig>sa</orig><reg>ça</reg></choice> chauffe bougrement et les
                <lb/>boches ils leur est réservé <choice><orig>un</orig><reg>une</reg></choice> <choice><sic>étaccombe</sic><corr>hécatombe</corr></choice>
                <lb/>terrible<pc>.</pc>
@@ -122,8 +130,9 @@
                <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>10 rue Oudot 10</addrLine>                  
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_09041916">&a; Beaûne</placeName> Cote d'or</addrLine>                                    
-                  <addrLine>France</addrLine>                  
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_09041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_09041916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_09041916">France</placeName></addrLine>                  
                </address>
                <stamp type="postmark">
                   <orgName>postes - navales</orgName> <date when="1916-04-10">10 avril 1916</date>
@@ -134,17 +143,26 @@
                envoi de
                <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_09041916">Shamrock II</name></addrLine>                      
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_09041916">Shamrock II</name></addrLine>                      
                   <addrLine>Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_09041916">Marseille</placeName></addrLine>
                </address>
             </p>
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">
+               Les premiers mois de l'année 1916 sont assez calmes sur le front d'orient. 
+               Les allemands refusent de passer la frontière grec pour bousculer les forces helléniques dans le camps adverse.
+               Les combats sont essentiellement le fait de patrouille et on tente d'obtenir des renseignements en capturant des prisonniers. 
+               <bibl corresp="#Schiavon_front" n="178"></bibl>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

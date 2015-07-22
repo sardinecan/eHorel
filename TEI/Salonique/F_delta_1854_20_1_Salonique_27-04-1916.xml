@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_27-04-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_27-04-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_009.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_009.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_009.jpg"/>
                <figDesc>
                   Ile d'<placeName ref="#Eubee" xml:id="Eubee_27041916">Eubée</placeName> <placeName ref="#Karystos" xml:id="Karystos_27041916">Karistos</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_010.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_010.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_27041916">Salonique</placeName>&vir;
@@ -85,7 +89,7 @@
                <lb/>les boches faire une trouée sur notre front de
                <lb/><placeName ref="#Verdun" xml:id="Verdun_27041916">Verdun</placeName> mais ils se sont <choice><orig>trompé</orig><reg>trompés</reg></choice> et de beaucoup<pc>.</pc>
                <lb/><hi rend="capitalize">p</hi>our la famille <persName ref="#Bussiere" xml:id="Bussiere_27041916">Bussière</persName> ça va bien&vir; il n'y a que
-               <lb/>le papa Bussière qui est un peu fatigué lui aussi
+               <lb/>le papa <persName ref="#Bussiere">Bussière</persName> qui est un peu fatigué lui aussi
                <lb/>mais voil&a; l'été qui arrive qui lui donnera un
                <lb/>bon coup de main pour l'amélioration &a; sa santé
                <add type="closer">
@@ -97,14 +101,18 @@
                   </add>                                                              
                </add>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_007.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_007.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_007.jpg"/>
                <figDesc>
                   <placeName ref="#Athenes" xml:id="Athenes_27041916">ATHÈNES</placeName>. Eglise St. Elefterios
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_008.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_008.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="left">(2)</add>
                <lb/>ainsi qu'à la votre<pc>.</pc> Alors M<hi rend="super">ieur</hi> <persName ref="#Gauthier"><hi rend="capitalize">g</hi>authier</persName> se trouve
@@ -122,7 +130,7 @@
                <lb/>consul de m'avoir si bien <choice><orig>renseigner</orig><reg>renseigné</reg></choice> et je vois
                <lb/>maintenant par votre carte qu'ils sont tous les deux
                <lb/>en France<pc>.</pc> Moi de ce coté&vir; je crois que les <hi rend="minimize">B</hi>ulgares vont
-               <lb/>voir du rude quand nous allons prendre l'<choice><orig>offensif</orig><reg>offensive</reg></choice>
+               <lb/>voir du rude quand nous allons prendre l'<choice><orig>offensif</orig><reg>offensive</reg></choice><ref type="note" target="#F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1"></ref>
                <lb/>car des troupes serbes il en arrive tous les jours&pt;
             </p>
             <closer>
@@ -140,9 +148,10 @@
             <p>
                <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>10 rue Oudot 10</addrLine>
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_27041916">&a; Beaûne</placeName> Cote d'or</addrLine>
-                  <addrLine>France</addrLine>      
+                  <addrLine>10 rue Oudot <surplus reason="repeated">10</surplus></addrLine>
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_27041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_27041916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_27041916">France</placeName></addrLine>      
                </address>
                <stamp type="postmark">
                   <orgName>postes - navales</orgName> <date cert="high" when="1916-04-27">27 avril 1916</date>
@@ -153,18 +162,26 @@
                envoi de
                <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier 
-                     <lb/><name ref="#Shamrock_II" xml:id="Shamrock_II_27041916">Shamrock II</name> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_27041916">Marseille</placeName>
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier&vir; chalutier 
+                     <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_27041916">Shamrock II</name>&vir; Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_27041916">Marseille</placeName>
                   </addrLine>
                </address>
             </p>
          </div>
       </body>  
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1">
+               En juin 1916, le <persName ref="#Joffre" xml:id="Joffre_27041916">généralissime Joffre</persName>, lassé par l'inaction de <persName ref="#Sarrail" xml:id="Sarrail_27041916">Sarrail</persName>, ordonnera que ce dernier prépare des actions offensives contre les bulgares 
+               pour le début août afin d'appuyer la mobilisation de la <placeName ref="#Roumanie" xml:id="Roumanie_27041916">Roumanie</placeName>.
+               <bibl corresp="#Schiavon_front"/>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

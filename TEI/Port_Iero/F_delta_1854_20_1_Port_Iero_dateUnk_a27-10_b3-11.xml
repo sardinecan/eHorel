@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11">
       <body xml:id="F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_171.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_171.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_171.jpg"/>
                <figDesc> 
                   Une Villa de <placeName ref="#Metelin" xml:id="Metelin_a27-10_b3-11">Metelin</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_172.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_172.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <lb/>Un bonjour de <placeName ref="#Port_Iero" xml:id="Port_Iero_a27-10_b3-11">Port
                <lb/>Iéro</placeName> d'un petit ami qui 
@@ -69,23 +73,23 @@
             </p>
             <closer>
                <signed>   
-                  <lb/><persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand Horel&vir;</persName>
+                  <lb/><persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand Horel</persName>&vir;<ref type="note" target="#F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11_notea" n="a"/>               
                </signed>                  
-               <lb/>toujours la même adresse
+               <lb/><salute>toujours la même adresse&pt;</salute>
                <cb/>
                <address place="postcard" type="addressee">               
                   <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_a27-10_b3-11">Comtesse L. de la Forest</persName>                  
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
-                  <addrLine>Haute Savoie</addrLine>                  
-                  <addrLine>France</addrLine>                        
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne<supplied reason="compose">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_a27-10_b3-11">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_a27-10_b3-11">France</placeName></addrLine>                        
                </address>               
             </closer>
             <postscript n="1">
                <p>
-                  <lb/>J'ai été content de ce courrier<ref type="note" target="#F_d_171-172" n="1"/>
+                  <lb/>J'ai été content de ce courrier
                   <lb/>car j'ai reçu de bonnes nouvelles
                   <lb/>de la maison&pt; <hi rend="capitalize">m</hi>es deux petites ni&è;ces
-                  <lb/>sont en excellente santé <pc type="supplied">;</pc>
+                  <lb/>sont en excellente santé <pc type="supplied">;</pc>
                   <lb/>elles sont hors de danger 
                   <lb/>de cette mauvaise
                   <lb/>rougeole qui a <choice><orig>regnée</orig><reg>régné</reg></choice>
@@ -97,7 +101,7 @@
       </body>
       <back>
          <div type="note">
-            <note xml:id="F_d_171-172" n="1">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11_notea" n="a">
                Cette lettre ne peut être datée avant le <date notBefore="1915-10-27">27 octobre 1915</date>
             </note>
          </div>
@@ -105,6 +109,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
   </text>

@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_21-02-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_21-02-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_063.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_063.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_063.jpg"/>
                <figDesc>
                   Costumes de paysannes à <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure> 
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_064.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_064.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_21021916">Salonique</placeName>&vir;
@@ -73,32 +77,36 @@
             </opener>
             <p>
                <lb/>Le <date when="1916-02-19">19 de ce mois&vir;</date> qui était avant hier&vir; nous étions en patrouille <supplied reason="omitted">et</supplied>
-               <lb/>qui est ce que nous voyons <choice><orig>arrivé</orig><reg>arriver</reg></choice> sur nous<pc type="supplied">?</pc> <hi rend="capitalize">u</hi>n bateau
+               <lb/>qui est ce que nous voyons <choice><orig>arrivé</orig><reg>arriver</reg></choice> sur nous <pc type="supplied">?</pc> <hi rend="capitalize">u</hi>n bateau
                <lb/>&a; voile grec qui nous <choice><orig>faisais</orig><reg>faisait</reg></choice> des signes avec un
                <lb/>pavillon <pc type="supplied">;</pc> on se demandait ce qu'il voulait&pt; <hi rend="capitalize">i</hi>l ne
                <lb/>savait pas <choice><orig>parlé</orig><reg>parler</reg></choice> <hi rend="minimize">F</hi>rançais mais quand même
                <lb/>nous avons bien compris par <choice><orig>ces</orig><reg>ses</reg></choice> signes qu'un
-               <lb/><w rend="hyphen">sous</w><w>marin</w> <hi rend="minimize">A</hi>llemand ou <hi rend="minimize">A</hi>utrichien <choice><sic>avait</sic><corr>était</corr></choice> 
+               <lb/>sous<supplied reason="compose">-</supplied>marin <hi rend="minimize">A</hi>llemand ou <hi rend="minimize">A</hi>utrichien <choice><sic>avait</sic><corr>était</corr></choice> 
                <lb/><choice><orig>passer</orig><reg>passé</reg></choice> dans son filet et avait enlevé tout par
                <lb/>sa vitesse&pt; <hi rend="capitalize">m</hi>ais le salaud il a eu de la chance
                <lb/>car le filet a <choice><orig>céder</orig><reg>cédé</reg></choice> avec lui et comme de juste
                <lb/>il n'est pas resté l&a;&pt; <hi rend="capitalize">n</hi>ous avons signalé &a; l'amiral
-               <lb/>qu'il y avait un <w rend="hyphen">sous</w><w>marin</w> dans les parages&pt;
+               <lb/>qu'il y avait un sous<supplied reason="compose">-</supplied>marin dans les parages&pt;
                <lb/><w rend="aggl"><hi rend="capitalize">d</hi>e</w><w>suite</w> notre première chose &a; faire a été de fermer
                <lb/>le barrage en cas o&ù; il serait venu en rade de
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_061.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_061.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_061.jpg"/>
                <figDesc>
                   <placeName ref="#Athenes">ATHÈNES.</placeName> Le Stade
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_062.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_062.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/><placeName ref="#Salonique">Salonique</placeName> nous torpiller un cuirassé<pc>.</pc> <hi rend="capitalize">n</hi>ous étions environ
-               <lb/><choice><orig>20</orig><reg>vingt</reg></choice> <w rend="hyphen"><choice><orig>contres</orig><reg>contre</reg></choice></w><w>torpilleurs</w> et une dizaine de dragueurs de
+               <lb/><choice><orig>20</orig><reg>vingt</reg></choice> <choice><orig>contres</orig><reg>contre</reg></choice><supplied reason="compose">-</supplied>torpilleurs et une dizaine de dragueurs de
                <lb/>mine &a; sa recherche mais impossible d'avoir vu une
                <lb/>seule trace<pc>.</pc> <hi rend="capitalize">m</hi>ais ça ne fait rien&vir; il n'a pas pu réussir
                <lb/>le coup qu'il voulait faire car tous les matins
@@ -127,9 +135,9 @@
                <address type="addressee" place="envelope">                        
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>Hôtel de Bains</addrLine>                  
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_21021916">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
-                  <addrLine>Var</addrLine>                  
-                  <addrLine>France</addrLine>                  
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_21021916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Var" xml:id="Var_21021916">Var</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_21021916">France</placeName></addrLine>                  
                </address>                  
                <stamp type="armee">               
                   <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>                  
@@ -140,7 +148,7 @@
                envoi de 
                <address place="envelope" type="sender">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_21021916">Shamrock II</name></addrLine> 
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_21021916">Shamrock II</name></addrLine> 
                   <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_21021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
                </address>
             </p>
@@ -151,6 +159,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

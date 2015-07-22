@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_22-03-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_22-03-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_043.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_043.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_043.jpg"/>
                <figDesc>
                   Grande Rue du Vardar <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_044.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_044.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_22031916">Salonique</placeName>&vir;
@@ -73,7 +77,7 @@
             <p>
                <lb/>Ayant reçu vos <choice><orig>2</orig><reg>deux</reg></choice> lettres le <date when="1916-03-19">19</date>&vir; je m'emresse de vous
                <lb/>en rendre réponse et suis très content de vous savoir
-               <lb/>en bonne santé cat tant qu'&a; moi je me trouve de
+               <lb/>en bonne santé car tant qu'&a; moi je me trouve de
                <lb/>même<pc>.</pc> <hi rend="capitalize">j</hi>e trouvais drôle de ne pas avoir de nouvelles
                <lb/>de vous car depuis le <date when="1916-01-01">1<hi rend="super">er</hi> <hi rend="minimize">J</hi>anvier</date> environ je n'avais
                <lb/>reçu aucune lettre de vous<pc>.</pc> <hi rend="capitalize">c</hi>omme vous étiez très
@@ -81,7 +85,7 @@
                <lb/>pas me répondre<pc>.</pc> Alors <hi rend="minimize">C</hi>omtesse&vir; vous avez vu
                <lb/>M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_22031916">Locke</persName> qui vous a dit qu'il ne pouvait rien
                <lb/>faire &a; cause que l'interdiction de séjour lui 
-               com<lb rend="hyphen"/>pliquait trop sa peine<pc>.</pc> Je crois comtesse&vir; que vous
+               <w>com<lb rend="hyphen"/>pliquait</w> trop sa peine<pc>.</pc> Je crois comtesse&vir; que vous
                <lb/>mettez beaucoup de peine pour le faire sortir&pt; <hi rend="capitalize">i</hi>l
                <lb/>ne faudrait tout de même pas trop vous déranger
                <lb/>car je vois que vous n'entreprenez pas un petit
@@ -92,14 +96,18 @@
                <lb/>temps en temps je descends &a; terre&vir; soit pour faire
                <lb/>les vivres ou alors permissionnaire de l'après midi&pt;
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_041.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_041.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_041.jpg"/>
                <figDesc>
                   GUERRE GRECOTURQUE - JANINA
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_042.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_042.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>Comtesse&vir; pour la question de voir votre neveu&vir; je ferai
@@ -120,23 +128,27 @@
                <lb/>envoyer nos meilleurs souvenirs et vous <choice><orig>remercie</orig><reg>remercient</reg></choice>
                <lb/>beaucoup d'avoir <choice><orig>penser</orig><reg>pensé</reg></choice> &a; nous pour avoir envoyé des
                <lb/>bouquins<pc>.</pc> Depuis que vous &ê;tes <choice><orig>partis</orig><reg>partie</reg></choice> comtesse de <placeName ref="#Sanary" xml:id="Sanary_22031916">Sanary</placeName>
-               <lb/>je vous ai adressé encore <choice><orig>3</orig><reg>trois</reg></choice> courriers <pc type="supplied">;</pc> un daté du <date when="1916-03-04">4 mars</date>&vir;
+               <lb/>je vous ai adressé encore <choice><orig>3</orig><reg>trois</reg></choice> courriers <pc type="supplied">;</pc> un daté du <date when="1916-03-04">4 mars</date>&vir;
             </p>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_039.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_039.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_039.jpg"/>
                <figDesc>
                   Vue générale de <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>  
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_040.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_040.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="3" rend="right">(3)</add>
                <lb/>le <choice><abbr>2<hi rend="super">eme</hi></abbr><expan>deuxième</expan></choice> daté du <date when="1916-03-10">10 mars</date> et le <choice><abbr>3<hi rend="super">eme</hi></abbr><expan>troisième</expan></choice> du <date when="1916-03-16">16</date> et celui ci
                <lb/>que je vous adresse &a; <placeName ref="#Beaune" xml:id="Beaune_22031916">Beaune</placeName><pc>.</pc> <del rend="overline">au</del> De Monsieur <persName ref="#G_Locke">Locke</persName>
                <lb/>j'ai reçu un mot il y a environ <choice><orig>1</orig><reg>un</reg></choice> mois&vir; je lui ai fait
                <lb/>réponse en le remerciant<pc>.</pc> Si cette fois ça <choice><sic>réussirait</sic><corr>réussissait</corr></choice>
-               <lb/>pour mon frère&vir; qu'il en sorte et que l'on soit quitte
+               <lb/>pour mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis__22031916">frère&vir;</rs> qu'il en sorte et que l'on soit quitte
                <lb/>après de faire tant de démarches<pc>.</pc> Il serait lui aussi
                <lb/>si heureux de s'en aller sur le front pour racheter
                <lb/>sa faute<pc>.</pc> J'ai &é;té heureux d'avoir de vos nouvelles
@@ -146,7 +158,7 @@
                <lb/>ils n'arriveront jamais &a; prendre <placeName ref="#Verdun" xml:id="Verdun_22031916">Verdun</placeName> si &a; ce 
                <lb/>qu'ils arriveront comme je vous l'ai d&é;jà dit &a;
                <lb/><choice><orig>tué</orig><reg>tuer</reg></choice> tous ce qu'ils ont de bons hommes et 
-               pour<lb break="no"/>quoi <pc type="supplied">?</pc> <hi rend="capitalize">p</hi>our gagner peut &ê;tre <choice><orig>50</orig><reg>cinquante</reg></choice> centim&è;tres de
+               <w>pour<lb/>quoi</w> <pc type="supplied">?</pc> <hi rend="capitalize">p</hi>our gagner peut &ê;tre <choice><orig>50</orig><reg>cinquante</reg></choice> centim&è;tres de
                <lb/>terrain et encore si ce n'est pas pour perdre
                <lb/><choice><orig>20</orig><reg>vingt</reg></choice> ou <choice><orig>30</orig><reg>trente</reg></choice> mètres &pt;
             </p>
@@ -168,6 +180,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

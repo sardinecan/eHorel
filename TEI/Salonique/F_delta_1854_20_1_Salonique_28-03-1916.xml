@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_28-03-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_28-03-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_037.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_037.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_037.jpg"/>
                <figDesc>
                   Pazar «Oun-Capan <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_038.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_038.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_28031916">Salonique</placeName>&vir;
@@ -75,7 +79,7 @@
                <lb/>donner de mes nouvelles&vir; que je suis toujours
                <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>cartes que vous en <sic>êtes</sic> de même ainsi que votre
-               <lb/>fille et petite fille<pc>.</pc> Les <w rend="hyphen">sous</w><w>marins</w> <hi rend="minimize">B</hi>oches
+               <lb/>fille et petite fille<pc>.</pc> Les sous<supplied reason="compose">-</supplied>marins <hi rend="minimize">B</hi>oches
                <lb/>on fait encore des leurs&vir; ils nous ont 
                <lb/><choice><orig>torpiller</orig><reg>torpillé</reg></choice> un chalutier qui faisait parti
                <lb/>de mon groupe&pt; <hi rend="capitalize">é</hi>tant &a; Salonique car
@@ -83,17 +87,21 @@
                <lb/>comme nous étions <choice><orig>charger</orig><reg>chargés</reg></choice> d'un secteur
                <lb/>utile<pc>,</pc> ce sont <choice><orig>4</orig><reg>quatre</reg></choice> autres qui ont été <choice><orig>designé</orig><reg>désignés</reg></choice>
                <lb/>&a; notre place et sur ces <choice><orig>4</orig><reg>quatre</reg></choice> il y a eu un de
-               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un <w rend="hyphen">sous</w><w>marin</w>
+               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un sous<supplied reason="compose">-</supplied>marin
                <lb/>Autrichien&pt; <hi rend="capitalize">p</hi>our le nombre de mort&vir;
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_035.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_035.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_035.jpg"/>
                <figDesc>
                   Vue générale de <placeName ref="#Salonique">Salonique</placeName> - Grèce
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_036.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_036.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/><hi rend="minimize">J</hi>e ne peux vous le dire en ce moment mais
@@ -110,7 +118,7 @@
                <lb/>pour avant je ne pense le faire&pt; Tant
                <lb/>qu'ici&vir; il fait un temps magnifique&vir; un
                <lb/>soleil d'été et je crois que nous avons pris
-               <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice><pc>.</pc> 
+               <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice><ref type="note" target="#F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1"/><pc>.</pc> 
             </p>
             <closer>
                <salute>
@@ -128,10 +136,20 @@
          </div>
       </body>      
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">
+               En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la 
+               bataille de <placeName ref="#Verdun" xml:id="Verdun_28031916">Verdun</placeName>. Le <persName ref="#Joffre" xml:id="Joffre_28031916">généralissime Joffre</persName>
+               est favorable à une offensive dans la mesure ou anglais et russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail" xml:id="Sarrail_28031916">Le général Sarrail,</persName> 
+               toujours en charge de l'armée d'Orient, réclame, quant à lui, toujours plus de moyens surestimant les forces ennemies. 
+               <bibl corresp="#Schiavon_front" n="180"/>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

@@ -54,13 +54,17 @@
    <text xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915">
       <body xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_169.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_169.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_169.jpg"/>
                <figDesc> Vue Générale du village d'Ayassos (<placeName ref="#Metelin">Mételin</placeName>)
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_170.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_170.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Port_Iero" xml:id="Port_Iero_20101915">Ile de port Iéro</placeName>&vir;
@@ -76,8 +80,8 @@
                <lb/>temps n'est plus tout &a; fait si beau&pt; <hi rend="capitalize">i</hi>l commence &a;
                <lb/>pleuvoir <pc type="supplied">;</pc> il se fait rare si nous n'avons pas de la pluie
                <lb/>chaque jour<pc type="surplus">.</pc> et il commence &a; faire un petit peu plus
-               <lb/>frais mais c'est supp-
-               <lb/>ortable<pc>.</pc> Je m'y plais
+               <lb/>frais mais c'est 
+               <w>supp<lb rend="hypen"/>ortable</w><pc>.</pc> Je m'y plais
                <lb/>assez dans cette petite
                <lb/><hi rend="minimize">I</hi>le mais depuis quelques
                <lb/>jours je commence &a;
@@ -88,12 +92,14 @@
                <cb/>
                <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_20101915">Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France <ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1"/></addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_20101915">Bonne<supplied reason="compose">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_20101915">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_20101915">France</placeName> <ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a"/></addrLine>   
                </address>               
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_167.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_167.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_167.jpg"/>
                <figDesc>
@@ -109,7 +115,9 @@
                   <add resp="#Horel">Présence d'une croix ajoutée à la main</add>
                </p>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_168.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_168.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
                <lb/><hi rend="capitalize">N</hi>ous avons eu juste un seul courrier&vir; ce qui nous fait <choice><orig>24</orig><reg>vingt-quatre</reg></choice>
@@ -118,7 +126,7 @@
                <lb/>met &a; un mois sans nouvelles<pc>.</pc> <hi rend="capitalize">c</hi>'est tout de même trop peu&pt;
                <lb/><hi rend="capitalize">p</hi>ar ailleurs nous sommes assez bien&pt; <hi rend="capitalize">i</hi>l y a encore une
                <lb/>deuxième chose qui ne va pas&vir; c'est toujours cette maudite
-               <lb/>nourriture car nous mangeons très mal<pc>.</pc> <hi rend="capitalize">e</hi>nfin patience&pt;
+               <lb/>nourriture car nous mangeons très mal<ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1"/><pc>.</pc> <hi rend="capitalize">e</hi>nfin patience&pt;
                <lb/><hi rend="capitalize">p</hi>ar cette même occasion je
                <lb/>vous <choice><orig>envoi</orig><reg>envoie</reg></choice> la photographie
                <lb/>de mon bateau en carte postale&vir;
@@ -133,9 +141,9 @@
                <cb/>
                <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>Bonne <choice><abbr>s</abbr><expan>sur</expan></choice> Menoge</addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>   
                </address>
             </p>
             <closer>
@@ -150,14 +158,19 @@
       </body>
       <back>
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a">
                Adresse présente sur toutes les cartes postales.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">
+               Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.
+               <bibl corresp="#Schiavon_front" n="132"/>
             </note>
          </div> 
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_15-04-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_15-04-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_021.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_021.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_021.jpg"/>
                <figDesc>
                   Vallée du Tempé
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_022.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_022.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord <placeName ref="#Salonique" xml:id="Salonique_15041916">Salonique</placeName>&vir;
@@ -87,31 +91,35 @@
                <cb/>
                <address place="postcard" type="addressee">               
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                                          
-                  <addrLine>10 rue Oudot 10 &a;</addrLine>                                       
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_15041916">Beâune</placeName></addrLine>                                       
-                  <addrLine>Cote d'or</addrLine>                                       
-                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1"/></addrLine>                  
+                  <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus> &a;</addrLine>                                       
+                  <addrLine><placeName ref="#Beaune"><choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>                                       
+                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>                                       
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>                  
                </address>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_019.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_019.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_019.jpg"/>
                <figDesc>
                   Noptapia
                </figDesc>
             </figure>
-            <pb facs="../../FACS/BDIC_FD_1854_20_1_020.jpg"/>
+            <pb facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_020.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="left">(2)</add>
                <lb/>L'<choice><orig>offensif</orig><reg>offensive</reg></choice> que quand <choice><orig>tous</orig><reg>toutes</reg></choice> les troupes serbes
-               <lb/>seront concentrées &a; <placeName ref="#Salonique">Salonique</placeName> <pc type="supplied">;</pc> en ce
+               <lb/>seront concentrées &a; <placeName ref="#Salonique">Salonique</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1"/> <pc type="supplied">;</pc> en ce
                <lb/>moment il en arrive tous les jours des serbes
                <lb/>ainsi que beaucoup de chevaux pour la cavalerie&pt;
                <lb/><hi rend="capitalize">q</hi>uestion du temps&vir; il fait
                <lb/>un temps splendide&vir; 
                <lb/>ce n'est pas comme en 
                <lb/>France o&ù; il fait un
-               <lb/>froit de loup&vir; de la 
+               <lb/>froid de loup&vir; de la 
                <lb/>pluie et beaucoup de vent<pc>.</pc>
                <lb/><hi rend="capitalize">r</hi>ien autre chose
                <lb/>&a; vous dire pour le moment&vir;                
@@ -127,10 +135,10 @@
                <cb/>
                <address type="addressee" place="postcard">                       
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                  
-                  <addrLine>10 rue Oudot 10 </addrLine>                  
-                  <addrLine><placeName ref="#Beaune">&a; Beâune</placeName></addrLine>                  
-                  <addrLine>Cote d'or</addrLine>                  
-                  <addrLine>France</addrLine>                  
+                  <addrLine>10 rue Oudot <surplus reason="repeated">10 </surplus></addrLine>                  
+                  <addrLine><placeName ref="#Beaune">&a; <choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>                  
+                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>                  
                </address>
             </closer>
          </div>
@@ -138,9 +146,10 @@
             <p>
                <address place="envelope" type="addressee">                       
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
-                  <addrLine>10 rue Oudot 10</addrLine>                  
-                  <addrLine><placeName ref="#Beaune">&a; Beaûne</placeName> Cote d'or</addrLine>                  
-                  <addrLine>France</addrLine>                  
+                  <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus></addrLine>                  
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_15041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_15041916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_15041916">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a"/></addrLine>                  
                </address>
                <stamp type="postmark">
                   <orgName>postes - navales</orgName> <date cert="medium" when="1916-04-16">16 avril 1916</date>
@@ -151,7 +160,7 @@
                envoi de
                <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
                   <addrLine> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_15041916">Marseille</placeName></addrLine>
                </address>
             </p>
@@ -159,14 +168,20 @@
       </body>
       <back>
          <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a">
+               Adresse présente sur toutes les cartes de la correspondance et sur l'enveloppe.
+            </note>
             <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">
-               Adresse présente sur toutes les cartes de la correspondance.
+               Malgré les relances du <persName ref="#Joffre" xml:id="Joffre_15041916">généralissime Joffre</persName>, <persName ref="#Sarrail" xml:id="Sarrail_15041916">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyen et souhaite mener
+               une attaque à l'automne, estimant que l'armée serbe ne sera opérationnelle qu'à l'été ; lorsque la température interdira une offensive importante.                
+               <bibl corresp="#Schiavon_front" n="180"></bibl>
             </note>
          </div>         
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

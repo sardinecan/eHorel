@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_17-12-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_17-12-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_123.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_123.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_123.jpg"/>
                <figDesc>
                   Bonne et Heureuse Année
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_124.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_124.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_17121915">Salonique</placeName>&vir;
@@ -76,7 +80,7 @@
                <lb/>que je suis toujours en bonne santé et désire
                <lb/>qu'&a; l'arrivée de cette carte que vous vous trouviez
                <lb/>de même<pc>.</pc> <hi rend="capitalize">p</hi>ar cette même occasion comme le
-               <lb/>jour de l'an approche&vir; je vous envoi mes meilleurs
+               <lb/>jour de l'an approche&vir; je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> mes meilleurs
                <lb/>vœux et souhaits de bonheur et <choice><orig>é</orig><reg>e</reg></choice>spère que
                <lb/>cette année nous aurons la fin de la guerre
                <lb/>et la victoire de 1916<pc>.</pc> Je vous souhaite de tout 
@@ -103,8 +107,8 @@
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
-                  <addrLine>Var</addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Var" xml:id="Var_17121915">Var</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_17121915">France</placeName></addrLine>
                </address>
                <stamp type="armee">
                   <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>
@@ -126,6 +130,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Imbros_23-09-1915">
       <body xml:id="F_delta_1854_20_1_Imbros_23-09-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_181.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_181.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_181.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon" xml:id="Toulon_23091915">TOULON.</placeName> - Le Casino
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_182.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_182.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Imbros" xml:id="Imbros_23091915">Imbros</placeName>&vir;
@@ -76,20 +80,20 @@
                <lb/>je profite pour vous envoyer quelques
                <lb/>petites nouvelles de guerre<pc>.</pc> <hi rend="capitalize">n</hi>ous
                <lb/>sommes <choice><orig>appareiller</orig><reg>appareillés</reg></choice> pour l'<hi rend="minimize">I</hi>le
-               <lb/><placeName ref="#Imbros">d'Imbros</placeName> qui se trouve juste &a;
-               <lb/>l'embouchoure du <placeName ref="#Golf_Saros" xml:id="Golf_Saros_23091915">golfe de <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
+               <lb/><placeName ref="#Imbros">d'Imbros</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1"/> qui se trouve juste &a;
+               <lb/>l'embouchure du <placeName ref="#Golf_Saros" xml:id="Golf_Saros_23091915">golfe de <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
                <lb/>Figurez vous que le <date when="1915-09-16">16 <choice><abbr>7<hi rend="super">bre</hi></abbr><expan>septembre</expan></choice></date> vers
                <lb/>7 <supplied reason="omitted">h</supplied> <hi rend="super">1/2</hi> du matin&vir; tout en nous lavant
                <lb/>la figure&vir; qui est ce que nous 
-               aper<lb rend="hyphen"/>çevont qui planait au dessus de 
-               <lb/>notre tête<pc type="supplied">?</pc> <hi rend="capitalize" >u</hi>n <choice><orig>aréoplane</orig><reg>aéroplane</reg></choice> boche&pt; <hi rend="capitalize" >i</hi>l
+               <w>aper<lb rend="hyphen"/>çevons</w> qui planait au dessus de 
+               <lb/>notre tête <pc type="supplied">?</pc> <hi rend="capitalize" >u</hi>n <choice><orig>aréoplane</orig><reg>aéroplane</reg></choice> boche&pt; <hi rend="capitalize" >i</hi>l
                <lb/>a <choice><orig>laisser</orig><reg>laissé</reg></choice> tomber <choice><orig>5</orig><reg>cinq</reg></choice> bombes sur le
                <cb/>
                <address place="postcard" type="addressee">                              
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>                  
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_23091915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>                  
-                  <addrLine>Haute Savoie</addrLine>                  
-                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1"/></addrLine>                  
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>                  
                </address>
                <add type="postscript" place="margin-top">
                   <lb/>Comme je n'ai pas pu acheter d'autres cartes je vous <supplied reason="omitted">en</supplied> envoie <choice><orig>3</orig><reg>trois</reg></choice> de <placeName ref="#Toulon">Toulon</placeName>
@@ -100,17 +104,21 @@
                </add>
                <gap reason="missing"/>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_179.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_179.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_179.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon">TOULON.</placeName> - Entrée de la nouvelle Caserne de Grignan
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_180.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_180.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <lb/><add type="numbering" n="3" rend="left"><pc>.</pc>3<pc>.</pc></add>
-               <lb/>J'ai reçu une lettre de mon frère datée
+               <lb/>J'ai reçu une lettre de mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_23091915">frère</rs> datée
                <lb/>du <date when="1915-09-03">3 <choice><abbr>7<hi rend="super">bre</hi></abbr><expan>septembre</expan></choice></date>&pt; <hi rend="capitalize" >i</hi>l me dit qu'il y en a pas
                <lb/>mal qui ont eu des gr&â;ces&pt; <hi rend="capitalize">i</hi>l y en a un
                <lb/>il avait <choice><orig>10</orig><reg>dix</reg></choice> ans &a; faire&vir; il ne lui restait
@@ -139,12 +147,12 @@
                <lb/>gout de moisi&pt; <hi rend="capitalize">o</hi>n nous la 
                <lb/>donne quand même &a;
                <lb/>manger et comme il n'y en a pas 
-               <lb/>d'autre on est obligé de la manger&pt;
+               <lb/>d'autre on est obligé de la manger<ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2"/>&pt;
                <address type="addressee" place="postcard">         
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forest</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>
                </address>
             </p>
          </div>
@@ -152,9 +160,9 @@
             <p>
                <address place="envelope" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_23091915">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_23091915">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_23091915">France</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a"/></addrLine>   
                </address>
                <stamp type="armee">
                   <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>
@@ -171,21 +179,29 @@
                   <addrLine>&a; bord du <name type="navire" ref="#H_IV" xml:id="H_IV_23091915">Henri IV</name></addrLine> <addrLine>aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine> <addrLine><placeName ref="#Paris">Paris</placeName> Etranger</addrLine>      
                </address>
                <stamp type="postmark">
-                  <placeName cert="medium" ref="#Bonne_Menoge">Bonne sur Menoge</placeName><date><gap reason="illegible" agent="rubbing"/></date>
+                  <placeName cert="medium" ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied>sur<supplied reason="compose">-</supplied>Menoge</placeName> <date><gap reason="illegible" agent="rubbing"/></date>
                </stamp>
             </p>
          </div>
       </body>
       <back>
          <div type="note">
+            <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a">
+               Adresse présente sur les deux cartes postale et l'enveloppe.
+            </note>
             <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">
-               Adresse présente sur les cartes postales 1 et 3.
+               L'île d'<placeName ref="#Imbros">Imbros</placeName> est restée, à l'issue des guerres balkaniques, sous domination Ottomane.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">
+               L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connait des problèmes logistiques et sanitaires importants.
+               <bibl corresp="#Senat_Decker"/>
             </note>
          </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>         
       </back>
   </text>

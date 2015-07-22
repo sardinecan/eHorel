@@ -54,17 +54,21 @@
    <text xml:id="F_delta_1854_20_1_Mytilene_06-10-1915">
       <body xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_177.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
                <figDesc>
                   L'Eglise St Therapion, <placeName ref="#Metelin" xml:id="Metelin_06101915">Mételin</placeName>
                </figDesc>
             </figure>               
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_178.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_178.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
-                  <placeName ref="#Mytilene" xml:id="Mytilene_06101915"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName>&vir;
+                  <placeName ref="#Mytilene" xml:id="Mytilene_06101915"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName><ref type="note" target="#F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"></ref>&vir;
                   <date when="1915-10-06"><hi rend="minimize">L</hi>e 6 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>
                </dateline>
                <salute rend="center">
@@ -81,7 +85,7 @@
                <lb/>Si j'ai tant tardé à vous écrire
                <lb/>ce n'est pas de ma faute car
                <lb/>dans l'<hi rend="minimize">I</hi>le o&ù; nous sommes&vir;
-               <lb/>les départs et arriv&é;es de 
+               <lb/>les départs et arriv&é;es <surplus reason="repeated">de</surplus> 
                <lb/>de courriers ne sont guère
                <lb/>réguliers&vir; car nous devions
                <lb/>recevoir un courrier venant
@@ -91,19 +95,27 @@
                <cb/>
                <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_06101915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_06101915">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_06101915">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_06101915">France</placeName></addrLine>   
                </address>
                <gap reason="missing"/>
             </p>
          </div>         
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1">
+               La ville de <placeName ref="#Mytilene">Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au Sud de l'entrée du détroit des <placeName ref="#Dardanelles" xml:id="Dardanelles_06101915">Dardanelles.</placeName>
+               Séparée des côte turques par le détroit de <placeName ref="#Mytilene">Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.
+               <bibl corresp="#Schiavon_front"/>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
   </text>

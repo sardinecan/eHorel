@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_19-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_19-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_091.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_091.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_091.jpg"/>
                <figDesc>
-                  Vue générale de <placeName ref="#Salonique">Salonique</placeName> - Grèce
+                  Vue générale de <placeName ref="#Salonique">Salonique</placeName> - <placeName ref="#Grece" xml:id="Grece_19011916">Grèce</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_092.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_092.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_19011916">Salonique</placeName>&vir;
@@ -76,9 +80,9 @@
                <lb/>que j'ai reçu votre bo<choice><orig>i</orig><reg>î</reg></choice>te de moutarde&pt; <hi rend="capitalize">j</hi>e vous en 
                <lb/>remercie beaucoup<pc type="surplus">.</pc> car depuis que je l'ai&vir; elle
                <lb/>m'a <choice><orig>rendue</orig><reg>rendu</reg></choice> un très grand service ainsi qu'&a;
-               <lb/><w rend="hyphen">quelques</w><w>uns</w> de mes camarades<pc>.</pc> <hi rend="capitalize">j</hi>e m'en sert
+               <lb/>quelques<supplied reason="compose">-</supplied>uns de mes camarades<pc>.</pc> <hi rend="capitalize">j</hi>e m'en sert
                <lb/>pour <choice><orig>2</orig><reg>deux</reg></choice> <choice><orig>chose</orig><reg>choses</reg></choice> &a; la fois <pc type="supplied">;</pc> pour mettre dans les 
-               <lb/>chaussettes et j'en <choice><orig>met</orig><reg>mets</reg></choice> un peu dans du bouillon
+               <lb/>chaussettes<ref type="note" target="#F_delta_1854_20_1_Salonique_19-01-1916_note1" n="1"/> et j'en <choice><orig>met</orig><reg>mets</reg></choice> un peu dans du bouillon
                <lb/>quand nous avons du <choice><orig>boulli</orig><reg>bouilli</reg></choice> au repas<pc>.</pc> <hi rend="capitalize">j</hi>'en ai
                <lb/>pour un bon petit moment<pc>.</pc> Je suis en <choice><orig>exellente</orig><reg>excellente</reg></choice>
                <lb/>santé et je souhaite que vous vous trouviez
@@ -89,26 +93,30 @@
                <lb/>du petit bateau o&ù; je suis&vir; nous ne <choice><orig>rentreront</orig><reg>rentrerons</reg></choice>
                <lb/>en France que quand la guerre sera terminée
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_089.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_089.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_089.jpg"/>
                <figDesc>
                   Souvenir de <placeName ref="#Salonique">Salonique</placeName> Costume de femme Israelite
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_090.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_090.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
                <lb/>car nous avons un rôle trop important &a; jouer<pc>.</pc> <hi rend="capitalize">e</hi>n ce
                <lb/>moment nous gardons la passe de <placeName ref="#Salonique">Salonique</placeName>&pt; <hi rend="capitalize">n</hi>ous
-               <lb/>somme chargés de chasser les <w rend="hyphen">sous</w><w>marins</w> qui
+               <lb/>somme chargés de chasser les sous<supplied reason="compose">-</supplied>marins qui
                <lb/>voudraient essayer de p&é;n&é;trer dans la rade mais
                <lb/>ils ne <choice><orig>risque</orig><reg>risquent</reg></choice> pas d'y venir&vir; la garde que nous faisons
                <lb/>est beaucoup trop sérieuse<pc>.</pc> Tous les jours il<del rend="overline">s</del> arrive
                <lb/>des troupes <pc type="supplied">;</pc> aujourd'hui le <name type="navire" ref="#Lutetia" xml:id="Lutetia_19011916">Lutétia</name>&vir; grand paquebot
                <lb/><hi rend="minimize">F</hi>rançais&vir; est rentré en rade de <placeName ref="#Salonique">Salonique</placeName> avec le courrier
                <lb/>et des soldats<pc>.</pc> <hi rend="capitalize">t</hi>ous les jours il en arrive&vir; soit <hi rend="minimize">A</hi>nglais
-               <lb/>ou <hi rend="minimize">F</hi>rançais<pc>.</pc> Je désire qu'une chose&vir; que la guerre
+               <lb/>ou <hi rend="minimize">F</hi>rançais<ref type="note" target="#F_delta_1854_20_1_Salonique_19-01-1916_note2" n="2"/><pc>.</pc> Je désire qu'une chose&vir; que la guerre
                <lb/>finisse cette année <pc type="supplied">;</pc> &a; condition que nous ayons
                <lb/>la victoire car autrement je préfère la voir <choice><orig>durée</orig><reg>durer</reg></choice>
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> ans de plus que de perdre car je ne veux 
@@ -132,10 +140,20 @@
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_19-01-1916_note1" n="1">
+               La moutarde à la faculté d'activé la circulation et aide ainsi à maintenir les pieds au chaud.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_19-01-1916_note2" n="2">
+               La priorité en début d'année 1916 est la réalisation d'un immense camp retranché au nord de <placeName ref="#Salonique">Salonique</placeName> afin de se
+               défendre en cas d'attaque.
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

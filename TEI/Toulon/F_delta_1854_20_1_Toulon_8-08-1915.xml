@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Toulon_8-08-1915">     
       <body xml:id="F_delta_1854_20_1_Toulon_8-08-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_201.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_201.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_201.jpg"/>
                <figDesc>
                   <placeName ref="#Tamaris">TAMARIS</placeName> Sablettes
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_202.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_202.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Toulon" xml:id="Toulon_08081915">Toulon&vir;</placeName>
@@ -74,35 +78,39 @@
             <p>
                <lb/>Je profite que j'ai <supplied reason="omitted">un</supplied> petit 
                <lb/>moment devant moi pour
-               <lb/>vous donner de mes nouvelles <pc type="supplied">;</pc>
+               <lb/>vous donner de mes nouvelles <pc type="supplied">;</pc>
                <lb/>que je suis arrivé en bonne
                <lb/>santé à <placeName ref="#Toulon">Toulon</placeName> et j'ai fait
                <lb/>un très bon voyage<pc>.</pc> <hi rend="capitalize">p</hi>our
                <lb/>le moment nous ne savons
                <lb/>encore rien de la désignation&vir;
-               <lb/>je crois que c'est aux <placeName ref="#Dardanelles" xml:id="Dardanelles_08081915"><choice><orig>Dardanelees</orig><reg>Dardanelles</reg></choice></placeName>
+               <lb/>je crois que c'est aux <placeName ref="#Dardanelles" xml:id="Dardanelles_08081915"><choice><orig>Dardanelees</orig><reg>Dardanelles</reg></choice></placeName><ref type="note" target="#F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1"/>
                <lb/>mais je ne peux pas vous le 
                <lb/><choice><orig>sertifier</orig><reg>certifier</reg></choice>&vir; d'ailleurs je vous le 
                <lb/>ferai quand je serai <choice><orig>sur</orig><reg>sûr</reg></choice>&pt;
                <cb/>
-               <address type="addressee" place="Postcard">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
-                  <addrLine>Haute Savoie<ref type="note" target="#F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1"/></addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName><ref type="note" target="#F_delta_1854_20_1_Toulon_8-08-1915_notea" n="a"/></addrLine>   
                </address>
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_203.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_203.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_203.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon">TOULON</placeName> - Mourillon - Boulevard du littoral
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_204.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_204.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2<hi rend="super">eme</hi>carte</add>
                <lb/><hi rend="capitalize">j</hi>e vous assure que pendant
-               <lb/>mon petit séjour &a; <placeName>Paris</placeName>
+               <lb/>mon petit séjour &a; <placeName ref="#Paris" xml:id="Paris_08081915">Paris</placeName>
                <lb/>je ne me suis pas <choice><orig>ennuyer</orig><reg>ennuyé</reg></choice>&pt;
                <lb/><hi rend="capitalize">a</hi>u contraire je me suis très 
                <lb/>bien amusé<pc>,</pc> surtout la
@@ -110,31 +118,35 @@
                <lb/>avons été en famille faire
                <lb/>une petite promenade 
                <lb/>aux alentours de la forêt
-               <lb/>de <placeName ref="#St-Germain" xml:id="St-Germain_08081915"><w rend="hyphen">St</w><w><hi rend="capitalize">g</hi>ermain</w></placeName>&vir; c'est
+               <lb/>de <placeName ref="#St-Germain" xml:id="St-Germain_08081915"><choice><orig>St</orig><reg>Saint</reg></choice><supplied reason="compose">-</supplied><hi rend="capitalize">g</hi>ermain</placeName>&vir; c'est
                <lb/>tr&è;s gentil par l&a;<pc>.</pc> <hi rend="capitalize">n</hi>ous
                <lb/>avons eu un temps superbe
                <lb/>c'est déj&a; quelque chose&pt;
                <cb/>
-               <address type="addressee" place="Postcard">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>
-                  <addrLine>Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</addrLine>
-                  <addrLine>Haute Savoie test</addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>   
                </address>
             </p>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_199.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_199.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_199.jpg"/>
                <figDesc>
                   <placeName ref="#Toulon">TOULON.</placeName> - Le Quai Cronstadt. -
                </figDesc>
             </figure>
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_200.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_200.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <lb/>Voici mon adresse<pc type="supplied">,</pc>
                <lb/>M<hi rend="super">ieur</hi> <persName ref="#Horel" xml:id="Horel_08081915">Horel Armand</persName>
                <lb/>quartier maitre canonnier
                <lb/>à bord du <name type="navire" xml:id="H_IV_08081915" ref="#H_IV">Henri IV</name> &a;
-               <lb/><placeName ref="#Toulon">Toulon</placeName><placeName ref="#Var" xml:id="Var_08081915">Var</placeName><pc>.</pc> Je vous <choice><orig>envoi</orig><reg>envoie</reg></choice>
+               <lb/><placeName ref="#Toulon">Toulon&vir;</placeName> <placeName ref="#Var" xml:id="Var_08081915">Var</placeName><pc>.</pc> Je vous <choice><orig>envoi</orig><reg>envoie</reg></choice>
                <lb/>une vue de <placeName ref="#Toulon">Toulon</placeName> et les
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres sont des alentours&pt;
             </p>
@@ -147,24 +159,34 @@
                   <lb/>qui ne vous oublie pas&vir;
                </salute>
                <lb/><signed rend="center"><persName ref="#Horel">Armand Horel</persName></signed>
-               <address type="addressee" place="Postcard">
+               <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_08081915">Bonne <choice><abbr>s/</abbr><expan>sur</expan></choice> Menoge</placeName></addrLine>
-                  <addrLine>Haute Savoie</addrLine>   
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_08081915">Bonne<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_08081915">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>   
                </address>
             </closer>
          </div>
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_notea" n="a">
                Adresse présente sur toutes les cartes postales.
+            </note>
+            <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">               
+               En février 1915 les forces de l'Entente tentent de reprendre l'initiative avec un attaque maritime du détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>, 
+               mais ici aussi les combats s'enlisent. 
+               L'envoi d'un corps expéditionnaire sur la <placeName ref="#Gallipoli" xml:id="Gallipoli_08081915">presqu'îl de Gallipoli</placeName> en avril n'y changera rien.
+               Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi de renforts, 
+               c'est une nouvel échec.
+               Une partie des troupes est finalement redéployée sur le front de <placeName ref="#Salonique" xml:id="Salonique_08081915">Salonique</placeName> en septembre alors que l'évacuation est décidée en décembre.
+               <bibl corresp="#Cochet_Orient"/>
             </note>
          </div>         
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

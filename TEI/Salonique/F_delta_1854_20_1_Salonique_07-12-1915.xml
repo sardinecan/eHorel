@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_07-12-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_07-12-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_137.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_137.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_137.jpg"/>
                <figDesc>
                   S.E. le Grand Rabbin Jacob Meïr de <placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_138.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_138.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_07121915">Salonique</placeName>&vir;
@@ -79,7 +83,7 @@
                <lb/>Par ici depuis environ <choice><orig>8</orig><reg>huit</reg></choice> jours il se fait <choice><orig>journelement</orig><reg>journellement</reg></choice> des
                <lb/>quêtes &a; bord des batiments <hi rend="minimize">F</hi>rançais&vir; <hi rend="minimize">A</hi>nglais et <hi rend="minimize">R</hi>usse
                <lb/>pour secourir ces malheureux refugiés <hi rend="minimize">S</hi>erbes qui sont
-               <lb/>ici &a; <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<pc>.</pc> Le bateau
+               <lb/>ici &a; <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1"/><pc>.</pc> Le bateau
                <lb/><hi rend="minimize">R</hi>usse L'<name type="navire" ref="#Askold" xml:id="Askold_07121915"><choice><orig>AsKool</orig><reg>Askold</reg></choice></name><pc>,</pc> sa quête a produit  1200<pc type="surplus">,</pc><unclear><hi rend="super">&#162;</hi></unclear>&pt; <hi rend="capitalize">m</hi>oi ainsi
                <lb/>que mes camarades qui mangent &a; ma table&vir; nous avons
                <lb/>&é;té trouver le commandant en chef pour en faire une de
@@ -92,14 +96,18 @@
                <lb/>que je vous enverrai comtesse&vir; je vous ferai savoir
                <lb/>le résultat de notre quête&vir; &a; quel total elle <choice><sic>a</sic><corr>est</corr></choice> montée&pt;               
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_135.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_135.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_135.jpg"/>
                <figDesc>
                   Sculpture en relief de l'Arc de triomphe de Salonique<placeName ref="#Salonique">Salonique</placeName>
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_136.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_136.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/>Je crois que depuis quelques jours il est fortement question
@@ -128,11 +136,13 @@
             </closer>
             <postscript n="1">
                <p>
-                  <lb/>Je crois que cette maudite <placeName ref="#Grece" xml:id="Grece_07121915"><hi rend="capitalize">g</hi>rêce</placeName> ne m'inspire guère
+                  <lb/>Je crois que cette maudite <placeName ref="#Grece" xml:id="Grece_07121915"><hi rend="capitalize">g</hi>rèce</placeName> ne m'inspire guère
                   <lb/>confiance&vir; c'est une neutralité <choice><orig>ippocrite</orig><reg>hypocrite</reg></choice>&pt;
                </p>
             </postscript>
-            <pb n="5" facs="../../FACS/BDIC_FD_1854_20_1_120.jpg" type="postcardBreak"/>
+            <pb n="5" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_120.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <postscript n="2">
                <p>
                   <add type="numbering" n="3" rend="center"><pc>.</pc>3<pc>.</pc></add>
@@ -140,7 +150,7 @@
                   <lb/>fermais la lettre qui vous était destinée&pt; <hi rend="capitalize">j</hi>e vous <choice><orig>envoi</orig><reg>envoie</reg></choice> une
                   <lb/>carte lettre pour vous faire réponse &a; votre lettre<pc>.</pc> Je vous
                   <lb/>remercie beaucoup comtesse de vous voir vous occuper
-                  <lb/>de mon pauvre frère<pc>.</pc> <hi rend="capitalize">d</hi>e la part du président de la République&vir; 
+                  <lb/>de mon pauvre <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_07121915">frère</rs><pc>.</pc> <hi rend="capitalize">d</hi>e la part du président de la République&vir; 
                   <lb/>il a eu <choice><orig>1</orig><reg>un</reg></choice> an de grâce<pc>.</pc> <hi rend="capitalize">m</hi>a tante a reçu réponse de la lettre
                   <lb/>qu'elle avait remise en main propre &a; M<hi rend="super">me</hi> La Présidente&vir;
                   <lb/>en lui disant que M<hi rend="super">ieur</hi> <persName ref="#Poincare" xml:id="Poincare_07121915">Poincaré</persName> faisait 1 an de gr<choice><orig>a</orig><reg>â</reg></choice>ce <del rend="overline">un</del>
@@ -150,10 +160,12 @@
                   <lb/>il conduit une machine &a; l'imprimerie&vir; on lui fait
                   <lb/><choice><orig>payé</orig><reg>payer</reg></choice> 20<hi rend="super">&#162;</hi><pc>.</pc> <hi rend="capitalize">m</hi>oi quand j'ai vu cela&vir; voyant qu'il était
                   <lb/>embarassé pour les payer&vir; je lui ai envoyé un mandat
-                  <lb/>de 20<hi rend="super">&#162;</hi> immédiatement&vir; <choice><orig>tout</orig><reg>tous</reg></choice> les malheurs <choice><orig>possible</orig><reg>possibles</reg></choice> lui<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1"/>
+                  <lb/>de 20<hi rend="super">&#162;</hi> immédiatement&vir; <choice><orig>tout</orig><reg>tous</reg></choice> les malheurs <choice><orig>possible</orig><reg>possibles</reg></choice> lui
                </p>
             </postscript>
-            <pb n="6" facs="../../FACS/BDIC_FD_1854_20_1_119.jpg"/>
+            <pb n="6" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_119.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <postscript n="3">
                <p>
                   <add type="numbering" n="4" rend="center">4</add>
@@ -178,8 +190,8 @@
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
                   <addrLine><placeName ref="#Sanary" xml:id="Sanary_07121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
-                  <addrLine>Var</addrLine>                  
-                  <addrLine>France</addrLine>
+                  <addrLine><placeName ref="#Var" xml:id="Var_07121915">Var</placeName></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_07121915">France</placeName></addrLine>
                </address>
                <stamp type="armee">
                   <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
@@ -201,14 +213,20 @@
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_notea" n="a">
                La correspondance se poursuit au recto de cette carte-lettre.
             </note>
+            <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">
+               L'ordre de retraite générale des troupes serbes est donné par le <persName ref="#Putnik" xml:id="Putnik_07121915">voïvode Putnik</persName> le 25 novembre 1915. C'est en réalité toute une partie de la population
+               qui fuit l'avancée des troupes ennemies.  
+               <bibl corresp="#Schiavon_front" n="150"/>
+            </note>                                                         
          </div>         
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
   </text>

@@ -54,14 +54,18 @@
    <text xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915">
       <body xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_163.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_163.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_163.jpg"/>
                <figDesc>
                   Occupation de <placeName ref="#Metelin" xml:id="Metelin_03111915">Mételin.</placeName> Le debarquement des troupes hellènes.
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_164.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_164.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Port_Iero" xml:id="Port_Iero_03111915">Ile de Port Iero</placeName>&vir;
@@ -72,15 +76,15 @@
                </salute>
             </opener>
             <p>
-               <lb/>Ces jours derniers le chalutier français le Goëland a capturé 
+               <lb/>Ces jours derniers le chalutier français le <name type="navire" ref="#Goeland" xml:id="Goeland_03111915">Goéland</name> a capturé 
                <lb/>sur la c&ô;te d'<hi rend="capitalize">a</hi>sie <choice><orig>12</orig><reg>douze</reg></choice> contrebandiers qui se trouvaient
                <lb/>dans une barcasse dans laquelle ces messieurs avaient
                <lb/><choice><orig>12</orig><reg>douze</reg></choice> boeufs qu'ils tuaient un &a; un quand ils trouvaient
-               <lb/>un <w rend="hyphen">sous<choice><orig>marins</orig><reg>marin</reg></choice></w> <hi rend="minimize">B</hi>oche<pc>.</pc> <hi rend="capitalize">n</hi>ous leurs avons <choice><orig>confisquer</orig><reg>confisqué</reg></choice>
+               <lb/>un sous<supplied reason="compose">-</supplied><choice><orig>marins</orig><reg>marin</reg></choice> <hi rend="minimize">B</hi>oche<pc>.</pc> <hi rend="capitalize">n</hi>ous leurs avons <choice><orig>confisquer</orig><reg>confisqué</reg></choice>
                <lb/>le tout et nous les avons fait <sic>renfermer</sic><pc>.</pc> <hi rend="capitalize">c</hi>e même
                <lb/>jour&vir; il a été pris une petite <unclear>pirogue</unclear> chargée de
-               <lb/>poissons qui voguait sur la mer attendant qu'un <w rend="hyphen">sous</w>
-               <lb/><w>marin</w> se relève de plongée
+               <lb/>poissons qui voguait sur la mer attendant qu'un 
+               <w type="compose">sous<lb/>marin</w> se relève de plongée
                <lb/>paré<del rend="overline">e</del> &a; l'approvisionner&pt;
                <lb/><hi rend="capitalize">d</hi>ans cette petite <unclear>pirogue</unclear> il
                <lb/>y avait <choice><orig>2</orig><reg>deux</reg></choice> hommes&vir; nous les 
@@ -90,20 +94,24 @@
                <cb/>
                <address place="postcard" type="addressee">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>48 rue de la Comédie 48</addrLine>
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaun_03111915">Beaune</placeName></addrLine>
-                  <addrLine>Cote d'or</addrLine>
-                  <addrLine>France<ref type="note" target="#F_delta_1854_20_1_Port_Iero_03-11-1915_note1" n="1"/></addrLine>   
+                  <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
+                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_03111915">Beaune</placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_03111915">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France" xml:id="France_03111915">France</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_03-11-1915_notea" n="a"/></addrLine>   
                </address>
                </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_161.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_161.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_161.jpg"/>
                <figDesc>
                   <placeName ref="#Metelin">Mételin.</placeName> Rue du Capitanat du Port
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_162.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_162.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2<pc>.</pc></add>
                <lb/>Par ailleurs rien de nouveau&vir;
@@ -124,21 +132,21 @@
                   <lb/>amitiés<pc>.</pc>
                </salute>
                <signed><persName ref="#Horel" xml:id="Horel_03111915">Armand Horel</persName></signed>
-               <lb/>toujours la même adresse&pt;
+               <lb/><salute>toujours la même adresse&pt;</salute>
                <cb/>
                <address type="addressee" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine>48 rue de la Comédie 48</addrLine>
-                  <addrLine>Beaune</addrLine>
-                  <addrLine>Cote d'or</addrLine>
-                  <addrLine>France</addrLine>   
+                  <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
+                  <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#France">France</placeName></addrLine>   
                </address>
             </closer>
          </div>
       </body>
       <back><!-- index commun a tout le corpus placé dans le back = Camille Desenclos -->
          <div type="note">
-            <note xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915_note1" n="1">
+            <note xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915_notea" n="a">
                Adresse présente sur toutes les cartes postales.
             </note>
          </div>
@@ -146,6 +154,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>         
       </back>
   </text>

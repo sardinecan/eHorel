@@ -55,14 +55,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_16-03-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_16-03-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_051.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_051.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_051.jpg"/>
                <figDesc>
                   <placeName ref="#Salonique">Salonique</placeName> - Quai des Messageries Maritimes
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_052.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_052.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_16031916">Salonique</placeName>&vir;
@@ -88,20 +92,24 @@
                <lb/>en arrive tous les jours<pc type="surplus">.</pc> et nous&vir; pour prendre
                <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice>&vir; le terrain ne le permet pas
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_049.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_049.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_049.jpg"/>
                <figDesc>
                   <placeName ref="#Salonique">Salonique</placeName> - Vue Panoramique de Salonique
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_050.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_050.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>car dans ces pays c'est beaucoup marécageux&pt;
-               <lb/><hi rend="capitalize">n</hi>os troupe <choice><orig>avançeraient</orig><reg>avanceraient</reg></choice> bien si nous <choice><sic>prendrions</sic><reg>prenions</reg></choice>
+               <lb/><hi rend="capitalize">n</hi>os troupes <choice><orig>avançeraient</orig><reg>avanceraient</reg></choice> bien si nous <choice><sic>prendrions</sic><reg>prenions</reg></choice>
                <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice> mais l'artillerie&vir; par ses routes toutes
-               <lb/>boueuses&vir; ne pourrait pas suivre les troupes<pc>.</pc>
+               <lb/>boueuses&vir; ne pourrait pas suivre les troupes<ref type="note" n="1" target="#F_delta_1854_20_1_Salonique_16-03-1916_note1"></ref><pc>.</pc>
                <lb/>Tant qu'au moral des soldats par ici il est bon&vir;
                <lb/>ils ne sont pas <choice><orig>découragé</orig><reg>découragés</reg></choice> et pensent <choice><orig>gagné</orig><reg>gagner</reg></choice>
                <lb/>la victoire&pt; <hi rend="capitalize">p</hi>our nous marins c'est la même 
@@ -130,14 +138,15 @@
                <address type="addressee" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>                  
-                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_16031916">Sanary s/ mer</placeName></del></addrLine>                  
-                  <addrLine><del hand="#other" rend="overline">Var</del></addrLine>                  
-                  <addrLine>France</addrLine>                    
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_16031916">Sanary<supplied reason="compose">-</supplied><choice><orig>s/</orig><reg>sur</reg></choice><supplied reason="compose">-</supplied>mer</placeName></del></addrLine>                  
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Var" xml:id="Var_13031916">Var</placeName></del></addrLine>                  
+                  <addrLine><placeName ref="#France" xml:id="France_13031916">France</placeName></addrLine>                    
                </address>
                <add hand="#other">
                   <address type="addressee" place="envelope">                        
                      <addrLine>48 rue de la Comédie</addrLine>                  
-                     <addrLine><placeName ref="#Beaune" xml:id="Beaune_16031916">Beaune</placeName> Cote d'or</addrLine>                  
+                     <addrLine><placeName ref="#Beaune" xml:id="Beaune_16031916">Beaune</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_13031916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
                   </address>
                </add>
                <stamp type="armee">
@@ -149,20 +158,28 @@
                envoi de
                <address type="sender" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                      
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>                  
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier bord du chalutier <name type="navire" ref="#Shamrock_II">Shamrock II</name></addrLine>                  
                   <addrLine> Bureau central - naval <placeName ref="#Marseille">Marseille</placeName></addrLine>
                </address>
                <stamp type="postmark">
-                  Sanary <date when="1916-03-24">24 mars 1916</date>
+                  <placeName ref="#Sanary">Sanary</placeName> <date when="1916-03-24">24 mars 1916</date>
                </stamp>
             </p>
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_16-03-1916_note1" n="1">
+               La région est marécageuse et si en quelques mois la longueur du camp retranché a atteint les cent vingt kilomètres, sa défense ne permet pas d'avoir
+               une densité de troupes importante sur toute sont étendue. L'armée s'attache donc à l'amélioration des voies de communication (routes et chemins de fer) afin de gagner en mobilité. 
+               <bibl corresp="#Schiavon_front" n="169"></bibl>
+            </note>
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
-            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/> 
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

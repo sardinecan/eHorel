@@ -49,14 +49,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_15-05-1915">
       <body xml:id="F_delta_1854_20_1_Salonique_15-05-1915_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_005.jpg"/> 
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_001.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/> 
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_005.jpg"/>
                <figDesc>
                   
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_006.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_002.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_15051915">Salonique</placeName>&vir;
@@ -70,7 +74,7 @@
                <lb/>Venant de recevoir mes photographies &a; l'instant&vir; je
                <lb/>profite pour vous en faire parvenir une&pt; <hi rend="capitalize">v</hi>ous me
                <lb/>trouverez changé car je garde toute ma barbe pour
-               <lb/>ressembler &a; un véritable poilu<pc>.</pc> <hi rend="capitalize">&a;</hi> votre idée
+               <lb/>ressembler &a; un véritable poilu<pc>.</pc> <choice><orig>a</orig><reg>A</reg></choice> votre idée
                <lb/>vous me direz si j'ai maigri ou <choice><orig>engraisser</orig><reg>engraissé</reg></choice><pc>.</pc> C'est
                <lb/>loin d'&ê;tre réussi&vir; j'ai la joue droite qui para<choice><orig>i</orig><reg>î</reg></choice>t toute
                <lb/><del rend="overline">pe</del> enflée&vir; on dirait que j'<choice><sic>aurai</sic><corr>ai</corr></choice> une chique dans la
@@ -96,6 +100,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

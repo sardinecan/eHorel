@@ -16,14 +16,15 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
                 <link rel="stylesheet" href="../../STYLE/foundation/css/foundation.css" />
                 <link rel="stylesheet" type="text/css" href="../../STYLE/personnalisation/style.css"/>
-                <script src="../../STYLE/foundation/js/vendor/modernizr.js">//</script>
-                <script src="../../JS/js/jquery.js">//</script>
-                <script src="../../JS/timeline/timeline.js">//</script>
-                <script src="http://simile.mit.edu/timeline/api/timeline-api.js" type="text/javascript">//</script>                                                                                   
+                <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+                <script src="../../STYLE/foundation/js/vendor/modernizr.js">/*Pour transformation xslt*/</script>
+                <script src="../../JS/js/jquery.js">/*Pour transformation xslt*/</script>
+                <script src="../../JS/timeline/timeline.js">/*Pour transformation xslt*/</script>
+                <script src="http://simile.mit.edu/timeline/api/timeline-api.js" type="text/javascript">/*Pour transformation xslt*/</script>                                                                                   
             </head>
             <body onload="onLoad();" onresize="onResize();">                                                                                     
-                <header class="row">                         
-                    <img src="../../STYLE/images/header.jpg" alt="header"/>                                                                                            
+                <header class="row border-top">                         
+                    <img src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/>                                                                                            
                     <nav class="top-bar" data-topbar="yes" role="navigation">                    
                         <ul class="title-area">                        
                             <li class="name"><h1><a href="http://www.bdic.fr/">BDIC</a></h1></li>                            
@@ -56,83 +57,59 @@
                             </ul>                              
                         </section>                        
                     </nav>                    
-                </header>                                                
-                <div class="row corps">                
+                </header>
+                <div class="row">
+                    <img src="../../STYLE/images/slide_14_18_1.jpg" alt="header"/>
+                </div>
+                <div class="row border">                
                     <div class="large-12 columns">                    
                         <h2>Accès chronologique</h2>                        
-                        <div id="frise"></div>                         
+                        <div id="frise"><xsl:comment>pour traitement xslt</xsl:comment></div>                         
+                    </div>                    
+                </div>
+                <footer class="row border">
+                    <div class="small-12 medium-12 large-6 columns">                                                                                 
+                        <div class="block_footer_img">
+                            <a href="http://www.bdic.fr/"><img style="margin-top:5px;" src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/></a>
+                            <a href="http://www.u-paris10.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_ouest.png" alt="logo_Paris_Ouest"/></a>
+                            <a href="http://www.u-plum.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_lumieres.png" alt="logo_Paris_Lumiere"/></a>
+                        </div>
                     </div>
-                    <div class="large-12 columns">
-                        <h4>Selectionnez une correspondance :</h4>
-                        <xsl:apply-templates select="//tei:correspDesc[@type='sommaire']"/>
+                    <div class="small-12 medium-12 large-6 columns">
+                        <div class="row">
+                            <div class="small-6 medium-6 large-6 columns">                            
+                                <div class="block_footer">
+                                    <b>La bibliothèque</b>                            
+                                    <ul class="link">                                
+                                        <li>Site de Nanterre</li>                                
+                                        <li>6, allée de l'Université</li>                                
+                                        <li>F-92001 Nanterre Cedex</li>                                                                                                                                
+                                    </ul>
+                                </div>                                    
+                            </div>
+                            <div class="small-6 medium-6 large-6 columns">                            
+                                <div class="block_footer">
+                                    <b>Le musée</b>                            
+                                    <ul class="link">                                
+                                        <li>Site de Paris</li>                                
+                                        <li>Hôtel national des Invalides</li>                                
+                                        <li>129, rue de Grenelle 75007 Paris</li>                                                                                                                                
+                                    </ul>
+                                </div>                                    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 text-right">
+                                <a class="lien_footer" href="credits.html">Crédits</a>                        
+                            </div>
+                        </div>
                     </div>
-                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                </footer>
                 <!--Permettent aux listes de se dérouler automatiquement + menu adaptatif (doivent être placés en bas de page)-->    
-                <script src="../../STYLE/foundation/js/vendor/jquery.js">//</script>
-                <script src="../../STYLE/foundation/js/foundation.min.js">//</script>
+                <script src="../../STYLE/foundation/js/vendor/jquery.js">/*Pour transformation xslt*/</script>
+                <script src="../../STYLE/foundation/js/foundation.min.js">/*Pour transformation xslt*/</script>
                 <script>$(document).foundation();</script>
             </body>        
         </html>    
-    </xsl:template>
-      
-    <xsl:template match="//tei:correspDesc[@type='sommaire']">
-      <xsl:for-each select="tei:correspContext">
-          <div class="row">
-              <h3 style="margin-left:20px;">                  
-                  <xsl:variable name="ref" select="../tei:correspAction[@type='sent']/tei:placeName/@ref"/>
-                  <xsl:variable name="placeName" select="replace($ref,'#','')"/>
-                  <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-                  <xsl:attribute name="id" select="concat($placeName,$date)">                  
-                  </xsl:attribute>
-                  <xsl:value-of select="../tei:correspAction[@type='sent']/tei:placeName"/>
-                  <xsl:text> </xsl:text>
-                  <small>
-                      <xsl:choose>                      
-                          <xsl:when test="../tei:correspAction/tei:date/@from">
-                              <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-                              <xsl:variable name="dateDebut" select="format-date($date, '[D01] [MNn] [Y]','fr',(),())"/>
-                              <xsl:value-of select="$dateDebut"/>
-                              <xsl:text> &#x2014; </xsl:text>
-                              <xsl:variable name="dateFin" select="format-date(../tei:correspAction/tei:date/@to, '[D01] [MNn] [Y]','fr',(),())"/>
-                              <xsl:value-of select="$dateFin"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                              <xsl:variable name="date" select="../tei:correspAction/tei:date/(@from | @when)"/>
-                              <xsl:variable name="dateFormat" select="format-date($date, '[D01] [MNn] [Y]','fr',(),())"/>
-                              <xsl:value-of select="$dateFormat"/>
-                          </xsl:otherwise>
-                      </xsl:choose>
-                  </small>
-              </h3>
-              <hr/>
-              <div class="large-5 small-5 large-offset-1 columns">
-                  <xsl:variable name="nombre" select="count(tei:ref)"/>
-                  <ul class="list2">
-                      <li>
-                          <xsl:text>Destinataire : </xsl:text>                                                       
-                          <xsl:value-of select="../tei:correspAction[@type='received']/tei:persName"/>                          
-                      </li>
-                      <li>
-                          <xsl:text>Nombre de cartes envoyées : </xsl:text> <xsl:value-of select="$nombre"/>
-                      </li>
-                  </ul>                                                      
-              </div>
-              <div class="large-4 small-4 large-offset-2 columns">
-                  <ul class="list">
-                      <xsl:for-each select="tei:ref">
-                          <li>
-                              <xsl:element name="a">
-                                  <xsl:variable name="target">
-                                      <xsl:value-of select="replace(@target,'xml','html')"></xsl:value-of>
-                                  </xsl:variable> 
-                                  <xsl:attribute name="href" select="$target"></xsl:attribute>                  
-                                  <xsl:value-of select="tei:date"/>
-                              </xsl:element>                                           
-                          </li>
-                      </xsl:for-each>
-                  </ul>
-              </div>
-          </div>
-      </xsl:for-each>
-  </xsl:template>      
+    </xsl:template>      
 </xsl:stylesheet>

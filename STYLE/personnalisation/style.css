@@ -1,41 +1,180 @@
-body {
-    background: url(../images/BACKGROUND_01.jpg);
-    text-align:justify;
+/*&&All*/
+body {           
+    margin-left:20px;
+    margin-right:20px;
+    text-align:justify;   
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;        
+}
+.test {
+    color:red;
+    font-size:12px;
 }
 
-.glossary {
-    text-decoration:none;    
-    border-bottom: 1px dotted;
-    color:black;
+footer {
+    padding:20px;
+    /*padding-left:20px; 
+    padding-right:20px;*/
+    background-color:#333;
 }
 
-.entree {
-    font-variant:small-caps;
-    padding-bottom: 1em;
+footer ul {
+    margin-left:0;
 }
 
-.desc {
-    font-variant:normal;
-    font-size:9pt;
+footer img {
+    margin-right:10px;
+    padding-top :30px;
+    max-width:175px;
+}
+.block_footer_img {
+    padding-left:10px;    
+    min-height:140px; 
+    background-color:white;
+    
+}
+
+.block_footer {
+    padding-left:10px;    
+    min-height:110px; 
+    color:white;
+    
+}
+
+.lien_footer {
+    color:white;
+    margin-right:20px;
+    font-size:12px;
+}
+
+p {
+    padding-left:20px; 
+    padding-right:20px;   
+}
+
+.metadonnees {
+    font-size:13px;
+}
+
+.adresse {
+    border:1px solid; 
+    border-radius:5px; 
+    box-shadow: 3px 3px 3px #656565; 
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;       
+}
+
+.hr_separation {
+    margin-top:0;
+    margin-bottom: 5px;
+    background-color:black; 
+    height:4px;    
+}
+
+.hr_note {
+    margin-top:0;
+    margin-bottom: 5px;
+    background-color:black; 
+    height:4px;
+    width:100px;
+}
+
+.mention_adresse {
+    padding:0;
+    font-size:12px;
+    margin:0;    
+}
+
+h1 {
+    margin-left:15px; 
+    margin-top:15px;
+    margin:0;
+    text-align:left;
+    font-size:13pt;     
+}
+
+h3{
+     font-size:11pt;
 }
 
 li {
     list-style:none;
 }
 
-.item {
-    font-variant:small-caps;
-    font-size:09pt;
+.link {
+    font-size:9pt;
     list-style:none;
 }
 
-
-.signed {
-    text-align:center;
+.smallcaps {
+    font-variant:small-caps;
 }
 
-.corps {
-    background-color: white;    
+.dateline {
+    margin-top:20px;
+    text-align:right;
+}
+
+
+.glossary {
+/*Mise ne valeur pour le survol*/
+    text-decoration:none;    
+    border-bottom: 1px dotted;
+    color:black;
+}
+
+.glossary:hover {
+background: none;/* correction d'un bug IE */
+}
+
+.glossary span { /* définition de la 
+balise <span> inclue dans <a> */
+	display: none;		
+	border:1px solid;	
+	border-radius: 4px;
+}
+
+.glossary:hover span { /* définition de 
+la balise <span> au survol */
+    display:inline-block;
+	position: absolute;
+	background-color: #E6E6E6; /* légère transparence */
+	padding:5px;
+	z-index: 500;
+	text-align:left;	
+}
+
+.border-top {
+
+    border-left:1px solid;
+    border-right:1px solid;
+    border-color: #d6d6d6;
+    padding-top:10px;
+}
+
+.border {
+
+    border-left:1px solid;
+    border-right:1px solid;
+    border-color: #d6d6d6;    
+}
+
+small {
+    font-size : 10pt;
+}
+
+.del {
+    text-decoration:line-through;
+}
+
+.capitalize{
+    text-transform:uppercase;
+}
+
+.super {
+    vertical-align:super; 
+    font-size:50%;
 }
 
 .list {
@@ -48,81 +187,60 @@ li {
     font-size:11pt;
 }
 
+
+/*&& INDEX*/
+.entree {
+    font-variant:small-caps;
+    padding-bottom: 1em;
+}
+
+.desc {
+    font-variant:normal;
+    font-size:9pt;
+}
+
+
+/*&&GEOGRAPHIE*/
 #map {
     height: 400px;
+    margin-bottom:20px;
 }
+
+
+/*&&CHRONOLOGIE*/
 #frise {
-    height: 450px; 
+    height: 350px; 
     border: 1px solid #aaa;
+    margin-bottom:20px;
+    font-size:12px;
 }
 
-h1 {
-   font-size:13pt; 
-   margin-left:15px; 
-   margin-top:15px;
-}
-.next{
-    text-align:right;
+
+/*&&ASIDEGAUCHE*/
+.context {
+    list-style:none; 
+    padding-left:0; 
+    margin-left:0;
 }
 
-.link {
-    font-size:9pt;
-    list-style:none;
+
+/*&&ASIDEDROIT*/
+.asideDroit{
+    text-align:left;
+    margin-top:10px;
+    font-size:0.8em;
 }
 
-.adresse{
-    border:1px solid; 
-    border-radius:5px; 
-    box-shadow: 3px 3px 3px #656565; 
-    padding:5px;
-    margin-top:20px;
-}
-sup span 
-{
-     display: none;
-     font-size: 12px;
-     padding: 10px;
-     color: white;
-     margin:5px;
-     line-height: 15px;
-     width: 500px;
-     border:1px solid;
-     border-color: black;
-     border-radius: 4px;
-     text-indent: 0;
-}                    
-     
-sup:hover span /* affichage des notes au survol */
-{
-     display: block;
-     position: absolute;
-     background-color: grey ;/*rgb(37, 138, 77);*/ /*Pour les anciens navigateurs*/
-     background-color: grey/*rgba(37,138,77,.9)*/; /* légère transparence */
+.facs {
+    margin-bottom:5px;    
 }
 
-.glossary:hover {
-background: none; /* correction d'un bug IE */
-}
-.glossary span { /* définition de la 
-balise <span> inclue dans <a> */
-	display: none;
-	height: auto;
-	width: 100%;
-	height: auto;
-	border:1px solid;
-	border-color: black;
-	border-radius: 4px;
-}
-.glossary:hover span { /* définition de 
-la balise <span> au survol */
-    display:inline-block;
-	position: absolute;
-	background-color: rgba(25,25,25,.7); /* légère transparence */		
-	z-index: 500;
-	color: white;
-	line-height: 10px;
+
+/*&&NOTE*/
+.note {
+    font-size:10px;
+    margin-right:20px;
+    padding-top:5px;
 }
 
-small {
-    font-size : 10pt;
-}
+

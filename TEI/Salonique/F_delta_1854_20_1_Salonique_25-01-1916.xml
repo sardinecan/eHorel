@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_25-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_25-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_081.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_081.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_081.jpg"/>
                <figDesc>
                   Une vue de<placeName ref="#Zante" xml:id="Zante_25011916">Zante</placeName>
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_082.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_082.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   bord <supplied reason="omitted"><placeName ref="#Salonique" xml:id="Salonique_25011916">Salonique</placeName></supplied>&vir;
@@ -78,7 +82,7 @@
                <lb/><hi rend="capitalize">j</hi>e suis loin de vous en vouloir pour <choice><orig>se</orig><reg>ce</reg></choice> si long retard &a; me
                <lb/>répondre&vir; je me suis douté que vous deviez avoir des ennuis
                <lb/>ou alors qu'il vous serait arrivé malheur<pc>,</pc> heureusement
-               <lb/>que non<pc>.</pc> <hi rend="capitalize">j</hi>e crois que lorsque l'on commence &a; avoir des enuis
+               <lb/>que non<pc>.</pc> <hi rend="capitalize">j</hi>e crois que lorsque l'on commence &a; avoir des ennuis
                <lb/>cela n'en fini plus<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; j'espère que lorsque vous aurez
                <lb/>reçu ces <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir; que votre main soit complètement guérie
                <lb/><unclear>et</unclear> que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey">Gauffrey</persName> soit de nouveau debout en bonne
@@ -88,19 +92,23 @@
                <lb/>s'en <surplus reason="repeated">en</surplus> réchappe de cette guerre<pc type="surplus">.</pc> et en plus qu'elle en finisse
                <lb/>le <w rend="aggl"><choice><orig>plu</orig><reg>plus</reg></choice></w><w>t&ô;t</w> possible<pc>,</pc> mais comme je l'ai toujours dit&vir; avec
                <lb/>la victoire<pc>.</pc> Je vous remercie beaucoup <hi rend="minimize">C</hi>omtesse pour les 
-               <lb/>d&é;marches que vous avez faites pour mon frère <pc type="supplied">;</pc> je vous en
+               <lb/>d&é;marches que vous avez faites pour mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_25011916">frère</rs> <pc type="supplied">;</pc> je vous en
                <lb/>serai toujours très reconnaissant<pc type="surplus">,</pc> des services que vous
                <lb/>m'avez rendu &a; son sujet<pc>.</pc> <hi rend="capitalize">e</hi>sp&é;rons que ces d&é;marches aboutiront
                <lb/>&a; un bon résultat<pc>.</pc> <hi rend="capitalize">m</hi>on frère m'&é;crit tout derni&è;rement et
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_079.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_079.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_079.jpg"/>
                <figDesc>
                   <placeName ref="#Corinth" xml:id="Corinth_25011916">Corinth</placeName> - Temple de Minerva Chalinitis
                </figDesc>
             </figure>  
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_080.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_080.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="left">(2)</add> 
                <lb/>me dit qu'il attend avec impatience son engagement<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> Comme vous
@@ -134,6 +142,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

@@ -53,7 +53,9 @@
    <text xml:id="F_delta_1854_20_1_Salonique_03-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_03-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_105.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_105.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_105.jpg"/>
                <figDesc>
@@ -61,7 +63,9 @@
                   Constantin XII. dans la région de Drama 
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_106.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_106.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_03011916">Salonique</placeName>&vir;
@@ -103,14 +107,18 @@
                   </add>
                </add>                                                                         
             </p>
-            <pb n="3" facs="../../FACS/BDIC_FD_1854_20_1_107.jpg" type="postcardBreak"/>
+            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_107.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               " type="postcardBreak"/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_107.jpg"/>
                <figDesc>
                   Paysage de Kassandra à Macedoine
                </figDesc>
             </figure>
-            <pb n="4" facs="../../FACS/BDIC_FD_1854_20_1_108.jpg"/>
+            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_108.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/>La <choice><abbr>1<hi rend="super">ere</hi></abbr><expan>première</expan></choice> fois qu'ils sont venus ils étaient <choice><orig>3</orig><reg>trois</reg></choice> et la seconde
@@ -119,8 +127,8 @@
                <lb/>soir &a; bord du <name type="navire" ref="#Hussard" xml:id="Hussard_03011916">Hussard</name> et le contre torpilleur <name type="navire" ref="#Spahis" xml:id="Spahis_03011916">Spahis</name>
                <lb/>l'accompagnait&pt; <hi rend="capitalize">l</hi>es grecs sont venus au quai pour
                <lb/>lui rendre les honneurs&vir; quand il a su cela il a retardé
-               <lb/>jusqu'au lendemant pour se rendre au consulat de
-               <lb/><placeName ref="#Serbie" xml:id="Serbie_03011916">Serbie</placeName><pc>.</pc> <hi rend="capitalize">s</hi>i vous aviez vu le phare qu'ils ont piqué les
+               <lb/>jusqu'au lendemain pour se rendre au consulat de
+               <lb/><placeName ref="#Serbie" xml:id="Serbie_03011916">Serbie</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_03-01-1916_note1" n="1"/><pc>.</pc> <hi rend="capitalize">s</hi>i vous aviez vu le phare qu'ils ont piqué les
                <lb/>grecs en ne le voyant pas venir&vir; ils ont été <choice><orig>oblige</orig><reg>obligés</reg></choice> de
                <lb/><choice><orig>ployé</orig><reg>ployer</reg></choice> armes et bagages et de s'en retourner au
                <lb/>camps bredouille<pc>.</pc> <hi rend="capitalize">l</hi>e roi <persName ref="#Pierre_Serbie">Pierre de Serbie</persName> a <choice><orig>diner</orig><reg>dîné</reg></choice> avec
@@ -131,17 +139,24 @@
                <lb/>l'ordre de faire arr&ê;ter <del rend="overline">tous les consuls ennemis ainsi</del>
                <lb/>que leurs femmes et enfants et domestiques&vir; ils ont tous
                <lb/>&é;t&é; <choice><orig>arreté</orig><reg>arrêtés</reg></choice> le soir même que les <choice><orig>areoplanes</orig><reg>aéroplanes</reg></choice> boches sont venus
-               <lb/>nous voir et le lendemain ils sont <choice><orig>parti</orig><reg>partis</reg></choice> &a; bord du cargot
+               <lb/>nous voir et le lendemain ils sont <choice><orig>parti</orig><reg>partis</reg></choice> &a; bord du <choice><orig>cargot</orig><reg>cargo</reg></choice>
                <lb/>des messageries <choice><orig>maritime</orig><reg>maritimes</reg></choice> <name type="navire" ref="#Memphis" xml:id="Memphis_03011916">Le Memphis</name> qui les a
                <lb/><add place="margin-right" rend="vertical">conduit en France&pt;</add>
             </p>
          </div>
       </body>
       <back>
+         <div type="note">
+            <note xml:id="F_delta_1854_20_1_Salonique_03-01-1916_note1" n="1">
+               Rappelons que la <placeName ref="#Grece" xml:id="Grece_03011916">Grèce</placeName> malgré son traité d'alliance avec la <placeName ref="#Serbie">Serbie</placeName> n'est pas venue à son secours lors de l'offensive bulgare.
+            </note>
+            <!-- récit du bombardement présent sur wikipedia (mort de 5 moutons et du berger) -->
+         </div>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>

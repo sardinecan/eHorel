@@ -53,14 +53,18 @@
    <text xml:id="F_delta_1854_20_1_Salonique_12-01-1916">
       <body xml:id="F_delta_1854_20_1_Salonique_12-01-1916_b">
          <div type="letter">
-            <pb n="1" facs="../../FACS/BDIC_FD_1854_20_1_097.jpg"/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_097.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_097.jpg"/>
                <figDesc>
                   Le chef d'armes <persName ref="#Papadracos">Papadracos</persName> <choice><sic>de</sic><corr>se</corr></choice> rendant en macédoine
                </figDesc>
             </figure>
-            <pb n="2" facs="../../FACS/BDIC_FD_1854_20_1_098.jpg"/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_098.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <opener>
                <dateline>
                   <placeName ref="#Salonique" xml:id="Salonique_12011916">Salonique</placeName>&vir;
@@ -80,7 +84,7 @@
                <lb/>faisons les vivres et le charbon&vir; l'eau et 
                <lb/>ainsi de suite<pc>.</pc> <hi rend="capitalize">ç</hi>a ne fait rien&vir; je pr&é;f&è;re faire
                <lb/>cent fois ce travail que d'&ê;tre &a; bord du 
-               <lb/><name type="navire" ref="#H_IV" xml:id="H_IV_12011916">Henri IV</name> car au moins ici si je travail&vir; je suis
+               <lb/><name type="navire" ref="#H_IV" xml:id="H_IV_12011916">Henri IV</name> car au moins ici si je <choice><orig>travail</orig><reg>travaille</reg></choice>&vir; je suis
                <lb/>nourri en conséquense<pc>.</pc> <hi rend="capitalize">n</hi>ous sommes <choice><orig>mêmes</orig><reg>même</reg></choice>
                <lb/>bien <choice><orig>nourri</orig><reg>nourris</reg></choice>&vir; de temps en temps des <choice><sic>biffteaks</sic><corr>biftecks</corr></choice>
                <lb/>pommes de terre frites&vir; des saucisses&vir; des 
@@ -95,6 +99,7 @@
             <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>      
    </text>
