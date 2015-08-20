@@ -26,27 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1916-01-25">le 25 janvier 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
             </correspAction>
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-24">24 janvier 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-01-24">24 janvier 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-31">31 janvier 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-01-31">31 janvier 1916</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -79,11 +88,11 @@
                <lb/>votre lettre datée du <date when="1916-01-09">9 janvier 1916</date> <pc type="supplied">;</pc> je m'empresse de vous en
                <lb/>rendre réponse<pc type="surplus">,</pc> et suis heureux d'un coté et de l'autre ça me
                <lb/>fait peine de vous savoir souffrante ainsi que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey" xml:id="MME_Gauffrey_25011916">Gauffrey</persName>&pt;
-               <lb/><hi rend="capitalize">j</hi>e suis loin de vous en vouloir pour <choice><orig>se</orig><reg>ce</reg></choice> si long retard &a; me
+               <lb/><choice><orig>j</orig><reg>J</reg></choice>e suis loin de vous en vouloir pour <choice><orig>se</orig><reg>ce</reg></choice> si long retard &a; me
                <lb/>répondre&vir; je me suis douté que vous deviez avoir des ennuis
                <lb/>ou alors qu'il vous serait arrivé malheur<pc>,</pc> heureusement
-               <lb/>que non<pc>.</pc> <hi rend="capitalize">j</hi>e crois que lorsque l'on commence &a; avoir des ennuis
-               <lb/>cela n'en fini plus<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; j'espère que lorsque vous aurez
+               <lb/>que non<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>e crois que lorsque l'on commence &a; avoir des ennuis
+               <lb/>cela n'en fini plus<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; j'espère que lorsque vous aurez
                <lb/>reçu ces <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir; que votre main soit complètement guérie
                <lb/><unclear>et</unclear> que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey">Gauffrey</persName> soit de nouveau debout en bonne
                <lb/>santé<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> <hi rend="capitalize">a</hi>lors M<hi rend="super">ieur</hi> <persName ref="#MR_Gauffrey" xml:id="MR_Gauffrey_25011916">Gauffrey</persName> votre gendre a été blessé<pc>,</pc> je <choice><orig>penses</orig><reg>pense</reg></choice>
@@ -139,7 +148,7 @@
       </body>      
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

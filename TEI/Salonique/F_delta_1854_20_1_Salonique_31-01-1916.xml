@@ -26,28 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1916-01-31">le 31 janvier 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
-               <placeName ref="#Sanary">Hôtel de Bains, Sanary sur mer</placeName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-25">25 janvier 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-01-25">25 janvier 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-02-05">05 février 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-02-05">05 février 1916</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -77,19 +85,19 @@
             </opener>
             <p>
                <lb/>Au moment o&ù; je vous écris nous faisons <choice><orig>2</orig><reg>deux</reg></choice> pêches &a; la 
-               <lb/>fois&vir; la p&ê;che aux sous<supplied reason="compose">-</supplied>marins et aux poissons car
-               <lb/>nous avons <choice><orig>2</orig><reg>deux</reg></choice> filets &a; la mer&pt; <hi rend="capitalize">u</hi>n pour essayer de
-               <lb/>p&ê;cher les sous<supplied reason="compose">-</supplied>marins et l'autre pour le poisson&pt;
-               <lb/><hi rend="capitalize">i</hi>l y a <choice><orig>5</orig><reg>cinq</reg></choice> minutes&vir; nous venons de tirer le filet aux
-               <lb/>poissons&vir; il y a dedans&vir; <choice><orig>10</orig><reg>dix</reg></choice> <choice><orig>sôles</orig><reg>soles</reg></choice> et <choice><orig>2</orig><reg>deux</reg></choice> raies<pc>.</pc> <hi rend="capitalize">n</hi>ous 
+               <lb/>fois&vir; la p&ê;che aux sous<supplied reason="omitted">-</supplied>marins et aux poissons car
+               <lb/>nous avons <choice><orig>2</orig><reg>deux</reg></choice> filets &a; la mer&pt; <choice><orig>u</orig><reg>U</reg></choice>n pour essayer de
+               <lb/>p&ê;cher les sous<supplied reason="omitted">-</supplied>marins et l'autre pour le poisson&pt;
+               <lb/><choice><orig>i</orig><reg>I</reg></choice>l y a <choice><orig>5</orig><reg>cinq</reg></choice> minutes&vir; nous venons de tirer le filet aux
+               <lb/>poissons&vir; il y a dedans&vir; <choice><orig>10</orig><reg>dix</reg></choice> <choice><orig>sôles</orig><reg>soles</reg></choice> et <choice><orig>2</orig><reg>deux</reg></choice> raies<pc>.</pc> <choice><orig>n</orig><reg>N</reg></choice>ous 
                <lb/>l'avons <choice><orig>rejeter</orig><reg>rejeté</reg></choice> de manière &a; essayer <sic>a</sic> attraper
-               <lb/>une bonne friture pour ce soir&pt; <hi rend="capitalize">e</hi>t &a; quel prix&vir; tout 
-               <lb/>cela pour rien<pc>.</pc> <hi rend="capitalize">c</hi>ela nous emp&ê;che pas de faire notre
-               <lb/>service contre ces sales sous<supplied reason="compose">-</supplied>marins boches&vir; que je
+               <lb/>une bonne friture pour ce soir&pt; <choice><orig>e</orig><reg>E</reg></choice>t &a; quel prix&vir; tout 
+               <lb/>cela pour rien<pc>.</pc> <choice><orig>c</orig><reg>C</reg></choice>ela nous emp&ê;che pas de faire notre
+               <lb/>service contre ces sales sous<supplied reason="omitted">-</supplied>marins boches&vir; que je
                <lb/>crois nous r&é;ussirons jamais &a; détruire car
                <lb/>&a; me<del rend="overline">me</del>sure que nous <supplied reason="omitted">en</supplied> d&é;truisons <choice><orig>1</orig><reg>un</reg></choice> il en revient
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres après et pourtant tout cela nous emmène
-               <lb/>pas la fin de la guerre<ref type="note" target="#F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1"></ref>&pt; <hi rend="capitalize">j</hi>e crois qu'il faut encore 
+               <lb/>pas la fin de la guerre<ref type="note" target="#F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1"></ref>&pt; <choice><orig>j</orig><reg>J</reg></choice>e crois qu'il faut encore 
                <lb/>beaucoup de patience pour pouvoir arriver &a; bout&pt;
             </p>
             <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_093.jpg
@@ -112,7 +120,7 @@
             </p>
             <closer>
                <salute>
-                  <lb/><hi rend="capitalize">r</hi>ien autre chose &a;
+                  <lb/><choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a;
                   <lb/>vous dire pour
                   <lb/>l'instant<pc>,</pc> un petit
                   <lb/>ami qui ne vous
@@ -120,7 +128,7 @@
                </salute>
                <lb/>
                <signed>                                                
-                  <address place="postcard" type="sender">
+                  <address place="postcard" type="sentBy">
                      <persName ref="#Horel" xml:id="Horel_31011916">Armand Horel</persName>
                      <addrLine><lb/><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> canonnier </addrLine>                  
                      <addrLine>&a;<lb/> bord du chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_31011916">Shamrock II</name></addrLine>                  
@@ -128,10 +136,10 @@
                   </address>
                </signed>
                   <cb/>
-               <address type="addressee" place="postcard" n="1">
+               <address type="deliveredTo" place="postcard" n="1">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
                   <addrLine>Hôtel de Bains</addrLine>
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_31011916">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></addrLine>                  
                   <addrLine><placeName ref="#Var" xml:id="Var_31011916">Var</placeName>&vir; <placeName ref="#France" xml:id="France_31011916">France</placeName></addrLine>   
                </address>
             </closer>
@@ -146,7 +154,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

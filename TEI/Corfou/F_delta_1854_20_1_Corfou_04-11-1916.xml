@@ -26,22 +26,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Corfou">Corfou</placeName>
                <date when="1916-11-04">le 04 novembre 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à la <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-27">27 avril 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-04-27">27 avril 1916</date>
                </ref>
             </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
             <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
@@ -74,20 +81,20 @@
                <lb/>Etant de retour de permission de <choice><orig>14</orig><reg>quatorze</reg></choice> jours&vir; je m'empresse
                <lb/>de vous faire parvenir de mes nouvelles&vir; que je suis arrivé
                <lb/>&a; bord en parfaite santé et d&é;sire qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
-               <lb/>cartes que vous en &ê;tes de même<pc>.</pc> <hi rend="capitalize">j</hi>'ai passé <choice><orig>9</orig><reg>neuf</reg></choice> jours chez
+               <lb/>cartes que vous en &ê;tes de même<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>'ai passé <choice><orig>9</orig><reg>neuf</reg></choice> jours chez
                <lb/>M<hi rend="super">ieur</hi> et M<hi rend="super">me</hi> <persName ref="#Bussiere" xml:id="Bussiere_04111916">Bussière</persName> rue <unclear>Richepause</unclear>&vir; je me suis
-               <lb/>bien amusé pendant ce petit séjour parmi eux<pc>.</pc> <hi rend="capitalize">j</hi>'ai été
-               <lb/>voir mes parents &a; <placeName ref="#Lorient" xml:id="Lorient_04111916">Lorient</placeName>&pt; <hi rend="capitalize">j</hi>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
+               <lb/>bien amusé pendant ce petit séjour parmi eux<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>'ai été
+               <lb/>voir mes parents &a; <placeName ref="#Lorient" xml:id="Lorient_04111916">Lorient</placeName>&pt; <choice><orig>j</orig><reg>J</reg></choice>'y ai passé <choice><orig>5</orig><reg>cinq</reg></choice> jours&vir; je vous 
                <lb/>prie de croire que je n'ai pas trouvé le temps long<pc>.</pc>
-               <lb/><hi rend="capitalize">p</hi>ar cette même occasion j'ai été voir mon frère &a;
+               <lb/><choice><orig>p</orig><reg>P</reg></choice>ar cette même occasion j'ai été voir mon frère &a;
                <lb/><placeName ref="#Melun" xml:id="Melun_04111916">Melun</placeName> le <date when="1916-10-18">mercredi 18 octobre</date> pour la dernière
                <lb/>fois car il doit sortir aujourd'hui <date when="1916-11-04">4 novembre</date>&pt;
-               <lb/><hi rend="capitalize">&a;</hi> sa sortie il doit se rendre &a; <placeName ref="#Montpellier" xml:id="Montpellier_04111916">Montpellier</placeName> o&ù; l&a;
+               <lb/><choice><orig>a</orig><reg>À</reg></choice> sa sortie il doit se rendre &a; <placeName ref="#Montpellier" xml:id="Montpellier_04111916">Montpellier</placeName> o&ù; l&a;
                <lb/>il sera dirigé sur <placeName ref="#Marseille" xml:id="Marseille_04111916">Marseille</placeName> pour prendre le paquebot
                <lb/>qui le m&è;nera en <placeName ref="#Algerie" xml:id="Algérie_04111916">Algérie</placeName> &a; <placeName ref="#Mers_el_Kebir" xml:id="Mers_el_Kebir_04111916"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName> &a; <choice><orig>4</orig><reg>quatre</reg></choice> 
-               <w>kil<lb rend="hyphen"/>omètres</w> d'<placeName ref="#Oran">Oran</placeName>&pt; <hi rend="capitalize">j</hi>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
-               <lb/>poudrière d'<placeName ref="#Oran" xml:id="Oran_04111916">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <hi rend="capitalize">i</hi>l est
-               <lb/>parti l&a;<supplied reason="compose">-</supplied>bas pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
+               <w>kil<lb rend="hyphen"/>omètres</w> d'<placeName ref="#Oran">Oran</placeName>&pt; <choice><orig>j</orig><reg>J</reg></choice>'y <choice><orig>est</orig><reg>ai</reg></choice> &é;t&é; plus de <choice><orig>100</orig><reg>cent</reg></choice> fois car la
+               <lb/>poudrière d'<placeName ref="#Oran" xml:id="Oran_04111916">Oran</placeName> se trouve &a; <placeName ref="#Mers_el_Kebir"><choice><orig>Marsel </orig><reg>Mers el-</reg></choice>Kébir</placeName><pc>.</pc> <choice><orig>i</orig><reg>I</reg></choice>l est
+               <lb/>parti l&a;<supplied reason="omitted">-</supplied>bas pour finir les <choice><orig>5</orig><reg>cinq</reg></choice> mois et <choice><orig>22</orig><reg>vingt-deux</reg></choice> jours de 
             </p>
             <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_003.jpg
                http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
@@ -103,20 +110,20 @@
                " />           
             <p>
                <add type="numbering" n="2" rend="left">(2)</add>
-               <lb/>service actif qui lui restait &a; faire<pc>.</pc> <hi rend="capitalize">a</hi>près avoir termin&é;
+               <lb/>service actif qui lui restait &a; faire<pc>.</pc> <choice><orig>a</orig><reg>A</reg></choice>près avoir termin&é;
                <lb/>ce <choice><orig>lapt</orig><reg>laps</reg></choice> de temps je ne sais trop o&ù; il sera dirigé <pc type="supplied">;</pc>
                <lb/>peut &ê;tre bien sur le front ou je crois plut&ô;t qu'ils
                <lb/>l'enverront au <placeName ref="#Maroc" xml:id="Maroc_04111916">Maroc</placeName><pc>.</pc> Enfin&vir; je suis content qu'il en soit
                <lb/>sorti de cette maudite prison de <placeName ref="#Melun">Melun</placeName> car d'arpès
                <lb/>lui il en aura assez souffert principalement <supplied reason="omitted">de la</supplied> privation
-               <lb/>de nourriture<choice><orig><pc>,</pc></orig><reg>&pt;</reg></choice> <hi rend="capitalize">p</hi>our moi je ne me plais plus guère &a; bord
-               <lb/>de ce chalutier car la vie est bien trop dure&pt; <hi rend="capitalize">n</hi>ous sommes
+               <lb/>de nourriture<choice><orig><pc>,</pc></orig><reg>&pt;</reg></choice> <choice><orig>p</orig><reg>P</reg></choice>our moi je ne me plais plus guère &a; bord
+               <lb/>de ce chalutier car la vie est bien trop dure&pt; <choice><orig>n</orig><reg>N</reg></choice>ous sommes
                <lb/>compl&è;tement &é;reintés par la mer <pc type="supplied">;</pc> surtout dans les
-               <lb/>parages o&ù; nous sommes en ce moment&pt; <hi rend="capitalize">i</hi>l n'y a jamais eu
+               <lb/>parages o&ù; nous sommes en ce moment&pt; <choice><orig>i</orig><reg>I</reg></choice>l n'y a jamais eu
                <lb/>un jour de beau temps <pc type="supplied">;</pc> du matin au soir il faut être
                <lb/>cramponné de manière &a; pouvoir ce tenir debout&pt;
-               <lb/><hi rend="capitalize">o</hi>n dira ce que l'on voudra mais ce n'est pas une <choice><orig>excistence</orig><reg>existence</reg></choice>
-               <lb/>de mener une vie pareille&pt; <hi rend="capitalize">p</hi>our moi la marine n'est pas
+               <lb/><choice><orig>o</orig><reg>O</reg></choice>n dira ce que l'on voudra mais ce n'est pas une <choice><orig>excistence</orig><reg>existence</reg></choice>
+               <lb/>de mener une vie pareille&pt; <choice><orig>p</orig><reg>P</reg></choice>our moi la marine n'est pas
                <lb/>juste&vir; nous devrions &ê;tre <choice><orig>remplacé</orig><reg>remplacés</reg></choice> tous les ans sur ces
                <lb/>chalutiers car une année sur un chalutier vaut <choice><orig>3</orig><reg>trois</reg></choice> sur
                <lb/>un cuirassé car eux autres<pc>,</pc> ils ne bougent pour ainsi
@@ -124,7 +131,7 @@
             </p>
             <closer>
                <salute>
-                  <lb/><hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous 
+                  <lb/><choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous 
                   <lb/>oublie pas&vir;
                </salute>
                <signed>
@@ -143,7 +150,7 @@
       </body>
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

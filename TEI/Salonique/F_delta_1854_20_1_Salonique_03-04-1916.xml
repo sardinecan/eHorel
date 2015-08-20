@@ -26,27 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Salonique">Salonique,</placeName>
                <date when="1916-04-03">le 03 avril 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-28">28 mars 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-03-28">28 mars 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-09">09 avril 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-04-09">09 avril 1916</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -84,8 +93,8 @@
                <lb/>jours derniers&vir; le nombre de morts est de <choice><orig>50</orig><reg>cinquante</reg></choice>
                <lb/>grecs et de <choice><orig>11</orig><reg>onze</reg></choice> poilus tués par les bombes
                <lb/>mais aussi ils ne sont pas <choice><orig>retourner</orig><reg>retournés</reg></choice> tous
-               <lb/><choice><sic>idem</sic><corr>indemnes</corr></choice> car il y <supplied reason="omitted">en</supplied> a eu <choice><orig>4</orig><reg>quatre</reg></choice> d'abattus&pt; <hi rend="capitalize">l</hi>e lendemain
-               <lb/>ils ont voulu revenir&vir; ils n'ont pas pu&pt; <hi rend="capitalize">n</hi>os
+               <lb/><choice><sic>idem</sic><corr>indemnes</corr></choice> car il y <supplied reason="omitted">en</supplied> a eu <choice><orig>4</orig><reg>quatre</reg></choice> d'abattus&pt; <choice><orig>l</orig><reg>L</reg></choice>e lendemain
+               <lb/>ils ont voulu revenir&vir; ils n'ont pas pu&pt; <choice><orig>n</orig><reg>N</reg></choice>os
                <lb/>soldats ont eu descendu <choice><orig>2</orig><reg>deux</reg></choice> et les ont <choice><orig>obligé</orig><reg>obligés</reg></choice>
                <lb/>&a; faire demi tour&pt; <choice><orig>3</orig><reg>Trois</reg></choice> jours avant il y <supplied reason="omitted">en</supplied> a eu
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres de <choice><orig>descendu</orig><reg>descendus</reg></choice> dans nos lignes&vir; ce
@@ -107,23 +116,23 @@
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>Mais c'est bizarre&vir; &a; chaque fois que<del rend="overline">s</del> ces <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice>
                <lb/>boches viennent nous rendre visite nous ne
-               <lb/>sommes jamais l&a;&pt; <hi rend="capitalize">n</hi>ous somme toujours en mer
+               <lb/>sommes jamais l&a;&pt; <choice><orig>n</orig><reg>N</reg></choice>ous somme toujours en mer
                <lb/>et heureusement pour nous car leur dernier
                <lb/>raid qu'ils ont fait&vir; ils ont juste <choice><orig>lancer</orig><reg>lancé</reg></choice> des
                <lb/>bombes &a; l'endroit o&ù; nous allons mouiller
                <lb/>quand nous sommes de repos<pc type="surplus">.</pc> et surement que
                <lb/>si nous avions &é;t&é; <choice><orig>mouille</orig><reg>mouillés</reg></choice>&vir; il y aurait eu
                <lb/>plusieurs tués &a; mon bord&vir; peut &ê;tre
-               <lb/>moi le premier&pt; <hi rend="capitalize">m</hi>ais en tous les cas&vir; nous
-               <lb/>l'avons toujours <choice><orig>épargner</orig><reg>épargné</reg></choice><pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs rien
-               <lb/>de nouveau<pc>.</pc> <hi rend="capitalize">p</hi>our la commission que j'ai &a; faire
+               <lb/>moi le premier&pt; <choice><orig>m</orig><reg>M</reg></choice>ais en tous les cas&vir; nous
+               <lb/>l'avons toujours <choice><orig>épargner</orig><reg>épargné</reg></choice><pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs rien
+               <lb/>de nouveau<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>our la commission que j'ai &a; faire
                <lb/>pour vos deux neveux&vir; je ne pourrai la 
                <lb/>faire que dans une huitaine de jours
                <lb/>et je ferai tout mon possible pour les trouver&pt;
             </p>
             <closer>
                <salute>
-                  <lb/><hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
+                  <lb/><choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
                <signed>
                   <persName ref="#Horel" xml:id="Horel_03041916">A<lb/> Horel</persName> 
@@ -133,7 +142,7 @@
       </body>
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

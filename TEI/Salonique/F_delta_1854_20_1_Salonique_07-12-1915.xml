@@ -26,28 +26,35 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName>Salonique,</placeName>
                <date when="1915-12-07">le 7 décembre 1915</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
-               <placeName ref="#Sanary">Hôtel de Bains, Sanary sur Mer</placeName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-11-30">30 novembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-11-30">30 novembre 1915</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-14">14 décembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName><date when="1915-12-14">14 décembre 1915</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -81,18 +88,18 @@
                <lb/>en bonne santé et je désire qu'&a; l'arrivée de mes présentes cartes
                <lb/>que vous vous trouviez de même ainsi que votre jeune demoiselle&pt;
                <lb/>Par ici depuis environ <choice><orig>8</orig><reg>huit</reg></choice> jours il se fait <choice><orig>journelement</orig><reg>journellement</reg></choice> des
-               <lb/>quêtes &a; bord des batiments <hi rend="minimize">F</hi>rançais&vir; <hi rend="minimize">A</hi>nglais et <hi rend="minimize">R</hi>usse
-               <lb/>pour secourir ces malheureux refugiés <hi rend="minimize">S</hi>erbes qui sont
+               <lb/>quêtes &a; bord des batiments <choice><orig>F</orig><reg>f</reg></choice>rançais&vir; <choice><orig>A</orig><reg>a</reg></choice>nglais et <choice><orig>R</orig><reg>r</reg></choice>usse
+               <lb/>pour secourir ces malheureux refugiés <choice><orig>S</orig><reg>s</reg></choice>erbes qui sont
                <lb/>ici &a; <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1"/><pc>.</pc> Le bateau
-               <lb/><hi rend="minimize">R</hi>usse L'<name type="navire" ref="#Askold" xml:id="Askold_07121915"><choice><orig>AsKool</orig><reg>Askold</reg></choice></name><pc>,</pc> sa quête a produit  1200<pc type="surplus">,</pc><unclear><hi rend="super">&#162;</hi></unclear>&pt; <hi rend="capitalize">m</hi>oi ainsi
+               <lb/><choice><orig>R</orig><reg>r</reg></choice>usse L'<name type="navire" ref="#Askold" xml:id="Askold_07121915"><choice><orig>AsKool</orig><reg>Askold</reg></choice></name><pc>,</pc> sa quête a produit  1200<pc type="surplus">,</pc><unclear><hi rend="super">&#162;</hi></unclear>&pt; <choice><orig>m</orig><reg>M</reg></choice>oi ainsi
                <lb/>que mes camarades qui mangent &a; ma table&vir; nous avons
                <lb/>&é;té trouver le commandant en chef pour en faire une de
-               <lb/>quête&pt; <hi rend="capitalize">i</hi>l nous a <choice><orig>accorder</orig><reg>accordé</reg></choice> toute satisfaction&vir; il a même
+               <lb/>quête&pt; <choice><orig>i</orig><reg>I</reg></choice>l nous a <choice><orig>accorder</orig><reg>accordé</reg></choice> toute satisfaction&vir; il a même
                <lb/>trouvé que c'&é;tait très gentil de notre part&vir; pour nous
-               <lb/>encourager il a mis 2ƒ<hi rend="super">&#162;</hi>&pt; <hi rend="capitalize">n</hi>ous sommes cinq qui mangeont
+               <lb/>encourager il a mis 2ƒ<hi rend="super">&#162;</hi>&pt; <choice><orig>n</orig><reg>N</reg></choice>ous sommes cinq qui mangeont
                <lb/>&a; la même table et bien pour encourager nos camarades&vir;
                <lb/>nous avons mis chacun 5<pc type="surplus">.</pc><hi rend="super">&#162;</hi> ce qui fait 2ƒ<pc type="surplus">.</pc><hi rend="super">&#162;</hi> &a; nous <choice><orig>5</orig><reg>cinq</reg></choice><choice><orig><pc>.</pc></orig><reg>,</reg></choice>
-               <lb/>c'est un joli commencement<pc>.</pc> <hi rend="capitalize">&a;</hi> la prochaine correspondance
+               <lb/>c'est un joli commencement<pc>.</pc> <choice><orig>a</orig><reg>À</reg></choice> la prochaine correspondance
                <lb/>que je vous enverrai comtesse&vir; je vous ferai savoir
                <lb/>le résultat de notre quête&vir; &a; quel total elle <choice><sic>a</sic><corr>est</corr></choice> montée&pt;               
             </p>
@@ -117,18 +124,18 @@
                <lb/>ce pays de <placeName ref="#Salonique">Salonique</placeName> o&ù; nous voyons <supplied reason="omitted">ne</supplied> plus le soleil voil&a;
                <lb/>au moins <choice><orig>15</orig><reg>quinze</reg></choice> jours par les temps humides qu'il fait&vir;
                <lb/>puisqu'il nous est impossible de pouvoir faire sêcher
-               <lb/>notre linge de corps et ce temps n'est pas encore fini<pc>.</pc> <hi rend="capitalize">e</hi>n
+               <lb/>notre linge de corps et ce temps n'est pas encore fini<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>n
                <lb/>tous les cas si c'est vrai que nous y allons&vir; je ferai
                <lb/>parvenir ma nouvelle adresse la prochaine fois que
-               <lb/>je vous &é;crirai<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs rien de nouveau&vir; c'est &a;
-               <lb/>peu pr&è;s stationnaire sur le front <hi rend="minimize">S</hi>erbe<pc>.</pc> <hi rend="capitalize">i</hi>l est temps
-               <lb/>que les <hi rend="minimize">R</hi>usses se pressent &a; envoyer leurs <choice><orig>40000 0</orig><reg>quatre cent mille</reg></choice> hommes
-               <lb/>de troupes au secours des <hi rend="minimize">S</hi>erbes car ils commencent &a;
+               <lb/>je vous &é;crirai<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs rien de nouveau&vir; c'est &a;
+               <lb/>peu pr&è;s stationnaire sur le front <choice><orig>S</orig><reg>s</reg></choice>erbe<pc>.</pc> <choice><orig>i</orig><reg>I</reg></choice>l est temps
+               <lb/>que les <choice><orig>R</orig><reg>r</reg></choice>usses se pressent &a; envoyer leurs <choice><orig>40000 0</orig><reg>quatre cent mille</reg></choice> hommes
+               <lb/>de troupes au secours des <choice><orig>S</orig><reg>s</reg></choice>erbes car ils commencent &a;
                <lb/>&ê;tre bougrement épuisés les malheureux<pc>.</pc> 
             </p>
             <closer>
                <salute>
-                  <hi rend="capitalize">r</hi>ien autre
+                  <choice><orig>r</orig><reg>R</reg></choice>ien autre
                   <lb/>chose &a; vous dire pour l'instant&vir; un petit ami qui vous 
                   <lb/><choice><orig>envoi</orig><reg>envoie</reg></choice> ces meilleurs souvenirs de <placeName ref="#Salonique"></placeName>Salonique<pc>.</pc>
                </salute>
@@ -136,7 +143,7 @@
             </closer>
             <postscript n="1">
                <p>
-                  <lb/>Je crois que cette maudite <placeName ref="#Grece" xml:id="Grece_07121915"><hi rend="capitalize">g</hi>rèce</placeName> ne m'inspire guère
+                  <lb/>Je crois que cette maudite <placeName ref="#Grece" xml:id="Grece_07121915"><choice><orig>g</orig><reg>G</reg></choice>rèce</placeName> ne m'inspire guère
                   <lb/>confiance&vir; c'est une neutralité <choice><orig>ippocrite</orig><reg>hypocrite</reg></choice>&pt;
                </p>
             </postscript>
@@ -147,18 +154,18 @@
                <p>
                   <add type="numbering" n="3" rend="center"><pc>.</pc>3<pc>.</pc></add>
                   <lb/>Je viens de recevoir votre lettre &a; l'instant&vir; <choice><orig>2</orig><reg>deux</reg></choice> minutes <w rend="aggl"><choice><orig>plu</orig><reg>plus</reg></choice></w><w>tard</w> je
-                  <lb/>fermais la lettre qui vous était destinée&pt; <hi rend="capitalize">j</hi>e vous <choice><orig>envoi</orig><reg>envoie</reg></choice> une
+                  <lb/>fermais la lettre qui vous était destinée&pt; <choice><orig>j</orig><reg>J</reg></choice>e vous <choice><orig>envoi</orig><reg>envoie</reg></choice> une
                   <lb/>carte lettre pour vous faire réponse &a; votre lettre<pc>.</pc> Je vous
                   <lb/>remercie beaucoup comtesse de vous voir vous occuper
-                  <lb/>de mon pauvre <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_07121915">frère</rs><pc>.</pc> <hi rend="capitalize">d</hi>e la part du président de la République&vir; 
-                  <lb/>il a eu <choice><orig>1</orig><reg>un</reg></choice> an de grâce<pc>.</pc> <hi rend="capitalize">m</hi>a tante a reçu réponse de la lettre
+                  <lb/>de mon pauvre <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_07121915">frère</rs><pc>.</pc> <choice><orig>d</orig><reg>D</reg></choice>e la part du président de la République&vir; 
+                  <lb/>il a eu <choice><orig>1</orig><reg>un</reg></choice> an de grâce<pc>.</pc> <choice><orig>m</orig><reg>M</reg></choice>a tante a reçu réponse de la lettre
                   <lb/>qu'elle avait remise en main propre &a; M<hi rend="super">me</hi> La Présidente&vir;
                   <lb/>en lui disant que M<hi rend="super">ieur</hi> <persName ref="#Poincare" xml:id="Poincare_07121915">Poincaré</persName> faisait 1 an de gr<choice><orig>a</orig><reg>â</reg></choice>ce <del rend="overline">un</del>
-                  <lb/>&a; son neveu<pc>.</pc> <hi rend="capitalize">q</hi>uand j'ai reçu cette lettre ça m'a fait un
+                  <lb/>&a; son neveu<pc>.</pc> <choice><orig>q</orig><reg>Q</reg></choice>uand j'ai reçu cette lettre ça m'a fait un
                   <lb/>plaisir immense<pc>.</pc> Vous voyez comme ils sont cruels dans
                   <lb/>cette prison&vir; il lui est arrivé <choice><orig>un avari</orig><reg>une avarie</reg></choice> &a; sa machine car
                   <lb/>il conduit une machine &a; l'imprimerie&vir; on lui fait
-                  <lb/><choice><orig>payé</orig><reg>payer</reg></choice> 20<hi rend="super">&#162;</hi><pc>.</pc> <hi rend="capitalize">m</hi>oi quand j'ai vu cela&vir; voyant qu'il était
+                  <lb/><choice><orig>payé</orig><reg>payer</reg></choice> 20<hi rend="super">&#162;</hi><pc>.</pc> <choice><orig>m</orig><reg>M</reg></choice>oi quand j'ai vu cela&vir; voyant qu'il était
                   <lb/>embarassé pour les payer&vir; je lui ai envoyé un mandat
                   <lb/>de 20<hi rend="super">&#162;</hi> immédiatement&vir; <choice><orig>tout</orig><reg>tous</reg></choice> les malheurs <choice><orig>possible</orig><reg>possibles</reg></choice> lui
                </p>
@@ -169,13 +176,13 @@
             <postscript n="3">
                <p>
                   <add type="numbering" n="4" rend="center">4</add>
-                  <lb/><choice><orig>arrive</orig><reg>arrivent</reg></choice> &a; ce pauvre bougre<pc>.</pc> <hi rend="capitalize">e</hi>nfin&vir; je m'en vais toujours &é;crire &a;
-                  <lb/>M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_07121915"><hi rend="capitalize">g</hi> Locke</persName> lui expliquer son cas et en même temps je lui
+                  <lb/><choice><orig>arrive</orig><reg>arrivent</reg></choice> &a; ce pauvre bougre<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; je m'en vais toujours &é;crire &a;
+                  <lb/>M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_07121915"><choice><orig>g</orig><reg>G</reg></choice> Locke</persName> lui expliquer son cas et en même temps je lui
                   <lb/>ferai parvenir mes &é;tats de service<pc>.</pc> 
                </p>
                <closer>
                   <salute>
-                     <hi rend="capitalize">r</hi>ien autre chose de
+                     <choice><orig>r</orig><reg>R</reg></choice>ien autre chose de
                      <lb/>nouveau &a; vous annoncer<pc>.</pc> Recevez de votre petit quartier
                      <lb/>maitre ces meilleurs amitiés<pc>.</pc> meilleure santé &a; votre fille
                      <lb/>et bon voyage pour venir dans le midi&vir;
@@ -184,12 +191,14 @@
                </closer>
             </postscript>
          </div>
-         <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_133.jpg ../../FACS/BDIC_FD_1854_20_1_134.jpg">
+         <div type="enveloppe">
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_133.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae"/>
             <p>
-               <address place="envelope" type="addressee">
+               <address place="envelope" type="deliveredTo">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
-                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_07121915">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Sanary" xml:id="Sanary_07121915">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></addrLine>                  
                   <addrLine><placeName ref="#Var" xml:id="Var_07121915">Var</placeName></addrLine>                  
                   <addrLine><placeName ref="#France" xml:id="France_07121915">France</placeName></addrLine>
                </address>
@@ -197,10 +206,11 @@
                   <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
                </stamp>
             </p>               
-            <pb/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_134.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae"/>
             <p>
                envoi de 
-               <address type="sender" place="envelope">
+               <address type="sentBy" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                     
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_07121915">Henri IV</name></addrLine>                  
                   <addrLine><placeName ref="#Dardanelles" xml:id="Dardanelles_07121915">aux Dardanelles</placeName></addrLine>
@@ -223,7 +233,7 @@
             </note>                                                         
          </div>         
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

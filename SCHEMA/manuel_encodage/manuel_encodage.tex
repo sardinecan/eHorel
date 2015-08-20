@@ -1,0 +1,1067 @@
+\documentclass[18pt,a4paper,oneside]{book} % ou article, memoir, report, etc.
+
+%usepackage permet d'utiliser un module complémentaire.
+
+% Marges, retraits et espacement
+\usepackage[margin=2.5cm]{geometry}
+%espacement des lignes
+\usepackage{setspace}
+\onehalfspacing
+\setlength\parindent{1cm}
+\usepackage{float}
+
+%Le package Babel permet de gérer différentes normes linguistiques et typographiques
+\usepackage[english,italian,french]{babel}
+
+
+%Nouvelle syntaxe ici: une commande avec une option entre []
+\usepackage[utf8]{inputenc}
+
+%Gérer l'encodage des caractères en sortie
+\usepackage[T1]{fontenc}
+
+%Changer la fonte de caractère
+\usepackage{lmodern}
+%\usepackage{charter}
+%Pour les maniaques du Times \usepackage{txfonts}
+%Palatino \usepackage{mathpazo}
+
+%Métadonnées du document
+%Auteur
+%\author{Josselin Morvan}
+%\title{Édition électronique de la Correspondance d'Armand Horel, présentation}
+%La commande date est optionnelle
+%\date{2 janvier 1950}
+%\date{Version du \today}
+
+
+%Écrire les mots inconnus du dictionnaire pour la césure/l'hyphénation
+%\hyphenation{Ajou-t-ons}
+
+
+%Autres modules complémentaires
+\usepackage{lettrine}
+\usepackage[pdftex]{graphicx}
+
+%pour le mode paysage je dois utiliser deux packages
+\usepackage{lscape}%pour le mode paysage
+\usepackage{pdflscape}%pour l'indiquer dans les métadonnées du pdf.
+
+%pour le dessin
+\usepackage{tikz}%pour le dessin
+\usepackage{tikz-qtree}%pour les arbres 
+
+\usepackage{caption}%pour ne pas numéroter les figures (on ajoute une étoile après caption)
+
+%pour créer un Index
+\usepackage{makeidx}
+%pour activer la création de l'index.
+\makeindex 
+
+%Appeller le package pour les bibliographies
+%\usepackage[backend=biber, sorting=nyt, style=inha]{biblatex}
+%appel de la ressource bibliographique.
+%\addbibresource{•}
+%pour les guillemets
+\usepackage[babel]{csquotes}
+\usepackage[absolute]{textpos}%permet de placer des images dans la page de titre.
+\usepackage{listingsutf8}
+
+\usepackage{color}
+
+\lstset{
+  basicstyle=\ttfamily,
+  backgroundcolor=\color{fondcode},
+  numbers=left,
+  columns=fullflexible,
+  showstringspaces=false,
+  breaklines        = true,
+  breakatwhitespace = true,
+  %breakindent       = 2ex,
+  escapechar        = *,
+  commentstyle=\color{gray}\upshape
+}
+
+\definecolor{maroon}{rgb}{0.5,0,0}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\definecolor{fondcode}{rgb}{0.95,0.95,0.95}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily,
+  morestring=[s]{"}{"},
+  morecomment=[s]{?}{?},
+  morecomment=[s]{!--}{--},
+  commentstyle=\color{darkgreen},
+  moredelim=[s][\color{black}]{>}{<},
+  moredelim=[s][\color{red}]{\ }{=},
+  stringstyle=\color{blue},
+  identifierstyle=\color{maroon}
+}
+\definecolor{lightgrey}{rgb}{0.9,0.9,0.9}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+ 
+
+\begin{document}
+
+	\begin{center}
+	
+		\begin{Huge}
+			Manuel d'encodage XML-TEI
+		\end{Huge}
+
+	\bigskip 
+
+		\begin{huge}
+			Édition électronique de correspondance
+		\end{huge}
+
+	\bigskip 
+		\begin{normalsize}
+			\bigskip 
+			Josselin Morvan - jeudi 18 juin 2015
+		\end{normalsize}
+	\end{center}
+
+%\begin{figure}[!b]
+%\includegraphics[scale=0.1]{images/logo_bdic.jpeg} 
+%\includegraphics[scale=1]{images/logo_cc.png} 
+%\end{figure}
+
+\part{Principes généraux du langage XML}
+
+\chapter{eXtensible(1) Markup Language(2)}
+
+\vspace*{\stretch{1}}
+\begin{enumerate}
+\item X : \textit{eXtensible}.
+\item ML : \textit{markup language} (Langage à balise)
+\end{enumerate}
+\vspace*{\stretch{1}}
+
+
+\section{XML comme langage de balisage}
+\bigskip 
+Les balises ont un rôle syntaxique, permettant de délimiter et de localiser une séquence dans une chaine de caractères.
+\bigskip 
+
+
+Exemple : Ici j'ai du texte en \textbf{gras} et ici en \textit{italique}
+\begin{itemize}
+\item Principe :
+
+Ici j'ai du texte en /débutGras \textbf{gras} /finGras et ici en /débutItalique \textit{italique} /finItalique
+
+\item HTML :
+\lstset{language=HTML}
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\EUR}}1 {£}{{\pounds}}1
+}
+\begin{lstlisting}
+Ici aussi c'est en <b>gras</b> et là en <i>italique</i>.
+\end{lstlisting}
+\end{itemize}
+\bigskip 
+
+XML permet de distinguer la définition sémantique des informations et leur mise en forme.
+\lstset{language=XML}
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\EUR}}1 {£}{{\pounds}}1
+}
+\begin{lstlisting}
+<!--Deux solutions pour un encodage XML:-->
+
+<!--Prise en compte de l'apparence : a priori est en italique-->
+On emploie <italique>a priori</italique> les italiques pour les locutions et termes étrangers
+
+
+<!--Prise en compte du semantisme de l'information : a priori est une locution etrangere-->
+On emploie <locutionEtrangere>a priori</locutionEtrangere> les italiques pour les locutions et termes étrangers
+\end{lstlisting}
+\vspace*{\stretch{1}}
+
+
+
+\section{Un langage à balise structuré}
+
+Un document XML respecte une structure hiérarchique formant une arborescence.
+
+
+Ce qui définie peut être le mieux cette structure ce sont les \textit{Matriochkas}.
+
+\begin{center}
+\begin{figure}[H]
+\begin{tikzpicture}
+\Tree[.{Élément racine (unique)} [.{Élément A} {Sous élément A} {Sous élément AA} ] [.{Élément B} ] ]%faire attention aux espaces importants !!!!
+\end{tikzpicture}
+\end{figure}
+\end{center}
+\bigskip 
+
+Cette structure implique que les éléments ne peuvent pas s'entrecroiser.
+
+\lstset{language=XML}
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\EUR}}1 {£}{{\pounds}}1
+}
+\begin{lstlisting}
+<!--Bien formé-->
+<donateur><personne>Louise</personne> et <personne>Henri Leblanc</personne></donateur>
+<!--Mal formé-->
+<donateur><personne>Louise et <personne></personne>Henri Leblanc</donateur></personne>
+\end{lstlisting}
+
+\section{Avantages et inconvénients d'un langage sémantique et structuré}
+\vspace*{\stretch{1}}
+
+
+ Avantages
+\bigskip 
+\begin{itemize}
+\item La structure sémantique et hiérarchique est compréhensible par les machines.
+
+\item Contenu $\neq$ représentation. Cette dernière peut être gérée à part et est configurable à volonté.
+
+\item Utilisation d'un texte comme base de données. 
+\end{itemize}
+\bigskip 
+
+Inconvénients
+\bigskip 
+\begin{itemize}
+\item Structure parfois lourde
+\end{itemize}
+
+\vspace*{\stretch{1}}
+
+
+\section{Un langage de balisage eXtensible ?}
+\vspace*{\stretch{1}}
+
+\begin{itemize}
+\item XML est un métalangage : il permet de créer des langages avec leur propre grammaire (ex : EAD - TEI - XHTML).
+\item XML ne propose donc pas un jeu d'élément prédéfini, mais un ensemble de règles sur ce que doit être un document bien formé et valide.
+\end{itemize}
+
+\chapter{Composition d'un document XML}
+
+\begin{itemize}
+\item Les éléments : Structures de base d'un document XML. Ils sont délimités par des balises de début et des balises de fin. Tout ce qui se trouve entre ces deux balises représente le contenu
+\lstset{language=XML}
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\EUR}}1 {£}{{\pounds}}1
+}
+
+\begin{lstlisting}
+<personne>Henri IV</personne>
+<!--La balise de début commence par un "<" et la balise de fin par "</", on trouve ensuite le nom de l'élément enfin, toutes deux se terminent par un ">"-->
+<!--Le nom des éléments est sensible à* *la casse-->
+<pb/>
+<!--Il existe des éléments vides, c'est à * *dire sans contenu. Elle commence alors de la même manière par un "<" mais se termine par "/>"-->
+\end{lstlisting}
+
+\item Les attributs : Ce sont des paire "nom-valeur" associées à la balise de début d'un élément. Ils apportent généralement une information complémentaire pour l'encodeur ou sur le contenu de l'élément.
+
+\begin{lstlisting}
+<element attribut="valeur">mon contenu</element>
+<!--Le nom de l'attribut est séparé de la valeur par un signe "=" et la valeur doit être contenu dans entre des apostrophes ou des guillemets-->
+<personne naissance="1553-12-13" mort="1610-05-14">Henri IV</personne>
+<!--Un élément ne peut avoir plus d'un attribut avec un nom donné-->
+<!--Il seront maintenant écrits sous la forme : attribut="valeur" ou @attribut-->
+\end{lstlisting}
+\item Des entités : substituts pour des séquences d'information
+
+\begin{lstlisting}
+<bonbon>tic &amp; tac</bonbon> <!--L'esperluette est un caractère réservé-->
+\end{lstlisting}
+\item Des instructions de traitements : applications extérieures
+
+\begin{lstlisting}
+<?xml-stylesheet type="text/css" href="style.css"?>
+\end{lstlisting}
+\item Des commentaires
+\begin{lstlisting}
+<!--Les commentaires sont des notes dans le code-->
+\end{lstlisting}
+\item Des sections CDATA : Contenu textuel non parsé
+\begin{lstlisting}
+<![CDATA[#Ici je peux mettre toutes les esperluettes que je veux &&&&]]>
+\end{lstlisting}
+\item PCDATA : contenu textuel balisé. 
+\end{itemize}
+
+\part{L'encodage en XML-TEI}
+\chapter{Introduction}
+
+L'aspect généraliste de la TEI a impliqué sa personnalisation à fin de l'adapter à note projet d'édition de correspondance. Ce modèle d'édition, est basé sur les recommandations de la version P5 de la TEI. 
+
+Si dans l'ensemble la TEI offre les éléments nécessaire à l'encodage de correspondance, certains éléments ont tout de même nécessité une personnalisation plus poussée afin de répondre aux spécificités liées à l'encodage de correspondance, notamment dans le traitement des adresses. Plutôt que de créer un élément spécifique, dans la mesure ou l'élément <address> est déjà existant, celui-ci peut maintenant être précisé avec les attributs @type et @place non prévus dans les recommandations de la \textit{Text Encoding Initiative}.
+
+\chapter{Principe généraux}
+%todo
+\chapter{Encodage de correspondance et XML-TEI}
+
+La TEI a été conçue à l'origine pour le balisage d'œuvres littéraires classiques comme l'\textit{Énéide}. Son intérêt réside en ce qu'elle est conçue pour l'analyse littéraire des textes plus que pour une lecture occasionnelle. En revanche elle s'accommode plus difficilement d'une collection de petits textes plus ou moins autonomes, comme un corpus de correspondance, qui doivent être reliés entre eux afin d'offrir les meilleures conditions de lecture et de compréhension au lecteur. 
+
+La TEI, dans sa version P5, prévoit la possibilité de réunir un ensemble de texte au sein d'un \textbf{<teiCorpus} subdivisé en plus petits groupes partageant un certain nombre de métadonnées communes. Toutefois si les différents éléments formant une correspondance peuvent partager certaine données, d'autres, parce que trop spécifique à une lettre, empêchent un rapprochement trop poussé.
+
+Si une sortie papier peut s'accommoder d'un \textbf{<teicorpus>} car elle ne n'offre qu'un axe de lecture déterminé, en revanche une publication web souhaitant offrir différent point d'entrée dans le texte ne peut se satisfaire d'une gestion gestion groupée et nécessite un traitement "à la pièce".
+
+\chapter{L'en-tête TEI : <teiHeader>} 
+
+Tout texte encodé en TEI comporte un élément <teiHeader>\footnote{Cet élément n'a pas été personnalisé dans la mesure où il s'agit essentiellement de métadonnées et que chaque projet d'édition peut avoir besoin de répondre à des besoins spécifique de ce point de vue.}. Il s'agit de l'en-tête du document contenant les informations (métadonnées) permettant son identification. il se subdivise ainsi : 
+\bigskip 
+
+\begin{lstlisting}
+<teiHeader>
+  <fileDesc>(obligatoire) description bibliographique</fileDesc>
+  <encodingDesc> description des normes d'encodage</encodingDesc>
+  <profileDesc>  description des aspects non bibliographiques</profileDesc>
+  <revisionDesc> historique des révisions du fichier numérique</revisionDesc>
+</teiHeader>
+\end{lstlisting}
+\bigskip 
+Notons tout de même que tous les éléments du \textbf{<teiHeader>} n'ont pas vocation à être remplis. Nous nous bornerons donc à la description des éléments principaux présentant un intérêt général pour l'édition de correspondance. Pour plus d'information quant aux autres éléments disponibles, voir la documentation générale du projet contenant la description de l'ensemble des éléments retenue lors de la réalisation de ce modèle.
+
+\section{<fileDesc>}
+
+Cet élément de description bibliographique.
+
+
+\subsection{<titleStmt>}
+
+Cet élément se réfère à la déclaration du titre, il est obligatoire. On y trouve les éléments suivants : 
+
+	\begin{description}
+	\item [<title> : ](répétable) Il désigne le/les titre(s) donnés à l'édition électronique.
+	\item [<respStmt> : ](statement of responsibility), cet élément se réfère aux mentions de responsabilité concernant l'édition électronique, les sous-éléments <resp> et <name> peuvent par exemple renvoyer vers la description du rôle d'un des responsable de l'édition et à son nom.
+	\item [<author> : ]nom de l'auteur
+	\item [<editor> :] mention de responsabilité secondaire
+	\end{description}
+\bigskip 
+
+exemple de \textbf{<titleStmt>}
+\begin{lstlisting}
+<titleStmt xml:id="titleStmt">
+  <title n="1">Don de Madame <persName ref="#Comtesse_Forest">la Comtesse de la Forest</persName></title>
+  <title n="2">Souvenir de soldats</title>
+  <title n="3">Cartes postales illustrées</title>
+  <author>Armand Horel</author>            
+  <respStmt>
+    <resp>Transcription et encodage XML/TEI : </resp>
+    <name xml:id="J_M">Josselin Morvan (étudiant à l'École des Chartes)</name>
+  </respStmt>
+  <respStmt>
+    <resp>Sous la direction de </resp>
+    <name xml:id="F_J_S">Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibibliothèque de Documentation Internationale Contemporaine</orgName>)</name>
+  </respStmt>
+</titleStmt>
+\end{lstlisting}
+\subsection{<editionStmt>}
+
+la balise \textit{edition statement} (optionnelle) renvoie aux mentions d'édition. 
+le sous-éléments \textbf{<edition>} permet de décrire les spécificités de l'édition d'un texte.
+
+\subsection{<publicationStmt>}
+
+L'élément \textbf{<publicationStmt>} (obligatoire) regroupe les informations relatives à la publication et à la diffusion d'un texte.
+\bigskip 
+\begin{description}
+\item [<authority> : ]nom de la personne ou de l'organisme responsable de l'édition.
+\item [<address> : ]adresse du responsable de l'édition
+\item [<publisher> : ]responsable de publication.
+\item [<availability> : ]licence.  
+\end{description}
+
+\subsection{<noteStmt>}
+
+L'élément \textbf{<noteStmt>} (optionnel) permet d'ajouter des notes sur l'édition.
+
+\subsection{<sourceDesc>}
+
+\textbf{<sourceDesc>} (obligatoire), il consigne toutes les informations sur la source originale qui peuvent être détaillées à l'intérieur d'un simple balise \textbf{<p>}, ou bien très détaillé avec l'utilisation d'un élément \textbf{<msDesc>}.
+\subsubsection{<msDesc>}
+
+\textit{manuscript description}, cette balise est à l'origine dédiée à la description des manuscrits anciens. Il est admis que son utilisation peut être étendue à d'autres types de texte. Cet élément peut contenir les éléments de description suivants :
+
+\paragraph{<msIdentifier> :}
+
+information d'identification de la souce (lieu de conservation, identifiant\dots
+\bigskip 
+
+exemple de \textbf{msIdentifier} :
+\begin{lstlisting}
+<msIdentifier xml:id="msIdentifier">
+  <country>France</country>
+  <settlement>Nanterre</settlement>
+  <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+  <idno type="cote">F delta 1854/20</idno>
+</msIdentifier>
+\end{lstlisting}
+
+\paragraph{<msContent> :}
+
+cet élément est relatif au contenu intellectuel du texte édité, particulièrement intéressant dans le cadre d'un manuscrit, il peut aussi être décrit à l'aide d'un élément \textbf{<p>}
+
+\paragraph{<physDesc> :}
+
+Description physique du document, cette balise peut contenir deux sous-éléments principaux,\textbf{<objectDesc>} et \textbf{<bindingDesc>}, \textit{a priori} seul le premier est intéressant dans le cas d'une édition de correspondance, car il est relatif au format et au support, le second est quant à lui attaché à la description des reliures.
+
+\paragraph{<history> :}
+
+Cet élément permet de retracer l'historique du document. 
+
+
+\section{<encodingDesc>}
+
+Cet élément, relatif a l'encodage précise les principes éditoriaux qui ont permis la
+transcription du texte. il peut contenir : 
+
+\begin{description}
+\item [<projectDesc> : ]description succincte du projet électronique.
+\item[<editorialDecl> : ]pratiques éditoriales de l'encodage. Cet élément peut contenir entre autres :
+\begin{description}
+\item[<correction> : ]Correction des erreurs détectées dans la source.
+\item[<hyphenation> : ]Procédure à suivre pour la coupure des mot en fin de ligne 
+\item[<normalization> : ]Consigne de transcription, normalisation et régularisation du texte.
+\item[<ponctuation> : ]Règles d'encodage de la ponctuation
+\end{description}
+\end{description}
+
+\section{<profileDesc>}
+
+Cette partie concerne les informations non bibliographiques de description d'un document.
+
+\subsection{<langUsage>}
+l'élément \textbf{<langUsage>} associé à \textbf{<language>} précise la ou les langues utilisées.
+l'identification de la langue peut se faire à l'attribut \textbf{\textit{@ident}} auquel est rattaché le code de la langue (format ISO 639-3)
+\begin{lstlisting}
+<profileDesc>
+  <langUsage xml:id="langUsage">
+    <language ident="frm">Français</language>
+  </langUsage>
+</profileDesc>
+\end{lstlisting}
+
+\subsection{<correspDesc>}
+Cet élément contient la description des actions relatives à un acte de correspondance.  Il s'agit d'un ajout récent de la TEI et est complété par les sous-éléments \textbf{<correspAction>} et \textbf{<correspContext>}
+
+\subsubsection{<correspAction>}
+Cet élément peut contenir le nom de l'expéditeur ou du destinataire  (\textbf{<persName>} ou \textbf{<orgName>}), le lieu d'expédition ou de réception (\textbf{<placeName>}), et la mention de date (\textbf{<date>}) relatifs à un acte d'envoi ou de réception d'une correspondance. Il doit être précisé par l'attribut \textbf{\textit{@type}} dont les valeurs sont les suivantes : 
+\bigskip 
+
+\begin{description}
+\item [forwarded : ]informations concernant la transmission d'un message
+\item [received : ]informations concernant la réception d'un message
+\item [redirected : ]informations concernant la redirection d'un message non lu
+\item [sent : ]informations concernant l'envoi d'un message
+\item [transmitted : ]informations concernant la transmission d'un message, à savoir entre l'envoi et la réception suivante.
+\end{description}
+\bigskip 
+
+exemple de \textbf{<correspAction>}
+\begin{lstlisting}
+<correspAction type="sent">
+  <persName ref="#Horel">Armand Horel</persName>
+  <placeName ref="#Port_Iero">Port Iero</placeName>
+  <date from="1915-10-09" to="1915-11-10"/>
+</correspAction>
+<correspAction type="received">
+  <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>                  
+</correspAction>
+\end{lstlisting}
+
+\subsubsection{<correspContext>}
+
+Cette balise permet de replacer chronologiquement une correspondance dans un échange épistolaire et de lier les envois entre eux.
+La solution retenue est la suivante ; la correspondance suivante et la précédente seront identifié par l'élément \textbf{<ref>} qui "définit une référence vers un autre emplacement". À la différence de l'élément \textbf{<ptr>} (pointeur), la référence peut être "complétée par un texte ou un commentaire". Dans le cas d'une correspondance, nous les complèterons avec les éléments \textbf{<persName>} et \textbf{<placeName>} précisés par les attributs \textbf{\textit{@type}} de valeur "sentBy" ou "deliveredTo" afin d'identifier expéditeur et destinataire, et par l'élément \textbf{<date>}.
+\bigskip 
+
+Exemple de <correspContext>
+\begin{lstlisting}
+<correspContext>
+  <ref type="previous" target="../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.xml"> 
+    <persName type="sentBy" ref="#Horel">Armand Horel</persName> 
+    <persName type="deliveredTo"  ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
+    <placeName type="sent" ref="#Moudros">Moudros</placeName> 
+    <date type="sent" when="1915-09-03">03 septembre 1915</date>
+  </ref>
+  <ref type="next" target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml">
+    <persName type="sentBy" ref="#Horel">Armand Horel</persName> 
+    <persName type="deliveredTo" ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
+    <placeName type="sent" ref="#Mytilene">Mythilene</placeName> 
+    <date type="sent" when="1915-10-06">06 octobre 1915</date>
+  </ref>
+</correspContext>
+\end{lstlisting}
+
+Dans le cadre de l'édition de la correspondance d'Armand Horel il nous est paru intéressant de développer cette re-contextualisation des lettres envoyées en fonction du lieu d'envoi.
+
+Un deuxième élément \textbf{<correspContext>} peut donc être ajouter. il sera complété de la même manière que le précédent à la différence que les élément \textbf{<ref>} comporteront un attribut \textbf{\textit{@type}} de valeur "context".
+
+\subsubsection{<correspDesc> et <teiCorpus>}
+
+Si vous avez décidé d'unifier votre édition au sein d'un \textbf{<teiCorpus>}, 
+% simplifier la gestion du correspDesc. 
+
+\chapter{Le corps de la dépêche <text>}
+
+L'élément \textbf{<text>} contient l'ensemble du texte édité. Il peut être subdivisé en quatre sous-parties : 
+
+\begin{description}
+\item [<front> : ] "(texte préliminaire) contient tout ce qui est au début du document, avant le corps du texte"
+\item [<group> : ] "(groupe) contient un ensemble de textes distincts (ou des groupes de textes de ce type), considérés comme formant une unité, par exemple pour présenter les œuvres complètes d'un auteur, une suite d'essais en prose, un groupe de correspondances liées par un lieu, une date etc."
+\item [<body> : ] "(corps du texte) contient la totalité du corps d'un seul texte simple, à l'exclusion de toute partie pré- ou post-liminaire."
+\item [<back> : ] "(texte annexe) contient tout supplément placé après la partie principale d'un texte : appendice, etc."
+\end{description}
+
+\section{<front>}
+
+Cet élément est optionnel. Il peut contenir la page de titre, des dédicaces, une préface, l'introduction.
+La page de titre pourra être encodé avec l'élément \textbf{<titlePage>} ; pour le reste, aucune balise spécifique n'a été prévue l'introduction pourra donc être encodée de la manière suivante : 
+%todo revoir introduction dans le master.xml faire une page de titre ? 
+\begin{lstlisting}
+<front>
+  <div @type="introduction">
+  	<p>
+  	  Ici le premier paragraphe de mon introduction
+  	</p>
+  	<p>
+  	  Ici le second
+  	</p>
+  	<p>
+  	  ...  	
+  	</p>
+  </div>
+</front>
+\end{lstlisting}
+
+\section{<back>}
+
+L'élément <back> est dévolu aux textes annexes, il contient tout supplément placé après la partie principale d'un texte. 
+Nous y placerons l'index et de glossaire.
+
+\section{Balisage du corps du document.}
+
+\subsection{Introduction}
+
+L'encodage en XML-TEI ne permet pas un affichage direct en HTML, il faut pour cela passer par une feuille de style XSLT.
+
+Le modèle d'encodage proposé par la BDIC a été développé de manière à respecter les sources qui feront l'objet d'une édition électronique. Ainsi, le texte pourra être encodé dans le respect de sa typographie puis normalisé par l'intervention de la TEI. c'est la feuille de style qui permettra ensuite de choisir une version de sortie en appliquant ou non certains choix éditoriaux.
+
+
+\subsection{Le Balisage physique}
+
+Cette section est relative à ma mise en page du document originale. S'agissant de correspondances manuscrites, elles peuvent être rédigées sur plusieurs feuillets délimités par des sauts de page. De même au sein d'un page, les lignes de texte peuvent être identifiées par des passages à la ligne, il peut aussi exister des changement de colonne dans le cas des cartes postales par exemple, enfin le texte peut aussi être mis en valeur.
+
+\subsubsection{Le saut de page <pb/>}
+
+Le changement de feuillet ou le passage du recto au verso doit être encodé par l'utilisation de l'élément \textbf{<pb/>}. Il peut être complété par l'attribut \textit{\textbf{@n}} afin de numéroté les pages. Dans ce cas il faut également penser à en placer un avant le premier feuillet afin que la numérotation soit complète.
+Dans le cas d'un corpus numérisé, les références aux fac-similés peut être faite par l'attribut \textit{\textbf{@facs}}. Enfin si l'encodage porte sur des cartes postales, il est intéressant lorsque la correspondance tient sur plusieurs cartes de typer ce changement avec l'attribut \textit{\textbf{@type}} en lui donnant la valeur "\textit{postcardBreak}"
+\bigskip 
+
+Exemple d'un d'utilisation d'un élément <pb/> dans le cadre d'une édition de cartes postales.
+\begin{lstlisting}
+<pb n="3" facs="
+ http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg
+ /BDIC_FD_1854_20_1_179.jpg
+ http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+ " type="postcardBreak"/>
+<figure>
+ <graphic url="../../FACS/BDIC_FD_1854_20_1_179.jpg"/>
+ <figDesc>
+   <placeName ref="#Toulon">TOULON.</placeName> - Entrée de la nouvelle Caserne de Grignan
+ </figDesc>
+</figure>
+<pb n="4" facs="
+  http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg
+  /BDIC_FD_1854_20_1_180.jpg
+  http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae"/>
+<p>
+  <lb/><add type="numbering" n="3" rend="left"><pc>.</pc>3<pc>.</pc></add>
+  <lb/>J'ai reçu une lettre de mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_23091915">frère</rs> datée
+\end{lstlisting} 
+\subsubsection{Les sauts de ligne <lb/>}
+
+Par convention l'élément \textbf{<lb/>} marque le début d'une nouvelle ligne ; il est donc préférable de la placer avant le texte. Les lignes peuvent être numérotées avec l'attribut \textit{\textbf{@n}}.
+
+\subsubsection{Coupure des mots}
+
+La coupure d'un mot sera aussi matérialisé avec l'élément <lb> mais cette fois-ci précisé par l'attribut \textit{\textbf{@rend}} de valeur "hyphen." Afin de facilité le développement d'un affichage ne tenant pas compte des changement de ligne nous les encoderons ainsi : 
+
+\begin{lstlisting}
+<lb/>je profite pour vous envoyer 
+quel<lb rend=hyphen/>ques petites nouvelles de guerre<pc>.</pc> nous
+<lb/>sommes appareillés pour l'Ile
+<lb/><placeName ref="#Imbros">d'Imbros</placeName> qui se 
+trou-<lb rend="hyphen"/>ve juste à
+\end{lstlisting}
+
+\subsubsection{Les changements de colonnes <cb/>}
+
+l'élément \textbf{<cb/>} (saut de colonne) marque le début d'une nouvelle colonne de texte sur une page multi-colonne. Cette balise est particulièrement utilisé dans le cas de cartes postales. elle s'utilise de la même manière que les deux précédentes.
+
+\subsubsection{La mise en valeur <hi>}
+%todo les valeur de @rend
+L'élément \textbf{<hi>}(mis en évidence), "distingue un mot ou une expression comme graphiquement distincte du texte environnant, sans en donner la raison". Il doit être précisé par l'attribut \textbf{\textit{@rend}}.
+Cette balise et son attribut n'interprète pas le texte contenu, ils précisent sont apparence physique, dans le cadre d'une correspondance manuscrite, il peut s'agir d'une portion de texte soulignée, centrée, ou écrit en lettre capitale. les valeurs de l'attribut \textit{\textbf{@rend}} seront donc, "underline","center","sc".
+Ces informations sont ensuite traitées avec la feuille de style XSLT.
+
+
+\subsection{Segmentation ou balisage Logique}
+
+Le corps du document doit être balisé par l'élément \textbf{<body>}. Toutefois, chaque type de document (correspondance, poème, manuscrit ancien etc. dispose d'une structure qui lui est plus ou moins propre et qui peut être répartie dans des divisions logiques.
+\bigskip 
+
+Une correspondance, réponds généralement d'une "structure diplomatique à la fois simple et flexible" :
+mention de date, apostrophe, paragraphes de texte, formule de courtoisie et signature. Afin d'uniformiser la sortie et de faciliter la lecture, il convient d'identifier ces différentes divisions.  
+
+\subsubsection{La division <div>}
+
+Cette balise correspond à une subdivision du corps du texte édité. Cet élément doit être caractérisé par l'attribut \textit{\textbf{@type}} afin d'identifier au mieux son contenu.
+\bigskip 
+
+Dans le cadre de l'édition des correspondances nous avons retenu deux valeurs pour l'attribut \textit{\textbf{@type}} qui sont "letter" et "enveloppe"
+\bigskip 
+
+exemple : 
+\begin{lstlisting}
+<body>
+  <div type="letter">
+    Ici le corps de ma dépêche.
+  </div>
+  <div type="enveloppe">
+    Ici la transcription des mentions présentes sur l'enveloppe. 
+  </div>
+</body>
+\end{lstlisting}
+
+\subsubsection{Formule d'ouverture <opener>}
+
+L'élément \textbf{<opener>} contient un formule d'ouverture. Pour une correspondance il s'agit généralement des mentions de date et lieu (\textbf{<dateline>} ainsi que de la formule de politesse ou apostrophe \textbf{<salute>}.
+\bigskip 
+
+exemple de <opener>
+\begin{lstlisting}
+<opener>               
+  <dateline>
+    <placeName ref="#Imbros">Imbros</placeName>,
+    <date when="1915-09-23">le 23 7bre 1915</date>
+  </dateline>                
+  <salute>
+    <persName ref="#Comtesse_Forest">Comtesse</persName>
+  </salute>
+</opener>
+\end{lstlisting}
+ 
+\subsubsection{paragraphe <p>}
+
+la balise \textbf{<p>} représente un paragraphe. C'est à l'intérieur de cet élément que l'on placera l'essentiel du texte de la correspondance. Chaque paragraphe dans le texte original doit être placé dans un élément \textbf{<p>}
+
+Il peut être numéroté avec l'attribut \textbf{\textit{@n}} et s'il présente un alinéa, il sera indiqué par l'attribut @rend="indent".
+
+Dans le cadre d'une correspondance tenant sur plusieurs cartes postales, et afin de rendre compte de cette matérialité,  c'est le texte de chaque carte qui sera placé à l'intérieur d'un paragraphe.
+\quotation{Pour rappel, dans le cadre des cartes postale, l'élément \textbf{<pb/>} devra être est précisé par l'attribut \textbf{\textit{@type="postcardBreak"}}}.
+
+\begin{lstlisting}
+<p>
+  <lb/>Un bonjour de <placeName ref="#Port_Iero">Port
+  <lb/>Iéro</placeName> d'un petit ami qui 
+  <lb/>ne vous oubliera jamais.
+</p>
+\end{lstlisting}
+
+\subsubsection{Formule de politesse/fermeture : <closer>}
+
+\textbf{<closer>} permet d'encoder les formules de fin d'une correspondance, de la même manière que pou l'\textbf{<opener>} on peut y trouver, une formule de courtoise (\textbf{<salute>}), une signature (\textbf{<signed>}), mentions de date (\textbf{<dateline>}), une adresse (\textbf{<address>}) etc.
+\bigskip 
+ notons que cet élément est répétable. 
+
+\subsubsection{postscriptum : <postscript>}
+
+\textbf{<postscript>} trouve sa place soit avant soit après l'élément \textbf{<closer>}. Il peut reprendre une structure similaire au corps de la dépêche.
+\bigskip 
+
+exemple de \textbf{<postscript>}
+\begin{lstlisting}
+<postscript>
+  <opener>
+    <salute>Comtesse,</salute>    
+  </opener>
+  <p>
+    je viens de recevoir votre carte
+    ...  
+  </p>
+  <closer>
+    <signed rend="center">A. Horel</signed>
+  <closer>
+</postscript>
+\end{lstlisting}
+
+\subsection{Le balisage éditorial}
+Dans la mesure ou l'édition porte sur des documents qui n'ont jamais été édités, ce balisage fait essentiellement référence aux interventions ajoutées dans le texte par les encodeurs afin d'en améliorer la compréhension et la lisibilité. 
+
+\subsubsection{L'orthographe}
+
+Lors de la transcription du texte, l'encodeur dispose de plusieurs possibilité quant à la gestion d'une orthographe fautive, qui, faut-il le rappeler fait aussi partie de la condition de l'auteur. Le transcripteur peut tout d'abord décider de moderniser cette orthographe, "au fil de l'eau", lors de l'encodage du texte, perdant ainsi toute trace de la graphie originale. A l'inverse, il peut décider de ne rien corriger, ce qui peut poser problème lorsque l'orthographe est particulièrement déficiente. Enfin, la TEI permet, par un jeu de balise, de proposer une lecture actualisée du texte tout en maintenant l'orthographe fautive ou ancienne de l'auteur\footnote{Attention, ces opérations permettent d'améliorer la lisibilité, il ne s'agit en aucun cas de réécrire le texte.}.
+\bigskip 
+
+À cet effet, l'élément \textbf{<choice>} autorise de regrouper des balisages alternatifs (au moins deux) pour certains segments du texte, afin d'actualiser l'orthographe tout en gardant la trace de l'écrit.
+
+\paragraph{Les faute d'orthographe}
+
+Il est possible d'affiner sa correction en fonction des cas de figure. Dans la mesure du possible, il est intéressant de distinguer les fautes d'orthographes récurrentes ou systématiques, de celles plus isolées. 
+\bigskip 
+
+Dans la première éventualité, il peut s'agir par exemple d'un auteur qui confond systématiquement l'infinitif des verbes du premier groupe et leur participe passé ou encore qui utilise le verbe avoir à la place la préposition "à". Il conviendra d'utiliser dans ce cas les éléments \textbf{<orig>}, pour la graphie originale, et \textbf{<reg>} pour la forme corrigée.
+\bigskip 
+
+Concernant les fautes plus éparses, sur le même principe nous utiliserons alors les élément \textbf{<sic>} pour l'orthographe fautive et \textbf{<corr>} pour la correction.%todo vérifier si utilisation seule de <sic> et relire le livre page 55
+\bigskip 
+
+exemple : 
+
+\begin{lstlisting}
+<p>
+  tous ces jours ici il n'a fait que
+  <lb/><choice><orig>tombé</orig><reg>tomber</reg></choice> de la neige.
+  [...]
+  preuve que le
+  <lb/><choice><orig>barhomêtre</orig><reg>baromètre</reg></choice> 
+  est tombé à * * 3 degrés au dessous de zéro.
+</p>
+\end{lstlisting}
+
+\paragraph{Abréviations}
+
+Dans la mesure du possible, les abréviations doivent être développées ; à l'exception des plus courantes et des sigles.
+Il en va de même pour les noms de personnes si elles peuvent être identifiées. 
+\bigskip 
+
+Il convient d'utiliser la balise \textbf{<choice>} complétée par les éléments \textbf{<abbr>}, contenant l'abréviation, et \textbf{<expan>} pour la version développée. Il n'est en revanche pas nécessaire de distinguer les lettres ajoutée pour la résolution de l'abréviation.
+\bigskip 
+
+\paragraph{Les nombres}
+
+S'il est décidé de moderniser l'orthographe il convient de faire de même pour les nombres. Les chiffres doivent être écrite en toutes lettres à quelques exceptions : 
+\begin{description}
+\item [en chiffres arabes : ] les dates, énumérations, degrés, numéros d'ordre etc.
+\item [en chiffres romains : ] les siècles, les numéros dynastiques ou les régimes politiques, les régions militaires etc.
+\end{description}
+\bigskip 
+
+Il convient d'utiliser les mêmes balises \textbf{<reg>} et \textbf{<orig>}.
+
+\paragraph{La ponctuation.}
+
+Lorsque la ponctuation gène la compréhension parce qu'elle est fautive ou tout simplement absente il convient de la corriger. Voici comment procéder :
+\begin{itemize}
+\item Toute marque de ponctuation sera encodée avec l'élément \textbf{<pc>}.
+\item L'établissement d'une ponctuation inexistante devra être signifiée par l'attribut \textbf{\textit{@type}}="supplied".
+\item Les éléments superflus seront aussi précisé par l'attribut \textbf{\textit{@type}} mais de valeur "surplus"
+\item Enfin en cas de mauvaise utilisation d'une marque de ponctuation, il convient utiliser les éléments \textbf{<reg>} et \textbf{<orig>}. 
+\end{itemize}
+
+\paragraph{Rétablissement des Majuscules et minuscules}
+
+Le rétablissement de la ponctuation nécessite bien souvent de rétablir l'utilisation des majuscules et des minuscule lorsque cela est nécessaire. Il en est de même dans le texte, en cas de correction, il faut veiller à rétablir les majuscules pour les débuts de phrase et les noms propres et les minuscules pour les noms communs, à l'exception de noms abstraits ou lorsque l'auteur semble donner un sens ou une valeur particulière à un terme.
+
+
+\paragraph{L'État du texte}
+
+Il s'agit ici de rendre compte de l'état physique d'un texte, en signalant les parties, abîmé, incomplètes, illisibles, ajoutées etc.
+
+\begin{description}
+\item [lecture incertaine : ] il convient de signifier cette incertitude par l'élément \textbf{<unclear>} et dont la raison sera précisé dans la mesure du possible par l'attribut \textbf{\textit{@reason}} (exemple de valeur, illegible (illisible), damage (dommage) etc.
+\item [Les manques : ] toute partie manquante doit être encodée par l'élément \textbf{<gap>} qui peut être complété par le même attribut.
+\item [Les suppressions :] l'élément \textbf{<del>} identifié les parties qui ont été supprimées volontairement soit par l'auteur (une rature par exemple), ou par un tiers. Il peut être précisé avec l'attribut \textbf{\textit{@rend}} et la valeur "overline" lorsqu'il est simplement barré ou "censored" lorsque le texte a été censuré. L'attribut \textit{\textbf{@hand}} permet d'identifier la main responsable de cette suppression lorsqu'il ne s'agit pas de celle de l'auteur et qu'elle peut être identifiée.
+\item [les ajouts : ] Les ajouts de l'auteur ou d'une autre personne seront encodés à la place ou elles se situent dans le texte avec la balise <add>. Elle sera précisée par les attributs \textit{\textbf{@place}},\textbf{\textit{@rend}} et \textbf{\textit{@hand}}. Lorsqu'il s'agit d'une signature ou d'un d'une formule de politesse ajoutée en marge par manque de place, il convient de distinguer plusieurs cas de figure :
+\begin{itemize}
+\item L'ajout est par exemple en marge mais à la fin du texte, il faut alors utiliser la balise \textbf{<closer>} complété de la balise \textbf{<add>}
+\begin{lstlisting}
+<closer>
+  <salute>
+    <add place="margin-right" rend="vertical">
+      un petit ami qui vous envoie ses
+    </add> 
+    <add place="margin-left" rend="vertical">
+      meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>&vir;
+    </add>
+  </salute>
+</closer>
+\end{lstlisting}
+\item la signature sur fait sur un précédent feuillet, il faut alors attribuer à l'élément \textbf{<add>} l'attribut \textbf{\textit{@type}} avec les valeur "closer" ou "signed"
+\begin{lstlisting}
+<add type="closer">
+  <add type="signed" place="margin-right" rend="vertical">                  
+    <persName ref="#Horel" xml:id="Horel_27041916">Armand Horel</persName>               
+  </add>
+  <add place="margin-left" rend="vertical">
+    Bonne santé &a; tous et bonne<lb/> chance
+  </add>                                                              
+</add>
+\end{lstlisting}
+\end{itemize} 
+\end{description}
+
+\paragraph{La restitution}
+
+Lorsqu'il apparait d'un mot a été accidentellement oublié par l'auteur celui-ci peut être restitué avec l'élément <supplied> et la raison identifiée par l'attribut @reason="omitted"
+
+\paragraph{Les notes}
+
+Les notes que l'on souhaite ajouter dans le texte (ou bien pour respecter l'écrit de l'auteur) doivent être encodées ainsi : 
+\begin{itemize}
+\item Au sein de l'élément \textbf{<back>}, il convient de créer une division \textbf{<div>} comportant l'attribut \textit{\textbf{@type}="note"}. Nous y placerons autant d'élément \textbf{<note>} que nécessaire. Ils devront comporter un \textit{\textbf{@xml:id}}\footnote{Attention si le fonds doit être réunie dans un \textbf{<teiCorpus>}, il convient de développer des identifiants uniques pour chaque lettres, il peut par exemple s'agir de la date d'envoi suivie d'un texte générique type "\_note" de manière mieux les identifier.} et l'attribut de numérotation \textit{\textbf{@n}}.
+\item dans le text : à la place ou doit apparaitre la note nous utiliserons un élément <ref> de \textit{\textbf{@type}="note"} faisant et lié à son élément \textbf{<note>} par l'attribut \textit{\textbf{@target}}. Cette balise ne doit pas comporter de contenu. l'attribut \textit{@n} doit être de la même valeur que celui de la note. 
+\end{itemize} 
+\bigskip 
+
+exemple:
+\begin{lstlisting}
+<body>
+  <p>
+    Comtesse<ref type="note" target="#12081915_note1" n="1"/>, 
+    <lb/>je vous souhaite [...]
+  </p>
+</body>
+<back>
+  <div type="note">
+    <note xml:id:"12081915_note1" n="1">
+      Il s'agit de Claude Silve.
+    </note>
+  </div>
+</back>
+\end{lstlisting}
+
+
+\section{La balisage des noms et dates}
+
+Ce balisage permet d'identifier les noms propres et les dates afin de pouvoir les réutiliser par la suite dans un index ou un glossaire.  
+
+\subsection{Noms de personnes : <persNames>}
+
+Cet élément "contient un nom propre ou une expression nominale se référant à une personne, pouvant inclure tout ou partie de ses prénoms, noms de famille, titres honorifiques, noms ajoutés, etc.".
+Afin de le lier à l'index ou au glossaire, cet élément doit comporter l' attribut \textit{@ref} renvoyant à l'\textit{@xml:id} de l'entrée concernée ainsi que, pour la première occurrence de la lettre, un \textit{@xml:id} afin de pouvoir le localiser lors de la sortie HTML.
+\bigskip 
+
+exemple :
+\begin{lstlisting}
+<persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand Horel</persName> 
+\end{lstlisting}
+
+\subsection{Références nominales}
+L'élément \textbf{<persName>} doit être utilisé lorsque le nom de la personne est clairement identifié. Autrement il convient de recourir à l'élément \textbf{<rs>} plus générique, il doit être précisé avec l'attribut \textit{\textbf{@type}="person"} et lié à l'index de la même manière.
+
+\begin{lstlisting}
+<rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis__09101915">mon malheureux  frère</rs>
+\end{lstlisting}
+
+\subsection{Noms de lieux : <placeName>}
+
+Cet élément s'utilise de la même manière que le précédent. 
+\bigskip 
+
+exemple :
+\begin{lstlisting}
+<placeName ref="#Port_Iero" xml:id="Port_Iero_a27-10_b3-11">Port 
+Iéro</placeName> 
+\end{lstlisting}
+
+\subsection{Autres noms propres : <name>}
+
+L'élément \textbf{<name>} est plus générique que les deux balises précédentes. Il permettra d'identifier tous les autres noms propres qui ne correspondent pas à une personne ou un lieux. Il sera en plus précisé par un attribut \textit{\textbf{@type}}.
+\bigskip 
+ 
+exemple : 
+\begin{lstlisting}
+<name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_27041916">Shamrock II</name> 
+\end{lstlisting}
+
+\subsection{Mentions de dates : <date>}
+
+l'élément \textbf{<date>} permet d'encoder les mentions de date de n'importe quelle forme. Des attribut permettent de préciser et d'uniformiser la valeur. 
+
+\begin{description}
+\item [\textit{@when}] permet de standardiser la date sous la forme AAAA, ou si la date est plus précise, AAAA-MM-JJ.
+\item [\textit{@notBefore/@notAfter}] sont utilisés lorsque la date est imprécise. 
+\item [\textit{@cert}] permet de préciser le degré de certitude ; les valeurs sont "high"(forte), "medium"(moyenne) et "low"(basse).
+\end{description}
+
+\section{L'encodage des figures : <figure>}
+
+Lorsqu'un illustration est présente il est intéressant de le signaler par l'utilisation de l'élément \textbf{<figure>}.
+Lorsqu'un facsimilé numérique est disponible, l'élément \textbf{<graphic>} aidé par l'attribut \textit{\textit{@url}} permet de lier l'image au texte.
+Enfin l'élément \textbf{<figDesc>} permet de donner une description de cette image.
+\bigskip 
+
+exemple : 
+\begin{lstlisting}
+<figure>
+  <graphic url="../../FACS/BDIC_FD_1854_20_1_173.jpg"/>
+  <figDesc>
+    Village Molivo 
+  </figDesc>
+</figure>
+\end{lstlisting}
+\bigskip 
+
+Dans le cas de cartes postales la face illustrée sera encodée avec cet élément. 
+\bigskip 
+
+exemple :
+\begin{lstlisting}
+<pb n="3" type="postcardBreak"/>
+<figure>
+  <graphic url="../../FACS/BDIC_FD_1854_20_1_173.jpg"/>
+  <figDesc>
+    Village Molivo
+  </figDesc>
+</figure>
+<pb n="4"/>
+\end{lstlisting}
+
+\chapter{Index et Glossaire}
+
+De manière à ne pas surcharger l'apparat critique, les notes de bas de pages peuvent être limitées par la constitution d'un index-glossaire.
+Toutes les références nominales (ou tout du moins la première occurrence de chaque lettre) doivent être reliées à l'index afin d'être identifiées. Trois index seront réalise si besoin ; un index \textit{nominum} (\textbf{<listPerson>}), un index \textit{locorum}, (\textbf{<listPlace}), et un glossaire (\textbf{<list>} \textit{\textbf{@type="glossaire"}}).
+Chaque sous-élément de ces listes (\textbf{<person>}, \textbf{<place>}, \textbf{<item>} devront être identifiés par un @xml:id, afin de s'y référé lors de l'encodage du texte.
+\bigskip 
+
+\section{Index nominum : <listPerson>}
+
+l'élément \textbf{listPerson} permet la constitution d'un index nominum. Il est composé d'un ensemble de sous-éléments \textbf{<person>}, complété à son tour par des éléments \textbf{<persName>}, \textbf{<birth>} et \textbf{<death>} pour les date de naissance et de mort\footnote{Ces deux éléments s'utilisent de la même manière que l'élément \textbf{<date>}.}, \textbf{<event>}\footnote{contient des données liées à tout type d'évènement significatif dans l'existence d'une personne, d'un lieu ou d'une organisation.} ou \textbf{<state>}\footnote{description d'un statut ou d'une qualité actuels attribués à une personne, un lieu ou une organisation.} et enfin un élément \textbf{<note>} permettant de rassembler les sous-éléments \textbf{<ref>} afin de lier, à son tour l'index à chaque occurrence dans les différentes lettre.
+\bigskip 
+  
+exemple :
+\begin{lstlisting}
+<person xml:id="Kitchener">
+  <persName type="normal">
+    <forename>Horatio</forename> <!--prénom-->
+    <surname>Kitchener</surname> <!--nom de famille-->
+    <roleName type="nobility">Lord</roleName> <!--Composante d'un nom indiquant son rôle dans le société-->
+    <roleName type="military">Field Marshal</roleName>                     
+  </persName>
+  <birth>1850</birth>
+  <death>1916</death>
+  <event>
+    <p>
+       Ministre de la guerre en août 1914 [...]
+    </p>
+  </event>
+  <note>
+    <ref target="../Salonique/Salonique_23-11-1915.xml#Kitchener_23111915">
+      <placeName ref="#Salonique">Salonique</placeName>
+      <date when="1915-11-23"/>
+    </ref>
+  </note>
+</person>
+\end{lstlisting}
+\bigskip 
+
+L'index-glossaire est particulièrement complexe dans sa réalisation dans la mesure ou certaine entrée ne doivent pas se faire au nom de famille mais au prénom (les souverains par exemple). Il est alors nécessaire de typer l'élément \textbf{<persName>} avec l'attribut \textit{\textbf{@type}} et de lui donner les valeurs "normal" pour le cas le plus courant et "nobility" dans le cas d'une indexation au prénom.
+
+Notons que l'attribut @target de l'élément \textbf{<ref>} renvoie à une occurrence située dans un autre fichier. %todo expliquer quand on fait un index extérieur.
+
+\section{Index Locorum : <listPlace>}
+
+\textbf{<listPlace>} doit être complété sur le même principe que l'élément \textbf{<listPerson>}. Toutefois il faut faire attention aux spécificités régionales et typer les noms de lieux en conséquence. Les éléments \textbf{<state>} et \textbf{<event>} peuvent aussi être employés.
+\bigskip 
+
+\begin{lstlisting}
+<place xml:id="Zante">               
+  <placeName type="ville_gr">Zante</placeName>
+  <location>
+    <country>Grèce</country><!--Pour les pays étrangers-->
+    <district type="peripherie">Îles Ioniennes</district>
+    <district type="district">Zante</district>
+    <district type="deme">Zante</district>
+  </location>                  
+  <note>                  
+  <ref target="../Salonique_25-01-1916.xml#Zante_25011916">
+    <placeName ref="#Salonique">Salonique</placeName>
+    <date when="1916-01-25"/>
+  </ref>                     
+</note>                  
+\end{lstlisting}
+
+\section{Glossaire : <list>}
+
+L'élément liste permet de réaliser des entrées d'index ou de glossaire à partir de termes qui ne peuvent être placer dans les \textbf{<listPerson>} et \textbf{<listPlace>}.
+La même principe a encore une fois été retenu.
+
+\begin{lstlisting}
+<item xml:id="Lutetia">
+  <label>
+    <name type="navire">Lutétia</name>
+    <rs>le</rs>                     
+  </label>      
+  <desc>
+    Croiseur auxilliaire <date from="1915" to="1917"/>
+  </desc>
+  <listEvent>
+    <event>
+      <p>
+        <date notAfter="1915">Avant 1915</date> 
+        Paquebot sud Atlantique
+      </p>
+    </event>
+    <event>
+      <p>
+        <date when="1915-03-19">1915 (mars)</date> 
+        Réquisitionné
+      </p>
+    </event>
+  </listEvent>
+  <note>
+    <ref target="../Salonique/Salonique_19-01-1916.xml#Lutetia_19011916">
+      <placeName ref="#Salonique">Salonique</placeName>
+      <date when="1916-01-19"/>
+    </ref>
+  </note>
+</item>
+\end{lstlisting} 
+\end{document}

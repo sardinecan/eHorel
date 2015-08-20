@@ -26,27 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Salonique">Salonique,</placeName>
                <date when="1915-11-16">le 16 novembre 1915</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Port_Iero">Port Iero</placeName>, le <date when="1915-11-10">10 novembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <date when="1915-11-10">10 novembre 1915</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-11-23">23 novembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-11-23">23 novembre 1915</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -59,7 +68,7 @@
             <figure>
                <graphic url="../../FACS/BDIC_FD_1854_20_1_153.jpg"/>
                <figDesc>
-                  L'école turque „<placeName ref="#Idadie" xml:id="Idadie_16111915">Idadié</placeName>”.
+                  L'école turque „Idadié”.
                </figDesc>
             </figure>
             <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_154.jpg
@@ -81,13 +90,13 @@
                <lb/>trouviez de même ainsi que votre fille<pc>.</pc> Je vous fais
                <lb/>savoir que nous avons quitté <placeName ref="#Port_Iero" xml:id="Port_Iero_16111915">Port Iéro</placeName> le <date when="1915-11-13">13 &a; 12h30</date>
                <lb/>pour <placeName ref="#Salonique">Salonique</placeName> o&ù; nous sommes arrivés le <date when="1915-11-14">14 au soir</date>&pt;
-               <lb/><hi rend="capitalize">n</hi>ous sommes ici pour remplacer le <name ref="#Charlemagne" xml:id="Charlemagne_16111915"><hi rend="capitalize">c</hi>harlemagne</name> 
+               <lb/><choice><orig>n</orig><reg>N</reg></choice>ous sommes ici pour remplacer le <name ref="#Charlemagne" xml:id="Charlemagne_16111915"><choice><orig>c</orig><reg>C</reg></choice>harlemagne</name> 
                <lb/>qui doit <choice><orig>rentre</orig><reg>rentrer</reg></choice> en <placeName ref="#France" xml:id="France_16111915">France</placeName> pour quelques petites réparations&pt;
-               <lb/><hi rend="capitalize">i</hi>ci au moins il y a du mouvement avec tous ces bateaux
-               <lb/>qui arrivent tous les jours charg&é;s de troupes&pt; <hi rend="capitalize">c</hi>e
+               <lb/><choice><orig>i</orig><reg>I</reg></choice>ci au moins il y a du mouvement avec tous ces bateaux
+               <lb/>qui arrivent tous les jours charg&é;s de troupes&pt; <choice><orig>c</orig><reg>C</reg></choice>e
                <lb/>matin il est arrivé <choice><orig>2</orig><reg>deux</reg></choice> grands courriers français
-               <lb/>chargés de troupes et de mat&é;riel&pt; <hi rend="capitalize">h</hi>ier il est arriv&é;
-               <lb/><choice><orig>7</orig><reg>sept</reg></choice> ou <choice><orig>8</orig><reg>huit</reg></choice> cargots français et <hi rend="minimize">A</hi>nglais charg&é;s eux
+               <lb/>chargés de troupes et de mat&é;riel&pt; <choice><orig>h</orig><reg>H</reg></choice>ier il est arriv&é;
+               <lb/><choice><orig>7</orig><reg>sept</reg></choice> ou <choice><orig>8</orig><reg>huit</reg></choice> cargots français et <choice><orig>A</orig><reg>a</reg></choice>nglais charg&é;s eux
                <lb/>aussi de troupes et de canon de 75 <pc type="supplied">;</pc> il y a un
                <lb/>mouvement terrible &a; terre avec toute la troupe&pt;
                <add type="closer">
@@ -116,21 +125,21 @@
             <p>
                <add type="numbering" n="2" rend="center">2</add>
                <lb/>Qu'il y a de grecs mobilis&é;s<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1"></ref> <pc type="supplied">;</pc> il y a environ <choice><orig>10000</orig><reg>dix-mille</reg></choice> <supplied reason="omitted">hommes</supplied> des  
-               <lb/>troupes françaises et <hi rend="minimize">A</hi>nglaises il y en a en quantité&vir;
+               <lb/>troupes françaises et <choice><orig>A</orig><reg>a</reg></choice>nglaises il y en a en quantité&vir;
                <lb/>enfin on ne peut pas faire un pas dans la ville sans
-               <lb/>rencontrer un militaire&pt; <hi rend="capitalize">c</hi>e sont les trains qui
-               <lb/>marchent beaucoup par ici<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2"></ref>&pt; <hi rend="capitalize">n</hi>uit et jour ils font
-               <lb/>le va<supplied reason="compose">-</supplied>et<supplied reason="compose">-</supplied>vient <choice><orig>chargé</orig><reg>chargés</reg></choice> de troupes de <placeName ref="#Salonique">Salonique</placeName> &a;
-               <lb/>la frontière <hi rend="minimize">S</hi>erbe<pc>.</pc> Je crois que ça va pour le mieux&pt;
-               <lb/><hi rend="capitalize">a</hi>vant hier un chalutier français a arreté une barcasse
+               <lb/>rencontrer un militaire&pt; <choice><orig>c</orig><reg>C</reg></choice>e sont les trains qui
+               <lb/>marchent beaucoup par ici<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2"></ref>&pt; <choice><orig>n</orig><reg>N</reg></choice>uit et jour ils font
+               <lb/>le va<supplied reason="omitted">-</supplied>et<supplied reason="omitted">-</supplied>vient <choice><orig>chargé</orig><reg>chargés</reg></choice> de troupes de <placeName ref="#Salonique">Salonique</placeName> &a;
+               <lb/>la frontière <choice><orig>S</orig><reg>s</reg></choice>erbe<pc>.</pc> Je crois que ça va pour le mieux&pt;
+               <lb/><choice><orig>a</orig><reg>A</reg></choice>vant hier un chalutier français a arreté une barcasse
                <lb/>dans laquelle il y avait <choice><orig>41</orig><reg>quarante-et-un</reg></choice> turcs <del rend="overline">et</del> <del rend="overline">1</del> dont <choice><orig>11</orig><reg>onze</reg></choice> officiers
-               <lb/>avec armes et minutions&pt; <hi rend="capitalize">l</hi>e chalutier a coulé la 
-               <lb/>barcasse et les a fait prisonniers<pc>.</pc> <hi rend="capitalize">l</hi>e bateau qui 
-               <lb/>nous a remplacé &a; <placeName ref="#Port_Iero"><hi rend="capitalize">p</hi>ort Iéro</placeName> est le <name type="navire" ref="#Dupleix" xml:id="Dupleix_16111915">Dupleix</name><pc>.</pc> J'ai
-               <lb/>bien écrit &a; M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_16111915"><hi rend="capitalize">g</hi> Locke</persName> avocat &a; la cour d'appel
+               <lb/>avec armes et minutions&pt; <choice><orig>l</orig><reg>L</reg></choice>e chalutier a coulé la 
+               <lb/>barcasse et les a fait prisonniers<pc>.</pc> <choice><orig>l</orig><reg>L</reg></choice>e bateau qui 
+               <lb/>nous a remplacé &a; <placeName ref="#Port_Iero"><choice><orig>p</orig><reg>P</reg></choice>ort Iéro</placeName> est le <name type="navire" ref="#Dupleix" xml:id="Dupleix_16111915">Dupleix</name><pc>.</pc> J'ai
+               <lb/>bien écrit &a; M<hi rend="super">ieur</hi> <persName ref="#G_Locke" xml:id="G_Locke_16111915"><choice><orig>g</orig><reg>G</reg></choice> Locke</persName> avocat &a; la cour d'appel
                <lb/>mais vous avez oublié comtesse de me dire &a; laquelle
-               <lb/>de cour d'appel il se trouve&pt; <hi rend="capitalize">j</hi>e lui ai adressé la lettre 
-               <lb/>&a; la cour d'appel de <placeName ref="#Paris">Paris</placeName>&pt; <hi rend="capitalize">j</hi>e pense que si ce n'est pas 
+               <lb/>de cour d'appel il se trouve&pt; <choice><orig>j</orig><reg>J</reg></choice>e lui ai adressé la lettre 
+               <lb/>&a; la cour d'appel de <placeName ref="#Paris">Paris</placeName>&pt; <choice><orig>j</orig><reg>J</reg></choice>e pense que si ce n'est pas 
                <lb/>l&a; on lui la fera bien parvenir<pc>.</pc>
             </p>
          </div>
@@ -150,7 +159,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

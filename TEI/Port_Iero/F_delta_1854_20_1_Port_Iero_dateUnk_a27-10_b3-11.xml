@@ -26,28 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Port_Iero">Port Iero</placeName>
                <date notBefore="1915-10-27" notAfter="1915-11-03">date inconnue</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName>Bonne sur Menoge</placeName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-10-27">27 octobre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <date when="1915-10-27">27 octobre 1915</date>
                </ref>
                <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-11-03">03 novembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <date when="1915-11-03">03 novembre 1915</date>
                </ref>
             </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -77,10 +85,10 @@
                </signed>                  
                <lb/><salute>toujours la même adresse&pt;</salute>
                <cb/>
-               <address place="postcard" type="addressee">               
+               <address place="postcard" type="deliveredTo">               
                   <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_a27-10_b3-11">Comtesse L. de la Forest</persName>                  
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne<supplied reason="compose">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>Menoge</placeName></addrLine>                  
-                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_a27-10_b3-11">Haute<supplied reason="compose">-</supplied>Savoie</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_a27-10_b3-11">Bonne<supplied reason="omitted">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>Menoge</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_a27-10_b3-11">Haute<supplied reason="omitted">-</supplied>Savoie</placeName></addrLine>                  
                   <addrLine><placeName ref="#France" xml:id="France_a27-10_b3-11">France</placeName></addrLine>                        
                </address>               
             </closer>
@@ -88,7 +96,7 @@
                <p>
                   <lb/>J'ai été content de ce courrier
                   <lb/>car j'ai reçu de bonnes nouvelles
-                  <lb/>de la maison&pt; <hi rend="capitalize">m</hi>es deux petites ni&è;ces
+                  <lb/>de la maison&pt; <choice><orig>m</orig><reg>M</reg></choice>es deux petites ni&è;ces
                   <lb/>sont en excellente santé <pc type="supplied">;</pc>
                   <lb/>elles sont hors de danger 
                   <lb/>de cette mauvaise
@@ -106,7 +114,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

@@ -6,9 +6,12 @@ body {
     color: #444444;
     font-family: 'Open Sans', sans-serif;        
 }
-.test {
-    color:red;
+.timeline-event-bubble-time {/*supprime les dates dans les event popup*/
+    display: none;
+}
+.infobulle {    
     font-size:12px;
+    margin-right:10px;
 }
 
 footer {
@@ -86,13 +89,13 @@ p {
     margin:0;    
 }
 
-h1 {
+/*h1 {
     margin-left:15px; 
     margin-top:15px;
     margin:0;
     text-align:left;
     font-size:13pt;     
-}
+}*/
 
 h3{
      font-size:11pt;
@@ -128,6 +131,9 @@ li {
 background: none;/* correction d'un bug IE */
 }
 
+.f-dropdown {    
+    text-align:left;
+}
 .glossary span { /* définition de la 
 balise <span> inclue dans <a> */
 	display: none;		
@@ -189,13 +195,11 @@ small {
 
 
 /*&& INDEX*/
-.entree {
-    font-variant:small-caps;
+.entree {    
     padding-bottom: 1em;
 }
 
-.desc {
-    font-variant:normal;
+.desc {    
     font-size:9pt;
 }
 
@@ -221,6 +225,7 @@ small {
     list-style:none; 
     padding-left:0; 
     margin-left:0;
+    font-size:12pt;
 }
 
 

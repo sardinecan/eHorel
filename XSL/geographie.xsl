@@ -22,45 +22,47 @@
                 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">//</script>
                 <script src="../../JS/carte/cartographie.js">/*Pour transformation xslt*/</script>
                 <script src="../../JS/js/jquery.js">/*Pour transformation xslt*/</script>
+                <script src="../../JS/menu/long_dropdown.js">/*Pour transformation xslt*/</script>
             </head>
             <body onload="InitialiserCarte() ;">                                                                                     
                 <header class="row border-top">
-                    <img src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/>
-                    <nav class="top-bar" data-topbar="yes" role="navigation">                    
-                        <ul class="title-area">                        
-                            <li class="name"><h1><a href="http://www.bdic.fr/">BDIC</a></h1></li>                            
-                            <!-- Menu pour petits écrans -->                                                            
-                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>                                 
-                        </ul>                        
-                        <section class="top-bar-section">                        
-                            <!-- Partie gauche du menu -->                            
-                            <ul class="left">                            
-                                <li><a href="../index.html">Accueil</a></li>                                    
-                                <li class="has-dropdown">                                
-                                    <a href="#">Correspondance d'Armand Horel</a>                                    
-                                    <ul class="dropdown">                                    
-                                        <li><a href="chronologie.html">Accès chronologique</a></li>                                        
-                                        <li><a href="geographie.html">Accès géographique</a></li>                                        
-                                    </ul>                                    
-                                </li>                                
-                            </ul>                            
-                            <!-- Partie droite -->                            
-                            <ul class="right">                            
-                                <li class="has-dropdown">                                
-                                    <a href="glossaire.html">Index et Glossaire</a>                                    
-                                    <ul class="dropdown">                                    
-                                        <li><a href="glossaire.html#personnes">Personnes</a></li>                                        
-                                        <li><a href="glossaire.html#lieux">Lieux</a></li>                                        
-                                        <li><a href="glossaire;html#glossaire">Glossaire</a></li>                                        
-                                    </ul>                                    
-                                </li>                                
-                                <li><a href="#">A propos de l'édition</a></li>                                    
-                            </ul>                              
-                        </section>                        
-                    </nav>                    
+                    <img src="../../IMAGES/photos_site/logo_bdic.gif" alt="logo_BDIC"/>
+                    <div class="contain-to-grid sticky">
+                        <nav class="top-bar" data-options="sticky_on: large" data-topbar="yes" role="navigation">                    
+                            <ul class="title-area">                        
+                                <li class="name"><h1><a href="http://www.bdic.fr/">BDIC</a></h1></li>                            
+                                <!-- Menu pour petits écrans -->                                                            
+                                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>                                 
+                            </ul>                        
+                            <section class="top-bar-section">                        
+                                <!-- Partie gauche du menu -->                            
+                                <ul class="left">                            
+                                    <li><a href="../index.html">Accueil</a></li>                                    
+                                    <li class="has-dropdown">                                
+                                        <a href="#">Correspondance d'Armand Horel</a>                                    
+                                        <ul class="dropdown">                                    
+                                            <li class="has-dropdown">
+                                                <a href="#">Accès par expéditeur</a>
+                                                <ul class="dropdown">
+                                                    <xsl:apply-templates select="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien"/>
+                                                </ul>
+                                            </li>      
+                                            <li><a href="../projet/chronologie.html">Accès chronologique</a></li>                                        
+                                            <li><a href="../projet/geographie.html">Accès géographique</a></li>                                            
+                                        </ul>                                    
+                                    </li>                                                              
+                                </ul>                            
+                                <!-- Partie droite -->                            
+                                <ul class="right">                            
+                                    <li><a href="../projet/index_edition.html">Index</a></li>                                
+                                    <li><a href="#">A propos de l'édition</a></li>                                    
+                                </ul>                              
+                            </section>                        
+                        </nav>
+                    </div>                    
                 </header>
                 <div class="row">
-                    <img src="../../STYLE/images/slide_14_18_1.jpg" alt="header"/>
+                    <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
                 </div>
                 <div class="row border">                
                     <div class="large-12 columns">                    
@@ -72,9 +74,9 @@
                 <footer class="row border">
                     <div class="small-12 medium-12 large-6 columns">                                                                                 
                         <div class="block_footer_img">
-                            <a href="http://www.bdic.fr/"><img style="margin-top:5px;" src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/></a>
-                            <a href="http://www.u-paris10.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_ouest.png" alt="logo_Paris_Ouest"/></a>
-                            <a href="http://www.u-plum.fr/"><img style="margin-top:5px;" src="../../STYLE/images/paris_lumieres.png" alt="logo_Paris_Lumiere"/></a>
+                            <a href="http://www.bdic.fr/"><img style="margin-top:5px;" src="../../IMAGES/photos_site/logo_bdic.gif" alt="logo_BDIC"/></a>
+                            <a href="http://www.u-paris10.fr/"><img style="margin-top:5px;" src="../../IMAGES/photos_site/paris_ouest.png" alt="logo_Paris_Ouest"/></a>
+                            <a href="http://www.u-plum.fr/"><img style="margin-top:5px;" src="../../IMAGES/photos_site/paris_lumieres.png" alt="logo_Paris_Lumiere"/></a>
                         </div>
                     </div>
                     <div class="small-12 medium-12 large-6 columns">
@@ -105,7 +107,7 @@
                                 <a class="lien_footer" href="credits.html">Crédits</a>                        
                             </div>
                         </div>
-                    </div>                
+                    </div>
                 </footer>
                 <!--Permettent aux listes de se dérouler automatiquement + menu adaptatif (doivent être placés en bas de page)-->    
                 <script src="../../STYLE/foundation/js/vendor/jquery.js">/*Pour transformation xslt*/</script>
@@ -113,5 +115,26 @@
                 <script>$(document).foundation();</script>
             </body>        
         </html>    
-    </xsl:template>          
+    </xsl:template>
+    
+    <xsl:template match="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien">
+        <xsl:for-each select="tei:person">
+            <xsl:variable name="id" select="concat('#',@xml:id)"/>
+            <xsl:if test="//tei:correspDesc//tei:ref/tei:persName[@corresp=$id]">
+                <li class="has-dropdown">
+                    <a class="link" href="#">
+                        <xsl:apply-templates select="tei:persName"/><xsl:text> à :</xsl:text>
+                    </a>
+                    <ul class="dropdown">                    
+                        <xsl:for-each select="//tei:correspDesc//tei:ref[descendant::tei:persName[@corresp=$id]]">
+                            <xsl:sort select=" tei:date/@cert" order="ascending" data-type="text"/>
+                            <xsl:sort select="replace(tei:date/@when, '-', '')" order="ascending" data-type="number"/>
+                            <xsl:variable name="link" select="replace(@target,'xml','html')"/>
+                            <li><a href="{$link}"><xsl:value-of select="tei:persName[@type='deliveredTo']"/><xsl:text> : </xsl:text><xsl:value-of select="tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:date"/></a></li>
+                        </xsl:for-each>
+                    </ul>
+                </li>    
+            </xsl:if>                        
+        </xsl:for-each>        
+    </xsl:template>
 </xsl:stylesheet>

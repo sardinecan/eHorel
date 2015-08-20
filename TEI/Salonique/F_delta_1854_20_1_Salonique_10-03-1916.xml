@@ -26,29 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Salonique">Salonique,</placeName>
                <date when="1916-03-10">le 10 mars 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madama la Comtesse L. de la Forêst,</persName>
-               <placeName ref="#Sanary" rend="overline">Hôtel de Bains, Sanary</placeName>
-               <placeName ref="#Beaune">48 rue de la comédie, Beaune</placeName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-02-21">21 février 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-02-21">21 février 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date notBefore="1916-02-05" notAfter="1916-03-16">Date inconnue</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date notBefore="1916-02-05" notAfter="1916-03-16">Date inconnue</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -81,16 +88,16 @@
                <lb/><add place="inline">m'</add> empresse de vous <hi rend="underline">en</hi> envoyer des miennes&vir; je suis
                <lb/>toujours en parfaite santé et désire qu'&a; l'arrviée
                <lb/>de mes <choice><orig>2</orig><reg>deux</reg></choice> cartes que vous en êtes de m&ê;me ainsi
-               <lb/>que votre fille et petite fille<pc>.</pc> <hi rend="capitalize">c</hi>omme nouvelle
+               <lb/>que votre fille et petite fille<pc>.</pc> <choice><orig>c</orig><reg>C</reg></choice>omme nouvelle
                <lb/>de guerre cette fois pas grand chose&vir; nous 
                <lb/>avons <add place="above">eu</add> une petite visite de <choice><orig>3</orig><reg>trois</reg></choice> <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice> <choice><orig>boche</orig><reg>boches</reg></choice>
                <lb/>mais une visite assez lointaine car nos 
                <lb/>soldats qui se trouvent au camp retranché
                <lb/>de <placeName ref="#Salonique">Salonique</placeName> leur ont fichu la chasse&pt;
-               <lb/><hi rend="capitalize">i</hi>ls n'ont pas pu venir survoler la rade
+               <lb/><choice><orig>i</orig><reg>I</reg></choice>ls n'ont pas pu venir survoler la rade
                <lb/>ni la ville de <placeName ref="#Salonique">Salonique</placeName><pc type="surplus">.</pc> car ils ont été 
-               <lb/><choice><orig>chasser</orig><reg>chassé</reg></choice> avec pertes et fracas<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs
-               <lb/>rien de nouveau <choice><orig>de</orig><reg>des</reg></choice> sous<supplied reason="compose">-</supplied>marins depuis 
+               <lb/><choice><orig>chasser</orig><reg>chassé</reg></choice> avec pertes et fracas<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs
+               <lb/>rien de nouveau <choice><orig>de</orig><reg>des</reg></choice> sous<supplied reason="omitted">-</supplied>marins depuis 
             </p>
             <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_055.jpg
                http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
@@ -107,27 +114,27 @@
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>celui qui <choice><sic>a</sic><corr>est</corr></choice> passé dans les filets des <choice><orig>2</orig><reg>deux</reg></choice>
-               <lb/>petits pêcheurs grecs&pt; <hi rend="capitalize">n</hi>ous n'avons pas vu
+               <lb/>petits pêcheurs grecs&pt; <choice><orig>n</orig><reg>N</reg></choice>ous n'avons pas vu
                <lb/>aucun autre<pc type="surplus">.</pc> mais n'empêche qu'ils nous
                <lb/>ont coulé notre plus beau paquebot
-               <lb/>et le plus grand de France<ref type="note" target="#F_delta_1854_20_1_Salonique_10-03-1916_note1" n="1"></ref>&pt; <hi rend="capitalize">s</hi>i il n'y avait
+               <lb/>et le plus grand de France<ref type="note" target="#F_delta_1854_20_1_Salonique_10-03-1916_note1" n="1"></ref>&pt; <choice><orig>s</orig><reg>S</reg></choice>i il n'y avait
                <lb/>eu que le bateau ce n'était qu'un demi
                <lb/>mal mais malheureusement il y a eu&vir; sur
                <lb/><choice><orig>1800</orig><reg>mille huit cents</reg></choice> hommes entre l'équipage et les soldats
                <lb/>coloniaux&vir; il y a eu <choice><orig>900</orig><reg>neuf cents</reg></choice> victimes et tout
                <lb/>cela &a; cause qu'il lui est arrivé une avarie
                <lb/>de machine ce qui l'a forcé de stopper&pt;
-               <lb/><hi rend="capitalize">l</hi>e sous<supplied reason="compose">-</supplied>marin qui se trouvait sur sa 
+               <lb/><choice><orig>l</orig><reg>L</reg></choice>e sous<supplied reason="omitted">-</supplied>marin qui se trouvait sur sa 
                <lb/>route ne pouvait pas trouver plus belle
                <lb/>occasion que de lui envoyer sa torpille&pt;
-               <lb/><hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le moment&vir;
+               <lb/><choice><orig>i</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le moment&vir;
             </p>
             <closer>
                <salute>                   
                   <lb/>un petit ami qui ne vous oublie pas&vir;
                </salute>
                <signed>
-                  <address place="postcard" type="sender">
+                  <address place="postcard" type="sentBy">
                      <persName ref="#Horel" xml:id="Horel_10031916">
                         Armand                      
                         <lb/>Horel&vir;
@@ -138,30 +145,35 @@
                </signed>
             </closer>
          </div>
-         <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_059.jpg ../../FACS/BDIC_FD_1854_20_1_060.jpg">
+         <div type="enveloppe">
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_059.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
-               <address type="addressee" place="envelope">
+               <address type="deliveredTo" place="envelope">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                   
                   <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>                                             
-                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_10031916">Sanary<supplied reason="compose">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="compose">-</supplied>mer</placeName></del></addrLine>                                            
+                  <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_10031916">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></del></addrLine>                                            
                   <addrLine><del hand="#other" rend="overline"><placeName ref="#Var" xml:id="Var_10031916">Var</placeName></del></addrLine>                  
                   <addrLine><placeName ref="#France" xml:id="France_10031916">France</placeName></addrLine>
                </address>               
                <add hand="#other">
-                  <address type="addressee" place="envelope">                                             
+                  <address type="deliveredTo" place="envelope">                                             
                      <addrLine>48 rue de la Comédie</addrLine>                                    
                      <addrLine><placeName ref="#Beaune" xml:id="Beaune_10031916">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_10031916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_10031916">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>
                   </address>
                </add>
                <stamp type="armee">
                   <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
                </stamp>
             </p>               
-            <pb/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_060.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                envoi de
-               <address place="envelope" type="sender">
+               <address place="envelope" type="sentBy">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>
                   <addrLine> Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_10031916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
@@ -176,11 +188,11 @@
          <div type="note">
             <note xml:id="F_delta_1854_20_1_Salonique_10-03-1916_note1" n="1">
                Il s'agit très certainement du «<name type="navire" ref="#Provence" xml:id="Provence_10031916">Provence II</name>». Au départ de <placeName ref="#Toulon" xml:id="Toulon_10031916">Toulon</placeName>, il se rendait à <placeName ref="#Salonique">Salonique</placeName>
-               chargé de troupes et de matériel. Il est torpillé par le sous-marin allemand <name type="navire" ref="U_35" xml:id="U_35_10031916">U-35</name> le <date when="1916-02-26">26 février 1916</date>.
+               chargé de troupes et de matériel. Il est torpillé par le sous-marin allemand <name type="navire" ref="#U_35" xml:id="U_35_10031916">U-35</name> le <date when="1916-02-26">26 février 1916</date>.
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

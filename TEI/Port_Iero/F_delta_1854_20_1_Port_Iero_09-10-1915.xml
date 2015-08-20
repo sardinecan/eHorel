@@ -26,28 +26,37 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>         
+      <profileDesc>      
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
                <placeName ref="#Port_Iero">Port Iero</placeName>
                <date when="1915-10-09">09 octobre 1915</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Mytilene">Mytilène</placeName> le <date when="1915-10-06">06 octobre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Mytilene">Mytilène</placeName>
+                  <date when="1915-10-06">06 octobre 1915</date>
                </ref>
                <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Port_Iero">Port Iero</placeName> le <date when="1915-10-20">20 octobre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <date when="1915-10-20">20 octobre 1915</date>
                </ref>
             </correspContext>
+            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -69,29 +78,29 @@
             <opener>
                <dateline rend="center">                                                      
                   Ile de <placeName ref="#Port_Iero" xml:id="Port_Iero_09101915">Port Iéro</placeName>&vir;                  
-                  <date when="1915-10-09"><hi rend="minimize">L</hi>e 9 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>                  
+                  <date when="1915-10-09"><choice><orig>L</orig><reg>l</reg></choice>e 9 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>                  
                </dateline>
                <salute rend="center">
                   <lb/><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_09101915">Comtesse</persName>&vir;
                </salute>
             </opener>
             <p>
-               <lb/>Je rends réponse &a; votre aimable lettre que je viens de reçevoir &a; l'instant&pt; <hi rend="capitalize" >j</hi>e
+               <lb/>Je rends réponse &a; votre aimable lettre que je viens de reçevoir &a; l'instant&pt; <choice><orig>j</orig><reg>J</reg></choice>e
                <lb/>serais enchanté de pouvoir vous donner des nouvelles de vos neveux mais
                <lb/>pour le moment cela m'est impossible car je suis &a; <choice><orig>16</orig><reg>seize</reg></choice> heures des <placeName ref="#Dardanelles" xml:id="Dardanelles_09101915">Dardanelles</placeName>&pt;
-               <lb/><hi rend="capitalize" >n</hi>ous sommes dans une <hi rend="minimize">I</hi>le grecque&vir; je ne sais pas encore combien de
-               <lb/>temps nous y restons<pc>.</pc> <hi rend="capitalize" >j</hi>e serais heureux de m'en aller car de nouvelles
-               <lb/>nous n'en avons pas souvent<pc>.</pc> <hi rend="capitalize" >v</hi>oil&a; <choice><orig>15</orig><reg>quinze</reg></choice> jours que nous sommes 
+               <lb/><choice><orig>n</orig><reg>N</reg></choice>ous sommes dans une <choice><orig>I</orig><reg>î</reg></choice>le grecque&vir; je ne sais pas encore combien de
+               <lb/>temps nous y restons<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>e serais heureux de m'en aller car de nouvelles
+               <lb/>nous n'en avons pas souvent<pc>.</pc> <choice><orig>v</orig><reg>V</reg></choice>oil&a; <choice><orig>15</orig><reg>quinze</reg></choice> jours que nous sommes 
                <lb/>ici&vir; nous avons eu une seule fois <supplied reason="omitted">du</supplied> courrier <pc type="supplied">;</pc> c'est tout de même       
-               <lb/>trop peu&pt; <hi rend="capitalize" >e</hi>nfin&vir; espérons que les prochains courriers seront plus
-               <lb/>réguliers<pc>.</pc> <hi  rend="capitalize" >a</hi>vec tout cela il y a encore eu un courrier <hi rend="minimize">F</hi>rançais 
-               <lb/>de coulé et <choice><orig>3</orig><reg>trois</reg></choice> <hi rend="minimize">A</hi>nglais par ces maudits boches qui ne méritent
-               <lb/>pas un autre nom. <hi rend="capitalize" >p</hi>eut être que dans ce courrier j'avais quelques
+               <lb/>trop peu&pt; <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; espérons que les prochains courriers seront plus
+               <lb/>réguliers<pc>.</pc> <choice><orig>a</orig><reg>A</reg></choice>vec tout cela il y a encore eu un courrier <choice><orig>F</orig><reg>f</reg></choice>rançais 
+               <lb/>de coulé et <choice><orig>3</orig><reg>trois</reg></choice> <choice><orig>A</orig><reg>a</reg></choice>nglais par ces maudits boches qui ne méritent
+               <lb/>pas un autre nom<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>eut être que dans ce courrier j'avais quelques
                <lb/>lettres <pc type="supplied">;</pc> <choice><sic>tempi</sic><corr>tant pis</corr></choice>&vir; il vaut mieux que ce soit un courrier qu'un cuirassé
                <lb/>car sur un cuirassé il y a <choice><orig>7</orig><reg>sept</reg></choice> &a; <choice><orig>800</orig><reg>huit cents</reg></choice> hommes tandis que sur ce courrier
                <lb/>il y avait au plus <choice><orig>80</orig><reg>quatre-vingts</reg></choice> hommes. Voil&a; encore une nation de plus 
-               <lb/>contre nous&vir; ces salauds de <hi rend="minimize">B</hi>ulgares<ref type="note"  target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1"></ref><pc>.</pc> <hi rend="capitalize" >m</hi>ais je cois qu'ils ne
-               <lb/>seront pas les seuls&vir; la <placeName ref="#Roumanie" xml:id="Roumanie_09101915">Roumanie</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"></ref> et la <placeName ref="#Grece" xml:id="Grece_09101915"><hi rend="capitalize">g</hi>rèce</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3"></ref> vont surement
+               <lb/>contre nous&vir; ces salauds de <choice><orig>B</orig><reg>b</reg></choice>ulgares<ref type="note"  target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1"></ref><pc>.</pc> <choice><orig>m</orig><reg>M</reg></choice>ais je cois qu'ils ne
+               <lb/>seront pas les seuls&vir; la <placeName ref="#Roumanie" xml:id="Roumanie_09101915">Roumanie</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"></ref> et la <placeName ref="#Grece" xml:id="Grece_09101915"><choice><orig>g</orig><reg>G</reg></choice>rèce</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3"></ref> vont surement
                <lb/>se mettre de la partie alors ça <choice><sic>équilibra</sic><corr>équilibrera</corr></choice> un peu de chaque coté&pt;
                <lb/>Je viens de recevoir une lettre de mon malheureux <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis__09101915">frère</rs>&vir; il me
             </p>
@@ -110,24 +119,24 @@
             <p>
                <lb/><add type="numbering" n="2" rend="center"><hi rend="center">2<pc>.</pc></hi></add>
                <lb/>dit qu'il n'y a encore rien pour lui&vir; que pourtant il trouve dr&ô;le de
-               <lb/>voir des camarades de son atelier partir&pt; <hi rend="capitalize" >i</hi>l y en a <choice><orig>7</orig><reg>sept</reg></choice> qui sont partis
-               <lb/>le mois dernier&pt; <hi rend="capitalize">l</hi>ui&vir; ça lui semble dr&ô;le de rien avoir pour lui&pt; 
-               <lb/><hi rend="capitalize">d</hi>u <persName ref="#Le_Mire" xml:id="Le_Mire_09101915"><choice><orig>Mire</orig><reg>Myre</reg></choice> de <choice><orig>Villers</orig><reg>Vilers</reg></choice></persName>&vir; je n'ai encore pas eu de réponse <pc type="supplied">;</pc> c'est qu'il
-               <lb/>lui tarde de sortir de l&a;<supplied reason="compose">-</supplied>dedans<pc>.</pc> <hi rend="capitalize" >s</hi>ur sa lettre il me disait
+               <lb/>voir des camarades de son atelier partir&pt; <choice><orig>i</orig><reg>I</reg></choice>l y en a <choice><orig>7</orig><reg>sept</reg></choice> qui sont partis
+               <lb/>le mois dernier&pt; <choice><orig>l</orig><reg>L</reg></choice>ui&vir; ça lui semble dr&ô;le de rien avoir pour lui&pt; 
+               <lb/><choice><orig>d</orig><reg>D</reg></choice>u <persName ref="#Le_Mire" xml:id="Le_Mire_09101915"><choice><orig>Mire</orig><reg>Myre</reg></choice> de <choice><orig>Villers</orig><reg>Vilers</reg></choice></persName>&vir; je n'ai encore pas eu de réponse <pc type="supplied">;</pc> c'est qu'il
+               <lb/>lui tarde de sortir de l&a;<supplied reason="omitted">-</supplied>dedans<pc>.</pc> <choice><orig>s</orig><reg>S</reg></choice>ur sa lettre il me disait
                <lb/>qu'il aurait été vous voir s'il venait qu'&a; sortir&vir; moi je lui ai
                <lb/>répondu que vous n'habitiez plus <placeName ref="#Paris" xml:id="Paris_09101915">Paris</placeName> mais ça ne fait rien&vir;
                <lb/>il pourrait quand même aller jusqu'à chez vous<pc>.</pc> Comme
-               <lb/>nouvelles de la guerre&vir; je ne connais toujours rien<pc>.</pc> <hi rend="capitalize">i</hi>ci pour nous
+               <lb/>nouvelles de la guerre&vir; je ne connais toujours rien<pc>.</pc> <choice><orig>i</orig><reg>I</reg></choice>ci pour nous
                <lb/>c'est fini <pc type="supplied">;</pc> jamais nous n'arriverons &a; passer le détroit&vir; il est
-               <lb/>trop miné et d'ailleurs il est infranchissable&pt; <hi rend="capitalize" >n</hi>otre seul travail
+               <lb/>trop miné et d'ailleurs il est infranchissable&pt; <choice><orig>n</orig><reg>N</reg></choice>otre seul travail
                <lb/>est de leur tenir tête avec nos troupes de terre de manière &a; ce qu"ils
-               <lb/>n'avancent pas<pc>.</pc> <hi rend="capitalize" >m</hi>ais je crois que nous allons tenter un autre coup
-               <lb/>par <placeName ref="#Salonique" xml:id="Salonique_09101915"><hi rend="capitalize">s</hi>alonique</placeName> avec de nouvelles troupes<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4"></ref>&pt; <hi rend="capitalize" >l</hi>&a; nous reussirons peut
+               <lb/>n'avancent pas<pc>.</pc> <choice><orig>m</orig><reg>M</reg></choice>ais je crois que nous allons tenter un autre coup
+               <lb/>par <placeName ref="#Salonique" xml:id="Salonique_09101915"><choice><orig>s</orig><reg>S</reg></choice>alonique</placeName> avec de nouvelles troupes<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4"></ref>&pt; <choice><orig>l</orig><reg>L</reg></choice>&a; nous reussirons peut
                <lb/>&ê;tre &a; faire quelque chose de<unclear><del rend="overline">bons</del></unclear> bon mais par mer c'est fini&pt;
-               <lb/><hi rend="capitalize" >j</hi>e suis toujours en parfaite santé et souhaite que vous vous trouviez
+               <lb/><choice><orig>j</orig><reg>J</reg></choice>e suis toujours en parfaite santé et souhaite que vous vous trouviez
                <lb/>de même &a; l'arrivée de mes cartes<pc>.</pc> Le <date when="1915-10-07">7 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice></date> nous avons enterrer
                <lb/>un de nos camarades&vir; un matelot mecanicien mort de la
-               <lb/><choice><sic>dyssenterie</sic><corr>dysenterie</corr></choice>&pt; <hi rend="capitalize">l</hi>e pauvre malheureux&vir; il est bien loin des siens&pt;
+               <lb/><choice><sic>dyssenterie</sic><corr>dysenterie</corr></choice>&pt; <choice><orig>l</orig><reg>L</reg></choice>e pauvre malheureux&vir; il est bien loin des siens&pt;
             </p>
             <closer>
                <signed>
@@ -158,7 +167,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

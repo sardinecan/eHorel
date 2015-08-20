@@ -26,28 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName>Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1915-12-17">le 17 décembre 1915</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madama la Comtesse L. de la Forêst,</persName>
-               <placeName ref="#Sanary">Hôtel de Bains, Sanary sur mer</placeName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-14">14 décembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-12-14">14 décembre 1915</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-20">20 décembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-12-20">20 décembre 1915</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -79,7 +87,7 @@
                <lb/>Je vous écris ces deux mots pour vous <supplied reason="omitted">faire</supplied> savoir
                <lb/>que je suis toujours en bonne santé et désire
                <lb/>qu'&a; l'arrivée de cette carte que vous vous trouviez
-               <lb/>de même<pc>.</pc> <hi rend="capitalize">p</hi>ar cette même occasion comme le
+               <lb/>de même<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar cette même occasion comme le
                <lb/>jour de l'an approche&vir; je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> mes meilleurs
                <lb/>vœux et souhaits de bonheur et <choice><orig>é</orig><reg>e</reg></choice>spère que
                <lb/>cette année nous aurons la fin de la guerre
@@ -101,12 +109,15 @@
                <signed><add place="margin-left" rend="vertical"><persName ref="#Horel" xml:id="Horel_17121915">Armand Horel</persName></add></signed>
             </closer>
          </div>
-         <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_121.jpg ../../FACS/BDIC_FD_1854_20_1_122.jpg">
+         <div type="enveloppe">
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_121.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
-               <address place="envelope" type="addressee">
+               <address place="envelope" type="deliveredTo">
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
                   <addrLine>Hôtel de Bains</addrLine>                  
-                  <addrLine><placeName ref="#Sanary">Sanary <choice><abbr>s/</abbr><expan>sur</expan></choice> mer</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Sanary">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></addrLine>                  
                   <addrLine><placeName ref="#Var" xml:id="Var_17121915">Var</placeName></addrLine>
                   <addrLine><placeName ref="#France" xml:id="France_17121915">France</placeName></addrLine>
                </address>
@@ -114,10 +125,12 @@
                   <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>
                </stamp>
             </p>               
-            <pb/>
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_122.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                envoi de 
-               <address type="sender" place="envelope">
+               <address type="sentBy" place="envelope">
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
                   <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_17121915">Henri IV</name></addrLine> 
                   <addrLine>aux Dardanelles</addrLine>
@@ -127,7 +140,7 @@
       </body>      
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

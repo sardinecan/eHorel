@@ -26,27 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1916-03-28">le 28 mars 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
             </correspAction>
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-03-22">22 mars 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-03-22">22 mars 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-03">03 avril 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-04-03">03 avril 1916</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -79,16 +88,16 @@
                <lb/>donner de mes nouvelles&vir; que je suis toujours
                <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
                <lb/>cartes que vous en <sic>êtes</sic> de même ainsi que votre
-               <lb/>fille et petite fille<pc>.</pc> Les sous<supplied reason="compose">-</supplied>marins <hi rend="minimize">B</hi>oches
+               <lb/>fille et petite fille<pc>.</pc> Les sous<supplied reason="omitted">-</supplied>marins <choice><orig>B</orig><reg>b</reg></choice>oches
                <lb/>on fait encore des leurs&vir; ils nous ont 
                <lb/><choice><orig>torpiller</orig><reg>torpillé</reg></choice> un chalutier qui faisait parti
-               <lb/>de mon groupe&pt; <hi rend="capitalize">é</hi>tant &a; Salonique car
+               <lb/>de mon groupe&pt; <choice><orig>é</orig><reg>É</reg></choice>tant &a; Salonique car
                <lb/>il y a eu <choice><orig>4</orig><reg>quatre</reg></choice> <supplied reason="omitted">chalutiers</supplied> qui sont <choice><orig>parti</orig><reg>partis</reg></choice> pour <placeName ref="#Corfou" xml:id="Corfou_28031916">Corfou</placeName> mais
                <lb/>comme nous étions <choice><orig>charger</orig><reg>chargés</reg></choice> d'un secteur
                <lb/>utile<pc>,</pc> ce sont <choice><orig>4</orig><reg>quatre</reg></choice> autres qui ont été <choice><orig>designé</orig><reg>désignés</reg></choice>
                <lb/>&a; notre place et sur ces <choice><orig>4</orig><reg>quatre</reg></choice> il y a eu un de
-               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un sous<supplied reason="compose">-</supplied>marin
-               <lb/>Autrichien&pt; <hi rend="capitalize">p</hi>our le nombre de mort&vir;
+               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un sous<supplied reason="omitted">-</supplied>marin
+               <lb/>Autrichien&pt; <choice><orig>p</orig><reg>P</reg></choice>our le nombre de mort&vir;
             </p>
             <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_035.jpg
                http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
@@ -104,16 +113,16 @@
                "/>
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
-               <lb/><hi rend="minimize">J</hi>e ne peux vous le dire en ce moment mais
+               <lb/><choice><orig>J</orig><reg>j</reg></choice>e ne peux vous le dire en ce moment mais
                <lb/>dans une dizaine de jours je vous le dirai exactement&pt;
-               <lb/><hi rend="capitalize">c</hi>es jours derniers&vir; nous avons eu un biplan
-               <lb/>d'abattu par les bulgares&pt; <hi rend="capitalize">l</hi>e pilote était
-               <lb/>un <hi rend="minimize">S</hi>alonicien et l'observateur un <hi rend="minimize">F</hi>rançais&vir;
-               <lb/>ils ont été tués tous les deux<pc>.</pc> <hi rend="capitalize">p</hi>ar ailleurs
+               <lb/><choice><orig>c</orig><reg>C</reg></choice>es jours derniers&vir; nous avons eu un biplan
+               <lb/>d'abattu par les bulgares&pt; <choice><orig>l</orig><reg>L</reg></choice>e pilote était
+               <lb/>un <choice><orig>S</orig><reg>s</reg></choice>alonicien et l'observateur un <choice><orig>F</orig><reg>f</reg></choice>rançais&vir;
+               <lb/>ils ont été tués tous les deux<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs
                <lb/>rien de nouveau<pc>.</pc> Tant qu'&a; votre commission
-               <lb/><hi rend="minimize">C</hi>omtesse&vir; je n'ai pas eu encore aucune
+               <lb/><choice><orig>C</orig><reg>c</reg></choice>omtesse&vir; je n'ai pas eu encore aucune
                <lb/>occasion pour la faire car nous avons
-               <lb/><choice><orig>appareiller</orig><reg>appareillé</reg></choice> pour <choice><orig>6</orig><reg>six</reg></choice> jours&pt; <hi rend="capitalize">j</hi>e pense la faire
+               <lb/><choice><orig>appareiller</orig><reg>appareillé</reg></choice> pour <choice><orig>6</orig><reg>six</reg></choice> jours&pt; <choice><orig>j</orig><reg>J</reg></choice>e pense la faire
                <lb/>dans une quinzaine de jours environ&vir;
                <lb/>pour avant je ne pense le faire&pt; Tant
                <lb/>qu'ici&vir; il fait un temps magnifique&vir; un
@@ -122,7 +131,7 @@
             </p>
             <closer>
                <salute>
-                  <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
+                  <choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le
                   <lb/>moment&vir; un petit ami qui ne vous oublie
                   <lb/>
                   <add place="margin-right" rend="vertical">
@@ -146,7 +155,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

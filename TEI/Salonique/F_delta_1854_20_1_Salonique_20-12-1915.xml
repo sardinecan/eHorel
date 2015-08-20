@@ -26,27 +26,37 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName>Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName>Salonique</placeName>
                <date when="1915-12-20">le 20 décembre 1915</date>
             </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
-            </correspAction>
+            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-17">17 décembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-12-17">17 décembre 1915</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1915-12-27">27 décembre 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1915-12-27">27 décembre 1915</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -77,29 +87,30 @@
             </opener>
             <p>
                <lb/>Je rends réponse &a; votre aimable lettre que j'ai reçu hier avec
-               <lb/>grand plaisir<pc>.</pc> <hi rend="capitalize">s</hi>urtout de savoir que l'air de <placeName ref="#Sanary" xml:id="Sanary_20121915">Sanary</placeName>
+               <lb/>grand plaisir<pc>.</pc> <choice><orig>s</orig><reg>S</reg></choice>urtout de savoir que l'air de <placeName ref="#Sanary" xml:id="Sanary_20121915">Sanary</placeName>
                <lb/>faisait du bien pour votre fille&vir; c'est dommage que vous
                <lb/>soyez toujours souffrante mais je pense qu'un peu de
-               <lb/>soleil du midi pourra vous faire du bien<pc>.</pc> <hi rend="capitalize">p</hi>renez courage
+               <lb/>soleil du midi pourra vous faire du bien<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>renez courage
                <lb/>et vous verrez comtesse que la santé viendra aussi<pc>.</pc>
-               <lb/><hi rend="capitalize">p</hi>our moi je ne peux mieux me porter qu'en ce moment<pc>.</pc>
+               <lb/><choice><orig>p</orig><reg>P</reg></choice>our moi je ne peux mieux me porter qu'en ce moment<pc>.</pc>
                <lb/>Il est fortement question depuis <choice><orig>2</orig><reg>deux</reg></choice> ou <choice><orig>3</orig><reg>trois</reg></choice> jours de nous
                <lb/>envoyer &a; <placeName ref="#Toulon" xml:id="Toulon_20121915">Toulon</placeName> pour une quarantaine de jours
                <lb/>pour prendre <choice><orig>2</orig><reg>deux</reg></choice> canons de 100 pour remplacer les <choice><orig>4</orig><reg>quatre</reg></choice>
                <lb/>canons de 47 que nous avons <choice><orig>debarqué</orig><reg>débarqués</reg></choice> qui vont servir
                <lb/>&a; mettre sur les <choice><orig>cargots</orig><reg>cargos</reg></choice> qui vont faire le commerce&pt;
-               <lb/><hi rend="capitalize">s</hi>i nous y allons &a; <placeName ref="#Toulon">Toulon</placeName> prendre ces canons ce sera
+               <lb/><choice><orig>s</orig><reg>S</reg></choice>i nous y allons &a; <placeName ref="#Toulon">Toulon</placeName> prendre ces canons ce sera
                <lb/>pour aller dans le <placeName ref="#Canal_Suez" xml:id="Canal_Suez_20121915">canal de Suez</placeName> pour empêcher
-               <lb/>les Turcs de le franchir&pt; <hi rend="capitalize">s</hi>i c'est vrai l&a; nous serons
+               <lb/>les Turcs de le franchir&pt; <choice><orig>s</orig><reg>S</reg></choice>i c'est vrai l&a; nous serons
                <lb/>heureux pendant tout le restant de la guerre<pc>.</pc><gap reason="missing"/> 
             </p>
          </div>
       </body>
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
          </div>
       </back>
    </text>

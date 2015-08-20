@@ -26,23 +26,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Corfou">Corfou</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1915-05-15">15 mai 1915</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="next" target="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.xml">
-                  Lettre suivant envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Toulon">Toulon</placeName> le <date when="1915-08-08">8 août 1915</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Toulon">Toulon</placeName>
+                  <date when="1915-08-08">8 août 1915</date>
                </ref>              
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -72,7 +79,7 @@
             </opener>
             <p>
                <lb/>Venant de recevoir mes photographies &a; l'instant&vir; je
-               <lb/>profite pour vous en faire parvenir une&pt; <hi rend="capitalize">v</hi>ous me
+               <lb/>profite pour vous en faire parvenir une&pt; <choice><orig>v</orig><reg>V</reg></choice>ous me
                <lb/>trouverez changé car je garde toute ma barbe pour
                <lb/>ressembler &a; un véritable poilu<pc>.</pc> <choice><orig>a</orig><reg>A</reg></choice> votre idée
                <lb/>vous me direz si j'ai maigri ou <choice><orig>engraisser</orig><reg>engraissé</reg></choice><pc>.</pc> C'est
@@ -81,14 +88,14 @@
                <lb/>bouche pourtant je ne chique ni fume pas<pc>,</pc> en plus 
                <lb/>j'ai la main droite toute noire&vir; on dirait que je
                <lb/><choice><sic>viendrais</sic><corr>viens</corr></choice> de faire le charbon<pc>,</pc> les galons on ne les
-               <lb/>voit pas non plus<pc>.</pc> <hi rend="capitalize">e</hi>nfin ça ne fait vous verrez que
+               <lb/>voit pas non plus<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin ça ne fait vous verrez que
                <lb/>je suis toujours vivant et en parfaite santé et
                <lb/>je souhaite de grand cœur que vous en êtes de
                <lb/>même ainsi que votre fille et sa petite gosse&pt; 
             </p>
             <closer>
                <salute>
-                  <hi rend="capitalize">u</hi>n
+                  <choice><orig>u</orig><reg>U</reg></choice>n
                   <lb/>petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
                </salute>
                <signed><persName ref="#Horel" xml:id="Horel_15051015">A. Horel</persName></signed>
@@ -97,7 +104,7 @@
       </body>     
       <back>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

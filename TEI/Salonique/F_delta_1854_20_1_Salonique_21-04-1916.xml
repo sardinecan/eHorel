@@ -26,28 +26,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1916-04-21">le 21 avril 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst,</persName>
-               <placeName ref="#Beaune">10 rue Oudot, Beaun</placeName>
             </correspAction>
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-15">15 avril 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-04-15">15 avril 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">la Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-04-27">27 avril 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-04-27">27 avril 1916</date>
                </ref>              
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -81,13 +89,13 @@
                <lb/>savoir que je suis toujours en bonne santé
                <lb/>et d&é;sire qu'à l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice> cartes que vous
                <lb/>en &ê;tes de même ainsi que votre fille et 
-               <lb/>petite fille<choice><orig><pc>,</pc></orig><reg>.</reg></choice> <hi rend="capitalize">c</hi>es jours derniers nous avons
+               <lb/>petite fille<choice><orig><pc>,</pc></orig><reg>.</reg></choice> <choice><orig>c</orig><reg>C</reg></choice>es jours derniers nous avons
                <lb/>encore eu la visite de deux <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice>
                <lb/>boches qui ont voulu venir survoler <placeName ref="Salonique">Salonique</placeName>
                <lb/>pour y lancer des bombes mais ils sont mal
                <lb/><choice><orig>tombé</orig><reg>tombés</reg></choice> car nos canons de 75 de l'armée
                <lb/>de terre leur <choice><orig>on</orig><reg>ont</reg></choice> <choice><orig>coller</orig><reg>collé</reg></choice> une chasse effrenée
-               <lb/>qui leur a forcé &a; rebrousser chemin&pt; <hi rend="capitalize">i</hi>ls ont
+               <lb/>qui leur a forcé &a; rebrousser chemin&pt; <choice><orig>i</orig><reg>I</reg></choice>ls ont
                <lb/><choice><orig>lancer</orig><reg>lancé</reg></choice> quelques bombes mais sans résultat&pt;
             </p>
             <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_015.jpg
@@ -105,17 +113,17 @@
             <p>
                <add type="numbering" n="2" rend="right">(2)</add>
                <lb/>Depuis tout est calme&pt;
-               <lb/><hi rend="capitalize">a</hi>vant peu nous prendrons
+               <lb/><choice><orig>a</orig><reg>A</reg></choice>vant peu nous prendrons
                <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice> mais nous attendons
                <lb/>les troupes serbes qui arrivent
-               <lb/>tous les jours<pc>.</pc> <hi rend="capitalize">i</hi>ls sont
+               <lb/>tous les jours<pc>.</pc> <choice><orig>i</orig><reg>i</reg></choice>ls sont
                <lb/>équipés par nous&vir; ils ont
                <lb/>la baïonnette française<ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1"/>
                <lb/>et le fusil <name ref="#Lebel" xml:id="Lebel_21041916"><choice><orig>le bel</orig><reg>Lebel</reg></choice></name><ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2"/><pc>.</pc> 
             </p>
             <closer>
                <salute>
-                  <hi rend="capitalize">r</hi>ien autre
+                  <choice><orig>r</orig><reg>R</reg></choice>ien autre
                   <lb/>chose &a; vous dire pour le 
                   <lb/>moment&vir; un petit ami qui ne
                   <cb/>
@@ -124,32 +132,37 @@
                <signed>
                   <persName ref="#Horel" xml:id="Horel_21041916">Armand Horel</persName> 
                </signed>
-               <address type="addressee" place="postcard">
+               <address type="deliveredTo" place="postcard">
                   <persName ref="#Comtesse_Forest">Comtesse L<pc>.</pc> de la Forest</persName>
                   <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus> </addrLine>
                   <addrLine><placeName ref="#Beaune">&a; <choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>
-                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>
+                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>
                   <addrLine><placeName ref="#France">France</placeName></addrLine>   
                </address>
             </closer>
          </div>
-         <div type="enveloppe" facs="../../FACS/BDIC_FD_1854_20_1_017.jpg ../../FACS/BDIC_FD_1854_20_1_018.jpg">
+         <div type="enveloppe">
+            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_017.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
-               <address place="envelope" type="addressee">                     
+               <address place="envelope" type="deliveredTo">                     
                   <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
                   <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus></addrLine>                  
                   <addrLine><placeName ref="#Beaune" xml:id="Beaune_21041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
-                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_21041916">C&ô;te<supplied reason="compose">-</supplied>d'or</placeName></addrLine>                  
+                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_21041916">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>                  
                   <addrLine><placeName ref="#France" xml:id="France_21041916">France</placeName></addrLine>                     
                </address>
                <stamp type="postmark">
                   <orgName>postes - navales</orgName> <date cert="high" when="1916-04-22">22 avril 1916</date>
                </stamp>
             </p>
-               <pb/>
+            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_018.jpg
+               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
+               "/>
             <p>
                envoi de 
-               <address type="sender" place="envelope">               
+               <address type="sentBy" place="envelope">               
                   <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>                   
                   <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <lb/><name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_21041916">Shamrock II</name></addrLine>                   
                   <addrLine>Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_21041916">Marseille</placeName></addrLine>   
@@ -170,7 +183,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>

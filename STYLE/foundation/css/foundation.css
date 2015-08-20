@@ -2724,7 +2724,7 @@ meta.foundation-mq-topbar {
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -3702,8 +3702,8 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
-  line-height: inherit;
+  color: #008CBA; 
+  line-height: inherit;  
   text-decoration: none; }
   a:hover, a:focus {
     color: #0078a0; }

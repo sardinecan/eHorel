@@ -27,27 +27,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
          <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction type="sent">
-               <persName ref="#Horel">Armand Horel</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
+            <correspAction>
+               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+               <placeName ref="#Salonique">Salonique</placeName>
                <date when="1916-01-19">le 19 janvier 1916</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#Comtesse_Forest">Madama la Comtesse L. de la Forêst,</persName>
-            </correspAction>
+            </correspAction>            
             <correspContext>
                <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.xml">
-                  Lettre précédente envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> :
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-12">12 janvier 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-01-12">12 janvier 1916</date>
                </ref>
                <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml">
-                  Lettre suivante envoyée par <persName ref="#Horel">Armand Horel</persName> à <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName> : 
-                  <placeName ref="#Salonique">Salonique</placeName>, le <date when="1916-01-24">24 janvier 1916</date>
+                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
+                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
+                  <placeName ref="#Salonique">Salonique</placeName>
+                  <date when="1916-01-24">24 janvier 1916</date>
                </ref>               
             </correspContext>
             <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
+            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
+            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
          </correspDesc>
       </profileDesc>
    </teiHeader>
@@ -77,13 +86,13 @@
             </opener>
             <p>
                <lb/>Je vous écris ces <choice><orig>2</orig><reg>deux</reg></choice> cartes pour vous faire savoir
-               <lb/>que j'ai reçu votre bo<choice><orig>i</orig><reg>î</reg></choice>te de moutarde&pt; <hi rend="capitalize">j</hi>e vous en 
+               <lb/>que j'ai reçu votre bo<choice><orig>i</orig><reg>î</reg></choice>te de moutarde&pt; <choice><orig>j</orig><reg>J</reg></choice>e vous en 
                <lb/>remercie beaucoup<pc type="surplus">.</pc> car depuis que je l'ai&vir; elle
                <lb/>m'a <choice><orig>rendue</orig><reg>rendu</reg></choice> un très grand service ainsi qu'&a;
-               <lb/>quelques<supplied reason="compose">-</supplied>uns de mes camarades<pc>.</pc> <hi rend="capitalize">j</hi>e m'en sert
+               <lb/>quelques<supplied reason="omitted">-</supplied>uns de mes camarades<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>e m'en sert
                <lb/>pour <choice><orig>2</orig><reg>deux</reg></choice> <choice><orig>chose</orig><reg>choses</reg></choice> &a; la fois <pc type="supplied">;</pc> pour mettre dans les 
                <lb/>chaussettes<ref type="note" target="#F_delta_1854_20_1_Salonique_19-01-1916_note1" n="1"/> et j'en <choice><orig>met</orig><reg>mets</reg></choice> un peu dans du bouillon
-               <lb/>quand nous avons du <choice><orig>boulli</orig><reg>bouilli</reg></choice> au repas<pc>.</pc> <hi rend="capitalize">j</hi>'en ai
+               <lb/>quand nous avons du <choice><orig>boulli</orig><reg>bouilli</reg></choice> au repas<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>'en ai
                <lb/>pour un bon petit moment<pc>.</pc> Je suis en <choice><orig>exellente</orig><reg>excellente</reg></choice>
                <lb/>santé et je souhaite que vous vous trouviez
                <lb/>de même ainsi que votre fille et sa petite gosse&pt;
@@ -107,22 +116,22 @@
                "/>
             <p>
                <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
-               <lb/>car nous avons un rôle trop important &a; jouer<pc>.</pc> <hi rend="capitalize">e</hi>n ce
-               <lb/>moment nous gardons la passe de <placeName ref="#Salonique">Salonique</placeName>&pt; <hi rend="capitalize">n</hi>ous
-               <lb/>somme chargés de chasser les sous<supplied reason="compose">-</supplied>marins qui
+               <lb/>car nous avons un rôle trop important &a; jouer<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>n ce
+               <lb/>moment nous gardons la passe de <placeName ref="#Salonique">Salonique</placeName>&pt; <choice><orig>n</orig><reg>N</reg></choice>ous
+               <lb/>somme chargés de chasser les sous<supplied reason="omitted">-</supplied>marins qui
                <lb/>voudraient essayer de p&é;n&é;trer dans la rade mais
                <lb/>ils ne <choice><orig>risque</orig><reg>risquent</reg></choice> pas d'y venir&vir; la garde que nous faisons
                <lb/>est beaucoup trop sérieuse<pc>.</pc> Tous les jours il<del rend="overline">s</del> arrive
                <lb/>des troupes <pc type="supplied">;</pc> aujourd'hui le <name type="navire" ref="#Lutetia" xml:id="Lutetia_19011916">Lutétia</name>&vir; grand paquebot
-               <lb/><hi rend="minimize">F</hi>rançais&vir; est rentré en rade de <placeName ref="#Salonique">Salonique</placeName> avec le courrier
-               <lb/>et des soldats<pc>.</pc> <hi rend="capitalize">t</hi>ous les jours il en arrive&vir; soit <hi rend="minimize">A</hi>nglais
-               <lb/>ou <hi rend="minimize">F</hi>rançais<ref type="note" target="#F_delta_1854_20_1_Salonique_19-01-1916_note2" n="2"/><pc>.</pc> Je désire qu'une chose&vir; que la guerre
+               <lb/><choice><orig>F</orig><reg>f</reg></choice>rançais&vir; est rentré en rade de <placeName ref="#Salonique">Salonique</placeName> avec le courrier
+               <lb/>et des soldats<pc>.</pc> <choice><orig>t</orig><reg>T</reg></choice>ous les jours il en arrive&vir; soit <choice><orig>A</orig><reg>a</reg></choice>nglais
+               <lb/>ou <choice><orig>F</orig><reg>f</reg></choice>rançais<ref type="note" target="#F_delta_1854_20_1_Salonique_19-01-1916_note2" n="2"/><pc>.</pc> Je désire qu'une chose&vir; que la guerre
                <lb/>finisse cette année <pc type="supplied">;</pc> &a; condition que nous ayons
                <lb/>la victoire car autrement je préfère la voir <choice><orig>durée</orig><reg>durer</reg></choice>
                <lb/><choice><orig>2</orig><reg>deux</reg></choice> ans de plus que de perdre car je ne veux 
-               ret<lb break="no"/>ourner dans mes foyers que <hi rend="minimize">F</hi>rançais et non
+               ret<lb break="no"/>ourner dans mes foyers que <choice><orig>F</orig><reg>f</reg></choice>rançais et non
                <lb/>boche et je lutterai jusqu'&a; la mort pour rester
-               <lb/>un bon <hi rend="minimize">F</hi>rançais<pc>.</pc> <hi rend="capitalize">r</hi>ien autre chose &a; vous dire pour le
+               <lb/>un bon <choice><orig>F</orig><reg>f</reg></choice>rançais<pc>.</pc> <choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le
                <lb/>moment&vir; 
             </p>
             <closer>
@@ -150,7 +159,7 @@
             </note>
          </div>
          <div type="index">
-            <xi:include href="../master/Master.xml" xpointer="glossaire" parse="xml"/>                           
+            <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
             <xi:include href="../master/Master.xml" xpointer="place" parse="xml"/>
             <xi:include href="../master/Master.xml" xpointer="bibl" parse="xml"/>
