@@ -26,134 +26,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Salonique">Salonique</placeName>
-               <date when="1916-03-28">le 28 mars 1916</date>
-            </correspAction>
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-03-22">22 mars 1916</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-04-03">03 avril 1916</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_28-03-1916" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Salonique_28-03-1916">
-      <body xml:id="F_delta_1854_20_1_Salonique_28-03-1916_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_037.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_037.jpg"/>
-               <figDesc>
-                  Pazar «Oun-Capan <placeName ref="#Salonique">Salonique</placeName> - Grèce
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_038.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  Bord <placeName ref="#Salonique" xml:id="Salonique_28031916">Salonique</placeName>&vir;
-                  <date when="1916-03-28">le 28 Mars 1916</date>
-               </dateline>
-               <salute>
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_28031916">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/>Je vous &é;cris ces quelques mots pour vous
-               <lb/>donner de mes nouvelles&vir; que je suis toujours
-               <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
-               <lb/>cartes que vous en <sic>êtes</sic> de même ainsi que votre
-               <lb/>fille et petite fille<pc>.</pc> Les sous<supplied reason="omitted">-</supplied>marins <choice><orig>B</orig><reg>b</reg></choice>oches
-               <lb/>on fait encore des leurs&vir; ils nous ont 
-               <lb/><choice><orig>torpiller</orig><reg>torpillé</reg></choice> un chalutier qui faisait parti
-               <lb/>de mon groupe&pt; <choice><orig>é</orig><reg>É</reg></choice>tant &a; Salonique car
-               <lb/>il y a eu <choice><orig>4</orig><reg>quatre</reg></choice> <supplied reason="omitted">chalutiers</supplied> qui sont <choice><orig>parti</orig><reg>partis</reg></choice> pour <placeName ref="#Corfou" xml:id="Corfou_28031916">Corfou</placeName> mais
-               <lb/>comme nous étions <choice><orig>charger</orig><reg>chargés</reg></choice> d'un secteur
-               <lb/>utile<pc>,</pc> ce sont <choice><orig>4</orig><reg>quatre</reg></choice> autres qui ont été <choice><orig>designé</orig><reg>désignés</reg></choice>
-               <lb/>&a; notre place et sur ces <choice><orig>4</orig><reg>quatre</reg></choice> il y a eu un de
-               <lb/><choice><orig>couler</orig><reg>coulé</reg></choice>&vir; je crois par un sous<supplied reason="omitted">-</supplied>marin
-               <lb/>Autrichien&pt; <choice><orig>p</orig><reg>P</reg></choice>our le nombre de mort&vir;
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_035.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_035.jpg"/>
-               <figDesc>
-                  Vue générale de <placeName ref="#Salonique">Salonique</placeName> - Grèce
-               </figDesc>
-            </figure>
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_036.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="right">(2)</add>
-               <lb/><choice><orig>J</orig><reg>j</reg></choice>e ne peux vous le dire en ce moment mais
-               <lb/>dans une dizaine de jours je vous le dirai exactement&pt;
-               <lb/><choice><orig>c</orig><reg>C</reg></choice>es jours derniers&vir; nous avons eu un biplan
-               <lb/>d'abattu par les bulgares&pt; <choice><orig>l</orig><reg>L</reg></choice>e pilote était
-               <lb/>un <choice><orig>S</orig><reg>s</reg></choice>alonicien et l'observateur un <choice><orig>F</orig><reg>f</reg></choice>rançais&vir;
-               <lb/>ils ont été tués tous les deux<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs
-               <lb/>rien de nouveau<pc>.</pc> Tant qu'&a; votre commission
-               <lb/><choice><orig>C</orig><reg>c</reg></choice>omtesse&vir; je n'ai pas eu encore aucune
-               <lb/>occasion pour la faire car nous avons
-               <lb/><choice><orig>appareiller</orig><reg>appareillé</reg></choice> pour <choice><orig>6</orig><reg>six</reg></choice> jours&pt; <choice><orig>j</orig><reg>J</reg></choice>e pense la faire
-               <lb/>dans une quinzaine de jours environ&vir;
-               <lb/>pour avant je ne pense le faire&pt; Tant
-               <lb/>qu'ici&vir; il fait un temps magnifique&vir; un
-               <lb/>soleil d'été et je crois que nous avons pris
-               <lb/>l'<choice><orig>offensif</orig><reg>offensive</reg></choice><ref type="note" target="#F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1"/><pc>.</pc> 
-            </p>
-            <closer>
-               <salute>
-                  <choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le
-                  <lb/>moment&vir; un petit ami qui ne vous oublie
-                  <lb/>
-                  <add place="margin-right" rend="vertical">
-                     pas&vir;
-                  </add>
-               </salute>
-               <signed>
-                  <add place="margin-right" rend="vertical"><persName ref="#Horel" xml:id="Horel_28031916">Armand Horel</persName></add> 
-               </signed>
-            </closer>
-         </div>
-      </body>      
+      <xi:include href="../master/Master.xml" xpointer="front_salonique_28-03-1916" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_28-03-1916" parse="xml"/>
       <back>
-         <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">
-               En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la 
-               bataille de <placeName ref="#Verdun" xml:id="Verdun_28031916">Verdun</placeName>. Le <persName ref="#Joffre" xml:id="Joffre_28031916">généralissime Joffre</persName>
-               est favorable à une offensive dans la mesure ou anglais et russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail" xml:id="Sarrail_28031916">Le général Sarrail,</persName> 
-               toujours en charge de l'armée d'Orient, réclame, quant à lui, toujours plus de moyens surestimant les forces ennemies. 
-               <bibl corresp="#Schiavon_front" n="180"/>
-            </note>
-         </div>
+         <xi:include href="../master/Master.xml" xpointer="note_salonique_28-03-1916" parse="xml"/>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         

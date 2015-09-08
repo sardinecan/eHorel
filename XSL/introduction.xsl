@@ -33,14 +33,14 @@
                             <section class="top-bar-section">                        
                                 <!-- Partie gauche du menu -->                            
                                 <ul class="left">                            
-                                    <li><a href="../index.html">Accueil</a></li>                                    
+                                    <li><a href="index.html">Accueil</a></li>                                    
                                     <li class="has-dropdown">                                
                                         <a href="#">Correspondance d'Armand Horel</a>                                    
                                         <ul class="dropdown">                                    
                                             <li class="has-dropdown">
                                                 <a href="#">Accès par expéditeur</a>
                                                 <ul class="dropdown">
-                                                    <xsl:apply-templates select="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien"/>
+                                                    <xsl:apply-templates select="//tei:correspDesc" mode="lien"/>
                                                 </ul>
                                             </li>      
                                             <li><a href="projet/chronologie.html">Accès chronologique</a></li>                                        
@@ -51,14 +51,27 @@
                                 <!-- Partie droite -->                            
                                 <ul class="right">                            
                                     <li><a href="projet/index_edition.html">Index</a></li>                                
-                                    <li><a href="#">A propos de l'édition</a></li>                                    
+                                    <li><a href="projet/edition.html">A propos de l'édition</a></li>                                    
                                 </ul>                              
                             </section>                        
                         </nav>
                     </div>                                            
                 </header>
                 <div class="row">
-                    <img src="../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                    <ul class="example-orbit" data-orbit="true" data-options="bullets:false;">
+                        <li>
+                            <img src="../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                            <div class="orbit-caption">
+                                Caption One.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../IMAGES/photos_site/slide_14_18_2.jpg" alt="header"/>
+                            <div class="orbit-caption">
+                                Caption One.
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="row border">
                     <div class="large-4 columns">                         
@@ -228,6 +241,14 @@
         </xsl:choose>        
     </xsl:template>
     
+    <xsl:template match="//tei:front/tei:div[@xml:id='introduction_generale']//tei:ref[@type='ext_link']">
+        <xsl:for-each select=".">
+            <xsl:variable name="link" select="@target"/>
+            
+            <a href="{$link}"><xsl:apply-templates/></a>
+        </xsl:for-each>
+    </xsl:template>
+    
     
     <xsl:template match="//tei:listPerson[@xml:id='person']/tei:person/tei:persName" mode="ref_lien">
         <xsl:value-of select="normalize-space(tei:forename)"/>
@@ -236,13 +257,13 @@
         <xsl:text>.</xsl:text>                
     </xsl:template>
     
-    <xsl:template match="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien">
-        <xsl:for-each select="tei:person">
+    <xsl:template match="//tei:correspDesc" mode="lien">
+        <xsl:for-each select="tei:correspAction[@type='sent']/tei:persName">
             <xsl:variable name="id" select="concat('#',@xml:id)"/>
             <xsl:if test="//tei:correspDesc//tei:ref/tei:persName[@corresp=$id]">
                 <li class="has-dropdown">
                     <a class="link" href="#">
-                        <xsl:apply-templates select="tei:persName"/><xsl:text> à :</xsl:text>
+                        <xsl:apply-templates select="."/><xsl:text> à :</xsl:text>
                     </a>
                     <ul class="dropdown">                    
                         <xsl:for-each select="//tei:correspDesc//tei:ref[descendant::tei:persName[@corresp=$id]]">

@@ -12,120 +12,217 @@
             type="text/css"/>
       <script src="../../STYLE/foundation/js/vendor/modernizr.js">/*Pour transformation xslt*/</script>
       <script src="../../JS/js/jquery.js">/*Pour transformation xslt*/</script>
+      <script src="../../JS/menu/long_dropdown.js">/*Pour transformation xslt*/</script>
    </head>
    <body>
       <header class="row border-top">
-         <img src="../../STYLE/images/logo_bdic.gif" alt="logo_BDIC"/>
-         <nav class="top-bar" data-topbar="yes" role="navigation">
-            <ul class="title-area">
-               <li class="name">
-                  <h1>
-                     <a href="http://www.bdic.fr/">BDIC</a>
-                  </h1>
-               </li>
-               <li class="toggle-topbar menu-icon">
-                  <a href="#">
-                     <span>Menu</span>
-                  </a>
-               </li>
-            </ul>
-            <section class="top-bar-section">
-               <ul class="left">
-                  <li>
-                     <a href="../index.html">Accueil</a>
+         <img src="../../IMAGES/photos_site/logo_bdic.gif" alt="logo_BDIC"/>
+         <div class="contain-to-grid sticky">
+            <nav class="top-bar"
+                 data-options="sticky_on: large"
+                 data-topbar="yes"
+                 role="navigation">
+               <ul class="title-area">
+                  <li class="name">
+                     <h1>
+                        <a href="http://www.bdic.fr/">BDIC</a>
+                     </h1>
                   </li>
-                  <li class="has-dropdown">
-                     <a href="#">Correspondance d'Armand Horel</a>
-                     <ul class="dropdown">
-                        <li>
-                           <a href="../projet/chronologie.html">Accès chronologique</a>
-                        </li>
-                        <li>
-                           <a href="../projet/geographie.html">Accès géographique</a>
-                        </li>
-                     </ul>
+                  <li class="toggle-topbar menu-icon">
+                     <a href="#">
+                        <span>Menu</span>
+                     </a>
                   </li>
                </ul>
-               <ul class="right">
-                  <li class="has-dropdown">
-                     <a href="../projet/glossaire.html">Index et Glossaire</a>
-                     <ul class="dropdown">
-                        <li>
-                           <a href="../projet/glossaire.html#personnes">Personnes</a>
-                        </li>
-                        <li>
-                           <a href="../projet/glossaire.html#lieux">Lieux</a>
-                        </li>
-                        <li>
-                           <a href="../projet/glossaire.html#glossaire">Glossaire</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="#">A propos de l'édition</a>
-                  </li>
-               </ul>
-            </section>
-         </nav>
+               <section class="top-bar-section">
+                  <ul class="left">
+                     <li>
+                        <a href="../index.html">Accueil</a>
+                     </li>
+                     <li class="has-dropdown">
+                        <a href="#">Correspondance d'Armand Horel</a>
+                        <ul class="dropdown">
+                           <li class="has-dropdown">
+                              <a href="#">Accès par expéditeur</a>
+                              <ul class="dropdown">
+                                 <li class="has-dropdown">
+                                    <a class="link" href="#">Armand Horel à :</a>
+                                    <ul class="dropdown">
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_15-05-1915.html">la Comtesse L. de la Forêst : Salonique, 15 mai 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Toulon/F_delta_1854_20_1_Toulon_8-08-1915.html">la Comtesse L. de la Forêst : Toulon, 08 août 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Toulon/F_delta_1854_20_1_Toulon_29-08-1915.html">la Comtesse L. de la Forêst : Toulon, 29 août 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.html">la Comtesse L. de la Forêst : Moudros, 03 septembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.html">la Comtesse L. de la Forêst : Imbros, 23 septembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.html">la Comtesse L. de la Forêst : Mythilene, 06 octobre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.html">la Comtesse L. de la Forêst : Port Iero, 09 octobre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.html">la Comtesse L. de la Forêst : Port Iero, 20 octobre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.html">la Comtesse L. de la Forêst : Port Iero, 27 octobre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.html">la Comtesse L. de la Forêst : Port Iero, 03 novembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.html">la Comtesse L. de la Forêst : Port Iero, 10 novembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_16-11-1915.html">la Comtesse L. de la Forêst : Salonique, 16 novembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_23-11-1915.html">la Comtesse L. de la Forêst : Salonique, 23 novembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_30-11-1915.html">la Comtesse L. de la Forêst : Salonique, 30 novembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_07-12-1915.html">la Comtesse L. de la Forêst : Salonique, 07 décembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.html">la Comtesse L. de la Forêst : Salonique, 14 décembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_17-12-1915.html">la Comtesse L. de la Forêst : Salonique, 17 décembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.html">la Comtesse L. de la Forêst : Salonique, 20 décembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_27-12-1915.html">la Comtesse L. de la Forêst : Salonique, 27 décembre 1915</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_03-01-1916.html">la Comtesse L. de la Forêst : Salonique, 03 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_07-01-1916.html">la Comtesse L. de la Forêst : Salonique, 07 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_12-01-1916.html">la Comtesse L. de la Forêst : Salonique, 12 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_19-01-1916.html">la Comtesse L. de la Forêst : Salonique, 19 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.html">la Comtesse L. de la Forêst : Salonique, 24 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_25-01-1916.html">la Comtesse L. de la Forêst : Salonique, 25 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.html">la Comtesse L. de la Forêst : Salonique, 31 janvier 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.html">la Comtesse L. de la Forêst : Salonique, 05 février 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_16-02-1916.html">la Comtesse L. de la Forêst : Salonique, 16 février 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.html">la Comtesse L. de la Forêst : Salonique, 21 février 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_10-03-1916.html">la Comtesse L. de la Forêst : Salonique, 10 mars 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_16-03-1916.html">la Comtesse L. de la Forêst : Salonique, 16 mars 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_17-03-1916.html">la Comtesse L. de la Forêst : Salonique, 17 mars 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_22-03-1916.html">la Comtesse L. de la Forêst : Salonique, 22 mars 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.html">la Comtesse L. de la Forêst : Salonique, 28 mars 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_03-04-1916.html">la Comtesse L. de la Forêst : Salonique, 03 avril 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.html">la Comtesse L. de la Forêst : Salonique, 09 avril 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_15-04-1916.html">la Comtesse L. de la Forêst : Salonique, 15 avril 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.html">la Comtesse L. de la Forêst : Salonique, 21 avril 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_27-04-1916.html">la Comtesse L. de la Forêst : Salonique, 27 avril 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Corfou/F_delta_1854_20_1_Corfou_04-11-1916.html">la Comtesse L. de la Forêst : Corfou, 04 novembre 1916</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Salonique/F_delta_1854_20_1_Salonique_dateUnk_a05-02_b16-03.html">la Comtesse L. de la Forêst : Salonique, date inconnue</a>
+                                       </li>
+                                       <li>
+                                          <a href="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.html">la Comtesse L. de la Forêst : Port Iero, date inconnue</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="../projet/chronologie.html">Accès chronologique</a>
+                           </li>
+                           <li>
+                              <a href="../projet/geographie.html">Accès géographique</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <ul class="right">
+                     <li>
+                        <a href="../projet/index_edition.html">Index</a>
+                     </li>
+                     <li>
+                        <a href="../projet/edition.html">A propos de l'édition</a>
+                     </li>
+                  </ul>
+               </section>
+            </nav>
+         </div>
       </header>
       <div class="row border">
-         <div class="medium-12 large-9 columns">
+         <div class="medium-12 large-12 columns">
             <div class="row">
-               <img src="../../STYLE/images/slide_14_18_1.jpg" alt="header"/>
+               <ul class="example-orbit"
+                   data-orbit="true"
+                   data-options="bullets:false;">
+                  <li>
+                     <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                     <div class="orbit-caption">
+                                       Caption One.
+                                   </div>
+                  </li>
+                  <li>
+                     <img src="../../IMAGES/photos_site/slide_14_18_2.jpg" alt="header"/>
+                     <div class="orbit-caption">
+                                       Caption One.
+                                   </div>
+                  </li>
+               </ul>
             </div>
          </div>
-         <div class="medium-12 large-3 columns asideDroit">
-            <div class="row">
-               <div class="large-12">
-                  <p>
-                     <b>Don de Madame la Comtesse de la Forest</b>
-                     <br/>cote : F delta 1854/20</p>
-                  <hr/>
-               </div>
-            </div>
-            <div class="row">
-               <div class="large-12">
-                  <p class="metadonnees">
-                     <span class="smallcaps">Expéditeur : </span>Armand Horel<br/>
-                     <span class="smallcaps">Lieu : </span>Port Iero<br/>
-                     <span class="smallcaps">Date : </span>09 octobre 1915<br/>
-                     <span class="smallcaps">Destinataire : </span>Madame la Comtesse L. de la Forêst</p>
-               </div>
-            </div>
-         </div>
-         <hr style="margin-bottom:0;"/>
       </div>
-      <div class="row border">
-         <div class="medium-2 large-2 columns text-left">
-            <h3>Correspondance envoyée à partir de Port Iero</h3>
-            <ul class="context">
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.html">09 octobre 1915</a>
-               </li>
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_20-10-1915.html">20 octobre 1915</a>
-               </li>
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.html">27 octobre 1915</a>
-               </li>
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11.html">date inconnue</a>
-               </li>
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_03-11-1915.html">03 novembre 1915</a>
-               </li>
-               <li>
-                  <a class="link"
-                     href="../Port_Iero/F_delta_1854_20_1_Port_Iero_10-11-1915.html">10 novembre 1915</a>
-               </li>
-            </ul>
-         </div>
-         <div class="medium-10 large-7 columns border">
+      <div class="row" data-equalizer="true">
+         <div class="medium-12 large-8 columns panel" data-equalizer-watch="true">
             <div class="row">
                <div class="large-3 columns">
                   <a href="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.html">Précédente</a>
@@ -135,117 +232,222 @@
                </div>
             </div>
             <div class="row">
+               <div class="large-12 columns">
+                  <div class="row">
+                     <div class="large-12">
+                        <p class="metadonnees">
+                           <em>Armand Horel à Madame la Comtesse L. de la Forêst</em>
+                           <em class="right">Port Iero 09 octobre 1915</em>
+                           <br/>
+                           <em>
+                              <span class="smallcaps">Objets : </span>vie du marin, guerre marine, guerre terrestre.</em>
+                           <em class="right">
+                              <span class="smallcaps">Support : </span>Cartes Postales</em>
+                           <hr/>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
                <div class="large-12">
-            
-            
-            
-            
+               
+               
+               
+               
                   <p class="dateline">                                                      
-                  Ile de <a href="../projet/glossaire.html#Port_Iero"
+                     Ile de <a href="#"
                         id="Port_Iero_09101915"
-                        class="glossary">Port Iéro<span>Port Iéro, Grèce, Egée-Septentrionale, dist. Lesbos.</span>
-                     </a>,                  
-                  le 9 octobre 1915                  
-               </p>
+                        aria-expanded="false"
+                        aria-controls="drop_2"
+                        data-dropdown="drop_2">Port Iéro</a>
+                     <span id="drop_2"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Port Iéro, <small>Grèce, Egée-Septentrionale, dist. Lesbos, dème de Lesbos.</small>
+                        <br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Port_Iero">Accès à l'index</a>
+                     </span>,                  
+                     le 9 octobre 1915                  
+                  </p>
                   <p class="text-center">
-                     <a href="../projet/glossaire.html#Comtesse_Forest"
+                     <a href="#"
                         id="Comtesse_Forest_09101915"
-                        class="glossary">Comtesse<span>La Forest Divonne (Philomène de), Comtesse</span>
-                     </a>,
-               </p>
-            
+                        aria-expanded="false"
+                        aria-controls="drop_3"
+                        data-dropdown="drop_3">Comtesse</a>
+                     <span id="drop_3"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">La Forest Divonne (Philomène, Comtesse de), <small>voir <a href="../projet/index_edition.html#Silve_Claude">Silve Claude</a>.</small>
+                        <br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Comtesse_Forest">Accès à l'index</a>
+                     </span>,
+                  </p>
+               
                   <p>
-               Je rends réponse à votre aimable lettre que je viens de reçevoir à l'instant. Je
-               serais enchanté de pouvoir vous donner des nouvelles de vos neveux mais
-               pour le moment cela m'est impossible car je suis à seize heures des <a href="../projet/glossaire.html#Dardanelles"
+                  Je rends réponse à votre aimable lettre que je viens de reçevoir à l'instant. Je
+                  serais enchanté de pouvoir vous donner des nouvelles de vos neveux mais
+                  pour le moment cela m'est impossible car je suis à seize heures des <a href="#"
                         id="Dardanelles_09101915"
-                        class="glossary">Dardanelles<span>                                                      
-                     Dardanelles                                                                                    
-                   (détroit des), </span>
-                     </a>.
-               Nous sommes dans une île grecque, je ne sais pas encore combien de
-               temps nous y restons. Je serais heureux de m'en aller car de nouvelles
-               nous n'en avons pas souvent. Voilà quinze jours que nous sommes 
-               ici, nous avons eu une seule fois [du] courrier ; c'est tout de même       
-               trop peu. Enfin, espérons que les prochains courriers seront plus
-               réguliers. Avec tout cela il y a encore eu un courrier français 
-               de coulé et trois anglais par ces maudits boches qui ne méritent
-               pas un autre nom. Peut être que dans ce courrier j'avais quelques
-               lettres ; tant pis, il vaut mieux que ce soit un courrier qu'un cuirassé
-               car sur un cuirassé il y a sept à huit cents hommes tandis que sur ce courrier
-               il y avait au plus quatre-vingts hommes. Voilà encore une nation de plus 
-               contre nous, ces salauds de bulgares<sup>
+                        aria-expanded="false"
+                        aria-controls="drop_4"
+                        data-dropdown="drop_4">Dardanelles</a>
+                     <span id="drop_4"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Dardanelles (détroit des), <small>Turquie.</small>
+                        <br/>-
+                        Détroit reliant la mer Egée à la mer de Marmara et permettant ainsi un accès à la mer Noire par le Bosphore.
+                     <br/>-Entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en 
+                        guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des 
+                        Dardanelles devient un enjeux stratégique pour les deux camps.
+                        Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée 
+                        à la mer Noire devait permettre d'assurer une liaison entre la Russie et les forces franco-britanniques.<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Dardanelles">Accès à l'index</a>
+                     </span>.
+                  Nous sommes dans une île grecque, je ne sais pas encore combien de
+                  temps nous y restons. Je serais heureux de m'en aller car de nouvelles
+                  nous n'en avons pas souvent. Voilà quinze jours que nous sommes 
+                  ici, nous avons eu une seule fois du courrier ; c'est tout de même       
+                  trop peu. Enfin, espérons que les prochains courriers seront plus
+                  réguliers. Avec tout cela il y a encore eu un courrier français 
+                  de coulé et trois anglais par ces maudits boches qui ne méritent
+                  pas un autre nom. Peut être que dans ce courrier j'avais quelques
+                  lettres ; tant pis, il vaut mieux que ce soit un courrier qu'un cuirassé
+                  car sur un cuirassé il y a sept à huit cents hommes tandis que sur ce courrier
+                  il y avait au plus quatre-vingts hommes. Voilà encore une nation de plus 
+                  contre nous, ces salauds de bulgares<sup>
                         <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1"
                            id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1appel">1</a>
                      </sup>. Mais je cois qu'ils ne
-               seront pas les seuls, la <a href="../projet/glossaire.html#Roumanie"
+                  seront pas les seuls, la <a href="#"
                         id="Roumanie_09101915"
-                        class="glossary">Roumanie<span>Roumanie, </span>
-                     </a>
+                        aria-expanded="false"
+                        aria-controls="drop_5"
+                        data-dropdown="drop_5">Roumanie</a>
+                     <span id="drop_5"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Roumanie.<br/>-Le 17 août 1916 un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Roumanie">Accès à l'index</a>
+                     </span>
                      <sup>
                         <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2"
                            id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2appel">2</a>
-                     </sup> et la <a href="../projet/glossaire.html#Grece"
+                     </sup> et la <a href="#"
                         id="Grece_09101915"
-                        class="glossary">Grèce<span>Grèce, </span>
-                     </a>
+                        aria-expanded="false"
+                        aria-controls="drop_6"
+                        data-dropdown="drop_6">Grèce</a>
+                     <span id="drop_6"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Grèce.<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Grece">Accès à l'index</a>
+                     </span>
                      <sup>
                         <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3"
                            id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3appel">3</a>
                      </sup> vont surement
-               se mettre de la partie alors ça équilibrera un peu de chaque coté.
-               Je viens de recevoir une lettre de mon malheureux <a href="../projet/glossaire.html#Horel_Louis"
+                  se mettre de la partie alors ça équilibrera un peu de chaque coté.
+                  Je viens de recevoir une lettre de mon malheureux <a href="#"
                         id="Horel_Louis__09101915"
-                        class="glossary">frère<span>Horel (Louis)</span>
-                     </a>, il me
-            </p>
+                        aria-expanded="false"
+                        aria-controls="drop_7"
+                        data-dropdown="drop_7">frère</a>
+                     <span id="drop_7"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Horel (Louis), 1888-1918,Frère d'Armand Horel.<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Horel_Louis">Accès à l'index</a>
+                     </span>, il me
+               </p>
                   <hr/>
-            
-            
+               
+               
                   <p>
-                     <sub>(2)</sub>
-               dit qu'il n'y a encore rien pour lui, que pourtant il trouve drôle de
-               voir des camarades de son atelier partir. Il y en a sept qui sont partis
-               le mois dernier. Lui, ça lui semble drôle de rien avoir pour lui. 
-               Du <a href="../projet/glossaire.html#Le_Mire"
+                  
+                  dit qu'il n'y a encore rien pour lui, que pourtant il trouve drôle de
+                  voir des camarades de son atelier partir. Il y en a sept qui sont partis
+                  le mois dernier. Lui, ça lui semble drôle de rien avoir pour lui. 
+                  Du <a href="#"
                         id="Le_Mire_09101915"
-                        class="glossary">Myre de Vilers<span>Le Myre de Vilers (Charles), 1833 - 1918, Député</span>
-                     </a>, je n'ai encore pas eu de réponse ; c'est qu'il
-               lui tarde de sortir de là-dedans. Sur sa lettre il me disait
-               qu'il aurait été vous voir s'il venait qu'à sortir, moi je lui ai
-               répondu que vous n'habitiez plus <a href="../projet/glossaire.html#Paris"
+                        aria-expanded="false"
+                        aria-controls="drop_10"
+                        data-dropdown="drop_10">Myre de Vilers</a>
+                     <span id="drop_10"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Le Myre de Vilers (Charles), 1833-1918,Député.<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Le_Mire">Accès à l'index</a>
+                     </span>, je n'ai encore pas eu de réponse ; c'est qu'il
+                  lui tarde de sortir de là-dedans. Sur sa lettre il me disait
+                  qu'il aurait été vous voir s'il venait qu'à sortir, moi je lui ai
+                  répondu que vous n'habitiez plus <a href="#"
                         id="Paris_09101915"
-                        class="glossary">Paris<span>Paris, ch.-l.dép. Paris.</span>
-                     </a> mais ça ne fait rien,
-               il pourrait quand même aller jusqu'à chez vous. Comme
-               nouvelles de la guerre, je ne connais toujours rien. Ici pour nous
-               c'est fini ; jamais nous n'arriverons à passer le détroit, il est
-               trop miné et d'ailleurs il est infranchissable. Notre seul travail
-               est de leur tenir tête avec nos troupes de terre de manière à ce qu"ils
-               n'avancent pas. Mais je crois que nous allons tenter un autre coup
-               par <a href="../projet/glossaire.html#Salonique"
+                        aria-expanded="false"
+                        aria-controls="drop_11"
+                        data-dropdown="drop_11">Paris</a>
+                     <span id="drop_11"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Paris, <small>ch.-l.dép. Paris.</small>
+                        <br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Paris">Accès à l'index</a>
+                     </span> mais ça ne fait rien,
+                  il pourrait quand même aller jusqu'à chez vous. Comme
+                  nouvelles de la guerre, je ne connais toujours rien. Ici pour nous
+                  c'est fini ; jamais nous n'arriverons à passer le détroit, il est
+                  trop miné et d'ailleurs il est infranchissable. Notre seul travail
+                  est de leur tenir tête avec nos troupes de terre de manière à ce qu"ils
+                  n'avancent pas. Mais je crois que nous allons tenter un autre coup
+                  par <a href="#"
                         id="Salonique_09101915"
-                        class="glossary">Salonique<span>
-                     Salonique                     
-                  , Grèce, Macédoine-centrale, dist. Thessalonique.</span>
-                     </a> avec de nouvelles troupes<sup>
+                        aria-expanded="false"
+                        aria-controls="drop_12"
+                        data-dropdown="drop_12">Salonique</a>
+                     <span id="drop_12"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Salonique, auj. Thessalonique, <small>Grèce, Macédoine-centrale, dist. Thessalonique.</small>
+                        <br/>-Durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles.<br/>-Le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés,<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Salonique">Accès à l'index</a>
+                     </span> avec de nouvelles troupes<sup>
                         <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4"
                            id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4appel">4</a>
                      </sup>. Là nous reussirons peut
-               être à faire quelque chose de<i>(?)</i> bon mais par mer c'est fini.
-               Je suis toujours en parfaite santé et souhaite que vous vous trouviez
-               de même à l'arrivée de mes cartes. Le 7 octobre nous avons enterrer
-               un de nos camarades, un matelot mecanicien mort de la
-               dysenterie. Le pauvre malheureux, il est bien loin des siens.
-            </p>
-            
-                  <p class="text-center">
-                     <a href="../projet/glossaire.html#Horel"
+                  être à faire quelque chose de<i>(?)</i> bon mais par mer c'est fini.
+                  Je suis toujours en parfaite santé et souhaite que vous vous trouviez
+                  de même à l'arrivée de mes cartes. Le 7 octobre nous avons enterrer
+                  un de nos camarades, un matelot mecanicien mort de la
+                  dysenterie. Le pauvre malheureux, il est bien loin des siens.
+               </p>
+               
+                  <p class="text-right">
+                     <a href="#"
                         id="Horel_09101915"
-                        class="glossary">A. Horel<span>Horel (Armand), Quartier-maître canonnier</span>
-                     </a>
+                        aria-expanded="false"
+                        aria-controls="drop_13"
+                        data-dropdown="drop_13">A. HOREL</a>
+                     <span id="drop_13"
+                           class="medium content f-dropdown"
+                           data-dropdown-content="true"
+                           aria-hidden="true"
+                           tabindex="-1">Horel (Armand), 1889-1953,Quartier-maître canonnier.<br/>..............................<br/>
+                        <a href="../projet/index_edition.html#Horel">Accès à l'index</a>
+                     </span>
                   </p>
-            
+               
                </div>
             </div>
             <div class="row">
@@ -257,15 +459,21 @@
                            <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1appel"
                               id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1">1</a>
                         </sup>
-               Après des négociations concernant les bénéfices qu'elle pourrait tirer de sont engagement dans le conflit, 
-               la <a href="../projet/glossaire.html#Bulgarie"
+                  Après des négociations concernant les bénéfices qu'elle pourrait tirer de sont engagement dans le conflit, 
+                  la <a href="#"
                            id="Bulgarie_09101915"
-                           class="glossary">Bulgarie<span>
-                     Bulgarie                     
-                  , </span>
-                        </a> signe un accord secret avec l'Alliance le 4 septembre 1915, le 23 elle décrète la mobilisation générale.
-                                                             
-            voir : <ul>
+                           aria-expanded="false"
+                           aria-controls="drop_14"
+                           data-dropdown="drop_14">Bulgarie</a>
+                        <span id="drop_14"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Bulgarie.<br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Bulgarie">Accès à l'index</a>
+                        </span> signe un accord secret avec l'Alliance le 4 septembre 1915, le 23 elle décrète la mobilisation générale.
+                                                                
+               voir : <ul>
                            <li class="note">Max Schiavon, <i>Le Front d'Orient : Du désastre des Dardanelles à la victoire finale 1915-1918</i>, Paris, 2014.</li>
                         </ul>
                      </li>
@@ -274,15 +482,30 @@
                            <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2appel"
                               id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2">2</a>
                         </sup>
-               La <a href="../projet/glossaire.html#Roumanie" class="glossary">roumanie<span>Roumanie, </span>
-                        </a> ne déclarera la guerre à l'<a href="../projet/glossaire.htmlAutriche_Hongrie"
+                  La <a href="#"
+                           aria-expanded="false"
+                           aria-controls="drop_15"
+                           data-dropdown="drop_15">roumanie</a>
+                        <span id="drop_15"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Roumanie.<br/>-Le 17 août 1916 un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".<br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Roumanie">Accès à l'index</a>
+                        </span> ne déclarera la guerre à l'<a href="#"
                            id="Autriche_Hongrie_09101915"
-                           class="glossary">Autriche-Hongrie<span>
-                     Autriche-Hongrie                    
-                  , </span>
-                        </a> qu'en août 1916.
-               
-            voir : <ul>
+                           aria-expanded="false"
+                           aria-controls="drop_16"
+                           data-dropdown="drop_16">Autriche-Hongrie</a>
+                        <span id="drop_16"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Autriche-Hongrie.<br/>..............................<br/>
+                           <a href="../projet/index_edition.htmlAutriche_Hongrie">Accès à l'index</a>
+                        </span> qu'en août 1916.
+                  
+               voir : <ul>
                            <li class="note"> , <i>«La Roumanie dans la Grande Guerre : des affrontements aux monuments»</i>, Mission centenaire, 2013, <a href="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments">URL</a>.</li>
                         </ul>
                      </li>
@@ -291,10 +514,19 @@
                            <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3appel"
                               id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3">3</a>
                         </sup>
-               Devant faire face à des divisions internes aboutissant au «Schisme national», la <a href="../projet/glossaire.html#Grece" class="glossary">Grèce<span>Grèce, </span>
-                        </a> n'entrera véritablement en guerre qu'à l'été 1917. 
-               
-            voir : <ul>
+                  Devant faire face à des divisions internes aboutissant au «Schisme national», la <a href="#"
+                           aria-expanded="false"
+                           aria-controls="drop_17"
+                           data-dropdown="drop_17">Grèce</a>
+                        <span id="drop_17"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Grèce.<br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Grece">Accès à l'index</a>
+                        </span> n'entrera véritablement en guerre qu'à l'été 1917. 
+                  
+               voir : <ul>
                            <li class="note">
                               <i>«La Grèce dans les collections de l'ECPAD»</i>, Mission centenaire, 2012, <a href="http://centenaire.org/fr/dans-le-monde/europe/grece/la-grece-dans-les-collections-de-lecpad">URL</a>.</li>
                         </ul>
@@ -304,19 +536,50 @@
                            <a href="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4appel"
                               id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4">4</a>
                         </sup>
-               La campagne des <a href="../projet/glossaire.html#Dardanelles" class="glossary">Dardanelles<span>                                                      
-                     Dardanelles                                                                                    
-                   (détroit des), </span>
-                        </a> est un échec pour les alliés. La <a href="../projet/glossaire.html#Serbie"
+                  La campagne des <a href="#"
+                           aria-expanded="false"
+                           aria-controls="drop_18"
+                           data-dropdown="drop_18">Dardanelles</a>
+                        <span id="drop_18"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Dardanelles (détroit des), <small>Turquie.</small>
+                           <br/>-
+                        Détroit reliant la mer Egée à la mer de Marmara et permettant ainsi un accès à la mer Noire par le Bosphore.
+                     <br/>-Entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en 
+                        guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des 
+                        Dardanelles devient un enjeux stratégique pour les deux camps.
+                        Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée 
+                        à la mer Noire devait permettre d'assurer une liaison entre la Russie et les forces franco-britanniques.<br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Dardanelles">Accès à l'index</a>
+                        </span> est un échec pour les alliés. La <a href="#"
                            id="Serbie_09101915"
-                           class="glossary">Serbie<span>Serbie, </span>
-                        </a>, menacée par la <a href="../projet/glossaire.html#Bulgarie" class="glossary">Bulgarie<span>
-                     Bulgarie                     
-                  , </span>
-                        </a>, devient un pretexte au désengagement des troupes
-               sans donner l'impression d'avoir à faire face à un échec important.
-               
-            voir : <ul>
+                           aria-expanded="false"
+                           aria-controls="drop_19"
+                           data-dropdown="drop_19">Serbie</a>
+                        <span id="drop_19"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Serbie.<br/>-
+                        Pays allié à l'Empire russe
+                     <br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Serbie">Accès à l'index</a>
+                        </span>, menacée par la <a href="#"
+                           aria-expanded="false"
+                           aria-controls="drop_20"
+                           data-dropdown="drop_20">Bulgarie</a>
+                        <span id="drop_20"
+                              class="medium content f-dropdown"
+                              data-dropdown-content="true"
+                              aria-hidden="true"
+                              tabindex="-1">Bulgarie.<br/>..............................<br/>
+                           <a href="../projet/index_edition.html#Bulgarie">Accès à l'index</a>
+                        </span>, devient un pretexte au désengagement des troupes
+                  sans donner l'impression d'avoir à faire face à un échec important.
+                  
+               voir : <ul>
                            <li class="note">Max Schiavon, <i>Le Front d'Orient : Du désastre des Dardanelles à la victoire finale 1915-1918</i>, Paris, 2014.</li>
                         </ul>
                      </li>
@@ -324,28 +587,47 @@
                </div>
             </div>
          </div>
-         <div class="medium-12 large-3 columns asideDroit">
-            <h3>Cliquez sur les images pour consulter l'intégralité du fonds numérisé.</h3>
-            <a href="               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                ">
-               <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_175.jpg"
-                    alt="image"
-                    class="img-responsive center-block facs"/>
-            </a>
-            <a href="               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                ">
-               <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_176.jpg"
-                    alt="image"
-                    class="img-responsive center-block facs"/>
-            </a>
-            <a href="               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                ">
-               <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_173.jpg"
-                    alt="image"
-                    class="img-responsive center-block facs"/>
-            </a>
-            <a href="               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                ">
-               <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_174.jpg"
-                    alt="image"
-                    class="img-responsive center-block facs"/>
-            </a>
+         <div class="medium-12 large-4 columns panel border"
+              data-equalizer-watch="true">
+            <h3 class="left h3_aside">Cliquez sur les images pour consulter l'intégralité du fonds numérisé :</h3>Don de Madame la Comtesse de la Forest<br/>cote : F delta 1854/20<hr/>
+            <ul class="example-orbit" data-orbit="true">
+               <li>
+                  <a href="                  http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                   ">
+                     <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_175.jpg"
+                          alt="image"/>
+                  </a>
+                  <div class="orbit-caption">
+                  
+                  
+                     Vue intérieure de l'église Saint Michel Mandamados
+                  
+               </div>
+               </li>
+               <li>
+                  <a href="                  http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                   ">
+                     <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_176.jpg"
+                          alt="image"/>
+                  </a>
+               </li>
+               <li>
+                  <a href="                  http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                   ">
+                     <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_173.jpg"
+                          alt="image"/>
+                  </a>
+                  <div class="orbit-caption">
+                  
+                  
+                     Village Molivo- Mételin
+                  
+               </div>
+               </li>
+               <li>
+                  <a href="                  http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                   ">
+                     <img src="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_174.jpg"
+                          alt="image"/>
+                  </a>
+               </li>
+            </ul>
          </div>
       </div>
       <footer class="row border">
@@ -353,17 +635,17 @@
             <div class="block_footer_img">
                <a href="http://www.bdic.fr/">
                   <img style="margin-top:5px;"
-                       src="../../STYLE/images/logo_bdic.gif"
+                       src="../../IMAGES/photos_site/logo_bdic.gif"
                        alt="logo_BDIC"/>
                </a>
                <a href="http://www.u-paris10.fr/">
                   <img style="margin-top:5px;"
-                       src="../../STYLE/images/paris_ouest.png"
+                       src="../../IMAGES/photos_site/paris_ouest.png"
                        alt="logo_Paris_Ouest"/>
                </a>
                <a href="http://www.u-plum.fr/">
                   <img style="margin-top:5px;"
-                       src="../../STYLE/images/paris_lumieres.png"
+                       src="../../IMAGES/photos_site/paris_lumieres.png"
                        alt="logo_Paris_Lumiere"/>
                </a>
             </div>
@@ -401,5 +683,6 @@
       <script src="../../STYLE/foundation/js/vendor/jquery.js">/*Pour transformation xslt*/</script>
       <script src="../../STYLE/foundation/js/foundation.min.js">/*Pour transformation xslt*/</script>
       <script>$(document).foundation();</script>
+      <script src="../../JS/accordion_equalizer/reflow.js">/*règle de problème de reflow pour utilisation de la fonction equalizer et accordion de foundation*/</script>
    </body>
 </html>

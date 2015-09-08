@@ -11,12 +11,13 @@
     <xsl:template match="//tei:correspDesc[@type='sommaire']">
         <xsl:for-each select="tei:correspAction/tei:date">            
             <xsl:variable name="id" select="concat('#',@xml:id)"/>
+            <xsl:variable name="corresp" select="@corresp"/>
             <xsl:element name="event">
                 <xsl:attribute name="start" select="@from | @when"/>
                 <xsl:if test="@to">
                     <xsl:attribute name="end" select="@to"/>
                 </xsl:if>
-                <xsl:variable name="place" select="../tei:placeName"/>
+                <xsl:variable name="place" select="../tei:placeName[@ref=$corresp]"/>
                 <xsl:attribute name="title" select="$place"/>                
                 <xsl:variable name="nombre" select="count(../../tei:correspContext/tei:ref[@corresp=$id])"/>
                 <xsl:text>&lt;ul class="infobulle"&gt;</xsl:text>

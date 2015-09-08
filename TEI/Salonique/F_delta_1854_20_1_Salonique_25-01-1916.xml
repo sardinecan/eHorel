@@ -26,126 +26,13 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Salonique">Salonique</placeName>
-               <date when="1916-01-25">le 25 janvier 1916</date>
-            </correspAction>
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_24-01-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-01-24">24 janvier 1916</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_31-01-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-01-31">31 janvier 1916</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_25-01-1916" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Salonique_25-01-1916">
-      <body xml:id="F_delta_1854_20_1_Salonique_25-01-1916_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_081.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_081.jpg"/>
-               <figDesc>
-                  Une vue de<placeName ref="#Zante" xml:id="Zante_25011916">Zante</placeName>
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_082.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  bord <supplied reason="omitted"><placeName ref="#Salonique" xml:id="Salonique_25011916">Salonique</placeName></supplied>&vir;
-                  <date when="1916-01-25">le 25 janvier 1916</date>
-               </dateline>
-               <salute>
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_25011916">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb type="supplied"/>Venant de <choice><orig>reçevoir</orig><reg>recevoir</reg></choice>
-               <lb/>votre lettre datée du <date when="1916-01-09">9 janvier 1916</date> <pc type="supplied">;</pc> je m'empresse de vous en
-               <lb/>rendre réponse<pc type="surplus">,</pc> et suis heureux d'un coté et de l'autre ça me
-               <lb/>fait peine de vous savoir souffrante ainsi que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey" xml:id="MME_Gauffrey_25011916">Gauffrey</persName>&pt;
-               <lb/><choice><orig>j</orig><reg>J</reg></choice>e suis loin de vous en vouloir pour <choice><orig>se</orig><reg>ce</reg></choice> si long retard &a; me
-               <lb/>répondre&vir; je me suis douté que vous deviez avoir des ennuis
-               <lb/>ou alors qu'il vous serait arrivé malheur<pc>,</pc> heureusement
-               <lb/>que non<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>e crois que lorsque l'on commence &a; avoir des ennuis
-               <lb/>cela n'en fini plus<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; j'espère que lorsque vous aurez
-               <lb/>reçu ces <choice><orig>2</orig><reg>deux</reg></choice> cartes&vir; que votre main soit complètement guérie
-               <lb/><unclear>et</unclear> que M<hi rend="super">me</hi> <persName ref="#MME_Gauffrey">Gauffrey</persName> soit de nouveau debout en bonne
-               <lb/>santé<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> <hi rend="capitalize">a</hi>lors M<hi rend="super">ieur</hi> <persName ref="#MR_Gauffrey" xml:id="MR_Gauffrey_25011916">Gauffrey</persName> votre gendre a été blessé<pc>,</pc> je <choice><orig>penses</orig><reg>pense</reg></choice>
-               <lb/>que <choice><orig>ces</orig><reg>ses</reg></choice> blessures n'étaient pas trop graves car il est retourné
-               <lb/>&a; son poste<pc type="surplus">,</pc> dans la <placeName ref="#Somme" xml:id="Somme_25011916">Somme</placeName><pc>.</pc> Je souhaite de tout coeur qu'il
-               <lb/>s'en <surplus reason="repeated">en</surplus> réchappe de cette guerre<pc type="surplus">.</pc> et en plus qu'elle en finisse
-               <lb/>le <w rend="aggl"><choice><orig>plu</orig><reg>plus</reg></choice></w><w>t&ô;t</w> possible<pc>,</pc> mais comme je l'ai toujours dit&vir; avec
-               <lb/>la victoire<pc>.</pc> Je vous remercie beaucoup <hi rend="minimize">C</hi>omtesse pour les 
-               <lb/>d&é;marches que vous avez faites pour mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_25011916">frère</rs> <pc type="supplied">;</pc> je vous en
-               <lb/>serai toujours très reconnaissant<pc type="surplus">,</pc> des services que vous
-               <lb/>m'avez rendu &a; son sujet<pc>.</pc> <hi rend="capitalize">e</hi>sp&é;rons que ces d&é;marches aboutiront
-               <lb/>&a; un bon résultat<pc>.</pc> <hi rend="capitalize">m</hi>on frère m'&é;crit tout derni&è;rement et
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_079.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_079.jpg"/>
-               <figDesc>
-                  <placeName ref="#Corinth" xml:id="Corinth_25011916">Corinth</placeName> - Temple de Minerva Chalinitis
-               </figDesc>
-            </figure>  
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_080.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="left">(2)</add> 
-               <lb/>me dit qu'il attend avec impatience son engagement<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> Comme vous
-               <lb/>dites <hi rend="minimize">C</hi>omtesse&vir; je serais très heureux de vaincre ces voleurs
-               <lb/>de grands chemins car <choice><orig>il</orig><reg>ils</reg></choice> ne sont que des misérables bandits&pt;
-               <lb/>Je le pense aussi que nous serons victorieux<pc>,</pc> mais je serais
-               <lb/>très curieux de savoir si cette guerre pourrait se terminer
-               <lb/>cette année<pc>,</pc> ce <choice><orig>seraît</orig><reg>serait</reg></choice> une grande joie pour tout le monde<pc>.</pc>
-               <lb/>Si seulement cela pourrait &ê;tre vrai que le <persName ref="#Guillaume_II" xml:id="Guillaume_II_25011916"><hi rend="minimize">K</hi>aiser</persName> devienne
-               <lb/>fou et que son saligaud de fils&vir; le <persName ref="#Frederic_Guillaume" xml:id="Frederic_Guillaume_25011916"><choice><sic><hi rend="minimize">K</hi>romprinzt</sic><corr>kronprinz</corr></choice></persName>&vir; <choice><sic>serait</sic><corr>soit</corr></choice>
-               <lb/><choice><orig>assassiner</orig><reg>assassiné</reg></choice>&pt; <hi rend="capitalize">c</hi>e serait une grande joie pour nous tous
-               <lb/>citoyens <hi rend="minimize">F</hi>rançais<choice><orig><pc>.</pc></orig><reg><pc type="supplied">,</pc></reg></choice> <hi rend="minimize">A</hi>nglais et tous les alliés<pc>.</pc> Tant qu'&a;
-               <lb/>mes camarades et moi nous ne sommes nullement
-               <lb/><choice><orig>découragé</orig><reg>découragés</reg></choice> <pc type="supplied">;</pc> nous avons juré de lutter jusqu'au
-               <lb/>bout<pc>,</pc> nous y lutterons jusqu'&a; ce que nous ayons
-               <lb/>la victoire finale et qu'il ne reste plus aucun de
-               <lb/>ces sales boches <choice><orig>debout</orig><reg>debouts</reg></choice><pc>.</pc> 
-            </p>
-            <closer>
-               <salute>
-                  <hi rend="capitalize">r</hi>ien autre chose &a; vous
-                  <lb/>dire pour le moment<pc>,</pc> meilleure santé &a; tous au
-                  <lb/>revoir&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
-               </salute>
-               <signed><persName ref="#Horel" xml:id="Horel_25011916">A Horel</persName></signed>
-            </closer>
-         </div>   
-      </body>      
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_25-01-1916" parse="xml"/> 
       <back>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           

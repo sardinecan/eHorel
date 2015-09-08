@@ -2,12 +2,12 @@ function InitialiserCarte() {
 	
     var map = L.map('map').setView([41.508577297439324, 15.64453125], 5);
 
-    // create the tile layer with correct attribution
-    var tuileUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+    // lien avec le tuile
+    var tuile = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
     
     var attrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
     
-    var osm = L.tileLayer(tuileUrl, {
+    var osm = L.tileLayer(tuile, {
         minZoom: 5, 
         maxZoom: 17,
         attribution: attrib

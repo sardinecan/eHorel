@@ -25,100 +25,17 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>         
+      <profileDesc>     
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Mytilene">Mytilène</placeName>
-               <date when="1915-10-06">06 octobre 1915</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Imbros/F_delta_1854_20_1_Imbros_23-09-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Imbros">Imbros</placeName>
-                  <date when="1915-09-23">23 septembre 1915</date>
-               </ref>
-               <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
-                  <date when="1915-10-09">09 octobre 1915</date>
-               </ref>
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_mytilene_06-10-1915" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Mytilene_06-10-1915">
-      <body xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_177.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_177.jpg"/>
-               <figDesc>
-                  L'Eglise St Therapion, <placeName ref="#Metelin" xml:id="Metelin_06101915">Mételin</placeName>
-               </figDesc>
-            </figure>               
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_178.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  <placeName ref="#Mytilene" xml:id="Mytilene_06101915"><choice><orig>Mithilène</orig><reg>Mytilène</reg></choice></placeName><ref type="note" target="#F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"></ref>&vir;
-                  <date when="1915-10-06"><choice><orig>L</orig><reg>l</reg></choice>e 6 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice> 1915</date>
-               </dateline>
-               <salute rend="center">
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_06101915">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/>Je profite que ayant un petit moment
-               <lb/>devant moi pour vous envoyer de
-               <lb/>mes nouvelles&vir; que je suis toujours
-               <lb/>en <choice><orig>excéllente</orig><reg>excellente</reg></choice> santé et je désire
-               <lb/>qu'à l'arrivée de mes cartes
-               <lb/>vous vous trouviez de même&pt;
-               <lb/>Si j'ai tant tardé à vous écrire
-               <lb/>ce n'est pas de ma faute car
-               <lb/>dans l'<choice><orig>I</orig><reg>î</reg></choice>le o&ù; nous sommes&vir;
-               <lb/>les départs et arriv&é;es <surplus reason="repeated">de</surplus> 
-               <lb/>de courriers ne sont guère
-               <lb/>réguliers&vir; car nous devions
-               <lb/>recevoir un courrier venant
-               <lb/>de France <choice><orig>M</orig><reg>m</reg></choice>ardi soir et
-               <lb/>nous n'avons jusqu'ici rien
-               <lb/>eu&pt; <choice><orig>c</orig><reg>C</reg></choice>e qui nous fait que
-               <cb/>
-               <address place="postcard" type="deliveredTo">
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_06101915">Bonne<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>Menoge</placeName></addrLine>
-                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_06101915">Haute<supplied reason="omitted">-</supplied>Savoie</placeName></addrLine>
-                  <addrLine><placeName ref="#France" xml:id="France_06101915">France</placeName></addrLine>   
-               </address>
-               <gap reason="missing"/>
-            </p>
-         </div>         
-      </body>
+      <xi:include href="../master/Master.xml" xpointer="front_mytilene_06-10-1915" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_mytilene_06-10-1915" parse="xml"/>
       <back>
-         <div type="note">
-            <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1">
-               La ville de <placeName ref="#Mytilene">Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au Sud de l'entrée du détroit des <placeName ref="#Dardanelles" xml:id="Dardanelles_06101915">Dardanelles.</placeName>
-               Séparée des côte turques par le détroit de <placeName ref="#Mytilene">Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.
-               <bibl corresp="#Schiavon_front"/>
-            </note>
-         </div>
+         <xi:include href="../master/Master.xml" xpointer="note_mytilene_06-10-1915" parse="xml"/>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         

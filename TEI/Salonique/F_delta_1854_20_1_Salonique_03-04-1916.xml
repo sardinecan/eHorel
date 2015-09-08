@@ -26,120 +26,14 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>         
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
-               <date when="1916-04-03">le 03 avril 1916</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_28-03-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-03-28">28 mars 1916</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-04-09">09 avril 1916</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_03-04-1916" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
-   <text xml:id="F_delta_1854_20_1_Salonique_03-04-1916">
-      <body xml:id="F_delta_1854_20_1_Salonique_03-04-1916_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_033.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/> 
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_033.jpg"/>
-               <figDesc>
-                  <placeName ref="#Salonique">Salonique</placeName> - Quai de Salonique
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_034.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  Bord en mer&vir; <placeName ref="#Salonique" xml:id="Salonique_03041916">Salonique</placeName>&vir;
-                  <date when="1916-04-03">le 3 Avril 1916</date>
-               </dateline>
-               <salute>
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_03041916">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/>N'ayant pas eu de vos <choice><orig>nouvelle</orig><reg>nouvelles</reg></choice> <supplied>depuis</supplied> ce voyage&vir; je
-               <lb/>m'empresse de vous en envoyer des miennes&vir; que 
-               <lb/>je suis toujours en bonne santé et désire qu'&a;
-               <lb/>l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice> cartes que vous en &ê;tes de même
-               <lb/>ainsi que votre fille et petite fille<pc>.</pc> Dans le
-               <lb/>dernier raid d'avions boches qu'il y a eu ces
-               <lb/>jours derniers&vir; le nombre de morts est de <choice><orig>50</orig><reg>cinquante</reg></choice>
-               <lb/>grecs et de <choice><orig>11</orig><reg>onze</reg></choice> poilus tués par les bombes
-               <lb/>mais aussi ils ne sont pas <choice><orig>retourner</orig><reg>retournés</reg></choice> tous
-               <lb/><choice><sic>idem</sic><corr>indemnes</corr></choice> car il y <supplied reason="omitted">en</supplied> a eu <choice><orig>4</orig><reg>quatre</reg></choice> d'abattus&pt; <choice><orig>l</orig><reg>L</reg></choice>e lendemain
-               <lb/>ils ont voulu revenir&vir; ils n'ont pas pu&pt; <choice><orig>n</orig><reg>N</reg></choice>os
-               <lb/>soldats ont eu descendu <choice><orig>2</orig><reg>deux</reg></choice> et les ont <choice><orig>obligé</orig><reg>obligés</reg></choice>
-               <lb/>&a; faire demi tour&pt; <choice><orig>3</orig><reg>Trois</reg></choice> jours avant il y <supplied reason="omitted">en</supplied> a eu
-               <lb/><choice><orig>2</orig><reg>deux</reg></choice> autres de <choice><orig>descendu</orig><reg>descendus</reg></choice> dans nos lignes&vir; ce
-               <lb/>qui leurs fait <choice><orig>8</orig><reg>huit</reg></choice> de <choice><orig>descendu</orig><reg>descendus</reg></choice> contre nous un seul&pt;
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_031.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_031.jpg"/>
-               <figDesc>
-                  Le Quai de <placeName ref="#Salonique">Salonique</placeName> - Grèce
-               </figDesc>
-            </figure> 
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_032.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="right">(2)</add>
-               <lb/>Mais c'est bizarre&vir; &a; chaque fois que<del rend="overline">s</del> ces <choice><orig>aréoplanes</orig><reg>aéroplanes</reg></choice>
-               <lb/>boches viennent nous rendre visite nous ne
-               <lb/>sommes jamais l&a;&pt; <choice><orig>n</orig><reg>N</reg></choice>ous somme toujours en mer
-               <lb/>et heureusement pour nous car leur dernier
-               <lb/>raid qu'ils ont fait&vir; ils ont juste <choice><orig>lancer</orig><reg>lancé</reg></choice> des
-               <lb/>bombes &a; l'endroit o&ù; nous allons mouiller
-               <lb/>quand nous sommes de repos<pc type="surplus">.</pc> et surement que
-               <lb/>si nous avions &é;t&é; <choice><orig>mouille</orig><reg>mouillés</reg></choice>&vir; il y aurait eu
-               <lb/>plusieurs tués &a; mon bord&vir; peut &ê;tre
-               <lb/>moi le premier&pt; <choice><orig>m</orig><reg>M</reg></choice>ais en tous les cas&vir; nous
-               <lb/>l'avons toujours <choice><orig>épargner</orig><reg>épargné</reg></choice><pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs rien
-               <lb/>de nouveau<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>our la commission que j'ai &a; faire
-               <lb/>pour vos deux neveux&vir; je ne pourrai la 
-               <lb/>faire que dans une huitaine de jours
-               <lb/>et je ferai tout mon possible pour les trouver&pt;
-            </p>
-            <closer>
-               <salute>
-                  <lb/><choice><orig>r</orig><reg>R</reg></choice>ien autre chose &a; vous dire pour le moment&vir; un petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
-               </salute>
-               <signed>
-                  <persName ref="#Horel" xml:id="Horel_03041916">A<lb/> Horel</persName> 
-               </signed>
-            </closer>
-         </div>
-      </body>
+   <text xml:id="F_delta_1854_20_1_Salonique_03-04-1916">      
+      <xi:include href="../master/Master.xml" xpointer="front_salonique_03-04-1916" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_03-04-1916" parse="xml"/>
       <back>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           

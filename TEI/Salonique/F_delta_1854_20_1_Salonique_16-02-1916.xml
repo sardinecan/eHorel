@@ -26,123 +26,14 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName>Salonique,</placeName>
-               <date when="1916-02-16">le 16 février 1916</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_05-02-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-02-05">05 février 1916</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_21-02-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-02-21">21 février 1916</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_16-02-1916" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Salonique_16-02-1916">
-      <body xml:id="F_delta_1854_20_1_Salonique_16-02-1916_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_069.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_069.jpg"/>
-               <figDesc>
-                  Vue des Forteresses de Yédi-Koulé <placeName ref="#Salonique">Salonique</placeName> Grèce
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_070.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  <placeName ref="#Salonique" xml:id="Salonique_16021916">Salonique</placeName>&vir;
-                  <date when="1916-02-16">le 16 Février 1916</date>
-               </dateline>
-               <salute>
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_16021916">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/>Je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> ces <choice><orig>2</orig><reg>deux</reg></choice> mots pour vous faire savoir
-               <lb/>que j'ai reçu la réponse de la lettre que j'avais
-               <lb/><choice><orig>adresser</orig><reg>adressée</reg></choice> &a; monsieur <persName ref="#G_Locke" xml:id="G_Locke_16021916">Locke</persName> au sujet de mon <rs type="person" ref="#Horel_Louis" xml:id="Horel_Louis_16021916">frère&pt;</rs>
-               <lb/><choice><orig>i</orig><reg>I</reg></choice>l me dit qu'il fait les d&é;marches nécessaires
-               <lb/>pour le faire sortir et pour aller au front sur
-               <lb/>ses demandes car comme mon fr&è;re me dit&vir;
-               <lb/>j'aime <choice><orig>20</orig><reg>vingt</reg></choice> fois mieux aller au front servir ma
-               <lb/>patrie&vir; me faire <choice><orig>tue</orig><reg>tuer</reg></choice> <choice><orig>si il</orig><reg>s'il</reg></choice> le faut que de 
-               <lb/>faire un mois de plus dans cette prison de
-               <lb/><placeName ref="#Melun" xml:id="Melun_16021916">Melun</placeName>&pt; <choice><orig>j</orig><reg>J</reg></choice>'ai rendu r&é;ponse &a; M<hi rend="super">ieur</hi> <persName ref="#G_Locke">Locke</persName> et lui
-               <lb/><choice><sic>est</sic><corr>ai</corr></choice> <choice><orig>remercier</orig><reg>remercié</reg></choice> infiniment d'avoir bien voulu
-               <lb/>s'en occuper car je crois que mon <rs type="person" ref="#Horel_Louis">frère</rs> lui 
-               <lb/>a &é;crit une lettre&pt; <choice><orig>i</orig><reg>I</reg></choice>l lui a <choice><orig>expliquer</orig><reg>expliqué</reg></choice> ce qu'il y
-               <lb/>avait &a; faire pour le faire sortir&pt;
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_067.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_067.jpg"/>
-               <figDesc>
-                  Vue du Jardin Public Bechtchinar > <placeName ref="#Salonique">Salonique</placeName> - Grèce
-               </figDesc>
-            </figure>
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_068.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="left">(2)</add>
-               <lb/><choice><orig>ç</orig><reg>Ç</reg></choice>a le met en colère de voir de ses camarades
-               <lb/>internés comme lui &a; <placeName ref="#Melun">Melun</placeName> s'en aller au front
-               <lb/>et n'avoir fait seulement que <choice><orig>1</orig><reg>un</reg></choice> an sur <choice><orig>5</orig><reg>cinq</reg></choice> ans
-               <lb/>qu'ils avaient &a; faire&pt; <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; ne nous tracassons
-               <lb/>pas la dessus <pc type="supplied">;</pc> espérons que <choice><orig>M</orig><reg>m</reg></choice>onsieur <persName ref="#G_Locke">Locke</persName>
-               <lb/>aboutira &a; quelque chose<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ailleurs rien de
-               <lb/>nouveau&vir; si&vir; des troupes <choice><orig>A</orig><reg>a</reg></choice>nglo<supplied reason="omitted">-</supplied><choice><orig>F</orig><reg>f</reg></choice>rançaises il en 
-               <lb/>arrive tous les jours &a; <placeName ref="#Salonique">Salonique</placeName> ainsi que
-               <lb/>beaucoup de mat&é;riel de guerre<pc>.</pc> je <choice><orig>penses</orig><reg>pense</reg></choice>
-               <lb/>que ces troupes serviront &a; donner le coup
-               <lb/>décisif<pc>.</pc>                
-            </p>
-            <closer>
-               <salute>
-                  <choice><orig>i</orig><reg>I</reg></choice>l ne me reste plus qu'&a; vous souhaiter
-                  <lb/>une parfaite santé ainsi qu'&a; votre fille et
-                  <lb/>sa gosse car tant qu'&a; moi je ne puis mieux
-                  <lb/>me porter&pt; <choice><orig>u</orig><reg>U</reg></choice>n petit ami qui ne vous <choice><orig>oublieras</orig><reg>oubliera</reg></choice> 
-                  <lb/>jamais&vir;
-               </salute>
-               <signed>                                    
-                  <address type="sentBy" place="postcard">                  
-                     <persName ref="#Horel" xml:id="Horel_16021916">Armand Horel&vir;</persName>                                                                        
-                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier <lb/>&a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_16021916">Shamrock II&vir;</name></addrLine>                      
-                     <addrLine>Division <lb/>des <placeName ref="#Dardanelles" xml:id="Dardanelles_16021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName>&pt;</addrLine>                                             
-                  </address>                  
-               </signed>
-            </closer>
-         </div>
-      </body>
+      <xi:include href="../master/Master.xml" xpointer="front_salonique_16-02-1916" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_16-02-1916" parse="xml"/>      
       <back>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           

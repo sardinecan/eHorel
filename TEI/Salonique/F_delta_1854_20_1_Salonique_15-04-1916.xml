@@ -25,171 +25,17 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
+      <profileDesc>         
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Salonique">Salonique,</placeName>
-               <date when="1916-04-15">le 15 avril 1916</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_09-04-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-04-09">09 avril 1916</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_21-04-1916.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1916-04-21">21 avril 1916</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_15-04-1916" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Salonique_15-04-1916">
-      <body xml:id="F_delta_1854_20_1_Salonique_15-04-1916_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_021.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_021.jpg"/>
-               <figDesc>
-                  Vallée du Tempé
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_022.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  Bord <placeName ref="#Salonique" xml:id="Salonique_15041916">Salonique</placeName>&vir;
-                  <date when="1916-04-15">le 15 Avril 1916</date>
-               </dateline>
-               <salute rend="center">
-                  <lb/><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_15041916">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/><choice><orig>j</orig><reg>J</reg></choice>e vous écris ces <choice><orig>2</orig><reg>deux</reg></choice> cartes
-               <lb/>pour vous faire savoir
-               <lb/>que je suis toujours en 
-               <lb/>bonne santé et d&é;sire
-               <lb/>qu'&a; l'arrivée de ces <choice><orig>2</orig><reg>deux</reg></choice>
-               <lb/>cartes que vous en êtes
-               <lb/>de même ainsi que 
-               <lb/>votre fille et petit fille&pt;
-               <lb/><choice><orig>p</orig><reg>P</reg></choice>ar ailleurs rien de
-               <lb/>nouveau &a; vous annoncer&vir;
-               <lb/>sur le front tout est
-               <lb/><choice><orig>tranquile</orig><reg>tranquille</reg></choice>&vir; nous ne prendrons
-               <cb/>
-               <address place="postcard" type="deliveredTo">               
-                  <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                                          
-                  <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus> &a;</addrLine>                                       
-                  <addrLine><placeName ref="#Beaune"><choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>                                       
-                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>                                       
-                  <addrLine><placeName ref="#France">France</placeName></addrLine>                  
-               </address>
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_019.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_019.jpg"/>
-               <figDesc>
-                  Noptapia
-               </figDesc>
-            </figure>
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_020.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="left">(2)</add>
-               <lb/>L'<choice><orig>offensif</orig><reg>offensive</reg></choice> que quand <choice><orig>tous</orig><reg>toutes</reg></choice> les troupes serbes
-               <lb/>seront concentrées &a; <placeName ref="#Salonique">Salonique</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1"/> <pc type="supplied">;</pc> en ce
-               <lb/>moment il en arrive tous les jours des serbes
-               <lb/>ainsi que beaucoup de chevaux pour la cavalerie&pt;
-               <lb/><choice><orig>q</orig><reg>Q</reg></choice>uestion du temps&vir; il fait
-               <lb/>un temps splendide&vir; 
-               <lb/>ce n'est pas comme en 
-               <lb/>France o&ù; il fait un
-               <lb/>froid de loup&vir; de la 
-               <lb/>pluie et beaucoup de vent<pc>.</pc>
-               <lb/><choice><orig>r</orig><reg>R</reg></choice>ien autre chose
-               <lb/>&a; vous dire pour le moment&vir;                
-            </p>
-            <closer>
-               <salute>                  
-                  un petit ami qui ne vous 
-                  <lb/><choice><orig>oublieras</orig><reg>oubliera</reg></choice> jamais&vir;
-               </salute>
-               <signed>
-                  <persName ref="#Horel" xml:id="Horel_15041916">A. Horel</persName> 
-               </signed>
-               <cb/>
-               <address type="deliveredTo" place="postcard">                       
-                  <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName>                  
-                  <addrLine>10 rue Oudot <surplus reason="repeated">10 </surplus></addrLine>                  
-                  <addrLine><placeName ref="#Beaune">&a; <choice><orig>Beâune</orig><reg>Beaune</reg></choice></placeName></addrLine>                  
-                  <addrLine><placeName ref="#Cote_Dor">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>                  
-                  <addrLine><placeName ref="#France">France</placeName></addrLine>                  
-               </address>
-            </closer>
-         </div>
-         <div type="enveloppe">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_023.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <address place="envelope" type="deliveredTo">                       
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                  
-                  <addrLine>10 rue Oudot<surplus reason="repeated"> 10</surplus></addrLine>                  
-                  <addrLine><placeName ref="#Beaune" xml:id="Beaune_15041916">&a; <choice><orig>Beaûne</orig><reg>Beaune</reg></choice></placeName></addrLine>
-                  <addrLine><placeName ref="#Cote_Dor" xml:id="Cote_Dor_15041916">C&ô;te<supplied reason="omitted">-</supplied>d'or</placeName></addrLine>                  
-                  <addrLine><placeName ref="#France" xml:id="France_15041916">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a"/></addrLine>                  
-               </address>
-               <stamp type="postmark">
-                  <orgName>postes - navales</orgName> <date cert="medium" when="1916-04-16">16 avril 1916</date>
-               </stamp>
-            </p>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_024.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               envoi de
-               <address type="sentBy" place="envelope">
-                  <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName>
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maitre</expan></choice> cannonier chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
-                  <addrLine> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_15041916">Marseille</placeName></addrLine>
-               </address>
-            </p>
-         </div>
-      </body>
-      <back>
-         <div type="note">
-            <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a">
-               Adresse présente sur toutes les cartes de la correspondance et sur l'enveloppe.
-            </note>
-            <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">
-               Malgré les relances du <persName ref="#Joffre" xml:id="Joffre_15041916">généralissime Joffre</persName>, <persName ref="#Sarrail" xml:id="Sarrail_15041916">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyen et souhaite mener
-               une attaque à l'automne, estimant que l'armée serbe ne sera opérationnelle qu'à l'été ; lorsque la température interdira une offensive importante.                
-               <bibl corresp="#Schiavon_front" n="180"></bibl>
-            </note>
-         </div>         
+      <xi:include href="../master/Master.xml" xpointer="front_salonique_15-04-1916" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_15-04-1916" parse="xml"/>
+      <back>     
+         <xi:include href="../master/Master.xml" xpointer="note_salonique_15-04-1916" parse="xml"/>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         

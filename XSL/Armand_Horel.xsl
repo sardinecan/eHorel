@@ -44,7 +44,7 @@
                                             <li class="has-dropdown">
                                                 <a href="#">Accès par expéditeur</a>
                                                 <ul class="dropdown">
-                                                    <xsl:apply-templates select="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien"/>
+                                                    <xsl:apply-templates select="//tei:correspDesc[@xml:id='table_correspondance']" mode="lien"/>
                                                 </ul>
                                             </li>      
                                             <li><a href="../projet/chronologie.html">Accès chronologique</a></li>                                        
@@ -55,31 +55,33 @@
                                 <!-- Partie droite -->                            
                                 <ul class="right">                            
                                     <li><a href="../projet/index_edition.html">Index</a></li>                                
-                                    <li><a href="#">A propos de l'édition</a></li>                                    
+                                    <li><a href="../projet/edition.html">A propos de l'édition</a></li>                                    
                                 </ul>                              
                             </section>                        
                         </nav>
                     </div>                                            
                 </header>                                    
                 <div class="row border">                    
-                    <div class="medium-12 large-9 columns">
+                    <div class="medium-12 large-12 columns">
                        <div class="row">
-                           <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                           <ul class="example-orbit" data-orbit="true" data-options="bullets:false;">
+                               <li>
+                                   <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                                   <div class="orbit-caption">
+                                       Caption One.
+                                   </div>
+                               </li>
+                               <li>
+                                   <img src="../../IMAGES/photos_site/slide_14_18_2.jpg" alt="header"/>
+                                   <div class="orbit-caption">
+                                       Caption One.
+                                   </div>
+                               </li>
+                           </ul>
                        </div>                                                
-                    </div>
-                    <div class="medium-12 large-3 columns asideDroit">                       
-                        <div class="row">
-                            <div class="large-12"><xsl:apply-templates select="//tei:teiHeader" mode="aside"/></div>    
-                        </div>
-                        <div class="row">
-                            <div class="large-12">
-                                <xsl:apply-templates select="//tei:correspDesc"/>        
-                            </div>
-                        </div>                                                                                                                                                          
-                    </div>
-                    <hr style="margin-bottom:0;"/>
+                    </div>                    
                 </div>
-                <div class="row border" data-equalizer="true">                                                                                                                                    
+                <div class="row" data-equalizer="true">                                                                                                                                    
                     <div class="medium-12 large-8 columns panel" data-equalizer-watch="true">                                                                                
                         <xsl:choose><!-- Permet de maintenir la superposition des blocs même  lorsque que la carte est la première ou la dernière -->                                                           
                             <xsl:when test="//tei:ref[@type='previous'] and //tei:ref[@type='next']">                                                        
@@ -98,69 +100,50 @@
                                         <xsl:apply-templates select="//tei:ref[@type='previous']" mode="lien"/>                                                                                
                                     </div>                                                                        
                                 </xsl:if>                                                                                                            
-                                <xsl:if test="//tei:ref[@type='next']">  <!-- alignement des blocs --> <!-- todo -->                                                                                       
+                                <xsl:if test="//tei:ref[@type='next']">                                                                                        
                                     <div class="text-right">                                                                        
                                         <xsl:apply-templates select="//tei:ref[@type='next']" mode="lien"/>                                                                                
                                     </div>                                                                        
                                 </xsl:if>                                                                
                             </xsl:otherwise>                                                       
-                        </xsl:choose>                        
+                        </xsl:choose>
+                        <div class="row">
+                            <div class="large-12 columns">                       
+                                <!--<div class="row">
+                                    <div class="large-12"><xsl:apply-templates select="//tei:teiHeader" mode="aside"/></div>    
+                                </div>-->
+                                <div class="row">
+                                    <div class="large-12">
+                                        <p class="metadonnees">
+                                            <xsl:apply-templates select="//tei:correspDesc[@type='context']"/>
+                                            <br/>
+                                            <xsl:apply-templates select="//tei:argument"/>
+                                            <xsl:apply-templates select="//tei:sourceDesc"/>
+                                            <hr/>
+                                        </p>        
+                                    </div>
+                                </div>                                                                                                                                                          
+                            </div>
+                        </div>                        
                         <!-- Corps de la lettre -->                        
                         <!-- adresse -->                                                                                                                                                                                                                                       
                         <xsl:choose>                                                               
                             <xsl:when test="//tei:div[@type='enveloppe']">                                                                    
-                                <ul class="accordion" data-accordion="true">
-                                    <li class="accordion-navigation">
-                                        <a href="#mention_adresse">Adresse <small>(cliquer pour afficher)</small></a>
-                                        <div id="mention_adresse" class="content">
-                                            <div class="row">                                                                        
-                                                <div class="medium-10 large-10 medium-centered large-centered columns adresse">                                                                            
-                                                    <xsl:apply-templates select="//tei:div[@type='enveloppe']"/>                                                                                
-                                                </div>                                                                                
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>                                                                       
+                                <xsl:apply-templates select="//tei:div[@type='enveloppe']"/>                                                                       
                             </xsl:when>                                                                    
                             <xsl:when test="//tei:address[@place='postcard' and @type='deliveredTo']">
-                                <ul class="accordion" data-accordion="true">
-                                    <li class="accordion-navigation">
-                                        <a href="#mention_adresse">Adresse <small>(cliquer pour afficher)</small></a>
-                                        <div id="mention_adresse" class="content">
-                                            <div class="row">                                                                
-                                                <div class="medium-10 large-10 medium-centered large-centered columns adresse">                                    
-                                                    <i>(destinataire) :</i>                                                                                                                                                   
-                                                    <hr class="hr_separation"/>                                                                                                                            
-                                                    <p class="mention_adresse"><xsl:apply-templates select="(//tei:address[@type='deliveredTo' and @place='postcard'])[1]" mode="affichage"/></p>                                        
-                                                </div>                                                                            
-                                            </div>              
-                                        </div>
-                                    </li>
-                                </ul>                                                                                                           
+                                <xsl:apply-templates select="(//tei:address[@type='deliveredTo' and @place='postcard'])[1]" mode="affichage"/>                                                                                                                                            
                             </xsl:when>                            
                             <xsl:when test="//tei:address[@place='back' and @type='deliveredTo']">   
-                                <ul class="accordion" data-accordion="true">
-                                    <li class="accordion-navigation">
-                                        <a href="#mention_adresse">Adresse <small>(cliquer pour afficher)</small></a>
-                                        <div id="mention_adresse" class="content">
-                                            <div class="row">                                                                
-                                                <div class="large-10 large-centered columns adresse">                                    
-                                                    <i>(destinataire) :</i>                                                                                                                                                   
-                                                    <hr class="hr_separation"/>                                                                                                                            
-                                                    <p class="mention_adresse"><xsl:apply-templates select="(//tei:address[@type='deliveredTo' and @place='back'])[1]" mode="affichage"/></p>                                        
-                                                </div>                                                                            
-                                            </div>              
-                                        </div>
-                                    </li>
-                                </ul>                                                                                                
+                                <xsl:apply-templates select="(//tei:address[@type='deliveredTo' and @place='back'])[1]" mode="affichage"/>                                                                                                                                                                             
                             </xsl:when>                                                        
                             <xsl:otherwise/>                                                        
                         </xsl:choose>                                                                                                                                                     
                         <div class="row">                                                       
                             <div class="large-12">                                                        
                                 <xsl:apply-templates select="//tei:div[@type='letter']"/>                                                                                                            
-                                <xsl:apply-templates select="//tei:add[@type='closer']" mode="ordreLecture"/>                                
-                                <xsl:apply-templates select="//tei:add[@type='postscript']" mode="ordreLecture"/>   <!-- todo note pour les add type postscript -->                                                             
+                                <xsl:apply-templates select="//tei:seg[@type='closer']" mode="ordreLecture"/>                                
+                                <xsl:apply-templates select="//tei:seg[@type='postscript']" mode="ordreLecture"/>   <!-- todo note pour les add type postscript -->                                                             
                                 <xsl:if test="not(//tei:signed | //tei:add[@type='signed'])">
                                     <p class="text-right">
                                         <i>(non signé)</i>
@@ -175,9 +158,13 @@
                             </div>                                                                       
                         </div>                                               
                     </div>                    
-                    <div class="medium-12 large-4 columns" data-equalizer-watch="true">                                            
-                        <h3>Cliquez sur les images pour consulter l'intégralité du fonds numérisé.</h3>                        
-                        <xsl:apply-templates select="//tei:pb" mode="affichage"/>                                                                                                                                
+                    <div class="medium-12 large-4 columns panel border" data-equalizer-watch="true">                                            
+                        <h3 class="left h3_aside">Cliquez sur les images pour consulter l'intégralité du fonds numérisé :</h3>
+                        <xsl:apply-templates select="//tei:teiHeader" mode="aside"/>                        
+                        <ul class="example-orbit" data-orbit="true">
+                            <xsl:apply-templates select="//tei:pb" mode="affichage"/>    
+                        </ul>
+                                                                                                                                                        
                     </div>                                                            
                 </div>
                 <footer class="row border">
@@ -222,6 +209,7 @@
                 <script src="../../STYLE/foundation/js/vendor/jquery.js">/*Pour transformation xslt*/</script>
                 <script src="../../STYLE/foundation/js/foundation.min.js">/*Pour transformation xslt*/</script>
                 <script>$(document).foundation();</script>
+                <script src="../../JS/accordion_equalizer/reflow.js">/*règle de problème de reflow pour utilisation de la fonction equalizer et accordion de foundation*/</script>
             </body>
         </html>
     </xsl:template>
@@ -235,19 +223,20 @@
     </xsl:template>
     
     <xsl:template match="tei:teiHeader" mode="aside">
-        <p>
-            <b>
-                <xsl:apply-templates select="tei:fileDesc/tei:titleStmt/tei:title[1]"/>
-            </b>
-            <br/>
-            <xsl:text>cote : </xsl:text><xsl:apply-templates select="//tei:idno"/>            
-        </p>                   
+        <xsl:apply-templates select="tei:fileDesc/tei:titleStmt/tei:title[1]"/>                
+        <br/>
+        <xsl:text>cote : </xsl:text><xsl:apply-templates select="//tei:idno"/>        
         <hr/>
     </xsl:template>
     
     <xsl:template match="tei:fileDesc">
         <xsl:apply-templates select="tei:titleStmt"/>
         <xsl:apply-templates select="tei:publicationStmt"/>
+        <xsl:apply-templates select="tei:sourceDesc"/>
+    </xsl:template>
+    <xsl:template match="tei:sourceDesc">        
+        <em class="right"><span class="smallcaps">Support : </span>        
+        <xsl:value-of select="//tei:physDesc//tei:material"/></em>
     </xsl:template>
     
     <xsl:template match="tei:titleStmt">
@@ -260,23 +249,20 @@
         <xsl:apply-templates select="tei:correspDesc"/>        
     </xsl:template>
     
-    <xsl:template match="tei:correspDesc">                   
-        <p class="metadonnees">
-            <span class="smallcaps">Expéditeur : </span>        
-            <xsl:value-of select="tei:correspAction/tei:persName[@type='sentBy']"/>        
-            <br/>        
-            <span class="smallcaps">Lieu : </span>        
-            <xsl:value-of select="tei:correspAction/tei:placeName"/>         
-            <br/>        
-            <span class="smallcaps">Date : </span>        
-            <xsl:value-of select="tei:correspAction/tei:date"/>        
-            <br/>                
-            <span class="smallcaps">Destinataire : </span>                    
-            <xsl:value-of select="tei:correspAction/tei:persName[@type='deliveredTo']"/> <!-- todo prévoire si plusieur destinataire. -->
-        </p>                              
+    <xsl:template match="tei:correspDesc[@type='context']">                           
+        <em>
+            <xsl:value-of select="tei:correspAction/tei:persName[@type='sentBy']"/>
+            <xsl:text> à </xsl:text>
+            <xsl:value-of select="tei:correspAction/tei:persName[@type='deliveredTo']"/>
+        </em>
+        <em class="right">
+            <xsl:value-of select="tei:correspAction/tei:placeName"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="tei:correspAction/tei:date"/>
+        </em>                                                                                         
     </xsl:template>
     
-    <xsl:template match="tei:correspDesc//tei:ref" mode="lien">
+    <xsl:template match="tei:correspDesc[@type='context']//tei:ref" mode="lien">
         <xsl:variable name="lien" select="replace(@target,'xml','html')"/>
         <xsl:choose>
             <xsl:when test="@type='previous'">
@@ -287,20 +273,21 @@
             </xsl:when>            
         </xsl:choose>                    
     </xsl:template>
-        
-    <xsl:template match="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien">
-        <xsl:for-each select="tei:person">
+    
+    <xsl:template match="//tei:correspDesc[@xml:id='table_correspondance']" mode="lien">
+        <xsl:for-each select="tei:correspAction[@type='sent']/tei:persName">
             <xsl:variable name="id" select="concat('#',@xml:id)"/>
             <xsl:if test="//tei:correspDesc//tei:ref/tei:persName[@corresp=$id]">
                 <li class="has-dropdown">
                     <a class="link" href="#">
-                        <xsl:apply-templates select="tei:persName"/><xsl:text> à :</xsl:text>
+                        <xsl:apply-templates select="."/><xsl:text> à :</xsl:text>
                     </a>
                     <ul class="dropdown">                    
                         <xsl:for-each select="//tei:correspDesc//tei:ref[descendant::tei:persName[@corresp=$id]]">
                             <xsl:sort select=" tei:date/@cert" order="ascending" data-type="text"/>
                             <xsl:sort select="replace(tei:date/@when, '-', '')" order="ascending" data-type="number"/>
-                            <xsl:variable name="link" select="replace(@target,'xml','html')"/>
+                            <xsl:variable name="target" select="@target"/>
+                            <xsl:variable name="link" select="replace($target,'xml','html')"/>
                             <li><a href="{$link}"><xsl:value-of select="tei:persName[@type='deliveredTo']"/><xsl:text> : </xsl:text><xsl:value-of select="tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:date"/></a></li>
                         </xsl:for-each>
                     </ul>
@@ -308,6 +295,23 @@
             </xsl:if>                        
         </xsl:for-each>        
     </xsl:template>
+        
+    <!-- && Front -->
+    
+    <xsl:template match="//tei:front/tei:argument">
+        <em><span class="smallcaps"><xsl:text>Objets : </xsl:text></span>
+        <xsl:for-each select="tei:p">
+            <xsl:choose>
+                <xsl:when test="position() != last()">
+                    <xsl:value-of select="lower-case(.)"/><xsl:text>, </xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="lower-case(.)"/><xsl:text>.</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each></em>
+    </xsl:template>
+    
     
     <!-- && BODY -->
     <xsl:template match="tei:div[@type='letter']">        
@@ -328,14 +332,29 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='letter']//tei:address[@type]" mode="affichage">
-        <xsl:for-each select="tei:addrLine | tei:persName">
-            <xsl:apply-templates select="."/>
-            <xsl:for-each select="tei:del">
-                <span class="del"><xsl:value-of select="."/></span>
-            </xsl:for-each>            
-            <br/>
-        </xsl:for-each>        
+    <xsl:template match="tei:div[@type='letter']//tei:address[@type='deliveredTo']" mode="affichage">
+        <ul class="accordion" data-accordion="true">
+            <li class="accordion-navigation">
+                <a href="#mention_adresse">Adresse <small>(cliquer pour afficher)</small></a>
+                <div id="mention_adresse" class="content">
+                    <div class="row">                                                                
+                        <div class="medium-10 large-10 medium-centered large-centered columns adresse">                                    
+                            <i>(destinataire) :</i>                                                                                                                                                   
+                            <hr class="hr_separation"/>                                                                                                                            
+                            <p class="mention_adresse">
+                                <xsl:for-each select="tei:addrLine | tei:persName">
+                                    <xsl:apply-templates select="."/>
+                                    <xsl:for-each select="tei:del">
+                                        <span class="del"><xsl:value-of select="."/></span>
+                                    </xsl:for-each>            
+                                    <br/>
+                                </xsl:for-each>
+                            </p>                                        
+                        </div>                                                                            
+                    </div>              
+                </div>
+            </li>
+        </ul>                
     </xsl:template>    
     
     <xsl:template match="tei:text//tei:choice">
@@ -406,8 +425,14 @@
     </xsl:template>
     
     <xsl:template match="tei:text//tei:supplied[@reason='omitted']">
+        <xsl:variable name="content">
+            <xsl:value-of select="."/>
+        </xsl:variable>
         <xsl:choose>
-            <xsl:when test="./ancestor::tei:w | ./ancestor::tei:placeName">
+            <xsl:when test=" ./ancestor::tei:placeName">
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:when test=". =$content"> <!-- Pour éviter les crochets droits quand il s'agit juste d'un tiret oublié. -->
                 <xsl:apply-templates/>
             </xsl:when>
             <xsl:otherwise>
@@ -421,9 +446,9 @@
     <xsl:template match="tei:text//tei:gap">
         <xsl:choose>
             <xsl:when test="@reason='missing'">
-                <p/>
+                <p>
                     [...]
-                <p/>
+                </p>
             </xsl:when>
             <xsl:when test="@reason='illegible'">
                 <xsl:choose>
@@ -438,11 +463,9 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="tei:text//tei:add[@type='numbering']">
-        <sub>(<xsl:value-of select="@n"/>)</sub>    
-    </xsl:template>
+    <xsl:template match="tei:text//tei:rs[@type='numbering']"/>            
     
-    <xsl:template match="tei:div[@type='letter']/tei:figure"/>
+    <xsl:template match="tei:div[@type='letter']//tei:figure"/>
     <!-- supprime toutes les figures enfants de letter (pour les cartes postales) -->
     
     <xsl:template match="//tei:surplus | //tei:pc[@type='surplus']"/>
@@ -454,7 +477,7 @@
     <!-- expression xpath tous les p qui suivent un pb //pb/following::p[1] => 
     le faire avec les p -->
     
-    <xsl:template match="tei:div[@type='letter']/tei:p">   <!-- TODO -->
+    <xsl:template match="tei:div[@type='letter']//tei:p">   <!-- TODO -->
         <p>
             <xsl:apply-templates/>            
         </p>                    
@@ -768,7 +791,7 @@
     </xsl:template>
     
     
-    <!-- &&CLOSER / add@type='closer' -->
+    <!-- &&CLOSER / seg@type='closer' -->
     <xsl:template match="tei:closer/tei:salute">
         <p>
             <xsl:apply-templates/>
@@ -798,9 +821,9 @@
         </xsl:choose>                   
     </xsl:template>
     
-    <xsl:template match="tei:text//tei:add[@type='closer']"/>
+    <xsl:template match="tei:text//tei:seg[@type='closer']"/>
     
-    <xsl:template match="tei:text//tei:add[@type='closer']" mode="ordreLecture">        
+    <xsl:template match="tei:text//tei:seg[@type='closer']" mode="ordreLecture">        
         <p>
             <xsl:apply-templates select="tei:add[not(@type='signed')]"/>                    
         </p>
@@ -813,9 +836,9 @@
     
     
     <!-- &&POSTSCRIPT -->
-    <xsl:template match="tei:text//tei:add[@type='postscript']"/>
+    <xsl:template match="tei:text//tei:seg[@type='postscript']"/>
     
-    <xsl:template match="tei:text//tei:add[@type='postscript']" mode="ordreLecture">                
+    <xsl:template match="tei:text//tei:seg[@type='postscript']" mode="ordreLecture">                
         <p>
             <xsl:apply-templates/>        
         </p>
@@ -835,13 +858,11 @@
     </xsl:template>
     
     <!-- &&ENVELOPPE -->
-    <xsl:template match="tei:div[@type='enveloppe']">        
-        
-            <xsl:apply-templates/>
-        
-    </xsl:template>
+    <!-- <xsl:template match="tei:div[@type='enveloppe']">                
+            <xsl:apply-templates/>        
+    </xsl:template>-->
     
-    <xsl:template match="tei:div[@type='enveloppe']//tei:address">
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:address">
         <xsl:for-each select="tei:addrLine | tei:persName">
             <xsl:apply-templates select="."/>
             <xsl:for-each select="tei:del">
@@ -853,42 +874,49 @@
         </xsl:for-each>        
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='enveloppe']/tei:p[1]">
-        <div class="row text-left">
-            <xsl:choose>
-                <xsl:when test="tei:address[@type='deliveredTo' and @place='envelope'] and tei:stamp">
-                    <div class="large-6 columns">                                                         
-                        <i>(Destinataire :)</i>                            
-                        <hr class="hr_separation"/>                            
-                        <p class="mention_adresse"><xsl:apply-templates select="tei:address[@type='deliveredTo' and @place='envelope']"/></p>                
-                        <br/>                    
-                        <xsl:if test="tei:add[@hand='#other']">
-                            <i>(D'une autre main :)</i>
-                            <hr class="hr_separation"/>
-                            <p class="mention_adresse"><xsl:apply-templates select="tei:add[@hand='#other']"/></p>
-                        </xsl:if>                                        
-                    </div>        
-                    <div class="large-6 columns">            
-                        <xsl:apply-templates select="tei:stamp"/>        
-                    </div>
-                </xsl:when>
-                <xsl:otherwise>
-                    <div class="large-12">                                                                    
-                        <i>(Destinataire :)</i>                                                    
-                        <hr class="hr_separation"/>                            
-                        <p class="mention_adresse"><xsl:apply-templates select="tei:address[@type='deliveredTo' and @place='envelope']"/></p>                                            
-                        <br/>                                            
-                        <xsl:if test="tei:add[@hand='other']">                        
-                            <i>(D'une autre main :)</i>                            
-                            <hr class="hr_separation"/>                            
-                            <p class="mention_adresse"><xsl:apply-templates select="tei:add[@hand='other']"/></p>                            
-                        </xsl:if>                                        
-                    </div>
-                </xsl:otherwise>
-            </xsl:choose>            
-        </div>
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:address[@type='deliveredTo' and @place='envelope']" mode="accordion">
+        <i>(Destinataire :)</i>                            
+        <hr class="hr_separation"/>                            
+        <p class="mention_adresse">
+            <xsl:for-each select="tei:addrLine | tei:persName">
+                <xsl:apply-templates/>
+                <xsl:for-each select="tei:del">
+                    <span class="del">
+                        <xsl:apply-templates/>
+                    </span>
+                </xsl:for-each>            
+                <br/>
+            </xsl:for-each>
+        </p>                
+        <br/>
     </xsl:template>
-    <xsl:template match="tei:div[@type='enveloppe']/tei:pb[@n='2']">
+    
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:address[@type='sentBy' and @place='envelope']" mode="accordion">
+        <i>(Expéditeur :)</i>                            
+        <hr class="hr_separation"/>                            
+        <p class="mention_adresse">
+            <xsl:for-each select="tei:addrLine | tei:persName">
+                <xsl:apply-templates/>
+                <xsl:for-each select="tei:del">
+                    <span class="del">
+                        <xsl:apply-templates/>
+                    </span>
+                </xsl:for-each>            
+                <br/>
+            </xsl:for-each>
+        </p>                
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:add[@hand='#other']">
+        <i>(D'une autre main :)</i>
+        <hr class="hr_separation"/>
+        <p class="mention_adresse">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:pb[@n='2']">   
         <div class="row">        
             <div class="large-12 columns">
                 <i>(Au dos :)</i>
@@ -897,29 +925,7 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='enveloppe']/tei:p[2]">
-        <div class="row text-left">        
-            <xsl:choose>            
-                <xsl:when test="tei:address[@type='sentBy' and @place='envelope'] and tei:stamp">                
-                    <div class="large-6 columns">                    
-                        <i>(Expéditeur :)</i>                    
-                        <hr class="hr_separation"/>                    
-                        <p class="mention_adresse"><xsl:apply-templates select="tei:address[@type='sentBy' and @place='envelope']"/></p>                
-                    </div>                
-                    <div class="large-6 columns">                    
-                        <xsl:apply-templates select="tei:stamp"/>                
-                    </div>            
-                </xsl:when>            
-                <xsl:otherwise>                
-                    <div class="large-12 columns">                    
-                        <p class="mention_adresse"><xsl:apply-templates select="tei:address[@type='sentBy' and @place='envelope']"/></p>                
-                    </div>            
-                </xsl:otherwise> 
-            </xsl:choose>                        
-        </div>
-    </xsl:template>
-    
-    <xsl:template match="tei:div[@type='enveloppe']//tei:stamp">
+    <xsl:template match="//tei:div[@type='enveloppe']//tei:stamp">
         <xsl:choose>
             <xsl:when test="@type='armee'">              
                 <i>(Cachet militaire :)</i>
@@ -941,9 +947,65 @@
         </xsl:choose>
     </xsl:template>
     
+    <xsl:template match="tei:div[@type='enveloppe']">        
+        <ul class="accordion" data-accordion="true">
+            <li class="accordion-navigation">
+                <a href="#mention_adresse">Adresse <small>(cliquer pour afficher)</small></a>
+                <div id="mention_adresse" class="content">
+                    <div class="row">                                                                        
+                        <div class="medium-10 large-10 medium-centered large-centered columns adresse">
+                            <div class="row text-left">
+                                <xsl:choose>
+                                    <xsl:when test="tei:p[1]/tei:address[@type='deliveredTo' and @place='envelope'] and tei:p[1]/tei:stamp">
+                                        <div class="large-6 columns">                                                         
+                                            <xsl:apply-templates select="tei:p/tei:address[@type='deliveredTo' and @place='envelope']" mode="accordion"/>              
+                                            <xsl:if test="tei:add[@hand='#other']">                                                
+                                                    <xsl:apply-templates select="tei:add[@hand='#other']"/>
+                                            </xsl:if>                                        
+                                        </div>        
+                                        <div class="large-6 columns">            
+                                            <xsl:apply-templates select="tei:p[1]/tei:stamp"/>        
+                                        </div>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <div class="large-12">                                                                                                                                            
+                                            <xsl:apply-templates select="tei:p/tei:address[@type='deliveredTo' and @place='envelope']" mode="accordion"/>                                                                                                                                    
+                                            <xsl:if test="tei:add[@hand='other']">                                                                                                                                                                               
+                                                <xsl:apply-templates select="tei:p/tei:add[@hand='other']"/>                            
+                                            </xsl:if>                                        
+                                        </div>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </div>
+                            <xsl:if test="tei:pb[@n='2']">
+                                <xsl:apply-templates select="tei:pb[@n='2']"/>
+                            </xsl:if>
+                            <div class="row text-left">
+                                <xsl:choose>
+                                    <xsl:when test="tei:p[2]/tei:address[@type='sentBy' and @place='envelope'] and tei:p[2]/tei:stamp">
+                                        <div class="large-6 columns">  
+                                            <xsl:apply-templates select="tei:p/tei:address[@type='sentBy' and @place='envelope']" mode="accordion"/>                
+                                        </div>
+                                        <div class="large-6 columns">                    
+                                            <xsl:apply-templates select="tei:p[2]/tei:stamp"/>                
+                                        </div>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <div class="large-12 columns">                    
+                                            <xsl:apply-templates select="tei:p/tei:address[@type='sentBy' and @place='envelope']" mode="accordion"/>                
+                                        </div>            
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </div>                                                                                                                         
+                        </div>                                                                                
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </xsl:template>                   
     
     <!-- &&ASIDE -->
-    <xsl:template match="tei:div[@type='letter']/tei:pb | tei:div[@type='enveloppe']/tei:pb" mode="affichage">
+    <xsl:template match="tei:div[@type='letter']//tei:pb | tei:div[@type='enveloppe']//tei:pb" mode="affichage">
         <xsl:variable name="source">
             <xsl:value-of select=" substring-before(@facs,' ')"/>
         </xsl:variable>
@@ -952,10 +1014,22 @@
         </xsl:variable>
         <xsl:for-each select=".">
             <xsl:variable name="image" select="@facs"/>
-            <a href="{$lien}">
-                <img src="{$source}" alt="image" class="img-responsive center-block facs"/>
-            </a> 
-        </xsl:for-each>
+            <li>
+                <a href="{$lien}">
+                    <img src="{$source}" alt="image"/>
+                </a>
+                <xsl:choose>
+                    <xsl:when test="following-sibling::*[1][self::tei:figure]">
+                        <div class="orbit-caption">
+                            <xsl:for-each select="following-sibling::*[1][self::tei:figure]">
+                                <xsl:value-of select="."></xsl:value-of>
+                            </xsl:for-each>
+                        </div>                                    
+                    </xsl:when>
+                    <xsl:otherwise/>                                                
+                </xsl:choose>                                                                                        
+            </li>                                
+        </xsl:for-each>  
     </xsl:template>
     
     
@@ -999,34 +1073,6 @@
             </xsl:for-each>
         </ul>
     </xsl:template>  
-    
-   <!-- <xsl:template match="tei:div[@type='note']//tei:persName | tei:div[@type='note']//tei:placeName | tei:div[@type='note']//tei:name[@type='navire'] | tei:div[@type='note']//tei:rs[@type='person']">
-        <xsl:choose>
-            <xsl:when test="@xml:id">
-                <xsl:variable name="ref">
-                    <xsl:value-of select="concat('../projet/index_edition.html',@ref)"/>
-                </xsl:variable>
-                <xsl:variable name="id">
-                    <xsl:value-of select="@xml:id"/>
-                </xsl:variable>
-                <xsl:variable name="def" select="replace(@ref,'#','')"/>
-                <xsl:variable name="defi">
-                    <xsl:apply-templates select="//tei:person[@xml:id=$def]/tei:persName | //tei:item[@xml:id=$def]//tei:label | //tei:place[@xml:id=$def]/tei:placeName" mode="survol"/>
-                </xsl:variable>                
-                <a href="{$ref}" id="{$id}" class="glossary"><xsl:apply-templates/><span><xsl:value-of select="$defi"></xsl:value-of></span></a>
-            </xsl:when>
-            <xsl:otherwise>                                    
-                <xsl:variable name="ref">
-                    <xsl:value-of select="concat('../projet/index_edition.html',@ref)"/>
-                </xsl:variable>
-                <xsl:variable name="def" select="replace(@ref,'#','')"/>
-                <xsl:variable name="defi">
-                    <xsl:apply-templates select="//tei:person[@xml:id=$def]/tei:persName | //tei:item[@xml:id=$def]//tei:label | //tei:place[@xml:id=$def]/tei:placeName" mode="survol"/>
-                </xsl:variable>                
-                <a href="{$ref}" class="glossary"><xsl:apply-templates/><span><xsl:value-of select="$defi"></xsl:value-of></span></a>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>-->
     
     <xsl:template match="//tei:listBibl//tei:bibl" mode="note">
         <xsl:choose>
@@ -1074,7 +1120,7 @@
                         </i>
                     </xsl:when>
                     <xsl:otherwise>
-                        <i><xsl:text>«</xsl:text><xsl:apply-templates select="tei:title"/><xsl:text>»</xsl:text></i><!-- todo vérifié si ça fonctionne -->
+                        <i><xsl:text>«</xsl:text><xsl:apply-templates select="tei:title"/><xsl:text>»</xsl:text></i>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="tei:editor">
@@ -1111,7 +1157,7 @@
                         </i>
                     </xsl:when>
                     <xsl:otherwise>
-                        <i><xsl:text>«</xsl:text><xsl:apply-templates select="tei:title"/><xsl:text>»</xsl:text></i><!-- todo vérifié si ça fonctionne -->
+                        <i><xsl:text>«</xsl:text><xsl:apply-templates select="tei:title"/><xsl:text>»</xsl:text></i>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="tei:editor">

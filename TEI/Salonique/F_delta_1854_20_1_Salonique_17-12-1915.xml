@@ -26,118 +26,13 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
-         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Salonique">Salonique</placeName>
-               <date when="1915-12-17">le 17 décembre 1915</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Salonique/F_delta_1854_20_1_Salonique_14-12-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1915-12-14">14 décembre 1915</date>
-               </ref>
-               <ref type="next" target="../Salonique/F_delta_1854_20_1_Salonique_20-12-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Salonique">Salonique</placeName>
-                  <date when="1915-12-20">20 décembre 1915</date>
-               </ref>               
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>   
+         <xi:include href="../master/Master.xml" xpointer="context_salonique_17-12-1915" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Salonique_17-12-1915">
-      <body xml:id="F_delta_1854_20_1_Salonique_17-12-1915_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_123.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_123.jpg"/>
-               <figDesc>
-                  Bonne et Heureuse Année
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_124.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  <placeName ref="#Salonique" xml:id="Salonique_17121915">Salonique</placeName>&vir;
-                  <date when="1915-12-17">le 17 <choice><orig>X<hi rend="super">bre</hi></orig><expan>décembre</expan></choice> 1915</date>
-               </dateline>
-               <salute>
-                  <persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_17121915">Comtesse</persName>&vir;
-               </salute>
-            </opener>
-            <p>
-               <lb/>Je vous écris ces deux mots pour vous <supplied reason="omitted">faire</supplied> savoir
-               <lb/>que je suis toujours en bonne santé et désire
-               <lb/>qu'&a; l'arrivée de cette carte que vous vous trouviez
-               <lb/>de même<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar cette même occasion comme le
-               <lb/>jour de l'an approche&vir; je vous <choice><orig>envoi</orig><reg>envoie</reg></choice> mes meilleurs
-               <lb/>vœux et souhaits de bonheur et <choice><orig>é</orig><reg>e</reg></choice>spère que
-               <lb/>cette année nous aurons la fin de la guerre
-               <lb/>et la victoire de 1916<pc>.</pc> Je vous souhaite de tout 
-               <lb/>cœur une meilleure santé ainsi que votre 
-               de<lb rend="hyphen"/>moiselle et que votre s&é;jour dans le midi vous
-               <lb/>rétablisse complètement<pc>.</pc> C'est dommage que nous
-               <lb/>ne soyons pas à <placeName ref="#Toulon" xml:id="Toulon_17121915">Toulon</placeName> car surement j'aurai demandé
-               <lb/>une permission &a; mon commandant pour aller vous
-               <lb/>dire bonjour car de <placeName ref="#Toulon">Toulon</placeName> &a; <placeName ref="#Sanary" xml:id="Sanary_17121915">Sanary</placeName> il me faut
-               <lb/>environ <choice><orig>20</orig><reg>vingt</reg></choice> <choice><abbr>m</abbr><expan>minutes</expan></choice> de train&pt;
-            </p>
-            <closer>
-               <salute>
-                  un petit ami qui vous souhaite
-                  <lb/>une bonne et heureuse année
-                  <lb/><add place="margin-right" rend="vertical">et une parfaite santé</add>&vir;
-               </salute>
-               <signed><add place="margin-left" rend="vertical"><persName ref="#Horel" xml:id="Horel_17121915">Armand Horel</persName></add></signed>
-            </closer>
-         </div>
-         <div type="enveloppe">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_121.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <address place="envelope" type="deliveredTo">
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>                        
-                  <addrLine>Hôtel de Bains</addrLine>                  
-                  <addrLine><placeName ref="#Sanary">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></addrLine>                  
-                  <addrLine><placeName ref="#Var" xml:id="Var_17121915">Var</placeName></addrLine>
-                  <addrLine><placeName ref="#France" xml:id="France_17121915">France</placeName></addrLine>
-               </address>
-               <stamp type="armee">
-                  <mentioned><orgName>Marine Française, Service à la Mer</orgName></mentioned>
-               </stamp>
-            </p>               
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_122.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               envoi de 
-               <address type="sentBy" place="envelope">
-                  <persName ref="#Horel">M<hi rend="super">ieur</hi>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><reg>quartier maitre</reg></choice> canonnier à bord du <name type="navire" ref="#H_IV" xml:id="H_IV_17121915">Henri IV</name></addrLine> 
-                  <addrLine>aux Dardanelles</addrLine>
-               </address>
-            </p>
-         </div>
-      </body>      
+      <xi:include href="../master/Master.xml" xpointer="body_salonique_17-12-1915" parse="xml"/>
       <back>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           

@@ -40,7 +40,7 @@
                                             <li class="has-dropdown">
                                                 <a href="#">Accès par expéditeur</a>
                                                 <ul class="dropdown">
-                                                    <xsl:apply-templates select="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien"/>
+                                                    <xsl:apply-templates select="//tei:correspDesc" mode="lien"/>
                                                 </ul>
                                             </li>      
                                             <li><a href="../projet/chronologie.html">Accès chronologique</a></li>                                        
@@ -51,20 +51,33 @@
                                 <!-- Partie droite -->                            
                                 <ul class="right">                            
                                     <li><a href="../projet/index_edition.html">Index</a></li>                                
-                                    <li><a href="#">à propos de l'édition</a></li>                                    
+                                    <li><a href="../projet/edition.html">A propos de l'édition</a></li>                                    
                                 </ul>                              
                             </section>                        
                         </nav>
                     </div>                                            
                 </header>
                 <div class="row">
-                    <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                    <ul class="example-orbit" data-orbit="true" data-options="bullets:false;">
+                        <li>
+                            <img src="../../IMAGES/photos_site/slide_14_18_1.jpg" alt="header"/>
+                            <div class="orbit-caption">
+                                Caption One.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../../IMAGES/photos_site/slide_14_18_2.jpg" alt="header"/>
+                            <div class="orbit-caption">
+                                Caption One.
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="row border">                                    
                     <div class="large-12 columns"> 
                         <h2>Index</h2>
                         <xsl:apply-templates select="//tei:div[@xml:id='introduction_index']"/>
-                        <xsl:apply-templates select="//tei:body[@xml:id='index']"/>                                               
+                        <xsl:apply-templates select="//tei:div[@xml:id='index']"/>                                               
                     </div>                    
                 </div>
                 <footer class="row border">
@@ -122,27 +135,61 @@
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template match="//tei:body[@xml:id='index']">        
+    <xsl:template match="//tei:div[@xml:id='index']">        
         <ul>
             <xsl:for-each select="tei:list/tei:item | tei:listPerson/tei:person | tei:listPlace/tei:place">
                 <xsl:sort select="tei:label | tei:persName/tei:surname | tei:persName[@type='nobility']/tei:forename | tei:placeName" order="ascending" case-order="upper-first"/>                                   
-                <xsl:sort select="tei:persName[@type='normal']/tei:forename" order="ascending" case-order="upper-first"/>
+                <xsl:sort select="tei:persName/tei:forename" order="ascending" case-order="upper-first"/>
                 <xsl:choose>                    
                     <xsl:when test="tei:label[@type='navire'] | tei:persName | tei:placeName">
                         <li class="entree">
                             <xsl:attribute name="id" select="@xml:id"/>                                            
                             <xsl:apply-templates select="tei:label[@type='navire'] | tei:persName | tei:placeName"/>                    
                             <xsl:choose>
-                                <xsl:when test="tei:note/tei:ref/ancestor::tei:listPerson | 
-                                    tei:note/tei:ref/ancestor::tei:listPlace | 
-                                    tei:note/tei:ref/ancestor::tei:item/tei:label/tei:name[@type='navire']">
+                                <xsl:when test="
+                                    tei:link/ancestor::tei:listPerson | 
+                                    tei:link/ancestor::tei:listPlace |                                      
+                                    tei:link/ancestor::tei:item/tei:label/tei:name[@type='navire']"><!-- Seuls les navires apparaissent dans l'index -->
                                     <ul>
                                         <li class="link">
                                             <xsl:text>Citations : </xsl:text>
-                                            <xsl:for-each select="tei:note/tei:ref">
-                                                <xsl:sort select=" tei:date/@cert" order="ascending" data-type="text"/>
-                                                <xsl:sort select="replace(tei:date/@when, '-', '')" order="ascending" data-type="number"/><!-- pour le mettre pas ordre il faut retirer les - -->                                                
+                                            <xsl:for-each select="tei:link[@type='cit']">
+                                                <xsl:variable name="id" select="generate-id(.)"/>
+                                                <xsl:if test="position() != 1">
+                                                    <xsl:text> &#x2014; </xsl:text>                                                                                                                                                                
+                                                </xsl:if>
+                                                <xsl:variable name="corresp" select="substring-after(@corresp,'#')"/>                                                  
+                                                <xsl:variable name="target" select="@target"/>
                                                 <xsl:choose>
+                                                    <xsl:when test="//tei:ref[@xml:id=$corresp]">                                                                
+                                                        <xsl:variable name="link" select="concat(replace(//tei:ref[@xml:id=$corresp]/@target,'xml','html'),$target)"/>
+                                                        <a href="#" data-dropdown="{$id}" aria-controls="{$id}" aria-expanded="false">                                                                   
+                                                            <xsl:value-of select="//tei:ref[@xml:id=$corresp]/tei:placeName"/><xsl:text>, </xsl:text>
+                                                            <xsl:choose>
+                                                                <xsl:when test="//tei:ref[@xml:id=$corresp]/tei:date[@type='unknow']">
+                                                                    <xsl:text>date inconnue</xsl:text>                                                                
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:value-of select="format-date(//tei:ref[@xml:id=$corresp]/tei:date/@when,'[D01] [Mn,*-3] [Y0001]', 'fr', (), ())"/>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>                                                        
+                                                        </a>
+                                                        <span id="{$id}" data-dropdown-content="true" class="medium f-dropdown content" aria-hidden="true" tabindex="-1">
+                                                            <small>Expéditeur : </small><xsl:value-of select="//tei:ref[@xml:id=$corresp]/tei:persName[@type='sentBy']"/>
+                                                            <br/>
+                                                            <small>Destinataire : </small><xsl:value-of select="//tei:ref[@xml:id=$corresp]/tei:persName[@type='deliveredTo']"/>
+                                                            <br/>
+                                                            <a href="{$link}">Cliquer pour accéder à la lettre</a>
+                                                        </span>
+                                                    </xsl:when>
+                                                    <xsl:otherwise/>
+                                                </xsl:choose>
+                                            </xsl:for-each>
+                                            
+                                            <!--<xsl:for-each select="tei:note/tei:ref">
+                                                <xsl:sort select=" tei:date/@cert" order="ascending" data-type="text"/>
+                                                <xsl:sort select="replace(tei:date/@when, '-', '')" order="ascending" data-type="number"/> pour le mettre pas ordre il faut retirer les - -->                                                
+                                                <!--<xsl:choose>
                                                     <xsl:when test="position() = 1">
                                                         <a>
                                                             <xsl:variable name="lien">
@@ -198,7 +245,7 @@
                                                         </a>
                                                     </xsl:otherwise>
                                                 </xsl:choose>                        
-                                            </xsl:for-each>
+                                            </xsl:for-each>-->
                                         </li>
                                     </ul>
                                 </xsl:when>
@@ -438,19 +485,20 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template match="//tei:particDesc/tei:listPerson[@type='sentBy']" mode="lien">
-        <xsl:for-each select="tei:person">
+    <xsl:template match="//tei:correspDesc" mode="lien">
+        <xsl:for-each select="tei:correspAction[@type='sent']/tei:persName">
             <xsl:variable name="id" select="concat('#',@xml:id)"/>
             <xsl:if test="//tei:correspDesc//tei:ref/tei:persName[@corresp=$id]">
                 <li class="has-dropdown">
                     <a class="link" href="#">
-                        <xsl:apply-templates select="tei:persName"/><xsl:text> à :</xsl:text>
+                        <xsl:apply-templates select="."/><xsl:text> à :</xsl:text>
                     </a>
                     <ul class="dropdown">                    
                         <xsl:for-each select="//tei:correspDesc//tei:ref[descendant::tei:persName[@corresp=$id]]">
                             <xsl:sort select=" tei:date/@cert" order="ascending" data-type="text"/>
                             <xsl:sort select="replace(tei:date/@when, '-', '')" order="ascending" data-type="number"/>
-                            <xsl:variable name="link" select="replace(@target,'xml','html')"/>
+                            <xsl:variable name="target" select="@target"/>
+                            <xsl:variable name="link" select="replace($target,'xml','html')"/>
                             <li><a href="{$link}"><xsl:value-of select="tei:persName[@type='deliveredTo']"/><xsl:text> : </xsl:text><xsl:value-of select="tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:date"/></a></li>
                         </xsl:for-each>
                     </ul>
@@ -458,6 +506,4 @@
             </xsl:if>                        
         </xsl:for-each>        
     </xsl:template>
-
-  
 </xsl:stylesheet>

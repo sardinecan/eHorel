@@ -1,0 +1,2017 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sch&#xE9;ma TEI pour l'&#xE9;dition de correspondances</title>
+                <author>Josselin Morvan</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>created on Wednesday 01st July 2015 03:44:41 PM</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div1>
+                <div2>
+                    <head>XML : un langage de balisage</head>
+                    <p> XML est un langage qui s'appuie sur l'utilisation de balises. <lb/>Les
+                        balises ont un r&#xF4;le syntaxique, permettant de d&#xE9;limiter et de
+                        localiser une s&#xE9;quence dans une chaîne de caract&#xE8;res. <lb/>
+                        <lb/>- Exemple : Ici j&#x2019;ai du texte en <hi rend="bold">gras</hi> et
+                        ici en <emph>italique</emph>
+                        <lb/>
+                        <lb/>- Principe&#xA0;: Ici j&#x2019;ai du texte en <hi rend="bold"
+                            >/d&#xE9;but_Gras gras /fin_Gras</hi> et ici en
+                            <emph>/d&#xE9;but_Italique italique /fin_Italique</emph>
+                        <lb/>
+                        <lb/>XML permet de distinguer la d&#xE9;finition s&#xE9;mantique des
+                        informations et leur mise en forme. Par exemple dans un index, il est
+                        d'usage d'utiliser l'italique pour distinguer les noms de lieux des noms de
+                        personnes. Il existe donc deux solutions pour un encodage XML : <lb/>
+                        <lb/>- Prise en compte de l&#x2019;apparence&#xA0;:&#xA0; <lb/><egXML
+                            xmlns="http://www.tei-c.org/ns/Examples"><italique>Beaune</italique>,
+                            ch.-l. d&#xE9;p. C&#xF4;te-d'or. <!--Beaune est en italique--></egXML>
+                        <lb/>
+                        <lb/>- Prise en compte du semantisme de l&#x2019;information&#xA0;: <lb/>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples"><lieu>Beaune</lieu>, ch.-l.
+                            d&#xE9;p. C&#xF4;te-d'or.
+                            <!--Beaune est en italique parce que c'est un lieu--></egXML>
+                    </p>
+                </div2>
+                <div2>
+                    <head>Un langage &#xE0; balises structur&#xE9;</head>
+                    <p> Un document XML respecte une structure hi&#xE9;rarchique formant une
+                        arborescence. Ce qui d&#xE9;finie peut &#xEA;tre le mieux cette structure ce
+                        sont les <hi>Matriochkas</hi>. <lb/>Cette structure implique que les
+                        &#xE9;l&#xE9;ments ne peuvent pas s&#x2019;entrecroiser : <lb/>
+                        <lb/><egXML xmlns="http://www.tei-c.org/ns/Examples">Bien formé :
+                                    <donateur><personne>Louise</personne> et <personne>Henri
+                                    Leblanc</personne></donateur></egXML>
+                        <lb/><egXML xmlns="http://www.tei-c.org/ns/Examples">Mal form&#xE9; :
+                            <![CDATA[<donateur><personne>Louise et <personne></personne>Henri Leblanc</donateur></personne>]]></egXML>
+                    </p>
+                </div2>
+                <div2>
+                    <head>Avantages et inconv&#xE9;nients d&#x2019;un langage s&#xE9;mantique et
+                        structur&#xE9;</head>
+                    <p><hi>Avantages :</hi><lb/>- La structure s&#xE9;mantique et hi&#xE9;rarchique
+                        est compr&#xE9;hensible par les machines. <lb/>- Le contenu est distinct de
+                        sa repr&#xE9;sentation. Cette derni&#xE8;re peut &#xEA;tre g&#xE9;r&#xE9;e
+                        &#xE0; part et est configurable &#xE0; volont&#xE9;. <lb/>- L'utilisation
+                        d&#x2019;un texte comme base de donn&#xE9;es. </p>
+                    <p><hi>Inconv&#xE9;nients :</hi><lb/>Structure parfois lourde </p>
+                </div2>
+                <div2>
+                    <head>Un langage de balisage eXtensible ?</head>
+                    <p> XML est un m&#xE9;talangage : il permet de cr&#xE9;er des langages avec leur
+                        propre grammaire (ex : EAD - TEI - XHTML). <lb/>XML ne propose donc pas un
+                        jeu d&#x2019;&#xE9;l&#xE9;ments pr&#xE9;d&#xE9;finis, mais un ensemble de
+                        r&#xE8;gles sur ce que doit &#xEA;tre un document bien form&#xE9; et valide.
+                    </p>
+                </div2>
+                <div2>
+                    <head>Composition d&#x2019;un document XML</head>
+                    <p><lb/>- Les &#xE9;l&#xE9;ments : structures de base d&#x2019;un document XML.
+                        Ils sont d&#xE9;limit&#xE9;s par des balises de d&#xE9;but et des balises de
+                        fin. Tout ce qui se trouve entre ces deux balises repr&#xE9;sente le
+                        contenu, ex : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                ><personne>Henri
+                            IV</personne><!--Notons que les balises sont délimitées par des chevrons "< et >"--></egXML><lb/>-
+                        Les attributs : ce sont des paires "nom-valeur" associ&#xE9;es &#xE0; la
+                        balise de d&#xE9;but d&#x2019;un &#xE9;l&#xE9;ment. Ils apportent
+                        g&#xE9;n&#xE9;ralement une information compl&#xE9;mentaire pour
+                        l&#x2019;encodeur ou sur le contenu de l&#x2019;&#xE9;l&#xE9;ment, ex :
+                        &lt;element attribut="valeur"&gt;mon contenu&lt;/element&gt; <lb/>- Des
+                        entit&#xE9;s : substituts pour des s&#xE9;quences d&#x2019;information.
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><bonbon>tic &amp;
+                                tac</bonbon> L&#x2019;esperluette est un caract&#xE8;re
+                            r&#xE9;serv&#xE9;</egXML>
+                        <lb/>- Des instructions de traitements : applications ext&#xE9;rieures.
+                        <lb/>- Des commentaires : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                            ><!--Les commentaires sont des notes dans le code--></egXML>
+                        <lb/>- Des sections CDATA : contenu textuel non pars&#xE9; <lb/>- PCDATA :
+                        contenu textuel balis&#xE9;. </p>
+                </div2>
+            </div1>
+            <div1>
+                <head>Organisation des fichiers</head>
+                <div2>
+                    <head>Encodage de correspondances et XML-TEI</head>
+                    <p> Lorsque l’on procède à une édition électronique de correspondances, le
+                        premier enjeux auquel nous sommes confrontés est celui d’avoir à encoder une
+                        multitude de petits textes indépendants mais pour autant liés les uns aux
+                        autres. À la différence d’une œuvre littéraire, ces textes ne peuvent pas
+                        être encodés à la suite comme différents chapitres. En effet, à des fins
+                        d’ergonomie, la publication web nécessite que chaque lettre possède sa
+                        propre page de consultation. Il est nécessaire de réfléchir à un corpus
+                        électronique organisé. Le schéma mis en place par la Text Encoding
+                        Initiative n’a pas été élaborée pour cet exercice mais des solutions peuvent
+                        tout de même être envisagées grâce notamment aux outils offerts par le cadre
+                        de travail XML. Une première solution est proposée par la <emph>Text
+                            Encoding Initiative</emph> avec la création d’un fichier
+                            <emph>teiCorpus</emph> qui permet de rassembler, au sein d’un seul
+                        fichier, un ensemble de documents TEI bien distincts et pouvant partager un
+                        ensemble de métadonnées communes. <egXML
+                            xmlns="http://www.tei-c.org/ns/Examples">
+                            <teiCorpus xmlns="http://www.tei−c.org/ns/1.0">
+                                <teiHeader>
+                                    <!--[en−tête du corpus pouvant contenir les différentes métadonnées communes]-->
+                                </teiHeader>
+                                <TEI>
+                                    <teiHeader>
+                                        <!--[en−tête de la première lettre]-->
+                                    </teiHeader>
+                                    <text>
+                                        <!--[première lettre du corpus]-->
+                                    </text>
+                                </TEI>
+                                <TEI>
+                                    <teiHeader>
+                                        <!--[en−tête de la deuxième lettre]-->
+                                    </teiHeader>
+                                    <text>
+                                        <!--[deuxième lettre du corpus]-->
+                                    </text>
+                                </TEI>
+                            </teiCorpus>
+                        </egXML> Cette proposition de la TEI permet de faire une gestion plus aisée
+                        des fichiers dans la mesure où il n’y a plus qu’un seul document à gérer.
+                        Toutefois, cela pose encore un problème pour la création des différentes
+                        pages d’un site internet dédié à l’édition. Nous ne pouvons pas créer par le
+                        biais d’une seule feuille de transformation XSLT, les différentes pages
+                        web correspondantes aux différentes lettres. Une solution a donc été trouvée
+                        avec l’environnement de travail XML qui dis- pose d’outils puissants. Le
+                        standard Xinclude autorise notamment la combinaison de différents documents
+                        XML entre eux. En effet, il permet de cibler certaines parties identifiées
+                        d’un document afin de l’intégrer au sein d’un autre fichier. Nous avons donc
+                        procédé de la manière suivante ; un fichier teiCorpus a été créé contenant
+                        chaque lettre au sein d’un élément <gi>TEI</gi>. Pour chaque lettre, un
+                        autre document XML a été créé et complété par le biais de différents
+                        appels Xinclude. Ces derniers ont permis par la suite la création des
+                        différentes pages web en leur appliquant les feuilles de transformation
+                        XSLT. Si cela semble complexe au premier abord, cela s’avère en réalité
+                        extrêmement commode et pertinent dans la gestion du projet, dans la mesure
+                        où une fois que les éléments nécessaires à chaque lettre ont été identifiés,
+                        il n’y a plus qu’un seul document à modifier, le fichier maître conte- nant
+                        le teiCorpus. Cela s’avère intéressant également pour la création d’un
+                        schéma TEI spécifique, car ce document rassemble l’ensemble des pratiques
+                        d’encodage. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <!--Voici un exemple d’utilisation d’Xincluse-->
+                            <!--L’espace de nom Xinclude doit être déclaré avec la mention suivante-->
+                            <text xmlns:xi="http://www.w3.org/2001/XInclude">
+                                <!--l’attribut @href cible le fichier contenant la partie de document à intéger-->
+                                <![CDATA[<xi:include href="../master/Master.xml" xpointer="body_imbros_23−09−1915" parse="xml"/>]]>
+                                <!--l’attribut @xpointer cible l’@xml:id du morceau de code à inclure-->
+                                <!--l’attribut @parse indique le tyte de données-->
+                            </text>
+                        </egXML> Concernant les liens, cela permet généralement de les simplifier
+                        car ils deviennent des liens internes au document. Toutefois, il faut faire
+                        attention ; dans une édition de correspondances comme nous l’avons vu, les
+                        différentes lettres doivent être publiées sur leur propre page. Cela
+                        nécessite dans la gestion des liens qui deviendront des liens hypertextes
+                        une attention toute particulière, car ils doivent être gérés en tenant compte
+                        du fichier XML servant à la sortie et non du teiCorpus. </p>
+                </div2>
+            </div1>
+            <div1>
+                <head>Manuel d'encodage en XML-TEI</head>
+                <div2>
+                    <head>Pr&#xE9;ambule</head>
+                    <p> Ce manuel constitue une aide pour le chercheur lors de son travail
+                        d'encodage. Il pr&#xE9;sente des explications sur certains points techniques
+                        mais il n'a pas vocation &#xE0; remplacer la documentation offerte par la
+                            <ref target="http://www.tei-c.org/index.xml">Text Encoding
+                            Initiative</ref>. </p>
+                    <p> Cette aide a &#xE9;t&#xE9; r&#xE9;dig&#xE9;e en s'appuyant en partie sur les
+                        manuels d'encodage suivants : <ref
+                            target="http://developpements.enc.sorbonne.fr/diple/schema/correspondance"
+                            >sch&#xE9;ma pour l'&#xE9;dition de correspondance de l'&#xC9;cole
+                            nationale des chartes</ref>, <ref
+                            target="http://www.desgodets.net/edition-des-cours">l'&#xE9;dition des
+                            cours de Desgodets</ref> et le <ref
+                            target="http://www.bvh.univ-tours.fr/XML-TEI/ManuelWeb/co/0Manuel%20Renaissance_Book.html"
+                            >manuel d'encodage TEI - Renaissance et temps modernes</ref>. </p>
+                    <p> Au sein de ce manuel, les &#xE9;l&#xE9;ments sont repr&#xE9;sent&#xE9;s
+                        entre des chevrons ("<![CDATA[<]]>" et "<![CDATA[>]]>"). Des liens renvoient
+                        vers la <ref target="documentation.html">documentation TEI</ref> fournie en
+                        annexe. </p>
+                    <p><!-- todo vérifier comme s'affiche les valeurs --> Enfin, par conventions les
+                        attributs seront repr&#xE9;sent&#xE9;s en italique et de la mani&#xE8;re
+                        suivante : <hi rend="italic">@attribut</hi>&#xA0;; leur valeur sera
+                        pr&#xE9;cis&#xE9;e entre guillemets : "valeur". </p>
+                </div2>
+                <div2>
+                    <head>L&#x2019;en-t&#xEA;te TEI : <ref target="documentation.html#TEI.teiHeader"
+                                ><gi>teiHeader</gi></ref></head>
+                    <p> Tout texte encod&#xE9; en TEI comporte un &#xE9;l&#xE9;ment <ref
+                            target="documentation.html#TEI.teiHeader"><gi>teiHeader</gi></ref>. Il
+                        s&#x2019;agit de l&#x2019;en-t&#xEA;te du document contenant les
+                        informations, m&#xE9;tadonn&#xE9;es, permettant son identification. <lb/>
+                        <lb/>Il se subdivise ainsi : <egXML xmlns="http://www.tei-c.org/ns/Examples"><teiHeader>
+                                <fileDesc>(obligatoire) description bibliographique</fileDesc>
+                                <encodingDesc> description des normes
+                                    d&#x2019;encodage</encodingDesc>
+                                <profileDesc> description des aspects non
+                                    bibliographiques</profileDesc>
+                            </teiHeader></egXML>
+                    </p>
+                    <p> Notons tout de m&#xEA;me que tous les &#xE9;l&#xE9;ments du <ref
+                            target="documentation.html#TEI.teiHeader"><gi>teiHeader</gi></ref>
+                        n&#x2019;ont pas vocation &#xE0; &#xEA;tre remplis. Nous nous bornerons donc
+                        &#xE0; la description des &#xE9;l&#xE9;ments principaux pr&#xE9;sentant un
+                        int&#xE9;r&#xEA;t g&#xE9;n&#xE9;ral pour l&#x2019;&#xE9;dition de
+                        correspondances. </p>
+                    <div3>
+                        <head>&#xC9;l&#xE9;ment de description bibliographique&#xA0;: <ref
+                                target="documentation.html#TEI.fileDesc"
+                            ><gi>fileDesc</gi></ref></head>
+                        <div4>
+                            <head type="subsection">D&#xE9;claration du titre : <ref
+                                    target="documentation.html#TEI.titleStmt"
+                                    ><gi>titleStmt</gi></ref></head>
+                            <p> Cet &#xE9;l&#xE9;ment est obligatoire. On y trouve les
+                                &#xE9;l&#xE9;ments suivants : <lb/><ref
+                                    target="documentation.html#TEI.title"><gi>title</gi></ref> :
+                                (r&#xE9;p&#xE9;table) Il d&#xE9;signe le/les titre(s) donn&#xE9;(s)
+                                &#xE0; l&#x2019;&#xE9;dition &#xE9;lectronique. <lb/><ref
+                                    target="documentation.html#TEI.respStmt"><gi>respStmt</gi></ref>
+                                : (statement of responsibility), cet &#xE9;l&#xE9;ment se
+                                r&#xE9;f&#xE8;re aux mentions de responsabilit&#xE9;s concernant
+                                l&#x2019;&#xE9;dition &#xE9;lectronique, les sous-&#xE9;l&#xE9;ments
+                                    <ref target="documentation.html#TEI.resp"><gi>resp</gi></ref> et
+                                    <ref target="documentation.html#TEI.name"><gi>name</gi></ref>
+                                peuvent par exemple renvoyer vers la description du r&#xF4;le
+                                d&#x2019;un des responsables de l&#x2019;&#xE9;dition et &#xE0; son
+                                nom. <lb/><ref target="documentation.html#TEI.author"
+                                        ><gi>author</gi></ref> : nom de l&#x2019;auteur <lb/><ref
+                                    target="documentation.html#TEI.editor"><gi>editor</gi></ref> :
+                                mentions de responsabilit&#xE9;s secondaires </p>
+                            <p> Exemple de <ref target="documentation.html#TEI.titleStmt"
+                                        ><gi>titleStmt</gi></ref> : <egXML
+                                    xmlns="http://www.tei-c.org/ns/Examples"><titleStmt
+                                        xml:id="titleStmt">
+                                        <title n="1">Don de Madame <persName ref="#Comtesse_Forest"
+                                                >la Comtesse de la Forest</persName></title>
+                                        <title n="2">Souvenir de soldats</title>
+                                        <title n="3">Cartes postales illustr&#xE9;es</title>
+                                        <respStmt>
+                                            <resp>Transcription et encodage XML/TEI : </resp>
+                                            <name xml:id="J_M">Josselin Morvan (&#xE9;tudiant &#xE0;
+                                                l'&#xC9;cole des chartes)</name>
+                                        </respStmt>
+                                        <respStmt>
+                                            <resp>Sous la direction de </resp>
+                                            <name xml:id="F_J_S">Fr&#xE9;d&#xE9;rique Joannic-Seta
+                                                (directrice adjointe de la
+                                                  <orgName>Bibiblioth&#xE8;que de Documentation
+                                                  Internationale Contemporaine</orgName>)</name>
+                                        </respStmt>
+                                    </titleStmt></egXML>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head>Mentions d'&#xE9;dition : <ref
+                                    target="documentation.html#TEI.editionStmt"
+                                    ><gi>editionStmt</gi></ref></head>
+                            <p> La balise <emph>edition statement : </emph> (optionnelle) renvoie
+                                aux mentions d&#x2019;&#xE9;dition. Le sous-&#xE9;l&#xE9;ment <ref
+                                    target="documentation.html#TEI.edition"><gi>edition</gi></ref>
+                                permet de d&#xE9;crire les sp&#xE9;cificit&#xE9;s de
+                                l&#x2019;&#xE9;dition d&#x2019;un texte. </p>
+                        </div4>
+                        <div4>
+                            <head>Mentions de publication&#xA0;: <ref
+                                    target="documentation.html#TEI.publicationStmt"
+                                        ><gi>publicationStmt</gi></ref></head>
+                            <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                    target="documentation.html#TEI.publicationStmt"
+                                        ><gi>publicationStmt</gi></ref> (obligatoire) regroupe les
+                                informations relatives &#xE0; la publication et &#xE0; la diffusion
+                                d&#x2019;un texte&#xA0;: <specList>
+                                    <specDesc key="authority"/>
+                                    <specDesc key="address"/>
+                                    <specDesc key="publisher"/>
+                                    <specDesc key="availability"/>
+                                </specList>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head><ref target="documentation.html#TEI.noteStmt"
+                                    ><gi>noteStmt</gi></ref></head>
+                            <p>L&#x2019;&#xE9;l&#xE9;ment <ref
+                                    target="documentation.html#TEI.noteStmt"><gi>noteStmt</gi></ref>
+                                (optionnel) permet d&#x2019;ajouter des notes sur
+                                l&#x2019;&#xE9;dition.</p>
+                        </div4>
+                        <div4>
+                            <head>Description de la source&#xA0;: <ref
+                                    target="documentation.html#TEI.sourceDesc"
+                                    ><gi>sourceDesc</gi></ref></head>
+                            <p> L'&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.sourceDesc"
+                                        ><gi>sourceDesc</gi></ref> (obligatoire) consigne toutes les
+                                informations sur la source originale. Elles peuvent &#xEA;tre
+                                d&#xE9;taill&#xE9;es &#xE0; l&#x2019;int&#xE9;rieur d&#x2019;une
+                                simple balise <ref target="documentation.html#p"><gi>p</gi></ref>,
+                                ou plus d&#xE9;taill&#xE9;es avec l&#x2019;utilisation d&#x2019;un
+                                &#xE9;l&#xE9;ment <ref target="documentation.html#msDesc"
+                                        ><gi>msDesc</gi></ref>. </p>
+                            <div5>
+                                <head>Manuscript description : <ref
+                                        target="documentation.html#msDesc"
+                                    ><gi>msDesc</gi></ref></head>
+                                <p> À l'origine, cette balise est d&#xE9;di&#xE9;e &#xE0; la
+                                    description des manuscrits anciens. Il est admis que son
+                                    utilisation peut &#xEA;tre &#xE9;tendue &#xE0; d&#x2019;autres
+                                    types de texte. Cet &#xE9;l&#xE9;ment peut contenir les balises
+                                    de description suivantes : </p>
+                                <div6>
+                                    <head>Informations d&#x2019;identification de la souce&#xA0;:
+                                            <ref target="documentation.html#TEI.msIdentifier"
+                                                ><gi>msIdentifier</gi></ref></head>
+                                    <p>Cette balise rassemble les &#xE9;l&#xE9;ments
+                                        d'identification de la source comme le lieu de conservation,
+                                        son identifiant <emph>etc.</emph></p>
+                                    <p> exemple de <ref target="documentation.html#TEI.msIdentifier"
+                                                ><gi>msIdentifier</gi></ref> : <egXML
+                                            xmlns="http://www.tei-c.org/ns/Examples"><msIdentifier
+                                                xml:id="msIdentifier"
+                                                  ><country>France</country><settlement>Nanterre</settlement><repository>Biblioth&#xE8;que
+                                                  de Documentation Internationale
+                                                  Contemporaine</repository><idno>F delta
+                                                  1854/20</idno></msIdentifier></egXML>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head><ref target="documentation.html#TEI.msContent"
+                                                ><gi>msContent</gi></ref></head>
+                                    <p> Cet &#xE9;l&#xE9;ment est relatif au contenu intellectuel du
+                                        texte &#xE9;dit&#xE9;. Il peut aussi &#xEA;tre d&#xE9;crit
+                                        &#xE0; l&#x2019;aide d&#x2019;un &#xE9;l&#xE9;ment <ref
+                                            target="documentation.html#p"><gi>p</gi></ref>. </p>
+                                </div6>
+                                <div6>
+                                    <head>Description physique du document&#xA0;: <ref
+                                            target="documentation.html#TEI.physDesc"
+                                                ><gi>physDesc</gi></ref></head>
+                                    <p> Cette balise peut contenir : <specList>
+                                            <specDesc key="objectDesc"/>
+                                        </specList>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head>Histoire&#xA0;: <ref
+                                            target="documentation.html#TEI.history"
+                                            ><gi>history</gi></ref></head>
+                                    <p>Cet &#xE9;l&#xE9;ment permet de retracer l&#x2019;historique
+                                        du document.</p>
+                                </div6>
+                            </div5>
+                        </div4>
+                        <div4>
+                            <head type="subsection">Description de l'encodage&#xA0;: <ref
+                                    target="documentation.html#TEI.encodingDesc"
+                                        ><gi>encodingDesc</gi></ref></head>
+                            <p> Cet &#xE9;l&#xE9;ment relatif a l&#x2019;encodage, pr&#xE9;cise les
+                                principes &#xE9;ditoriaux qui ont permis la transcription du texte.
+                                Il peut contenir les sous-&#xE9;l&#xE9;ments suivants&#xA0;: <specList>
+                                    <specDesc key="projectDesc"/>
+                                    <specDesc key="editorialDecl"/>
+                                    <specDesc key="correction"/>
+                                    <specDesc key="hyphenation"/>
+                                    <specDesc key="normalization"/>
+                                    <specDesc key="ponctuation"/>
+                                </specList>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head><ref target="documentation.html#TEI.profileDesc"
+                                        ><gi>profileDesc</gi></ref> Informations non
+                                bibliographiques</head>
+                            <p> Cette partie concerne les informations non bibliographiques de
+                                description d&#x2019;un document. </p>
+                            <div5>
+                                <head><ref target="documentation.html#TEI.langUsage"
+                                            ><gi>langUsage</gi></ref></head>
+                                <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.langUsage"
+                                        ><gi>langUsage</gi></ref> associ&#xE9; &#xE0; <ref
+                                        target="documentation.html#TEI.language"
+                                        ><gi>language</gi></ref> pr&#xE9;cise la ou les langues
+                                    utilis&#xE9;es. L&#x2019;identification de la langue doit
+                                    &#xEA;tre pr&#xE9;cis&#xE9;e par l&#x2019;attribut <hi
+                                        rend="italic">@ident</hi> auquel est rattach&#xE9; le code
+                                    de la langue (format ISO 639-3) <egXML
+                                        xmlns="http://www.tei-c.org/ns/Examples"><langUsage
+                                            xml:id="langUsage"><language ident="fr"
+                                                >Fran&#xE7;ais</language></langUsage></egXML>
+                                </p>
+                            </div5>
+                            <div5>
+                                <head>Description d'un acte de correspondance : <ref
+                                        target="documentation.html#TEI.correspDesc"
+                                            ><gi>correspDesc</gi></ref></head>
+                                <p> Cet &#xE9;l&#xE9;ment contient la description des actions
+                                    relatives &#xE0; un acte de correspondance. Il est
+                                    compl&#xE9;t&#xE9; par les sous-&#xE9;l&#xE9;ments: <specList>
+                                        <specDesc key="correspAction"/>
+                                        <specDesc key="correspContext"/>
+                                    </specList>
+                                </p>
+                                <div6>
+                                    <head type="paragraphe" n="1"><ref
+                                            target="documentation.html#TEI.correspAction"
+                                                ><gi>correspAction</gi></ref></head>
+                                    <p> Cet &#xE9;l&#xE9;ment peut contenir le nom de
+                                        l&#x2019;exp&#xE9;diteur ou du destinataire (<ref
+                                            target="documentation.html#TEI.persName"
+                                                ><gi>persName</gi></ref> ou <ref
+                                            target="documentation.html#TEI.orgName"
+                                            ><gi>orgName</gi></ref>), le lieu
+                                        d&#x2019;exp&#xE9;dition ou de r&#xE9;ception (<ref
+                                            target="documentation.html#TEI.placeName"
+                                                ><gi>placeName</gi></ref>), et la mention de date
+                                            (<ref target="documentation.html#TEI.date"
+                                            ><gi>date</gi></ref>) tous relatifs &#xE0; un acte
+                                        d&#x2019;envoi ou de r&#xE9;ception d&#x2019;une
+                                        correspondance. l'<att>type</att> doit venir préciser l'élément <gi>correspAction</gi>
+                                        Afin d'identifier si c'est l'acte de expédition (<val>sent</val>) ou de réception (<val>received</val>)
+                                        qui est décrit.
+                                        
+                                        <lb/>
+                                        <lb/>L'exp&#xE9;diteur et le destinataire seront identifiés
+                                        par la valeur de l'attribut <att>type</att> du
+                                        sous-&#xE9;l&#xE9;ment <ref
+                                            target="documentation.html#TEI.persName"
+                                                ><gi>persName</gi></ref>, <val>sentBy</val> pour
+                                        l'exp&#xE9;diteur et <val>deliveredTo</val> pour le
+                                        destinataire. <lb/>
+                                        <lb/>exemple : 
+                                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                            <correspAction type="sent">
+                                                <persName type="sentBy" ref="#Horel">Armand Horel</persName>                  
+                                                <placeName ref="#Toulon">Toulon</placeName>
+                                                <date when="1915-08-08">08 août 1915</date>
+                                            </correspAction>
+                                            <correspAction type="received">
+                                                <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
+                                            </correspAction>
+                                        </egXML>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head><ref target="documentation.html#TEI.correspContext"
+                                                ><gi>correspContext</gi></ref></head>
+                                    <p> Cette balise permet de replacer chronologiquement une
+                                        correspondance dans un &#xE9;change &#xE9;pistolaire et de
+                                        lier les envois entre eux. La solution retenue est: la
+                                        correspondance suivante et la pr&#xE9;c&#xE9;dente seront
+                                        identifi&#xE9;es par l&#x2019;&#xE9;l&#xE9;ment <ref
+                                            target="documentation.html#TEI.ref"><gi>ref</gi></ref>,
+                                        qui "d&#xE9;finit une r&#xE9;f&#xE9;rence vers un autre
+                                        emplacement", et l'attribut <att>type</att> de valeur
+                                            <val>previous</val> pour la pr&#xE9;c&#xE9;dente et
+                                            <val>next</val> pour la suivante. L'attribut
+                                            <att>target</att> prendra la valeur du chemin
+                                        d'acc&#xE8;s vers les fichiers concern&#xE9;s. &#xC0; la
+                                        diff&#xE9;rence de l&#x2019;&#xE9;l&#xE9;ment <ref
+                                            target="documentation.html#TEI.ptr"><gi>ptr</gi></ref>
+                                        (pointeur), la r&#xE9;f&#xE9;rence peut &#xEA;tre
+                                        "compl&#xE9;t&#xE9;e par un texte ou un commentaire". Dans
+                                        le cas d&#x2019;une correspondance, nous les
+                                        compl&#xE8;terons avec les &#xE9;l&#xE9;ments <ref
+                                            target="documentation.html#TEI.persName"
+                                                ><gi>persName</gi></ref> (<att>type</att> de valeur
+                                            <val>sentBy</val> ou <val>deliveredTo</val> afin
+                                        d&#x2019;identifier exp&#xE9;diteur et destinataire), <ref
+                                            target="documentation.html#TEI.placeName"
+                                                ><gi>placeName</gi></ref> et <ref
+                                            target="documentation.html#TEI.date"
+                                        ><gi>date</gi></ref>. <lb/>
+                                        <lb/>exemple <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                                  ><correspContext><ref type="previous"
+                                                  target="../Moudros/F_delta_1854_20_1_Moudros_03-09-1915.xml"
+                                                  ><persName type="sentBy" ref="#Horel">Armand
+                                                  Horel</persName><persName type="deliveredTo"
+                                                  ref="#Comtesse_Forest">Madame la Comtesse L. de la
+                                                  For&#xEA;st</persName><placeName ref="#Moudros"
+                                                  >Moudros</placeName><date when="1915-09-03">03
+                                                  septembre 1915</date></ref><ref type="next"
+                                                  target="../Mytilene/F_delta_1854_20_1_Mytilene_06-10-1915.xml"
+                                                  ><persName type="sentBy" ref="#Horel">Armand
+                                                  Horel</persName><persName type="deliveredTo"
+                                                  ref="#Comtesse_Forest">Madame la Comtesse L. de la
+                                                  For&#xEA;st</persName><placeName ref="#Mytilene"
+                                                  >Mythilene</placeName><date when="1915-10-06">06
+                                                  octobre 1915</date></ref></correspContext></egXML>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head><ref target="documentation.html#TEI.correspDesc"
+                                                ><gi>correspDesc</gi></ref> et <ref
+                                            target="documentation.html#TEI.teiCorpus"
+                                                ><gi>teiCorpus</gi></ref></head>
+                                    <p>
+                                        Il est important, dans une édition de correspondance, 
+                                        d'établir une table des courriers envoyés. Si cette dernière est 
+                                        le plus souvent chronologique, elle peut aussi être organisées en 
+                                        fonction des expéditeurs et destinataires ou encore selon le lieu d'envoi.
+                                        Un des points importants de ce projet étant la géolocalisation des courriers, 
+                                        il convient de réaliser, au sein du fichier maître (ou <gi>teiCorpus</gi>) une liste des toutes les lettres 
+                                        envoyées et organisée selon les lieux d'envoi.
+                                    </p>
+                                    <p>
+                                        Une balise <gi>correspDesc</gi> disposant d’un attribut <att>type</att>=<val>sommaire</val> doit être placée 
+                                        au sein de l’élément 
+                                        <gi>teiHeader</gi> relatif au corpus. L’élément <gi>correspAction</gi> doit être utilisé pour définir 
+                                        les différents rôles joués par les protagonistes. 
+                                        Ce sont bien les rôles qui doivent être décrits et non les protagonistes. 
+                                        Ainsi, si nous avons un des interlocuteurs qui a envoyé et reçu des lettres, 
+                                        cela sera encodé dans deux éléments <gi>correspAction</gi> différents et 
+                                        signifié par un attribut <att>type</att> d’une valeur <val>sent</val> ou <val>received</val> suivant qu’il 
+                                        soit qualifié d’expéditeur ou de destinataire et d’un attribut <att>subtype</att>=<val>global</val>. 
+                                        Au sein de cet élément <gi>correspAction</gi>, 
+                                        le noms de la personnes 
+                                        (destinataire ou expéditeur) 
+                                        doivent être encodés avec un élément <gi>persName</gi> précisé par un attribut <att>xml:id</att>. 
+                                        Les lieux et dates sont respectivement encodés dans des élément <gi>placeName</gi> et <gi>date</gi>, les différentes dates, 
+                                        correspondant à une session d’envoi sur un lieu donné sont identifiées par un identifiant <att>xml:id.</att>
+                                                <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                                    <correspAction type="sent" subtype="global">
+                                                        <!-- C’est le rôle d’expéditeur d’Armand Horel qui est décrit ici -->
+                                                        <persName ref="#Horel" xml:id="sent_Horel">Armand Horel</persName>
+                                                        <!--Chaque lieu ou le protagoniste a envoyé ses cartes et les sessions d’envoi sont rappelés et identifiées par un xml:id. -->
+                                                        <placeName ref="#Salonique">Salonique</placeName>
+                                                        <date corresp="#Salonique" when="1915−05−15" xml:id="envoi_salonique_1"/> 
+                                                        <date corresp="#Salonique" from="1915−11−16" to="1916−11−04" xml:id="envoi_salonique_2"/>
+                                                        
+                                                        <placeName ref="#Corfou">Corfou</placeName>
+                                                        <date corresp="#Corfou" when="1916−11−04" xml:id="envoi_corfou_1"/> 
+                                                        
+                                                        <placeName ref="#Mytilene">Mytilene</placeName>
+                                                        <date corresp="#Mytilene" when="1915−10−06" xml:id="envoi_mytilene_1"/> 
+                                                        
+                                                        <placeName ref="#Imbros">Imbros</placeName>
+                                                        <date corresp="#Imbros" when="1915−09−23" xml:id="envoi_imbros_1"/> 
+                                                        
+                                                        <placeName ref="#Moudros">Moudros</placeName>
+                                                        <date corresp="#Moudros" when="1915−09−03" xml:id="envoi_moudros_1"/>
+                                                        
+                                                        <placeName ref="#Toulon">Toulon</placeName>
+                                                        <date corresp="#Toulon" from="1915−08−08" to="1915−08−29" xml:id="envoi_toulon_1"/>
+                                                        
+                                                        <placeName ref="#Port_Iero">Port Iero</placeName>
+                                                        <date corresp="#Port_Iero" from="1915−10−09" to="1915−11−10" xml:id="envoi_portiero_1"/> 
+                                                    </correspAction>
+                                                </egXML>
+                                               
+                                               Dans un deuxième temps, un élément <gi>correspContext</gi> doit être créé par lieu d’envoi et 
+                                        comprendre une liste de sous-éléments <gi>ref</gi> comportant un <att>xml:id</att> (qui nous serviront pour l’index), 
+                                        un attribut <att>type</att>=<val>context</val> et enfin un attribut <att>corresp</att> relié au différentes dates listées dans les éléments 
+                                        <gi>correspAction</gi> (cela nous servira à établir une table chronologique des correspondances organisée par lieu). 
+                                        Chaque élément <gi>ref</gi> doit être complété par les informations d’identification de                                                    
+                                                    chaque cartes, l’expéditeur doit être encodé avec la balise 
+                                        <gi>persName</gi> précisée par l’attribut <att>type</att>=<val>sentBy</val> 
+                                        et un attribut <att>corresp</att> lié à l’<att>xml:id</att> lié à un des <gi>correspAction</gi>. 
+                                        Le même traitement est réalisé pour le destinataire. 
+                                        Enfin, on retrouve la date et le lieu, qui ne pose pas de problème quant à leur encodage.
+                                                        Ce système permet d’inclure l’ensemble du correspDesc dans tous les fichiers 
+                                                        de sortie destinés à être transformés en page HTML. Il permet par les différents 
+                                                        liens qui sont opérés entre les dates, les personnes et les lieux d’envoi, de réaliser
+                                                        des tables en fonction de n’importe laquelle des informations d’identification et de les 
+                                                        inclure dans un menu déroulant accessible depuis toutes les pages du site.
+                                                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                                        <correspContext xml:id="context_corfou">
+                                                            <!--Les éléments <ref> sont liés par leur attribut @corresp aux éléments <date> contenus dans un <correspAction>-->                                                                    
+                                                            <ref xml:id="Corfou_04−11−1916" type="context" target="../Corfou/F_delta_1854_20_1_Corfou_04−11−1916.xml" corresp="#envoi_corfou_1">
+                                                                <!--Le même principe est retenu pour les personnes-->                                                                        
+                                                                <persName type="sentBy" ref="#Horel" corresp="#sent_Horel">Armand Horel</persName> 
+                                                                <persName type="deliveredTo" ref="#Comtesse_Forest" corresp="#delivered_Comtesse">la Comtesse L. de la Forêst</persName>                                                                        
+                                                                <placeName ref="#Corfou">Corfou</placeName>                                                                       
+                                                                <date when="1916−11−04" cert="high">04 novembre 1916</date>                                                                  
+                                                            </ref> 
+                                                        </correspContext>
+                                                        
+                                                        <correspContext xml:id="context_mytilene">
+                                                            <ref xml:id="Mytilene_06−10−1915" type="context" target="../Mytilene/F_delta_1854_20_1_Mytilene_06−10−1915.xml" corresp="#envoi_mytilene_1">        
+                                                                <persName type="sentBy" ref="#Horel" corresp="#sent_Horel">Armand Horel</persName> 
+                                                                <persName type="deliveredTo" ref="#Comtesse_Forest" corresp="#delivered_Comtesse">la Comtesse L. de la Forêst</persName>
+                                                                <placeName ref="#Mytilene">Mythilene</placeName>
+                                                                <date when="1915−10−06" cert="high">06 octobre 1915</date>
+                                                            </ref> 
+                                                        </correspContext>
+                                                    </egXML>
+                                    </p>
+                                </div6>
+                            </div5>
+                        </div4>
+                    </div3>
+                </div2>
+                <div2>
+                    <head>Le corps de la d&#xE9;p&#xEA;che : <ref
+                            target="documentation.html#TEI.text"><gi>text</gi></ref></head>
+                    <p> L&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.text"
+                                ><gi>text</gi></ref> contient l&#x2019;ensemble du texte
+                        &#xE9;dit&#xE9;. Il peut &#xEA;tre subdivis&#xE9; en quatre sous-parties : <specList>
+                            <specDesc key="front"/>
+                            <specDesc key="group"/>
+                            <specDesc key="body"/>
+                            <specDesc key="back"/>
+                        </specList>
+                    </p>
+                    <div3>
+                        <head type="section" n="1"><ref target="documentation.html#TEI.front"
+                                >front</ref></head>
+                        <p> Cet &#xE9;l&#xE9;ment est optionnel. Il peut contenir la page de titre,
+                            les d&#xE9;dicaces, une pr&#xE9;face ou encore l&#x2019;introduction. La
+                            page de titre pourra &#xEA;tre encod&#xE9;e avec
+                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.titlePage"><gi>titlePage</gi></ref>.
+                            <lb/>Pour le reste, aucune balise sp&#xE9;cifique n&#x2019;a
+                            &#xE9;t&#xE9; pr&#xE9;vue, l&#x2019;introduction pourra donc &#xEA;tre
+                            encod&#xE9;e au sein d'une <ref target="documentation.html#TEI.div"
+                                    ><gi>div</gi></ref> portant l'attribut <att>type</att> de valeur
+                                <val>introduction</val>. <lb/>Un attribut <att>xml:id</att> peut lui
+                            &#xEA;tre fourni. <lb/>exemple : <egXML
+                                xmlns="http://www.tei-c.org/ns/Examples"><front>
+                                    <div type="introduction" xml:id="introduction_generale">
+                                        <p> La Correspondance d'<persName ref="#Horel">Armand
+                                                Horel</persName> regroupe les cartes postales et
+                                            lettres qu'il a envoy&#xE9;es &#xE0; sa marraine de
+                                            guerre, la <persName ref="#Comtesse_Forest">Comtesse de
+                                                la Forest</persName>, plus connue sous le nom de
+                                                <persName ref="#Silve_Claude">Claude
+                                                Silve</persName>&#xA0;; &#xE9;crivain et prix
+                                            f&#xE9;mina 1935. Ce fonds, issu d'un don, est
+                                            compos&#xE9; de cent cinquante-quatre cartes postales,
+                                            huit lettres, dont une de Louis Horel, le fr&#xE8;re
+                                            d'Armand et d'un programme de th&#xE9;&#xE2;tre
+                                            (&#xAB;&#xA0;Achi Baba and the forty
+                                            thieves&#xA0;&#xBB;). Il est conserv&#xE9;e sous la
+                                            c&#xF4;te F &#x394; 1854/20 par la biblioth&#xE8;que de
+                                            documentation internationale contemporaine (BDIC).
+                                            L'int&#xE9;gralit&#xE9; de ce fonds a &#xE9;t&#xE9;
+                                            num&#xE9;ris&#xE9;, il est disponible, sous licence
+                                            libre, sur la biblioth&#xE8;que num&#xE9;rique de la
+                                            BDIC, l'Argonnaute. </p>
+                                        <p> Mon second paragraphe [...] </p>
+                                        <p>
+                                            Dans l'élément <gi>front</gi> sont églement encodés les 
+                                            sujets des cartes au sein d'un élément <gi>argument</gi>.
+                                                
+                                        </p>
+                                    </div>
+                                </front></egXML>
+                        </p>
+                    </div3>
+                    <div3>
+                        <head><ref target="documentation.html#TEI.back"><gi>back</gi></ref></head>
+                        <p> Cet &#xE9;l&#xE9;ment est d&#xE9;volu aux textes annexes. Il contient
+                            tous les suppl&#xE9;ments plac&#xE9;s apr&#xE8;s la partie principale
+                            d&#x2019;un texte. Nous y placerons l&#x2019;index ainsi que les notes
+                            comme d&#xE9;crit par la suite. </p>
+                    </div3>
+                    <div3>
+                        <head>Balisage du corps du document.</head>
+                        <div4>
+                            <head>Introduction</head>
+                            <p> L&#x2019;encodage en XML-TEI ne permet pas un affichage direct en
+                                HTML; il faut pour cela passer par une feuille de style XSLT.
+                                <lb/>Il est nécessaire de garder &#xE0; l'esprit que "toute
+                                &#xE9;dition constitue une diminution de la r&#xE9;alit&#xE9;" car
+                                elle est le r&#xE9;sultat de choix op&#xE9;r&#xE9;s par
+                                l'&#xE9;diteur. <lb/>Le mod&#xE8;le d&#x2019;encodage propos&#xE9;
+                                par la BDIC a &#xE9;t&#xE9; d&#xE9;velopp&#xE9; de mani&#xE8;re
+                                &#xE0; respecter au maximum la source. Les interventions
+                                op&#xE9;r&#xE9;es lors de l'encodage correspondent à des
+                                donn&#xE9;es qui sont ajout&#xE9;es et non supprimées. Produire une
+                                version normalis&#xE9;e sera donc le simple r&#xE9;sultat de
+                                l'application d'une feuille de style sp&#xE9;cifique et non celui de
+                                choix &#xE9;ditoriaux irr&#xE9;versibles trait&#xE9;s lors de la
+                                phase d'encodage. </p>
+                        </div4>
+                        <div4>
+                            <head>Le Balisage physique</head>
+                            <p> Cette section est relative &#xE0; la structure physique du document
+                                originale. S&#x2019;agissant de correspondances manuscrites,
+                                celles-ci peuvent &#xEA;tre r&#xE9;dig&#xE9;es sur plusieurs
+                                feuillets d&#xE9;limit&#xE9;s par des sauts de page etc. De
+                                m&#xEA;me, au sein d&#x2019;une page les lignes de texte peuvent
+                                &#xEA;tre identifi&#xE9;es par des passages &#xE0; la ligne; il peut
+                                aussi exister des changements de colonne dans le cas des cartes
+                                postales par exemple. Enfin, le texte peut également &#xEA;tre mis
+                                en valeur grâce à d'autres mani&#xE8;res (soulign&#xE9;,
+                                surlign&#xE9;, &#xE9;crit en italique etc.) </p>
+                            <div5>
+                                <head>Le saut de page : <ref target="documentation.html#TEI.pb"
+                                            ><gi>pb</gi></ref></head>
+                                <p> Le changement de feuillet ou le passage du recto au verso doit
+                                    &#xEA;tre encod&#xE9; par l&#x2019;utilisation de
+                                    l&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.pb"><gi>pb</gi></ref>. Il
+                                    peut &#xEA;tre compl&#xE9;t&#xE9; par l&#x2019;attribut
+                                        <att>n</att> afin de num&#xE9;rot&#xE9; les pages. Dans ce
+                                    cas, il faut &#xE9;galement penser &#xE0; en placer un avant le
+                                    premier feuillet, afin que la num&#xE9;rotation soit
+                                    compl&#xE8;te. Dans le cas d&#x2019;un corpus
+                                    num&#xE9;ris&#xE9;, les r&#xE9;f&#xE9;rences aux
+                                    fac-simil&#xE9;s peut &#xEA;tre faite par l&#x2019;attribut
+                                        <att>facs</att>. Enfin, si l&#x2019;encodage porte sur des
+                                    cartes postales, il est int&#xE9;ressant lorsque la
+                                    correspondance tient sur plusieurs cartes de typer ce changement
+                                    avec l&#x2019;attribut <att>type</att> en lui donnant la valeur
+                                        <val>postcardBreak</val>
+                                    <lb/>
+                                    <lb/>exemple: <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                            ><pb n="3"
+                                            facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_179.jpg                                              http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                                              "
+                                            type="postcardBreak"/><figure><graphic
+                                                url="../../FACS/BDIC_FD_1854_20_1_179.jpg"
+                                                  /><figDesc><placeName ref="#Toulon"
+                                                  >TOULON.</placeName> - Entr&#xE9;e de la nouvelle
+                                                Caserne de Grignan </figDesc></figure><pb n="4"
+                                            facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_180.jpg                                              http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae                                              "
+                                                /><p><lb/><add type="numbering" n="3" rend="left"
+                                                  ><pc>.</pc>3<pc>.</pc></add><lb/>J'ai re&#xE7;u
+                                            une lettre de mon <rs type="person" ref="#Horel_Louis"
+                                                xml:id="Horel_Louis_23091915">fr&#xE8;re</rs>
+                                            dat&#xE9;e [...] </p></egXML>
+                                </p>
+                            </div5>
+                            <div5>
+                                <head>Les sauts de ligne <ref target="documentation.html#TEI.lb"
+                                            ><gi>lb</gi></ref></head>
+                                <p> Par convention, l&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.lb"><gi>lb</gi></ref> marque
+                                    le d&#xE9;but d&#x2019;une nouvelle ligne ; il est donc
+                                    pr&#xE9;f&#xE9;rable de le placer avant le texte. Les lignes
+                                    peuvent &#xEA;tre num&#xE9;rot&#xE9;es avec l&#x2019;attribut
+                                        <att>n</att> de la m&#xEA;me mani&#xE8;re que
+                                    l'&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.pb"
+                                            ><gi>pb</gi></ref>. </p>
+                            </div5>
+                            <div5>
+                                <head>Coupure des mots</head>
+                                <p> La coupure d&#x2019;un mot sera aussi mat&#xE9;rialis&#xE9;e
+                                    avec l&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.lb"><gi>lb</gi></ref> mais,
+                                    cette fois-ci, pr&#xE9;cis&#xE9; par l&#x2019;attribut
+                                        <att>rend</att> de valeur <val>hyphen</val> et l'<att>type</att> de valeur <val>marked</val> lorsque la
+                                    coupure est mat&#xE9;rialis&#xE9;e par un tiret dans le texte.
+                                    Dans le cas contraire, il convient d'utiliser la seule balise
+                                        <ref target="documentation.html#TEI.lb"><gi>lb</gi></ref>.
+                                    <lb/>Afin de faciliter le d&#xE9;veloppement d&#x2019;un
+                                    affichage ne tenant pas compte des changements de ligne, il
+                                    conviendra de ne pas marquer le retour &#xE0; la ligne ou un
+                                    espace &#xE0; la place de la coupure. <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                            ><p> [...] <lb/>la figure, qui est ce que nous aper<lb
+                                                rend="hyphen"/>&#xE7;evons qui planait au dessus de
+                                            nous ? [...] </p></egXML>
+                                </p>
+                                <p> Lorsque que deux mots sont repr&#xE9;sentés agglutin&#xE9;s, ils
+                                    seront encod&#xE9;s avec l'&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.w"><gi>w</gi></ref>
+                                    compl&#xE9;t&#xE9; de l'attribut <att>rend</att> de valeur
+                                        <val>aggl</val>. <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                            ><w rend="aggl">plus</w><w>tard</w></egXML>
+                                </p>
+                                <p> A l'inverse, lorsqu'un mot est coup&#xE9; alors qu'il ne devrait
+                                    pas l'&#xEA;tre, l'attribut <att>rend</att> prendra la valeur
+                                        <val>elision</val>. </p>
+                            </div5>
+                            <div5>
+                                <head>Les changements de colonnes <ref
+                                        target="documentation.html#TEI.cb"><gi>cb</gi></ref></head>
+                                <p><specDesc key="cb"/><lb/>Cette balise est particuli&#xE8;rement
+                                    int&#xE9;ressante dans le cas de cartes postales. Elle
+                                    s&#x2019;utilise de la m&#xEA;me mani&#xE8;re que les deux
+                                    pr&#xE9;c&#xE9;dentes. </p>
+                            </div5>
+                            <div5>
+                                <head>La mise en valeur <ref target="documentation.html#TEI.hi"
+                                            ><gi>hi</gi></ref></head>
+                                <p><specDesc key="hi"/> L'utilisation de cette balise doit &#xEA;tre
+                                    pr&#xE9;cis&#xE9;e par l&#x2019;attribut <att>rend</att>. Cet
+                                    &#xE9;l&#xE9;ment et son attribut n&#x2019;interpr&#xE8;tent pas
+                                    le texte contenu, ils pr&#xE9;cisent simplement son apparence
+                                    physique. Dans le cadre d&#x2019;une correspondance manuscrite,
+                                    il peut s&#x2019;agir d&#x2019;une portion de texte
+                                    soulign&#xE9;e, centr&#xE9;e, ou &#xE9;crite en lettres
+                                    capitales. Les valeurs de l&#x2019;attribut <att>rend</att>
+                                    seront donc,
+                                        "<val>underline</val>","<val>center</val>","<val>sc</val>".
+                                    Ces informations sont ensuite trait&#xE9;es avec la feuille de
+                                    style XSLT. </p>
+                                <p> Notons que tous les &#xE9;l&#xE9;ments peuvent &#xEA;tre
+                                    compl&#xE9;t&#xE9;s par l'attribut <att>rend</att> et qu'il
+                                    n'est donc pas toujours n&#xE9;cessaire de passer par
+                                    l'&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.hi"
+                                            ><gi>hi</gi></ref>. </p>
+                            </div5>
+                        </div4>
+                        <div4>
+                            <head>Segmentation ou balisage Logique</head>
+                            <p> Le corps du document doit &#xEA;tre balis&#xE9; par
+                                l&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.body"
+                                        ><gi>body</gi></ref>. Toutefois, chaque type de document
+                                (correspondance, po&#xE8;me, manuscrit ancien etc.) dispose
+                                d&#x2019;une structure qui lui est plus ou moins propre et qui peut
+                                &#xEA;tre r&#xE9;partie dans des divisions logiques. Une
+                                correspondance r&#xE9;pond g&#xE9;n&#xE9;ralement d&#x2019;une
+                                "structure diplomatique &#xE0; la fois simple et flexible" : mention
+                                de date, apostrophe, paragraphes de texte, formule de courtoisie et
+                                signature. Afin d&#x2019;uniformiser la sortie et de faciliter la
+                                lecture, il convient d&#x2019;identifier ces diff&#xE9;rentes
+                                divisions. </p>
+                            <div5>
+                                <head>La division&#xA0;: <ref target="documentation.html#TEI.div"
+                                            ><gi>div</gi></ref></head>
+                                <p> Cette balise correspond &#xE0; une subdivision du corps du texte
+                                    &#xE9;dit&#xE9;. Cet &#xE9;l&#xE9;ment doit &#xEA;tre
+                                    caract&#xE9;ris&#xE9; par l&#x2019;attribut <att>type</att> afin
+                                    d&#x2019;identifier au mieux son contenu. Dans le cadre de
+                                    l&#x2019;&#xE9;dition des correspondances, nous avons retenu
+                                    deux valeurs pour l&#x2019;attribut <att>type</att> qui sont
+                                        <val>letter</val> et <val>enveloppe.</val>
+                                    <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                                ><body><div type="letter"> [Ici le corps de ma
+                                                d&#xE9;p&#xEA;che] </div><div type="enveloppe"> [Ici
+                                                la transcription des mentions pr&#xE9;sentes sur
+                                                l'enveloppe] </div></body></egXML>
+                                </p>
+                            </div5>
+                            <div5>
+                                <head>Formule d&#x2019;ouverture&#xA0;: <ref
+                                        target="documentation.html#TEI.opener"
+                                    ><gi>opener</gi></ref></head>
+                                <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.opener"><gi>opener</gi></ref>
+                                    contient une formule d&#x2019;ouverture. Pour une
+                                    correspondance, il s&#x2019;agit g&#xE9;n&#xE9;ralement des
+                                    mentions de date et de lieu (<ref
+                                        target="documentation.html#TEI.dateline"
+                                        ><gi>dateline</gi></ref>) ainsi que de la formule de
+                                    politesse ou l'apostrophe (<ref
+                                        target="documentation.html#TEI.salute"
+                                    ><gi>salute</gi></ref>). <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                                  ><opener><dateline><placeName>Imbros</placeName>,
+                                                  <date when="1915-09-23">Le 23 septembre
+                                                  1915</date></dateline><salute><persName>Comtesse</persName>,
+                                            </salute></opener></egXML>
+                                </p>
+                            </div5>
+                            <div5>
+                                <head>paragraphe&#xA0;: <ref target="documentation.html#TEI.p"
+                                            ><gi>p</gi></ref></head>
+                                <p> La balise <ref target="documentation.html#TEI.p"
+                                        ><gi>p</gi></ref> repr&#xE9;sente un paragraphe.
+                                    C&#x2019;est &#xE0; l&#x2019;int&#xE9;rieur de cet
+                                    &#xE9;l&#xE9;ment que l&#x2019;essentiel du texte de la
+                                    correspondance sera plac&#xE9;. Chaque paragraphe dans le texte
+                                    original doit &#xEA;tre plac&#xE9; dans un &#xE9;l&#xE9;ment
+                                        <ref target="documentation.html#TEI.p"><gi>p</gi></ref>. Il
+                                    peut &#xEA;tre num&#xE9;rot&#xE9; avec l&#x2019;attribut
+                                        <att>n</att> et s&#x2019;il pr&#xE9;sente un alin&#xE9;a, il
+                                    sera indiqu&#xE9; par l&#x2019;attribut <att>rend</att> de
+                                    valeur <val>indent</val>. </p>
+                                <p> Dans le cadre d&#x2019;une correspondance tenant sur plusieurs
+                                    cartes postales, et afin de rendre compte de cette
+                                    mat&#xE9;rialit&#xE9;, c&#x2019;est le texte de chaque carte qui
+                                    sera plac&#xE9; &#xE0; l&#x2019;int&#xE9;rieur d&#x2019;un
+                                    paragraphe. <lb/> Pour rappel, dans le cadre des cartes
+                                    postales, l&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.pb"><gi>pb</gi></ref> devra
+                                    &#xEA;tre est pr&#xE9;cis&#xE9; par l&#x2019;attribut
+                                        <att>type</att>="postcardBreak". <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                            ><p><lb/>Un bonjour de <placeName ref="#Port_Iero">Port
+                                                <lb/>I&#xE9;ro</placeName> d&#x2019;un petit ami qui
+                                            <lb/>ne vous oubliera jamais. </p></egXML>
+                                </p>
+                            </div5>
+                            <div5>
+                                <head>Formule de politesse/fermeture : <ref
+                                        target="documentation.html#TEI.closer"
+                                    ><gi>closer</gi></ref></head>
+                                <p><ref target="documentation.html#TEI.closer"><gi>closer</gi></ref>
+                                    permet d&#x2019;encoder les formules de fin d&#x2019;une
+                                    correspondance. De la m&#xEA;me mani&#xE8;re que pour
+                                        l&#x2019;<ref target="documentation.html#TEI.opener"
+                                            ><gi>opener</gi></ref>, on peut y trouver: une formule
+                                    de courtoise (<ref target="documentation.html#TEI.salute"
+                                            ><gi>salute</gi></ref>), une signature (<ref
+                                        target="documentation.html#TEI.signed"
+                                    ><gi>signed</gi></ref>), une mention de date (<ref
+                                        target="documentation.html#TEI.dateline"
+                                        ><gi>dateline</gi></ref>) ou encore une adresse (<ref
+                                        target="documentation.html#TEI.address"
+                                        ><gi>address</gi></ref>). <lb/>Cet &#xE9;l&#xE9;ment peut se
+                                    répéter. </p>
+                            </div5>
+                            <div5>
+                                <head>Postscriptum : <ref target="documentation.html#TEI.postscript"
+                                            ><gi>postscript</gi></ref></head>
+                                <p><ref target="documentation.html#TEI.postscript"
+                                            ><gi>postscript</gi></ref> trouve sa place soit avant
+                                    soit apr&#xE8;s l&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.closer"
+                                    ><gi>closer</gi></ref>. Il peut reprendre une structure
+                                    similaire au corps de la d&#xE9;p&#xEA;che. <lb/>
+                                    <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                                ><postscript><p><lb/>J'ai &#xE9;t&#xE9; content de
+                                                ce courrier <lb/>car j'ai re&#xE7;u de bonnes
+                                                nouvelles <lb/>de la maison.
+                                                  <choice><orig>m</orig><reg>M</reg></choice>es deux
+                                                petites ni&#xE8;ces <lb/>sont en excellente
+                                                  sant&#xE9;&#xA0;<pc type="supplied">;</pc>
+                                                <lb/>elles sont hors de danger <lb/>de cette
+                                                mauvaise <lb/>rougeole qui a
+                                                  <choice><orig>regn&#xE9;e</orig><reg>r&#xE9;gn&#xE9;</reg></choice>
+                                                <lb/>chez nous pendant
+                                                  <lb/><choice><orig>1</orig><reg>un</reg></choice>
+                                                mois environ. </p></postscript></egXML>
+                                </p>
+                            </div5>
+                        </div4>
+                        <div4>
+                            <head>Le balisage &#xE9;ditorial</head>
+                            <p> Dans la mesure o&#xF9; l&#x2019;&#xE9;dition porte sur des documents
+                                qui n&#x2019;ont jamais &#xE9;t&#xE9; &#xE9;dit&#xE9;s, ce balisage
+                                fait essentiellement r&#xE9;f&#xE9;rence aux interventions
+                                ajout&#xE9;es dans le texte par les encodeurs ceci dans le but
+                                d&#x2019;en am&#xE9;liorer la compr&#xE9;hension et la
+                                lisibilit&#xE9;. </p>
+                            <div5>
+                                <head>L&#x2019;orthographe</head>
+                                <p> Lors de la transcription du texte, l&#x2019;encodeur dispose de
+                                    plusieurs possibilit&#xE9;s quant &#xE0; la gestion d&#x2019;une
+                                    orthographe fautive qui, faut-il le rappeler, est le reflet de
+                                    la condition de l&#x2019;auteur. Le transcripteur peut tout
+                                    d&#x2019;abord d&#xE9;cider de moderniser cette orthographe "au
+                                    fil de l&#x2019;eau", lors de l&#x2019;encodage du texte,
+                                    perdant ainsi toute trace de la graphie originale. A
+                                    l&#x2019;inverse, il peut d&#xE9;cider de ne rien corriger, ce
+                                    qui peut poser probl&#xE8;me lorsque l&#x2019;orthographe est
+                                    particuli&#xE8;rement d&#xE9;ficiente. Une alternative est
+                                    permise par la TEI. Il est possible de proposer une correction
+                                    orthographique du texte tout en maintenant la forme fautive ou
+                                    ancienne de l&#x2019;auteur. </p>
+                                <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                        target="documentation.html#TEI.choice"><gi>choice</gi></ref>
+                                    autorise de regrouper des balisages alternatifs (au moins deux)
+                                    pour certains segments du texte. </p>
+                                <div6>
+                                    <head>Les fautes d&#x2019;orthographe</head>
+                                    <p> Il est possible d&#x2019;affiner sa correction en fonction
+                                        des cas de figure. Il est parfois int&#xE9;ressant de
+                                        distinguer les fautes d&#x2019;orthographe r&#xE9;currentes
+                                        ou syst&#xE9;matiques, de celles plus isol&#xE9;es. Dans la
+                                        premi&#xE8;re &#xE9;ventualit&#xE9;, il peut s&#x2019;agir
+                                        par exemple d&#x2019;un auteur qui confond
+                                        syst&#xE9;matiquement l&#x2019;infinitif des verbes du
+                                        premier groupe et leur participe pass&#xE9; ou encore qui
+                                        utilise le verbe avoir &#xE0; la place la pr&#xE9;position
+                                        "&#xE0;". Il conviendra d&#x2019;utiliser dans ce cas les
+                                        &#xE9;l&#xE9;ments <ref target="documentation.html#TEI.orig"
+                                                ><gi>orig</gi></ref> pour la graphie originale, et
+                                            <ref target="documentation.html#TEI.reg"
+                                            ><gi>reg</gi></ref> pour la forme corrig&#xE9;e. </p>
+                                    <p> Concernant les fautes plus &#xE9;parses, sur le m&#xEA;me
+                                        principe nous utiliserons alors les &#xE9;l&#xE9;ments <ref
+                                            target="documentation.html#TEI.sic"><gi>sic</gi></ref>
+                                        pour l&#x2019;orthographe fautive et <ref
+                                            target="documentation.html#TEI.corr"><gi>corr</gi></ref>
+                                        pour la correction. <egXML
+                                            xmlns="http://www.tei-c.org/ns/Examples"><p><lb/>petites
+                                                nouvelles de guerre. Nous <lb/>sommes
+                                                  <choice><orig>appareiller</orig><reg>appareill&#xE9;s</reg></choice>
+                                                pour l'&#xEE;le <lb/><placeName ref="#Imbros"
+                                                  >d'Imbros</placeName>
+                                            </p></egXML>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head>Abr&#xE9;viations</head>
+                                    <p> Dans la mesure du possible, les abr&#xE9;viations doivent
+                                        &#xEA;tre d&#xE9;velopp&#xE9;es&#xA0;, &#xE0;
+                                        l&#x2019;exception des plus courantes et des sigles. Il en
+                                        va de m&#xEA;me pour les noms de personnes s'ils peuvent
+                                        &#xEA;tre identifi&#xE9;s. Il convient d&#x2019;utiliser la
+                                        balise <ref target="documentation.html#TEI.choice"
+                                                ><gi>choice</gi></ref> compl&#xE9;t&#xE9;e par les
+                                        &#xE9;l&#xE9;ments <ref target="documentation.html#TEI.abbr"
+                                                ><gi>abbr</gi></ref>, contenant
+                                        l&#x2019;abr&#xE9;viation, et <ref
+                                            target="documentation.html#TEI.expan"
+                                            ><gi>expan</gi></ref> pour la version
+                                        d&#xE9;velopp&#xE9;e. Il n&#x2019;est en revanche pas
+                                        n&#xE9;cessaire de distinguer les lettres ajout&#xE9;es pour
+                                        la r&#xE9;solution de l&#x2019;abr&#xE9;viation. </p>
+                                </div6>
+                                <div6>
+                                    <head> Les nombres </head>
+                                    <p> S&#x2019;il est d&#xE9;cid&#xE9; de moderniser
+                                        l&#x2019;orthographe, il convient de faire de m&#xEA;me pour
+                                        les nombres. Les chiffres doivent &#xEA;tre &#xE9;crits en
+                                        toutes lettres &#xE0; quelques exceptions près: <lb/>
+                                        <lb/>En chiffres arabes : les dates, &#xE9;num&#xE9;rations,
+                                        degr&#xE9;s, num&#xE9;ros d&#x2019;ordre etc. <lb/>En
+                                        chiffres romains : les si&#xE8;cles, les num&#xE9;ros
+                                        dynastiques ou les r&#xE9;gimes politiques, les r&#xE9;gions
+                                        militaires etc. <lb/>
+                                        <lb/>Les balises <ref target="documentation.html#TEI.choice"
+                                                ><gi>choice</gi></ref>, <ref
+                                            target="documentation.html#TEI.reg"><gi>reg</gi></ref>
+                                        et <ref target="documentation.html#TEI.orig"
+                                            ><gi>orig</gi></ref> pourront &#xEA;tre utilis&#xE9;es.
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head>La ponctuation</head>
+                                    <p> Lorsque la ponctuation g&#xE8;ne la compr&#xE9;hension,
+                                        parce qu&#x2019;elle est fautive ou tout simplement absente,
+                                        il convient de la corriger. <lb/>Toute marque de ponctuation
+                                        sera encod&#xE9;e avec l&#x2019;&#xE9;l&#xE9;ment <ref
+                                            target="documentation.html#TEI.pc"><gi>pc</gi></ref>.
+                                        <lb/>L&#x2019;&#xE9;tablissement d&#x2019;une ponctuation
+                                        inexistante devra &#xEA;tre signifi&#xE9;e par
+                                        l&#x2019;attribut <att>type</att>=<val>supplied</val>.
+                                        <lb/>Les &#xE9;l&#xE9;ments superflus seront aussi
+                                        pr&#xE9;cis&#xE9;s par l&#x2019;attribut <att>type</att>
+                                        mais de valeur <val>surplus</val>. <lb/>Enfin, en cas de
+                                        mauvaise utilisation d&#x2019;une marque de ponctuation, il
+                                        convient utiliser les &#xE9;l&#xE9;ments <ref
+                                            target="documentation.html#TEI.reg"><gi>reg</gi></ref>
+                                        et <ref target="documentation.html#TEI.orig"
+                                            ><gi>orig</gi></ref>. </p>
+                                </div6>
+                                <div6>
+                                    <head>R&#xE9;tablissement des majuscules et des
+                                        minuscules</head>
+                                    <p> Le r&#xE9;tablissement de la ponctuation n&#xE9;cessite bien
+                                        souvent de r&#xE9;tablir l&#x2019;utilisation des majuscules
+                                        et des minuscules. Il en est de m&#xEA;me dans le texte; en
+                                        cas de correction, il faut veiller &#xE0; r&#xE9;tablir les
+                                        majuscules pour les d&#xE9;buts de phrase et les noms
+                                        propres, et les minuscules pour les noms communs, &#xE0;
+                                        l&#x2019;exception de noms abstraits ou lorsque
+                                        l&#x2019;auteur leur donne un sens ou une valeur
+                                        particuli&#xE8;re. Cet op&#xE9;ration requiert l'utilisation
+                                        des balises. <lb/> <lb/>exemple : <ref
+                                            target="documentation.html#TEI.reg"><gi>reg</gi></ref>
+                                        et <ref target="documentation.html#TEI.orig"
+                                            ><gi>orig</gi></ref>
+                                        <egXML xmlns="http://www.tei-c.org/ns/Examples"><lb/>car
+                                            j'ai re&#xE7;u de bonnes nouvelles <lb/>de la
+                                                maison<pc>.</pc><choice><orig>m</orig><reg>M</reg></choice>es
+                                            deux petites ni&#xE8;ces <lb/>sont en excellente
+                                                sant&#xE9;<pc type="supplied">,</pc></egXML>
+                                    </p>
+                                </div6>
+                                <div6>
+                                    <head>L&#x2019;&#xC9;tat du texte</head>
+                                    <p> Il s&#x2019;agit ici de rendre compte de l&#x2019;&#xE9;tat
+                                        physique d&#x2019;un texte, en signalant les parties
+                                        ab&#xEE;m&#xE9;es, incompl&#xE8;tes, illisibles,
+                                        ajout&#xE9;es etc. </p>
+                                    <div7>
+                                        <head>Lecture incertaine</head>
+                                        <p> Il convient de signifier cette incertitude par
+                                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.unclear"
+                                                  ><gi>unclear</gi></ref>, dont la raison sera
+                                            pr&#xE9;cis&#xE9;e dans la mesure du possible par
+                                            l&#x2019;attribut <att>reason</att> (exemple de valeur,
+                                                <val>illegible</val> (illisible), <val>damage</val>
+                                            (dommage) etc). </p>
+                                    </div7>
+                                    <div7>
+                                        <head>Les manques</head>
+                                        <p> Toute partie manquante doit &#xEA;tre encod&#xE9;e par
+                                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.gap"
+                                                ><gi>gap</gi></ref> qui peut &#xEA;tre
+                                            compl&#xE9;t&#xE9; par le m&#xEA;me attribut. </p>
+                                    </div7>
+                                    <div7>
+                                        <head>Les suppressions</head>
+                                        <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.del"
+                                                ><gi>del</gi></ref> identifie les parties qui ont
+                                            &#xE9;t&#xE9; supprim&#xE9;es volontairement soit par
+                                            l&#x2019;auteur (une rature par exemple) soit par un
+                                            tiers. Il peut &#xEA;tre pr&#xE9;cis&#xE9; avec
+                                            l&#x2019;attribut <att>rend</att> et la valeur
+                                                <val>overline</val> lorsqu&#x2019;il est simplement
+                                            barr&#xE9; ou <val>censored</val> lorsque le texte a
+                                            &#xE9;t&#xE9; censur&#xE9;. L&#x2019;attribut
+                                                <att>hand</att> permet d&#x2019;identifier la main
+                                            responsable de cette suppression lorsqu&#x2019;il ne
+                                            s&#x2019;agit pas de celle de l&#x2019;auteur et
+                                            qu&#x2019;elle peut &#xEA;tre identifi&#xE9;e. </p>
+                                    </div7>
+                                    <div7>
+                                        <head>Les ajouts</head>
+                                        <p> Les ajouts de l&#x2019;auteur ou d&#x2019;une autre
+                                            personne seront encod&#xE9;s &#xE0; la place ou elles se
+                                            situent dans le texte avec la balise <ref
+                                                target="documentation.html#TEI.add"
+                                                ><gi>add</gi></ref>. Elle sera pr&#xE9;cis&#xE9;e
+                                            par les attributs <hi rend="italic">@place</hi>,
+                                                <att>rend</att> et <hi rend="italic">@hand</hi>.
+                                            Lorsqu&#x2019;il s&#x2019;agit d&#x2019;une signature ou
+                                            d&#x2019;une formule de politesse ajout&#xE9;e en marge
+                                            par manque de place, il convient de distinguer plusieurs
+                                            cas de figure. </p>
+                                        <p> L&#x2019;ajout est par exemple en marge mais &#xE0; la
+                                            fin du texte, il faut alors utiliser la balise <ref
+                                                target="documentation.html#TEI.closer"
+                                                  ><gi>closer</gi></ref> compl&#xE9;t&#xE9;e de la
+                                            balise <ref target="documentation.html#TEI.add"
+                                                  ><gi>add</gi></ref>
+                                            <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                                  ><closer><salute><add place="margin-right"
+                                                  rend="vertical">un petit ami qui vous envoie
+                                                  ses</add><add place="margin-left" rend="vertical"
+                                                  >meilleurs souvenirs de <placeName
+                                                  ref="#Salonique"
+                                                  >Salonique</placeName></add></salute></closer></egXML>
+                                        </p>
+                                        <p> La signature ou la formule de politesse sont
+                                            r&#xE9;dig&#xE9;es sur un pr&#xE9;c&#xE9;dent feuillet.
+                                            Il faut alors attribuer &#xE0;
+                                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.add"
+                                                ><gi>rs</gi></ref> l&#x2019;attribut
+                                                <att>type</att> avec les valeur <val>closer</val> et sera complété ainsi :
+                                            
+                                                . <egXML
+                                                xmlns="http://www.tei-c.org/ns/Examples"><rs
+                                                  type="closer"><add type="signed"
+                                                  place="margin-right" rend="vertical"><persName
+                                                  ref="#Horel" xml:id="Horel_27041916"
+                                                  >ArmandHorel</persName></add><add
+                                                  place="margin-left" rend="vertical"> Bonne
+                                                  sant&#xE9; &#xE0; tous et bonne <lb/>chance
+                                                  </add></rs></egXML>
+                                        </p>
+                                    </div7>
+                                    <div7>
+                                        <head>Restitution</head>
+                                        <p> Lorsqu&#x2019;il apparait qu&#x2019;un mot a
+                                            &#xE9;t&#xE9; accidentellement oubli&#xE9; par
+                                            l&#x2019;auteur, il peut &#xEA;tre restitu&#xE9; avec
+                                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.supplied"
+                                                  ><gi>supplied</gi></ref> et la raison
+                                            identifi&#xE9;e par l&#x2019;attribut
+                                                <att>reason</att>=<val>omitted</val>. Les mots
+                                            compos&#xE9;s ne pr&#xE9;sentant pas leur tiret de
+                                            liaison seront encod&#xE9;s comme suit : <egXML
+                                                xmlns="http://www.tei-c.org/ns/Examples"
+                                                  >sous<supplied reason="omitted"
+                                                  >-</supplied>marin</egXML>
+                                        </p>
+                                    </div7>
+                                    <div7>
+                                        <head>Les notes</head>
+                                        <p> Les notes que l&#x2019;on souhaite ajouter dans le texte
+                                            doivent &#xEA;tre encod&#xE9;es comme suit&#xA0;: au
+                                            sein de l&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.back"
+                                                ><gi>back</gi></ref>, il convient de cr&#xE9;er une
+                                            division <ref target="documentation.html#TEI.div"
+                                                  ><gi>div</gi></ref> comportant l&#x2019;attribut
+                                                <att>type</att>=<val>note</val>. Nous y placerons
+                                            autant d&#x2019;&#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.note"
+                                                ><gi>note</gi></ref> que n&#xE9;cessaire. Ils
+                                            devront comporter un <att>xml:id</att> ainsi qu'un
+                                            attribut de num&#xE9;rotation <att>n</att>. Dans le
+                                            texte, &#xE0; la place où doit apparaitre la note, nous
+                                            utiliserons un &#xE9;l&#xE9;ment <ref
+                                                target="documentation.html#TEI.ref"
+                                                ><gi>ref</gi></ref> de
+                                                <att>type</att>=<val>note</val> li&#xE9; &#xE0; la
+                                                <ref target="documentation.html#TEI.note"
+                                                  ><gi>note</gi></ref> correspondante par
+                                            l&#x2019;attribut <att>target</att>. Cette balise ne
+                                            doit pas comporter de contenu. L&#x2019;attribut
+                                                <att>n</att> doit &#xEA;tre de la m&#xEA;me valeur
+                                            que celui de la <ref
+                                                target="documentation.html#TEI.note"
+                                                ><gi>note</gi></ref>. <egXML
+                                                xmlns="http://www.tei-c.org/ns/Examples"
+                                                  ><body><p><lb/><placeName ref="#Imbros"
+                                                  >d'Imbros</placeName><ref type="note"
+                                                  target="#F_delta_1854_20_1_Imbros_23-09-1915_note1"
+                                                  n="1"/> qui se trouve juste &#xE0;
+                                                  <lb/>l'embouchure du <placeName ref="#Golf_Saros"
+                                                  xml:id="Golf_Saros_23091915">golfe de
+                                                  <choice><orig>Sarros</orig><reg>Saros</reg></choice></placeName><pc>.</pc>
+                                                  </p></body><back><div type="note"><note
+                                                  xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1"
+                                                  n="1"> L'&#xEE;le d'<placeName ref="#Imbros"
+                                                  >Imbros</placeName> est rest&#xE9;e, &#xE0;
+                                                  l'issue des guerres balkaniques, sous domination
+                                                  Ottomane. </note></div></back></egXML>
+                                        </p>
+                                    </div7>
+                                </div6>
+                            </div5>
+                        </div4>
+                    </div3>
+                    <div3>
+                        <head type="section" n="4">La balisage des noms et dates</head>
+                        <p> Ce balisage permet d&#x2019;identifier les noms propres et les dates
+                            afin de pouvoir les r&#xE9;utiliser ensuite avec un index ou un
+                            glossaire. </p>
+                        <div4>
+                            <head>Noms de personnes : <ref target="documentation.html#TEI.persName"
+                                        ><gi>persName</gi></ref></head>
+                            <p> Cet &#xE9;l&#xE9;ment "contient un nom propre ou une expression
+                                nominale se r&#xE9;f&#xE9;rant &#xE0; une personne. Il peut inclure
+                                tout ou partie de ses pr&#xE9;noms, noms de famille, titres
+                                honorifiques, noms ajout&#xE9;s, etc.". Afin de le lier &#xE0;
+                                l&#x2019;index ou au glossaire, cet &#xE9;l&#xE9;ment doit comporter
+                                l&#x2019; attribut <att>ref</att> renvoyant &#xE0;
+                                    l&#x2019;<att>xml:id</att> de l&#x2019;entr&#xE9;e
+                                concern&#xE9;e ainsi que, pour la premi&#xE8;re occurrence de la
+                                lettre, un <att>xml:id</att> permettant de le localiser lors de la
+                                sortie HTML. <lb/>
+                                <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                        ><persName ref="#Horel" xml:id="Horel_a27-10_b3-11">Armand
+                                        Horel</persName></egXML>
+                            </p>
+                            <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                    target="documentation.html#TEI.persName"><gi>persName</gi></ref>
+                                doit &#xEA;tre utilis&#xE9; lorsque le nom de la personne est
+                                clairement identifi&#xE9;. Dans les autres cas, il convient de
+                                recourir &#xE0; l&#x2019;&#xE9;l&#xE9;ment <ref
+                                    target="documentation.html#TEI.rs"><gi>rs</gi></ref> plus
+                                g&#xE9;n&#xE9;rique; il doit &#xEA;tre pr&#xE9;cis&#xE9; avec
+                                l&#x2019;attribut <att>type</att>="<val>person</val>" et li&#xE9;
+                                &#xE0; l&#x2019;index de la m&#xEA;me mani&#xE8;re. <egXML
+                                    xmlns="http://www.tei-c.org/ns/Examples"><rs type="person"
+                                        ref="#Horel_Louis" xml:id="Horel_Louis__09101915">mon
+                                        malheureux fr&#xE8;re</rs></egXML>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head type="subsection" n="2">Noms de lieux : <ref
+                                    target="documentation.html#TEI.placeName"
+                                    ><gi>placeName</gi></ref></head>
+                            <p> Cet &#xE9;l&#xE9;ment s&#x2019;utilise de la m&#xEA;me mani&#xE8;re
+                                que le pr&#xE9;c&#xE9;dent. <egXML
+                                    xmlns="http://www.tei-c.org/ns/Examples"><placeName
+                                        ref="#Port_Iero" xml:id="Port_Iero_a27-10_b3-11">Port
+                                        I&#xE9;ro</placeName></egXML>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head type="subsection" n="3">Autres noms propres : <ref
+                                    target="documentation.html#TEI.name"><gi>name</gi></ref></head>
+                            <p> L&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.name"
+                                        ><gi>name</gi></ref> est plus g&#xE9;n&#xE9;rique que les
+                                deux balises pr&#xE9;c&#xE9;dentes. Il permettra d&#x2019;identifier
+                                tous les autres noms propres qui ne correspondent pas &#xE0; une
+                                personne ou à un lieu. Il sera pr&#xE9;cis&#xE9; par un attribut
+                                    <att>type</att>. <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                        ><name type="navire" ref="#Shamrock_II"
+                                        xml:id="Shamrock_II_27041916">Shamrock II</name></egXML>
+                            </p>
+                        </div4>
+                        <div4>
+                            <head>Mention de date : <ref target="documentation.html#TEI.date"
+                                        ><gi>date</gi></ref></head>
+                            <p> L&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.date"
+                                        ><gi>date</gi></ref> permet d&#x2019;encoder les dates de
+                                n&#x2019;importe quelle forme. Des attributs permettent de
+                                pr&#xE9;ciser et d&#x2019;uniformiser la valeur. <att>when</att>
+                                permet de standardiser la date sous la forme AAAA, ou si la date est
+                                plus pr&#xE9;cise, AAAA-MM-JJ.
+                                    <lb/><att>notBefore</att>/<att>notAfter</att> sont utilis&#xE9;s
+                                lorsque la date est impr&#xE9;cise. <lb/><att>cert</att> permet de
+                                pr&#xE9;ciser le degr&#xE9; de certitude&#xA0;; les valeurs sont
+                                    <val>high</val>(forte), <val>medium</val>(moyenne) et
+                                    <val>low</val>(basse). <lb/><att>type</att>=<val>unknow</val>
+                                doit &#xEA;tre utilis&#xE9; lorsque la date est inconnue. </p>
+                        </div4>
+                    </div3>
+                    <div3>
+                        <head>L&#x2019;encodage des figures : <ref
+                                target="documentation.html#TEI.figure"><gi>figure</gi></ref></head>
+                        <p> Lorsqu&#x2019;une illustration est pr&#xE9;sente, il est
+                            int&#xE9;ressant de la signaler par l&#x2019;utilisation de
+                            l&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.figure"
+                                    ><gi>figure</gi></ref>. Lorsqu&#x2019;un facsimil&#xE9;
+                            num&#xE9;rique est disponible, l&#x2019;&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.graphic"><gi>graphic</gi></ref>
+                            aid&#xE9; de l&#x2019;attribut <att>url</att> permet de lier
+                            l&#x2019;image au texte. Enfin l&#x2019;&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.figDesc"><gi>figDesc</gi></ref>
+                            permet de donner une description de cette image. <lb/>Dans le cas des
+                            cartes postales, la face illustr&#xE9;e sera encod&#xE9;e avec cet
+                            &#xE9;l&#xE9;ment. <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                                        ><figure><graphic url="../../FACS/BDIC_FD_1854_20_1_181.jpg"
+                                            /><figDesc><placeName ref="#Toulon"
+                                            xml:id="Toulon_23091915">TOULON.</placeName> - Le Casino
+                                    </figDesc></figure></egXML>
+                        </p>
+                    </div3>
+                </div2>
+                <div2>
+                    <head>Index et Glossaire</head>
+                    <p> De mani&#xE8;re &#xE0; ne pas surcharger l&#x2019;apparat critique, les
+                        notes de bas de pages peuvent &#xEA;tre limit&#xE9;es par la constitution
+                        d&#x2019;un index-glossaire. Toutes les r&#xE9;f&#xE9;rences nominales (ou
+                        tout du moins la premi&#xE8;re occurrence de chaque lettre) doivent
+                        &#xEA;tre reli&#xE9;es &#xE0; l&#x2019;index afin d&#x2019;&#xEA;tre
+                        identifi&#xE9;es. Trois index peuvent &#xEA;tre r&#xE9;alis&#xE9;s si besoin
+                        est ; un index nominum (<ref target="documentation.html#TEI.listPerson"
+                                ><gi>listPerson</gi></ref>), index des noms de lieux, (<ref
+                            target="documentation.html#TEI.listPlace"><gi>listPlace</gi></ref>), et
+                        un index/glossaire (<ref target="documentation.html#TEI.list"
+                            ><gi>list</gi></ref>
+                        <att>type</att>=<val>autre_index</val>). Chaque sous-&#xE9;l&#xE9;ments de
+                        ces listes (<ref target="documentation.html#TEI.person"
+                            ><gi>person</gi></ref>, <ref target="documentation.html#TEI.place"
+                                ><gi>place</gi></ref>, <ref target="documentation.html#TEI.item"
+                                ><gi>item</gi></ref> devront &#xEA;tre identifi&#xE9;s par un
+                            <att>xml:id</att>, afin de s&#x2019;y r&#xE9;f&#xE9;rer lors de
+                        l&#x2019;encodage du texte. </p>
+                    <p> Ces index peuvent &#xEA;tre plac&#xE9;s dans le <ref
+                            target="documentation.html#TEI.back"><gi>back</gi></ref> et
+                        int&#xE9;gr&#xE9;s par l'interm&#xE9;diaire d'Xinclude. </p>
+                    <div3>
+                        <head>Index nominum : <ref target="documentation.html#TEI.listPerson"
+                                    ><gi>listPerson</gi></ref></head>
+                        <p> L&#x2019;&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.listPerson"><gi>listPerson</gi></ref>
+                            permet la constitution d&#x2019;un index des noms de personnes. Il est
+                            compos&#xE9; d&#x2019;un ensemble de sous-&#xE9;l&#xE9;ments <ref
+                                target="documentation.html#TEI.person"><gi>person</gi></ref>,
+                            compl&#xE9;t&#xE9; &#xE0; son tour par des balises <ref
+                                target="documentation.html#TEI.persName"><gi>persName</gi></ref>,
+                                <ref target="documentation.html#TEI.birth"><gi>birth</gi></ref> et
+                                <ref target="documentation.html#TEI.birth"><gi>death</gi></ref> pour
+                            les dates de naissance et de mort. Les &#xE9;l&#xE9;ments <ref
+                                target="documentation.html#TEI.event"><gi>event</gi></ref> et <ref
+                                target="documentation.html#TEI.state"><gi>state</gi></ref>
+                            rassembleront les informations concernant des &#xE9;v&#xEA;nements ou un
+                            &#xE9;tat qui les qualifie. <lb/>La r&#xE9;alisation d'un index
+                            structur&#xE9; &#xE9;tant relativement complexe, il convient de remplir
+                            les entr&#xE9;es de mani&#xE8;re standardis&#xE9;e et de respecter
+                            toujours le m&#xEA;me ordre en fonction des cas de figure. <lb/>Enfin,
+                            les citations seront avec les &#xE9;l&#xE9;ments <ref
+                                target="documentation.html#TEI.link"><gi>link</gi></ref>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><person
+                                    xml:id="Frederic_Guillaume"><persName type="nobility"
+                                            ><forename>Fr&#xE9;d&#xE9;ric-Guillaume</forename><nameLink>de</nameLink><placeName>Prusse</placeName></persName><state><p><roleName
+                                                type="nobility"
+                                        >Kronprinz</roleName></p></state><birth when="1882"/><death
+                                        when="1951"/><listEvent><event><p>Il Commande la V<hi
+                                                  rend="sup">e</hi> arm&#xE9;e lors de la bataille
+                                                de la Marne.</p></event><event><p>En 1916 il
+                                                m&#xE8;ne les attaques contre
+                                                Verdun.</p></event><event><p>Comme son p&#xE8;re il
+                                                abdique en novembre
+                                        1918.</p></event></listEvent><link type="cit"
+                                        corresp="#Salonique_25-01-1916"
+                                        target="#Frederic_Guillaume_25011916"/></person></egXML>
+                            Notons que l&#x2019;attribut <att>target</att> de
+                            l&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.link"
+                                    ><gi>link</gi></ref> renvoie &#xE0; la citation dans le corps de
+                            la d&#xE9;p&#xEA;che. L'attribut <att>corresp</att> quant &#xE0; lui,
+                            cible la lettre concern&#xE9;e dans le <ref
+                                target="documentation.html#TEI.correspDesc"
+                                ><gi>correspDesc</gi></ref>
+                        </p>
+                    </div3>
+                    <div3>
+                        <head>Index des noms de lieu : <ref
+                                target="documentation.html#TEI.listPlace"
+                            ><gi>listPlace</gi></ref></head>
+                        <p><ref target="documentation.html#TEI.listPlace"><gi>listPlace</gi></ref>
+                            doit &#xEA;tre compl&#xE9;t&#xE9; sur le m&#xEA;me principe que
+                            l&#x2019;&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.listPerson"
+                            ><gi>listPerson</gi></ref>. L'index des noms de lieux doit rendre compte
+                            des sp&#xE9;cificit&#xE9;s locales (pays pour les lieux &#xE9;trangers,
+                            d&#xE9;coupage administratif etc.) L'&#xE9;l&#xE9;ment <ref
+                                target="documentation.html#TEI.placeName"><gi>placeName</gi></ref>
+                            sera typ&#xE9; avec les valeurs <att>type</att>=<val>fr</val> pour les
+                            lieux fran&#xE7;ais et <att>type</att>=<val>etranger</val> pour les
+                            autres. Ces entr&#xE9;es peuvent aussi &#xEA;tre pr&#xE9;cis&#xE9;es
+                            avec l'emploi des &#xE9;l&#xE9;ments <ref
+                                target="documentation.html#TEI.event"><gi>event</gi></ref> et <ref
+                                target="documentation.html#TEI.state"><gi>state</gi></ref>. <egXML
+                                xmlns="http://www.tei-c.org/ns/Examples"><place xml:id="Gallipoli"
+                                        ><placeName type="renvoi" corresp="#Canakkale"
+                                        >Gallipoli</placeName></place><place xml:id="Canakkale"
+                                        ><placeName type="etranger"
+                                            >&#xC7;anakkale</placeName><location><country>Turquie</country><district
+                                            type="region">Marmara</district><!-- région --><district
+                                            type="province">prov.
+                                            &#xC7;anakkale</district><!-- district régional --><district
+                                            type="district">dist.
+                                        Marmara</district><!-- communauté --></location><link
+                                        type="cit" corresp="#Toulon_08-08-1915"
+                                        target="#Gallipoli_08081915"/></place><place xml:id="Sanary"
+                                        ><placeName type="fr"
+                                            >Sanary-sur-Mer</placeName><location><country>France</country><district
+                                            type="departement">Var</district><district
+                                            type="arrondissement">arr.
+                                        Toulon</district></location><link type="cit"
+                                        corresp="#Port_Iero_10-11-1915" target="#Sanary_10111915"
+                                        /><link type="cit" corresp="#Salonique_23-11-1915"
+                                        target="#Sanary_23111915"/><link type="cit"
+                                        corresp="#Salonique_07-12-1915" target="#Sanary_07121915"
+                                        /><link type="cit" corresp="#Salonique_17-12-1915"
+                                        target="#Sanary_17121915"/><link type="cit"
+                                        corresp="#Salonique_20-12-1915" target="#Sanary_20121915"
+                                        /><link type="cit" corresp="#Salonique_27-12-1915"
+                                        target="#Sanary_27121915"/><link type="cit"
+                                        corresp="#Salonique_07-01-1916" target="#Sanary_07011916"
+                                        /><link type="cit" corresp="#Salonique_19-01-1916"
+                                        target="#Sanary_19011916"/><link type="cit"
+                                        corresp="#Salonique_31-01-1916" target="#Sanary_31011916"
+                                        /><link type="cit" corresp="#Salonique_05-02-1916"
+                                        target="#Sanary_05021916"/><link type="cit"
+                                        corresp="#Salonique_21-02-1916" target="#Sanary_21021916"
+                                        /><link type="cit" corresp="#Salonique_10-03-1916"
+                                        target="#Sanary_10031916"/><link type="cit"
+                                        corresp="#Salonique_16-03-1916" target="#Sanary_16031916"
+                                        /><link type="cit" corresp="#Salonique_22-03-1916"
+                                        target="#Sanary_22031916"/></place></egXML>
+                        </p>
+                    </div3>
+                    <div3>
+                        <head>Autre index : <ref target="documentation.html#TEI.list"
+                                ><gi>list</gi></ref></head>
+                        <p> L&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.list"
+                                    ><gi>list</gi></ref> permet de r&#xE9;aliser des entr&#xE9;es
+                            d&#x2019;index ou de glossaire &#xE0; partir de termes qui ne peuvent
+                            &#xEA;tre placés dans les <ref
+                                target="documentation.html#TEI.listPerson"><gi>listPerson</gi></ref>
+                            et <ref target="documentation.html#TEI.listPlace"
+                                ><gi>listPlace</gi></ref>. Il s'utilise de la m&#xEA;me fa&#xE7;on
+                            que les deux pr&#xE9;c&#xE9;dents. <egXML
+                                xmlns="http://www.tei-c.org/ns/Examples"><item xml:id="Lavoisier"
+                                        ><label type="navire"><name type="navire"
+                                            >Lavoisier</name><rs>le</rs></label><desc>croiseur de 2e
+                                            classe<date from="1897" to="1920"
+                                                  /></desc><listEvent><event><p><date
+                                                  when="1915-12-30">1915 (d&#xE9;cembre) </date>
+                                                Envoy&#xE9; &#xE0; <placeName ref="#Port_Said"
+                                                  >Port-Sa&#xEF;d</placeName></p></event><event><p><date
+                                                  when="1916-02">1916 (f&#xE9;vrier)</date>
+                                                Affect&#xE9; au secteur de
+                                                M&#xE9;dit&#xE9;rran&#xE9;e
+                                                  occidentale</p></event><event><p><date
+                                                  when="1916-09">1916 (septembre)</date> Envoy&#xE9;
+                                                au <placeName ref="#Maroc"
+                                            >Maroc</placeName></p></event><event><p><date
+                                                  when="1919">1919</date> Stationnement en
+                                            Syrie</p></event></listEvent><link type="cit"
+                                        corresp="#Port_Iero_10-11-1915" target="#lavoisier_10111915"
+                                    /></item><item xml:id="Boeuf"><label type="navire"><name
+                                            type="navire"
+                                            >Boeuf</name><rs>le</rs></label><desc>remorqueur<date
+                                            from="1909" to="1942"/></desc><link type="cit"
+                                        corresp="#Salonique_24-01-1916" target="#Boeuf_24011916"
+                                    /></item></egXML>
+                        </p>
+                    </div3>
+                </div2>
+            </div1>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>Sch&#xE9;ma TEI pour l'&#xE9;dition de correspondances</p>
+            <schemaSpec ident="bdic_modelisation" docLang="fr" prefix="tei_" xml:lang="en">
+                <moduleRef key="core"
+                    except="analytic biblScope biblStruct binaryObject cit citedRange distinct divGen emph gb gloss headItem headLabel imprint index l lg measure measureGrp media meeting mentioned milestone monogr num postBox postCode q quote relatedItem said series soCalled sp speaker stage street term textLang time"/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header"
+                    except="abstract appInfo application biblFull cRefPattern calendar calendarDesc catDesc catRef category classCode classDecl funder geoDecl interpretation keywords listChange listPrefixDef prefixDef refState refsDecl scriptNote stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass typeNote"/>
+                <moduleRef key="textstructure"
+                    except="byline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText imprimatur titlePage titlePart trailer"/>
+                <classSpec ident="att.cReferencing" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="cRef" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.canonical" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="key" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.combinable" module="tagdocs" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="mode" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <moduleRef key="transcr"
+                    except="addSpan am damageSpan delSpan ex facsimile fw handNotes handShift line listTranspose metamark mod redo restore retrace sourceDoc space subst substJoin surface surfaceGrp transpose undo zone"/>
+                <classSpec ident="att.coordinated" module="transcr" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="lrx" mode="delete"/>
+                        <attDef ident="lry" mode="delete"/>
+                        <attDef ident="points" mode="delete"/>
+                        <attDef ident="start" mode="delete"/>
+                        <attDef ident="ulx" mode="delete"/>
+                        <attDef ident="uly" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <moduleRef key="namesdates"
+                    except="affiliation age climate education faith floruit geogFeat geogName langKnowledge langKnown listNym listRelation nym occupation offset personGrp population region relation residence sex socecStatus terrain trait"/>
+                <moduleRef key="msdescription"
+                    except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation collection colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation handDesc height heraldry incipit institution layout layoutDesc locus locusGrp msItemStruct msName msPart musicNotation objectType origDate origPlace origin recordHist rubric scriptDesc seal sealDesc secFol signatures source summary surrogates typeDesc watermark width"/>
+                <moduleRef key="figures" except="cell formula notatedMusic row table"/>
+                <moduleRef key="analysis" except="c cl interp interpGrp m phr s span spanGrp"/>
+                <moduleRef key="corpus"
+                    except="activity channel constitution derivation domain factuality interaction locale preparedness purpose setting textDesc"/>
+                <classSpec ident="att.datable" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="calendar" mode="delete"/>
+                        <attDef ident="period" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.datable.custom" module="namesdates" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="datingMethod" mode="delete"/>
+                        <attDef ident="datingPoint" mode="delete"/>
+                        <attDef ident="from-custom" mode="delete"/>
+                        <attDef ident="notAfter-custom" mode="delete"/>
+                        <attDef ident="notBefore-custom" mode="delete"/>
+                        <attDef ident="to-custom" mode="delete"/>
+                        <attDef ident="when-custom" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.datable.iso" module="namesdates" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="from-iso" mode="delete"/>
+                        <attDef ident="notAfter-iso" mode="delete"/>
+                        <attDef ident="notBefore-iso" mode="delete"/>
+                        <attDef ident="to-iso" mode="delete"/>
+                        <attDef ident="when-iso" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.datcat" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="datcat" mode="delete"/>
+                        <attDef ident="valueDatcat" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.declarable" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="default" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.declaring" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="decls" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.deprecated" module="tagdocs" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="validUntil" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.divLike" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="org" mode="delete"/>
+                        <attDef ident="sample" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.docStatus" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="status" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.duration.w3c" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="dur" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.editLike" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="evidence" mode="delete"/>
+                        <attDef ident="instant" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.edition" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="ed" mode="delete"/>
+                        <attDef ident="edRef" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.enjamb" module="verse" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="enjamb" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.fragmentable" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="part" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.global.analytic" module="analysis" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.global.change" module="transcr" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="change" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.global.rendition" mode="change" type="atts" module="tei">
+                    <attList>
+                        <attDef ident="style" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.handFeatures" mode="change" type="atts" module="tei">
+                    <attList>
+                        <attDef ident="scope" mode="delete"/>
+                        <attDef ident="scribe" mode="delete"/>
+                        <attDef ident="scribeRef" mode="delete"/>
+                        <attDef ident="script" mode="delete"/>
+                        <attDef ident="scriptRef" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.identified" module="tagdocs" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="ident" mode="delete"/>
+                        <attDef ident="module" mode="delete"/>
+                        <attDef ident="predeclare" mode="delete"/>
+                        <attDef ident="status" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.internetMedia" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="mimeType" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.interpLike" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="inst" mode="delete"/>
+                        <attDef ident="type" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.lexicographic" module="dictionaries" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="expand" mode="delete"/>
+                        <attDef ident="location" mode="delete"/>
+                        <attDef ident="mergedIn" mode="delete"/>
+                        <attDef ident="norm" mode="delete"/>
+                        <attDef ident="opt" mode="delete"/>
+                        <attDef ident="orig" mode="delete"/>
+                        <attDef ident="split" mode="delete"/>
+                        <attDef ident="value" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.measurement" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="commodity" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.metrical" module="verse" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="met" mode="delete"/>
+                        <attDef ident="real" mode="delete"/>
+                        <attDef ident="rhyme" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.msExcerpt" module="msdescription" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="defective" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.naming" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="nymRef" mode="delete"/>
+                        <attDef ident="role" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.patternReplacement" module="header" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="matchPattern" mode="delete"/>
+                        <attDef ident="replacementPattern" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.personal" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="full" mode="delete"/>
+                        <attDef ident="sort" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.pointing" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="evaluate" mode="delete"/>
+                        <attDef ident="targetLang" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.pointing.group" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="domains" mode="delete"/>
+                        <attDef ident="targFunc" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.ranging" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="atLeast" mode="delete"/>
+                        <attDef ident="atMost" mode="delete"/>
+                        <attDef ident="confidence" mode="delete"/>
+                        <attDef ident="max" mode="delete"/>
+                        <attDef ident="min" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.rdgPart" module="textcrit" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="wit" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.readFrom" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="source" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.repeatable" mode="change" type="atts" module="tagdocs">
+                    <attList>
+                        <attDef ident="maxOccurs" mode="delete"/>
+                        <attDef ident="minOccurs" mode="delete"/>
+                        <attDef ident="context" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.scoping" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="match" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.sortable" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="sortKey" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.source" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="source" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.spanning" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="spanTo" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.styleDef" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="scheme" mode="delete"/>
+                        <attDef ident="schemeVersion" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.tableDecoration" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="cols" mode="delete"/>
+                        <attDef ident="role" mode="delete"/>
+                        <attDef ident="rows" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.textCritical" mode="change" type="atts" module="textcrit">
+                    <attList>
+                        <attDef ident="varSeq" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.timed" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="end" mode="delete"/>
+                        <attDef ident="start" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.transcriptional" mode="change" type="atts" module="tei">
+                    <attList>
+                        <attDef ident="seq" mode="delete"/>
+                        <attDef ident="status" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.translatable" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="versionDate" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.witnessed" module="textcrit" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="wit" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <elementSpec ident="correspAction" module="header" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi">
+                                <valItem ident="addressee"/>
+                                <valItem ident="sender"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <!--<elementSpec ident="address" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="add">
+                            <desc>Dans le cas de correspondance cet attribut permet de pr&#xE9;ciser
+                                l'origine de cette adresse.</desc>
+                            <valList type="semi">
+                                <valItem ident="addressee"/>
+                                <valItem ident="sender"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="place" mode="add">
+                            <desc>Pr&#xE9;cise la localisation de l'adresse.</desc>
+                            <valList type="semi">
+                                <valItem ident="letter"/>
+                                <valItem ident="back"/>
+                                <valItem ident="postcard"/>
+                                <valItem ident="envelope "/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>-->
+                <classSpec ident="att.ascribed" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="who" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.damaged" mode="change" type="atts" module="tei">
+                    <attList>
+                        <attDef ident="group" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.duration.iso" module="tei" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="dur-iso" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.entryLike" module="dictionaries" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="type" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.milestoneUnit" module="core" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="unit" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <classSpec ident="att.global.linking" module="linking" mode="change" type="atts">
+                    <attList>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                    </attList>
+                </classSpec>
+                <moduleRef key="linking" except="ab alt altGrp anchor join joinGrp timeline when"/>
+                <elementSpec ident="persName" module="namesdates" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="sentBy"/>
+                                <valItem ident="deliveredTo"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="ref" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="next"/>
+                                <valItem ident="previous"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="lb" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="hyphen"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="del" module="core" mode="change">
+                    <attList>
+                        <attDef ident="rend" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="overline"/>
+                                <valItem ident="censored"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="add" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="closer"/>
+                                <valItem ident="signed"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="rs" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="person"/>
+                                <valItem ident="navire"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="div" module="textstructure" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="letter"/>
+                                <valItem ident="enveloppe"/>
+                                <valItem ident="note"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="w" module="analysis" mode="change">
+                    <attList>
+                        <attDef ident="rend" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="aggl"/>
+                                <valItem ident="elision"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="pc" module="analysis" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="supplied"/>
+                                <valItem ident="surplus"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="address" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="add">
+                            <desc>Dans le cas de correspondance cet attribut permet de pr&#xE9;ciser
+                                l'origine de cette adresse.</desc>
+                            <valList type="semi">
+                                <valItem ident="addressee"/>
+                                <valItem ident="sender"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="place" mode="add">
+                            <desc>Pr&#xE9;cise la localisation de l'adresse.</desc>
+                            <valList type="semi">
+                                <valItem ident="letter"/>
+                                <valItem ident="back"/>
+                                <valItem ident="postcard"/>
+                                <valItem ident="envelope "/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="seg" module="linking" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="address"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="subtype" mode="change">
+                            <valList type="semi" mode="replace">
+                                <valItem ident="addressee"/>
+                                <valItem ident="sender"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

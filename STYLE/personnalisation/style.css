@@ -97,12 +97,28 @@ p {
     font-size:13pt;     
 }*/
 
-h3{
-     font-size:11pt;
+.h3_aside {
+     font-size:14pt;
 }
-
+.code {
+    border-radius:5px;
+    box-shadow: 2px 2px 5px #080A0D;
+    margin-left:75px;
+    margin-right:75px;
+    padding-bottom:0px;
+}
 li {
     list-style:none;
+}
+
+.indent_1 {
+    padding-left:15px;
+}
+.indent_2 {
+    padding-left:30px;
+}
+.indent_3 {
+    padding-left:45px;
 }
 
 .link {

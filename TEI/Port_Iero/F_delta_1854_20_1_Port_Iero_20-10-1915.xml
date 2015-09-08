@@ -26,154 +26,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <xi:include href="../master/Master.xml" xpointer="particdesc" parse="xml"/>
          <xi:include href="../master/Master.xml" xpointer="langUsage" parse="xml"/>
-         <correspDesc>   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
-            <correspAction>
-               <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-               <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-               <placeName ref="#Port_Iero">Port Iero</placeName>
-               <date when="1915-10-20">20 octobre 1915</date>
-            </correspAction>            
-            <correspContext>
-               <ref type="previous" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_09-10-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
-                  <date when="1915-10-09">09 octobre 1915</date>
-               </ref>
-               <ref type="next" target="../Port_Iero/F_delta_1854_20_1_Port_Iero_27-10-1915.xml">
-                  <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <persName type="deliveredTo" ref="#Comtesse_Forest">Madame la Comtesse L. de la Forêst</persName> 
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
-                  <date when="1915-10-27">27 octobre 1915</date>
-               </ref>
-            </correspContext>
-            <xi:include href="../master/Master.xml" xpointer="context_salonique" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_toulon" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_moudros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_imbros" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_port-iero" parse="xml"/>
-            <xi:include href="../master/Master.xml" xpointer="context_mytilene" parse="xml"/>            
-            <xi:include href="../master/Master.xml" xpointer="context_corfou" parse="xml"/>
-         </correspDesc>
+         <xi:include href="../master/Master.xml" xpointer="context_port_Iero_20-10-1915" parse="xml"/>
+         <xi:include href="../master/Master.xml" xpointer="table_correspondance" parse="xml"/>
       </profileDesc>
    </teiHeader>
    <text xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915">
-      <body xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_b">
-         <div type="letter">
-            <pb n="1" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_169.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_169.jpg"/>
-               <figDesc> Vue Générale du village d'Ayassos (<placeName ref="#Metelin">Mételin</placeName>)
-               </figDesc>
-            </figure>
-            <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_170.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <opener>
-               <dateline>
-                  <placeName ref="#Port_Iero" xml:id="Port_Iero_20101915">Ile de port Iéro</placeName>&vir;
-                  <date when="1915-10-20"><choice><orig>L</orig><reg>l</reg></choice>e 20 <choice><abbr>8<hi rend="super">bre</hi></abbr><expan>octobre</expan></choice>1915</date>
-               </dateline>
-               <salute><persName ref="#Comtesse_Forest" xml:id="Comtesse_Forest_20101915">Comtesse</persName>&vir;</salute>
-            </opener>
-            <p>
-               <lb/>Ne sachant trop que faire pour <unclear>distraire</unclear> au temps&vir; je
-               <lb/>m'empresse de vous envoyer de mes nouvelles qui sont
-               <lb/>très <choice><orig>bonne</orig><reg>bonnes</reg></choice> en ce moment et je désire qu'à l'arrivée de
-               <lb/>mes <choice><orig>2</orig><reg>deux</reg></choice> cartes vous vous trouviez de même<pc>.</pc> <choice><orig>p</orig><reg>P</reg></choice>ar ici le 
-               <lb/>temps n'est plus tout &a; fait si beau&pt; <choice><orig>i</orig><reg>I</reg></choice>l commence &a;
-               <lb/>pleuvoir <pc type="supplied">;</pc> il se fait rare si nous n'avons pas de la pluie
-               <lb/>chaque jour<pc type="surplus">.</pc> et il commence &a; faire un petit peu plus
-               <lb/>frais mais c'est 
-               <w>supp<lb rend="hypen"/>ortable</w><pc>.</pc> Je m'y plais
-               <lb/>assez dans cette petite
-               <lb/><choice><orig>I</orig><reg>i</reg></choice>le mais depuis quelques
-               <lb/>jours je commence &a;
-               <lb/><choice><orig>trouvé</orig><reg>trouver</reg></choice> le temps long
-               <lb/>car les nouvelles se
-               <lb/>font très rares depuis
-               <lb/>que nous sommes ici&pt;
-               <cb/>
-               <address place="postcard" type="deliveredTo">
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge" xml:id="Bonne_Menoge_20101915">Bonne<supplied reason="omitted">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>Menoge</placeName></addrLine>
-                  <addrLine><placeName ref="#Haute_Savoie" xml:id="Haute_Savoie_20101915">Haute<supplied reason="omitted">-</supplied>Savoie</placeName></addrLine>
-                  <addrLine><placeName ref="#France" xml:id="France_20101915">France</placeName> <ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a"/></addrLine>   
-               </address>               
-            </p>
-            <pb n="3" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_167.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               " type="postcardBreak"/>
-            <figure>
-               <graphic url="../../FACS/BDIC_FD_1854_20_1_167.jpg"/>
-               <figDesc>
-                  <name ref="#H_IV" xml:id="H_IV_20101915">Henri IV</name>
-               </figDesc>
-               <p>
-                  <stamp type="armee">
-                     Cachet circulaire avec ancre marine <supplied reason="illegible" cert="high"><orgName>Marine Française, Service à la Mer</orgName></supplied>
-                  </stamp>
-                  <stamp type="postmark">
-                     Cachet de la Poste <placeName>ne ma<gap reason="illegible" agent="rubbing"></gap></placeName> <date cert="medium" when="1915">15</date>
-                  </stamp>
-                  <add resp="#Horel">Présence d'une croix ajoutée à la main</add>
-               </p>
-            </figure>
-            <pb n="4" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_168.jpg
-               http://argonnaute.u-paris10.fr/ark:/naan/86a661ceae
-               "/>
-            <p>
-               <add type="numbering" n="2" rend="center"><pc>.</pc>2<pc>.</pc></add>
-               <lb/><choice><orig>n</orig><reg>N</reg></choice>ous avons eu juste un seul courrier&vir; ce qui nous fait <choice><orig>24</orig><reg>vingt-quatre</reg></choice>
-               <lb/>jours ici pour ainsi dire sans nouvelles. <choice><orig>n</orig><reg>N</reg></choice>os dernières
-               <lb/>correspondances reçues sont datées du <date when="1915-09-17">17 <choice><abbr>7bre</abbr><expan>septembre</expan></choice></date> ce qui nous
-               <lb/>met &a; un mois sans nouvelles<pc>.</pc> <choice><orig>c</orig><reg>C</reg></choice>'est tout de même trop peu&pt;
-               <lb/><choice><orig>p</orig><reg>P</reg></choice>ar ailleurs nous sommes assez bien&pt; <choice><orig>i</orig><reg>I</reg></choice>l y a encore une
-               <lb/>deuxième chose qui ne va pas&vir; c'est toujours cette maudite
-               <lb/>nourriture car nous mangeons très mal<ref type="note" target="#F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1"/><pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin patience&pt;
-               <lb/><choice><orig>p</orig><reg>P</reg></choice>ar cette même occasion je
-               <lb/>vous <choice><orig>envoi</orig><reg>envoie</reg></choice> la photographie
-               <lb/>de mon bateau en carte postale&vir;
-               <lb/>on aperçoit le canon avec lequel
-               <lb/>j'ai tué tant de turcs&pt; <choice><orig>j</orig><reg>J</reg></choice>e vous le
-               <lb/>marque avec une croix au dessus&pt;
-               <lb/><choice><orig>e</orig><reg>E</reg></choice>lle ne sera guère visible cette
-               <lb/>croix car elle tombe pour
-               <lb/>ainsi dire dans le noire mais
-               <lb/>regardez bien&vir; le canon se trouve
-               <lb/>au dessous juste d'un petit canot&pt;
-               <cb/>
-               <address type="deliveredTo" place="postcard">
-                  <persName ref="#Comtesse_Forest">Comtesse L. de la Forêst</persName>
-                  <addrLine><placeName ref="#Bonne_Menoge">Bonne<supplied reason="omitted">-</supplied><choice><abbr>s</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>Menoge</placeName></addrLine>
-                  <addrLine><placeName ref="#Haute_Savoie">Haute<supplied reason="omitted">-</supplied>Savoie</placeName></addrLine>
-                  <addrLine><placeName ref="#France">France</placeName></addrLine>   
-               </address>
-            </p>
-            <closer>
-               <salute>
-                  Votre petit ami tout dévoué&vir;
-               </salute>                  
-               <signed>                  
-                  <lb/><persName ref="#Horel" xml:id="Horel_20101915">Horel Armand</persName>                 
-               </signed>               
-            </closer>
-         </div>         
-      </body>
+      <xi:include href="../master/Master.xml" xpointer="front_port_Iero_20-10-1915" parse="xml"/>
+      <xi:include href="../master/Master.xml" xpointer="body_port_Iero_20-10-1915" parse="xml"/>
       <back>
-         <div type="note">
-            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a">
-               Adresse présente sur toutes les cartes postales.
-            </note>
-            <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">
-               Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.
-               <bibl corresp="#Schiavon_front" n="132"/>
-            </note>
-         </div> 
+         <xi:include href="../master/Master.xml" xpointer="note_port_Iero_20-10-1915" parse="xml"/>
          <div type="index">
             <xi:include href="../master/Master.xml" xpointer="autre_index" parse="xml"/>                           
             <xi:include href="../master/Master.xml" xpointer="person" parse="xml"/>         
