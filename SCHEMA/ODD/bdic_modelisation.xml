@@ -56,7 +56,9 @@
                                     <donateur><personne>Louise</personne> et <personne>Henri
                                     Leblanc</personne></donateur></egXML>
                         <lb/><egXML xmlns="http://www.tei-c.org/ns/Examples">Mal form&#xE9; :
-                            <![CDATA[<donateur><personne>Louise et <personne></personne>Henri Leblanc</donateur></personne>]]></egXML>
+                            <lb/>
+                            <![CDATA[<donateur><personne>Louise et <personne></personne>Henri Leblanc</donateur></personne>]]>
+                        </egXML>
                     </p>
                 </div2>
                 <div2>
@@ -91,9 +93,9 @@
                         l&#x2019;encodeur ou sur le contenu de l&#x2019;&#xE9;l&#xE9;ment, ex :
                         &lt;element attribut="valeur"&gt;mon contenu&lt;/element&gt; <lb/>- Des
                         entit&#xE9;s : substituts pour des s&#xE9;quences d&#x2019;information.
-                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><bonbon>tic &amp;
-                                tac</bonbon> L&#x2019;esperluette est un caract&#xE8;re
-                            r&#xE9;serv&#xE9;</egXML>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><bonbon>tic <![CDATA[&amp;]]>
+                                tac</bonbon> <!-- L'esperluette est un caractère
+                            réservé--></egXML>
                         <lb/>- Des instructions de traitements : applications ext&#xE9;rieures.
                         <lb/>- Des commentaires : <egXML xmlns="http://www.tei-c.org/ns/Examples"
                             ><!--Les commentaires sont des notes dans le code--></egXML>
@@ -106,7 +108,7 @@
                 <div2>
                     <head>Encodage de correspondances et XML-TEI</head>
                     <p> Lorsque l’on procède à une édition électronique de correspondances, le
-                        premier enjeux auquel nous sommes confrontés est celui d’avoir à encoder une
+                        premier enjeu auquel nous sommes confrontés est celui d’avoir à encoder une
                         multitude de petits textes indépendants mais pour autant liés les uns aux
                         autres. À la différence d’une œuvre littéraire, ces textes ne peuvent pas
                         être encodés à la suite comme différents chapitres. En effet, à des fins
@@ -160,11 +162,11 @@
                         XSLT. Si cela semble complexe au premier abord, cela s’avère en réalité
                         extrêmement commode et pertinent dans la gestion du projet, dans la mesure
                         où une fois que les éléments nécessaires à chaque lettre ont été identifiés,
-                        il n’y a plus qu’un seul document à modifier, le fichier maître conte- nant
+                        il n’y a plus qu’un seul document à modifier, le fichier maître contenant
                         le teiCorpus. Cela s’avère intéressant également pour la création d’un
                         schéma TEI spécifique, car ce document rassemble l’ensemble des pratiques
                         d’encodage. <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <!--Voici un exemple d’utilisation d’Xincluse-->
+                            <!--Voici un exemple d’utilisation d’Xinclude-->
                             <!--L’espace de nom Xinclude doit être déclaré avec la mention suivante-->
                             <text xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <!--l’attribut @href cible le fichier contenant la partie de document à intéger-->
@@ -387,7 +389,7 @@
                                     <specDesc key="correction"/>
                                     <specDesc key="hyphenation"/>
                                     <specDesc key="normalization"/>
-                                    <specDesc key="ponctuation"/>
+                                    <specDesc key="punctuation"/>
                                 </specList>
                             </p>
                         </div4>
@@ -441,7 +443,7 @@
                                             (<ref target="documentation.html#TEI.date"
                                             ><gi>date</gi></ref>) tous relatifs &#xE0; un acte
                                         d&#x2019;envoi ou de r&#xE9;ception d&#x2019;une
-                                        correspondance. l'<att>type</att> doit venir préciser l'élément <gi>correspAction</gi>
+                                        correspondance. l'attribut <att>type</att> doit venir préciser l'élément <gi>correspAction</gi>
                                         Afin d'identifier si c'est l'acte de expédition (<val>sent</val>) ou de réception (<val>received</val>)
                                         qui est décrit.
                                         
@@ -521,7 +523,7 @@
                                     <p>
                                         Il est important, dans une édition de correspondance, 
                                         d'établir une table des courriers envoyés. Si cette dernière est 
-                                        le plus souvent chronologique, elle peut aussi être organisées en 
+                                        le plus souvent chronologique, elle peut aussi être organisée en 
                                         fonction des expéditeurs et destinataires ou encore selon le lieu d'envoi.
                                         Un des points importants de ce projet étant la géolocalisation des courriers, 
                                         il convient de réaliser, au sein du fichier maître (ou <gi>teiCorpus</gi>) une liste des toutes les lettres 
@@ -538,7 +540,7 @@
                                         signifié par un attribut <att>type</att> d’une valeur <val>sent</val> ou <val>received</val> suivant qu’il 
                                         soit qualifié d’expéditeur ou de destinataire et d’un attribut <att>subtype</att>=<val>global</val>. 
                                         Au sein de cet élément <gi>correspAction</gi>, 
-                                        le noms de la personnes 
+                                        le nom de la personne 
                                         (destinataire ou expéditeur) 
                                         doivent être encodés avec un élément <gi>persName</gi> précisé par un attribut <att>xml:id</att>. 
                                         Les lieux et dates sont respectivement encodés dans des élément <gi>placeName</gi> et <gi>date</gi>, les différentes dates, 
@@ -547,7 +549,7 @@
                                                     <correspAction type="sent" subtype="global">
                                                         <!-- C’est le rôle d’expéditeur d’Armand Horel qui est décrit ici -->
                                                         <persName ref="#Horel" xml:id="sent_Horel">Armand Horel</persName>
-                                                        <!--Chaque lieu ou le protagoniste a envoyé ses cartes et les sessions d’envoi sont rappelés et identifiées par un xml:id. -->
+                                                        <!--Chaque lieu où le protagoniste a envoyé ses cartes et les sessions d’envoi sont rappelés et identifiés par un @xml:id. -->
                                                         <placeName ref="#Salonique">Salonique</placeName>
                                                         <date corresp="#Salonique" when="1915−05−15" xml:id="envoi_salonique_1"/> 
                                                         <date corresp="#Salonique" from="1915−11−16" to="1916−11−04" xml:id="envoi_salonique_2"/>
@@ -577,11 +579,11 @@
                                         un attribut <att>type</att>=<val>context</val> et enfin un attribut <att>corresp</att> relié au différentes dates listées dans les éléments 
                                         <gi>correspAction</gi> (cela nous servira à établir une table chronologique des correspondances organisée par lieu). 
                                         Chaque élément <gi>ref</gi> doit être complété par les informations d’identification de                                                    
-                                                    chaque cartes, l’expéditeur doit être encodé avec la balise 
+                                                    chaque carte, l’expéditeur doit être encodé avec la balise 
                                         <gi>persName</gi> précisée par l’attribut <att>type</att>=<val>sentBy</val> 
                                         et un attribut <att>corresp</att> lié à l’<att>xml:id</att> lié à un des <gi>correspAction</gi>. 
                                         Le même traitement est réalisé pour le destinataire. 
-                                        Enfin, on retrouve la date et le lieu, qui ne pose pas de problème quant à leur encodage.
+                                        Enfin, on retrouve la date et le lieu, qui ne posent pas de problème quant à leur encodage.
                                                         Ce système permet d’inclure l’ensemble du correspDesc dans tous les fichiers 
                                                         de sortie destinés à être transformés en page HTML. Il permet par les différents 
                                                         liens qui sont opérés entre les dates, les personnes et les lieux d’envoi, de réaliser
@@ -717,17 +719,17 @@
                                     l&#x2019;&#xE9;l&#xE9;ment <ref
                                         target="documentation.html#TEI.pb"><gi>pb</gi></ref>. Il
                                     peut &#xEA;tre compl&#xE9;t&#xE9; par l&#x2019;attribut
-                                        <att>n</att> afin de num&#xE9;rot&#xE9; les pages. Dans ce
+                                        <att>n</att> afin de num&#xE9;roter les pages. Dans ce
                                     cas, il faut &#xE9;galement penser &#xE0; en placer un avant le
                                     premier feuillet, afin que la num&#xE9;rotation soit
                                     compl&#xE8;te. Dans le cas d&#x2019;un corpus
                                     num&#xE9;ris&#xE9;, les r&#xE9;f&#xE9;rences aux
-                                    fac-simil&#xE9;s peut &#xEA;tre faite par l&#x2019;attribut
+                                    fac-simil&#xE9;s peuvent &#xEA;tre faites par l&#x2019;attribut
                                         <att>facs</att>. Enfin, si l&#x2019;encodage porte sur des
                                     cartes postales, il est int&#xE9;ressant lorsque la
                                     correspondance tient sur plusieurs cartes de typer ce changement
                                     avec l&#x2019;attribut <att>type</att> en lui donnant la valeur
-                                        <val>postcardBreak</val>
+                                        <val>"postcardBreak"</val>
                                     <lb/>
                                     <lb/>exemple: <egXML xmlns="http://www.tei-c.org/ns/Examples"
                                             ><pb n="3"
@@ -763,7 +765,7 @@
                                     avec l&#x2019;&#xE9;l&#xE9;ment <ref
                                         target="documentation.html#TEI.lb"><gi>lb</gi></ref> mais,
                                     cette fois-ci, pr&#xE9;cis&#xE9; par l&#x2019;attribut
-                                        <att>rend</att> de valeur <val>hyphen</val> et l'<att>type</att> de valeur <val>marked</val> lorsque la
+                                        <att>rend</att> de valeur <val>"hyphen"</val> et l'attribut <att>type</att> de valeur <val>"marked"</val> lorsque la
                                     coupure est mat&#xE9;rialis&#xE9;e par un tiret dans le texte.
                                     Dans le cas contraire, il convient d'utiliser la seule balise
                                         <ref target="documentation.html#TEI.lb"><gi>lb</gi></ref>.
@@ -780,7 +782,7 @@
                                     seront encod&#xE9;s avec l'&#xE9;l&#xE9;ment <ref
                                         target="documentation.html#TEI.w"><gi>w</gi></ref>
                                     compl&#xE9;t&#xE9; de l'attribut <att>rend</att> de valeur
-                                        <val>aggl</val>. <lb/>
+                                        <val>"aggl"</val>. <lb/>
                                     <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
                                             ><w rend="aggl">plus</w><w>tard</w></egXML>
                                 </p>
@@ -789,16 +791,14 @@
                                         <val>elision</val>. </p>
                             </div5>
                             <div5>
-                                <head>Les changements de colonnes <ref
-                                        target="documentation.html#TEI.cb"><gi>cb</gi></ref></head>
+                                <head>Les changements de colonnes <ref target="documentation.html#TEI.cb"><gi>cb</gi></ref></head>
                                 <p><specDesc key="cb"/><lb/>Cette balise est particuli&#xE8;rement
                                     int&#xE9;ressante dans le cas de cartes postales. Elle
                                     s&#x2019;utilise de la m&#xEA;me mani&#xE8;re que les deux
                                     pr&#xE9;c&#xE9;dentes. </p>
                             </div5>
                             <div5>
-                                <head>La mise en valeur <ref target="documentation.html#TEI.hi"
-                                            ><gi>hi</gi></ref></head>
+                                <head>La mise en valeur <ref target="documentation.html#TEI.hi"><gi>hi</gi></ref></head>
                                 <p><specDesc key="hi"/> L'utilisation de cette balise doit &#xEA;tre
                                     pr&#xE9;cis&#xE9;e par l&#x2019;attribut <att>rend</att>. Cet
                                     &#xE9;l&#xE9;ment et son attribut n&#x2019;interpr&#xE8;tent pas
@@ -819,7 +819,7 @@
                             </div5>
                         </div4>
                         <div4>
-                            <head>Segmentation ou balisage Logique</head>
+                            <head>Segmentation ou balisage logique</head>
                             <p> Le corps du document doit &#xEA;tre balis&#xE9; par
                                 l&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.body"
                                         ><gi>body</gi></ref>. Toutefois, chaque type de document
@@ -841,7 +841,7 @@
                                     d&#x2019;identifier au mieux son contenu. Dans le cadre de
                                     l&#x2019;&#xE9;dition des correspondances, nous avons retenu
                                     deux valeurs pour l&#x2019;attribut <att>type</att> qui sont
-                                        <val>letter</val> et <val>enveloppe.</val>
+                                        <val>"letter"</val> et <val>"enveloppe"</val>.
                                     <lb/>
                                     <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
                                                 ><body><div type="letter"> [Ici le corps de ma
@@ -960,7 +960,7 @@
                                     la condition de l&#x2019;auteur. Le transcripteur peut tout
                                     d&#x2019;abord d&#xE9;cider de moderniser cette orthographe "au
                                     fil de l&#x2019;eau", lors de l&#x2019;encodage du texte,
-                                    perdant ainsi toute trace de la graphie originale. A
+                                    perdant ainsi toute trace de la graphie originale. À
                                     l&#x2019;inverse, il peut d&#xE9;cider de ne rien corriger, ce
                                     qui peut poser probl&#xE8;me lorsque l&#x2019;orthographe est
                                     particuli&#xE8;rement d&#xE9;ficiente. Une alternative est
@@ -1109,8 +1109,8 @@
                                         <p> L&#x2019;&#xE9;l&#xE9;ment <ref
                                                 target="documentation.html#TEI.del"
                                                 ><gi>del</gi></ref> identifie les parties qui ont
-                                            &#xE9;t&#xE9; supprim&#xE9;es volontairement soit par
-                                            l&#x2019;auteur (une rature par exemple) soit par un
+                                            &#xE9;t&#xE9; supprim&#xE9;es volontairement, soit par
+                                            l&#x2019;auteur (une rature par exemple), soit par un
                                             tiers. Il peut &#xEA;tre pr&#xE9;cis&#xE9; avec
                                             l&#x2019;attribut <att>rend</att> et la valeur
                                                 <val>overline</val> lorsqu&#x2019;il est simplement
@@ -1123,13 +1123,13 @@
                                     </div7>
                                     <div7>
                                         <head>Les ajouts</head>
-                                        <p> Les ajouts de l&#x2019;auteur ou d&#x2019;une autre
+                                        <p> Les ajouts de l&#x2019;auteur où d&#x2019;une autre
                                             personne seront encod&#xE9;s &#xE0; la place ou elles se
                                             situent dans le texte avec la balise <ref
                                                 target="documentation.html#TEI.add"
                                                 ><gi>add</gi></ref>. Elle sera pr&#xE9;cis&#xE9;e
-                                            par les attributs <hi rend="italic">@place</hi>,
-                                                <att>rend</att> et <hi rend="italic">@hand</hi>.
+                                            par les attributs <att>place</att>,
+                                                <att>rend</att> et <att>hand</att>.
                                             Lorsqu&#x2019;il s&#x2019;agit d&#x2019;une signature ou
                                             d&#x2019;une formule de politesse ajout&#xE9;e en marge
                                             par manque de place, il convient de distinguer plusieurs
@@ -1156,7 +1156,7 @@
                                                 ><gi>rs</gi></ref> l&#x2019;attribut
                                                 <att>type</att> avec les valeur <val>closer</val> et sera complété ainsi :
                                             
-                                                . <egXML
+                                                <egXML
                                                 xmlns="http://www.tei-c.org/ns/Examples"><rs
                                                   type="closer"><add type="signed"
                                                   place="margin-right" rend="vertical"><persName

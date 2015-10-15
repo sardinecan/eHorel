@@ -407,7 +407,7 @@
                      Avant toute chose, il nous  semble important de présenter aux lecteurs le contexte dans lequel cette publication a été élaborée.  
                      L'édition électronique de la correspondance d'<persName ref="#Horel">Armand Horel</persName> s'inscrit autour d'une reflexion 
                      sur les apports des technologies numériques dans l'édition de sources historiques. Réalisée dans le cadre d'un mémoire de fin d'études, 
-                     elle a surtout permis l'élaboration d'un modèle d'édition et de publication électronique de correspondance de guerre 
+                     elle a surtout permis l'élaboration d'un modèle d'édition et de publication électronique de correspondances de guerre 
                      que nous tenons à partager avec tous les chercheurs qui souhaiteraient entreprendre de tels travaux.
                   </p>
                </div>
@@ -441,10 +441,10 @@
                      puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.
                   </p>
                   <p>
-                     Á travers ces cartes <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, 
-                     témoin du théâtre d'opérations du front d'Orient. A partir d'août 1915 et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie 
+                     À travers ces cartes <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, 
+                     témoin du théâtre d'opérations du front d'Orient. À partir d'août 1915 et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie 
                      avec la Comtesse de la Forest.
-                     Il y relate certains faits marquant du conflit, comme l'entrée en guerre de la <placeName ref="#Bulgarie">Bulgarie</placeName>, le développement de la guerre sous-marine, 
+                     Il y relate certains faits marquants du conflit, comme l'entrée en guerre de la <placeName ref="#Bulgarie">Bulgarie</placeName>, le développement de la guerre sous-marine 
                      ou l'épisode de grippe espagnole de 1918.
                      Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré depuis <date when="1912">1912</date> pour "désertion à l'intérieur en temps de paix", 
                      que la Comtesse participera à faire libérer.
@@ -467,7 +467,7 @@
                      correspondance lacunaire.                                             
                   </p>                              
                   <p>
-                     Cette édition présente une version normalisée du texte dans laquelle, l'orthographe a été corrigé et la ponctuation restituée. Les ajouts de l'auteur en marge ont été restitués dans le texte sans qu'il en soit fait mention.
+                     Cette édition présente une version normalisée du texte dans laquelle, l'orthographe a été corrigée et la ponctuation restituée. Les ajouts de l'auteur en marge ont été restitués dans le texte sans qu'il en soit fait mention.
                      Les mentions d'adresse présentes sur les cartes postales ou les enveloppes ont été rassemblées en préambule des lettres concernées.
                      Enfin l'intégralité du fonds ayant été numérisé et diffusé librement sur la bibliothèque numérique de la BDIC, chaque lettre ou carte est éditée aux côtés de son fac-similé.
                   </p>
@@ -1989,7 +1989,10 @@
                      <ref target="../../SCHEMA/bdic_modelisation.rng">Schéma TEI</ref>
                   </item>
                   <item>
-                     <ref target="../../SCHEMA/ODD/documentation.html">Documentation</ref>
+                     <ref target="../../SCHEMA/doc/documentation.html">Documentation (html)</ref>
+                  </item>
+                  <item>
+                     <ref target="../../SCHEMA/doc/documentation.pdf">Documentation (pdf)</ref>
                   </item>
                </list>
             </div>            
@@ -3237,7 +3240,7 @@
                   envoi de
                   <address place="envelope" type="sentBy">
                   <persName ref="#Horel"><choice><orig>M<hi rend="super">ieur</hi></orig><reg>M.</reg></choice>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_09041916">Shamrock II</name></addrLine>                      
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_09041916">Shamrock II</name></addrLine>                      
                   <addrLine>Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_09041916">Marseille</placeName></addrLine>
                </address>
                </p>
@@ -3381,7 +3384,7 @@
                         <forename>Armand</forename>                      
                         <lb/><surname>Horel</surname>&vir;
                      </persName>
-                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> canonnier&vir; chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_10031916">Shamrock II</name>&vir;</addrLine>                                       
+                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> canonnier&vir; chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_10031916">Shamrock II</name>&vir;</addrLine>                                       
                      <addrLine><add place="margin-right" rend="vertical">rade de <placeName ref="#Salonique">Salonique</placeName></add></addrLine>
                   </address>                  
                   </signed>
@@ -3417,7 +3420,7 @@
                   envoi de
                   <address place="envelope" type="sentBy">
                   <persName ref="#Horel"><choice><orig>M<hi rend="super">ieur</hi></orig><reg>M.</reg></choice>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II">Shamrock II</name></addrLine>
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name type="navire" ref="#Shamrock_II">Shamrock II</name></addrLine>
                   <addrLine> Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_10031916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
                </address>
                   <stamp type="postmark">
@@ -3897,7 +3900,7 @@
                   envoi de
                   <address type="sentBy" place="envelope">
                   <persName ref="#Horel"><choice><orig>M<hi rend="super">ieur</hi></orig><reg>M.</reg></choice>Horel Armand</persName>
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_15041916">Shamrock II</name></addrLine>                  
                   <addrLine> Bureau central naval <placeName ref="#Marseille" xml:id="Marseille_15041916">Marseille</placeName></addrLine>
                </address>
                </p>
@@ -4129,7 +4132,7 @@
                   <signed>                                    
                      <address type="sentBy" place="postcard">                  
                      <persName ref="#Horel" xml:id="Horel_16021916"><forename>Armand</forename> <surname>Horel</surname>&vir;</persName>                                                                        
-                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier <lb/>&a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_16021916">Shamrock II&vir;</name></addrLine>                      
+                     <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier <lb/>&a; bord du chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_16021916">Shamrock II&vir;</name></addrLine>                      
                      <addrLine>Division <lb/>des <placeName ref="#Dardanelles" xml:id="Dardanelles_16021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique&pt;</placeName></addrLine>                                             
                   </address>                  
                   </signed>
@@ -4249,9 +4252,9 @@
                   <lb/>gagner et surement nous gagnerons<pc>.</pc> <choice><orig>j</orig><reg>J</reg></choice>e vous
                   <lb/>fait part de ma nouvelle adresse<pc>.</pc> <address place="postcard" type="sentBy"><persName ref="#Horel"><choice><orig>M<hi rend="super">ieur</hi></orig><reg>M.</reg></choice>
                <lb/>Horel Armand&vir;</persName> <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> canonnier &a; bord
-                     <lb/>du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_16031916">Shamrock II</name>&vir;</addrLine> <addrLine>Bureau 
+                     <lb/>du chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_16031916">Shamrock II</name>&vir;</addrLine> <addrLine>Bureau 
                      <lb/>central naval</addrLine> <addrLine><placeName ref="#Marseille" xml:id="Marseille_16031916">Marseille</placeName></addrLine></address><choice><orig><pc>.</pc></orig><reg>&vir;</reg></choice> mais notre
-                  <lb/>adresse est &a; <name ref="#Marseille">Marseille</name> ce qui nous emp&ê;che
+                  <lb/>adresse est &a; <placeName ref="#Marseille">Marseille</placeName> ce qui nous emp&ê;che
                   <lb/>pas d'être &a; <placeName ref="#Salonique">Salonique</placeName> pour encore un
                   <lb/>bon moment<pc>.</pc>
                </p>
@@ -4392,7 +4395,7 @@
                   <lb/>trouviez de même ainsi que votre fille<pc>.</pc> Je vous fais
                   <lb/>savoir que nous avons quitté <placeName ref="#Port_Iero" xml:id="Port_Iero_16111915">Port Iéro</placeName> le <date when="1915-11-13">13 &a; 12h30</date>
                   <lb/>pour <placeName ref="#Salonique">Salonique</placeName> o&ù; nous sommes arrivés le <date when="1915-11-14">14 au soir</date>&pt;
-                  <lb/><choice><orig>n</orig><reg>N</reg></choice>ous sommes ici pour remplacer le <name ref="#Charlemagne" xml:id="Charlemagne_16111915"><choice><orig>c</orig><reg>C</reg></choice>harlemagne</name> 
+                  <lb/><choice><orig>n</orig><reg>N</reg></choice>ous sommes ici pour remplacer le <name type="navire" ref="#Charlemagne" xml:id="Charlemagne_16111915"><choice><orig>c</orig><reg>C</reg></choice>harlemagne</name> 
                   <lb/>qui doit <choice><orig>rentre</orig><reg>rentrer</reg></choice> en <placeName ref="#France" xml:id="France_16111915">France</placeName> pour quelques petites réparations&pt;
                   <lb/><choice><orig>i</orig><reg>I</reg></choice>ci au moins il y a du mouvement avec tous ces bateaux
                   <lb/>qui arrivent tous les jours charg&é;s de troupes&pt; <choice><orig>c</orig><reg>C</reg></choice>e
@@ -5012,7 +5015,7 @@
                <figure>
                   <graphic url="../../FACS/BDIC_FD_1854_20_1_063.jpg"/>
                   <figDesc>
-                     Costumes de paysannes à <placeName ref="#Salonique">Salonique</placeName> - Grèce
+                     Nouveau Phalere
                   </figDesc>
                </figure> 
                <pb n="2" facs="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_064.jpg
@@ -5105,7 +5108,7 @@
                   envoi de 
                   <address place="envelope" type="sentBy">
                   <persName ref="#Horel"><choice><orig>M<hi rend="super">ieur</hi></orig><reg>M.</reg></choice>Horel Armand</persName> 
-                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name ref="#Shamrock_II" xml:id="Shamrock_II_21021916">Shamrock II</name></addrLine> 
+                  <addrLine><choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier <name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_21021916">Shamrock II</name></addrLine> 
                   <addrLine>Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_21021916">Dardanelles</placeName> &a; <placeName ref="#Salonique">Salonique</placeName></addrLine>
                </address>
                </p>
@@ -5218,7 +5221,7 @@
                   <lb/>tous les jours<pc>.</pc> <choice><orig>i</orig><reg>i</reg></choice>ls sont
                   <lb/>équipés par nous&vir; ils ont
                   <lb/>la baïonnette française<ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1"/>
-                  <lb/>et le fusil <name ref="#Lebel" xml:id="Lebel_21041916"><choice><orig>le bel</orig><reg>Lebel</reg></choice></name><ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2"/><pc>.</pc> 
+                  <lb/>et le fusil <name type="entree" ref="#Lebel" xml:id="Lebel_21041916"><choice><orig>le bel</orig><reg>Lebel</reg></choice></name><ref type="note" target="#F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2"/><pc>.</pc> 
                </p>
                <closer>
                   <salute>
@@ -6894,7 +6897,7 @@
                      <persName ref="#Horel" xml:id="Horel_a05-02_B16-03"><forename>Armand</forename> 
                      <lb/> <surname>Horel</surname>&vir;</persName>
                      <addrLine>
-                        <choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier<name ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03"> <lb/>Shamrock II&vir;</name>
+                        <choice><abbr>qmtre</abbr><expan>quartier maître</expan></choice> cannonier &a; bord du chalutier<name type="navire" ref="#Shamrock_II" xml:id="Shamrock_II_a05-02_B16-03"> <lb/>Shamrock II&vir;</name>
                      </addrLine> 
                      <addrLine>
                         Division des <placeName ref="#Dardanelles" xml:id="Dardanelles_a05-02_B16-03">Dardanelles</placeName>
@@ -7499,7 +7502,7 @@
                <figure>
                   <graphic url="../../FACS/BDIC_FD_1854_20_1_167.jpg"/>
                   <figDesc>
-                     <name ref="#H_IV" xml:id="H_IV_20101915">Henri IV</name>
+                     <name type="navire" ref="#H_IV" xml:id="H_IV_20101915">Henri IV</name>
                   </figDesc>
                   <p>
                      <stamp type="armee">
