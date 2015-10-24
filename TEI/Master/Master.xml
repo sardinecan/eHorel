@@ -427,8 +427,8 @@
                      <persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né le 3 septembre 1889 à Caudan dans le Morbihan. 
                      Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer,
                      se savent ni lire ni écrire. 
-                     Engagé volontaire dans la marine en 1907, alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName>, 
-                     au troisième dépôt des équipages de la Flotte, comme apprenti canonnier. 
+                     Engagé volontaire dans la marine en 1907 alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName>, 
+                     au troisième dépôt des équipages de la Flotte comme apprenti canonnier. 
                      Le 12 août 1908, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. 
                      Il est reçu matelot de 2<hi rend="super">e</hi> classe canonnier breveté le <date when="1908-11-01">1<hi rend="super">er</hi> novembre de la même année</date>.
                      Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="super">e</hi> classe, 
@@ -441,7 +441,7 @@
                      puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.
                   </p>
                   <p>
-                     À travers ces cartes <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, 
+                     À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, 
                      témoin du théâtre d'opérations du front d'Orient. À partir d'août 1915 et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie 
                      avec la Comtesse de la Forest.
                      Il y relate certains faits marquants du conflit, comme l'entrée en guerre de la <placeName ref="#Bulgarie">Bulgarie</placeName>, le développement de la guerre sous-marine 
@@ -472,7 +472,7 @@
                      Enfin l'intégralité du fonds ayant été numérisé et diffusé librement sur la bibliothèque numérique de la BDIC, chaque lettre ou carte est éditée aux côtés de son fac-similé.
                   </p>
                   <p>
-                     L'encodage a en été opéré de manière à ne perdre aucune information quant à la source du texte. La version normalisée que nous proposons aux lecteurs n'est que le
+                     L'encodage a été opéré de manière à ne perdre aucune information quant à la source du texte. La version normalisée que nous proposons aux lecteurs n'est que le
                      résultat de l'application d'une feuille de style retenant certains choix éditoriaux. Les fichiers sources sont disponibles librement sur notre dépôt 
                      <ref type="ext_link" target="https://github.com/sardinecan/TEIcorrespondances_horel">github</ref>.
                   </p>
@@ -506,23 +506,23 @@
                <div xml:id="introduction_index">
                   <p>
                      Cet index contient les noms de personnes, lieux et bâtiments de flotte mentionnés dans la correspondance d'<persName ref="#Horel">Armand Horel</persName>. 
-                     Les noms illustrés par les cartes postales ont été indexés et exceptionnellement ceux cités uniquement dans les notes. Des liens permettent d'acceder directement aux correspondances souhaitées.
+                     Les noms illustrés par les cartes postales ont été indexés et exceptionnellement ceux cités uniquement dans les notes. Des liens permettent d'accéder directement aux correspondances souhaitées.
                   </p>
                   <p>
                      Les noms géographiques (en italique), à l'exception des pays, ont été complétés par leur coordonées géographiques. Lorsqu'il s'agit de lieux étrangers, la mention du pays est
                      systématiquement rappelée. Dans l'éventualité d'une orthographe multiple acceptée, un renvoi est opéré vers la forme la plus courante. Enfin lorsque le nom du lieu a évolué depuis 
-                     la rédation des lettres, c'est la forme ancienne qui constitue la vedette ; elle est suivie du nom actuel.
+                     la rédaction des lettres, c'est la forme ancienne qui constitue la vedette ; elle est suivie du nom actuel.
                   </p>
                   <p>
                      Les entrées d'index concernant les personnes (en petites capitales) ont été complétées, lorsque cela était possible, par des informations permettant de préciser 
-                     leur lien de parenté, leur rôle, ou leur fonctions.   
+                     leur lien de parenté, leur rôle, ou leur fonction.   
                   </p>
                   <p>
                      Le même traitement a été appliqué aux navires (entre guillemets). 
                   </p>
                   <p>
                      Indépendamment de cet index, un glossaire a été réalisé reprenant l'ensemble des entrées d'index ainsi que des termes plus spécifiques. Afin de gêner le moins possible la lecture,
-                     il est accessible directement lors de la consultation des lettres en cliquant sur les termes en bleus. Des renvois sont opérés vers cet index.   
+                     il est accessible directement lors de la consultation des lettres en cliquant sur les termes en bleu. Des renvois sont opérés vers cet index.   
                   </p>                  
                </div>
                <div xml:id="index">
@@ -605,7 +605,7 @@
                               <p><date notAfter="1914">Avant 1914</date> Paquebot «Provence» de la Compagnie générale transatlantique</p>
                            </event>
                            <event>
-                              <p><date when="1915-04-25">1915 (avril)</date> Participe au débarquement dans les <placeName>Dardanelles</placeName> et au bombardement des côtes</p>
+                              <p><date when="1915-04-25">1915 (avril)</date> Participe au débarquement dans les <placeName ref="#Dardanelles">Dardanelles</placeName> et au bombardement des côtes</p>
                            </event>
                            <event>
                               <p><date when="1916-02-16">26 février 1916</date> Torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Egée alors qu'il transportait des troupes. </p>
@@ -646,7 +646,7 @@
                         <listEvent>                     
                            <event><p><date from="1914-11" to="1915-04">1914 (novembre) &#x2014; 1915 (avril)</date> Envoyé aux <placeName ref="#Dardanelles">Dardanelles</placeName></p></event>
                            <event><p><date when="1915-03">1915 (mars)</date> Affecté au bombardement des côtes</p></event>
-                           <event><p><date when="1916-04-15">1916 (avril)</date> Division d'Orient à Salonique</p></event>
+                           <event><p><date when="1916-04-15">1916 (avril)</date> Division d'Orient à <placeName ref="#Salonique">Salonique</placeName></p></event>
                            <event><p><date when="1917-11-01">1917 (novembre)</date> Envoyé à <placeName ref="#Toulon">Toulon</placeName> pour être désarmé</p></event>
                         </listEvent>
                         <note type="autre">
@@ -948,7 +948,7 @@
                      <district type="deme">Lemnos</district><!-- communauté -->                                            
                   </location>
                   <event>
-                     <p>Le 30 octobre 1918, l'Empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
+                     <p>Le <date when="1918-10-30">30 octobre 1918</date>, l'Empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
                   </event>                  
                   <link type="cit" corresp="#Toulon_29-08-1915" target="#Moudros_29081915"/>
                   <link type="cit" corresp="#Moudros_03-09-1915" target="#Moudros_03091915"/>                  
@@ -1059,7 +1059,7 @@
                </place>               
                <place xml:id="Roumanie">               
                   <placeName type="etranger">Roumanie</placeName> <!-- Bulgarie référence à l'entrée en guerre de ces pays lettre 173-176 -->                  
-                  <event><p>Le 17 août 1916 un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".</p></event>                                          
+                  <event><p>Le <date when="1916-08-16">17 août 1916</date> un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".</p></event>                                          
                   <link type="cit" corresp="#Port_Iero_09-10-1915" target="#Roumanie_09101915"/>
                   <link type="cit" corresp="#Salonique_27-04-1916" target="#Roumanie_27041916"/>
                </place>               
@@ -1676,7 +1676,7 @@
                   <death when="1929"/>
                   <listEvent>
                      <event><p>En août 1914, il prend les commandes de la III<hi rend="super">e</hi> armée suite au limogeage du général Ruffey.</p></event>
-                     <event><p>Critique envers le généralissime Joffre et ayant essuyé d'importantes pertes ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915.</p></event>
+                     <event><p>Critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915.</p></event>
                      <event><p>En janvier 1916 il devient commandant en chef des forces françaises, britanniques et serbes de Macédoine. Il sera finalement remplacé par le général Guillaumat en décembre 1917.</p></event>
                   </listEvent>                  
 					 <link type="cit" corresp="#Salonique_28-03-1916" target="#Sarrail_28031916"/>
@@ -1716,7 +1716,7 @@
                   <listEvent>
                      <event><p>Il est nommé Généralissime et chef d'état major général en 1911.</p></event>
                      <event><p>En décembre 1915 ses pouvoirs sont accrus et il récupère le commandement des fronts extérieurs.</p></event>
-                     <event><p>Ses offensives jugées trop couteuses en hommes et ne permettant pas de prendre un avantage décisif, il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France.</p></event>
+                     <event><p>Ses offensives sont jugées trop couteuses en hommes et ne permettant pas de prendre un avantage décisif. Il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France.</p></event>
                   </listEvent>                  
                      <link type="cit" corresp="#Salonique_30-11-1915" target="#Joffre_30111915"/>
                      <link type="cit" corresp="#Salonique_14-12-1915" target="#Joffre_14121915"/>
@@ -1801,7 +1801,7 @@
                   </persName>
                   <state>
                      <p>
-                        Proches de Madame la <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName> et d'Armand Horel
+                        Proches de Madame la <persName ref="#Comtesse_Forest">Comtesse de la Forest</persName> et d'<persName ref="#Horel">Armand Horel</persName>
                      </p>
                   </state>
                   	 <link type="cit" corresp="#Salonique_17-03-1916" target="#Bussiere_17031916"/>
@@ -1959,7 +1959,7 @@
                   du secteur se sont accordés sur la nécessité d'uniformiser les pratiques. Ils formulèrent un ensemble de 
                   recommandations allant dans ce sens, tout en insistant sur le besoin d'élaborer un format d'échange standard de 
                   données. Celui-ci devait reposer sur une syntaxe et un schéma prédéfinis, tout en garantissant, autant que possible, la compatibilité 
-                  avec les standards existant.
+                  avec les standards existants.
                </p>                                       
                <p>
                   La TEI s'est très vite imposée comme le modèle d'édition électronique pour la publication des sources primaires. 
@@ -1968,17 +1968,17 @@
                   concentrer sur la structure et le contenu d'un texte indépendamment de sa mise en forme.
                </p>                                       
                <p>
-                  Le consortium TEI a rapidement privilégié la publication de guidelines (recommandations) à celle d'un véritable standard. 
+                  Le consortium TEI a rapidement privilégié la publication de <hi rend="italic">guidelines</hi> (recommandations) à celle d'un véritable standard. 
                   Ses champs d'application étant relativement étendus (ouvrages imprimés anciens, textes médiévaux, cours écrits ou oraux etc), 
                   la TEI propose non pas tant, un schéma fixe, mains plutôt un cadre de développement modulable selon les besoins du projet. 
                   Ainsi, chaque module répond à une problématique que l'on est libre d'inclure ou non.
                </p>                                        
                <p>
-                  Dans le cadre de ce projet dédié à l'édition électronique de correspondances de guerre, 
+                  Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, 
                   nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les 
                   pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. 
                   Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au 
-                  respect des sources, à l'identification et l'indexation des noms (personne et lieux) ainsi qu'aux différents 
+                  respect des sources, à l'identification et l'indexation des noms (personnes et lieux) ainsi qu'aux différents 
                   points d'entrées du texte (chronologique, géographique, par destinataire etc). Le schéma et sa documentation sont 
                   mis à la disposition et réutilisables par tous. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer 
                   la lecture des <hi rend="italic">guidelines</hi> mais plutôt de présenter la méthode de travail qui a été la notre lors du développement 
@@ -2165,10 +2165,10 @@
                   Adresse présente sur toutes les cartes postales.
                </note>
                <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">               
-                  En février 1915 les forces de l'Entente tentent de reprendre l'initiative avec un attaque maritime du détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>, 
+                  En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>, 
                   mais ici aussi les combats s'enlisent. 
                   L'envoi d'un corps expéditionnaire sur la <placeName ref="#Gallipoli" xml:id="Gallipoli_08081915">presqu'îl de Gallipoli</placeName> en avril n'y changera rien.
-                  Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi de renforts, 
+                  Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi des renforts, 
                   c'est une nouvel échec.
                   Une partie des troupes est finalement redéployée sur le front de <placeName ref="#Salonique" xml:id="Salonique_08081915">Salonique</placeName> en septembre alors que l'évacuation est décidée en décembre.
                   <bibl corresp="#Cochet_Orient"/>
@@ -2352,7 +2352,7 @@
                   Adresse présente sur toutes les cartes postales.
                </note>
                <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1">
-                  Officiellement neutre, Le gouvernement grec de <persName ref="#Venizelos" xml:id="Venizelos_29081915">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur les îles de <placeName ref="#Lemnos" xml:id="Lemnos_29081915">Lemnos</placeName>, <placeName ref="#Mytilene" xml:id="Mytilene_29081915">Mytilène</placeName> et <placeName ref="#Tenedos" xml:id="Tenedos_29081915">Ténédos</placeName>.
+                  Officiellement neutre, le gouvernement grec de <persName ref="#Venizelos" xml:id="Venizelos_29081915">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur les îles de <placeName ref="#Lemnos" xml:id="Lemnos_29081915">Lemnos</placeName>, <placeName ref="#Mytilene" xml:id="Mytilene_29081915">Mytilène</placeName> et <placeName ref="#Tenedos" xml:id="Tenedos_29081915">Ténédos</placeName>.
                   <bibl corresp="#Schiavon_front"/>
                </note>
             </div>              
@@ -2377,7 +2377,7 @@
             <correspDesc type="context" xml:id="context_salonique_03-01-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName>Salonique,</placeName>
+                  <placeName>Salonique</placeName>
                   <date when="1916-01-03">le 3 janvier 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -2522,7 +2522,7 @@
             <correspDesc type="context" xml:id="context_salonique_03-04-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-04-03">le 03 avril 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -2650,7 +2650,7 @@
             <correspDesc type="context" xml:id="context_salonique_05-02-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-02-05">le 05 février 1916</date>
                </correspAction> 
                <correspAction type="received">
@@ -2804,7 +2804,7 @@
             <correspDesc type="context" xml:id="context_salonique_07-01-1916">   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName>Salonique,</placeName>
+                  <placeName>Salonique</placeName>
                   <date when="1916-01-07">le 07 janvier 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -2894,7 +2894,7 @@
             <correspDesc type="context" xml:id="context_salonique_07-12-1915">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName>Salonique,</placeName>
+                  <placeName>Salonique</placeName>
                   <date when="1915-12-07">le 7 décembre 1915</date>
                </correspAction>               
                <correspAction type="received">
@@ -3117,7 +3117,7 @@
             <correspDesc type="context" xml:id="context_salonique_09-04-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-04-09">le 09 avril 1916</date>
                </correspAction>   
                <correspAction type="received">
@@ -3250,8 +3250,8 @@
             <div type="note" xml:id="note_salonique_09-04-1916">
                <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">
                   Les premiers mois de l'année 1916 sont assez calmes sur le front d'orient. 
-                  Les allemands refusent de passer la frontière grec pour bousculer les forces helléniques dans le camps adverse.
-                  Les combats sont essentiellement le fait de patrouille et on tente d'obtenir des renseignements en capturant des prisonniers. 
+                  Les allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse.
+                  Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers. 
                   <bibl corresp="#Schiavon_front" n="178"></bibl>
                </note>
             </div>  
@@ -3275,7 +3275,7 @@
             <correspDesc type="context" xml:id="context_salonique_10-03-1916">   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-03-10">le 10 mars 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -3401,7 +3401,8 @@
                   <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary" xml:id="Sanary_10031916">Sanary<supplied reason="omitted">-</supplied><choice><abbr>s/</abbr><expan>sur</expan></choice><supplied reason="omitted">-</supplied>mer</placeName></del></addrLine>                                            
                   <addrLine><del hand="#other" rend="overline"><placeName ref="#Var" xml:id="Var_10031916">Var</placeName></del></addrLine>                  
                   <addrLine><placeName ref="#France" xml:id="France_10031916">France</placeName></addrLine>
-               </address>               
+               </address>
+                  <!-- tododo -->
                   <add hand="#other">
                      <address type="deliveredTo" place="envelope">                                             
                      <addrLine>48 rue de la Comédie</addrLine>                                    
@@ -3456,7 +3457,7 @@
             <correspDesc type="context" xml:id="context_salonique_12-01-1916">   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName>Salonique,</placeName>
+                  <placeName>Salonique</placeName>
                   <date when="1916-01-12">le 12 janvier 1916</date>
                </correspAction>  
                <correspAction type="received">
@@ -3725,7 +3726,7 @@
                   La correspondance se poursuit au recto de cette carte-lettre.
                </note>
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">
-                  Mi-novembre le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. Le <persName ref="#Joffre">généralissime Joffre</persName> pense que les troupes françaises
+                  Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. Le <persName ref="#Joffre">généralissime Joffre</persName> pense que les troupes françaises
                   ne doivent pas battre en retraite immédiatement, afin d'apporter un soutien aux serbes et rester crédible face aux États encore neutres. 
                   Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail" xml:id="Sarrail_14121915">général Sarrail</persName> commandant l'armée d'Orient. Il adopte dans un premier temps un position 
                   défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un «recul par échelon successif» qui est décidé le
@@ -3733,7 +3734,7 @@
                   <bibl corresp="#Schiavon_front" n="147"/>
                </note>
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">
-                  Malgré l'accord trouvé quelques semaines plus tôt la situation n'a pas véritablement évoluée et les grecs restent une menace pour les troupes alliées.                
+                  Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les grecs restent une menace pour les troupes alliées.                
                   <!-- Page 143 : la conservation de Salonique est une priorité -->
                   <bibl corresp="#Schiavon_front" n="222"/>
                </note>
@@ -3758,7 +3759,7 @@
             <correspDesc type="context" xml:id="context_salonique_15-04-1916">   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-04-15">le 15 avril 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -3912,8 +3913,8 @@
                   Adresse présente sur toutes les cartes de la correspondance et sur l'enveloppe.
                </note>
                <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">
-                  Malgré les relances du <persName ref="#Joffre" xml:id="Joffre_15041916">généralissime Joffre</persName>, <persName ref="#Sarrail" xml:id="Sarrail_15041916">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyen et souhaite mener
-                  une attaque à l'automne, estimant que l'armée serbe ne sera opérationnelle qu'à l'été ; lorsque la température interdira une offensive importante.                
+                  Malgré les relances du <persName ref="#Joffre" xml:id="Joffre_15041916">généralissime Joffre</persName>, <persName ref="#Sarrail" xml:id="Sarrail_15041916">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyens et souhaite mener
+                  une attaque à l'automne. Ce dernier estime que l'armée serbe ne sera opérationnelle qu'à l'été, lorsque la température interdira une offensive importante.                
                   <bibl corresp="#Schiavon_front" n="180"></bibl>
                </note>
             </div>
@@ -3993,7 +3994,7 @@
                   <lb/><del rend="overline">pe</del> enflée&vir; on dirait que j'<choice><sic>aurai</sic><corr>ai</corr></choice> une chique dans la
                   <lb/>bouche pourtant je ne chique ni fume pas<pc>,</pc> en plus 
                   <lb/>j'ai la main droite toute noire&vir; on dirait que je
-                  <lb/><choice><sic>viendrais</sic><corr>viens</corr></choice> de faire le charbon<pc>,</pc> les galons on ne les
+                  <lb/><choice><sic>viendrais</sic><corr>viens</corr></choice> de faire le charbon<choice><orig><pc>,</pc></orig><reg><pc type="supplied">.</pc></reg></choice> <choice><orig>l</orig><reg>L</reg></choice>es galons on ne les
                   <lb/>voit pas non plus<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin ça ne fait vous verrez que
                   <lb/>je suis toujours vivant et en parfaite santé et
                   <lb/>je souhaite de grand cœur que vous en êtes de
@@ -4027,7 +4028,7 @@
             <correspDesc type="context" xml:id="context_salonique_16-02-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName>Salonique,</placeName>
+                  <placeName>Salonique</placeName>
                   <date when="1916-02-16">le 16 février 1916</date>
                </correspAction> 
                <correspAction type="received">
@@ -4158,7 +4159,7 @@
             <correspDesc type="context" xml:id="context_salonique_16-03-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-03-16">le 16 mars 1916</date>
                </correspAction>       
                <correspAction type="received">
@@ -4335,7 +4336,7 @@
             <correspDesc type="context" xml:id="context_salonique_16-11-1915">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1915-11-16">le 16 novembre 1915</date>
                </correspAction>    
                <correspAction type="received">
@@ -4453,13 +4454,13 @@
             <div type="note" xml:id="note_salonique_16-11-1915">
                <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">
                   En octobre et malgré un accord entre les deux nations, le roi <persName ref="#Constantin" xml:id="Constantin_16111915">Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de la <placeName ref="#Serbie" xml:id="Serbi_16111915">Serbie</placeName> arguant que
-                  cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à la <placeName ref="#Bulgarie" xml:id="Bulgarie_16111915">Bulgarie</placeName>, en raison de la menace allemande et autro-hongroise,
+                  cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à la <placeName ref="#Bulgarie" xml:id="Bulgarie_16111915">Bulgarie</placeName>, (en raison de la menace allemande et autro-hongroise)
                   l'accord était devenu caduc. A la demande du premier ministre grec <persName ref="#Venizelos" xml:id="Venizelos_16111915">Venizélos</persName>, les alliés acceptent de soutenir les serbes et d'envoyer des troupes.
                   Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.
                   <bibl corresp="#Schiavon_front" n="224"/>               
                </note>
                <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">
-                  Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à la <placeName ref="#Serbie">Serbie</placeName> est un réseau à voie unique ; seul six trains (dans les deux sens) peuvent faire le voyage dans la journée. 
+                  Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à la <placeName ref="#Serbie">Serbie</placeName> est un réseau à voie unique ; seuls six trains (dans les deux sens) peuvent faire le voyage dans la journée. 
                   <bibl corresp="#Schiavon_front" n="248"/>               
                </note>
             </div>
@@ -4483,7 +4484,7 @@
             <correspDesc type="context" xml:id="context_salonique_17-03-1916">   <!-- éléments spécifiques au corresp : intéressant dans le cas d'une correspondance très suivie comme ici  -->
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-03-17">le 17 mars 1916</date>
                </correspAction>    
                <correspAction type="received">
@@ -4594,8 +4595,8 @@
          <back>
             <div type="note" xml:id="note_salonique_17-03-1916">
                <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">
-                  Suite à la retraite, fin 1915, des troupes serbes, ces dernières sont envoyées sur l'île de <placeName ref="#Corfou">Corfou</placeName> afin d'y être soignées
-                  et rééquipées. Fin février l'île compte déjà plus de cent trente mille hommes.   
+                  Suite à la retraite fin 1915 des troupes serbes, ces dernières sont envoyées sur l'île de <placeName ref="#Corfou">Corfou</placeName> afin d'y être soignées
+                  et rééquipées. Fin février, l'île compte déjà plus de cent trente mille hommes.   
                   <bibl corresp="#Schiavon_front" n="156"></bibl>
                </note>
             </div>
@@ -5304,7 +5305,7 @@
             <correspDesc type="context" xml:id="context_salonique_22-03-1916">
                <correspAction type="sent">
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
-                  <placeName ref="#Salonique">Salonique,</placeName>
+                  <placeName ref="#Salonique">Salonique</placeName>
                   <date when="1916-03-22">le 22 mars 1916</date>
                </correspAction>
                <correspAction type="received">
@@ -5637,9 +5638,9 @@
                <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a">Adresse placée sur le second volet de la carte postale et sur l'enveloppe.</note>
                <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">
                   Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin" xml:id="Constantin_23111915">Constantin I<hi rend="super">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos" xml:id="Venizelos_23111915">Elefthérios Venizélos</persName> pour avoir laissé
-                  les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir, le 9 novembre 1915, par son nouveau premier ministre <persName ref="Skoudoulis" xml:id="Skoudoulis_23111915">Skoudoulis</persName> que la <placeName ref="#Grece" xml:id="Grece_23111915">grèce</placeName> souhaite 
-                  «désarmer toutes les troupes étrangères se trouvant sur le territoire grec.» Le 21 novembre un escadre française prend position devant <placeName ref="#Milos" xml:id="Milos_23111915">Milos</placeName>. Le 23, 
-                  une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. un accord est finalement trouvé, 
+                  les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre <persName ref="Skoudoulis" xml:id="Skoudoulis_23111915">Skoudoulis</persName>, que la <placeName ref="#Grece" xml:id="Grece_23111915">grèce</placeName> souhaite 
+                  «désarmer toutes les troupes étrangères se trouvant sur le territoire grec». Le 21 novembre une escadre française prend position devant <placeName ref="#Milos" xml:id="Milos_23111915">Milos</placeName>. Le 23, 
+                  une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : 
                   les troupes grecques doivent quitter la région de <placeName ref="#Salonique">Salonique</placeName>.  
                   <bibl corresp="#Schiavon_front" n="222"/>
                </note>
@@ -6448,7 +6449,7 @@
                   En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la 
                   bataille de <placeName ref="#Verdun" xml:id="Verdun_28031916">Verdun</placeName>. Le <persName ref="#Joffre" xml:id="Joffre_28031916">généralissime Joffre</persName>
                   est favorable à une offensive dans la mesure ou anglais et russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail" xml:id="Sarrail_28031916">Le général Sarrail,</persName> 
-                  toujours en charge de l'armée d'Orient, réclame, quant à lui, toujours plus de moyens surestimant les forces ennemies. 
+                  toujours en charge de l'armée d'Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies. 
                   <bibl corresp="#Schiavon_front" n="180"/>
                </note>
             </div>
@@ -6662,8 +6663,8 @@
                </note>
                <note xml:id="F_delta_1854_20_1_Salonique_30-11-1915_note1" n="1">
                   Les anglais pensent la campagne de <placeName ref="#Serbie" xml:id="Serbie_30111915">Serbie</placeName> perdue et renâclent à envoyer des troupes de soutien.
-                  Après des négociations le généralissime <persName ref="#Joffre" xml:id="Joffre__30111915">Joffre</persName> obtient fin octobre que les anglais accélèrent le rapatriement des troupes stationnées en Egypte à <placeName ref="#Salonique">Salonique</placeName>.
-                  Ces dernières seront stationnées à l'arrière alors que les française monteront au front.
+                  Après des négociations, le généralissime <persName ref="#Joffre" xml:id="Joffre__30111915">Joffre</persName> obtient fin octobre que les anglais accélèrent le rapatriement des troupes stationnées en Egypte à <placeName ref="#Salonique">Salonique</placeName>.
+                  Ces dernières seront stationnées à l'arrière alors que les françaises monteront au front.
                   <link/>
                </note>
             </div>
@@ -6804,7 +6805,7 @@
          <back>
             <div type="note" xml:id="note_salonique_31-01-1916">            
                <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">
-                  Si les alliés dominent sur les mers, il en est tout autre en dessous. Les sous-marins allemands resteronts une menace importante pour les navires de l'
+                  Si les alliés dominent sur les mers, il en est tout autre chose en dessous. Les sous-marins allemands resteront une menace importante pour les navires de l'
                   l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.
                   <bibl corresp="#Schiavon_front" n="159"></bibl>
                </note>
@@ -7871,7 +7872,7 @@
             <div type="note" xml:id="note_mytilene_06-10-1915">
                <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1">
                   La ville de <placeName ref="#Mytilene">Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au Sud de l'entrée du détroit des <placeName ref="#Dardanelles" xml:id="Dardanelles_06101915">Dardanelles.</placeName>
-                  Séparée des côte turques par le détroit de <placeName ref="#Mytilene">Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.
+                  Elle est séparée des côtes turques par le détroit de <placeName ref="#Mytilene">Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.
                   <bibl corresp="#Schiavon_front"/>
                </note>
             </div>

@@ -257,7 +257,7 @@
         </em>
         <em class="right">
             <xsl:value-of select="tei:correspAction/tei:placeName"/>
-            <xsl:text> </xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="tei:correspAction/tei:date"/>
         </em>                                                                                         
     </xsl:template>
@@ -959,8 +959,8 @@
                                     <xsl:when test="tei:p[1]/tei:address[@type='deliveredTo' and @place='envelope'] and tei:p[1]/tei:stamp">
                                         <div class="large-6 columns">                                                         
                                             <xsl:apply-templates select="tei:p/tei:address[@type='deliveredTo' and @place='envelope']" mode="accordion"/>              
-                                            <xsl:if test="tei:add[@hand='#other']">                                                
-                                                    <xsl:apply-templates select="tei:add[@hand='#other']"/>
+                                            <xsl:if test="tei:p[1]/tei:add[@hand='#other']">                                                
+                                                <xsl:apply-templates select="tei:p[1]/tei:add[@hand='#other']"/>
                                             </xsl:if>                                        
                                         </div>        
                                         <div class="large-6 columns">            
@@ -970,7 +970,7 @@
                                     <xsl:otherwise>
                                         <div class="large-12">                                                                                                                                            
                                             <xsl:apply-templates select="tei:p/tei:address[@type='deliveredTo' and @place='envelope']" mode="accordion"/>                                                                                                                                    
-                                            <xsl:if test="tei:add[@hand='other']">                                                                                                                                                                               
+                                            <xsl:if test="tei:p/tei:add[@hand='other']">                                                                                                                                                                               
                                                 <xsl:apply-templates select="tei:p/tei:add[@hand='other']"/>                            
                                             </xsl:if>                                        
                                         </div>
