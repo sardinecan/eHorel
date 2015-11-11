@@ -486,14 +486,16 @@
                </div>                                 
                <linkGrp corresp="#Horel" type="Sender">               
                   <link type="naissance" target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0#id:1479049212?center=1210.0452674897138,-2149.5925925925935&amp;zoom=5"/>
-                  <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta5461abaea1e01/daogrp/0/layout:table/idsearch:RECH_5c3d4b98b4e4cb3f25200e099a55fbcd#id:1534499178?center=988,-1493"/>            
+                  <!-- table alphabétique : archives du morbihan, Lorient 1909 (page 28/72) Volume 1 numéro matricule 97 pour le registre matricule cote R2068 (1à500) page 169/773 -->
+                  <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ee3c563/daogrp/0/layout:table/idsearch:RECH_5c3d4b98b4e4cb3f25200e099a55fbcd#id:1534499178?center=988,-1493"/>            
                </linkGrp>
                <linkGrp corresp="#Comtesse_Forest" type="received">
                   <link type="naissance" target="http://mdr-archives.ariege.fr/mdr/index.php/docnumViewer/afficheDocnum/40/N/vue"/>
                </linkGrp>
                <linkGrp corresp="#Horel_Louis" type="other">
                   <link type="naissance" target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=3286.3855490876335,-2182.1979306282437&amp;zoom=5"/>
-                  <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta545b94d6d71fe/daogrp/0/layout:table/idsearch:RECH_be32f1aa6a0426e5a1e4083a83279fd3#id:414562807?center=1013.5,-1513.5"/>
+                  <!-- registre matricule : n°1047 année de classe 1908 archives morbihan Lorient cote R2054, 1001-1500, page 67/705 -->
+                  <link type="registre_matricule" target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ed9c0d6/daogrp/0/layout:table/idsearch:RECH_6d6623a111026d6a110c490adaee7baa#id:414562807?center=1015,-1504"/>
                   <link type="mpf" target="http://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/m005239ee9fc8c0e/5242be4be00d9"/>
                </linkGrp>
                <linkGrp type="bibliotheque_num">
@@ -1899,7 +1901,7 @@
                      </bibl>
                      <bibl type="dossier" xml:id="Roumanie_centenaire">
                         <title>La Roumanie dans la Grande Guerre : des affrontements aux monuments</title>
-                        <author><orgName>Ambassade de France en Roumanie</orgName></author>
+                        <!--<author><orgName>Ambassade de France en Roumanie</orgName></author>-->
                         <editor>Mission centenaire</editor>                  
                         <date when="2013">2013</date>
                         <link target="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments"/>
@@ -2167,7 +2169,7 @@
                <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">               
                   En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>, 
                   mais ici aussi les combats s'enlisent. 
-                  L'envoi d'un corps expéditionnaire sur la <placeName ref="#Gallipoli" xml:id="Gallipoli_08081915">presqu'îl de Gallipoli</placeName> en avril n'y changera rien.
+                  L'envoi d'un corps expéditionnaire sur la <placeName ref="#Gallipoli" xml:id="Gallipoli_08081915">presqu'île de Gallipoli</placeName> en avril n'y changera rien.
                   Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi des renforts, 
                   c'est une nouvel échec.
                   Une partie des troupes est finalement redéployée sur le front de <placeName ref="#Salonique" xml:id="Salonique_08081915">Salonique</placeName> en septembre alors que l'évacuation est décidée en décembre.
@@ -3673,7 +3675,7 @@
                      <lb/>peine de vous savoir tant souffrante<pc type="surplus">.</pc> car 
                      vrai<lb rend="hyphen" type="marked"/>ment c'est trop pour les mêmes<pc>.</pc> Dieu devrait
                      <lb/>partager le mal<pc>.</pc> <choice><orig>e</orig><reg>E</reg></choice>nfin&vir; j'espère que pour 
-                     main<lb rend="hyphen" type="marked"/>tenant vous soyer compl&è;tement rétablie<pc>.</pc> Tous
+                     main<lb rend="hyphen" type="marked"/>tenant vous soyez compl&è;tement rétablie<pc>.</pc> Tous
                      <lb/>ces temps ci c'est tr&è;s difficile de voyager car
                      <lb/>il y a beaucoup trop de voyageurs principalement
                      <lb/>des militaires&pt; <choice><orig>p</orig><reg>P</reg></choice>our ne pas &ê;tre serré il faudrait
@@ -4454,7 +4456,7 @@
             <div type="note" xml:id="note_salonique_16-11-1915">
                <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">
                   En octobre et malgré un accord entre les deux nations, le roi <persName ref="#Constantin" xml:id="Constantin_16111915">Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de la <placeName ref="#Serbie" xml:id="Serbi_16111915">Serbie</placeName> arguant que
-                  cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à la <placeName ref="#Bulgarie" xml:id="Bulgarie_16111915">Bulgarie</placeName>, (en raison de la menace allemande et autro-hongroise)
+                  cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à la <placeName ref="#Bulgarie" xml:id="Bulgarie_16111915">Bulgarie</placeName>, (en raison de la menace allemande et austro-hongroise)
                   l'accord était devenu caduc. A la demande du premier ministre grec <persName ref="#Venizelos" xml:id="Venizelos_16111915">Venizélos</persName>, les alliés acceptent de soutenir les serbes et d'envoyer des troupes.
                   Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.
                   <bibl corresp="#Schiavon_front" n="224"/>               
@@ -7194,12 +7196,12 @@
          <back>
             <div type="note" xml:id="note_port_Iero_09-10-1915">
                <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">
-                  Après des négociations concernant les bénéfices qu'elle pourrait tirer de sont engagement dans le conflit, 
+                  Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, 
                   la <placeName ref="#Bulgarie" xml:id="Bulgarie_09101915">Bulgarie</placeName> signe un accord secret avec l'Alliance le 4 septembre 1915, le 23 elle décrète la mobilisation générale.
                   <bibl corresp="#Schiavon_front"/>                                              
                </note>
                <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2">
-                  La <placeName ref="#Roumanie">roumanie</placeName> ne déclarera la guerre à l'<placeName ref="Autriche_Hongrie" xml:id="Autriche_Hongrie_09101915">Autriche-Hongrie</placeName> qu'en août 1916.
+                  La <placeName ref="#Roumanie">Roumanie</placeName> ne déclarera la guerre à l'<placeName ref="Autriche_Hongrie" xml:id="Autriche_Hongrie_09101915">Autriche-Hongrie</placeName> qu'en août 1916.
                   <bibl corresp="#Roumanie_centenaire"/>
                </note>
                <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">
@@ -8261,7 +8263,7 @@
          <back>
             <div type="note" xml:id="note_imbros_23-09-1915">
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a">
-                  Adresse présente sur les deux cartes postale et l'enveloppe.
+                  Adresse présente sur les deux cartes postales et l'enveloppe.
                </note>
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">
                   L'île d'<placeName ref="#Imbros">Imbros</placeName> est restée, à l'issue des guerres balkaniques, sous domination Ottomane.

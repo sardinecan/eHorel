@@ -94,7 +94,7 @@
                         &lt;element attribut="valeur"&gt;mon contenu&lt;/element&gt; <lb/>- Des
                         entit&#xE9;s : substituts pour des s&#xE9;quences d&#x2019;information.
                             <egXML xmlns="http://www.tei-c.org/ns/Examples"><bonbon>tic <![CDATA[&amp;]]>
-                                tac</bonbon> <!-- L'esperluette est un caractère
+                                tac</bonbon> <!-- L'esperluette (&) est un caractère
                             réservé--></egXML>
                         <lb/>- Des instructions de traitements : applications ext&#xE9;rieures.
                         <lb/>- Des commentaires : <egXML xmlns="http://www.tei-c.org/ns/Examples"
@@ -181,6 +181,9 @@
                         nécessite dans la gestion des liens qui deviendront des liens hypertextes
                         une attention toute particulière, car ils doivent être gérés en tenant compte
                         du fichier XML servant à la sortie et non du teiCorpus. </p>
+                    <p>
+                        NOTE RECTIFICATIVE : XSLT 2.0 propose la fonction <emph>result-document</emph> permettant de générer plusieurs fichiers à partir d'une feuille de transformation.
+                    </p>
                 </div2>
             </div1>
             <div1>
@@ -785,21 +788,18 @@
                                         <val>"aggl"</val>. <lb/>
                                     <lb/>exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples"
                                             ><w rend="aggl">plus</w><w>tard</w></egXML>
-                                </p>
-                                <p> A l'inverse, lorsqu'un mot est coup&#xE9; alors qu'il ne devrait
-                                    pas l'&#xEA;tre, l'attribut <att>rend</att> prendra la valeur
-                                        <val>elision</val>. </p>
+                                </p>                                
                             </div5>
                             <div5>
-                                <head>Les changements de colonnes <ref target="documentation.html#TEI.cb"><gi>cb</gi></ref></head>
-                                <p><specDesc key="cb"/><lb/>Cette balise est particuli&#xE8;rement
+                                <head>Les changements de colonnes :</head>
+                                <p><ref target="documentation.html#TEI.cb"><gi>cb</gi></ref> <specDesc key="cb"/><lb/>Cette balise est particuli&#xE8;rement
                                     int&#xE9;ressante dans le cas de cartes postales. Elle
                                     s&#x2019;utilise de la m&#xEA;me mani&#xE8;re que les deux
                                     pr&#xE9;c&#xE9;dentes. </p>
                             </div5>
                             <div5>
-                                <head>La mise en valeur <ref target="documentation.html#TEI.hi"><gi>hi</gi></ref></head>
-                                <p><specDesc key="hi"/> L'utilisation de cette balise doit &#xEA;tre
+                                <head>La mise en valeur :</head>
+                                <p><ref target="documentation.html#TEI.hi"><gi>hi</gi></ref> <specDesc key="hi"/> L'utilisation de cette balise doit &#xEA;tre
                                     pr&#xE9;cis&#xE9;e par l&#x2019;attribut <att>rend</att>. Cet
                                     &#xE9;l&#xE9;ment et son attribut n&#x2019;interpr&#xE8;tent pas
                                     le texte contenu, ils pr&#xE9;cisent simplement son apparence
@@ -1124,7 +1124,7 @@
                                     <div7>
                                         <head>Les ajouts</head>
                                         <p> Les ajouts de l&#x2019;auteur où d&#x2019;une autre
-                                            personne seront encod&#xE9;s &#xE0; la place ou elles se
+                                            personne seront encod&#xE9;s &#xE0; la place où elles se
                                             situent dans le texte avec la balise <ref
                                                 target="documentation.html#TEI.add"
                                                 ><gi>add</gi></ref>. Elle sera pr&#xE9;cis&#xE9;e
@@ -1298,14 +1298,14 @@
                             <p> L&#x2019;&#xE9;l&#xE9;ment <ref target="documentation.html#TEI.date"
                                         ><gi>date</gi></ref> permet d&#x2019;encoder les dates de
                                 n&#x2019;importe quelle forme. Des attributs permettent de
-                                pr&#xE9;ciser et d&#x2019;uniformiser la valeur. <att>when</att>
-                                permet de standardiser la date sous la forme AAAA, ou si la date est
+                                pr&#xE9;ciser et d&#x2019;uniformiser la valeur. L'attribut <att>when</att>
+                                permet de standardiser la date sous la forme AAAA, ou, si la date est
                                 plus pr&#xE9;cise, AAAA-MM-JJ.
-                                    <lb/><att>notBefore</att>/<att>notAfter</att> sont utilis&#xE9;s
-                                lorsque la date est impr&#xE9;cise. <lb/><att>cert</att> permet de
+                                    <lb/>Les attributs <att>notBefore</att>/<att>notAfter</att> sont utilis&#xE9;s
+                                lorsque la date est impr&#xE9;cise. <lb/>L'attribut <att>cert</att> permet de
                                 pr&#xE9;ciser le degr&#xE9; de certitude&#xA0;; les valeurs sont
                                     <val>high</val>(forte), <val>medium</val>(moyenne) et
-                                    <val>low</val>(basse). <lb/><att>type</att>=<val>unknow</val>
+                                    <val>low</val>(basse). <lb/>L'attribut <att>type</att>=<val>unknow</val>
                                 doit &#xEA;tre utilis&#xE9; lorsque la date est inconnue. </p>
                         </div4>
                     </div3>
@@ -1348,7 +1348,7 @@
                         ces listes (<ref target="documentation.html#TEI.person"
                             ><gi>person</gi></ref>, <ref target="documentation.html#TEI.place"
                                 ><gi>place</gi></ref>, <ref target="documentation.html#TEI.item"
-                                ><gi>item</gi></ref> devront &#xEA;tre identifi&#xE9;s par un
+                                ><gi>item</gi></ref> devront &#xEA;tre identifi&#xE9;s par un attribut
                             <att>xml:id</att>, afin de s&#x2019;y r&#xE9;f&#xE9;rer lors de
                         l&#x2019;encodage du texte. </p>
                     <p> Ces index peuvent &#xEA;tre plac&#xE9;s dans le <ref
