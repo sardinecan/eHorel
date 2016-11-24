@@ -125,19 +125,19 @@ span.placeName{
 }
 
 .headNote{
-    background-color: rgb(68,68,68);
+    background-color: rgb(68, 68, 68);
     padding: 1rem;
-    color:white;
-    border-bottom: 2px solid rgb(208,208,208);
+    color: white;
+    border-bottom: 2px solid rgb(208, 208, 208);
 }
 
 .headNote p{
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-.note {
+.note{
     padding: 1rem;
-    color: rgb(68,68,68);
+    color: rgb(68, 68, 68);
 }
 
 li[id]:hover{
@@ -152,8 +152,26 @@ li[id] li{
     border-bottom: 2px solid rgb(68, 68, 68);
 }
 .leaflet-popup-content span{
-    color: rgb(68,68,68);
+    color: rgb(68, 68, 68);
     font-weight: 700;
     margin-bottom: .5em;
     font-size: 18px;
+}
+
+li.tabs-title.is-active a {
+    color:white !important;
+}
+
+li.tabs-title a {
+    color:rgb(68,68,68) !important;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.head {
+    font-weight:bold;
+    font-size:larger;
+    border-bottom :2px solid rgb(208,208,208);
 }

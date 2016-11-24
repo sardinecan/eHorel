@@ -5,19 +5,67 @@
   exclude-result-prefixes="xs tei"    
   version="2.0">
   
-  <xsl:template match="@* | node()" exclude-result-prefixes="#all">
+  <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:facsimile/tei:graphic[@xml:id=//tei:figure/tei:graphic/@url]">
-    <xsl:variable name="id" select="@xml:id"/>
-    <xsl:variable name="url" select="@url"/>
-    <graphic xml:id="{$id}" url="{$url}">
-      <desc><xsl:value-of select="//tei:figure[child::tei:graphic[@url=$id]]/tei:figDesc"/></desc>
-    </graphic>
+  <xsl:template match="tei:TEI[@xml:id]//tei:fileDesc">
+    <fileDesc>
+      <titleStmt>
+        <title><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:date"/></title>
+        <author><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='sentBy']"/></author>
+        <editor><orgName>B.D.I.C.</orgName></editor>
+        <respStmt>
+          <resp>Transcription et encodage XML/TEI :</resp>
+          <name>Josselin Morvan (étudiant)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Sous la direction de </resp>
+          <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Bibliothèque de documentation internationale contemporaine</orgName>
+          <orgName type="acronym">BDIC</orgName>
+          <address>
+            <addrLine>6 allée de l'Université</addrLine>
+            <addrLine>F-92001 Nanterre Cedex</addrLine>
+            <addrLine>France</addrLine>
+            <addrLine>http://www.bdic.fr/</addrLine>
+          </address>
+        </publisher>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Nanterre</settlement>
+            <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+            <idno>F delta 1854/20</idno>
+            <msName><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:date"/></msName>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <p><xsl:value-of select="count(ancestor::tei:TEI//tei:div[@type='letter']//tei:pb) div 2"/><xsl:text> carte</xsl:text><xsl:if test="count(ancestor::tei:TEI//tei:div[@type='letter']//tei:pb) &gt; 2"><xsl:text>s</xsl:text></xsl:if><xsl:text> postale</xsl:text><xsl:if test="count(ancestor::tei:TEI//tei:div[@type='letter']//tei:pb) &gt; 2"><xsl:text>s</xsl:text></xsl:if><xsl:choose><xsl:when test=" ancestor::tei:TEI//tei:div[@type='enveloppe']"><xsl:text> et une enveloppe.</xsl:text></xsl:when><xsl:otherwise><xsl:text>.</xsl:text></xsl:otherwise></xsl:choose></p>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <provenance>Don de madame la comtesse de La Forest</provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
   </xsl:template>
+  
+  <xsl:template match="@default | @ident | @instant | @full | @part | @org | @sample | @anchored | @defective"/>
   
   <!--<xsl:template match="tei:TEI//tei:figure"/>-->
   

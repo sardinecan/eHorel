@@ -33,14 +33,13 @@
          </publicationStmt>
          <sourceDesc xml:id="sourceDesc">
             <msDesc>
-               <!-- Groupe de discussion sur les corresp. La matérialité de la collection peut être encodée avec les éléments du msDesc -->
                <msIdentifier xml:id="msIdentifier">
                   <country>France</country>
                   <settlement>Nanterre</settlement>
                   <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                   <idno>F delta 1854/20</idno>
                </msIdentifier>
-               <msContents defective="false">
+               <msContents>
                   <p>Ensemble de lettres (cartes) envoyées à la comtesse de La Forest par l'un de ses obligés, Armand Horel, quartier maître canonnier à bords de divers bâtiments de la flotte française entre 1915 et 1919. L'essentiel des courriers est envoyé depuis Toulon puis Salonique, Patras, le Canal de Suez, etc. De nombreux éléments sur le quotidien à bord, les épisodes de guerre, mais aussi sur la grippe espagnole en 1918. La très grande majorité des courriers est rédigée sur des cartes postales et le fonds constitue part là une collection rare de cartes (154 au total, dont beaucoup en couleur) de cette région (Grèce, Turquie, Dardanelles) durant la période de guerre. Le fonds comprend en outre une lettre du frère de Armand Horel, ainsi qu'un programme de théâtre (« Achi Baba and the forty thieves »). </p>
                </msContents>
                <physDesc xml:id="physDesc">
@@ -54,7 +53,7 @@
                   </objectDesc>
                </physDesc>
                <history xml:id="history">
-                  <provenance>Don de Madame la comtesse de La Forest</provenance>
+                  <provenance>Don de madame la comtesse de La Forest</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -181,13 +180,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Toulon, le 08 août 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Toulon, le 08 août 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -296,7 +333,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du <placeName ref="#Dardanelles">détroit des Dardanelles</placeName>, mais ici aussi les combats s'enlisent. L'envoi d'un corps expéditionnaire sur <placeName ref="#Gallipoli">la presqu'île de Gallipoli</placeName> en avril n'y changera rien. Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi des renforts ; c'est une nouvel échec. Une partie des troupes est finalement redéployée sur <placeName ref="#Salonique">le front de Salonique</placeName> en septembre alors que l'évacuation est décidée en décembre.<bibl corresp="#Cochet_Orient"/></note>
+               <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du <placeName ref="#Dardanelles">détroit des Dardanelles</placeName>, mais ici aussi les combats s'enlisent. L'envoi d'un corps expéditionnaire sur <placeName ref="#Gallipoli">la presqu'île de Gallipoli</placeName> en avril n'y changera rien. Une seconde offensive terrestre est planifiée en août mais la priorité donnée au front occidental limite l'envoi des renforts ; c'est une nouvel échec. Une partie des troupes est finalement redéployée sur <placeName ref="#Salonique">le front de Salonique</placeName> en septembre alors que l'évacuation est décidée en décembre.<bibl corresp="#Cochet_Orient" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -305,13 +342,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Toulon, le 29 août 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Toulon, le 29 août 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -406,7 +481,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1">Officiellement neutre, le gouvernement grec de <persName ref="#Venizelos">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur <placeName ref="#Lemnos">les îles de Lemnos</placeName>, <placeName ref="#Mytilene">Mytilène</placeName> et <placeName ref="#Tenedos">Ténédos</placeName>.<bibl corresp="#Schiavon_front"/></note>
+               <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1">Officiellement neutre, le gouvernement grec de <persName ref="#Venizelos">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur <placeName ref="#Lemnos">les îles de Lemnos</placeName>, <placeName ref="#Mytilene">Mytilène</placeName> et <placeName ref="#Tenedos">Ténédos</placeName>.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -416,13 +491,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 03 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 03 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -500,13 +613,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 03 avril 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 03 avril 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -572,13 +723,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 05 février 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 05 février 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -672,13 +861,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 07 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 07 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -756,13 +983,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 07 décembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 07 décembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -878,7 +1143,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_notea" n="a">La correspondance se poursuit au recto de cette carte-lettre.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">L'ordre de retraite générale des troupes serbes est donné par <persName ref="#Putnik">le voïvode Putnik</persName> le 25 novembre 1915. C'est en réalité toute une partie de la population qui fuit l'avancée des troupes ennemies.<bibl corresp="#Schiavon_front" n="150"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">L'ordre de retraite générale des troupes serbes est donné par <persName ref="#Putnik">le voïvode Putnik</persName> le 25 novembre 1915. C'est en réalité toute une partie de la population qui fuit l'avancée des troupes ennemies.<bibl corresp="#Schiavon_front" n="150" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -887,13 +1152,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 09 avril 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 09 avril 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -987,7 +1290,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d'Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d'Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178" status="draft"/>
                </note>
             </div>
          </back>
@@ -997,13 +1300,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 10 mars 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 10 mars 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1124,13 +1465,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 12 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 12 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1184,13 +1563,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 14 décembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 14 décembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1271,8 +1688,8 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_notea" n="a">La correspondance se poursuit au recto de cette carte-lettre.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d'Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147"/></note>
-               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les Grecs restent une menace pour les troupes alliées.<!-- Page 143 : la conservation de Salonique est une priorité--><bibl corresp="#Schiavon_front" n="222"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d'Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les Grecs restent une menace pour les troupes alliées.<!-- Page 143 : la conservation de Salonique est une priorité--><bibl corresp="#Schiavon_front" n="222" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -1281,13 +1698,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 15 avril 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 15 avril 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1387,7 +1842,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a">Adresse présente sur toutes les cartes de la correspondance et sur l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">Malgré les relances du <persName ref="#Joffre">généralissime Joffre</persName>, <persName ref="#Sarrail">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyens et souhaite mener une attaque à l'automne. Ce dernier estime que l'armée serbe ne sera opérationnelle qu'à l'été, lorsque la température interdira une offensive importante.<bibl corresp="#Schiavon_front" n="180"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">Malgré les relances du <persName ref="#Joffre">généralissime Joffre</persName>, <persName ref="#Sarrail">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyens et souhaite mener une attaque à l'automne. Ce dernier estime que l'armée serbe ne sera opérationnelle qu'à l'été, lorsque la température interdira une offensive importante.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
                </note>
             </div>
          </back>
@@ -1397,13 +1852,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 15 mai 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 15 mai 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1456,13 +1949,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 16 février 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 16 février 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1548,13 +2079,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 16 mars 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 16 mars 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1667,7 +2236,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_16-03-1916_note1" n="1">La région est marécageuse et si en quelques mois la longueur du camp retranché a atteint les cent vingt kilomètres, sa défense ne permet pas d'avoir une densité de troupes importante sur toute sont étendue. L'armée s'attache donc à l'amélioration des voies de communication, routes et chemins de fer, afin de gagner en mobilité.<bibl corresp="#Schiavon_front" n="169"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-03-1916_note1" n="1">La région est marécageuse et si en quelques mois la longueur du camp retranché a atteint les cent vingt kilomètres, sa défense ne permet pas d'avoir une densité de troupes importante sur toute sont étendue. L'armée s'attache donc à l'amélioration des voies de communication, routes et chemins de fer, afin de gagner en mobilité.<bibl corresp="#Schiavon_front" n="169" status="draft"/>
                </note>
             </div>
          </back>
@@ -1677,13 +2246,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 16 novembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 16 novembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1754,8 +2361,8 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">En octobre, et malgré un accord entre les deux nations, <persName ref="#Constantin">le roi Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de <placeName ref="#Serbie">la Serbie</placeName> arguant que cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à <placeName ref="#Bulgarie">la Bulgarie</placeName> — en raison de la menace allemande et austro-hongroise — l'accord était devenu caduc. À la demande du <persName ref="#Venizelos">premier ministre grec Venizélos</persName>, les alliés acceptent de soutenir les Serbes et d'envoyer des troupes. Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.<bibl corresp="#Schiavon_front" n="224"/></note>
-               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à <placeName ref="#Serbie">la Serbie</placeName> est un réseau à voie unique : seuls six trains — dans les deux sens — peuvent faire le voyage dans la journée.<bibl corresp="#Schiavon_front" n="248"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">En octobre, et malgré un accord entre les deux nations, <persName ref="#Constantin">le roi Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de <placeName ref="#Serbie">la Serbie</placeName> arguant que cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à <placeName ref="#Bulgarie">la Bulgarie</placeName> — en raison de la menace allemande et austro-hongroise — l'accord était devenu caduc. À la demande du <persName ref="#Venizelos">premier ministre grec Venizélos</persName>, les alliés acceptent de soutenir les Serbes et d'envoyer des troupes. Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.<bibl corresp="#Schiavon_front" n="224" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à <placeName ref="#Serbie">la Serbie</placeName> est un réseau à voie unique : seuls six trains — dans les deux sens — peuvent faire le voyage dans la journée.<bibl corresp="#Schiavon_front" n="248" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -1764,13 +2371,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 17 mars 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 17 mars 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1834,7 +2479,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">Suite à la retraite fin 1915 des troupes serbes, ces dernières sont envoyées sur <placeName ref="#Corfou">l'île de Corfou</placeName> afin d'y être soignées et rééquipées. Fin février, l'île compte déjà plus de cent trente mille hommes.<bibl corresp="#Schiavon_front" n="156"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">Suite à la retraite fin 1915 des troupes serbes, ces dernières sont envoyées sur <placeName ref="#Corfou">l'île de Corfou</placeName> afin d'y être soignées et rééquipées. Fin février, l'île compte déjà plus de cent trente mille hommes.<bibl corresp="#Schiavon_front" n="156" status="draft"/>
                </note>
             </div>
          </back>
@@ -1844,13 +2489,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 17 décembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 17 décembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1938,13 +2621,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 19 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 19 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2018,13 +2739,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 20 décembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 20 décembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2079,13 +2838,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 21 février 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 21 février 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2176,13 +2973,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 21 avril 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 21 avril 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2278,7 +3113,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1">La baïonnette française est caractérisée par une lame cruciforme censée causer d'importantes hémorragies lorsque, plantée dans le corps de son adversaire, le soldat faisait pivoter son arme d'un quart de tour.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2">Suite à la retraite serbe et au rapatriement des troupes sur <placeName ref="#Corfou">l'île de Corfou</placeName>, les autorités françaises décident de prendre en charge l'équipement des troupes serbes alors que les Britanniques s'occuperont du ravitaillement.<bibl corresp="#Schiavon_front" n="156"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2">Suite à la retraite serbe et au rapatriement des troupes sur <placeName ref="#Corfou">l'île de Corfou</placeName>, les autorités françaises décident de prendre en charge l'équipement des troupes serbes alors que les Britanniques s'occuperont du ravitaillement.<bibl corresp="#Schiavon_front" n="156" status="draft"/>
                </note>
             </div>
          </back>
@@ -2288,13 +3123,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 22 mars 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 22 mars 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2376,13 +3249,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 23 novembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 23 novembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2483,7 +3394,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a">Adresse placée sur le second volet de la carte postale et sur l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="super">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre <persName ref="Skoudoulis">Skoudoulis</persName> que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="super">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre <persName ref="Skoudoulis">Skoudoulis</persName> que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222" status="draft"/>
                </note>
             </div>
          </back>
@@ -2493,13 +3404,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 24 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 24 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2564,13 +3513,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 25 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 25 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2639,13 +3626,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 27 avril 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 27 avril 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2745,7 +3770,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1">En juin 1916, <persName ref="#Joffre">le généralissime Joffre</persName>, lassé par l'inaction de <persName ref="#Sarrail">Sarrail</persName>, ordonnera que ce dernier prépare des actions offensives contre les Bulgares pour le début août, afin d'appuyer la mobilisation de <placeName ref="#Roumanie">la Roumanie</placeName>.<bibl corresp="#Schiavon_front"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1">En juin 1916, <persName ref="#Joffre">le généralissime Joffre</persName>, lassé par l'inaction de <persName ref="#Sarrail">Sarrail</persName>, ordonnera que ce dernier prépare des actions offensives contre les Bulgares pour le début août, afin d'appuyer la mobilisation de <placeName ref="#Roumanie">la Roumanie</placeName>.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -2754,13 +3779,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 27 décembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 27 décembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>4 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2888,13 +3951,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 28 mars 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 28 mars 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -2955,7 +4056,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d'Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d'Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
                </note>
             </div>
          </back>
@@ -2965,13 +4066,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 30 novembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 30 novembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>4 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3064,13 +4203,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, le 31 janvier 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, le 31 janvier 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3148,7 +4325,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">Si les alliés dominent sur les mers, il en est tout autre chose en dessous. Les sous-marins allemands resteront une menace importante pour les navires de l' l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.<bibl corresp="#Schiavon_front" n="159"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">Si les alliés dominent sur les mers, il en est tout autre chose en dessous. Les sous-marins allemands resteront une menace importante pour les navires de l' l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.<bibl corresp="#Schiavon_front" n="159" status="draft"/>
                </note>
             </div>
          </back>
@@ -3158,13 +4335,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Salonique, date inconnue</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Salonique, date inconnue</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3231,13 +4446,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 03 novembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 03 novembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3321,13 +4574,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 09 octobre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 09 octobre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3392,10 +4683,10 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l'Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l'Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">Devant faire face à des divisions internes aboutissant au «schisme national», <placeName ref="#Grece">la Grèce</placeName> n'entrera véritablement en guerre qu'à l'été 1917.<bibl corresp="#Grece_centenaire"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4">La campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> est un échec pour les alliés. <placeName ref="#Serbie">La Serbie</placeName>, menacée par <placeName ref="#Bulgarie">la Bulgarie</placeName>, devient un prétexte au désengagement des troupes sans donner l'impression d'avoir à faire face à un échec important.<bibl corresp="#Schiavon_front"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l'Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l'Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">Devant faire face à des divisions internes aboutissant au «schisme national», <placeName ref="#Grece">la Grèce</placeName> n'entrera véritablement en guerre qu'à l'été 1917.<bibl corresp="#Grece_centenaire" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4">La campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> est un échec pour les alliés. <placeName ref="#Serbie">La Serbie</placeName>, menacée par <placeName ref="#Bulgarie">la Bulgarie</placeName>, devient un prétexte au désengagement des troupes sans donner l'impression d'avoir à faire face à un échec important.<bibl corresp="#Schiavon_front" status="draft"/>
                </note>
             </div>
          </back>
@@ -3405,13 +4696,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 10 novembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 10 novembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3508,9 +4837,9 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé, cannoné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé, cannoné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
                </note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseilles</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseilles</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -3519,13 +4848,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 20 octobre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 20 octobre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3610,7 +4977,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a">Adresse présente sur toutes les cartes postales. </note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.<bibl corresp="#Schiavon_front" n="132"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.<bibl corresp="#Schiavon_front" n="132" status="draft"/>
                </note>
             </div>
          </back>
@@ -3620,13 +4987,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 27 octobre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 27 octobre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3690,13 +5095,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iero, date inconnue</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, date inconnue</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3768,13 +5211,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Mytilène, le 06 octobre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Mytilène, le 06 octobre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>1 carte postale.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3833,7 +5314,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"><placeName ref="#Mytilene">La ville de Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au sud de l'entrée du <placeName ref="#Dardanelles">détroit des Dardanelles.</placeName> Elle est séparée des côtes turques par <placeName ref="#Mytilene">le détroit de Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.<bibl corresp="#Schiavon_front"/></note>
+               <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"><placeName ref="#Mytilene">La ville de Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au sud de l'entrée du <placeName ref="#Dardanelles">détroit des Dardanelles.</placeName> Elle est séparée des côtes turques par <placeName ref="#Mytilene">le détroit de Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -3843,13 +5324,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Moudros, le 03 septembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Moudros, le 03 septembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>3 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -3943,7 +5462,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d'Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il oeuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud"/>
+               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d'Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il oeuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud" status="draft"/>
                </note>
             </div>
          </back>
@@ -3954,13 +5473,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Imbros, le 23 septembre 1915</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Imbros, le 23 septembre 1915</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales et une enveloppe.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -4083,7 +5640,7 @@
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a">Adresse présente sur les deux cartes postales et l'enveloppe.</note>
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">À l'issue des guerres balkaniques, <placeName ref="#Imbros">l'île d'Imbros</placeName> est restée sous domination ottomane.</note>
-               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connaît des problèmes logistiques et sanitaires importants.<bibl corresp="#Senat_Decker"/></note>
+               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connaît des problèmes logistiques et sanitaires importants.<bibl corresp="#Senat_Decker" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -4093,13 +5650,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Armand Horel à la comtesse de La Forêst, Corfou, le 04 novembre 1916</title>
+               <author>Armand Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Armand Horel à la comtesse de La Forêst, Corfou, le 04 novembre 1916</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>2 cartes postales.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -4173,13 +5768,51 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title/>
+               <title>Louis Horel à la comtesse de La Forêst, Sasoge, le 12 juillet 1917</title>
+               <author>Louis Horel</author>
+               <editor>
+                  <orgName>B.D.I.C.</orgName>
+               </editor>
+               <respStmt>
+                  <resp>Transcription et encodage XML/TEI :</resp>
+                  <name>Josselin Morvan (étudiant)</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Sous la direction de </resp>
+                  <name>Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+               </respStmt>
             </titleStmt>
             <publicationStmt>
-               <p/>
+               <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
+                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>F-92001 Nanterre Cedex</addrLine>
+                     <addrLine>France</addrLine>
+                     <addrLine>http://www.bdic.fr/</addrLine>
+                  </address></publisher>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+               </availability>
             </publicationStmt>
             <sourceDesc>
-               <p/>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement>Nanterre</settlement>
+                     <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
+                     <idno>F delta 1854/20</idno>
+                     <msName>Louis Horel à la comtesse de La Forêst, Sasoge, le 12 juillet 1917</msName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <p>un double feuillet, trois pages sont rédigées.</p>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance>Don de madame la comtesse de La Forest</provenance>
+                  </history>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>

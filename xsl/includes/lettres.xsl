@@ -20,56 +20,107 @@
                             <!-- métadonnées (penser à la class métadonnée pour le <p> -->
                             <xsl:apply-templates select=".//tei:correspAction"/>
                             <div class="large-6 medium-6 column"><xsl:apply-templates select=".//tei:div[@type='letter']/@ana"/></div>
-                            <div>
-                                <xsl:attribute name="class"><xsl:choose><xsl:when test=".//tei:div[@type='letter']/@ana">large-6 medium-6 column</xsl:when><xsl:otherwise>large-6 medium-6 column large-offset-6</xsl:otherwise></xsl:choose></xsl:attribute>
-                                <xsl:if test=".//tei:div[@type='enveloppe'] | .//tei:address[descendant::tei:persName[@type='addressee']]">
-                                    <a class="zreveal float-right" data-open="address">Mentions d'adresses</a>
-                                    <div class="reveal" id="address" data-reveal="true">
-                                        <div class="headNote">
-                                            <p>Adresses :</p>
-                                        </div>
-                                        <div class="note">
-                                            <xsl:choose>
-                                                <xsl:when test=".//tei:div[@type='enveloppe']">
-                                                    <xsl:apply-templates select=".//tei:div[@type='enveloppe']" mode="address"/>
-                                                </xsl:when>
-                                                <xsl:when test=".//tei:address[descendant::tei:persName[@type='addressee']] and not(.//tei:address[descendant::tei:persName[@type='sender']])">
-                                                    <xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='addressee']])[1]" mode="address"/>
-                                                </xsl:when>
-                                                <xsl:when test=".//tei:address[descendant::tei:persName[@type='addressee']] | .//tei:address[descendant::tei:persName[@type='sender']]">
-                                                    <div class="row">
-                                                        <div class="large-6 column"><xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='addressee']])[1]" mode="address"/></div>
-                                                        <div class="large-6 column"><xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='sender']])[1]" mode="address"/></div>
-                                                    </div>
-                                                </xsl:when>
-                                                <xsl:otherwise/>
-                                            </xsl:choose>
-                                        </div>
-                                    </div>
+                            <!--<hr/>-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12">
+                            <ul class="tabs" data-tabs="true" id="example-tabs">
+                                <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Transcription</a></li>
+                                <xsl:if test=".//tei:div[@type='enveloppe'] | .//tei:address[descendant::tei:persName[@type='addressee']]"><li class="tabs-title"><a href="#panel2">Adresses</a></li></xsl:if>
+                                <li class="tabs-title"><a href="#panel3">Métadonnées</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row tabs-content" data-tabs-content="example-tabs">
+                        <div class="tabs-panel is-active" id="panel1">
+                            <div class="medium-12 large-8 columns">
+                                <!-- TODO adresse -->
+                                <xsl:apply-templates select=".//tei:div[@type='letter']"/>
+                                <xsl:apply-templates select=".//tei:seg[@type='closer']" mode="ordreLecture"/>
+                                <!-- TODO note pour les add type postscript -->
+                                <xsl:apply-templates select=".//tei:seg[@type='postscript']" mode="ordreLecture"/>
+                                <xsl:if test="not(.//tei:signed | .//tei:add[@type='signed'])">
+                                    <p class="text-right">
+                                        <i>(non signé)</i>
+                                    </p>
                                 </xsl:if>
                             </div>
-                            <hr/>
+                            <div class="medium-12 large-4 columns">
+                                <div class="orbit" role="region" aria-label="cartes postales" data-orbit="true">
+                                    <header>Cliquez sur les images pour consulter l'intégralité du fonds numérisé.</header>
+                                    <ul class="orbit-container">
+                                        <button class="orbit-previous"><!--<span class="show-for-sr">Previous Slide</span>-->&#9664;&#xFE0E;</button>
+                                        <button class="orbit-next"><!--<span class="show-for-sr">Next Slide</span>-->&#9654;&#xFE0E;</button>
+                                        <xsl:apply-templates select=".//tei:pb[@facs]" mode="affichage"/>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="medium-12 large-8 columns panel">
-                            <!-- TODO adresse -->
-                            <xsl:apply-templates select=".//tei:div[@type='letter']"/>
-                            <xsl:apply-templates select=".//tei:seg[@type='closer']" mode="ordreLecture"/>
-                            <!-- TODO note pour les add type postscript -->
-                            <xsl:apply-templates select=".//tei:seg[@type='postscript']" mode="ordreLecture"/>
-                            <xsl:if test="not(.//tei:signed | .//tei:add[@type='signed'])">
-                                <p class="text-right">
-                                    <i>(non signé)</i>
-                                </p>
-                            </xsl:if>
-                        </div>
-                        <div class="medium-12 large-4 columns panel">
-                            <div class="orbit" role="region" aria-label="cartes postales" data-orbit="true">
-                                <header>Cliquez sur les images pour consulter l'intégralité du fonds numérisé.</header>
-                                <ul class="orbit-container">
-                                    <button class="orbit-previous"><!--<span class="show-for-sr">Previous Slide</span>-->&#9664;&#xFE0E;</button>
-                                    <button class="orbit-next"><!--<span class="show-for-sr">Next Slide</span>-->&#9654;&#xFE0E;</button>
-                                    <xsl:apply-templates select=".//tei:pb[@facs]" mode="affichage"/>
-                                </ul>
+                        <xsl:if test=".//tei:div[@type='enveloppe'] | .//tei:address[descendant::tei:persName[@type='addressee']]">
+                            <div class="tabs-panel" id="panel2">
+                                <xsl:choose>
+                                    <xsl:when test=".//tei:div[@type='enveloppe']">
+                                        <xsl:apply-templates select=".//tei:div[@type='enveloppe']" mode="address"/>
+                                    </xsl:when>
+                                    <xsl:when test=".//tei:address[descendant::tei:persName[@type='addressee']] and not(.//tei:address[descendant::tei:persName[@type='sender']])">
+                                        <div class="large-4"><xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='addressee']])[1]" mode="address"/></div>
+                                    </xsl:when>
+                                    <xsl:when test=".//tei:address[descendant::tei:persName[@type='addressee']] | .//tei:address[descendant::tei:persName[@type='sender']]">
+                                        <div class="row">
+                                            <div class="large-4 column"><xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='addressee']])[1]" mode="address"/></div>
+                                            <div class="large-4 column"><xsl:apply-templates select="(.//tei:address[descendant::tei:persName[@type='sender']])[1]" mode="address"/></div>
+                                        </div>
+                                    </xsl:when>
+                                    <xsl:otherwise/>
+                                </xsl:choose>
+                            </div>
+                        </xsl:if>
+                        <div class="tabs-panel" id="panel3">
+                            <div class="row">
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Contexte :</li>
+                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='sentBy']"/></li>
+                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/></li>
+                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:placeName"/></li>
+                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:date"/></li>
+                                    </ul>
+                                </div>
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Lettre précédente :</li>
+                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='sentBy']"/></li>
+                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='deliveredTo']"/></li>
+                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:placeName"/></li>
+                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:date"/></li>
+                                    </ul>
+                                </div>
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Lettre suivante :</li>
+                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='sentBy']"/></li>
+                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='deliveredTo']"/></li>
+                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:placeName"/></li>
+                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:date"/></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Données matérielles :</li>
+                                        <li><span class="bold"><xsl:text>composition : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
+                                    </ul>
+                                </div>
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Conservation :</li>
+                                        <li><span class="bold"><xsl:text>lieu de conservation : </xsl:text></span><xsl:value-of select=".//tei:settlement"/><xsl:text>, </xsl:text><xsl:value-of select=".//tei:repository"/></li>
+                                        <li><span class="bold"><xsl:text>cote : </xsl:text></span><xsl:value-of select=".//tei:idno"/></li>
+                                        <li><span class="bold"><xsl:text>origine : </xsl:text></span><xsl:value-of select=".//tei:history"/></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -538,29 +589,21 @@
     <xsl:template match="tei:address[descendant::tei:persName[@type='sender']][ancestor::tei:div[@type='letter']]"/>
     
     <xsl:template match="tei:div[@type='enveloppe']" mode="address">
-        <div class="large-12 large-centered address">
-            <div class="row">
-                <div class="large-6 column"><xsl:apply-templates select=".//tei:address[descendant::tei:persName[@type='addressee']]" mode="address"/></div>
-                <div class="large-6 column"><xsl:apply-templates select=".//tei:address[ancestor::tei:add]" mode="address"/></div>
-            </div>
-            <div class="row">
-                <div class="large-6 column"><xsl:apply-templates select=".//tei:address[descendant::tei:persName[@type='sender']]" mode="address"/></div>
-                <div class="large-6 column"><xsl:apply-templates select=".//tei:stamp"/></div>
-            </div>
-        </div>
+        <div class="large-4 column"><xsl:apply-templates select=".//tei:address[descendant::tei:persName[@type='addressee']]" mode="address"/></div>
+        <div class="large-4 column"><xsl:apply-templates select=".//tei:address[ancestor::tei:add]" mode="address"/></div>
+        <div class="large-4 column"><xsl:apply-templates select=".//tei:address[descendant::tei:persName[@type='sender']]" mode="address"/></div>
+        <div class="large-4 column"><xsl:apply-templates select=".//tei:stamp"/></div>
     </xsl:template>
     
     <xsl:template match="tei:div[@type='enveloppe']//tei:address | tei:div[@type='letter']//tei:address" mode="address">
         <xsl:for-each select=".">
             <ul class="no-bullet">
-                <li>
-                    <span class="address">
-                        <xsl:choose>
-                            <xsl:when test="./tei:persName[@type='addressee']">(Destinataire :)</xsl:when>
-                            <xsl:when test="./tei:persName[@type='sender']">(Expéditeur :)</xsl:when>
-                            <xsl:when test="ancestor::tei:add">(D'une autre main :)</xsl:when>
-                        </xsl:choose>
-                    </span>
+                <li class="head">
+                    <xsl:choose>
+                        <xsl:when test="./tei:persName[@type='addressee']">Destinataire :</xsl:when>
+                        <xsl:when test="./tei:persName[@type='sender']">Expéditeur :</xsl:when>
+                        <xsl:when test="ancestor::tei:add">D'une autre main :</xsl:when>
+                    </xsl:choose>
                 </li>
                 <!--<xsl:text> </xsl:text>-->
                 <xsl:for-each select="tei:addrLine | tei:persName">
@@ -577,14 +620,12 @@
     
     <xsl:template match="tei:div[@type='enveloppe']//tei:stamp">
         <ul class="no-bullet">
-            <li>
-                <span class="address">
-                    <xsl:choose>
-                        <xsl:when test="@type='armee'">(Cachet militaire :)</xsl:when>
-                        <xsl:when test="@type='postmark'">(Cachet postal :)</xsl:when>
-                        <xsl:otherwise>(cachet :)</xsl:otherwise>
-                    </xsl:choose>
-                </span>
+            <li class="head">
+                <xsl:choose>
+                    <xsl:when test="@type='armee'">Cachet militaire :</xsl:when>
+                    <xsl:when test="@type='postmark'">Cachet postal :</xsl:when>
+                    <xsl:otherwise>Cachet :</xsl:otherwise>
+                </xsl:choose>
             </li>
             <li><xsl:apply-templates/></li>
         </ul>
