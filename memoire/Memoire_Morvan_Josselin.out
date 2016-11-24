@@ -1,0 +1,57 @@
+\BOOKMARK [0][-]{section*.1}{R\351sum\351}{}% 1
+\BOOKMARK [0][-]{section*.2}{Remerciements}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Introduction}{}% 3
+\BOOKMARK [-1][-]{part.1}{I \311diter une correspondance de poilus}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Mettre en valeur des sources}{part.1}% 5
+\BOOKMARK [1][-]{section.1.1}{L'\351dition de correspondances}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{D\351limitation d'un corpus}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Mettre en valeur des sources}{section.1.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Quel type d'\351dition}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.2.1}{D\351finir une \351dition}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.2}{Les principes \351ditoriaux retenus}{section.1.2}% 11
+\BOOKMARK [0][-]{chapter.2}{Une \351dition \351lectronique XML-TEI}{part.1}% 12
+\BOOKMARK [1][-]{section.2.1}{Le recours \340 un balisage descriptif}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Le dialecte XML-TEI}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{La n\351cessit\351 de personnaliser le sch\351ma TEI}{chapter.2}% 15
+\BOOKMARK [-1][-]{part.2}{II Un mod\350le d'\351dition XML-TEI}{}% 16
+\BOOKMARK [0][-]{chapter.3}{Rappels g\351n\351raux et notions de corpus \351lectronique}{part.2}% 17
+\BOOKMARK [1][-]{section.3.1}{La structure g\351n\351rale du sch\351ma TEI}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Cr\351ation d'un corpus \351lectronique}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{La personnalisation XML-TEI}{part.2}% 20
+\BOOKMARK [1][-]{section.4.1}{Identification des lettres et m\351tadonn\351es}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Le balisage du texte}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{Le balisage logique}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.2}{Balisage physique}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.3}{Balisage diplomatique}{section.4.2}% 25
+\BOOKMARK [1][-]{section.4.3}{Normalisation du texte}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{R\351alisation d'une table des correspondances}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.5}{La cr\351ation d'un index}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.5.1}{Indexation des entr\351es du texte}{section.4.5}% 29
+\BOOKMARK [2][-]{subsection.4.5.2}{L'index des noms de personnes}{section.4.5}% 30
+\BOOKMARK [2][-]{subsection.4.5.3}{Index des noms de lieux}{section.4.5}% 31
+\BOOKMARK [0][-]{chapter.5}{Personnalisation TEI}{part.2}% 32
+\BOOKMARK [1][-]{section.5.1}{Cr\351ation d'un fichier ODD}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.1.1}{Utilisation de Roma}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.2}{Personnalisation manuelle du sch\351ma}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.3}{R\351daction d'un manuel d'encodage}{section.5.1}% 36
+\BOOKMARK [-1][-]{part.3}{III La publication web}{}% 37
+\BOOKMARK [0][-]{chapter.6}{Transformation XML vers HTML}{part.3}% 38
+\BOOKMARK [1][-]{section.6.1}{Principes de base}{chapter.6}% 39
+\BOOKMARK [2][-]{subsection.6.1.1}{Application de principes \351ditoriaux}{section.6.1}% 40
+\BOOKMARK [2][-]{subsection.6.1.2}{Mise en page}{section.6.1}% 41
+\BOOKMARK [1][-]{section.6.2}{Fonctions avanc\351es}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.2.1}{Les boucles}{section.6.2}% 43
+\BOOKMARK [2][-]{subsection.6.2.2}{Les conditions}{section.6.2}% 44
+\BOOKMARK [2][-]{subsection.6.2.3}{Les modes}{section.6.2}% 45
+\BOOKMARK [0][-]{chapter.7}{L'utilisation d'un framework CSS}{part.3}% 46
+\BOOKMARK [0][-]{chapter.8}{Int\351gration d'outils interactifs}{part.3}% 47
+\BOOKMARK [1][-]{section.8.1}{Cartographie}{chapter.8}% 48
+\BOOKMARK [2][-]{subsection.8.1.1}{Int\351gration d'une carte}{section.8.1}% 49
+\BOOKMARK [2][-]{subsection.8.1.2}{R\351cup\351ration des informations par une feuille de style XSLT}{section.8.1}% 50
+\BOOKMARK [1][-]{section.8.2}{Int\351gration d'une frise chronologique}{chapter.8}% 51
+\BOOKMARK [0][-]{section*.14}{Conclusion}{part.3}% 52
+\BOOKMARK [-1][-]{part*.15}{Annexes}{}% 53
+\BOOKMARK [0][-]{appendix.A}{Manuel d'encodage}{part*.15}% 54
+\BOOKMARK [0][-]{appendix.B}{Images}{part*.15}% 55
+\BOOKMARK [0][-]{appendix*.23}{Table des figures}{part*.15}% 56
+\BOOKMARK [0][-]{appendix*.24}{Table des mati\350res}{part*.15}% 57

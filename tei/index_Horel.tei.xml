@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Édition électronique de la correspondance d'Armand Horel.</title>
+            <title>Index et bibliographie</title>
+            <respStmt>
+               <resp>Transcription et encodage XML/TEI :</resp>
+               <name xml:id="J_M">Josselin Morvan (étudiant)</name>
+            </respStmt>
+            <respStmt>
+               <resp>Sous la direction de </resp>
+               <name xml:id="F_J_S">Frédérique Joannic-Seta (directrice adjointe de la <orgName>Bibliothèque de documentation internationale contemporaine</orgName>)</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bibliothèque de documentation internationale contemporaine</orgName>
+               <orgName type="acronym">BDIC</orgName>
+               <address>
+                  <addrLine>6, allée de l'Université</addrLine>
+                  <addrLine>F-92001 Nanterre Cedex</addrLine>
+                  <addrLine>France</addrLine>
+                  <addrLine>http://www.bdic.fr/</addrLine>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Cet index a été créé sous sa forme numérique.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="index" type="index">
+            <list xml:id="autre_index">
+               <item xml:id="H_IV">
+                  <label type="navire">
+                     <name>Henri IV</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>garde-côtes cuirassé<date from="1902" to="1921"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1915-03-22">1915 (mars)</date> Envoyé aux Dardanelles</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-05-18">1915 (mai)</date> 2e division de la 4e escadre</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-04-15">1916 (avril)</date> Division d'Orient</p>
+                     </event>
+                     <!-- vérifier si Horel change pas de navire à ce moment -->
+                     <event>
+                        <p><date when="1917-08-07">1917 (août)</date> Bâtiment base des transports à Tarente</p>
+                     </event>
+                     <event>
+                        <p><date when="1917">1917</date> Débarquement d'une partie de l'armement pour une utilisation terrestre</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Couronne">
+                  <label type="navire">
+                     <name>Couronne</name>
+                     <addName>la</addName>
+                  </label>
+                  <desc>frégate cuirassée type Gloire<date from="1862" to="1911"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1888">1888</date> Transformé en vaisseau-école pour canonniers</p>
+                     </event>
+                     <event>
+                        <p><date from="1908" to="1931">1908-1903</date> Caserne-atelier central de la Flotte</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Lavoisier">
+                  <label type="navire">
+                     <name>Lavoisier</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>croiseur de 2e classe<date from="1897" to="1920"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1915-12-30">1915 (décembre) </date> Envoyé à <placeName ref="#Port_Said">Port-Saïd</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1916-02">1916 (février)</date> Affecté au secteur de Méditerranée occidentale</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-09">1916 (septembre)</date> Envoyé au <placeName ref="#Maroc">Maroc</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1919">1919</date> Stationnement en Syrie</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Boeuf">
+                  <label type="navire">
+                     <name>Bœuf</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>remorqueur<date from="1909" to="1942"/></desc>
+               </item>
+               <item xml:id="Goeland">
+                  <label type="navire">
+                     <name>Goéland III</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>dragueur auxiliaire<date from="1915" to="1919"/></desc>
+               </item>
+               <item xml:id="Provence">
+                  <label type="navire">
+                     <name>Provence II</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>croiseur auxiliaire<date from="1914" to="1916"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date notAfter="1914">Avant 1914</date> Paquebot «Provence» de la Compagnie générale transatlantique</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-04-25">1915 (avril)</date> Participe au débarquement dans les <placeName ref="#Dardanelles">Dardanelles</placeName> et au bombardement des côtes</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-02-16">26 février 1916</date> Torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Égée alors qu'il transportait des troupes.</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="U_35">
+                  <label type="navire">
+                     <name>Unterseeboot 35</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>sous-marins allemand type U-31<date from="1914" to="1918"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date from="1916-01" to="1916-10">1916 (janvier à octobre)</date> Coule 52 navires alliés, ce qui reste le tableau de chasse le plus important de la première guerre.</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Turquoise">
+                  <label type="navire">
+                     <name>Turquoise</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>sous-marin de type Émeraude<date from="1910" to="1915"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1915">1915</date> Stationnement aux <placeName ref="#Dardanelles">Dardanelles</placeName> pour le blocus du détroit</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-10-30">1915 (octobre)</date> Capturé par des filets turcs devant Nagara, l'équipage est contraint de se rendre</p>
+                     </event>
+                     <event>
+                        <p><date when="1919-11-12">1919 (novembre)</date> Restitué et condamné par la marine française</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Charlemagne">
+                  <label type="navire">
+                     <name>Charlemagne</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>cuirassé type Charlemagne<date from="1897" to="1920"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date from="1914-11" to="1915-04">1914 (novembre) — 1915 (avril)</date> Envoyé aux <placeName ref="#Dardanelles">Dardanelles</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1915-03">1915 (mars)</date> Affecté au bombardement des côtes</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-04-15">1916 (avril)</date> Division d'Orient à <placeName ref="#Salonique">Salonique</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1917-11-01">1917 (novembre)</date> Envoyé à <placeName ref="#Toulon">Toulon</placeName> pour être désarmé</p>
+                     </event>
+                  </listEvent>
+                  <note type="autre">
+                     <list type="sister-ship">
+                        <item>Gaulois<date from="1898" to="1916"/></item>
+                        <item>Saint-Louis<date from="1898" to="1920"/></item>
+                     </list>
+                  </note>
+               </item>
+               <item xml:id="Dupleix">
+                  <label type="navire">
+                     <name>Dupleix</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>croiseur cuirassé type Dupleix<date from="1903" to="1919"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1915">1915</date> Transport de troupes à <placeName ref="#Canal_Suez">Suez</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1915-05">1915 (mai)</date> Participe au bombardement de Boudrum</p>
+                     </event>
+                     <event>
+                        <p><date when="1917">1917</date> Protection du <placeName ref="#Canal_Suez">canal de Suez</placeName></p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Hussard">
+                  <label type="navire">
+                     <name>Hussard</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>contre-torpilleur de 450t type Spahi<date from="1911" to="1922"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1913">1913</date> Torpilleur d'escadre, stationné en mer Adriatique</p>
+                     </event>
+                     <event>
+                        <p><date when="1916">1916</date> Envoyé en mer Égée</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Spahis">
+                  <label type="navire">
+                     <name>Spahis</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>contre-torpilleur de 450t type Spahi<date from="1910" to="1927"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1913">1913</date> Torpilleur d'escadre, stationnement en mer Adriatique</p>
+                     </event>
+                     <event>
+                        <p><date when="1916">1916</date> Envoyé en mer Égée puis affecté à la défense mobile de Tunisie</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Askold">
+                  <label type="navire">
+                     <name>Askold</name>
+                     <addName>l'</addName>
+                  </label>
+                  <desc>croiseur protégé, (marine impériale russe)<date from="1902" to="1918"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date when="1914">1914</date> Affecté à la recherche de l'escadre allemande dans le Pacifique sud</p>
+                     </event>
+                     <event>
+                        <p><date when="1914">1914</date> Transféré en méditerranée</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-02-19">1915 (février)</date> Participe à la bataille des <placeName ref="#Dardanelles">Dardanelles</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1915-04-25">1915 (avril)</date> Soutien lors du débarquement de Gallipoli</p>
+                     </event>
+                     <event>
+                        <p><date when="1916">1916</date> Subit des réparations à Toulon</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-09-01">1916 (septembre)</date> Acte de sabotage à bord du navire</p>
+                     </event>
+                     <event>
+                        <p><date when="1917">1917</date> Intégré dans l'armée blanche pour combattre les bolchéviks, il est capturé en décembre 1917</p>
+                     </event>
+                     <event>
+                        <p><date when="1918-07-14">1918 (juillet)</date> Les troupes anglaises s'emparent du croiseur qui est rebaptisé HMS Glory IV par la Royal Navy</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Shamrock_II">
+                  <label type="navire">
+                     <name>Shamrock II</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>patrouilleur auxiliaire<date from="1915" to="1919"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date notAfter="1915">Avant 1915</date> Chalutier</p>
+                     </event>
+                     <event>
+                        <p><date from="1915-02-07" to="1919-03-08">1915 (février) — 1919 (mars)</date> Réquisitionné à La Rochelle puis envoyé en mer Ionienne</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Lutetia">
+                  <label type="navire">
+                     <name>Lutétia</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>croiseur auxiliaire<date from="1915" to="1917"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date notAfter="1915">Avant 1915</date> Paquebot sud Atlantique</p>
+                     </event>
+                     <event>
+                        <p><date when="1915-03-19">1915 (mars)</date> Réquisitionné</p>
+                     </event>
+                     <event>
+                        <p><date when="1916-04-10">1916 (avril)</date> Transport des troupes russes à <placeName ref="#Salonique">Salonique</placeName></p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Aviatik">
+                  <label type="entree">
+                     <name>Aviatik</name>
+                  </label>
+                  <desc>biplan allemand</desc>
+                  <listEvent>
+                     <event>
+                        <p>Aviatik B1 : Biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p>
+                     </event>
+                     <event>
+                        <p>Aviatik B2 : Proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Lebel">
+                  <label type="entree">
+                     <name>Lebel</name>
+                  </label>
+                  <desc>fusil</desc>
+                  <listEvent>
+                     <event>
+                        <p>Du nom du Colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point.</p>
+                     </event>
+                     <event>
+                        <p>Fusil à culasse verrouillée d'un calibre de 8mm et d'un poids d'environ 4,200kg. Il peut être équipé d'une baïonnette.</p>
+                     </event>
+                  </listEvent>
+               </item>
+               <item xml:id="Memphis">
+                  <label type="navire">
+                     <name>Memphis</name>
+                     <addName>le</addName>
+                  </label>
+                  <desc>transport auxilliaire<date from="1915" to="1916"/></desc>
+                  <listEvent>
+                     <event>
+                        <p><date notAfter="1915">Avant 1915</date> Paquebot Byzantin, racheté en 1895 par la compagnie des Messageries Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p>
+                     </event>
+                     <event>
+                        <p><date when="1915">1915</date> Réquisitionné</p>
+                     </event>
+                     <event>
+                        <p><date when="1916">1916</date> affecté au transport des troupes serbes de Durazzo à <placeName ref="#Corfou">Corfou</placeName></p>
+                     </event>
+                     <event>
+                        <p><date when="1916-02-16">1916 (février)</date> Saute sur une mine et échoue près de Durazzo</p>
+                     </event>
+                  </listEvent>
+               </item>
+            </list>
+            <listPlace xml:id="place">
+               <place xml:id="Toulon">
+                  <placeName>Toulon</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Var</district>
+                     <geo>43.1166667, 5.933333333333334</geo>
+                  </location>
+               </place>
+               <place xml:id="Var">
+                  <placeName>Var</placeName>
+                  <location>
+                     <district type="region">Provence-Alpes-Côte-d'Azur</district>
+                  </location>
+               </place>
+               <place xml:id="Tamaris">
+                  <placeName>Tamaris</placeName>
+                  <location>
+                     <district type="departement">Var</district>
+                     <district type="commune">comm. La Seyne-sur-mer</district>
+                  </location>
+               </place>
+               <place xml:id="Bulgarie">
+                  <placeName>Bulgarie</placeName>
+               </place>
+               <place xml:id="Autriche_Hongrie">
+                  <placeName>Autriche-Hongrie</placeName>
+               </place>
+               <place xml:id="Dardanelles">
+                  <placeName>Dardanelles (détroit des)</placeName>
+                  <desc>Détroit reliant la mer Égée à la mer de Marmara et permettant un accès à la mer Noire par le Bosphore.</desc>
+                  <location>
+                     <country>Turquie</country>
+                  </location>
+                  <event>
+                     <p>Entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des Dardanelles devient un enjeux stratégique pour les deux camps. Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée à la mer Noire devait permettre d'assurer une liaison entre la Russie et les forces franco-britanniques.</p>
+                  </event>
+               </place>
+               <place xml:id="Sasoge">
+                  <placeName>Hameau de Sasoge</placeName>
+                  <location>
+                     <district type="département">Côte-d'Or</district>
+                     <district type="arrondissement">arr. de Beaune</district>
+                     <district type="ville">Foissy</district>
+                     <geo>47.122125, 4.528813</geo>
+                  </location>
+               </place>
+               <place xml:id="Arnay_le_duc">
+                  <placeName>Arnay-le-Duc</placeName>
+                  <location>
+                     <district type="département">Côte-d'Or</district>
+                     <district type="arrondissement">arr. de Beaune</district>
+                  </location>
+               </place>
+               <place xml:id="Bourget">
+                  <placeName>Le Bourget</placeName>
+                  <location>
+                     <district type="département">Seine-Saint-Denis</district>
+                     <district type="arrondissement">arr. de Bobigny</district>
+                  </location>
+               </place>
+               <place xml:id="St-Germain">
+                  <placeName>Saint-Germain-en-Laye</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Yvelines</district>
+                  </location>
+               </place>
+               <place xml:id="Bonne_Menoge">
+                  <placeName>Bonne-sur-Menoge</placeName>
+                  <location>
+                     <district type="departement">Haute-Savoie</district>
+                     <district type="arrondissement">arr. Saint-Julien-en-Genevois</district>
+                  </location>
+               </place>
+               <place xml:id="Melun">
+                  <placeName>Melun</placeName>
+                  <!-- à propose du frère d'Armand, 193-198 -->
+                  <location>
+                     <district type="departement">ch.-l. dép. Seine-et-Marne</district>
+                  </location>
+               </place>
+               <place xml:id="St-Mandrier">
+                  <placeName>Saint-Mandrier-sur-Mer</placeName>
+                  <location>
+                     <district type="departement">Var</district>
+                     <district type="arrondissement">arr. Toulon</district>
+                  </location>
+               </place>
+               <place xml:id="Paris">
+                  <placeName>Paris</placeName>
+                  <!-- Adresse par Paris  cartes 193-->
+                  <location>
+                     <district type="departement">ch.-l.dép. Paris</district>
+                  </location>
+               </place>
+               <place xml:id="Lorient">
+                  <placeName>Lorient</placeName>
+                  <!-- agraffe à l'inscription maritime de carte 193 -->
+                  <location>
+                     <district type="departement">ch.-l. dép. Morbihan</district>
+                  </location>
+               </place>
+               <place xml:id="Moudros">
+                  <placeName>Moudros</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Septentrionale</district>
+                     <!-- région -->
+                     <district type="district">dist. Lemnos</district>
+                     <!-- district régional -->
+                     <district type="deme">Lemnos</district>
+                     <!-- communauté -->
+                     <geo>39.8747222, 25.270833333333332</geo>
+                  </location>
+                  <event>
+                     <p>Le <date when="1918-10-30">30 octobre 1918</date>, l'empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
+                  </event>
+               </place>
+               <place xml:id="Imbros">
+                  <placeName>Imbros</placeName>
+                  <placeName type="today">Gökçeada</placeName>
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district>
+                     <!-- région -->
+                     <district type="province">prov. Çanakkale</district>
+                     <!-- district régional -->
+                     <district type="district">dist. Gökçeada</district>
+                     <!-- communauté -->
+                     <geo>40.1608, 25.8444</geo>
+                  </location>
+               </place>
+               <place xml:id="Golf_Saros">
+                  <placeName>Golf de Saros</placeName>
+                  <desc>Formé par la péninsule de <placeName ref="#Gallipoli">Gallipoli</placeName> au sud et par la côte de la province d'Edirne au nord. </desc>
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district>
+                  </location>
+               </place>
+               <place xml:id="Metelin">
+                  <placeName type="renvoi" corresp="#Mytilene">Mételin</placeName>
+               </place>
+               <place xml:id="Mytilene">
+                  <placeName>Mytilène</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Egée-Septentrionale</district>
+                     <!-- région -->
+                     <district type="district">dist. Lesbos</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Lesbos</district>
+                     <!-- communauté -->
+                     <geo>39.11, 26.554722222222225</geo>
+                  </location>
+               </place>
+               <place xml:id="Lemnos">
+                  <placeName>Lemnos</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Septentrionale</district>
+                     <!-- région -->
+                     <district type="deme">dème de Lemnos</district>
+                     <!-- district régional -->
+                  </location>
+               </place>
+               <place xml:id="Gallipoli">
+                  <placeName type="renvoi" corresp="#Canakkale">Gallipoli</placeName>
+               </place>
+               <place xml:id="Canakkale">
+                  <placeName>Çanakkale</placeName>
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district>
+                     <!-- région -->
+                     <district type="province">prov. Çanakkale</district>
+                     <!-- district régional -->
+                     <district type="district">dist. Marmara</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+               <place xml:id="Tenedos">
+                  <placeName>Ténédos</placeName>
+                  <location>
+                     <country>Turquie</country>
+                     <district type="region">Marmara</district>
+                     <!-- région -->
+                     <district type="province">prov. Çanakkale</district>
+                     <!-- district régional -->
+                     <district type="district">dist. Bozcaada</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+               <place xml:id="Mandamados">
+                  <placeName>Mandamados</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Septentrionale</district>
+                     <!-- région -->
+                     <district type="district">dist. Lesbos</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Lesbos</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+               <place xml:id="Port_Iero">
+                  <placeName>Port Iéro</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Septentrionale</district>
+                     <!-- région -->
+                     <district type="district">dist. Lesbos</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Lesbos</district>
+                     <!-- communauté -->
+                     <geo>39.0883333, 26.48611111111111</geo>
+                  </location>
+               </place>
+               <place xml:id="Roumanie">
+                  <placeName>Roumanie</placeName>
+                  <!-- Bulgarie référence à l'entrée en guerre de ces pays lettre 173-176 -->
+                  <event>
+                     <p>Le <date when="1916-08-16">17 août 1916</date> un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".</p>
+                  </event>
+               </place>
+               <place xml:id="Grece">
+                  <placeName>Grèce</placeName>
+               </place>
+               <place xml:id="Salonique">
+                  <placeName>Salonique</placeName>
+                  <placeName type="today">Thessalonique</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Macédoine-centrale</district>
+                     <!-- région -->
+                     <district type="district">dist. Thessalonique</district>
+                     <geo>40.6436111, 22.930833333333336</geo>
+                     <!-- district régional -->
+                  </location>
+                  <event>
+                     <p>Durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles.</p>
+                     <p>Le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés,</p>
+                  </event>
+               </place>
+               <place xml:id="Sanary">
+                  <placeName>Sanary-sur-Mer</placeName>
+                  <location>
+                     <district type="departement">Var</district>
+                     <district type="arrondissement">arr. Toulon</district>
+                  </location>
+               </place>
+               <place xml:id="Marmara">
+                  <placeName>Mer de Marmara</placeName>
+                  <desc>Mer reliant la mer Noire par le Bosphore et la mer Égée par le détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>. </desc>
+                  <location>
+                     <country>Turquie</country>
+                  </location>
+               </place>
+               <place xml:id="Canal_Suez">
+                  <placeName>Suez (canal de)</placeName>
+                  <desc>Canal reliant la mer Méditerranée à la mer Rouge</desc>
+                  <location>
+                     <country>Égypte</country>
+                  </location>
+                  <event>
+                     <p>Les forces de la triple alliance tenteront de prendre le contrôle du canal à deux reprises, en janvier - février 1915 puis en avril - août 1916.</p>
+                  </event>
+               </place>
+               <place xml:id="Beaune">
+                  <placeName>Beaune</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Côte-d'or</district>
+                  </location>
+               </place>
+               <place xml:id="Port_Said">
+                  <placeName>Port-Saïd</placeName>
+                  <desc>Ville portuaire au débouché du <placeName ref="#Canal_Suez">canal de Suez</placeName></desc>
+                  <location>
+                     <country>Égypte</country>
+                     <district type="gouvernorat">gouv. Port-Saïd</district>
+                  </location>
+               </place>
+               <place xml:id="Bessarabie">
+                  <placeName>Bessarabie</placeName>
+                  <placeName type="today">région répartie entre la république de Moldavie et l'Ukraine</placeName>
+                  <event>
+                     <p>Ancienne division administrative de l'Empire russe comprise entre la rivière Pruth, les fleuves Dniestr et Danube et la mer Noire. Suite à la révolution russe de novembre 1917, la Bessarabie proclame son indépendance. L'armée roumaine assurera sa défense.</p>
+                  </event>
+               </place>
+               <place xml:id="Serbie">
+                  <placeName>Serbie</placeName>
+                  <event>
+                     <p>Pays allié à l'Empire russe</p>
+                  </event>
+               </place>
+               <place xml:id="Zante">
+                  <placeName>Zante</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Îles Ioniennes</district>
+                     <!-- région -->
+                     <district type="district">dist. Zante</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Zante</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+               <place xml:id="Somme">
+                  <placeName>Somme</placeName>
+                  <location>
+                     <district type="region">Picardie</district>
+                  </location>
+                  <event>
+                     <p>Imaginée par Joffre dés 1915 et retardée à cause de l'attaque de Verdun par les Allemands, la première bataille de la Somme de déroula entre le 1er juillet 1916 et le 18 novembre de la même année. Sans être véritablement une victoire pour les alliés, elle coûta la vie à plus d'un million d'hommes (allemands, britanniques et français).</p>
+                  </event>
+               </place>
+               <place xml:id="Corinth">
+                  <placeName>Corinthe</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Péloponnèse</district>
+                     <!-- région -->
+                     <district type="district">dist. Corinthie</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Corinthe</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+               <place xml:id="Athenes">
+                  <placeName>Athènes</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Attique</district>
+                     <!-- région -->
+                     <district type="district">dist. Athènes-centre</district>
+                     <!-- district régional -->
+                  </location>
+               </place>
+               <place xml:id="Marseille">
+                  <placeName>Marseille</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Bouches-du-Rhône</district>
+                  </location>
+               </place>
+               <place xml:id="Corfou">
+                  <placeName>Corfou</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Îles Ioniennes</district>
+                     <!-- région -->
+                     <district type="district">dist. Corfou</district>
+                     <!-- district régional -->
+                     <geo>39.5980556, 19.852222222222224</geo>
+                  </location>
+               </place>
+               <place xml:id="Verdun">
+                  <placeName>Verdun</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Meuse</district>
+                  </location>
+               </place>
+               <place xml:id="Montpellier">
+                  <placeName>Montpellier</placeName>
+                  <location>
+                     <district type="departement">ch.-l. dép. Hérault</district>
+                  </location>
+               </place>
+               <place xml:id="Algerie">
+                  <placeName>Algérie</placeName>
+               </place>
+               <place xml:id="Mers_el_Kebir">
+                  <placeName>Mers el-Kébir</placeName>
+                  <location>
+                     <country>Algérie</country>
+                     <district type="region">Oranie</district>
+                     <district type="wilaya">wilaya d'Oran</district>
+                     <!-- département -->
+                  </location>
+               </place>
+               <place xml:id="Oran">
+                  <placeName>Oran</placeName>
+                  <location>
+                     <country>Algérie</country>
+                     <district type="region">Oranie</district>
+                     <district type="wilaya">wilaya d'Oran</district>
+                     <!-- département -->
+                  </location>
+               </place>
+               <place xml:id="Maroc">
+                  <placeName>Maroc</placeName>
+               </place>
+               <place xml:id="France">
+                  <placeName>France</placeName>
+               </place>
+               <place xml:id="Eubee">
+                  <placeName>Eubée</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Grèce-centrale</district>
+                     <!-- région -->
+                     <district type="district">dist. Eubée</district>
+                     <!-- district régional -->
+                  </location>
+               </place>
+               <place xml:id="Haute_Savoie">
+                  <placeName>Haute-Savoie</placeName>
+                  <location>
+                     <district type="region">Rhône-Alpes</district>
+                     <!-- région -->
+                  </location>
+               </place>
+               <place xml:id="Cote_Dor">
+                  <placeName>Côte-d'Or</placeName>
+                  <location>
+                     <district type="region">Bourgogne</district>
+                     <!-- région -->
+                  </location>
+               </place>
+               <place xml:id="Karystos">
+                  <placeName>Karystos</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Grèce-centrale</district>
+                     <!-- région -->
+                     <district type="district">dist. Eubée</district>
+                     <!-- district régional -->
+                  </location>
+               </place>
+               <place xml:id="Milos">
+                  <placeName>Milos</placeName>
+                  <location>
+                     <country>Grèce</country>
+                     <district type="peripherie">Égée-Méridionale</district>
+                     <!-- région -->
+                     <district type="district">dist. Milos</district>
+                     <!-- district régional -->
+                     <district type="deme">dème de Milos</district>
+                     <!-- communauté -->
+                  </location>
+               </place>
+            </listPlace>
+            <listPerson xml:id="person">
+               <person xml:id="Skoudoulis">
+                  <persName>
+                     <surname>Skoudoulis</surname><forename>Stephanos</forename>
+                  </persName>
+                  <state>
+                     <p>Premier ministre grec</p>
+                  </state>
+                  <birth when="1836"/>
+                  <death when="1928"/>
+               </person>
+               <person xml:id="Venizelos">
+                  <persName>
+                     <surname>Venizélos</surname><forename>Elefthérios</forename>
+                  </persName>
+                  <state>
+                     <p>Premier ministre grec</p>
+                  </state>
+                  <birth when="1864"/>
+                  <death when="1936"/>
+               </person>
+               <person xml:id="Gouraud">
+                  <persName>
+                     <surname>Gouraud</surname><forename>Henri</forename>
+                  </persName>
+                  <state>
+                     <p>Général</p>
+                  </state>
+                  <birth when="1867"/>
+                  <death when="1946"/>
+               </person>
+               <person xml:id="Ravenel">
+                  <persName>
+                     <surname>Ravenel</surname><forename>Léon</forename>
+                  </persName>
+                  <state>
+                     <p>Lieutenant de vaisseau</p>
+                  </state>
+                  <birth when="1867"/>
+                  <death>19..</death>
+                  <!-- todo -->
+               </person>
+               <person xml:id="Putnik">
+                  <persName>
+                     <surname>Putnik</surname><forename>Radomir</forename>
+                  </persName>
+                  <state>
+                     <p>Voïvode (Maréchal)</p>
+                  </state>
+                  <birth when="1847"/>
+                  <death when="1917"/>
+               </person>
+               <person xml:id="Horel_Louis">
+                  <persName>
+                     <surname>Horel</surname><forename>Louis</forename>
+                  </persName>
+                  <state>
+                     <p>Frère d'Armand Horel</p>
+                  </state>
+                  <birth when="1888"/>
+                  <death when="1918"/>
+               </person>
+               <person xml:id="Horel">
+                  <persName>
+                     <surname>Horel</surname><forename>Armand</forename>
+                  </persName>
+                  <state>
+                     <p>Quartier-maître canonnier</p>
+                  </state>
+                  <birth when="1889"/>
+                  <death when="1953"/>
+               </person>
+               <person xml:id="Comtesse_Forest">
+                  <persName ref="#Silve_Claude">
+                     <surname>La Forest Divonne</surname><forename>Philomène</forename><roleName>comtesse de</roleName>
+                  </persName>
+               </person>
+               <person xml:id="Silve_Claude">
+                  <persName>
+                     <surname>Silve</surname><forename>Claude</forename>
+                  </persName>
+                  <birth when="1887"/>
+                  <death when="1978"/>
+               </person>
+               <person xml:id="Le_Mire">
+                  <persName>
+                     <surname>Le Myre de Vilers</surname><forename>Charles</forename>
+                  </persName>
+                  <state>
+                     <p>Député</p>
+                  </state>
+                  <birth when="1833"/>
+                  <death when="1918"/>
+               </person>
+               <person xml:id="G_Locke">
+                  <persName>
+                     <surname>Locke</surname><forename>G.</forename>
+                  </persName>
+                  <state>
+                     <p>Avocat</p>
+                  </state>
+               </person>
+               <person xml:id="Sarrail">
+                  <persName>
+                     <surname>Sarrail</surname>
+                     <forename>Maurice</forename>
+                  </persName>
+                  <state>
+                     <p>Général</p>
+                  </state>
+                  <birth when="1856"/>
+                  <death when="1929"/>
+                  <listEvent>
+                     <event>
+                        <p>En août 1914, il prend les commandes de la III<hi rend="super">e</hi> armée suite au limogeage du général Ruffey.</p>
+                     </event>
+                     <event>
+                        <p>Critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915.</p>
+                     </event>
+                     <event>
+                        <p>En janvier 1916 il devient commandant en chef des forces françaises, britanniques et serbes de Macédoine. Il sera finalement remplacé par le général Guillaumat en décembre 1917.</p>
+                     </event>
+                  </listEvent>
+               </person>
+               <person xml:id="Kitchener">
+                  <persName>
+                     <surname>Kitchener</surname><forename>Horatio</forename>
+                  </persName>
+                  <state>
+                     <p>lord, field marshal</p>
+                  </state>
+                  <birth when="1850"/>
+                  <death when="1916"/>
+                  <listEvent>
+                     <event>
+                        <p>Ministre de la guerre en août 1914, il perçoit assez vite que la guerre sera longue. Il met en place l'armée britannique en la basant sur le volontariat et la faisant ainsi passer de cent cinquante mille à près de deux millions hommes en quelques mois.</p>
+                     </event>
+                     <event>
+                        <p>Il voit d'un mauvais œil la campagne de Dardanelles. En se rendant en Russie en juin 1916 avec le Hampshire, ce dernier heurte une mine et il disparaît en mer.</p>
+                     </event>
+                  </listEvent>
+               </person>
+               <person xml:id="Joffre">
+                  <persName>
+                     <surname>Joffre</surname><forename>Joseph</forename>
+                  </persName>
+                  <state>
+                     <p>maréchal de France</p>
+                  </state>
+                  <birth when="1852"/>
+                  <death when="1931"/>
+                  <listEvent>
+                     <event>
+                        <p>Il est nommé Généralissime et chef d'état major général en 1911.</p>
+                     </event>
+                     <event>
+                        <p>En décembre 1915 ses pouvoirs sont accrus et il récupère le commandement des fronts extérieurs.</p>
+                     </event>
+                     <event>
+                        <p>Ses offensives sont jugées trop coûteuses en hommes et ne permettant pas de prendre un avantage décisif. Il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France.</p>
+                     </event>
+                  </listEvent>
+               </person>
+               <person xml:id="Poincare">
+                  <persName>
+                     <surname>Poincaré</surname><forename>Raymond</forename>
+                  </persName>
+                  <state>
+                     <p>Président de la république française</p>
+                  </state>
+                  <birth when="1860"/>
+                  <death when="1934"/>
+               </person>
+               <person xml:id="Pierre_Serbie">
+                  <persName>
+                     <forename>Pierre Ier de Serbie</forename>
+                  </persName>
+                  <state>
+                     <p>Roi de Serbie</p>
+                  </state>
+                  <birth when="1844"/>
+                  <death when="1921"/>
+                  <listEvent>
+                     <event>
+                        <p>Saint-cyrien de la promotion Plevna <date from="1862" to="1864">(1862-1864)</date></p>
+                     </event>
+                     <event>
+                        <p>Engagé volontaire dans la légion étrangère en 1870 pour la défense de la France</p>
+                     </event>
+                     <event>
+                        <p>Monte sur le trône en 1903</p>
+                     </event>
+                     <event>
+                        <p>Malade en 1914, il se résout à transmettre la régence et le commandement militaire à son fils Alexandre Ier.</p>
+                     </event>
+                  </listEvent>
+               </person>
+               <person xml:id="Papadracos">
+                  <persName>
+                     <surname>Papadracos</surname><addName>M.</addName>
+                  </persName>
+                  <!--carte 097-->
+                  <state>
+                     <p>Chef d'armes</p>
+                  </state>
+               </person>
+               <person xml:id="MME_Gauffrey">
+                  <persName>
+                     <surname>Gauffrey</surname><addName>Mme.</addName>
+                  </persName>
+                  <state>
+                     <p>Fille de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                  </state>
+               </person>
+               <person xml:id="MR_Gauffrey">
+                  <persName>
+                     <surname>Gauffrey</surname><addName>M.</addName>
+                  </persName>
+                  <state>
+                     <p>Gendre de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                  </state>
+               </person>
+               <person xml:id="Bussiere">
+                  <persName>
+                     <surname>Bussière, les</surname>
+                  </persName>
+                  <state>
+                     <p>Proches de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName> et d'<persName ref="#Horel">Armand Horel</persName></p>
+                  </state>
+               </person>
+               <person xml:id="Gauthier">
+                  <persName>
+                     <surname>Gauthier, les</surname>
+                  </persName>
+                  <state>
+                     <p>Proches de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                  </state>
+               </person>
+               <person xml:id="Frederic_Guillaume">
+                  <persName>
+                     <forename>Frédéric-Guillaume de Prusse</forename>
+                  </persName>
+                  <state>
+                     <p>Kronprinz</p>
+                  </state>
+                  <birth when="1882"/>
+                  <death when="1951"/>
+                  <listEvent>
+                     <event>
+                        <p>Il Commande la V<hi rend="sup">e</hi> armée lors de la bataille de la Marne.</p>
+                     </event>
+                     <event>
+                        <p>En 1916 il mène les attaques contre Verdun.</p>
+                     </event>
+                     <event>
+                        <p>Comme son père, il abdique en novembre 1918.</p>
+                     </event>
+                  </listEvent>
+               </person>
+               <person xml:id="Constantin">
+                  <persName>
+                     <forename>Constantin I<hi rend="super">er</hi> de Grèce</forename>
+                  </persName>
+                  <state>
+                     <p>roi des Hellènes</p>
+                  </state>
+                  <birth when="1868"/>
+                  <death when="1923"/>
+               </person>
+               <person xml:id="Guillaume_II">
+                  <persName>
+                     <forename>Guillaume II</forename>
+                  </persName>
+                  <state>
+                     <p>empereur</p>
+                  </state>
+                  <birth when="1859"/>
+                  <death when="1941"/>
+               </person>
+            </listPerson>
+            <listBibl xml:id="bibl">
+               <bibl type="monographie" xml:id="Roche_flotte">
+                  <author><forename>Jean-Michel</forename><surname>Roche</surname></author>
+                  <title>Dictionnaire des bâtiments de la flotte de guerre française de Colbert à nos jours</title>
+                  <date when="2005">2005</date>
+                  <placeName>Toulon</placeName>
+               </bibl>
+               <bibl type="article" xml:id="Cochet_Orient">
+                  <author><forename>François</forename><surname>Cochet</surname></author>
+                  <title>L'armée d'Orient, des expériences combattantes loin de Verdun</title>
+                  <editor n="81">Cahiers de la Mediterranée</editor>
+                  <date when="2010">2010</date>
+                  <ref target="http://cdlm.revues.org/5498?lang=en"/>
+               </bibl>
+               <bibl type="article" xml:id="Andurain_Gouraud">
+                  <author><forename>Andurain</forename><nameLink>d'</nameLink><surname>Julie</surname></author>
+                  <title>Le général Gouraud, chef du corps expéditionnaire des Dardanelles en 1915</title>
+                  <editor n="258">Revue historique des armées</editor>
+                  <date when="2010">2010</date>
+                  <ref target="http://rha.revues.org/6921#text"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Bulgarie_centenaire">
+                  <title>La Bulgarie dans les collections de l'ECPAD</title>
+                  <editor>Mission centenaire</editor>
+                  <date when="2012">2012</date>
+                  <ref target="http://centenaire.org/fr/bulgarie/la-bulgarie-dans-les-collections-de-lecpad"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Roumanie_centenaire">
+                  <title>La Roumanie dans la Grande Guerre : des affrontements aux monuments</title>
+                  <!--<author><orgName>Ambassade de France en Roumanie</orgName></author>-->
+                  <editor>Mission centenaire</editor>
+                  <date when="2013">2013</date>
+                  <ref target="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Grece_centenaire">
+                  <title>La Grèce dans les collections de l'ECPAD</title>
+                  <editor>Mission centenaire</editor>
+                  <date when="2012">2012</date>
+                  <ref target="http://centenaire.org/fr/dans-le-monde/europe/grece/la-grece-dans-les-collections-de-lecpad"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Senat_Decker">
+                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>
+                  <editor>Sénat</editor>
+                  <ref target="http://www.senat.fr/evenement/archives/D48/risq.html"/>
+               </bibl>
+               <bibl type="dossier" xml:id="Front_orient_centenaire">
+                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>
+                  <author><forename>Max</forename><surname>Schiavon</surname></author>
+                  <editor>Mission centnaire</editor>
+                  <ref target="http://centenaire.org/fr/espace-scientifique/pays-belligerants/le-front-dorient-1915-1918#2"/>
+               </bibl>
+               <bibl type="monographie" xml:id="Schiavon_front">
+                  <title type="title">Le Front d'Orient</title><title type="subtitle">Du désastre des Dardanelles à la victoire finale <date from="1915" to="1918">1915-1918</date></title>
+                  <author><forename>Max</forename><surname>Schiavon</surname></author>
+                  <editor>Tallandier</editor>
+                  <placeName>Paris</placeName>
+                  <date when="2014">2014</date>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

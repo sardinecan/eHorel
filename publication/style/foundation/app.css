@@ -1,0 +1,159 @@
+.nav{
+    width: 100%;
+    /*position:relative !important;/\*position et z-index pour le menu responsive*\/*/
+    z-index: 1000 !important;
+    display: block;
+}
+
+.imgHeader{
+    width: 100%;
+    height: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+a.has-tip{
+    font-style: normal;
+    color: #0a0a0a;
+}
+
+footer{
+    padding: 20px;
+    /*padding-left:20px;
+    padding-right:20px;*/
+    background-color: rgb(68, 68, 68);
+}
+
+footer ul{
+    margin-left: 0;
+}
+
+footer img{
+    margin-right: 10px;
+    padding-top: 30px;
+    max-width: 175px;
+}
+.block_footer_img{
+    padding-left: 10px;
+    min-height: 140px;
+    background-color: white;
+
+}
+
+.block_footer{
+    padding-left: 10px;
+    min-height: 110px;
+    color: white;
+
+}
+
+.lien_footer{
+    color: white;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.larger{
+    width: 450px;
+}
+
+
+.persName{
+    font-variant: small-caps;
+}
+
+.index{
+    font-size: 12px;
+}
+
+.entree{
+    font-size: 16px !important;
+}
+
+a.entree{
+    color: black !important;
+}
+
+/*div.address{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}*/
+
+a.address{
+    color: black !important;
+}
+
+span.address{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#mapid{
+    height: 100%;
+    z-index: 1;
+}
+
+.full-width{
+    width: 100%;
+}
+
+header{
+    z-index: 100;
+}
+
+#tl{
+    height: 500px;
+    /*border: 1px solid #aaa;*/
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.timeline-event-bubble-time{ /*supprime les dates dans les event popup*/
+    display: none;
+}
+
+ul.content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+span.placeName{
+    font-style: italic;
+}
+
+.headNote{
+    background-color: rgb(68,68,68);
+    padding: 1rem;
+    color:white;
+    border-bottom: 2px solid rgb(208,208,208);
+}
+
+.headNote p{
+    margin-bottom:0;
+}
+
+.note {
+    padding: 1rem;
+    color: rgb(68,68,68);
+}
+
+li[id]:hover{
+    background-color: white;
+}
+
+li[id] li{
+    color: rgb(68, 68, 68);
+}
+
+.menuCarto{
+    border-bottom: 2px solid rgb(68, 68, 68);
+}
+.leaflet-popup-content span{
+    color: rgb(68,68,68);
+    font-weight: 700;
+    margin-bottom: .5em;
+    font-size: 18px;
+}
