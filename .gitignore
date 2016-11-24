@@ -1,0 +1,14 @@
+#Projet d'édition de la correspondance d'Armand Horel#
+
+################## Fichiers html et xml #################
+publication/*.html
+publication/*.xml
+
+################# fichiers créés par l'OS ##############
+
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
