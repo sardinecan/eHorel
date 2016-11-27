@@ -16,7 +16,10 @@
             <body>
                 <xsl:copy-of select="$header"/>
                 <xsl:copy-of select="$headerSlide"/>
-                <xsl:apply-templates select="tei:teiCorpus/tei:text/tei:front/tei:div"/>
+                <div class="row">
+                    <xsl:apply-templates select="tei:teiCorpus/tei:text/tei:front/tei:div"/>
+                    <xsl:apply-templates select="//tei:editorialDecl"/>
+                </div>
                 <xsl:copy-of select="$footer"/>
                 <xsl:copy-of select="$js"/>
             </body>
@@ -32,33 +35,31 @@
     </xsl:template>
     
     <xsl:template match="tei:teiCorpus/tei:text/tei:front/tei:div">
-        <div class="row border">
-            <div class="large-4 columns">
-                <h4>Liens annexes : </h4>
-                <xsl:for-each select="tei:div[@type='ressourcesExt']/tei:list/tei:item">
-                    <ul class="no-bullet">
-                        <li>
-                            <xsl:apply-templates select="./tei:list/tei:head"/>
-                            <ul class="no-bullet">
-                                <xsl:for-each select="./tei:list/tei:item">
-                                    <li><a href="{./tei:ref/@target}"><xsl:apply-templates select="./tei:ref"/></a></li>
-                                </xsl:for-each>
-                            </ul>
-                        </li>
-                    </ul>
+        <div class="large-4 columns">
+            <h4>Liens annexes : </h4>
+            <xsl:for-each select="tei:div[@type='ressourcesExt']/tei:list/tei:item">
+                <ul class="no-bullet">
+                    <li>
+                        <xsl:apply-templates select="./tei:list/tei:head"/>
+                        <ul class="no-bullet">
+                            <xsl:for-each select="./tei:list/tei:item">
+                                <li><xsl:apply-templates select="./tei:ref"/></li>
+                            </xsl:for-each>
+                        </ul>
+                    </li>
+                </ul>
+            </xsl:for-each>
+        </div>
+        <div class="large-8 columns"> 
+            <h1>Correspondance d'Armand Horel, un marin dans la campagne d'orient</h1>
+            <xsl:for-each select="./tei:div[not(@type)]">
+                <xsl:if test="tei:head">
+                    <h2 class="subheader"><xsl:apply-templates select="tei:head"/></h2>
+                </xsl:if>
+                <xsl:for-each select="tei:p">
+                    <p><xsl:apply-templates/></p>
                 </xsl:for-each>
-            </div>
-            <div class="large-8 columns"> 
-                <h1>Correspondance d'Armand Horel, un marin dans la campagne d'orient.</h1>
-                <xsl:for-each select="./tei:div[not(@type)]">
-                    <xsl:if test="tei:head">
-                        <h2 class="subheader"><xsl:apply-templates select="tei:head"/></h2>
-                    </xsl:if>
-                    <xsl:for-each select="tei:p">
-                        <p><xsl:apply-templates/></p>
-                    </xsl:for-each>
-                </xsl:for-each>
-            </div>
+            </xsl:for-each>
         </div>
     </xsl:template>
     
@@ -90,9 +91,21 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
+    <xsl:template match="tei:editorialDecl">
+        <div class="large-8 large-offset-4 columns">
+            <h3 class="subheader">Principes éditoriaux retenus</h3>
+            <h4 class="subheader">Normalisation</h4>
+            <p><xsl:apply-templates select="tei:normalization"/></p>
+            <h4 class="subheader">Ponctuation</h4>
+            <p><xsl:apply-templates select="tei:punctuation"/></p>
+            <h4 class="subheader">Césures</h4>
+            <p><xsl:apply-templates select="tei:hyphenation"/></p>
+            <h4 class="subheader">Corrections</h4>
+            <p><xsl:apply-templates select="tei:correction"/></p>
+        </div>
     </xsl:template>
+    
+    <xsl:template match="tei:ref[@type='extLink']"><a href="{@target}"><xsl:apply-templates/></a></xsl:template>
     
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                             INCLUDES

@@ -80,10 +80,18 @@
                   </interpGrp>
                </p>
             </interpretation>
-            <normalization><p>Les emplois des majuscules et de l'accentuation ont été normalisés, des traits d'unions ont été ajouté lorsqu'ils sont aujourd'hui admis et les termes accolés ont été séparés, sans que ces corrections soient identifiées par un balisage. Les abréviations ont été développées mais les formes abréviées ont été maintenues lors de l'encodage. Les doublons et les biffures de l'auteur ont été balisés mais ils ont été retirés de cette édition. Enfin, les ajouts ont été replacés à leur place mais leur positionnement à fait l'objet d'un balisage.</p></normalization>
-            <punctuation><p>La ponctuation de l'auteur est un élément important d'une correspondance. Elle ne doit pas être considérée comme « une simple ponctuation typographique », elle est d'une certaine façon le reflet de la pensée de l'auteur. La ponctuation d'Armand Horel a donc été maintenue, seules quelques oublis ont été rétablis pour facilité la lecture ; il s'agit essentiellement des points de fin de ligne ou de paragraphe. Ces ajouts ont été balisés au sein de l'édition TEI.</p></punctuation>
-            <hyphenation><p>Les sauts de ligne ont été balisés mais ils n'ont pas été maintenus dans cette édition. De même, les césures des mots en fin de ligne n'ont pas été restituées, mais elles ont été balisées.</p></hyphenation>
-            <correction><p>L'orthographe de l'auteur n'a pas été corrigée mais les termes fautifs sont suivis par la mention <hi rend="italic">(sic)</hi>.</p></correction>
+            <normalization>
+               <p>Les emplois des majuscules et de l'accentuation ont été normalisés, des traits d'unions ont été ajouté lorsqu'ils sont aujourd'hui admis et les termes accolés ont été séparés, sans que ces corrections soient identifiées par un balisage. Les abréviations ont été développées mais les formes abréviées ont été maintenues lors de l'encodage. Les doublons et les biffures de l'auteur ont été balisés mais ils ont été retirés de cette édition. Enfin, les ajouts ont été replacés à leur place mais leur positionnement à fait l'objet d'un balisage.</p>
+            </normalization>
+            <punctuation>
+               <p>La ponctuation de l'auteur est un élément important d'une correspondance. Elle ne doit pas être considérée comme « une simple ponctuation typographique », elle est d'une certaine façon le reflet de la pensée de l'auteur. La ponctuation d'Armand Horel a donc été maintenue, seules quelques oublis ont été rétablis pour facilité la lecture ; il s'agit essentiellement des points de fin de ligne ou de paragraphe. Ces ajouts ont été balisés au sein de l'édition TEI.</p>
+            </punctuation>
+            <hyphenation>
+               <p>Les sauts de ligne ont été balisés mais ils n'ont pas été maintenus dans cette édition. De même, les césures des mots en fin de ligne n'ont pas été restituées, mais elles ont été balisées.</p>
+            </hyphenation>
+            <correction>
+               <p>L'orthographe de l'auteur n'a pas été corrigée mais les termes fautifs sont suivis par la mention <hi rend="italic">(sic)</hi>.</p>
+            </correction>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -100,29 +108,27 @@
             </div>
             <div>
                <head>Origine de la correspondance</head>
-               <p>La correspondance d'<persName ref="#Horel">Armand Horel</persName> regroupe les cartes postales et lettres qu'il a envoyées à sa marraine de guerre, <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>, plus connue sous le nom de <persName ref="#Silve_Claude">Claude Silve</persName> ; écrivain et prix fémina 1935. Ce fonds est issu d'un don et est composé de cent cinquante-quatre cartes postales, huit lettres — dont une de Louis Horel, le frère d'Armand — et d'un programme de théâtre : « <foreign xml:lang="en">Achi Baba and the forty thieves</foreign> ». Il est conservée sous la côte F Δ 1854/20 par la Bibliothèque de documentation internationale contemporaine (BDIC). L'intégralité de ce fonds a été numérisé et il est disponible sous licence libre sur la bibliothèque numérique de la BDIC : l'Argonnaute.</p>
+               <p>La correspondance d'<persName ref="#Horel">Armand Horel</persName> regroupe les cartes postales et lettres qu'il a envoyées à sa marraine de guerre, <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>, plus connue sous le nom de <persName ref="#Silve_Claude">Claude Silve</persName> ; écrivain et prix fémina <date when="1935">1935</date>. Ce fonds est issu d'un don et est composé de cent cinquante-quatre cartes postales, huit lettres — dont une de <persName ref="#Horel_Louis">Louis Horel</persName>, le frère d'Armand — et d'un programme de théâtre : « <foreign xml:lang="en">Achi Baba and the forty thieves</foreign> ». Il est conservée sous la côte F Δ 1854/20 par <orgName>la Bibliothèque de documentation internationale contemporaine</orgName> (BDIC). L'intégralité de ce fonds a été numérisé et il est disponible sous licence libre sur la bibliothèque numérique de la BDIC : <ref type="extLink" target="http://argonnaute.u-paris10.fr/">l'Argonnaute</ref>.</p>
             </div>
             <div>
                <head>La correspondance d'Armand Horel</head>
-               <p>
-                  <persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né <date when="1889-09-03">le 3 septembre 1889</date> à <placeName>Caudan dans le Morbihan</placeName>. Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer, se savent ni lire ni écrire. Engagé volontaire dans la marine en <date when="1907">1907</date> alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName> au troisième dépôt des équipages de la Flotte comme apprenti canonnier. <date when="1908-08-12">Le 12 août 1908</date>, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. Il est reçu matelot de 2<hi rend="superscript">e</hi> classe canonnier breveté le <date when="1908-11-01">1<hi rend="superscript">er</hi> novembre de la même année</date>. Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="superscript">e</hi> classe, il est finalement affecté à différentes compagnies de gendarmerie maritime à partir d'avril 1913.</p>
-               <p>Lorsque la guerre éclate, <persName ref="#Horel">Armand Horel</persName> est réintégré dans les unités combattantes dès le <date when="1914-08-02">2 août 1914</date>. Jusqu'à sa démobilisation le <date when="1919-03-19">19 mars 1919</date>, il servira sur différents bâtiments de la Flotte française ; d'abord durant la campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.</p>
-               <p>À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, témoin du théâtre d'opérations du front d'Orient. À partir d'août 1915 et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie avec la comtesse de La Forest. Il y relate certains faits marquants du conflit, comme l'entrée en guerre de la <placeName ref="#Bulgarie">Bulgarie</placeName>, le développement de la guerre sous-marine ou l'épisode de grippe espagnole de 1918. Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré depuis <date when="1912">1912</date> pour "désertion à l'intérieur en temps de paix", que la Comtesse participera à faire libérer. Ce dernier, gracié en novembre 1916 afin de « pouvoir aller défendre son pays », sera incorporé dans le 1<hi rend="superscript">er</hi> bataillon d'infanterie légère d'Afrique. Il sera tué à l'ennemi devant <placeName>Bantigny</placeName> dans la Somme, le <date when="1918-04-05">5 avril 1918</date>.</p>
+               <p><persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né <date when="1889-09-03">le 3 septembre 1889</date> à <placeName>Caudan dans le Morbihan</placeName>. Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer, se savent ni lire ni écrire. Engagé volontaire dans la marine en <date when="1907">1907</date> alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName> au troisième dépôt des équipages de la Flotte comme apprenti canonnier. <date when="1908-08-12">Le 12 août 1908</date>, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. Il est reçu matelot de 2<hi rend="superscript">e</hi> classe canonnier breveté <date when="1908-11-01">le 1<hi rend="superscript">er</hi> novembre de la même année</date>. Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="superscript">e</hi> classe, il est finalement affecté à différentes compagnies de gendarmerie maritime à partir d'<date when="1913-04">avril 1913</date>.</p>
+               <p>Lorsque la guerre éclate, <persName ref="#Horel">Armand Horel</persName> est réintégré dans les unités combattantes <date when="1914-08-02">dès le 2 août 1914</date>. Jusqu'à sa démobilisation <date when="1919-03-19">le 19 mars 1919</date>, il servira sur différents bâtiments de la Flotte française ; d'abord durant la campagne des <placeName ref="#Dardanelles">Dardanelles</placeName>, puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.</p>
+               <p>À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, témoin du théâtre d'opérations du front d'Orient. <date when="1915-08">À partir d'août 1915</date>, et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie avec <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>. Il y relate certains faits marquants du conflit comme l'entrée en guerre de <placeName ref="#Bulgarie">la Bulgarie</placeName>, le développement de la guerre sous-marine ou l'épisode de grippe espagnole de <date when="1918">1918</date>. Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré <date when="1912">depuis 1912</date> pour « désertion à l'intérieur en temps de paix », que la comtesse participera à faire libérer. Ce dernier, gracié en <date when="1916">novembre 1916</date> afin de « pouvoir aller défendre son pays », sera incorporé dans le 1<hi rend="superscript">er</hi> bataillon d'infanterie légère d'Afrique. Il sera tué à l'ennemi devant <placeName>Bantigny</placeName> dans la Somme le <date when="1918-04-05">5 avril 1918</date>.</p>
                <p>Au-delà de cet ensemble épistolaire, ce fonds présente aussi une belle collection de cartes postales d'Orient dont certaines sont en couleur.</p>
             </div>
             <div>
                <head>L'édition électronique</head>
-               <p>Lors de la mise en place de ce projet d'édition, plusieurs fonds ont été présélectionnés afin de déterminer celui qui présenterait le plus d'intérêt pour notre entreprise. Les écrits d'Armand Horel ont été retenus pour plusieurs raisons. Tout d'abord parce que l'auteur a servi dans la marine française durant toute la campagne d'Orient, dont nous commémorons le centenaire cette année. Ensuite, parce que ce théâtre d'opération reste encore moins étudié que le front occidental ou russe. Enfin, concernant les aspects numériques de l'édition, ce fonds présentait un certain nombre d'enjeux ou de cas de figure qu'il était intéressant de traiter ; géolocalisation, multiplicité des supports d'écriture, lecture non linéaire ou encore correspondance lacunaire.</p>
-               <p>Cette édition présente une version normalisée du texte dans laquelle, l'orthographe a été corrigée et la ponctuation restituée. Les ajouts de l'auteur en marge ont été restitués dans le texte sans qu'il en soit fait mention. Les mentions d'adresse présentes sur les cartes postales ou les enveloppes ont été rassemblées en préambule des lettres concernées. Enfin l'intégralité du fonds ayant été numérisé et diffusé librement sur la bibliothèque numérique de la BDIC, chaque lettre ou carte est éditée aux côtés de son fac-similé.</p>
-               <p>L'encodage a été opéré de manière à ne perdre aucune information quant à la source du texte. La version normalisée que nous proposons aux lecteurs n'est que le résultat de l'application d'une feuille de style retenant certains choix éditoriaux. Les fichiers sources sont disponibles librement sur notre dépôt <ref type="ext_link" target="https://github.com/sardinecan/TEIcorrespondances_horel">github</ref>.</p>
-               <p>Une attention particulière a été accordée à l'indexation et aux points d'entrée dans le texte. Chaque correspondance a ainsi été géolocalisée afin d'offrir un double accès chrono-géographique. Les personnes, lieux et bâtiments de flotte ont été, dans la mesure du possible, identifiés et reliés à un index. Ces termes se présentent sous la forme de mots soulignés dans le texte, un clic sur ces références permet l'affichage des informations rattachées dans une info-bulle contenant aussi un lien renvoyant vers l'index.</p>
+               <p>Lors de la mise en place de ce projet, plusieurs fonds ont été présélectionnés afin de déterminer celui qui présenterait le plus d'intérêt pour notre entreprise. Les écrits d'<persName ref="#Horel">Armand Horel</persName> ont été retenus pour plusieurs raisons : tout d'abord parce que l'auteur a servi dans la marine française durant toute la campagne d'Orient, dont nous commémorons le centenaire cette année (2015) ; ensuite, parce que ce théâtre d'opération reste encore moins étudié que le front occidental ou russe ; enfin, concernant les aspects numériques de l'édition ce fonds présentait un certain nombre d'enjeux ou de cas de figure qu'il était intéressant de traiter : la géolocalisation, la multiplicité des supports d'écriture, etc.</p>
+               <p>Une attention particulière a été accordée à l'indexation et aux points d'entrée dans le texte. Chaque lettre a ainsi été géolocalisée afin d'offrir un double accès chrono-géographique. Les personnes, lieux et bâtiments de flotte ont été, dans la mesure du possible, identifiés et reliés à un index. Ces termes se présentent sous la forme de mots soulignés dans le texte, un clic sur ces références permet l'affichage des informations rattachées dans une info-bulle contenant aussi un lien renvoyant vers l'index.</p>
+               <p>L'ensemble des fichiers sources de cette édition sont disponibles librement sur notre dépôt <ref type="extLink" target="https://github.com/sardinecan/TEIcorrespondances_horel">github</ref>.</p>
             </div>
             <div type="ressourcesExt">
                <list>
                   <item>
                      <list>
                         <head>Armand Horel</head>
-                        <item><ref target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0#id:1479049212?center=1210.0452674897138,-2149.5925925925935&amp;zoom=5">Acte de naissance</ref></item>
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0#id:1479049212?center=1210.0452674897138,-2149.5925925925935&amp;zoom=5">Acte de naissance</ref></item>
                         <!-- table alphabétique : archives du morbihan, Lorient 1909 (page 28/72) Volume 1 numéro matricule 97 pour le registre matricule cote R2068 (1à500) page 169/773 -->
                         <item><ref target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ee3c563/daogrp/0/layout:table/idsearch:RECH_5c3d4b98b4e4cb3f25200e099a55fbcd#id:1534499178?center=988,-1493">Registre matricule</ref></item>
                      </list>
@@ -130,22 +136,22 @@
                   <item>
                      <list>
                         <head>La comtesse de La Forest</head>
-                        <item><ref target="http://mdr-archives.ariege.fr/mdr/index.php/docnumViewer/afficheDocnum/40/N/vue">Acte de naissance</ref></item>
+                        <item><ref type="extLink" target="http://mdr-archives.ariege.fr/mdr/index.php/docnumViewer/afficheDocnum/40/N/vue">Acte de naissance</ref></item>
                      </list>
                   </item>
                   <item>
                      <list>
                         <head>Louis Horel</head>
                         <!-- registre matricule : n°1047 année de classe 1908 archives morbihan Lorient cote R2054, 1001-1500, page 67/705 -->
-                        <item><ref target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=3286.3855490876335,-2182.1979306282437&amp;zoom=5">Acte de naissance</ref></item>
-                        <item><ref target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ed9c0d6/daogrp/0/layout:table/idsearch:RECH_6d6623a111026d6a110c490adaee7baa#id:414562807?center=1015,-1504">Registre matricule</ref></item>
-                        <item><ref target="http://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/m005239ee9fc8c0e/5242be4be00d9">Base des morts pour la France</ref></item>
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=3286.3855490876335,-2182.1979306282437&amp;zoom=5">Acte de naissance</ref></item>
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ed9c0d6/daogrp/0/layout:table/idsearch:RECH_6d6623a111026d6a110c490adaee7baa#id:414562807?center=1015,-1504">Registre matricule</ref></item>
+                        <item><ref type="extLink" target="http://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/m005239ee9fc8c0e/5242be4be00d9">Base des morts pour la France</ref></item>
                      </list>
                   </item>
                   <item>
                      <list>
                         <head>Bibliothèque numérique Argonnaute</head>
-                        <item><ref target="http://argonnaute.u-paris10.fr/resource/a011403267952LEa5xJ">Accédez à l'intégralité du fonds</ref></item>
+                        <item><ref type="extLink" target="http://argonnaute.u-paris10.fr/resource/a011403267952LEa5xJ">Accédez à l'intégralité du fonds</ref></item>
                      </list>
                   </item>
                </list>
@@ -278,7 +284,7 @@
                <opener><dateline><placeName ref="#Toulon">Toulon</placeName>
                      <date when="1915-08-08">le 8 août 1915</date></dateline>
                   <lb/><salute rend="alignCenter"><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
-               <p>Je profite que j'ai petit <lb/>moment devant moi pour <lb/>vous donner de mes nouvelles <lb/>que je suis arrivé en bonne <lb/>santé à <placeName ref="#Toulon">Toulon</placeName> et j'ai fait <lb/>un très bon voyage. Pour <lb/>le moment nous ne savons <lb/>encore rien de la désignation <lb/>je crois que c'est aux <placeName ref="#Dardanelles"><sic>Dardanelees</sic></placeName><ref type="note" target="#F_delta_1854_20_1_Toulon_8-08-1915_note1"/>
+               <p>Je profite que j'ai petit <lb/>moment devant moi pour <lb/>vous donner de mes nouvelles <lb/>que je suis arrivé en bonne <lb/>santé à <placeName ref="#Toulon">Toulon</placeName> et j'ai fait <lb/>un très bon voyage. Pour <lb/>le moment nous ne savons <lb/>encore rien de la désignation <lb/>je crois que c'est aux <placeName ref="#Dardanelles">Dardanelles</placeName><ref type="note" target="#F_delta_1854_20_1_Toulon_8-08-1915_note1"/>
                   <lb/>mais je ne peux pas vous le <lb/><choice>
                      <sic>sertifier</sic>
                   </choice> d'ailleurs je vous le <lb/>ferai quand je serai sûr<pc type="supplied">.</pc>
@@ -601,8 +607,11 @@
                   <lb/>que leurs femmes et enfants et domestiques ils ont tous <lb/>été <sic>arrêté</sic> le soir même que les <sic>aréoplanes</sic> boches sont venus <lb/>nous voir et le lendemain ils sont <sic>parti</sic> à bord du <name type="navire" ref="#Memphis"><sic>cargot</sic>
                      <lb/>des messageries <sic>maritime</sic> le Memphis</name> qui les a <add place="marginRight" rend="vertical">conduit en France.</add></p>
                <closer>
-                  <add place="postcard_1 marginTop" rend="reverse">Je suis en parfaite santé et souhaite que vous soyez de <lb/>même à l'arrivée de mes 2 cartes<pc type="supplied">.</pc></add> <add place="postcard_1 marginBottom" rend="reverse">Un petit ami qui ne vous oublie <lb/>pas<pc type="supplied">,</pc> <surplus reason="repeated"><persName ref="#Horel">A Horel</persName>.</surplus></add>
-                  <signed><add place="postcard_1 marginRight" rend="vertical"><persName ref="#Horel"><forename>A</forename> <surname>Horel</surname></persName></add></signed>
+                  <add place="postcard_1 marginTop" rend="reverse">Je suis en parfaite santé et souhaite que vous soyez de <lb/>même à l'arrivée de mes 2 cartes<pc type="supplied">.</pc></add>
+                  <add place="postcard_1 marginBottom" rend="reverse">Un petit ami qui ne vous oublie <lb/>pas<pc type="supplied">,</pc>
+                     <surplus reason="repeated"><persName ref="#Horel">A Horel</persName>.</surplus></add>
+                  <signed><add place="postcard_1 marginRight" rend="vertical"><persName ref="#Horel"><forename>A</forename>
+                           <surname>Horel</surname></persName></add></signed>
                </closer>
             </div>
          </body>
@@ -766,7 +775,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, cachet à date comportant les mentions : <stamp type="postmark" subtype="arrival"><unclear><placeName ref="#Sanary">Sanary</placeName></unclear> <date when="1916-02-15">15 2 16</date></stamp>.</p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, cachet à date comportant les mentions : <stamp type="postmark" subtype="arrival"><unclear><placeName ref="#Sanary">Sanary</placeName></unclear>
+                                 <date when="1916-02-15">15 2 16</date></stamp>.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -857,7 +867,8 @@
                      <lb/>
                      <addrLine>quartier maître canonnier à bord <lb/>du chalutier <name type="navire" ref="#Shamrock_II">Shamrock II</name></addrLine>
                      <addrLine>Division <lb/>des <placeName ref="#Dardanelles">Dardanelles</placeName> à <placeName ref="#Salonique">Salonique</placeName></addrLine>
-                  </address><stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <gap/></placeName> <date when="1916-02-15"><gap/> 15 2 16</date></stamp></p>
+                  </address><stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <gap/></placeName>
+                     <date when="1916-02-15"><gap/> 15 2 16</date></stamp></p>
             </div>
          </body>
       </text>
@@ -1026,7 +1037,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>3 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention :<stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine au centre ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary Var</placeName> 6 <gap/> <date when="1915-12-23">23-12 <gap/></date></stamp>. </p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention :<stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine au centre ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary Var</placeName> 6 <gap/>
+                                 <date when="1915-12-23">23-12 <gap/></date></stamp>. </p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -1142,7 +1154,8 @@
                         </choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine>
                      <addrLine><placeName ref="#Dardanelles">aux Dardanelles</placeName></addrLine>
                   </address>
-                  <stamp type="postmark"><placeName ref="#Sanary">Sanary Var</placeName>6 <gap/> <date when="1915-12-23">23-12 <lb/><gap/></date></stamp></p>
+                  <stamp type="postmark"><placeName ref="#Sanary">Sanary Var</placeName>6 <gap/>
+                     <date when="1915-12-23">23-12 <lb/><gap/></date></stamp></p>
             </div>
          </body>
          <back>
@@ -1195,7 +1208,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les deux cachets suivants : 1-2) au recto, cachets à date circulaires et à l'encre noire comportant les mentions : <stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName> <date when="1916-04-10">10-4 16</date></stamp></p>
+                           <p>L'enveloppe présente les deux cachets suivants : 1-2) au recto, cachets à date circulaires et à l'encre noire comportant les mentions : <stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName>
+                                 <date when="1916-04-10">10-4 16</date></stamp></p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -1278,7 +1292,8 @@
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
-                  </address><stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName> <date when="1916-04-10">10-4 16</date></stamp></p>
+                  </address><stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName>
+                     <date when="1916-04-10">10-4 16</date></stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_030"/>
                <p>Envoi de <address>
                      <persName ref="#Horel" type="sender"><choice>
@@ -1343,7 +1358,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention :<stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp>, et la représentation d'une ancre marine ; 2) au verso, cachet à date circulaire comportant les mentions :<stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/> <date when="1916-03-23">23-3 <supplied>16</supplied></date></stamp>.</p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention :<stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp>, et la représentation d'une ancre marine ; 2) au verso, cachet à date circulaire comportant les mentions :<stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/>
+                                 <date when="1916-03-23">23-3 <supplied>16</supplied></date></stamp>.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -1398,7 +1414,7 @@
                <opener><dateline>Bord en mer <placeName ref="#Salonique">Salonique</placeName>
                      <date when="1916-03-10">le 10 Mars 1916</date></dateline>
                   <lb/><salute rend="alignCenter"><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
-               <p>N'ayant toujours aucune nouvelle de vous je <del rend="overline">vous</del> 
+               <p>N'ayant toujours aucune nouvelle de vous je <del rend="overline">vous</del>
                   <lb/><add place="inline">m'</add>empresse de vous en envoyer des miennes je suis <lb/>toujours en parfaite santé et désire qu'à l'arrivée <lb/>de mes 2 cartes que vous en êtes de même ainsi <lb/>que votre fille et petite fille. Comme nouvelle <lb/>de guerre cette fois pas grand chose nous <lb/>avons <add place="above">eu</add> une petite visite de 3 <sic>aréoplanes</sic>
                   <sic>boche</sic>
                   <lb/>mais une visite assez lointaine car nos <lb/>soldats qui se trouvent au camp retranché <lb/>de <placeName ref="#Salonique">Salonique</placeName> leur ont fichu la chasse<pc type="supplied">.</pc>
@@ -1455,7 +1471,8 @@
                            <expan>quartier maître</expan>
                         </choice> cannonier à bord du chalutier <name type="navire" ref="#Shamrock_II">Shamrock II</name></addrLine>
                      <addrLine>Division des <placeName ref="#Dardanelles">Dardanelles</placeName> à <placeName ref="#Salonique">Salonique</placeName></addrLine>
-               </address><stamp type="postmark"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/> <date when="1916-03-23">23-3 <supplied>16</supplied></date></stamp></p>
+                  </address><stamp type="postmark"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/>
+                     <date when="1916-03-23">23-3 <supplied>16</supplied></date></stamp></p>
             </div>
          </body>
          <back>
@@ -1667,7 +1684,7 @@
                <pb n="3" facs="#BDIC_FD_1854_20_1_131" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_132"/>
                <p><fw type="pageNum" rend="alignCenter">2</fw>battre en retraite en premier nos troupiers se <lb/>demandaient mais pourquoi bat-on en retraite <lb/>sans voir l'ennemi Les officiers leur ont répondu <lb/>mes petits amis c'est un ordre du <persName ref="#Joffre">généralissime <lb/>Joffre</persName><ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note1"/>. Pourtant j'en ai vu qui revenaient du front <lb/>et qui avaient été blessés ils me disaient qu'ils <lb/>étaient en trop grand nombre pour pouvoir résister <lb/>à leurs attaques et que c'était à ce sujet que nous <lb/>battions en retraite. Du renfort il nous en <lb/>arrive tous les jours par 15 ou 8 bateaux soit <lb/>anglais ou français et en plus un matériel <lb/>considérable. Cette victoire ne dépend plus que <lb/>des Russes car il doit venir 3 ou 400 000 <sic>mille</sic>
-                  <lb/>russes en <placeName ref="#Bessarabie"><sic>Bésarabie</sic></placeName>. Nous tenons toujours <placeName ref="#Salonique">la <lb/>ville de Salonique</placeName> à portée de nos canons en <lb/>cas ou elle voudrait nous trahir<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note2"/>. Rien autre <lb/>chose à vous dire, un petit ami <lb/>qui ne vous oublie pas</p>
+                  <lb/>russes en <sic><placeName ref="#Bessarabie">Bésarabie</placeName></sic>. Nous tenons toujours <placeName ref="#Salonique">la <lb/>ville de Salonique</placeName> à portée de nos canons en <lb/>cas ou elle voudrait nous trahir<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note2"/>. Rien autre <lb/>chose à vous dire, un petit ami <lb/>qui ne vous oublie pas</p>
                <closer>
                   <signed><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName></signed>
@@ -2118,7 +2135,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/> <date when="1916-03-24">24-3 16</date></stamp>.</p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/>
+                                 <date when="1916-03-24">24-3 16</date></stamp>.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -2232,7 +2250,8 @@
                            <expan>quartier maître</expan>
                         </choice> canonnier bord du <name type="navire" ref="#Shamrock_II">chalutier Shamrock II</name></addrLine>
                      <addrLine>Bureau central-naval <placeName ref="#Marseille">Marseille</placeName></addrLine>
-               </address><stamp type="postmark"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/> <date when="1916-03-24">24-3 16</date></stamp></p>
+                  </address><stamp type="postmark"><placeName ref="#Sanary">Sanary <supplied>Var</supplied></placeName> 5 <gap/>
+                     <date when="1916-03-24">24-3 16</date></stamp></p>
             </div>
          </body>
          <back>
@@ -3015,7 +3034,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="army">Marine française Service à la mer</stamp> et la représentation d'un ancre marine ; 2) au recto, cachet à date comportant les mentions :<stamp type="postmark" subtype="departure"><supplied><orgName>Postes-navales Medit. D.</orgName></supplied> <date cert="high" when="1916-04-22">22-4 16</date></stamp></p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre bleue, cachet de forme circulaire comportant la mention : <stamp type="army">Marine française Service à la mer</stamp> et la représentation d'un ancre marine ; 2) au recto, cachet à date comportant les mentions :<stamp type="postmark" subtype="departure"><supplied><orgName>Postes-navales Medit. D.</orgName></supplied>
+                                 <date cert="high" when="1916-04-22">22-4 16</date></stamp></p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -3100,7 +3120,8 @@
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address>
                   <stamp type="army">Marine française Service à la mer</stamp>
-                  <stamp type="postmark"><supplied><orgName>Postes-navales Medit. D.</orgName></supplied> <date cert="high" when="1916-04-22">22-4 16</date></stamp></p>
+                  <stamp type="postmark"><supplied><orgName>Postes-navales Medit. D.</orgName></supplied>
+                     <date cert="high" when="1916-04-22">22-4 16</date></stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_018"/>
                <p>Envoi de <address>
                      <persName ref="#Horel" type="sender">M<choice>
@@ -3292,7 +3313,9 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, un cachet à date illisible <stamp type="postmark"><gap reason="illegible" agent="rubbing"/></stamp>. </p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, un cachet à date illisible <stamp type="postmark">
+                                 <gap reason="illegible" agent="rubbing"/>
+                              </stamp>. </p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -3356,7 +3379,7 @@
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea"/></addrLine>
                   </address>
-                  <pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <persName ref="#Kitchener">Lord <sic>Kichner</sic></persName> qui prend le commandement des troupes <lb/>de l'armée d'Orient mais il sera en sous ordre du <persName ref="#Sarrail">général <lb/><sic>Sarail</sic></persName>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
+                  <pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <sic><persName ref="#Kitchener">Lord Kichner</persName></sic> qui prend le commandement des troupes <lb/>de l'armée d'Orient mais il sera en sous ordre du <sic><persName ref="#Sarrail">général <lb/>Sarail</persName></sic>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
                   <supplied reason="omitted">et</supplied> un <lb/>cache nez. J'ai tout ce qu'il faut pour pouvoir résister à <lb/>n'<sic>apporte</sic> quel hiver. Rien de nouveau à vous annoncer par <lb/>ailleurs. Que de vous souhaiter <del rend="overline">et</del> une bonne santé ainsi <lb/>que votre demoiselle. Car tant qu'à la mienne on ne peut <lb/>être mieux portant un petit ami qui ne vous <sic>oublieras</sic> jamais,</p>
                <closer>
                   <signed rend="vertical"><persName ref="#Horel"><forename>Armand</forename>
@@ -3392,7 +3415,9 @@
                         </choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine>
                      <addrLine>aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine>
                   </address>
-                  <stamp type="postmark"><gap reason="illegible" agent="rubbing"/></stamp></p>
+                  <stamp type="postmark">
+                     <gap reason="illegible" agent="rubbing"/>
+                  </stamp></p>
             </div>
          </body>
          <back>
@@ -3615,7 +3640,7 @@
                <pb n="3" facs="#BDIC_FD_1854_20_1_079" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_080"/>
                <p><fw type="pageNum" rend="alignLeft">(2)</fw>me dit qu'il attend avec impatience son engagement, comme vous <lb/>dites comtesse je serais très heureux de vaincre ces voleurs <lb/>de grands chemins car <sic>il</sic> ne sont que des misérables bandits<pc type="supplied">.</pc>
-                  <lb/>Je le pense aussi que nous serons victorieux, mais je serais <lb/>très curieux de savoir si cette guerre pourrait se terminer <lb/>cette année, ce serait une grande joie pour tout le monde. <lb/>Si seulement cela pourrait être vrai que <persName ref="#Guillaume_II">le kaiser</persName> devienne <lb/>fou et que son saligaud de fils <persName ref="#Frederic_Guillaume">le <sic>kromprinzt</sic></persName>
+                  <lb/>Je le pense aussi que nous serons victorieux, mais je serais <lb/>très curieux de savoir si cette guerre pourrait se terminer <lb/>cette année, ce serait une grande joie pour tout le monde. <lb/>Si seulement cela pourrait être vrai que <persName ref="#Guillaume_II">le kaiser</persName> devienne <lb/>fou et que son saligaud de fils <sic><persName ref="#Frederic_Guillaume">le kromprinzt</persName></sic>
                   <sic>serait</sic>
                   <lb/><sic>assassiner</sic> ce serait une grande joie pour nous tous <lb/>citoyens français. Anglais et tous les alliés. Tant qu'à <lb/>mes camarades et moi nous ne sommes nullement <lb/><sic>découragé</sic> nous avons juré de lutter jusqu'au <lb/>bout, nous y lutterons jusqu'à ce que nous ayons <lb/>la victoire finale et qu'il ne reste plus aucun de <lb/>ces sales boches <sic>debout</sic>. Rien autre chose à vous <lb/>dire pour le moment, meilleure santé à tous au <lb/>revoir un petit ami qui ne vous <sic>oublieras</sic> jamais<pc type="supplied">.</pc></p>
                <closer>
@@ -3668,7 +3693,8 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>Au recto de l'enveloppe on trouve un cachet à date circulaire comportant les mentions : <stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName> <date cert="high" when="1916-04-27">27-4 16</date></stamp></p>
+                           <p>Au recto de l'enveloppe on trouve un cachet à date circulaire comportant les mentions : <stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName>
+                                 <date cert="high" when="1916-04-27">27-4 16</date></stamp></p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -3756,7 +3782,8 @@
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
-               </address><stamp type="postmark"><orgName>Postes-navales Medit. D.</orgName> <date cert="high" when="1916-04-27">27-4 16</date></stamp></p>
+                  </address><stamp type="postmark"><orgName>Postes-navales Medit. D.</orgName>
+                     <date cert="high" when="1916-04-27">27-4 16</date></stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_012"/>
                <p>Envoi de <address>
                      <persName ref="#Horel" type="sender"><choice>
@@ -4737,7 +4764,9 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso <stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied> <gap/> <date when="1915-11-21" cert="medium">21-11 <gap/></date>.</stamp> ; 3) au verso, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine.</p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso <stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied>
+                                 <gap/>
+                                 <date when="1915-11-21" cert="medium">21-11 <gap/></date>.</stamp> ; 3) au verso, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -4835,7 +4864,9 @@
                            <abbr>qmtre</abbr>
                            <expan>quartier maître</expan>
                         </choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name> aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine>
-               </address><stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied> <gap/> <date when="1915-11-21" cert="medium">21-11 <gap/></date></stamp><stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp></p>
+                  </address><stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied>
+                     <gap/>
+                     <date when="1915-11-21" cert="medium">21-11 <gap/></date></stamp><stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp></p>
             </div>
          </body>
          <back>
@@ -5297,7 +5328,7 @@
             <div type="letter" ana="#anaVieDuMarin">
                <pb n="1" facs="#BDIC_FD_1854_20_1_177"/>
                <pb n="2" facs="#BDIC_FD_1854_20_1_178"/>
-               <opener><dateline><placeName ref="#Mytilene"><sic>Mithilène</sic></placeName><ref type="note" target="#F_delta_1854_20_1_Mytilene_06-10-1915_note1"/>
+               <opener><dateline><sic><placeName ref="#Mytilene">Mithilène</placeName></sic><ref type="note" target="#F_delta_1854_20_1_Mytilene_06-10-1915_note1"/>
                      <date when="1915-10-06">le 6 <choice>
                            <abbr>8<hi rend="superscript">bre</hi></abbr>
                            <expan>octobre</expan>
@@ -5514,7 +5545,9 @@
                      <objectDesc>
                         <supportDesc>
                            <p>2 cartes postales et une enveloppe. L'enveloppe présente une découpe circulaire au recto.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, un cachet circulaire, à l'encre noire, dont on devine qu'il contient les mentions : <stamp type="armee"><supplied><orgName>Marine Française Service à la Mer</orgName></supplied></stamp> et la représentation d'une ancre marine ; 2) toujours au recto, un autre cachet illisible, certainement un cachet à date <stamp type="postmark"><gap reason="illegible" agent="rubbing"/></stamp> ; 3) au verso, un autre cachet à date quasiment illisible, sur lequel on devenir tout de même la mention :<stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp>, la date est illisible.</p>
+                           <p>L'enveloppe présente les cachets suivants : 1) au recto, un cachet circulaire, à l'encre noire, dont on devine qu'il contient les mentions : <stamp type="armee"><supplied><orgName>Marine Française Service à la Mer</orgName></supplied></stamp> et la représentation d'une ancre marine ; 2) toujours au recto, un autre cachet illisible, certainement un cachet à date <stamp type="postmark">
+                                 <gap reason="illegible" agent="rubbing"/>
+                              </stamp> ; 3) au verso, un autre cachet à date quasiment illisible, sur lequel on devenir tout de même la mention :<stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp>, la date est illisible.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -5572,7 +5605,7 @@
                            <expan>septembre</expan>
                         </choice> 1915</date></dateline>
                   <lb/><persName ref="#Comtesse_Forest">Comtesse</persName></opener>
-               <p>Ayant un petit moment devant moi <lb/>je profite pour vous envoyer quelques <lb/>petites nouvelles de guerre. Nous <lb/>sommes <sic>appareiller</sic> pour <placeName ref="#Imbros">l'île <lb/>d'Imbros</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1"/> qui se trouve juste à <lb/><placeName ref="#Golf_Saros">l'embouchure du golfe de <sic>Sarros</sic></placeName>. <lb/>Figurez vous que <date when="1915-09-16">le 16 <choice>
+               <p>Ayant un petit moment devant moi <lb/>je profite pour vous envoyer quelques <lb/>petites nouvelles de guerre. Nous <lb/>sommes <sic>appareiller</sic> pour <placeName ref="#Imbros">l'île <lb/>d'Imbros</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1"/> qui se trouve juste à <lb/><sic><placeName ref="#Golf_Saros">l'embouchure du golfe de Sarros</placeName></sic>. <lb/>Figurez vous que <date when="1915-09-16">le 16 <choice>
                         <abbr>7<hi rend="superscript">bre</hi></abbr>
                         <expan>septembre</expan>
                      </choice></date> vers <lb/>7 <hi rend="superscript">1/2</hi> du matin tout en nous lavant <lb/>la figure qui est ce que nous aper<lb rend="hyphen" type="marked"/>çevons qui planait au dessus de <lb/>notre tête <pc type="supplied">?</pc> Un <sic>aréoplane</sic> boche il <lb/>a <sic>laisser</sic> tomber 3 bombes sur le <cb/><address>
@@ -5619,7 +5652,9 @@
                            </choice>-Menoge</placeName></addrLine>
                      <addrLine><placeName ref="#Haute_Savoie">Haute-Savoie</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_notea"/></addrLine>
-                  </address><stamp type="armee"><orgName>Marine Française, Service à la Mer</orgName></stamp><stamp type="postmark"><gap reason="illegible" agent="rubbing"/></stamp></p>
+                  </address><stamp type="armee"><orgName>Marine Française, Service à la Mer</orgName></stamp><stamp type="postmark">
+                     <gap reason="illegible" agent="rubbing"/>
+                  </stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_184"/>
                <p>Envoi de <address>
                      <persName ref="#Horel" type="sender"><choice>
@@ -5633,7 +5668,7 @@
                      <addrLine>à bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine>
                      <addrLine>aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine>
                      <addrLine><placeName ref="#Paris">Paris</placeName> Étranger</addrLine>
-               </address><stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp></p>
+                  </address><stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp></p>
             </div>
          </body>
          <back>
@@ -5747,7 +5782,7 @@
                         <abbr>M<hi rend="superscript">me</hi></abbr>
                         <expan>madame</expan>
                      </choice> Bussière</persName> rue Richepanse je me suis <lb/>bien amusé pendant ce petit séjour parmi eux. J'ai été <lb/>voir mes parents à <placeName ref="#Lorient">Lorient</placeName> j'y ai passé 5 jours je vous <lb/>prie de croire que je n'ai pas trouvé le temps long. <lb/>Par cette même occasion j'ai été voir <rs type="person" ref="#Horel_Louis">mon frère</rs> à <lb/><placeName ref="#Melun">Melun</placeName>
-                  <date when="1916-10-18">le mercredi 18 octobre</date> pour la dernière <lb/>fois car il doit sortir <date when="1916-11-04">aujourd'hui 4 novembre</date>. <lb/>à sa sortie il doit se rendre à <placeName ref="#Montpellier">Montpellier</placeName> où là <lb/>il sera dirigé sur <placeName ref="#Marseille">Marseille</placeName> pour prendre le paquebot <lb/>qui le mènera en <placeName ref="#Algerie">Algérie</placeName> à <placeName ref="#Mers_el_Kebir">Marsel Kébir</placeName> à 4 kil<lb rend="hyphen" type="marked"/>omètres d'<placeName ref="#Oran">Oran</placeName>. J'y <sic>est</sic> été plus de 100 fois car la <lb/>poudrière d'<placeName ref="#Oran">Oran</placeName> se trouve à <placeName ref="#Mers_el_Kebir"><sic>Marsel Kébir</sic></placeName>. Il est <lb/>parti là-bas pour finir les 5 mois et 22 jours de </p>
+                  <date when="1916-10-18">le mercredi 18 octobre</date> pour la dernière <lb/>fois car il doit sortir <date when="1916-11-04">aujourd'hui 4 novembre</date>. <lb/>à sa sortie il doit se rendre à <placeName ref="#Montpellier">Montpellier</placeName> où là <lb/>il sera dirigé sur <placeName ref="#Marseille">Marseille</placeName> pour prendre le paquebot <lb/>qui le mènera en <placeName ref="#Algerie">Algérie</placeName> à <placeName ref="#Mers_el_Kebir">Marsel Kébir</placeName> à 4 kil<lb rend="hyphen" type="marked"/>omètres d'<placeName ref="#Oran">Oran</placeName>. J'y <sic>est</sic> été plus de 100 fois car la <lb/>poudrière d'<placeName ref="#Oran">Oran</placeName> se trouve à <sic><placeName ref="#Mers_el_Kebir">Marsel Kébir</placeName></sic>. Il est <lb/>parti là-bas pour finir les 5 mois et 22 jours de </p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_003" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_004"/>
                <p><fw type="pageNum" rend="alignLeft">(2)</fw>service actif qui lui restait à faire. Après avoir terminé <lb/>ce <sic>lapt</sic> de temps je ne sais trop où il sera dirigé <lb/>peut être bien sur le front ou je crois plutôt qu'ils <lb/>l'enverront au <placeName ref="#Maroc">Maroc</placeName>. Enfin, je suis content qu'il en soit <lb/>sorti de cette maudite prison de <placeName ref="#Melun">Melun</placeName> car d’après <lb/>lui il en aura assez souffert principalement privation <lb/>de nourriture, pour moi je ne me plais plus guère à bord <lb/>de ce chalutier car la vie est bien trop dure nous sommes <lb/>complètement éreintés par la mer surtout dans les <lb/>parages où nous sommes en ce moment il n'y a jamais eu <lb/>un jour de beau temps du matin au soir il faut être <lb/>cramponné de manière à pouvoir ce tenir debout <lb/>on dira ce que l'on voudra mais ce n'est pas une <sic>excistence</sic>
@@ -5851,12 +5886,14 @@
                            </choice> de La Forêt</persName></abbr></dateline><salute>Madame et chère bienfaitrice</salute></opener>
                <p>Je vous <sic>écri</sic> ces quelques <lb/>mots pour vous faire savoir que <lb/>je ne suis pas bien loin de chez vous <lb/>et que bientôt si mon engagement <lb/>arrive je vais sûrement allez passer <lb/>le conseil de révision à <placeName ref="#Beaune">Beaune</placeName> avant <lb/>de me diriger sur mon bataillon qui <lb/>se trouve au <placeName ref="#Bourget">Bourget</placeName> 1<hi rend="superscript">er</hi> bataillon d'Afrique ; si vous aviez la bonté de <pb facs="#BDIC_FD_1854_20_3_006"/>m'accorder la permission de passer <lb/>chez vous pour vous dire bonjour <lb/>avant de partir au front ; je serais très <lb/>heureux de pouvoir vous remercier <lb/>moi même de ce que vous avez fait <lb/>pour moi ; et pour savoir comme <lb/>vous disiez à <rs type="person" ref="#Horel">mon frère</rs> ; que vous avez <lb/>fait votre possible pour que j'ailles <lb/>au 6<hi rend="superscript">ème</hi> tirailleurs ; je pourrai vous <lb/>expliquer ; pourquoi ; qu'il m'est <lb/>impossible de m'engager dans un <lb/>régiment régulier ; il nous faut pour <lb/>nous une citation et au moins 6 mois <lb/>au bataillon d'Afrique ; mais cette <lb/>fois j'ai fait une demande pour <pb/>la marine j'ai demandé cela pour être <lb/>avec <rs type="person" ref="#Horel">mon frère</rs> je ne crois pas que ce sera <lb/>accordé mais pour le bataillon je suis <lb/>certain cette fois : j'ai un avis favora<lb rend="hyphen"/>ble de mes chefs ; j'attends d'un <lb/>jour à l'autre que ça arrive nous <lb/>sommes une <abbr>30taine</abbr> ; alors vous <lb/>voyez Madame que je serais heureux <lb/>d'avoir un conseil de vous avant de <lb/>partir au front pour faire mon <lb/>devoir comme <rs type="person" ref="#Horel">mon frère</rs> l'a fait <lb/>jusqu'ici. Veuillez Madame <lb/>et chère bienfaitrice agréez et rece<lb rend="hyphen"/>voir mes plus sincères <sic>remerciments</sic></p>
                <closer>
-                  <signed><address>
+                  <signed>
+                     <address>
                         <persName ref="#Horel_Louis"><forename>Louis</forename>
                            <surname>Horel</surname></persName>
                         <addrLine>19<hi rend="superscript">ème</hi> section atelier <lb/>spécial <unclear>105</unclear>, </addrLine>
                         <addrLine>à <placeName ref="#Sasoge">Sasoge</placeName> par <placeName ref="#Arnay_le_duc">Arnay <lb/>le Duc</placeName>, <placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
-                     </address></signed>
+                     </address>
+                  </signed>
                </closer>
             </div>
          </body>

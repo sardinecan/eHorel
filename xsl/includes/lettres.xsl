@@ -234,7 +234,7 @@
     </xsl:template>
     
     <xsl:template match="tei:choice">
-        <xsl:apply-templates select="tei:expan | tei:corr | tei:reg"/>
+        <xsl:apply-templates select="tei:expan"/>
     </xsl:template>
     
     <!--<xsl:template match="tei:pb[@facs]">
@@ -617,7 +617,7 @@
         </ul>
     </xsl:template>
     
-    <xsl:template match="tei:text//tei:gap">
+    <!--<xsl:template match="tei:text//tei:gap">
         <xsl:choose>
             <xsl:when test="@reason='missing'">
                 <p>[...]</p>
@@ -633,8 +633,11 @@
                 </xsl:choose>
             </xsl:when>
         </xsl:choose>
-    </xsl:template>
-    
+    </xsl:template>-->
+    <xsl:template match="tei:sic"><xsl:apply-templates/><xsl:text> </xsl:text><span class="italic"><xsl:text>(sic)</xsl:text></span></xsl:template>
+    <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
+    <xsl:template match="tei:gap"><xsl:text>[...]</xsl:text></xsl:template>
+    <xsl:template match="tei:del"/>
     <xsl:template match="tei:surplus"/>
     
 </xsl:stylesheet>

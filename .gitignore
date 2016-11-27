@@ -1,9 +1,9 @@
 #Projet d'édition de la correspondance d'Armand Horel#
 
 ################## Fichiers html et xml #################
-publication/*.html
-publication/*.xml
-
+#publication/*.html
+#publication/*.xml
+publication/
 ################# fichiers créés par l'OS ##############
 
 .DS_Store
