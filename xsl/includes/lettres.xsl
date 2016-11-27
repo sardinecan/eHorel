@@ -77,50 +77,47 @@
                             </div>
                         </xsl:if>
                         <div class="tabs-panel" id="panel3">
-                            <div class="row">
-                                <div class="large-4 columns">
-                                    <ul class="no-bullet">
-                                        <li class="head">Contexte :</li>
-                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='sentBy']"/></li>
-                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/></li>
-                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:placeName"/></li>
-                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:date"/></li>
-                                    </ul>
-                                </div>
-                                <div class="large-4 columns">
-                                    <ul class="no-bullet">
-                                        <li class="head">Lettre précédente :</li>
-                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='sentBy']"/></li>
-                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='deliveredTo']"/></li>
-                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:placeName"/></li>
-                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:date"/></li>
-                                    </ul>
-                                </div>
-                                <div class="large-4 columns">
-                                    <ul class="no-bullet">
-                                        <li class="head">Lettre suivante :</li>
-                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='sentBy']"/></li>
-                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='deliveredTo']"/></li>
-                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:placeName"/></li>
-                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:date"/></li>
-                                    </ul>
-                                </div>
+                            <div class="large-4 columns">
+                                <ul class="no-bullet">
+                                    <li class="head">Contexte :</li>
+                                    <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='sentBy']"/></li>
+                                    <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/></li>
+                                    <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:placeName"/></li>
+                                    <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:date"/></li>
+                                    <li><span class="bold"><xsl:text>date d'arrivée : </xsl:text></span><xsl:if test=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:date"><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:placeName"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:date"/></xsl:if></li>
+                                </ul>
                             </div>
-                            <div class="row">
-                                <div class="large-4 columns">
-                                    <ul class="no-bullet">
-                                        <li class="head">Données matérielles :</li>
-                                        <li><span class="bold"><xsl:text>composition : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
-                                    </ul>
-                                </div>
-                                <div class="large-4 columns">
-                                    <ul class="no-bullet">
-                                        <li class="head">Conservation :</li>
-                                        <li><span class="bold"><xsl:text>lieu de conservation : </xsl:text></span><xsl:value-of select=".//tei:settlement"/><xsl:text>, </xsl:text><xsl:value-of select=".//tei:repository"/></li>
-                                        <li><span class="bold"><xsl:text>cote : </xsl:text></span><xsl:value-of select=".//tei:idno"/></li>
-                                        <li><span class="bold"><xsl:text>origine : </xsl:text></span><xsl:value-of select=".//tei:history"/></li>
-                                    </ul>
-                                </div>
+                            <div class="large-4 columns">
+                                <ul class="no-bullet">
+                                    <li class="head">Lettre précédente :</li>
+                                    <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='sentBy']"/></li>
+                                    <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='deliveredTo']"/></li>
+                                    <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:placeName"/></li>
+                                    <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:date"/></li>
+                                </ul>
+                            </div>
+                            <div class="large-4 columns">
+                                <ul class="no-bullet">
+                                    <li class="head">Lettre suivante :</li>
+                                    <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='sentBy']"/></li>
+                                    <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='deliveredTo']"/></li>
+                                    <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:placeName"/></li>
+                                    <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:date"/></li>
+                                </ul>
+                            </div>
+                            <div class="large-4 columns">
+                                <ul class="no-bullet">
+                                    <li class="head">Données matérielles :</li>
+                                    <li><span class="bold"><xsl:text>composition : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
+                                </ul>
+                            </div>
+                            <div class="large-4 columns">
+                                <ul class="no-bullet">
+                                    <li class="head">Conservation :</li>
+                                    <li><span class="bold"><xsl:text>lieu de conservation : </xsl:text></span><xsl:value-of select=".//tei:settlement"/><xsl:text>, </xsl:text><xsl:value-of select=".//tei:repository"/></li>
+                                    <li><span class="bold"><xsl:text>cote : </xsl:text></span><xsl:value-of select=".//tei:idno"/></li>
+                                    <li><span class="bold"><xsl:text>origine : </xsl:text></span><xsl:value-of select=".//tei:history"/></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

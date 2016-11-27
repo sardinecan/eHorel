@@ -11,7 +11,14 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:TEI[@xml:id]//tei:fileDesc">
+  
+  <xsl:template match="tei:supportDesc[ancestor::tei:TEI//tei:stamp]">
+    <supportDesc>
+      <p><xsl:value-of select="normalize-space(./tei:p)"/></p>
+      <p>L'enveloppe comporte les cachets suivants : <xsl:for-each select="ancestor::tei:TEI//tei:stamp"><xsl:copy-of select="."></xsl:copy-of></xsl:for-each></p>
+    </supportDesc>
+  </xsl:template>
+  <!--<xsl:template match="tei:TEI[@xml:id]//tei:fileDesc">
     <fileDesc>
       <titleStmt>
         <title><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::tei:TEI//tei:correspAction/tei:date"/></title>
@@ -63,7 +70,7 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template match="@default | @ident | @instant | @full | @part | @org | @sample | @anchored | @defective"/>
   
