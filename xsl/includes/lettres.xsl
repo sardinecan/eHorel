@@ -37,10 +37,7 @@
                             <div class="medium-12 large-8 columns">
                                 <!-- TODO adresse -->
                                 <xsl:apply-templates select=".//tei:div[@type='letter']"/>
-                                <xsl:apply-templates select=".//tei:seg[@type='closer']" mode="ordreLecture"/>
-                                <!-- TODO note pour les add type postscript -->
-                                <xsl:apply-templates select=".//tei:seg[@type='postscript']" mode="ordreLecture"/>
-                                <xsl:if test="not(.//tei:signed | .//tei:add[@type='signed'])">
+                                <xsl:if test="not(.//tei:signed)">
                                     <p class="text-right">
                                         <i>(non signé)</i>
                                     </p>
@@ -84,7 +81,8 @@
                                     <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/></li>
                                     <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:placeName"/></li>
                                     <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspAction/tei:date"/></li>
-                                    <li><span class="bold"><xsl:text>date d'arrivée : </xsl:text></span><xsl:if test=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:date"><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:placeName"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:date"/></xsl:if></li>
+                                    <xsl:if test=".//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='departure']/tei:date/@when"><li><span class="bold"><xsl:text>date d'envoi : </xsl:text></span><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:placeName"/><xsl:text> </xsl:text><xsl:value-of select="format-date(.//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='departure']/tei:date/@when,'le [D01] [Mn] [Y0001]', 'fr', (), ())"/></li></xsl:if>
+                                    <xsl:if test=".//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='arrival']/tei:date/@when"><li><span class="bold"><xsl:text>date d'arrivée : </xsl:text></span><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:placeName"/><xsl:text> </xsl:text><xsl:value-of select="format-date(.//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='arrival']/tei:date/@when,'le [D01] [Mn] [Y0001]', 'fr', (), ())"/></li></xsl:if>
                                 </ul>
                             </div>
                             <div class="large-4 columns">
@@ -121,7 +119,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ajouter xsl if note closer et / ou tei:back [@note] -->
                     <xsl:if test=".//tei:div[@type='note']">
                         <xsl:apply-templates select=".//tei:div[@type='note']"/>
                     </xsl:if>
@@ -207,12 +204,18 @@
             </xsl:when>
             <xsl:when test="tei:add">
                 <p class="text-right"><xsl:apply-templates select="tei:add/tei:persName"/></p>
+                <xsl:if test="tei:add/tei:address"><p class="text-left"><xsl:apply-templates select="tei:add/tei:address/tei:addrLine"/></p></xsl:if>
             </xsl:when>
             <xsl:otherwise>
                 <p class="text-right"><xsl:apply-templates/></p>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
+    <!-- RMQ si ajout d'une tab pour l'affichage philologique => TODO décommenter cette partie pour afficher les informations au survol. -->
+    <!--<xsl:template match="tei:add[not(@hand)]">
+        <span class="has-tip add" data-tooltip="true" aria-haspopup="true" data-disable-hover="false" tabindex="1" title="{@place} {@rend}"><xsl:apply-templates/></span>
+    </xsl:template>-->
     
     <xsl:template match="tei:div[@type='letter']//tei:forename">
         <xsl:variable name="upfirst"><xsl:value-of select="."/></xsl:variable>
@@ -223,15 +226,6 @@
         <xsl:value-of select="upper-case($up)"/>
     </xsl:template>
     
-    <xsl:template match="tei:seg[@type='closer']"/>
-    <xsl:template match="tei:seg[@type='closer']" mode="ordreLecture">
-        <p><xsl:apply-templates select="tei:add[not(@type='signed')]"/></p>
-        <xsl:if test="tei:add[@type='signed']">
-            <!-- TODO ajouter ce qui vient après la signature ex A horel "toujours la même adresse." -->
-            <p class="text-right"><xsl:apply-templates select="tei:add[@type='signed']/tei:persName"/></p>
-        </xsl:if>
-    </xsl:template>
-    
     <xsl:template match="tei:postscript[position()=1]">
         <p><xsl:text>[PS :] </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
@@ -239,25 +233,20 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
-    <xsl:template match="tei:seg[@type='postscript']"/>
-    <xsl:template match="tei:seg[@type='postscript']" mode="ordreLecture">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-    
     <xsl:template match="tei:choice">
         <xsl:apply-templates select="tei:expan | tei:corr | tei:reg"/>
     </xsl:template>
     
-    <xsl:template match="tei:pb[@facs]">
+    <!--<xsl:template match="tei:pb[@facs]">
         <xsl:for-each select=".">
             <xsl:variable name="facs" select="substring-after(@facs,'#')"/>
             <xsl:variable name="position"><xsl:number select="." from="tei:div[@type='letter']"/></xsl:variable>
             <xsl:choose>
-                <xsl:when test="$position gt '1' and //tei:graphic[@xml:id=$facs]/tei:desc"><hr width="25%" align="center"/><!-- TODO faire avec @ type postcardBreak --></xsl:when>
+                <xsl:when test="$position gt '1' and //tei:graphic[@xml:id=$facs]/tei:desc"><hr width="25%" align="center"/><!-\- TODO faire avec @ type postcardBreak -\-></xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
         </xsl:for-each>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:template match="tei:pb[@facs]" mode="affichage">
         <xsl:variable name="facs" select="substring-after(@facs,'#')"/>
@@ -645,5 +634,7 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="tei:surplus"/>
     
 </xsl:stylesheet>

@@ -85,7 +85,7 @@
     
     <xsl:template match="tei:hi">
         <xsl:choose>
-            <xsl:when test="@rend='super'"><sup><xsl:apply-templates/></sup></xsl:when>
+            <xsl:when test="@rend='superscript'"><sup><xsl:apply-templates/></sup></xsl:when>
             <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>

@@ -158,20 +158,24 @@ li[id] li{
     font-size: 18px;
 }
 
-li.tabs-title.is-active a {
-    color:white !important;
+li.tabs-title.is-active a{
+    color: white !important;
 }
 
-li.tabs-title a {
-    color:rgb(68,68,68) !important;
+li.tabs-title a{
+    color: rgb(68, 68, 68) !important;
 }
 
 .bold{
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.head {
-    font-weight:bold;
-    font-size:larger;
-    border-bottom :2px solid rgb(208,208,208);
+.head{
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 2px solid rgb(208, 208, 208);
+}
+
+.add{
+    background-color:red;
 }

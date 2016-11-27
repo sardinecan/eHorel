@@ -483,7 +483,7 @@ button{
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:0.5rem;
+    margin-bottom: 0.5rem;
 }
 .row::before,
 .row::after{
@@ -1751,7 +1751,7 @@ hr{
     height: 0;
     border-right: 0;
     border-top: 0;
-    border-bottom: 2px solid rgb(208,208,208);
+    border-bottom: 2px solid rgb(208, 208, 208);
     border-left: 0;
     margin: 1rem;
     clear: both;
@@ -4363,7 +4363,7 @@ table.hover tbody tr:nth-of-type(even):hover{
     margin: 0;
     list-style-type: none;
     background: #fefefe;
-    border-bottom: 1px solid rgb(68,68,68);
+    border-bottom: 1px solid rgb(68, 68, 68);
 }
 .tabs::before,
 .tabs::after{
@@ -4412,7 +4412,7 @@ table.hover tbody tr:nth-of-type(even):hover{
 }
 .tabs-title > a:focus,
 .tabs-title > a[aria-selected = 'true']{
-    background: rgb(68,68,68);
+    background: rgb(68, 68, 68);
 }
 
 .tabs-content{

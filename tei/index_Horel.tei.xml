@@ -905,7 +905,7 @@
                   <death when="1929"/>
                   <listEvent>
                      <event>
-                        <p>En août 1914, il prend les commandes de la III<hi rend="super">e</hi> armée suite au limogeage du général Ruffey.</p>
+                        <p>En août 1914, il prend les commandes de la III<hi rend="superscript">e</hi> armée suite au limogeage du général Ruffey.</p>
                      </event>
                      <event>
                         <p>Critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915.</p>
@@ -1040,7 +1040,7 @@
                   <death when="1951"/>
                   <listEvent>
                      <event>
-                        <p>Il Commande la V<hi rend="sup">e</hi> armée lors de la bataille de la Marne.</p>
+                        <p>Il Commande la V<hi rend="superscript">e</hi> armée lors de la bataille de la Marne.</p>
                      </event>
                      <event>
                         <p>En 1916 il mène les attaques contre Verdun.</p>
@@ -1052,7 +1052,7 @@
                </person>
                <person xml:id="Constantin">
                   <persName>
-                     <forename>Constantin I<hi rend="super">er</hi> de Grèce</forename>
+                     <forename>Constantin I<hi rend="superscript">er</hi> de Grèce</forename>
                   </persName>
                   <state>
                      <p>roi des Hellènes</p>
