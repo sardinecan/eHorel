@@ -637,7 +637,12 @@
     <xsl:template match="tei:sic"><xsl:apply-templates/><xsl:text> </xsl:text><span class="italic"><xsl:text>(sic)</xsl:text></span></xsl:template>
     <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
     <xsl:template match="tei:gap"><xsl:text>[...]</xsl:text></xsl:template>
-    <xsl:template match="tei:del"/>
+    <xsl:template match="tei:del">
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:address"><span class="del"><xsl:apply-templates/></span></xsl:when>
+            <xsl:otherwise/>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template match="tei:surplus"/>
     
 </xsl:stylesheet>

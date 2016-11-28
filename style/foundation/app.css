@@ -180,6 +180,9 @@ li.tabs-title a{
     font-style:italic;
 }
 
+.del {
+    text-decoration:line-through;
+}
 .add{
     background-color: red;
 }
