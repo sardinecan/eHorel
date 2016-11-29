@@ -94,19 +94,19 @@
     
     <xsl:template match="tei:editorialDecl">
         <div class="large-8 large-offset-4 columns">
-            <h3 class="subheader">Principes éditoriaux retenus</h3>
-            <h4 class="subheader">Normalisation</h4>
+            <h2 class="subheader">Principes éditoriaux</h2>
+            <h3 class="subheader">Normalisation</h3>
             <p><xsl:apply-templates select="tei:normalization"/></p>
-            <h4 class="subheader">Ponctuation</h4>
+            <h3 class="subheader">Ponctuation</h3>
             <p><xsl:apply-templates select="tei:punctuation"/></p>
-            <h4 class="subheader">Césures</h4>
+            <h3 class="subheader">Césures</h3>
             <p><xsl:apply-templates select="tei:hyphenation"/></p>
-            <h4 class="subheader">Corrections</h4>
+            <h3 class="subheader">Corrections</h3>
             <p><xsl:apply-templates select="tei:correction"/></p>
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:ref[@type='extLink']"><a href="{@target}"><xsl:apply-templates/></a></xsl:template>
+    <xsl:template match="tei:ref[@type='extLink']"><a href="{@target}" target="_blank"><xsl:apply-templates/></a></xsl:template>
     
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                             INCLUDES

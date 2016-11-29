@@ -47,31 +47,32 @@
                                 <a href="#" class="entree"><xsl:apply-templates select="." mode="index"/></a>
                                 <ul class="index no-bullet content">
                                     <xsl:if test=".//tei:event | .//tei:listEvent">
-                                        <li>
-                                            <xsl:for-each select=".//tei:event/tei:p">
+                                        <li class="bold">Notes : </li>
+                                        <xsl:for-each select=".//tei:event/tei:p">
+                                            <li>
                                                 <xsl:choose>
                                                     <xsl:when test="position() != last()"><xsl:apply-templates select="."/><xsl:text> ; </xsl:text></xsl:when>
                                                     <xsl:otherwise><xsl:apply-templates select="."/></xsl:otherwise>
                                                 </xsl:choose>
-                                            </xsl:for-each>
-                                        </li>
+                                            </li>
+                                        </xsl:for-each>
                                     </xsl:if>
-                                    <ul class="no-bullet content">
-                                        <li>
-                                            <xsl:text>Citations : </xsl:text>
-                                            <xsl:for-each select="//tei:TEI[descendant::tei:div[@type='letter']][.//@ref=$ref]">
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
-                                                <xsl:choose>
-                                                    <xsl:when test="position() != last()">
-                                                        <a href="{@xml:id}.html"><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:placeName"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:date"/></a><xsl:text> — </xsl:text>
-                                                    </xsl:when>
-                                                    <xsl:otherwise><a href="{@xml:id}.html"><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:placeName"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:date"/></a></xsl:otherwise>
-                                                </xsl:choose>
-                                            </xsl:for-each>
-                                        </li>
-                                    </ul>
+                                </ul>
+                                <ul class="index no-bullet content">
+                                    <li>
+                                        <span class="bold"><xsl:text>Citations : </xsl:text></span>
+                                        <xsl:for-each select="//tei:TEI[descendant::tei:div[@type='letter']][.//@ref=$ref]">
+                                            <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
+                                            <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
+                                            <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
+                                            <xsl:choose>
+                                                <xsl:when test="position() != last()">
+                                                    <a href="{@xml:id}.html"><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:placeName"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:date"/></a><xsl:text> — </xsl:text>
+                                                </xsl:when>
+                                                <xsl:otherwise><a href="{@xml:id}.html"><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:placeName"/><xsl:text> </xsl:text><xsl:apply-templates select=".//tei:correspAction/tei:date"/></a></xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </li>
                                 </ul>
                             </li>
                         </xsl:when>

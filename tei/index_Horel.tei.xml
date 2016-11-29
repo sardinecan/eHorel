@@ -45,20 +45,20 @@
                   <desc>garde-côtes cuirassé<date from="1902" to="1921"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1915-03-22">1915 (mars)</date> Envoyé aux Dardanelles</p>
+                        <p><date when="1915-03-22">1915 (mars)</date> : envoyé aux Dardanelles</p>
                      </event>
                      <event>
-                        <p><date when="1915-05-18">1915 (mai)</date> 2e division de la 4e escadre</p>
+                        <p><date when="1915-05-18">1915 (mai)</date> : 2e division de la 4e escadre</p>
                      </event>
                      <event>
-                        <p><date when="1916-04-15">1916 (avril)</date> Division d'Orient</p>
+                        <p><date when="1916-04-15">1916 (avril)</date> : division d'Orient</p>
                      </event>
                      <!-- vérifier si Horel change pas de navire à ce moment -->
                      <event>
-                        <p><date when="1917-08-07">1917 (août)</date> Bâtiment base des transports à Tarente</p>
+                        <p><date when="1917-08-07">1917 (août)</date> : bâtiment base des transports à Tarente</p>
                      </event>
                      <event>
-                        <p><date when="1917">1917</date> Débarquement d'une partie de l'armement pour une utilisation terrestre</p>
+                        <p><date when="1917">1917</date> : débarquement d'une partie de l'armement pour une utilisation terrestre</p>
                      </event>
                   </listEvent>
                </item>
@@ -70,10 +70,10 @@
                   <desc>frégate cuirassée type Gloire<date from="1862" to="1911"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1888">1888</date> Transformé en vaisseau-école pour canonniers</p>
+                        <p><date when="1888">1888</date> : transformé en vaisseau-école pour canonniers</p>
                      </event>
                      <event>
-                        <p><date from="1908" to="1931">1908-1903</date> Caserne-atelier central de la Flotte</p>
+                        <p><date from="1908" to="1931">1908-1903</date> : caserne-atelier central de la Flotte</p>
                      </event>
                   </listEvent>
                </item>
@@ -85,16 +85,16 @@
                   <desc>croiseur de 2e classe<date from="1897" to="1920"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1915-12-30">1915 (décembre) </date> Envoyé à <placeName ref="#Port_Said">Port-Saïd</placeName></p>
+                        <p><date when="1915-12-30">1915 (décembre) </date> : envoyé à <placeName ref="#Port_Said">Port-Saïd</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1916-02">1916 (février)</date> Affecté au secteur de Méditerranée occidentale</p>
+                        <p><date when="1916-02">1916 (février)</date> : affecté au secteur de Méditerranée occidentale</p>
                      </event>
                      <event>
-                        <p><date when="1916-09">1916 (septembre)</date> Envoyé au <placeName ref="#Maroc">Maroc</placeName></p>
+                        <p><date when="1916-09">1916 (septembre)</date> : envoyé au <placeName ref="#Maroc">Maroc</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1919">1919</date> Stationnement en Syrie</p>
+                        <p><date when="1919">1919</date> : stationnement en Syrie</p>
                      </event>
                   </listEvent>
                </item>
@@ -120,13 +120,13 @@
                   <desc>croiseur auxiliaire<date from="1914" to="1916"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1914">Avant 1914</date> Paquebot «Provence» de la Compagnie générale transatlantique</p>
+                        <p><date notAfter="1914">Avant 1914</date> : paquebot «Provence» de la Compagnie générale transatlantique</p>
                      </event>
                      <event>
-                        <p><date when="1915-04-25">1915 (avril)</date> Participe au débarquement dans les <placeName ref="#Dardanelles">Dardanelles</placeName> et au bombardement des côtes</p>
+                        <p><date when="1915-04-25">1915 (avril)</date> : participe au débarquement dans les <placeName ref="#Dardanelles">Dardanelles</placeName> et au bombardement des côtes</p>
                      </event>
                      <event>
-                        <p><date when="1916-02-16">26 février 1916</date> Torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Égée alors qu'il transportait des troupes.</p>
+                        <p><date when="1916-02-16">26 février 1916</date> : torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Égée alors qu'il transportait des troupes</p>
                      </event>
                   </listEvent>
                </item>
@@ -138,7 +138,7 @@
                   <desc>sous-marins allemand type U-31<date from="1914" to="1918"/></desc>
                   <listEvent>
                      <event>
-                        <p><date from="1916-01" to="1916-10">1916 (janvier à octobre)</date> Coule 52 navires alliés, ce qui reste le tableau de chasse le plus important de la première guerre.</p>
+                        <p><date from="1916-01" to="1916-10">1916 (janvier à octobre)</date> : il coule 52 navires alliés, ce qui reste le tableau de chasse le plus important de la première guerre</p>
                      </event>
                   </listEvent>
                </item>
@@ -150,13 +150,13 @@
                   <desc>sous-marin de type Émeraude<date from="1910" to="1915"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1915">1915</date> Stationnement aux <placeName ref="#Dardanelles">Dardanelles</placeName> pour le blocus du détroit</p>
+                        <p><date when="1915">1915</date> : stationnement aux <placeName ref="#Dardanelles">Dardanelles</placeName> pour le blocus du détroit</p>
                      </event>
                      <event>
-                        <p><date when="1915-10-30">1915 (octobre)</date> Capturé par des filets turcs devant Nagara, l'équipage est contraint de se rendre</p>
+                        <p><date when="1915-10-30">1915 (octobre)</date> : capturé par des filets turcs devant Nagara, l'équipage est contraint de se rendre</p>
                      </event>
                      <event>
-                        <p><date when="1919-11-12">1919 (novembre)</date> Restitué et condamné par la marine française</p>
+                        <p><date when="1919-11-12">1919 (novembre)</date> : restitué et condamné par la Marine française</p>
                      </event>
                   </listEvent>
                </item>
@@ -168,16 +168,16 @@
                   <desc>cuirassé type Charlemagne<date from="1897" to="1920"/></desc>
                   <listEvent>
                      <event>
-                        <p><date from="1914-11" to="1915-04">1914 (novembre) — 1915 (avril)</date> Envoyé aux <placeName ref="#Dardanelles">Dardanelles</placeName></p>
+                        <p><date from="1914-11" to="1915-04">1914 (novembre) — 1915 (avril)</date> : envoyé aux <placeName ref="#Dardanelles">Dardanelles</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1915-03">1915 (mars)</date> Affecté au bombardement des côtes</p>
+                        <p><date when="1915-03">1915 (mars)</date> : affecté au bombardement des côtes</p>
                      </event>
                      <event>
-                        <p><date when="1916-04-15">1916 (avril)</date> Division d'Orient à <placeName ref="#Salonique">Salonique</placeName></p>
+                        <p><date when="1916-04-15">1916 (avril)</date> : division d'Orient à <placeName ref="#Salonique">Salonique</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1917-11-01">1917 (novembre)</date> Envoyé à <placeName ref="#Toulon">Toulon</placeName> pour être désarmé</p>
+                        <p><date when="1917-11-01">1917 (novembre)</date> : envoyé à <placeName ref="#Toulon">Toulon</placeName> pour être désarmé</p>
                      </event>
                   </listEvent>
                   <note type="autre">
@@ -195,13 +195,13 @@
                   <desc>croiseur cuirassé type Dupleix<date from="1903" to="1919"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1915">1915</date> Transport de troupes à <placeName ref="#Canal_Suez">Suez</placeName></p>
+                        <p><date when="1915">1915</date> : transport de troupes à <placeName ref="#Canal_Suez">Suez</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1915-05">1915 (mai)</date> Participe au bombardement de Boudrum</p>
+                        <p><date when="1915-05">1915 (mai)</date> : participe au bombardement de Boudrum</p>
                      </event>
                      <event>
-                        <p><date when="1917">1917</date> Protection du <placeName ref="#Canal_Suez">canal de Suez</placeName></p>
+                        <p><date when="1917">1917</date> : protection du <placeName ref="#Canal_Suez">canal de Suez</placeName></p>
                      </event>
                   </listEvent>
                </item>
@@ -213,10 +213,10 @@
                   <desc>contre-torpilleur de 450t type Spahi<date from="1911" to="1922"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1913">1913</date> Torpilleur d'escadre, stationné en mer Adriatique</p>
+                        <p><date when="1913">1913</date> : torpilleur d'escadre, stationné en mer Adriatique</p>
                      </event>
                      <event>
-                        <p><date when="1916">1916</date> Envoyé en mer Égée</p>
+                        <p><date when="1916">1916</date> : envoyé en mer Égée</p>
                      </event>
                   </listEvent>
                </item>
@@ -228,10 +228,10 @@
                   <desc>contre-torpilleur de 450t type Spahi<date from="1910" to="1927"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1913">1913</date> Torpilleur d'escadre, stationnement en mer Adriatique</p>
+                        <p><date when="1913">1913</date> : torpilleur d'escadre, stationnement en mer Adriatique</p>
                      </event>
                      <event>
-                        <p><date when="1916">1916</date> Envoyé en mer Égée puis affecté à la défense mobile de Tunisie</p>
+                        <p><date when="1916">1916</date> : envoyé en mer Égée puis affecté à la défense mobile de Tunisie</p>
                      </event>
                   </listEvent>
                </item>
@@ -243,28 +243,28 @@
                   <desc>croiseur protégé, (marine impériale russe)<date from="1902" to="1918"/></desc>
                   <listEvent>
                      <event>
-                        <p><date when="1914">1914</date> Affecté à la recherche de l'escadre allemande dans le Pacifique sud</p>
+                        <p><date when="1914">1914</date> : affecté à la recherche de l'escadre allemande dans le Pacifique sud</p>
                      </event>
                      <event>
-                        <p><date when="1914">1914</date> Transféré en méditerranée</p>
+                        <p><date when="1914">1914</date> : transféré en méditerranée</p>
                      </event>
                      <event>
-                        <p><date when="1915-02-19">1915 (février)</date> Participe à la bataille des <placeName ref="#Dardanelles">Dardanelles</placeName></p>
+                        <p><date when="1915-02-19">1915 (février)</date> : participe à la bataille des <placeName ref="#Dardanelles">Dardanelles</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1915-04-25">1915 (avril)</date> Soutien lors du débarquement de Gallipoli</p>
+                        <p><date when="1915-04-25">1915 (avril)</date> : soutien lors du débarquement de Gallipoli</p>
                      </event>
                      <event>
-                        <p><date when="1916">1916</date> Subit des réparations à Toulon</p>
+                        <p><date when="1916">1916</date> : subit des réparations à Toulon</p>
                      </event>
                      <event>
-                        <p><date when="1916-09-01">1916 (septembre)</date> Acte de sabotage à bord du navire</p>
+                        <p><date when="1916-09-01">1916 (septembre)</date> : acte de sabotage à bord du navire</p>
                      </event>
                      <event>
-                        <p><date when="1917">1917</date> Intégré dans l'armée blanche pour combattre les bolchéviks, il est capturé en décembre 1917</p>
+                        <p><date when="1917">1917</date> : intégré dans l'armée blanche pour combattre les Bolchéviks, il est capturé en décembre 1917</p>
                      </event>
                      <event>
-                        <p><date when="1918-07-14">1918 (juillet)</date> Les troupes anglaises s'emparent du croiseur qui est rebaptisé HMS Glory IV par la Royal Navy</p>
+                        <p><date when="1918-07-14">1918 (juillet)</date> : les troupes anglaises s'emparent du croiseur qui est rebaptisé HMS Glory IV par la Royal Navy</p>
                      </event>
                   </listEvent>
                </item>
@@ -276,10 +276,10 @@
                   <desc>patrouilleur auxiliaire<date from="1915" to="1919"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1915">Avant 1915</date> Chalutier</p>
+                        <p><date notAfter="1915">Avant 1915</date> : chalutier</p>
                      </event>
                      <event>
-                        <p><date from="1915-02-07" to="1919-03-08">1915 (février) — 1919 (mars)</date> Réquisitionné à La Rochelle puis envoyé en mer Ionienne</p>
+                        <p><date from="1915-02-07" to="1919-03-08">1915 (février) — 1919 (mars)</date> : réquisitionné à La Rochelle puis envoyé en mer Ionienne</p>
                      </event>
                   </listEvent>
                </item>
@@ -291,13 +291,13 @@
                   <desc>croiseur auxiliaire<date from="1915" to="1917"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1915">Avant 1915</date> Paquebot sud Atlantique</p>
+                        <p><date notAfter="1915">Avant 1915</date> : paquebot sud Atlantique</p>
                      </event>
                      <event>
-                        <p><date when="1915-03-19">1915 (mars)</date> Réquisitionné</p>
+                        <p><date when="1915-03-19">1915 (mars)</date> : réquisitionné</p>
                      </event>
                      <event>
-                        <p><date when="1916-04-10">1916 (avril)</date> Transport des troupes russes à <placeName ref="#Salonique">Salonique</placeName></p>
+                        <p><date when="1916-04-10">1916 (avril)</date> : transport des troupes russes à <placeName ref="#Salonique">Salonique</placeName></p>
                      </event>
                   </listEvent>
                </item>
@@ -308,10 +308,10 @@
                   <desc>biplan allemand</desc>
                   <listEvent>
                      <event>
-                        <p>Aviatik B1 : Biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p>
+                        <p>Aviatik B1 : biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p>
                      </event>
                      <event>
-                        <p>Aviatik B2 : Proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p>
+                        <p>Aviatik B2 : proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p>
                      </event>
                   </listEvent>
                </item>
@@ -322,10 +322,10 @@
                   <desc>fusil</desc>
                   <listEvent>
                      <event>
-                        <p>Du nom du Colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point.</p>
+                        <p>du nom du Colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point</p>
                      </event>
                      <event>
-                        <p>Fusil à culasse verrouillée d'un calibre de 8mm et d'un poids d'environ 4,200kg. Il peut être équipé d'une baïonnette.</p>
+                        <p>fusil à culasse verrouillée d'un calibre de 8mm et d'un poids d'environ 4,200kg. Il peut être équipé d'une baïonnette</p>
                      </event>
                   </listEvent>
                </item>
@@ -337,16 +337,16 @@
                   <desc>transport auxilliaire<date from="1915" to="1916"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1915">Avant 1915</date> Paquebot Byzantin, racheté en 1895 par la compagnie des Messageries Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p>
+                        <p><date notAfter="1915">Avant 1915</date> : paquebot Byzantin, racheté en 1895 par la compagnie des Messageries Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p>
                      </event>
                      <event>
-                        <p><date when="1915">1915</date> Réquisitionné</p>
+                        <p><date when="1915">1915</date> : réquisitionné</p>
                      </event>
                      <event>
-                        <p><date when="1916">1916</date> affecté au transport des troupes serbes de Durazzo à <placeName ref="#Corfou">Corfou</placeName></p>
+                        <p><date when="1916">1916</date> : affecté au transport des troupes serbes de Durazzo à <placeName ref="#Corfou">Corfou</placeName></p>
                      </event>
                      <event>
-                        <p><date when="1916-02-16">1916 (février)</date> Saute sur une mine et échoue près de Durazzo</p>
+                        <p><date when="1916-02-16">1916 (février)</date> : saute sur une mine et échoue près de Durazzo</p>
                      </event>
                   </listEvent>
                </item>
@@ -385,7 +385,7 @@
                      <country>Turquie</country>
                   </location>
                   <event>
-                     <p>Entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des Dardanelles devient un enjeux stratégique pour les deux camps. Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée à la mer Noire devait permettre d'assurer une liaison entre la Russie et les forces franco-britanniques.</p>
+                     <p>entre la guerre de position qui se met en place sur les fronts Est et Ouest et l'entrée en guerre de l'empire Ottoman aux côtés de l'Allemagne en novembre 1914, le détroit des Dardanelles devient un enjeux stratégique pour les deux camps. Les voies terrestres étant sous contrôle des forces centrales, ce passage reliant la mer Méditerranée à la mer Noire devait permettre d'assurer une liaison entre la Russie et les forces franco-britanniques</p>
                   </event>
                </place>
                <place xml:id="Sasoge">
@@ -465,7 +465,7 @@
                      <geo>39.8747222, 25.270833333333332</geo>
                   </location>
                   <event>
-                     <p>Le <date when="1918-10-30">30 octobre 1918</date>, l'empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie.</p>
+                     <p>le <date when="1918-10-30">30 octobre 1918</date>, l'empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie</p>
                   </event>
                </place>
                <place xml:id="Imbros">
@@ -484,7 +484,7 @@
                </place>
                <place xml:id="Golf_Saros">
                   <placeName>Golf de Saros</placeName>
-                  <desc>Formé par la péninsule de <placeName ref="#Gallipoli">Gallipoli</placeName> au sud et par la côte de la province d'Edirne au nord. </desc>
+                  <desc>Formé par la péninsule de <placeName ref="#Gallipoli">Gallipoli</placeName> au sud et par la côte de la province d'Edirne au nord.</desc>
                   <location>
                      <country>Turquie</country>
                      <district type="region">Marmara</district>
@@ -572,7 +572,7 @@
                   <placeName>Roumanie</placeName>
                   <!-- Bulgarie référence à l'entrée en guerre de ces pays lettre 173-176 -->
                   <event>
-                     <p>Le <date when="1916-08-16">17 août 1916</date> un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le "droit d'annexer les territoires de la monarchie austro-hongroise".</p>
+                     <p>le <date when="1916-08-16">17 août 1916</date> un traité d'alliance est signé entre le gouvernement roumain et les forces de l'Entente. Le texte prévoit pour la Roumanie le « droit d'annexer les territoires de la monarchie austro-hongroise »</p>
                   </event>
                </place>
                <place xml:id="Grece">
@@ -590,8 +590,8 @@
                      <!-- district régional -->
                   </location>
                   <event>
-                     <p>Durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles.</p>
-                     <p>Le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés,</p>
+                     <p>durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles</p>
+                     <p>le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés</p>
                   </event>
                </place>
                <place xml:id="Sanary">
@@ -603,7 +603,7 @@
                </place>
                <place xml:id="Marmara">
                   <placeName>Mer de Marmara</placeName>
-                  <desc>Mer reliant la mer Noire par le Bosphore et la mer Égée par le détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>. </desc>
+                  <desc>Mer reliant la mer Noire par le Bosphore et la mer Égée par le détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>.</desc>
                   <location>
                      <country>Turquie</country>
                   </location>
@@ -615,7 +615,7 @@
                      <country>Égypte</country>
                   </location>
                   <event>
-                     <p>Les forces de la triple alliance tenteront de prendre le contrôle du canal à deux reprises, en janvier - février 1915 puis en avril - août 1916.</p>
+                     <p>les forces de la triple alliance tenteront de prendre le contrôle du canal à deux reprises, en janvier - février 1915 puis en avril - août 1916</p>
                   </event>
                </place>
                <place xml:id="Beaune">
@@ -636,13 +636,13 @@
                   <placeName>Bessarabie</placeName>
                   <placeName type="today">région répartie entre la république de Moldavie et l'Ukraine</placeName>
                   <event>
-                     <p>Ancienne division administrative de l'Empire russe comprise entre la rivière Pruth, les fleuves Dniestr et Danube et la mer Noire. Suite à la révolution russe de novembre 1917, la Bessarabie proclame son indépendance. L'armée roumaine assurera sa défense.</p>
+                     <p>ancienne division administrative de l'Empire russe comprise entre la rivière Pruth, les fleuves Dniestr et Danube et la mer Noire. Suite à la révolution russe de novembre 1917, la Bessarabie proclame son indépendance. L'armée roumaine assurera sa défense</p>
                   </event>
                </place>
                <place xml:id="Serbie">
                   <placeName>Serbie</placeName>
                   <event>
-                     <p>Pays allié à l'Empire russe</p>
+                     <p>pays allié à l'Empire russe</p>
                   </event>
                </place>
                <place xml:id="Zante">
@@ -663,7 +663,7 @@
                      <district type="region">Picardie</district>
                   </location>
                   <event>
-                     <p>Imaginée par Joffre dés 1915 et retardée à cause de l'attaque de Verdun par les Allemands, la première bataille de la Somme de déroula entre le 1er juillet 1916 et le 18 novembre de la même année. Sans être véritablement une victoire pour les alliés, elle coûta la vie à plus d'un million d'hommes (allemands, britanniques et français).</p>
+                     <p>imaginée par Joffre dés 1915 et retardée à cause de l'attaque de Verdun par les Allemands, la première bataille de la Somme de déroula entre le 1er juillet 1916 et le 18 novembre de la même année. Sans être véritablement une victoire pour les alliés, elle coûta la vie à plus d'un million d'hommes (allemands, britanniques et français)</p>
                   </event>
                </place>
                <place xml:id="Corinth">
@@ -905,13 +905,13 @@
                   <death when="1929"/>
                   <listEvent>
                      <event>
-                        <p>En août 1914, il prend les commandes de la III<hi rend="superscript">e</hi> armée suite au limogeage du général Ruffey.</p>
+                        <p>en août 1914, il prend les commandes de la III<hi rend="superscript">e</hi> armée suite au limogeage du général Ruffey</p>
                      </event>
                      <event>
-                        <p>Critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915.</p>
+                        <p>critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915</p>
                      </event>
                      <event>
-                        <p>En janvier 1916 il devient commandant en chef des forces françaises, britanniques et serbes de Macédoine. Il sera finalement remplacé par le général Guillaumat en décembre 1917.</p>
+                        <p>en janvier 1916 il devient commandant en chef des forces françaises, britanniques et serbes de Macédoine. Il sera finalement remplacé par le général Guillaumat en décembre 1917</p>
                      </event>
                   </listEvent>
                </person>
@@ -926,10 +926,10 @@
                   <death when="1916"/>
                   <listEvent>
                      <event>
-                        <p>Ministre de la guerre en août 1914, il perçoit assez vite que la guerre sera longue. Il met en place l'armée britannique en la basant sur le volontariat et la faisant ainsi passer de cent cinquante mille à près de deux millions hommes en quelques mois.</p>
+                        <p>ministre de la guerre en août 1914, il perçoit assez vite que la guerre sera longue. Il met en place l'armée britannique en la basant sur le volontariat et la faisant ainsi passer de cent cinquante mille à près de deux millions hommes en quelques mois</p>
                      </event>
                      <event>
-                        <p>Il voit d'un mauvais œil la campagne de Dardanelles. En se rendant en Russie en juin 1916 avec le Hampshire, ce dernier heurte une mine et il disparaît en mer.</p>
+                        <p>il voit d'un mauvais œil la campagne de Dardanelles. En se rendant en Russie en juin 1916 avec le Hampshire, ce dernier heurte une mine et il disparaît en mer</p>
                      </event>
                   </listEvent>
                </person>
@@ -944,13 +944,13 @@
                   <death when="1931"/>
                   <listEvent>
                      <event>
-                        <p>Il est nommé Généralissime et chef d'état major général en 1911.</p>
+                        <p>il est nommé généralissime et chef d'état major général en 1911</p>
                      </event>
                      <event>
-                        <p>En décembre 1915 ses pouvoirs sont accrus et il récupère le commandement des fronts extérieurs.</p>
+                        <p>en décembre 1915 ses pouvoirs sont accrus et il récupère le commandement des fronts extérieurs</p>
                      </event>
                      <event>
-                        <p>Ses offensives sont jugées trop coûteuses en hommes et ne permettant pas de prendre un avantage décisif. Il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France.</p>
+                        <p>ses offensives sont jugées trop coûteuses en hommes et ne permettant pas de prendre un avantage décisif. Il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France</p>
                      </event>
                   </listEvent>
                </person>
@@ -975,16 +975,16 @@
                   <death when="1921"/>
                   <listEvent>
                      <event>
-                        <p>Saint-cyrien de la promotion Plevna <date from="1862" to="1864">(1862-1864)</date></p>
+                        <p>saint-cyrien de la promotion Plevna <date from="1862" to="1864">(1862-1864)</date></p>
                      </event>
                      <event>
-                        <p>Engagé volontaire dans la légion étrangère en 1870 pour la défense de la France</p>
+                        <p>engagé volontaire dans la légion étrangère en 1870 pour la défense de la France</p>
                      </event>
                      <event>
-                        <p>Monte sur le trône en 1903</p>
+                        <p>monte sur le trône en 1903</p>
                      </event>
                      <event>
-                        <p>Malade en 1914, il se résout à transmettre la régence et le commandement militaire à son fils Alexandre Ier.</p>
+                        <p>malade en 1914, il se résout à transmettre la régence et le commandement militaire à son fils Alexandre Ier</p>
                      </event>
                   </listEvent>
                </person>
@@ -1040,13 +1040,13 @@
                   <death when="1951"/>
                   <listEvent>
                      <event>
-                        <p>Il Commande la V<hi rend="superscript">e</hi> armée lors de la bataille de la Marne.</p>
+                        <p>il Commande la V<hi rend="superscript">e</hi> armée lors de la bataille de la Marne</p>
                      </event>
                      <event>
-                        <p>En 1916 il mène les attaques contre Verdun.</p>
+                        <p>en 1916 il mène les attaques contre Verdun</p>
                      </event>
                      <event>
-                        <p>Comme son père, il abdique en novembre 1918.</p>
+                        <p>comme son père, il abdique en novembre 1918</p>
                      </event>
                   </listEvent>
                </person>

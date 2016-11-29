@@ -176,12 +176,12 @@ li.tabs-title a{
     border-bottom: 2px solid rgb(208, 208, 208);
 }
 
-.italic {
-    font-style:italic;
+.italic{
+    font-style: italic;
 }
 
-.del {
-    text-decoration:line-through;
+.del{
+    text-decoration: line-through;
 }
 .add{
     background-color: red;

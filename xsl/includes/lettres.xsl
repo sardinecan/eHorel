@@ -85,28 +85,32 @@
                                     <xsl:if test=".//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='arrival']/tei:date/@when"><li><span class="bold"><xsl:text>date d'arrivée : </xsl:text></span><xsl:value-of select=".//tei:supportDesc//tei:stamp[@type='postmark']/tei:placeName"/><xsl:text> </xsl:text><xsl:value-of select="format-date(.//tei:supportDesc//tei:stamp[@type='postmark' and @subtype='arrival']/tei:date/@when,'le [D01] [Mn] [Y0001]', 'fr', (), ())"/></li></xsl:if>
                                 </ul>
                             </div>
-                            <div class="large-4 columns">
-                                <ul class="no-bullet">
-                                    <li class="head">Lettre précédente :</li>
-                                    <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='sentBy']"/></li>
-                                    <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='deliveredTo']"/></li>
-                                    <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:placeName"/></li>
-                                    <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:date"/></li>
-                                </ul>
-                            </div>
-                            <div class="large-4 columns">
-                                <ul class="no-bullet">
-                                    <li class="head">Lettre suivante :</li>
-                                    <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='sentBy']"/></li>
-                                    <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='deliveredTo']"/></li>
-                                    <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:placeName"/></li>
-                                    <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:date"/></li>
-                                </ul>
-                            </div>
+                            <xsl:if test=".//tei:correspContext/tei:ref[@type='previous']">
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Lettre précédente :</li>
+                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='sentBy']"/></li>
+                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:persName[@type='deliveredTo']"/></li>
+                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:placeName"/></li>
+                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='previous']/tei:date"/></li>
+                                    </ul>
+                                </div>
+                            </xsl:if>
+                            <xsl:if test=".//tei:correspContext/tei:ref[@type='next']">
+                                <div class="large-4 columns">
+                                    <ul class="no-bullet">
+                                        <li class="head">Lettre suivante :</li>
+                                        <li><span class="bold"><xsl:text>expéditeur : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='sentBy']"/></li>
+                                        <li><span class="bold"><xsl:text>destinataire : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:persName[@type='deliveredTo']"/></li>
+                                        <li><span class="bold"><xsl:text>lieu : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:placeName"/></li>
+                                        <li><span class="bold"><xsl:text>date : </xsl:text></span><xsl:value-of select=".//tei:correspContext/tei:ref[@type='next']/tei:date"/></li>
+                                    </ul>
+                                </div>
+                            </xsl:if>
                             <div class="large-4 columns">
                                 <ul class="no-bullet">
                                     <li class="head">Données matérielles :</li>
-                                    <li><span class="bold"><xsl:text>composition : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
+                                    <li><span class="bold"><xsl:text>support : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
                                 </ul>
                             </div>
                             <div class="large-4 columns">
@@ -227,15 +231,13 @@
     </xsl:template>
     
     <xsl:template match="tei:postscript[position()=1]">
-        <p><xsl:text>[PS :] </xsl:text><xsl:apply-templates/></p>
+        <p><xsl:text>[PS </xsl:text><xsl:if test="ancestor::tei:TEI//tei:postscript[2]"><xsl:text>1</xsl:text></xsl:if><xsl:text> :] </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:postscript[position()!=1]">
-        <p><xsl:apply-templates/></p>
+        <p><xsl:text>[PS </xsl:text><xsl:value-of select="@n"/><xsl:text> :] </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     
-    <xsl:template match="tei:choice">
-        <xsl:apply-templates select="tei:expan"/>
-    </xsl:template>
+    <xsl:template match="tei:choice"><xsl:apply-templates select="tei:expan"/></xsl:template>
     
     <!--<xsl:template match="tei:pb[@facs]">
         <xsl:for-each select=".">
@@ -634,6 +636,7 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>-->
+    <xsl:template match="tei:subst"><xsl:apply-templates select="tei:add"/></xsl:template>
     <xsl:template match="tei:sic"><xsl:apply-templates/><xsl:text> </xsl:text><span class="italic"><xsl:text>(sic)</xsl:text></span></xsl:template>
     <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
     <xsl:template match="tei:gap"><xsl:text>[...]</xsl:text></xsl:template>

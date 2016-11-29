@@ -53,6 +53,16 @@
                         id: 'mapbox.streets'
                         }).addTo(map);
                         
+                        var popupLocation1 = new L.LatLng(41.508577297439324, 15.64453125);
+                        
+                        var popupContent1 = "<p>Sur cette carte, chaque lettre est géolocalisée en fonction de son lieu d'envoi. Cliquez sur les vignettes pour accéder à la correspondance.</p>",
+                        popup1 = new L.Popup();
+                        
+                        popup1.setLatLng(popupLocation1);
+                        popup1.setContent(popupContent1);
+                        
+                        map.addLayer(popup1);
+                        
                         <xsl:for-each select="//tei:place[descendant::tei:geo]">
                             <xsl:variable name="id" select="concat('#',@xml:id)"/>
                             <xsl:text>var marker</xsl:text><xsl:value-of select="normalize-space(@xml:id)"/><xsl:text> = L.marker([</xsl:text><xsl:value-of select=".//tei:geo"/><xsl:text>]).addTo(map);</xsl:text>
