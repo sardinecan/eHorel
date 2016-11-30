@@ -183,6 +183,11 @@ li.tabs-title a{
 .del{
     text-decoration: line-through;
 }
+
+.del a {
+    text-decoration: line-through;
+}
+
 .add{
     background-color: red;
 }

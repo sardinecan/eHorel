@@ -207,6 +207,13 @@
     
     <xsl:template match="tei:seg[@type]"/>
     <xsl:template match="tei:seg[@type]" mode="affichage"><xsl:apply-templates/></xsl:template>
+    
+    <xsl:template match="tei:closer">
+        <xsl:apply-templates select="./tei:salute"/>
+        <xsl:apply-templates select="./tei:signed"/>
+        <p><xsl:apply-templates select="./text() | tei:add[ancestor::tei:closer and preceding-sibling::tei:signed]"/></p>
+    </xsl:template>
+    
     <xsl:template match="tei:closer/tei:salute">
         <p><xsl:apply-templates/></p>
     </xsl:template>
