@@ -82,7 +82,7 @@
                <p>L'emploi des majuscules et de l'accentuation a été normalisé, des traits d'unions ont été ajoutés lorsqu'ils sont aujourd'hui admis et les termes accolés ont été séparés, sans que ces corrections soient identifiées par un balisage. Les abréviations ont été développées, mais les formes abréviées ont été maintenues lors de l'encodage. Les doublons et les biffures de l'auteur ont été balisés, mais ils n'ont pas été retenus en sortie. Enfin, les ajouts en marge ont été replacés dans le texte, mais leur positionnement à fait l'objet d'un balisage.</p>
             </normalization>
             <punctuation>
-               <p>La ponctuation est un élément important d'une correspondance. Elle ne doit pas être considérée comme « une simple ponctuation typographique », elle est d'une certaine façon le reflet de la pensée de l'auteur. La ponctuation d'Armand Horel a donc été maintenue ; seules quelques oublis ont été rétablis pour facilité la lecture, il s'agit essentiellement des points de fin de ligne ou de paragraphe. Ces ajouts ont été balisés au sein de l'édition TEI.</p>
+               <p>La ponctuation est un élément important d'une correspondance. Elle ne doit pas être considérée comme « une simple ponctuation typographique », elle est d'une certaine façon le reflet de la pensée de l'auteur. La ponctuation d’Armand Horel a donc été maintenue ; seules quelques oublis ont été rétablis pour facilité la lecture, il s'agit essentiellement des points de fin de ligne ou de paragraphe. Ces ajouts ont été balisés au sein de l'édition TEI.</p>
             </punctuation>
             <hyphenation>
                <p>Les sauts de ligne ont également été encodés, mais ils n'ont pas été maintenus en sortie. De même, les césures des mots en fin de ligne n'ont pas été restituées, mais elles ont été balisées.</p>
@@ -106,13 +106,13 @@
             </div>
             <div>
                <head>Origine de la correspondance</head>
-               <p>La correspondance d'<persName ref="#Horel">Armand Horel</persName> regroupe les cartes postales et lettres qu'il a envoyées à sa marraine de guerre, <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>, plus connue sous le nom de <persName ref="#Silve_Claude">Claude Silve</persName> ; écrivain et prix fémina <date when="1935">1935</date>. Ce fonds est issu d'un don et est composé de cent cinquante-quatre cartes postales, huit lettres — dont une de <persName ref="#Horel_Louis">Louis Horel</persName>, le frère d'Armand — et d'un programme de théâtre : « <foreign xml:lang="en">Achi Baba and the forty thieves</foreign> ». Il est conservée sous la côte F Δ 1854/20 par <orgName>la Bibliothèque de documentation internationale contemporaine</orgName> (BDIC). L'intégralité de ce fonds a été numérisé et il est disponible sous licence libre sur la bibliothèque numérique de la BDIC : <ref type="extLink" target="http://argonnaute.u-paris10.fr/">l'Argonnaute</ref>.</p>
+               <p>La correspondance d'<persName ref="#Horel">Armand Horel</persName> regroupe les cartes postales et lettres qu'il a envoyées à sa marraine de guerre, <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>, plus connue sous le nom de <persName ref="#Silve_Claude">Claude Silve</persName> ; écrivain et prix fémina <date when="1935">1935</date>. Ce fonds est issu d'un don et est composé de cent cinquante-quatre cartes postales, huit lettres — dont une de <persName ref="#Horel_Louis">Louis Horel</persName>, le frère d’Armand — et d'un programme de théâtre : « <foreign xml:lang="en">Achi Baba and the forty thieves</foreign> ». Il est conservée sous la côte F Δ 1854/20 par <orgName>la Bibliothèque de documentation internationale contemporaine</orgName> (BDIC). L'intégralité de ce fonds a été numérisé et il est disponible sous licence libre sur la bibliothèque numérique de la BDIC : <ref type="extLink" target="http://argonnaute.u-paris10.fr/">l'Argonnaute</ref>.</p>
             </div>
             <div>
-               <head>La correspondance d'Armand Horel</head>
+               <head>La correspondance d’Armand Horel</head>
                <p><persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né <date when="1889-09-03">le 3 septembre 1889</date> à <placeName>Caudan dans le Morbihan</placeName>. Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer, se savent ni lire ni écrire. Engagé volontaire dans la marine en <date when="1907">1907</date> alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName> au troisième dépôt des équipages de la Flotte comme apprenti canonnier. <date when="1908-08-12">Le 12 août 1908</date>, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. Il est reçu matelot de 2<hi rend="superscript">e</hi> classe canonnier breveté <date when="1908-11-01">le 1<hi rend="superscript">er</hi> novembre de la même année</date>. Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="superscript">e</hi> classe, il est finalement affecté à différentes compagnies de gendarmerie maritime à partir d'<date when="1913-04">avril 1913</date>.</p>
                <p>Lorsque la guerre éclate, <persName ref="#Horel">Armand Horel</persName> est réintégré dans les unités combattantes <date when="1914-08-02">dès le 2 août 1914</date>. Jusqu'à sa démobilisation <date when="1919-03-19">le 19 mars 1919</date>, il servira sur différents bâtiments de la Flotte française ; d'abord durant la campagne des <placeName ref="#Dardanelles">Dardanelles</placeName>, puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.</p>
-               <p>À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, témoin du théâtre d'opérations du front d'Orient. <date when="1915-08">À partir d'août 1915</date>, et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie avec <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>. Il y relate certains faits marquants du conflit comme l'entrée en guerre de <placeName ref="#Bulgarie">la Bulgarie</placeName>, le développement de la guerre sous-marine ou l'épisode de grippe espagnole de <date when="1918">1918</date>. Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré <date when="1912">depuis 1912</date> pour « désertion à l'intérieur en temps de paix », que la comtesse participera à faire libérer. Ce dernier, gracié en <date when="1916">novembre 1916</date> afin de « pouvoir aller défendre son pays », sera incorporé dans le 1<hi rend="superscript">er</hi> bataillon d'infanterie légère d'Afrique. Il sera tué à l'ennemi devant <placeName>Bantigny</placeName> dans la Somme le <date when="1918-04-05">5 avril 1918</date>.</p>
+               <p>À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, témoin du théâtre d'opérations du front d'Orient. <date when="1915-08">À partir d'août 1915</date>, et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie avec <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>. Il y relate certains faits marquants du conflit comme l'entrée en guerre de <placeName ref="#Bulgarie">la Bulgarie</placeName>, le développement de la guerre sous-marine ou l'épisode de grippe espagnole de <date when="1918">1918</date>. Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré <date when="1912">depuis 1912</date> pour « désertion à l'intérieur en temps de paix », que la comtesse participera à faire libérer. Ce dernier, gracié en <date when="1916">novembre 1916</date> afin de « pouvoir aller défendre son pays », sera incorporé dans le 1<hi rend="superscript">er</hi> bataillon d'infanterie légère d’Afrique. Il sera tué à l'ennemi devant <placeName>Bantigny</placeName> dans la Somme le <date when="1918-04-05">5 avril 1918</date>.</p>
                <p>Au-delà de cet ensemble épistolaire, ce fonds présente aussi une belle collection de cartes postales d'Orient dont certaines sont en couleur.</p>
             </div>
             <div>
@@ -126,23 +126,26 @@
                   <item>
                      <list>
                         <head>Armand Horel</head>
-                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0#id:1479049212?center=1210.0452674897138,-2149.5925925925935&amp;zoom=5">Acte de naissance</ref></item>
+                        <!-- Armand Horel Acte de naissance Caudan 1887-1889 p.205 -->
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta54487c8fa9c23/daogrp/0/layout:table/idsearch:RECH_1f9c4380224ffbede1ede24086694422#id:1479049212?center=2080,-1536">Acte de naissance</ref></item>
                         <!-- table alphabétique : archives du morbihan, Lorient 1909 (page 28/72) Volume 1 numéro matricule 97 pour le registre matricule cote R2068 (1à500) page 169/773 -->
-                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ee3c563/daogrp/0/layout:table/idsearch:RECH_5c3d4b98b4e4cb3f25200e099a55fbcd#id:1534499178?center=988,-1493">Registre matricule</ref></item>
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta56aa666ff2afa/daogrp/0/layout:table/idsearch:RECH_7005c3977fdae4b0f5284ebbf912bbf5#id:1534499178?center=988,-1493">Registre matricule</ref></item>
                      </list>
                   </item>
                   <item>
                      <list>
                         <head>La comtesse de La Forest</head>
+                        <!-- Acte de naissance archives de l'Ariège 1NUM/4E1804 Léran 1885-1895 vue 40/285 -->
                         <item><ref type="extLink" target="http://mdr-archives.ariege.fr/mdr/index.php/docnumViewer/afficheDocnum/40/N/vue">Acte de naissance</ref></item>
                      </list>
                   </item>
                   <item>
                      <list>
                         <head>Louis Horel</head>
+                        <!-- Louis Horel Acte de naissance Plouay 1888 p. 265 -->
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=2224,-1600">Acte de naissance</ref></item>
                         <!-- registre matricule : n°1047 année de classe 1908 archives morbihan Lorient cote R2054, 1001-1500, page 67/705 -->
-                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta544884a0db5c4/daogrp/0/layout:table/idsearch:RECH_5c25c679d87defd37e1a19c5acb03825#id:410265118?center=3286.3855490876335,-2182.1979306282437&amp;zoom=5">Acte de naissance</ref></item>
-                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta55ffe7ed9c0d6/daogrp/0/layout:table/idsearch:RECH_6d6623a111026d6a110c490adaee7baa#id:414562807?center=1015,-1504">Registre matricule</ref></item>
+                        <item><ref type="extLink" target="http://recherche.archives.morbihan.fr/ark:/15049/vta56aa666eaade7/daogrp/0/layout:table/idsearch:RECH_be32f1aa6a0426e5a1e4083a83279fd3#id:414562807?center=1013.5,-1513.5">Registre matricule</ref></item>
                         <item><ref type="extLink" target="http://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/m005239ee9fc8c0e/5242be4be00d9">Base des morts pour la France</ref></item>
                      </list>
                   </item>
@@ -159,7 +162,7 @@
       <body>
          <div type="list_index">
             <p>Cet index contient les noms de personnes, lieux et bâtiments de flotte mentionnés dans la correspondance d'<persName ref="#Horel">Armand Horel</persName>. Des liens permettent d'accéder directement aux correspondances souhaitées.</p>
-            <p>Les noms géographiques (en italique), à l'exception des pays, ont été complétés par leur coordonées géographiques. Lorsqu'il s'agit de lieux étrangers, la mention du pays est systématiquement rappelée. Dans l'éventualité d'une orthographe multiple acceptée, un renvoi est opéré vers la forme la plus courante. Enfin, lorsque le nom du lieu a évolué depuis la rédaction des lettres, c'est la forme ancienne qui constitue la vedette ; elle est suivie du nom actuel.</p>
+            <p>Les noms géographiques (en italique), à l'exception des pays, ont été complétés par leur coordonnées géographiques. Lorsqu'il s'agit de lieux étrangers, la mention du pays est systématiquement rappelée. Dans l'éventualité d'une orthographe multiple acceptée, un renvoi est opéré vers la forme la plus courante. Enfin, lorsque le nom du lieu a évolué depuis la rédaction des lettres, c'est la forme ancienne qui constitue la vedette ; elle est suivie du nom actuel.</p>
             <p>Les entrées d'index concernant les personnes (en petites capitales) ont été complétées, lorsque cela était possible, par des informations permettant de préciser leur lien de parenté, leur rôle, ou leur fonction.</p>
             <p>Le même traitement a été appliqué aux navires (entre guillemets).</p>
             <p>Indépendamment de cet index, un glossaire a été réalisé reprenant l'ensemble des entrées d'index ainsi que des termes plus spécifiques. Afin de gêner le moins possible la lecture, il est accessible directement lors de la consultation des lettres en survolant les termes soulignés. Des renvois sont également opérés vers cet index.</p>
@@ -168,17 +171,37 @@
       </body>
       <back>
          <div type="about">
-            <p>L'édition de la correspondance d'Armand Horel a permis l'élaboration d'un modèle d'édition électronique en XML-TEI.</p>
-            <p>Le projet de la Text Encoding Initiative (TEI) est né de la volonté d'offrir à la communauté universitaire un format d'encodage pour les documents textuels afin de faciliter les échanges. Lors d'une conférence organisée à Poughkeepsie près de New-York en 1987, des professionnels du secteur se sont accordés sur la nécessité d'uniformiser certaines pratiques. Ils formulèrent un ensemble de recommandations allant dans ce sens, tout en insistant sur le besoin d'élaborer un format d'échange standard de données. Celui-ci devait reposer sur une syntaxe et un schéma prédéfinis, tout en garantissant, autant que possible, la compatibilité avec les standards existants.</p>
-            <p>La TEI s'est très vite imposée comme le modèle d'édition électronique pour la publication des sources primaires. La cinquième version de la TEI (P5) repose maintenant sur XML, un langage informatique structuré compréhensible par l'homme et la machine. Contrairement au format web (HTML) ou aux logiciels de traitement de texte, XML permet de se concentrer sur la structure et le contenu d'un texte, indépendamment de sa mise en forme.</p>
-            <p>Le consortium TEI a rapidement privilégié la publication de <hi rend="italic">guidelines</hi> (recommandations) à celle d'un véritable standard. Ses champs d'application étant relativement étendus (ouvrages imprimés anciens, textes médiévaux, cours écrits ou oraux, etc.), la TEI propose non pas tant un schéma fixe, mais plutôt un cadre de développement modulable selon les besoins du projet. Ainsi, chaque module répond à une problématique que l'on est libre d'inclure ou non.</p>
-            <p>Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au respect des sources, à l'identification et l'indexation des noms (personnes et lieux), ainsi qu'aux différents points d'entrées du texte (chronologique, géographique, par destinataire, etc.). Le schéma et sa documentation sont mis à la disposition de tous et sont réutilisables librement. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer la lecture des <hi rend="italic">guidelines</hi>, mais il présente la méthode de travail qui a été la notre lors du développement de ce projet.</p>
+            <div>
+               <p>L'édition de la correspondance d’Armand Horel a permis l'élaboration d'un modèle d'édition électronique en XML-TEI.</p>
+               <p>Le projet de la Text Encoding Initiative (TEI) est né de la volonté d'offrir à la communauté universitaire un format d'encodage pour les documents textuels afin de faciliter les échanges. Lors d'une conférence organisée à Poughkeepsie près de New-York en 1987, des professionnels du secteur se sont accordés sur la nécessité d'uniformiser certaines pratiques. Ils formulèrent un ensemble de recommandations allant dans ce sens, tout en insistant sur le besoin d'élaborer un format d'échange standard de données. Celui-ci devait reposer sur une syntaxe et un schéma prédéfinis, tout en garantissant, autant que possible, la compatibilité avec les standards existants.</p>
+               <p>La TEI s'est très vite imposée comme le modèle d'édition électronique pour la publication des sources primaires. La cinquième version de la TEI (P5) repose maintenant sur XML, un langage informatique structuré compréhensible par l'homme et la machine. Contrairement au format web (HTML) ou aux logiciels de traitement de texte, XML permet de se concentrer sur la structure et le contenu d'un texte, indépendamment de sa mise en forme.</p>
+               <p>Le consortium TEI a rapidement privilégié la publication de <hi rend="italic">guidelines</hi> (recommandations) à celle d'un véritable standard. Ses champs d'application étant relativement étendus (ouvrages imprimés anciens, textes médiévaux, cours écrits ou oraux, etc.), la TEI propose non pas tant un schéma fixe, mais plutôt un cadre de développement modulable selon les besoins du projet. Ainsi, chaque module répond à une problématique que l'on est libre d'inclure ou non.</p>
+               <p>Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au respect des sources, à l'identification et l'indexation des noms (personnes et lieux), ainsi qu'aux différents points d'entrées du texte (chronologique, géographique, par destinataire, etc.). Le schéma et sa documentation sont mis à la disposition de tous et sont réutilisables librement. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer la lecture des <hi rend="italic">guidelines</hi>, mais il présente la méthode de travail qui a été la notre lors du développement de ce projet.</p>
+            </div>
+            <div>
+               <head>Techniques</head>
+               <p>Ce site a été généré à partir de l'édition TEI de la correspondance d'Armand Horel et par l'application d'une feuilles de transformation XSLT. Il est développé à partir du <ref type="extLink" target="http://foundation.zurb.com/">framework Foundation</ref>. Il est <foreign xml:lang="en">responsive</foreign> et compatible avec les dernières versions des navigateurs web. La carte a été réalisée à partir de la bibliothèque javascript <ref type="extLink" target="http://leafletjs.com/">Leaflet</ref> et la frise chronologique à partir de la version <foreign xml:lang="en">standalone</foreign> de <ref type="extLink" target="https://github.com/Lab21k/standalone-timeline">la SIMILE Timeline</ref>.</p>
+            </div>
+            <div>
+               <head>Sources du projet</head>
+               <p>L'ensemble des fichiers sources du projet (édition TEI, feuilles XSLT, manuel d'encodage, schéma ODD, etc.) sont disponibles sur <ref type="extLink" target="https://github.com/sardinecan/horel">le répertoire github du projet</ref>. Ils sont librement réutilisables.</p> 
+            </div>
+            <div>
+               <head>Équipe</head>
+               <list>
+                  <item>Chef de projet : Frédérique Joannic-Seta</item>
+                  <item>Édition TEI et développement web : Josselin Morvan</item>
+               </list>
+            </div>
+            <div>
+               <head>Remerciements</head>
+               <p>Tout d’abord, nous souhaitons adresser toute notre gratitude à madame Frédérique Joannic-Seta, directrice adjointe de la BDIC, pour avoir rendu ce stage possible.</p>
+               <p>Nous souhaitons également remercier Jean-Baptiste Camps, tuteur pédagogique et responsable du master « technologies numériques appliquées à l’histoire » pour son enseignement et ses conseils avisés à propos du langage XML.</p>
+               <p>Enfin, nous nous devons également de remercier Emmanuel Château-Dutier pour son soutien et ses encouragements. Puis, que Camille Desenclos, Patrick Latour et Lionel Maurel acceptent ici notre gratitude pour leur soutien et leurs précieux conseils.</p>
+            </div>
             <div type="ressourcesExt">
                <list xml:id="liens_documentation">
-                  <!-- TODO schéma et documentation. -->
-                  <item><ref type="extLink" target="../../SCHEMA/bdic_modelisation.rng">Schéma TEI</ref></item>
-                  <item><ref type="extLink" target="../../SCHEMA/doc/documentation.html">Documentation (html)</ref></item>
-                  <item><ref type="extLink" target="../../SCHEMA/doc/documentation.pdf">Documentation (pdf)</ref></item>
+                  <item><ref type="extLink" target="../../SCHEMA/bdic_modelisation.rng">Répertoire github du projet</ref></item>
                </list>
             </div>
          </div>
@@ -268,11 +291,11 @@
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_202" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_202.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/140d3fca55"/>
          <graphic xml:id="BDIC_FD_1854_20_1_203" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_203.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/b13ecc5b7a">
-            <desc>TOULON - Mourillon - Boulevard du littoral</desc>
+            <desc>TOULON- Mourillon- Boulevard du littoral</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_204" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_204.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/adbace5776"/>
          <graphic xml:id="BDIC_FD_1854_20_1_199" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_199.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/ff2eaf8562">
-            <desc>TOULON. — Le Quai Cronstadt. -</desc>
+            <desc>TOULON. — Le Quai Cronstadt.-</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_200" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_200.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/4329918118"/>
       </facsimile>
@@ -424,11 +447,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_193" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_193.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/b8d2bd9b1e">
-            <desc>Toulon - Monument des combattants</desc>
+            <desc>Toulon- Monument des combattants</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_194" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_194.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/132813b5df"/>
          <graphic xml:id="BDIC_FD_1854_20_1_195" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_195.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/a00f7a134a">
-            <desc>Toulon - Caserne Gouvion Saint-Cyr</desc>
+            <desc>Toulon- Caserne Gouvion Saint-Cyr</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_196" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_196.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/2de8530625"/>
          <graphic xml:id="BDIC_FD_1854_20_1_191" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_191.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/09180b6b69">
@@ -577,7 +600,7 @@
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_106" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_106.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/76193a3d16"/>
          <graphic xml:id="BDIC_FD_1854_20_1_107" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_107.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/695fd64960">
-            <desc>Paysage de Kassandra à Macedoine</desc>
+            <desc>Paysage de Kassandra à Macédoine</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_108" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_108.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/66036f1ebf"/>
       </facsimile>
@@ -702,11 +725,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_033" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_033.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/3afbc31b70">
-            <desc>Salonique - Quai de Salonique</desc>
+            <desc>Salonique- Quai de Salonique</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_034" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_034.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/99b5c465e5"/>
          <graphic xml:id="BDIC_FD_1854_20_1_031" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_031.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/d00a9b524f">
-            <desc>Le Quai de Salonique - Grèce</desc>
+            <desc>Le Quai de Salonique- Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_032" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_032.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/a560d00b4c"/>
       </facsimile>
@@ -1078,7 +1101,7 @@
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_138" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_138.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/4739d6079a"/>
          <graphic xml:id="BDIC_FD_1854_20_1_135" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_135.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/9ee27af7a5">
-            <desc>Sculpture en relief de l'Arc de triomphe de Salonique</desc>
+            <desc>Sculpture en relief de l’arc de triomphe de Salonique</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_136" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_136.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/6a2e25e01e"/>
          <graphic xml:id="BDIC_FD_1854_20_1_120" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_120.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/3da98b21fb"/>
@@ -1097,10 +1120,10 @@
                               <expan>décembre</expan>
                            </choice> 1915</date></seg>
                      <seg type="salute"><persName ref="#Comtesse_Forest">Comtesse</persName>.</seg></seg> Je vous écris ces quelques <lb/>mots pour vous faire savoir de mes nouvelles que je suis toujours <lb/>en bonne santé et je désire qu'à l'arrivée de mes présentes cartes <lb/>que vous vous trouviez de même ainsi que votre jeune demoiselle<pc type="supplied">.</pc>
-                  <lb/>Par ici depuis environ 8 jours il se fait <sic>journelement</sic> des <lb/>quêtes à bord des bâtiments français<pc type="supplied">,</pc> anglais et russe <lb/>pour secourir ces malheureux réfugiés serbes qui sont <lb/>ici à <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1"/>. <name type="navire" ref="#Askold">Le bateau <lb/>russe l'<sic>AsKool</sic></name>, sa quête a produit 1200,<unclear><hi rend="superscript">¢</hi></unclear> moi ainsi <lb/>que mes camarades qui mangent à ma table nous avons <lb/>été trouver le commandant en chef pour en faire une de <lb/>quête il nous a <sic>accorder</sic> toute satisfaction il a même <lb/>trouvé que c'était très gentil de notre part. Pour nous <lb/>encourager il a mis 2 ƒ<hi rend="superscript">¢</hi> nous sommes cinq qui mangeont <lb/>à la même table et bien pour encourager nos camarades <lb/>nous avons mis chacun 5.<hi rend="superscript">¢</hi> ce qui fait 2 ƒ.<hi rend="superscript">¢</hi> à nous 5. <lb/>C'est un joli commencement. À la prochaine correspondance <lb/>que je vous enverrai comtesse je vous ferai savoir <lb/>le résultat de notre quête à quel total elle a montée<pc type="supplied">.</pc></p>
+                  <lb/>Par ici depuis environ 8 jours il se fait <sic>journelement</sic> des <lb/>quêtes à bord des bâtiments français<pc type="supplied">,</pc> anglais et russe <lb/>pour secourir ces malheureux réfugiés serbes qui sont <lb/>ici à <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1"/>. <name type="navire" ref="#Askold">Le bateau <lb/>russe l'<sic>Askool</sic></name>, sa quête a produit 1200,<unclear><hi rend="superscript">¢</hi></unclear> moi ainsi <lb/>que mes camarades qui mangent à ma table nous avons <lb/>été trouver le commandant en chef pour en faire une de <lb/>quête il nous a <sic>accorder</sic> toute satisfaction il a même <lb/>trouvé que c'était très gentil de notre part. Pour nous <lb/>encourager il a mis 2 ƒ<hi rend="superscript">¢</hi> nous sommes cinq qui mangeont <lb/>à la même table et bien pour encourager nos camarades <lb/>nous avons mis chacun 5.<hi rend="superscript">¢</hi> ce qui fait 2 ƒ.<hi rend="superscript">¢</hi> à nous 5. <lb/>C'est un joli commencement. À la prochaine correspondance <lb/>que je vous enverrai comtesse je vous ferai savoir <lb/>le résultat de notre quête à quel total elle a montée<pc type="supplied">.</pc></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_135" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_136"/>
-               <p><fw type="pageNum" rend="alignCenter">2</fw>Je crois que depuis quelques jours il est fortement question <lb/>de nous expédier de nouveau à <placeName ref="#Port_Said">Port Saïd</placeName> pour la sur<lb rend="hyphen" type="marked"/>veillance du <placeName ref="#Canal_Suez">canal de Suez</placeName>. J'en <sic>serait</sic> enchanté si ça <lb/>pouvait être vrai car là-bàs il ne fait si froid que dans <lb/>ce pays de <placeName ref="#Salonique">Salonique</placeName> où nous voyons plus le soleil voilà <lb/>au moins 15 jours par les temps humides qu'il fait <lb/>puisqu'il nous est impossible de pouvoir faire sécher <lb/>notre linge de corps et ce temps n'est pas encore fini. En <lb/>tous les cas si c'est vrai que nous y allons je ferai <lb/>parvenir ma nouvelle adresse la prochaine fois que <lb/>je vous écrirai. Par ailleurs rien de nouveau c'est à <lb/>peu près stationnaire sur le front serbe. Il est temps <lb/>que les Russes se pressent à envoyer leurs 400000 hommes <lb/>de troupes au secours des Serbes car ils commencent à <lb/>être bougrement épuisés les malheureux. Rien autre <lb/>chose à vous dire pour l'instant<pc type="supplied">.</pc>
+               <p><fw type="pageNum" rend="alignCenter">2</fw>Je crois que depuis quelques jours il est fortement question <lb/>de nous expédier de nouveau à <placeName ref="#Port_Said">Port Saïd</placeName> pour la sur<lb rend="hyphen" type="marked"/>veillance du <placeName ref="#Canal_Suez">canal de Suez</placeName>. J'en <sic>serait</sic> enchanté si ça <lb/>pouvait être vrai car là-bas il ne fait si froid que dans <lb/>ce pays de <placeName ref="#Salonique">Salonique</placeName> où nous voyons plus le soleil voilà <lb/>au moins 15 jours par les temps humides qu'il fait <lb/>puisqu'il nous est impossible de pouvoir faire sécher <lb/>notre linge de corps et ce temps n'est pas encore fini. En <lb/>tous les cas si c'est vrai que nous y allons je ferai <lb/>parvenir ma nouvelle adresse la prochaine fois que <lb/>je vous écrirai. Par ailleurs rien de nouveau c'est à <lb/>peu près stationnaire sur le front serbe. Il est temps <lb/>que les Russes se pressent à envoyer leurs 400000 hommes <lb/>de troupes au secours des Serbes car ils commencent à <lb/>être bougrement épuisés les malheureux. Rien autre <lb/>chose à vous dire pour l'instant<pc type="supplied">.</pc>
                   <seg type="closer">Un petit ami qui vous <lb/><sic>envoi</sic> ces meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>.</seg></p>
                <closer>
                   <signed><persName ref="#Horel"><forename>A</forename>
@@ -1287,7 +1310,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>10 rue Oudot 10</addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address><stamp type="postmark" subtype="departure"><orgName>Postes-navales Medit. D.</orgName>
                      <date when="1916-04-10">10-4 16</date></stamp></p>
@@ -1307,7 +1330,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d'Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d’Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178" status="draft"/>
                </note>
             </div>
          </back>
@@ -1438,7 +1461,7 @@
                <pb n="1" facs="#BDIC_FD_1854_20_1_059"/>
                <p><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
-                     <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>
+                     <addrLine><del hand="#other" rend="overline">Hôtel de Bains</del></addrLine>
                      <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary">Sanary-<choice>
                                  <abbr>s/</abbr>
                                  <expan>sur</expan>
@@ -1449,7 +1472,7 @@
                      <address>
                         <addrLine>48 rue de la Comédie</addrLine>
                         <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                        <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                        <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      </address>
                   </add><stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_060"/>
@@ -1653,7 +1676,7 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_129" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_129.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/60001bdb1a">
-            <desc>Souvenir de Salonique cimetière turcs derrière l'Enceinte de la ville</desc>
+            <desc>Souvenir de Salonique cimetière turcs derrière l’enceinte de la ville</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_130" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_130.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/908799aa34"/>
          <graphic xml:id="BDIC_FD_1854_20_1_131" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_131.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/88b7350d61">
@@ -1694,7 +1717,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_notea" n="a">La correspondance se poursuit au recto de cette carte-lettre.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d'Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d’Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147" status="draft"/></note>
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les Grecs restent une menace pour les troupes alliées.<!-- Page 143 : la conservation de Salonique est une priorité--><bibl corresp="#Schiavon_front" n="222" status="draft"/></note>
             </div>
          </back>
@@ -1803,7 +1826,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse de La Forest</persName>
                      <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus> à</addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address>
                   <pb n="3" facs="#BDIC_FD_1854_20_1_019" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_020"/><fw type="pageNum" rend="alignLeft">(2)</fw>l'offensif que quand <sic>tous</sic> les troupes serbes <lb/>seront concentrées à <placeName ref="#Salonique">Salonique</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_note1"/> en ce <lb/>moment il en arrive tous les jours des serbes <lb/>ainsi que beaucoup de chevaux pour la cavalerie<pc type="supplied">.</pc>
@@ -1814,7 +1837,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse de La Forest</persName>
                      <addrLine>10 rue Oudot <surplus reason="repeated">10</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address></closer>
             </div>
@@ -1824,7 +1847,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_15-04-1916_notea"/></addrLine>
                   </address>
                   <stamp type="postmark"><orgName><supplied>Postes-navales Medit. D.</supplied></orgName>
@@ -1942,7 +1965,8 @@
                <p>Venant de recevoir mes photographies à l'instant je <lb/>profite pour vous en faire parvenir une vous me <lb/>trouverez changé car je garde toute ma barbe pour <lb/>ressembler à un véritable vieux poilu. À votre idée <lb/>vous me direz si j'ai maigri ou <sic>engraisser</sic>. C'est <lb/>loin d'être réussi j'ai la joue droite qui paraît toute <lb/><del rend="overline">pe</del><!--TODO illisible--> enflée on dirait que j'aurai une chique dans la <lb/>bouche pourtant je ne chique ni fume pas. En plus <lb/>j'ai la main droite toute noire on dirait que je <lb/>viendrai<subst rend="overwritten">
                      <del>t</del>
                      <add>s</add>
-                  </subst> de faire le charbon, les galons on ne les <lb/>voit pas non plus. Enfin ça ne fait vous verrez que <lb/>je suis toujours vivant et en parfaite santé et <lb/>je souhaite de grand cœur que vous en êtes de <lb/>même ainsi que votre fille et sa petite gosse<pc type="supplied">.</pc> <seg type="closer">Un petit ami qui ne vous oublieras jamais<pc type="supplied">,</pc></seg></p>
+                  </subst> de faire le charbon, les galons on ne les <lb/>voit pas non plus. Enfin ça ne fait vous verrez que <lb/>je suis toujours vivant et en parfaite santé et <lb/>je souhaite de grand cœur que vous en êtes de <lb/>même ainsi que votre fille et sa petite gosse<pc type="supplied">.</pc>
+                  <seg type="closer">Un petit ami qui ne vous oublieras jamais<pc type="supplied">,</pc></seg></p>
                <closer>
                   <signed><persName ref="#Horel"><forename>A</forename>. <surname>Horel</surname></persName></signed>
                </closer>
@@ -1971,7 +1995,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2095,7 +2119,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2154,11 +2178,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_051" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_051.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/93ee74c71c">
-            <desc>Salonique - Quai des Messageries Maritimes</desc>
+            <desc>Salonique- Quai des Messageries Maritimes</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_052" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_052.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/76cc95ad88"/>
          <graphic xml:id="BDIC_FD_1854_20_1_049" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_049.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/c4bc964a00">
-            <desc>Salonique - Vue Panoramique de Salonique</desc>
+            <desc>Salonique- Vue Panoramique de Salonique</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_050" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_050.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/0461e4c0d4"/>
          <graphic xml:id="BDIC_FD_1854_20_1_053" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_053.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/b53f328d06"/>
@@ -2202,7 +2226,7 @@
                <pb n="1" facs="#BDIC_FD_1854_20_1_053"/>
                <p><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
-                     <addrLine><del hand="#other" rend="overline">Hotel de Bains</del></addrLine>
+                     <addrLine><del hand="#other" rend="overline">Hôtel de Bains</del></addrLine>
                      <addrLine><del hand="#other" rend="overline"><placeName ref="#Sanary">Sanary-<choice>
                                  <abbr>s/</abbr>
                                  <expan>sur</expan>
@@ -2213,7 +2237,7 @@
                      <address>
                         <addrLine>48 rue de la Comédie</addrLine>
                         <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                        <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                        <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      </address>
                   </add><stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp></p>
                <pb n="2" facs="#BDIC_FD_1854_20_1_054"/>
@@ -2260,7 +2284,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2303,7 +2327,7 @@
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_10-11-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-11-10">10 novembre 1915</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Salonique_23-11-1915">
@@ -2348,8 +2372,7 @@
                      </choice> G Locke</persName> avocat à la cour d'appel <lb/>mais vous avez oublié comtesse de me dire à laquelle <lb/>de cour d'appel il se trouve je lui ai adressé la lettre <lb/>à la cour d'appel de <placeName ref="#Paris">Paris</placeName> je pense que si ce n'est pas <lb/>là on lui la fera bien parvenir.</p>
                <closer><salute><add place="postcard_1 marginTop" rend="reverse">Un petit ami qui ne vous <sic>oublieras</sic>
                         <lb/>jamais<pc type="supplied">,</pc></add></salute><signed><add type="signed" place="postcard_1 marginTop" rend="reverse"><persName ref="#Horel"><forename>A</forename>
-                           <surname>Horel</surname></persName></add></signed>
-                  <lb/><add place="postcard_1 marginTop" rend="reverse">Toujours la même adresse<pc type="supplied">.</pc></add></closer>
+                           <surname>Horel</surname></persName></add></signed><lb/><add place="postcard_1 marginTop" rend="reverse">Toujours la même adresse<pc type="supplied">.</pc></add></closer>
             </div>
          </body>
          <back>
@@ -2381,7 +2404,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2439,11 +2462,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_047" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_047.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/5dda6055f9">
-            <desc>Vue occidentale de colonnes du temple de Jupiter - Athènes</desc>
+            <desc>Vue occidentale de colonnes du temple de Jupiter- Athènes</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_048" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_048.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/fa99d59fae"/>
          <graphic xml:id="BDIC_FD_1854_20_1_045" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_045.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/739eb5c7b1">
-            <desc>Vue d'Athènes prise d'Aréopage - Athènes</desc>
+            <desc>Vue d’Athènes prise d’Aréopage- Athènes</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_046" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_046.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/9d039a80ad"/>
       </facsimile>
@@ -2501,7 +2524,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2633,7 +2656,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2747,7 +2770,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2849,7 +2872,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -2907,7 +2930,7 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_063" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_063.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/dfa392f238">
-            <desc>Nouveau Phalere</desc>
+            <desc>Nouveau Phalère</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_064" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_064.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/d721af7df1"/>
          <graphic xml:id="BDIC_FD_1854_20_1_061" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_061.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/47ba9ac245">
@@ -2985,7 +3008,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3076,7 +3099,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forest</persName>
                      <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address>
                </closer>
@@ -3087,7 +3110,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>10 rue Oudot<surplus reason="repeated">10</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address>
                   <stamp type="army">Marine française Service à la mer</stamp>
@@ -3137,7 +3160,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3195,15 +3218,15 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_043" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_043.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/16fdbda0e0">
-            <desc>Grande Rue du Vardar Salonique - Grèce</desc>
+            <desc>Grande Rue du Vardar Salonique- Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_044" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_044.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/44c5bda5e3"/>
          <graphic xml:id="BDIC_FD_1854_20_1_041" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_041.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/531987a906">
-            <desc>GUERRE GRECOTURQUE - JANINA</desc>
+            <desc>GUERRE GRECOTURQUE- JANINA</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_042" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_042.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/efd09f0420"/>
          <graphic xml:id="BDIC_FD_1854_20_1_039" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_039.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/71ca717170">
-            <desc>Vue générale de Salonique - Grèce</desc>
+            <desc>Vue générale de Salonique- Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_040" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_040.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/68d69b27e8"/>
       </facsimile>
@@ -3223,7 +3246,7 @@
                <pb n="4" facs="#BDIC_FD_1854_20_1_042"/>
                <p><fw type="pageNum" rend="alignRight">(2)</fw>Comtesse pour la question de voir votre neveu je ferai <lb/>tout mon possible pour essayer de le trouver je vais <lb/>demander l'autorisation de me laisser descendre à <lb/>terre une après midi et pour mieux le trouver je <lb/>vais m'adresser à un camp anglais qui se trouve <lb/>à coté de l'intendance où nous prenons nos vivres <lb/>peut être pourrais-je les trouver tous deux. Enfin je <lb/>tâcherai de faire pour le mieux de leur envoyer la <lb/>carte de visite qui leur <sic>ai</sic>
                   <sic>du</sic>. Nous sommes comtesse <lb/>Bretons et Irlandais de la même race et non <del rend="overline">comme</del>
-                  <lb/>rien de l'Anglais. Car ce n'est plus du sang breton <lb/>qu'ont les Anglais. Tant qu'à la victoire nous l'aurons <lb/>mais ce sera long. Oui on peut dire qu'il font des efforts <lb/>terribles et pour aboutir à quoi<pc type="supplied"> ?</pc> À faire <sic>tué</sic> leurs hommes <lb/>inutilement. Mes camarades se joignent à moi pour vous <lb/>envoyer nos meilleurs souvenirs et vous remercie <lb/>beaucoup d'avoir <sic>penser</sic> à nous pour avoir envoyé des <lb/>bouquins. Depuis que vous êtes <sic>partis</sic> comtesse de <placeName ref="#Sanary">Sanary</placeName>
+                  <lb/>rien de l’Anglais. Car ce n'est plus du sang breton <lb/>qu'ont les Anglais. Tant qu'à la victoire nous l'aurons <lb/>mais ce sera long. Oui on peut dire qu'il font des efforts <lb/>terribles et pour aboutir à quoi<pc type="supplied"> ?</pc> À faire <sic>tué</sic> leurs hommes <lb/>inutilement. Mes camarades se joignent à moi pour vous <lb/>envoyer nos meilleurs souvenirs et vous remercie <lb/>beaucoup d'avoir <sic>penser</sic> à nous pour avoir envoyé des <lb/>bouquins. Depuis que vous êtes <sic>partis</sic> comtesse de <placeName ref="#Sanary">Sanary</placeName>
                   <lb/>je vous ai adressé encore 3 courriers un daté du <date when="1916-03-04">4 mars</date><pc type="supplied">,</pc>
                   <pb n="5" facs="#BDIC_FD_1854_20_1_039" type="postcardBreak"/><pb n="6" facs="#BDIC_FD_1854_20_1_040"/><fw type="pageNum" rend="alignRight">(3)</fw>le 2<hi rend="superscript">ème</hi> daté du <date when="1916-03-10">10 mars</date> et le 3<hi rend="superscript">ème</hi> du <date when="1916-03-16">16</date> et celui-ci <lb/>que je vous adresse à <placeName ref="#Beaune">Beaune</placeName>. <del rend="overline">au</del> De <persName ref="#G_Locke">monsieur Locke</persName>
                   <lb/>j'ai reçu un mot il y a environ 1 mois je lui ai fait <lb/>réponse en le remerciant. Si cette fois ça réussirait <lb/>pour <rs type="person" ref="#Horel_Louis">mon frère</rs> qu'il en sorte et que l'on soit quitte <lb/>après de faire tant de démarches. Il serait lui aussi <lb/>si heureux de s'en aller sur le front pour racheter <lb/>sa faute. J'ai été heureux d'avoir de vos nouvelles <lb/>car pendant plus d'un mois je n'étais pas <sic>tranquile</sic>
@@ -3259,7 +3282,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3341,9 +3364,9 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea"/></addrLine>
-                  </address><pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <sic><persName ref="#Kitchener">Lord Kichner</persName></sic> qui prend le commandement des troupes <lb/>de l'armée d'Orient mais il sera en sous ordre du <sic><persName ref="#Sarrail">général <lb/>Sarail</persName></sic>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
+                  </address><pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <sic><persName ref="#Kitchener">Lord Kichner</persName></sic> qui prend le commandement des troupes <lb/>de l'armée d’Orient mais il sera en sous ordre du <sic><persName ref="#Sarrail">général <lb/>Sarail</persName></sic>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
                   <supplied reason="omitted">et</supplied> un <lb/>cache nez. J'ai tout ce qu'il faut pour pouvoir résister à <lb/>n'<sic>apporte</sic> quel hiver. Rien de nouveau à vous annoncer par <lb/>ailleurs. Que de vous souhaiter <del rend="overline">et</del> une bonne santé ainsi <lb/>que votre demoiselle. Car tant qu'à la mienne on ne peut <lb/>être mieux portant<pc type="supplied">.</pc>
                   <seg type="closer">Un petit ami qui ne vous <sic>oublieras</sic> jamais,</seg></p>
                <closer>
@@ -3357,7 +3380,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine><del hand="#other" rend="overline">48 rue de la Comédie <surplus reason="repeated">48</surplus></del></addrLine>
                      <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune">Beaune</placeName></del></addrLine>
-                     <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor">Côte-d'Or</placeName></del></addrLine>
+                     <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor">Côte-d’Or</placeName></del></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea"/></addrLine>
                   </address>
                   <add hand="#other">
@@ -3414,7 +3437,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3523,7 +3546,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3581,11 +3604,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_081" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_081.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/f7ee4a808a">
-            <desc>Une vue deZante</desc>
+            <desc>Une vue de Zante</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_082" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_082.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/24fe20f17f"/>
          <graphic xml:id="BDIC_FD_1854_20_1_079" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_079.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/3f9f34559f">
-            <desc>Corinth — Temple de Minerva Chalinitis</desc>
+            <desc>Corinthe — Temple de Minerva Chalinitis</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_080" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_080.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/d6bb9db9f6"/>
       </facsimile>
@@ -3636,7 +3659,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3695,11 +3718,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_009" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_009.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/018cc395ec">
-            <desc>Ile d'Eubée Karistos</desc>
+            <desc>Île d'Eubée Karistos</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_010" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_010.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/b76007b269"/>
          <graphic xml:id="BDIC_FD_1854_20_1_007" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_007.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/27b0d15955">
-            <desc>ATHÈNES. Eglise St. Elefterios</desc>
+            <desc>ATHÈNES. Église St. Elefterios</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_008" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_008.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/e283c21d6d"/>
          <graphic xml:id="BDIC_FD_1854_20_1_011" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_011.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/d1055f0b3c"/>
@@ -3728,7 +3751,7 @@
                   <lb/>pour finir. Enfin je souhaite de tout cœur qui ne <lb/>lui arrive rien à <persName ref="#Gauthier"><choice>
                         <abbr>M<hi rend="superscript">ieur</hi></abbr>
                         <expan>monsieur</expan>
-                     </choice> Gauthier</persName>. Vos neveux sont en <lb/><placeName ref="#France">France</placeName> dans le nord. J'ai descendu 3 fois à terre <lb/>pour me renseigner <supplied reason="omitted">et</supplied> savoir où <sic>il</sic> se <sic>trouvait</sic> j'ai été <lb/>il y a 3 jours au consulat d'Angleterre ils m'ont <lb/>répondu que ce nom était inconnu dans l'armée <lb/>d'Orient aux <placeName ref="#Dardanelles">Dardanelles</placeName> oui ils y étaient mais à <lb/><placeName ref="#Salonique">Salonique</placeName> non ils ne sont pas <sic>venu</sic>. J'ai <sic>remercier</sic> le <lb/>consul de m'avoir si bien <sic>renseigner</sic> et je vois <lb/>maintenant par votre carte qu'ils sont tous les deux <lb/>en <placeName ref="#France">France</placeName>. Moi de ce coté, je crois que les Bulgares vont <lb/>voir du rude quand nous allons prendre l'offensif<ref type="note" target="#F_delta_1854_20_1_Salonique_27-04-1916_note1"/>
+                     </choice> Gauthier</persName>. Vos neveux sont en <lb/><placeName ref="#France">France</placeName> dans le nord. J'ai descendu 3 fois à terre <lb/>pour me renseigner <supplied reason="omitted">et</supplied> savoir où <sic>il</sic> se <sic>trouvait</sic> j'ai été <lb/>il y a 3 jours au consulat d’Angleterre ils m'ont <lb/>répondu que ce nom était inconnu dans l'armée <lb/>d’Orient aux <placeName ref="#Dardanelles">Dardanelles</placeName> oui ils y étaient mais à <lb/><placeName ref="#Salonique">Salonique</placeName> non ils ne sont pas <sic>venu</sic>. J'ai <sic>remercier</sic> le <lb/>consul de m'avoir si bien <sic>renseigner</sic> et je vois <lb/>maintenant par votre carte qu'ils sont tous les deux <lb/>en <placeName ref="#France">France</placeName>. Moi de ce coté, je crois que les Bulgares vont <lb/>voir du rude quand nous allons prendre l'offensif<ref type="note" target="#F_delta_1854_20_1_Salonique_27-04-1916_note1"/>
                   <lb/>car des troupes serbes il en arrive tous les jours.</p>
                <closer>
                   <salute><add place="marginRight" rend="vertical">Un petit ami qui vous envoie ses</add>
@@ -3744,7 +3767,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>10 rue Oudot <surplus reason="repeated">10</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">à Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address><stamp type="postmark"><orgName>Postes-navales Medit. D.</orgName>
                      <date cert="high" when="1916-04-27">27-4 16</date></stamp></p>
@@ -3790,7 +3813,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -3848,11 +3871,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_115" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_115.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/d49b40a6f4">
-            <desc>Souvenir de Salonique l'Auto Royal stationnant devant la porte de l'Eglise St. Minas</desc>
+            <desc>Souvenir de Salonique l’auto Royal stationnant devant la porte de l’Église St. Minas</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_116" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_116.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/8b1ffd76af"/>
          <graphic xml:id="BDIC_FD_1854_20_1_113" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_113.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/a65d741133">
-            <desc>Souvenir de Salonique Ex Eglise St. Georges</desc>
+            <desc>Souvenir de Salonique Ex Église St. Georges</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_114" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_114.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/1f6164fdb4"/>
          <graphic xml:id="BDIC_FD_1854_20_1_111" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_111.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/fbb8e9583c"/>
@@ -3955,7 +3978,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4013,11 +4036,11 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_037" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_037.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/ab01a92262">
-            <desc>Pazar «Oun-Capan Salonique - Grèce</desc>
+            <desc>Pazar «Oun-Capan Salonique- Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_038" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_038.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/2459301664"/>
          <graphic xml:id="BDIC_FD_1854_20_1_035" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_035.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/9f78821281">
-            <desc>Vue générale de Salonique - Grèce</desc>
+            <desc>Vue générale de Salonique- Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_036" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_036.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/13e7dc0630"/>
       </facsimile>
@@ -4029,7 +4052,7 @@
                <opener><dateline>Bord <placeName ref="#Salonique">Salonique</placeName>
                      <date when="1916-03-28">le 28 Mars 1916</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
-               <p>Je vous écris ces quelques mots pour vous <lb/>donner de mes nouvelles que je suis toujours <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'à l'arrivée de ces 2 <lb/>cartes que vous en êtes de même ainsi que votre <lb/>fille et petite fille. Les sous-marins boches <lb/>on fait encore des leurs ils nous ont <lb/><sic>torpiller</sic> un chalutier qui faisait parti <lb/>de mon groupe étant à <placeName ref="#Salonique">Salonique</placeName> car <lb/>il y a eu 4 qui sont <sic>parti</sic> pour <placeName ref="#Corfou">Corfou</placeName> mais <lb/>comme nous étions <sic>charger</sic> d'un secteur <lb/>utile ce sont 4 autres qui ont été <sic>designé</sic>
+               <p>Je vous écris ces quelques mots pour vous <lb/>donner de mes nouvelles que je suis toujours <lb/>en bonne <supplied reason="omitted">santé</supplied> et souhaite qu'à l'arrivée de ces 2 <lb/>cartes que vous en êtes de même ainsi que votre <lb/>fille et petite fille. Les sous-marins boches <lb/>on fait encore des leurs ils nous ont <lb/><sic>torpiller</sic> un chalutier qui faisait parti <lb/>de mon groupe étant à <placeName ref="#Salonique">Salonique</placeName> car <lb/>il y a eu 4 qui sont <sic>parti</sic> pour <placeName ref="#Corfou">Corfou</placeName> mais <lb/>comme nous étions <sic>charger</sic> d'un secteur <lb/>utile ce sont 4 autres qui ont été <sic>désigné</sic>
                   <lb/>à notre place et sur ces 4 il y a eu un de <lb/><sic>couler</sic> je crois par un sous-marin <lb/>autrichien pour le nombre de mort <pb n="3" facs="#BDIC_FD_1854_20_1_035" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_036"/><fw type="pageNum" rend="alignRight">(2)</fw>je ne peux vous le dire en ce moment mais <lb/>dans une dizaine de jours je vous le dirai exactement<pc type="supplied">.</pc>
                   <lb/>Ces jours derniers nous avons eu un biplan <lb/>d'abattu par les Bulgares le pilote était <lb/>un salonicien et l'observateur un français<pc type="supplied">,</pc>
                   <lb/>Ils ont été tués tous les deux. Par ailleurs <lb/>rien de nouveau. Tant qu'à votre commission <lb/>comtesse je n'ai pas eu encore aucune <lb/>occasion pour la faire car nous avons <lb/><sic>appareiller</sic> pour 6 jours je pense la faire <lb/>dans une quinzaine de jours environ<pc type="supplied">.</pc>
@@ -4043,7 +4066,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d'Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d’Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
                </note>
             </div>
          </back>
@@ -4070,7 +4093,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4138,7 +4161,7 @@
          <graphic xml:id="BDIC_FD_1854_20_1_141" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_141.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/4400ceab49"/>
          <graphic xml:id="BDIC_FD_1854_20_1_142" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_142.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/0fc2fc214a"/>
          <graphic xml:id="BDIC_FD_1854_20_1_139" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_139.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/e647a3b960">
-            <desc>MANDAMADOS. L'église de l'Archange St. Michel vue extérieure.</desc>
+            <desc>MANDAMADOS. L'église de l’Archange St. Michel vue extérieure.</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_140" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_140.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/7a1fac3875"/>
       </facsimile>
@@ -4154,9 +4177,9 @@
                   <lb/>mais le plus à plaindre pour eux c'est les pieds <lb/>nous autres aussi <sic>le marin</sic> nous souffrons beau<lb rend="hyphen"/>coup du froid. Car nous sommes en faction à un <lb/>canon des 2 heures entières le nez au vent. Quand <lb/>nous quittons ce poste pénible pour aller nous <lb/>coucher il est impossible de nous réchauffer les <lb/>pieds. Car à bord la nuit c'est défendu de marcher <lb/>sur le pont pour ne pas empêcher son camarade <pb n="3" facs="#BDIC_FD_1854_20_1_143" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_144"/><fw type="pageNum" rend="alignCenter">2</fw>qui se trouve dessous de dormir. Nous sommes <lb/><sic>obligé</sic> de rester <sic>planté</sic> 2 heures avec ce système <lb/>on est forcé d'avoir les pieds plus ou moins <sic>froid</sic><pc type="supplied">.</pc>
                   <lb/>Pas <sic>plutard</sic> que hier pour mon compte j'ai fait <lb/>4 heures de service sur la passerelle avec mes <lb/>hommes à une pièce de canon pour veiller contre <lb/>les sous-marins une fois terminé ces 4 heures je <lb/>suis parti me coucher j'avais les pieds gelés <lb/>j'ai été au moins deux heures dans mon hamac <lb/>sans pouvoir me les réchauffer pourtant j'étais <lb/>bien chaussé. J'avais dans les pieds 2 paires <lb/>de chaussettes une paire de chaussons bourrés <lb/>et une paire de sabot. Il n'y a pas moyen de <lb/>tenir la chaleur le vent passe à travers les <lb/>chaussettes. Aujourd'hui la neige a tout de même <lb/><sic>commencée</sic> à <sic>cessé</sic> de tomber. Ce n'est pas dommage. <lb/>Et dire que nous sommes qu'au commencement <pb n="5" facs="#BDIC_FD_1854_20_1_141" type="postcardBreak"/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
-                     <addrLine>48 rue de la Comedie <surplus reason="repeated">48</surplus></addrLine>
+                     <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_30-11-1915_notea"/></addrLine>
                   </address><pb n="5" facs="#BDIC_FD_1854_20_1_142"/><fw type="pageNum" rend="alignCenter">3</fw>de l'hiver nous n'avons pas encore fini nos souffrances <lb/>ce sera un<del rend="overline">e</del> hiver rude pour nous dans ces Balkans. <lb/>Des troupes il en arrive tous les jours. De <placeName ref="#Port_Said">Port-Saïd</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_30-11-1915_note1"/>
                   <lb/>il doit <sic>arrivé</sic> 38 cargots chargés de troupes <lb/>anglaises environ 50 à 60 mille hommes. Ce sont <lb/>les troupes qui se trouvaient échelonnées sur tout <lb/><placeName ref="#Canal_Suez">le canal de Suez</placeName>. De <placeName ref="#France">France</placeName> il en arrive aussi tous <lb/>les jours ainsi que du matériel en masse. Il en <lb/>faut pour ces maudits Bulgares pour les dérouter <lb/>complètement. Rien autre à vous dire pour <lb/>le moment un petit ami qui ne vous oublieras <lb/>jamais. Je <del rend="overline"><unclear>su</unclear></del> vous souhaite une bonne santé <lb/>ainsi qu'à votre demoiselle car tant qu'à la <lb/>mienne elle est parfaite.</p>
@@ -4199,7 +4222,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4261,7 +4284,7 @@
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_096" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_096.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/fa7a73a1e7"/>
          <graphic xml:id="BDIC_FD_1854_20_1_093" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_093.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/32c0ad7465">
-            <desc>L'Eglise Ste-Catherine à Salonique</desc>
+            <desc>L’Église Ste-Catherine à Salonique</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_094" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_094.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/604df91dda"/>
       </facsimile>
@@ -4332,7 +4355,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4390,7 +4413,7 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_071" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_071.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/ba63ca0761">
-            <desc>L’église du Prohète Élie à Salonique — Grèce</desc>
+            <desc>L’église du Prophète Élie à Salonique — Grèce</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_072" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_072.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/9572395cea"/>
       </facsimile>
@@ -4429,7 +4452,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 03 novembre 1915</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, le 03 novembre 1915</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -4445,7 +4468,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4461,7 +4484,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 03 novembre 1915</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, le 03 novembre 1915</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -4481,20 +4504,20 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-11-03">le 03 novembre 1915</date>
                </correspAction>
                <correspContext>
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date notBefore="1915-10-27" notAfter="1915-11-03">date inconnue</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_10-11-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-11-10">10 novembre 1915</date>
                   </ref>
                </correspContext>
@@ -4503,7 +4526,7 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_163" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_163.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/f2f512453e">
-            <desc>Occupation de Mételin. Le debarquement des troupes hellènes.</desc>
+            <desc>Occupation de Mételin. Le débarquement des troupes hellènes.</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_164" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_164.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/16056fc6c4"/>
          <graphic xml:id="BDIC_FD_1854_20_1_161" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_161.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/a1198601bb">
@@ -4522,14 +4545,14 @@
                            <expan>novembre</expan>
                         </choice> 1915</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
-               <p>Ces jours derniers <name type="navire" ref="#Goeland">le chalutier français le Goéland</name> a capturé <lb/>sur la côte d'Asie 12 contrebandiers qui se trouvaient <lb/>dans une barcasse dans laquelle ces messieurs avaient <lb/>12 boeufs qu'ils tuaient un à un quand ils trouvaient <lb/>un <sic>sous-marins</sic> boche. Nous leurs avons <sic>confisquer</sic>
+               <p>Ces jours derniers <name type="navire" ref="#Goeland">le chalutier français le Goéland</name> a capturé <lb/>sur la côte d’Asie 12 contrebandiers qui se trouvaient <lb/>dans une barcasse dans laquelle ces messieurs avaient <lb/>12 bœufs qu'ils tuaient un à un quand ils trouvaient <lb/>un <sic>sous-marins</sic> boche. Nous leurs avons <sic>confisquer</sic>
                   <lb/>le tout et nous les avons fait renfermer. Ce même <lb/>jour il a été pris une petite pirogue chargée de <lb/>poissons qui voguait sur la mer attendant qu'un sous-<lb/>marin se relève de plongée <lb/>paré<del rend="overline">e</del> à l'approvisionner<pc type="supplied">.</pc>
                   <lb/>Dans cette petite pirogue il <lb/>y avait 2 hommes nous les <lb/>avons fait prisonniers presque <lb/>tous les jours les chalutiers <lb/>en capture<pc type="supplied">.</pc>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>48 rue de la Comédie<surplus reason="repeated"> 48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_03-11-1915_notea"/></addrLine>
                   </address></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_161" type="postcardBreak"/>
@@ -4541,7 +4564,7 @@
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>48 rue de la Comédie<surplus reason="repeated"> 48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
-                     <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                     <addrLine><placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address></closer>
             </div>
@@ -4558,7 +4581,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 09 octobre 1915</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, le 09 octobre 1915</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -4574,7 +4597,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4590,7 +4613,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 09 octobre 1915</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, le 09 octobre 1915</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -4610,7 +4633,7 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-10-09">le 09 octobre 1915</date>
                </correspAction>
                <correspContext>
@@ -4623,7 +4646,7 @@
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_20-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-20">20 octobre 1915</date>
                   </ref>
                </correspContext>
@@ -4667,8 +4690,8 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l'Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l'Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l’Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l’Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire" status="draft"/></note>
                <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">Devant faire face à des divisions internes aboutissant au «schisme national», <placeName ref="#Grece">la Grèce</placeName> n'entrera véritablement en guerre qu'à l'été 1917.<bibl corresp="#Grece_centenaire" status="draft"/></note>
                <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4">La campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> est un échec pour les alliés. <placeName ref="#Serbie">La Serbie</placeName>, menacée par <placeName ref="#Bulgarie">la Bulgarie</placeName>, devient un prétexte au désengagement des troupes sans donner l'impression d'avoir à faire face à un échec important.<bibl corresp="#Schiavon_front" status="draft"/>
                </note>
@@ -4681,7 +4704,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 10 novembre 1915</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, le 10 novembre 1915</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -4697,7 +4720,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4713,7 +4736,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 10 novembre 1915</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, le 10 novembre 1915</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -4735,14 +4758,14 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-11-10">le 10 novembre 1915</date>
                </correspAction>
                <correspContext>
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_03-11-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-11-03">03 novembre 1915</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Salonique_16-11-1915">
@@ -4798,7 +4821,7 @@
                      <addrLine>France</addrLine>
                      <addrLine><del hand="#other" rend="overline">48 rue de la Comédie <surplus reason="repeated">48</surplus></del></addrLine>
                      <addrLine><del hand="#other" rend="overline"><placeName ref="#Beaune">Beaune</placeName></del></addrLine>
-                     <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor">Côte-d'Or</placeName></del></addrLine>
+                     <addrLine><del hand="#other" rend="overline"><placeName ref="#Cote_Dor">Côte-d’Or</placeName></del></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address><add hand="#other">
                      <address>
@@ -4824,9 +4847,9 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé. Cannoné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé. Canonné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
                </note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseilles</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseille</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
          </back>
       </text>
@@ -4836,7 +4859,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 20 octobre 1915</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, le 20 octobre 1915</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -4852,7 +4875,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -4868,7 +4891,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 20 octobre 1915</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, le 20 octobre 1915</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -4888,20 +4911,20 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-10-20">le 20 octobre 1915</date>
                </correspAction>
                <correspContext>
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_09-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-09">09 octobre 1915</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_27-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-27">27 octobre 1915</date>
                   </ref>
                </correspContext>
@@ -4976,7 +4999,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, le 27 octobre 1915</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, le 27 octobre 1915</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -4992,7 +5015,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5008,7 +5031,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, le 27 octobre 1915</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, le 27 octobre 1915</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -5028,14 +5051,14 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-10-27">le 27 octobre 1915</date>
                </correspAction>
                <correspContext>
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_20-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-20">20 octobre 1915</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11">
@@ -5085,7 +5108,7 @@
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
-               <title>Armand Horel à la comtesse de La Forêst, Port Iero, date inconnue</title>
+               <title>Armand Horel à la comtesse de La Forêst, Port Iéro, date inconnue</title>
                <author>Armand Horel</author>
                <editor>
                   <orgName>B.D.I.C.</orgName>
@@ -5101,7 +5124,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5117,7 +5140,7 @@
                      <settlement>Nanterre</settlement>
                      <repository>Bibliothèque de Documentation Internationale Contemporaine</repository>
                      <idno>F ∆ 1854/20</idno>
-                     <msName>Armand Horel à la comtesse de La Forêst, Port Iero, date inconnue</msName>
+                     <msName>Armand Horel à la comtesse de La Forêst, Port Iéro, date inconnue</msName>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -5137,20 +5160,20 @@
                <correspAction>
                   <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                   <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                  <placeName ref="#Port_Iero">Port Iero</placeName>
+                  <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date notBefore="1915-10-27" notAfter="1915-11-03">date inconnue</date>
                </correspAction>
                <correspContext>
                   <ref type="previous" target="#F_delta_1854_20_1_Port_Iero_27-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-27">27 octobre 1915</date>
                   </ref>
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_03-11-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-11-03">03 novembre 1915</date>
                   </ref>
                </correspContext>
@@ -5217,7 +5240,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5266,7 +5289,7 @@
                   <ref type="next" target="#F_delta_1854_20_1_Port_Iero_09-10-1915">
                      <persName type="sentBy" ref="#Horel">Armand Horel</persName>
                      <persName type="deliveredTo" ref="#Comtesse_Forest">la comtesse de La Forêst</persName>
-                     <placeName ref="#Port_Iero">Port Iero</placeName>
+                     <placeName ref="#Port_Iero">Port Iéro</placeName>
                      <date when="1915-10-09">09 octobre 1915</date>
                   </ref>
                </correspContext>
@@ -5275,7 +5298,7 @@
       </teiHeader>
       <facsimile>
          <graphic xml:id="BDIC_FD_1854_20_1_177" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_177.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/e2cb61e40a">
-            <desc>L'Eglise St Therapion, Mételin</desc>
+            <desc>L’Église St Therapion, Mételin</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_178" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_178.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/b120ed298a"/>
       </facsimile>
@@ -5332,7 +5355,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5424,7 +5447,7 @@
                   </address></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_187" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_188"/>
-               <p><fw type="pageNum" rend="alignLeft">.2.</fw>Pour votre commission <lb/>comtesse je ferai tout mon <lb/>possible pour vous la transmettre <lb/>pas peut être de suite mais <lb/>tôt ou tard si ils faisaient <lb/>comme la dernière fois que <lb/>nous étions là-bàs ils ont <lb/>envoyé 2 quartiers maîtres <lb/>fusiliers et un major canonnier <lb/>à terre aux <placeName ref="#Dardanelles">Dardanelles</placeName>
+               <p><fw type="pageNum" rend="alignLeft">.2.</fw>Pour votre commission <lb/>comtesse je ferai tout mon <lb/>possible pour vous la transmettre <lb/>pas peut être de suite mais <lb/>tôt ou tard si ils faisaient <lb/>comme la dernière fois que <lb/>nous étions là-bas ils ont <lb/>envoyé 2 quartiers maîtres <lb/>fusiliers et un major canonnier <lb/>à terre aux <placeName ref="#Dardanelles">Dardanelles</placeName>
                   <lb/>je ferai faire votre commission <lb/>par l'un d'eux mais en tous <lb/>les cas je vais faire mon <lb/>possible. En même temps <lb/>que de vous écrire <persName ref="#Comtesse_Forest">comtesse</persName><pc type="supplied">.</pc>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
@@ -5454,7 +5477,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d'Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il oeuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d’Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il œuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud" status="draft"/>
                </note>
             </div>
          </back>
@@ -5482,7 +5505,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5658,7 +5681,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5772,7 +5795,7 @@
             </titleStmt>
             <publicationStmt>
                <publisher><orgName>Bibliothèque de documentation internationale contemporaine</orgName><orgName type="acronym">BDIC</orgName><address>
-                     <addrLine>6 allée de l'Université</addrLine>
+                     <addrLine>6 allée de l’Université</addrLine>
                      <addrLine>F-92001 Nanterre Cedex</addrLine>
                      <addrLine>France</addrLine>
                      <addrLine>http://www.bdic.fr/</addrLine>
@@ -5837,14 +5860,15 @@
                               <abbr>C<hi rend="superscript">tesse</hi></abbr>
                               <expan>comtesse</expan>
                            </choice> de La Forêt</persName></abbr></dateline><salute>Madame et chère bienfaitrice</salute></opener>
-               <p>Je vous <sic>écri</sic> ces quelques <lb/>mots pour vous faire savoir que <lb/>je ne suis pas bien loin de chez vous <lb/>et que bientôt si mon engagement <lb/>arrive je vais sûrement allez passer <lb/>le conseil de révision à <placeName ref="#Beaune">Beaune</placeName> avant <lb/>de me diriger sur mon bataillon qui <lb/>se trouve au <placeName ref="#Bourget">Bourget</placeName> 1<hi rend="superscript">er</hi> bataillon d'Afrique ; si vous aviez la bonté de <pb facs="#BDIC_FD_1854_20_3_006"/>m'accorder la permission de passer <lb/>chez vous pour vous dire bonjour <lb/>avant de partir au front ; je serais très <lb/>heureux de pouvoir vous remercier <lb/>moi même de ce que vous avez fait <lb/>pour moi ; et pour savoir comme <lb/>vous disiez à <rs type="person" ref="#Horel">mon frère</rs> ; que vous avez <lb/>fait votre possible pour que j'ailles <lb/>au 6<hi rend="superscript">ème</hi> tirailleurs ; je pourrai vous <lb/>expliquer ; pourquoi ; qu'il m'est <lb/>impossible de m'engager dans un <lb/>régiment régulier ; il nous faut pour <lb/>nous une citation et au moins 6 mois <lb/>au bataillon d'Afrique ; mais cette <lb/>fois j'ai fait une demande pour <pb/>la marine j'ai demandé cela pour être <lb/>avec <rs type="person" ref="#Horel">mon frère</rs> je ne crois pas que ce sera <lb/>accordé mais pour le bataillon je suis <lb/>certain cette fois : j'ai un avis favora<lb rend="hyphen"/>ble de mes chefs ; j'attends d'un <lb/>jour à l'autre que ça arrive nous <lb/>sommes une <abbr>30taine</abbr> ; alors vous <lb/>voyez Madame que je serais heureux <lb/>d'avoir un conseil de vous avant de <lb/>partir au front pour faire mon <lb/>devoir comme <rs type="person" ref="#Horel">mon frère</rs> l'a fait <lb/>jusqu'ici. <seg type="closer">Veuillez Madame <lb/>et chère bienfaitrice agréez et rece<lb rend="hyphen"/>voir mes plus sincères <sic>remerciments</sic><pc type="supplied">,</pc></seg></p>
+               <p>Je vous <sic>écri</sic> ces quelques <lb/>mots pour vous faire savoir que <lb/>je ne suis pas bien loin de chez vous <lb/>et que bientôt si mon engagement <lb/>arrive je vais sûrement allez passer <lb/>le conseil de révision à <placeName ref="#Beaune">Beaune</placeName> avant <lb/>de me diriger sur mon bataillon qui <lb/>se trouve au <placeName ref="#Bourget">Bourget</placeName> 1<hi rend="superscript">er</hi> bataillon d’Afrique ; si vous aviez la bonté de <pb facs="#BDIC_FD_1854_20_3_006"/>m'accorder la permission de passer <lb/>chez vous pour vous dire bonjour <lb/>avant de partir au front ; je serais très <lb/>heureux de pouvoir vous remercier <lb/>moi même de ce que vous avez fait <lb/>pour moi ; et pour savoir comme <lb/>vous disiez à <rs type="person" ref="#Horel">mon frère</rs> ; que vous avez <lb/>fait votre possible pour que <sic>j'ailles</sic>
+                  <lb/>au 6<hi rend="superscript">ème</hi> tirailleurs ; je pourrai vous <lb/>expliquer ; pourquoi ; qu'il m'est <lb/>impossible de m'engager dans un <lb/>régiment régulier ; il nous faut pour <lb/>nous une citation et au moins 6 mois <lb/>au bataillon d’Afrique ; mais cette <lb/>fois j'ai fait une demande pour <pb/>la marine j'ai demandé cela pour être <lb/>avec <rs type="person" ref="#Horel">mon frère</rs> je ne crois pas que ce sera <lb/>accordé mais pour le bataillon je suis <lb/>certain cette fois : j'ai un avis favora<lb rend="hyphen"/>ble de mes chefs ; j'attends d'un <lb/>jour à l'autre que ça arrive nous <lb/>sommes une <abbr>30taine</abbr> ; alors vous <lb/>voyez Madame que je serais heureux <lb/>d'avoir un conseil de vous avant de <lb/>partir au front pour faire mon <lb/>devoir comme <rs type="person" ref="#Horel">mon frère</rs> l'a fait <lb/>jusqu'ici. <seg type="closer">Veuillez Madame <lb/>et chère bienfaitrice agréez et rece<lb rend="hyphen"/>voir mes plus sincères <sic>remerciments</sic><pc type="supplied">,</pc></seg></p>
                <closer>
                   <signed>
                      <address>
                         <persName ref="#Horel_Louis"><forename>Louis</forename>
                            <surname>Horel</surname></persName>
                         <addrLine>19<hi rend="superscript">ème</hi> section atelier <lb/>spécial <unclear>105</unclear>, </addrLine>
-                        <addrLine>à <placeName ref="#Sasoge">Sasoge</placeName> par <placeName ref="#Arnay_le_duc">Arnay <lb/>le Duc</placeName>, <placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
+                        <addrLine>à <placeName ref="#Sasoge">Sasoge</placeName> par <placeName ref="#Arnay_le_duc">Arnay <lb/>le Duc</placeName>, <placeName ref="#Cote_Dor">Côte-d’Or</placeName></addrLine>
                      </address>
                   </signed>
                </closer>

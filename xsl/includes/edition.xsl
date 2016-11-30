@@ -14,9 +14,7 @@
                     <xsl:copy-of select="$header"/>
                     <xsl:copy-of select="$headerSlide"/>
                     <div class="row">
-                        <div class="large-12">
-                            <xsl:apply-templates select="tei:div[@type='about']"/>
-                        </div>
+                        <xsl:apply-templates select="tei:div[@type='about']"/>
                     </div>
                     <xsl:copy-of select="$footer"/>
                     <xsl:copy-of select="$js"/>
@@ -26,24 +24,33 @@
     </xsl:template>
     
     <xsl:template match="tei:div[@type='about']">
-        <div class="row border">
-            <div class="large-4 columns">
-                <h4>Liens annexes : </h4>
-                <ul class="no-bullet">
-                    <xsl:for-each select="tei:div[@type='ressourcesExt']/tei:list/tei:item">
-                        <li>
-                            <a href="{./tei:ref/@target}"><xsl:apply-templates select="./tei:ref"/></a>
-                        </li>
-                    </xsl:for-each>
-                </ul>
-            </div>
-            <div class="large-8 columns"> 
-                <h1>Édition électronique de correspondance</h1>
-                <xsl:for-each select="tei:p">
-                    <p><xsl:apply-templates/></p>
+        <div class="large-4 columns">
+            <h4>Liens annexes : </h4>
+            <ul class="no-bullet">
+                <xsl:for-each select="tei:div[@type='ressourcesExt']/tei:list/tei:item">
+                    <li>
+                        <a href="{./tei:ref/@target}"><xsl:apply-templates select="./tei:ref"/></a>
+                    </li>
                 </xsl:for-each>
-            </div>
+            </ul>
         </div>
+        <div class="large-8 columns"> 
+            <h1>Édition électronique de correspondance</h1>
+            <xsl:for-each select="tei:div[not(@type='ressourcesExt')]">
+                <xsl:if test="tei:head"><h2><xsl:apply-templates select="tei:head"/></h2></xsl:if>
+                <xsl:for-each select="tei:p | tei:list">
+                    <p><xsl:apply-templates select="."/></p>
+                </xsl:for-each>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:list[ancestor::tei:div[@type='about']][not(@*)]">
+        <ul class="no-bullet">
+            <xsl:for-each select="tei:item">
+                <li><xsl:apply-templates select="."/></li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
     
 </xsl:stylesheet>

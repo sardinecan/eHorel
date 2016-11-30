@@ -108,6 +108,8 @@
     
     <xsl:template match="tei:ref[@type='extLink']"><a href="{@target}" target="_blank"><xsl:apply-templates/></a></xsl:template>
     
+    <xsl:template match="tei:foreign"><span class="italic"><xsl:apply-templates/></span></xsl:template>
+    
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                             INCLUDES
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

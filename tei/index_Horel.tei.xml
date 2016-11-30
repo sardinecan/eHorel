@@ -120,13 +120,13 @@
                   <desc>croiseur auxiliaire<date from="1914" to="1916"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1914">Avant 1914</date> : paquebot «Provence» de la Compagnie générale transatlantique</p>
+                        <p><date notAfter="1914">Avant 1914</date> : paquebot « Provence » de la Compagnie générale transatlantique</p>
                      </event>
                      <event>
-                        <p><date when="1915-04-25">1915 (avril)</date> : participe au débarquement dans les <placeName ref="#Dardanelles">Dardanelles</placeName> et au bombardement des côtes</p>
+                        <p><date when="1915-04-25">1915 (avril)</date> : participe au débarquement dans <placeName ref="#Dardanelles">les Dardanelles</placeName> et au bombardement des côtes</p>
                      </event>
                      <event>
-                        <p><date when="1916-02-16">26 février 1916</date> : torpillé par le sous-marin allemand <name ref="#U_35">U-35</name> en mer Égée alors qu'il transportait des troupes</p>
+                        <p><date when="1916-02-16">26 février 1916</date> : torpillé par <name ref="#U_35">le sous-marin allemand U-35</name> en mer Égée alors qu'il transportait des troupes</p>
                      </event>
                   </listEvent>
                </item>
@@ -246,7 +246,7 @@
                         <p><date when="1914">1914</date> : affecté à la recherche de l'escadre allemande dans le Pacifique sud</p>
                      </event>
                      <event>
-                        <p><date when="1914">1914</date> : transféré en méditerranée</p>
+                        <p><date when="1914">1914</date> : transféré en Méditerranée</p>
                      </event>
                      <event>
                         <p><date when="1915-02-19">1915 (février)</date> : participe à la bataille des <placeName ref="#Dardanelles">Dardanelles</placeName></p>
@@ -308,10 +308,10 @@
                   <desc>biplan allemand</desc>
                   <listEvent>
                      <event>
-                        <p>Aviatik B1 : biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p>
+                        <p>Aviatik B1 : biplan de reconnaissance utilisé entre 1914 et le début de l'année 1916</p>
                      </event>
                      <event>
-                        <p>Aviatik B2 : proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p>
+                        <p>Aviatik B2 : proche du B1, il est de fabrication autrichienne et a été utilisé comme bombardier léger</p>
                      </event>
                   </listEvent>
                </item>
@@ -322,7 +322,7 @@
                   <desc>fusil</desc>
                   <listEvent>
                      <event>
-                        <p>du nom du Colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point</p>
+                        <p>du nom du colonel Nicolas Lebel, directeur de l'école de Châlon où l'arme a été mise au point</p>
                      </event>
                      <event>
                         <p>fusil à culasse verrouillée d'un calibre de 8mm et d'un poids d'environ 4,200kg. Il peut être équipé d'une baïonnette</p>
@@ -337,7 +337,7 @@
                   <desc>transport auxilliaire<date from="1915" to="1916"/></desc>
                   <listEvent>
                      <event>
-                        <p><date notAfter="1915">Avant 1915</date> : paquebot Byzantin, racheté en 1895 par la compagnie des Messageries Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p>
+                        <p><date notAfter="1915">Avant 1915</date> : paquebot Byzantin racheté en 1895 par la compagnie des Messageries Maritimes et rebaptisé <name ref="#Memphis">Memphis</name></p>
                      </event>
                      <event>
                         <p><date when="1915">1915</date> : réquisitionné</p>
@@ -465,7 +465,7 @@
                      <geo>39.8747222, 25.270833333333332</geo>
                   </location>
                   <event>
-                     <p>le <date when="1918-10-30">30 octobre 1918</date>, l'empire Ottoman y signe avec le Royaume-uni un armistice mettant fin aux combats entre la triple Entente et la Turquie</p>
+                     <p>le <date when="1918-10-30">30 octobre 1918</date>, l'empire Ottoman y signe avec le Royaume-Uni un armistice mettant fin aux combats entre la triple Entente et la Turquie</p>
                   </event>
                </place>
                <place xml:id="Imbros">
@@ -484,7 +484,7 @@
                </place>
                <place xml:id="Golf_Saros">
                   <placeName>Golf de Saros</placeName>
-                  <desc>Formé par la péninsule de <placeName ref="#Gallipoli">Gallipoli</placeName> au sud et par la côte de la province d'Edirne au nord.</desc>
+                  <desc>Formé par <placeName ref="#Gallipoli">la péninsule de Gallipoli</placeName> au sud et par la côte de la province d'Edirne au nord.</desc>
                   <location>
                      <country>Turquie</country>
                      <district type="region">Marmara</district>
@@ -497,7 +497,7 @@
                   <placeName>Mytilène</placeName>
                   <location>
                      <country>Grèce</country>
-                     <district type="peripherie">Egée-Septentrionale</district>
+                     <district type="peripherie">Égée-Septentrionale</district>
                      <!-- région -->
                      <district type="district">dist. Lesbos</district>
                      <!-- district régional -->
@@ -591,7 +591,7 @@
                   </location>
                   <event>
                      <p>durant l'été 1915 des troupes alliées sont dépêchées à Salonique afin de soutenir les troupes serbes. La cité servira par la suite de camp de base retranché pour les troupes françaises et britanniques évacuées des Dardanelles</p>
-                     <p>le 29 septembre 1918, un armistice y sera signé entre les bulgares et les alliés</p>
+                     <p>le 29 septembre 1918 un armistice y sera signé entre les Bulgares et les alliés</p>
                   </event>
                </place>
                <place xml:id="Sanary">
@@ -603,7 +603,7 @@
                </place>
                <place xml:id="Marmara">
                   <placeName>Mer de Marmara</placeName>
-                  <desc>Mer reliant la mer Noire par le Bosphore et la mer Égée par le détroit des <placeName ref="#Dardanelles">Dardanelles</placeName>.</desc>
+                  <desc>Mer reliant la mer Noire par le Bosphore et la mer Égée par <placeName ref="#Dardanelles">le détroit des Dardanelles</placeName>.</desc>
                   <location>
                      <country>Turquie</country>
                   </location>
@@ -615,7 +615,7 @@
                      <country>Égypte</country>
                   </location>
                   <event>
-                     <p>les forces de la triple alliance tenteront de prendre le contrôle du canal à deux reprises, en janvier - février 1915 puis en avril - août 1916</p>
+                     <p>les forces de la triple alliance tenteront de prendre le contrôle du canal à deux reprises, en janvier-février 1915 puis en avril-août 1916</p>
                   </event>
                </place>
                <place xml:id="Beaune">
@@ -636,13 +636,13 @@
                   <placeName>Bessarabie</placeName>
                   <placeName type="today">région répartie entre la république de Moldavie et l'Ukraine</placeName>
                   <event>
-                     <p>ancienne division administrative de l'Empire russe comprise entre la rivière Pruth, les fleuves Dniestr et Danube et la mer Noire. Suite à la révolution russe de novembre 1917, la Bessarabie proclame son indépendance. L'armée roumaine assurera sa défense</p>
+                     <p>ancienne division administrative de l'empire russe comprise entre la rivière Pruth, les fleuves Dniestr et Danube, et la mer Noire. Suite à la révolution russe de novembre 1917, la Bessarabie proclame son indépendance. L'armée roumaine assurera sa défense</p>
                   </event>
                </place>
                <place xml:id="Serbie">
                   <placeName>Serbie</placeName>
                   <event>
-                     <p>pays allié à l'Empire russe</p>
+                     <p>pays allié à l'empire russe</p>
                   </event>
                </place>
                <place xml:id="Zante">
@@ -663,7 +663,7 @@
                      <district type="region">Picardie</district>
                   </location>
                   <event>
-                     <p>imaginée par Joffre dés 1915 et retardée à cause de l'attaque de Verdun par les Allemands, la première bataille de la Somme de déroula entre le 1er juillet 1916 et le 18 novembre de la même année. Sans être véritablement une victoire pour les alliés, elle coûta la vie à plus d'un million d'hommes (allemands, britanniques et français)</p>
+                     <p>imaginée par Joffre dés 1915 et retardée à cause de l'attaque de Verdun par les Allemands, la première bataille de la Somme se déroula entre le 1er juillet 1916 et le 18 novembre de la même année. Sans être véritablement une victoire pour les alliés, elle coûta la vie à plus d'un million d'hommes (allemands, britanniques et français)</p>
                   </event>
                </place>
                <place xml:id="Corinth">
@@ -797,7 +797,7 @@
                      <surname>Skoudoulis</surname><forename>Stephanos</forename>
                   </persName>
                   <state>
-                     <p>Premier ministre grec</p>
+                     <p>premier ministre grec</p>
                   </state>
                   <birth when="1836"/>
                   <death when="1928"/>
@@ -807,7 +807,7 @@
                      <surname>Venizélos</surname><forename>Elefthérios</forename>
                   </persName>
                   <state>
-                     <p>Premier ministre grec</p>
+                     <p>premier ministre grec</p>
                   </state>
                   <birth when="1864"/>
                   <death when="1936"/>
@@ -817,7 +817,7 @@
                      <surname>Gouraud</surname><forename>Henri</forename>
                   </persName>
                   <state>
-                     <p>Général</p>
+                     <p>général</p>
                   </state>
                   <birth when="1867"/>
                   <death when="1946"/>
@@ -827,7 +827,7 @@
                      <surname>Ravenel</surname><forename>Léon</forename>
                   </persName>
                   <state>
-                     <p>Lieutenant de vaisseau</p>
+                     <p>lieutenant de vaisseau</p>
                   </state>
                   <birth when="1867"/>
                   <death>19..</death>
@@ -838,7 +838,7 @@
                      <surname>Putnik</surname><forename>Radomir</forename>
                   </persName>
                   <state>
-                     <p>Voïvode (Maréchal)</p>
+                     <p>voïvode (maréchal)</p>
                   </state>
                   <birth when="1847"/>
                   <death when="1917"/>
@@ -848,7 +848,7 @@
                      <surname>Horel</surname><forename>Louis</forename>
                   </persName>
                   <state>
-                     <p>Frère d'Armand Horel</p>
+                     <p>frère d'Armand Horel</p>
                   </state>
                   <birth when="1888"/>
                   <death when="1918"/>
@@ -858,7 +858,7 @@
                      <surname>Horel</surname><forename>Armand</forename>
                   </persName>
                   <state>
-                     <p>Quartier-maître canonnier</p>
+                     <p>quartier-maître canonnier</p>
                   </state>
                   <birth when="1889"/>
                   <death when="1953"/>
@@ -880,7 +880,7 @@
                      <surname>Le Myre de Vilers</surname><forename>Charles</forename>
                   </persName>
                   <state>
-                     <p>Député</p>
+                     <p>député</p>
                   </state>
                   <birth when="1833"/>
                   <death when="1918"/>
@@ -890,7 +890,7 @@
                      <surname>Locke</surname><forename>G.</forename>
                   </persName>
                   <state>
-                     <p>Avocat</p>
+                     <p>avocat</p>
                   </state>
                </person>
                <person xml:id="Sarrail">
@@ -899,7 +899,7 @@
                      <forename>Maurice</forename>
                   </persName>
                   <state>
-                     <p>Général</p>
+                     <p>général</p>
                   </state>
                   <birth when="1856"/>
                   <death when="1929"/>
@@ -908,7 +908,7 @@
                         <p>en août 1914, il prend les commandes de la III<hi rend="superscript">e</hi> armée suite au limogeage du général Ruffey</p>
                      </event>
                      <event>
-                        <p>critique envers le généralissime Joffre et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915</p>
+                        <p>critique envers le généralissime Joffre, et ayant essuyé d'importantes pertes, ses appuis politiques lui permettent d'obtenir le commandement de l'armée d'Orient en octobre 1915</p>
                      </event>
                      <event>
                         <p>en janvier 1916 il devient commandant en chef des forces françaises, britanniques et serbes de Macédoine. Il sera finalement remplacé par le général Guillaumat en décembre 1917</p>
@@ -950,7 +950,7 @@
                         <p>en décembre 1915 ses pouvoirs sont accrus et il récupère le commandement des fronts extérieurs</p>
                      </event>
                      <event>
-                        <p>ses offensives sont jugées trop coûteuses en hommes et ne permettant pas de prendre un avantage décisif. Il est remplacé à la tête des armées du Nord et du Nord-Est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France</p>
+                        <p>ses offensives sont jugées trop coûteuses en hommes et ne permettent pas de prendre un avantage décisif. Il est remplacé à la tête des armées du nord et du nord-est par le général Nivelle. Il rend finalement sa démission et est nommé à titre de compensation maréchal de France</p>
                      </event>
                   </listEvent>
                </person>
@@ -959,7 +959,7 @@
                      <surname>Poincaré</surname><forename>Raymond</forename>
                   </persName>
                   <state>
-                     <p>Président de la république française</p>
+                     <p>président de la république française</p>
                   </state>
                   <birth when="1860"/>
                   <death when="1934"/>
@@ -969,7 +969,7 @@
                      <forename>Pierre Ier de Serbie</forename>
                   </persName>
                   <state>
-                     <p>Roi de Serbie</p>
+                     <p>roi de Serbie</p>
                   </state>
                   <birth when="1844"/>
                   <death when="1921"/>
@@ -994,7 +994,7 @@
                   </persName>
                   <!--carte 097-->
                   <state>
-                     <p>Chef d'armes</p>
+                     <p>chef d'armes</p>
                   </state>
                </person>
                <person xml:id="MME_Gauffrey">
@@ -1002,7 +1002,7 @@
                      <surname>Gauffrey</surname><addName>Mme.</addName>
                   </persName>
                   <state>
-                     <p>Fille de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                     <p>fille de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
                   </state>
                </person>
                <person xml:id="MR_Gauffrey">
@@ -1010,7 +1010,7 @@
                      <surname>Gauffrey</surname><addName>M.</addName>
                   </persName>
                   <state>
-                     <p>Gendre de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                     <p>gendre de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
                   </state>
                </person>
                <person xml:id="Bussiere">
@@ -1018,7 +1018,7 @@
                      <surname>Bussière, les</surname>
                   </persName>
                   <state>
-                     <p>Proches de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName> et d'<persName ref="#Horel">Armand Horel</persName></p>
+                     <p>proches de madame la comtesse de La Forest et d'Armand Horel</p>
                   </state>
                </person>
                <person xml:id="Gauthier">
@@ -1026,7 +1026,7 @@
                      <surname>Gauthier, les</surname>
                   </persName>
                   <state>
-                     <p>Proches de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
+                     <p>proches de <persName ref="#Comtesse_Forest">madame la comtesse de La Forest</persName></p>
                   </state>
                </person>
                <person xml:id="Frederic_Guillaume">
@@ -1034,7 +1034,7 @@
                      <forename>Frédéric-Guillaume de Prusse</forename>
                   </persName>
                   <state>
-                     <p>Kronprinz</p>
+                     <p>kronprinz</p>
                   </state>
                   <birth when="1882"/>
                   <death when="1951"/>

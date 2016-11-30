@@ -111,11 +111,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!--<div class="row">
                     <div class="large-12 text-right">
                         <a class="lien_footer" href="credits.html">Crédits</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </footer>
     </xsl:variable>
