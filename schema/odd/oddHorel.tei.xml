@@ -30,8 +30,7 @@
             </classSpec>
             <!--Checking module namesdates-->
             <classRef key="model.persNamePart"/>
-            <moduleRef key="namesdates"
-                       include="orgName persName surname forename nameLink addName roleName placeName country district settlement birth death event geo listEvent listPerson listPlace location person place state"/>
+            <moduleRef key="namesdates" include="orgName persName surname forename nameLink addName roleName placeName country district settlement birth death event geo listEvent listPerson listPlace location person place state"/>
             <elementSpec ident="orgName" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -521,8 +520,7 @@
                </attList>
             </classSpec>
             <!--Checking module core-->
-            <moduleRef key="core"
-                       include="p foreign hi desc sic choice gap add del unclear name rs address addrLine date abbr expan ref list item label head note graphic pb lb cb author editor respStmt resp title publisher bibl listBibl teiCorpus"/>
+            <moduleRef key="core" include="p foreign hi desc sic choice gap add del unclear name rs address addrLine date abbr expan ref list item label head note graphic pb lb cb author editor respStmt resp title publisher bibl listBibl teiCorpus"/>
             <elementSpec ident="p" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -960,8 +958,7 @@
                </attList>
             </elementSpec>
             <!--Checking module header-->
-            <moduleRef key="header"
-                       include="teiHeader fileDesc titleStmt extent publicationStmt idno availability licence sourceDesc encodingDesc editorialDecl correction normalization hyphenation interpretation punctuation profileDesc langUsage language correspDesc correspAction correspContext"/>
+            <moduleRef key="header" include="teiHeader fileDesc titleStmt extent publicationStmt idno availability licence sourceDesc encodingDesc editorialDecl correction normalization hyphenation interpretation punctuation profileDesc langUsage language correspDesc correspAction correspContext"/>
             <elementSpec ident="teiHeader" mode="change">
                <attList>
                   <attDef ident="type" mode="change">
@@ -1237,8 +1234,7 @@
             <!--Checking module verse-->
             <!--Checking module msdescription-->
             <classRef key="att.msExcerpt"/>
-            <moduleRef key="msdescription"
-                       include="msDesc material stamp msIdentifier repository msName msContents physDesc objectDesc supportDesc support history provenance"/>
+            <moduleRef key="msdescription" include="msDesc material stamp msIdentifier repository msName msContents physDesc objectDesc supportDesc support history provenance"/>
             <elementSpec ident="msDesc" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -1447,6 +1443,7 @@
                      <valList mode="add" type="closed">
                         <valItem ident="dateline"/>
                         <valItem ident="opener"/>
+                        <valItem ident="closer"/>
                         <valItem ident="salute"/>
                      </valList>
                   </attDef>
@@ -1524,8 +1521,7 @@
                </attList>
             </elementSpec>
             <!--Checking module textstructure-->
-            <moduleRef key="textstructure"
-                       include="TEI text body div dateline opener closer salute signed postscript front back"/>
+            <moduleRef key="textstructure" include="TEI text body div dateline opener closer salute signed postscript front back"/>
             <elementSpec ident="TEI" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>

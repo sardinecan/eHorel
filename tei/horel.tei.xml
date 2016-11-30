@@ -174,7 +174,8 @@
             <p>Le consortium TEI a rapidement privilégié la publication de <hi rend="italic">guidelines</hi> (recommandations) à celle d'un véritable standard. Ses champs d'application étant relativement étendus (ouvrages imprimés anciens, textes médiévaux, cours écrits ou oraux, etc.), la TEI propose non pas tant un schéma fixe, mais plutôt un cadre de développement modulable selon les besoins du projet. Ainsi, chaque module répond à une problématique que l'on est libre d'inclure ou non.</p>
             <p>Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au respect des sources, à l'identification et l'indexation des noms (personnes et lieux), ainsi qu'aux différents points d'entrées du texte (chronologique, géographique, par destinataire, etc.). Le schéma et sa documentation sont mis à la disposition de tous et sont réutilisables librement. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer la lecture des <hi rend="italic">guidelines</hi>, mais il présente la méthode de travail qui a été la notre lors du développement de ce projet.</p>
             <div type="ressourcesExt">
-               <list xml:id="liens_documentation"><!-- TODO schéma et documentation. -->
+               <list xml:id="liens_documentation">
+                  <!-- TODO schéma et documentation. -->
                   <item><ref type="extLink" target="../../SCHEMA/bdic_modelisation.rng">Schéma TEI</ref></item>
                   <item><ref type="extLink" target="../../SCHEMA/doc/documentation.html">Documentation (html)</ref></item>
                   <item><ref type="extLink" target="../../SCHEMA/doc/documentation.pdf">Documentation (pdf)</ref></item>
@@ -184,7 +185,8 @@
       </back>
    </text>
    <!-- Toulon -->
-   <TEI xml:id="F_delta_1854_20_1_Toulon_8-08-1915"><!-- RMQ OK -->
+   <TEI xml:id="F_delta_1854_20_1_Toulon_8-08-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -319,7 +321,7 @@
                   <placeName ref="#Var">Var</placeName>. Je vous <sic>envoi</sic>
                   <lb/>une vue de <placeName ref="#Toulon">Toulon</placeName> et les <lb/>2 autres sont des alentours<pc type="supplied">.</pc></p>
                <closer>
-                  <salute>Rien autre chose à vous dire pour <lb/>le moment que de vous souhaiter <lb/>une bonne santé un petit ami <cb/>qui ne vous oublie pas</salute>
+                  <salute>Rien autre chose à vous dire pour <lb/>le moment que de vous souhaiter <lb/>une bonne santé un petit ami <cb/>qui ne vous oublie pas<pc type="supplied">,</pc></salute>
                   <lb/>
                   <signed rend="alignCenter"><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName></signed>
@@ -345,6 +347,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Toulon_29-08-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -385,7 +388,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>3 cartes postales.</p>
+                           <p>3 cartes postales</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -467,7 +470,7 @@
                <pb n="6" facs="#BDIC_FD_1854_20_1_192"/>
                <p><fw type="pageNum" rend="alignCenter">3</fw>Pour <persName ref="#Le_Mire">monsieur Le Mire de <lb/>Villers</persName> je n'ai pas le temps <lb/>de l'écrire aujourd'hui car <lb/>je n'ai plus que 5 minutes <lb/>devant moi pour faire <lb/>vos trois cartes mais dès <lb/>que je serai arrivé à <placeName ref="#Moudros">Moudros</placeName><ref type="note" target="#F_delta_1854_20_1_Toulon_29-08-1915_note1"/>
                   <lb/>je lui écrirai quelques <lb/>lignes comme vous m'avez <lb/>expliqué et je pense que <lb/>cela suffira je m'en vais <lb/>vous donner ma nouvelle <lb/>adresse <persName ref="#Horel">Horel Armand</persName>
-                  <lb/>quartier maître canonnier <lb/>à bord du <name type="navire" ref="#H_IV">Henri IV</name> aux<lb/><placeName ref="#Dardanelles">Dardanelles</placeName> par <placeName ref="#Paris">Paris</placeName> étranger<pc type="supplied">.</pc>
+                  <lb/>quartier maître canonnier <lb/>à bord du <name type="navire" ref="#H_IV">Henri IV</name> aux <lb/><placeName ref="#Dardanelles">Dardanelles</placeName> par <placeName ref="#Paris">Paris</placeName> étranger<pc type="supplied">.</pc>
                   <cb/>Je ne peux vous en dire <lb/>davantage car le temps <lb/>me manque<pc type="supplied">.</pc> Au revoir <lb/>comtesse et bonne santé <lb/>que votre bras se rétablisse <lb/>au plus vite un petit ami <lb/>qui ne vous oublie pas<pc type="supplied">,</pc></p>
                <closer>
                   <signed><persName ref="#Horel"><forename>Armand</forename>
@@ -988,6 +991,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Salonique_07-12-1915">
+      <!--RMQ DO-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -1028,8 +1032,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>3 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention :<stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine au centre ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary Var</placeName> 6 <gap/>
+                           <p>2 cartes postales, une carte-lettre et une enveloppe. L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention : <stamp type="armee"><supplied reason="illegible" cert="high"><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine au centre ; 2) au verso, cachet à date circulaire comportant les mentions suivantes : <stamp type="postmark" subtype="arrival"><placeName ref="#Sanary">Sanary Var</placeName> 6 <gap/>
                                  <date when="1915-12-23">23-12 <gap/></date></stamp>. </p>
                         </supportDesc>
                      </objectDesc>
@@ -1089,10 +1092,12 @@
                               <abbr>X<hi rend="superscript">bre</hi></abbr>
                               <expan>décembre</expan>
                            </choice> 1915</date></seg>
-                     <seg type="salute"><persName ref="#Comtesse_Forest">Comtesse</persName>.</seg></seg> Je vous écris ces quelques <lb/>mots pour vous faire savoir de mes nouvelles que je suis toujours <lb/>en bonne santé et je désire qu'à l'arrivée de mes présentes cartes <lb/>que vous vous trouviez de même ainsi que votre jeune demoiselle <lb/>par ici depuis environ 8 jours il se fait <sic>journelement</sic> des <lb/>quêtes à bord des bâtiments français anglais et russe <lb/>pour secourir ces malheureux refugiés serbes qui sont <lb/>ici à <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1"/>. <name type="navire" ref="#Askold">Le bateau <lb/>russe l'<sic>AsKool</sic></name>, sa quête a produit 1200,<unclear><hi rend="superscript">¢</hi></unclear> moi ainsi <lb/>que mes camarades qui mangent à ma table nous avons <lb/>été trouver le commandant en chef pour en faire une de <lb/>quête il nous a <sic>accorder</sic> toute satisfaction il a même <lb/>trouvé que c'était très gentil de notre part. Pour nous <lb/>encourager il a mis 2 ƒ<hi rend="superscript">¢</hi> nous sommes cinq qui mangeont <lb/>à la même table et bien pour encourager nos camarades <lb/>nous avons mis chacun 5.<hi rend="superscript">¢</hi> ce qui fait 2 ƒ.<hi rend="superscript">¢</hi> à nous 5. <lb/>C'est un joli commencement. À la prochaine correspondance <lb/>que je vous enverrai comtesse je vous ferai savoir <lb/>le résultat de notre quête à quel total elle a montée<pc type="supplied">.</pc></p>
+                     <seg type="salute"><persName ref="#Comtesse_Forest">Comtesse</persName>.</seg></seg> Je vous écris ces quelques <lb/>mots pour vous faire savoir de mes nouvelles que je suis toujours <lb/>en bonne santé et je désire qu'à l'arrivée de mes présentes cartes <lb/>que vous vous trouviez de même ainsi que votre jeune demoiselle<pc type="supplied">.</pc>
+                  <lb/>Par ici depuis environ 8 jours il se fait <sic>journelement</sic> des <lb/>quêtes à bord des bâtiments français<pc type="supplied">,</pc> anglais et russe <lb/>pour secourir ces malheureux réfugiés serbes qui sont <lb/>ici à <placeName ref="#Salonique">Salonique</placeName> dans une misère noire<ref type="note" target="#F_delta_1854_20_1_Salonique_07-12-1915_note1"/>. <name type="navire" ref="#Askold">Le bateau <lb/>russe l'<sic>AsKool</sic></name>, sa quête a produit 1200,<unclear><hi rend="superscript">¢</hi></unclear> moi ainsi <lb/>que mes camarades qui mangent à ma table nous avons <lb/>été trouver le commandant en chef pour en faire une de <lb/>quête il nous a <sic>accorder</sic> toute satisfaction il a même <lb/>trouvé que c'était très gentil de notre part. Pour nous <lb/>encourager il a mis 2 ƒ<hi rend="superscript">¢</hi> nous sommes cinq qui mangeont <lb/>à la même table et bien pour encourager nos camarades <lb/>nous avons mis chacun 5.<hi rend="superscript">¢</hi> ce qui fait 2 ƒ.<hi rend="superscript">¢</hi> à nous 5. <lb/>C'est un joli commencement. À la prochaine correspondance <lb/>que je vous enverrai comtesse je vous ferai savoir <lb/>le résultat de notre quête à quel total elle a montée<pc type="supplied">.</pc></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_135" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_136"/>
-               <p><fw type="pageNum" rend="alignCenter">2</fw>Je crois que depuis quelques jours il est fortement question <lb/>de nous expédier de nouveau à <placeName ref="#Port_Said">Port Saïd</placeName> pour la sur<lb rend="hyphen" type="marked"/>veillance du <placeName ref="#Canal_Suez">canal de Suez</placeName>. J'en <sic>serait</sic> enchanté si ça <lb/>pouvait être vrai car là-bàs il ne fait si froid que dans <lb/>ce pays de <placeName ref="#Salonique">Salonique</placeName> où nous voyons plus le soleil voilà <lb/>au moins 15 jours par les temps humides qu'il fait <lb/>puisqu'il nous est impossible de pouvoir faire sécher <lb/>notre linge de corps et ce temps n'est pas encore fini. En <lb/>tous les cas si c'est vrai que nous y allons je ferai <lb/>parvenir ma nouvelle adresse la prochaine fois que <lb/>je vous écrirai. Par ailleurs rien de nouveau c'est à <lb/>peu près stationnaire sur le front serbe. Il est temps <lb/>que les Russes se pressent à envoyer leurs 400000 hommes <lb/>de troupes au secours des Serbes car ils commencent à <lb/>être bougrement épuisés les malheureux. Rien autre <lb/>chose à vous dire pour l'instant un petit ami qui vous <lb/><sic>envoi</sic> ces meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>.</p>
+               <p><fw type="pageNum" rend="alignCenter">2</fw>Je crois que depuis quelques jours il est fortement question <lb/>de nous expédier de nouveau à <placeName ref="#Port_Said">Port Saïd</placeName> pour la sur<lb rend="hyphen" type="marked"/>veillance du <placeName ref="#Canal_Suez">canal de Suez</placeName>. J'en <sic>serait</sic> enchanté si ça <lb/>pouvait être vrai car là-bàs il ne fait si froid que dans <lb/>ce pays de <placeName ref="#Salonique">Salonique</placeName> où nous voyons plus le soleil voilà <lb/>au moins 15 jours par les temps humides qu'il fait <lb/>puisqu'il nous est impossible de pouvoir faire sécher <lb/>notre linge de corps et ce temps n'est pas encore fini. En <lb/>tous les cas si c'est vrai que nous y allons je ferai <lb/>parvenir ma nouvelle adresse la prochaine fois que <lb/>je vous écrirai. Par ailleurs rien de nouveau c'est à <lb/>peu près stationnaire sur le front serbe. Il est temps <lb/>que les Russes se pressent à envoyer leurs 400000 hommes <lb/>de troupes au secours des Serbes car ils commencent à <lb/>être bougrement épuisés les malheureux. Rien autre <lb/>chose à vous dire pour l'instant<pc type="supplied">.</pc>
+                  <seg type="closer">Un petit ami qui vous <lb/><sic>envoi</sic> ces meilleurs souvenirs de <placeName ref="#Salonique">Salonique</placeName>.</seg></p>
                <closer>
                   <signed><persName ref="#Horel"><forename>A</forename>
                         <surname>Horel</surname></persName></signed>
@@ -1102,7 +1107,9 @@
                </postscript>
                <pb n="5" facs="#BDIC_FD_1854_20_1_120" type="postcardBreak"/>
                <postscript n="2">
-                  <opener><salute rend="alignCenter">Comtesse</salute></opener>
+                  <opener>
+                     <salute rend="alignCenter">Comtesse</salute>
+                  </opener>
                   <p><fw type="pageNum" rend="alignCenter">.3.</fw>Je viens de recevoir votre lettre à l'instant 2 minutes <sic>plutard</sic> je <lb/>fermais la lettre qui vous était destinée je vous <sic>envoi</sic> une <lb/>carte lettre pour vous faire réponse à votre lettre. Je vous <lb/>remercie beaucoup comtesse de vous voir vous occuper <lb/>de <rs type="person" ref="#Horel_Louis">mon pauvre frère</rs>. De la part du président de la République, <lb/>il a eu 1 an de grâce. Ma tante a reçu réponse de la lettre <lb/>qu'elle avait remise en main propre à M<hi rend="superscript">me</hi> la Présidente <lb/>en lui disant que <persName ref="#Poincare"><choice>
                            <abbr>M<hi rend="superscript">ieur</hi></abbr>
                            <expan>monsieur</expan>
@@ -1110,7 +1117,7 @@
                      <lb/>à son neveu. Quand j'ai reçu cette lettre ça m'a fait un <lb/>plaisir immense. Vous voyez comme ils sont cruels dans <lb/>cette prison il lui est arrivé <sic>un avari</sic> à sa machine car <lb/>il conduit une machine à l'imprimerie on lui fait <lb/><sic>payé</sic> 20<hi rend="superscript">¢</hi>. Moi quand j'ai vu cela voyant qu'il était <lb/><sic>embarassé</sic> pour les payer je lui ai envoyé un mandat <lb/>de 20<hi rend="superscript">¢</hi> immédiatement <sic>tout</sic> les malheurs <sic>possible</sic> lui <pb n="6" facs="#BDIC_FD_1854_20_1_119"/><fw type="pageNum" rend="alignCenter">4</fw><lb/><sic>arrive</sic> à ce pauvre bougre. Enfin je m'en vais toujours écrire à <lb/><persName ref="#G_Locke"><choice>
                            <abbr>M<hi rend="superscript">ieur</hi></abbr>
                            <expan>monsieur</expan>
-                        </choice> G Locke</persName> lui expliquer son cas et en même temps je lui <lb/>ferai parvenir mes états de service. Rien autre chose de <lb/>nouveau à vous annoncer. Recevez de votre petit quartier <lb/>maître ces meilleurs amitiés. Meilleure santé à votre fille <lb/>et bon voyage pour venir dans le midi.</p>
+                        </choice> G Locke</persName> lui expliquer son cas et en même temps je lui <lb/>ferai parvenir mes états de service. Rien autre chose de <lb/>nouveau à vous annoncer. <seg type="closer">Recevez de votre petit quartier <lb/>maître ces meilleurs amitiés. Meilleure santé à votre fille <lb/>et bon voyage pour venir dans le midi.</seg></p>
                   <closer>
                      <signed><persName ref="#Horel"><forename>A</forename>. <surname>H</surname>.</persName></signed>
                   </closer>
@@ -1140,7 +1147,7 @@
                         </choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name></addrLine>
                      <addrLine><placeName ref="#Dardanelles">aux Dardanelles</placeName></addrLine>
                   </address>
-                  <stamp type="postmark"><placeName ref="#Sanary">Sanary Var</placeName>6 <gap/>
+                  <stamp type="postmark"><placeName ref="#Sanary">Sanary Var</placeName> 6 <gap/>
                      <date when="1915-12-23">23-12 <lb/><gap/></date></stamp></p>
             </div>
          </body>
@@ -1566,6 +1573,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Salonique_14-12-1915">
+      <!--RMQ DO-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -1668,16 +1676,17 @@
                <pb n="3" facs="#BDIC_FD_1854_20_1_131" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_132"/>
                <p><fw type="pageNum" rend="alignCenter">2</fw>battre en retraite en premier nos troupiers se <lb/>demandaient mais pourquoi bat-on en retraite <lb/>sans voir l'ennemi Les officiers leur ont répondu <lb/>mes petits amis c'est un ordre du <persName ref="#Joffre">généralissime <lb/>Joffre</persName><ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note1"/>. Pourtant j'en ai vu qui revenaient du front <lb/>et qui avaient été blessés ils me disaient qu'ils <lb/>étaient en trop grand nombre pour pouvoir résister <lb/>à leurs attaques et que c'était à ce sujet que nous <lb/>battions en retraite. Du renfort il nous en <lb/>arrive tous les jours par 15 ou 8 bateaux soit <lb/>anglais ou français et en plus un matériel <lb/>considérable. Cette victoire ne dépend plus que <lb/>des Russes car il doit venir 3 ou 400 000 <sic>mille</sic>
-                  <lb/>russes en <sic><placeName ref="#Bessarabie">Bésarabie</placeName></sic>. Nous tenons toujours <placeName ref="#Salonique">la <lb/>ville de Salonique</placeName> à portée de nos canons en <lb/>cas ou elle voudrait nous trahir<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note2"/>. Rien autre <lb/>chose à vous dire, un petit ami <lb/>qui ne vous oublie pas</p>
+                  <lb/>russes en <sic><placeName ref="#Bessarabie">Bésarabie</placeName></sic>. Nous tenons toujours <placeName ref="#Salonique">la <lb/>ville de Salonique</placeName> à portée de nos canons en <lb/>cas ou elle voudrait nous trahir<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_note2"/>. <seg type="closer">Rien autre <lb/>chose à vous dire, un petit ami <lb/>qui ne vous oublie pas<pc type="supplied">,</pc></seg></p>
                <closer>
                   <signed><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName></signed>
-                  <salute><add place="marginRight" rend="vertical">et meilleure <lb/>santé pour votre demoiselle.</add></salute>
+                  <salute><add place="marginRight" rend="vertical">Et meilleure <lb/>santé pour votre demoiselle.</add></salute>
                </closer>
                <pb n="5" facs="#BDIC_FD_1854_20_1_126" type="postcardBreak"/>
                <postscript n="1">
                   <p><fw type="pageNum" rend="alignCenter">3</fw><persName ref="#Comtesse_Forest">Comtesse</persName> 2 minutes avant que j'allais <sic>fermé</sic> ma <lb/>lettre je reçois une lettre de vous. Qui m'a fait <lb/>peine de vous savoir tant souffrante. Car vrai<lb rend="hyphen" type="marked"/>ment c'est trop pour les mêmes. Dieu devrait <lb/>partager le mal. Enfin j'espère que pour main<lb rend="hyphen" type="marked"/>tenant vous soyez complètement rétablie. Tous <lb/>ces temps-ci c'est très difficile de voyager car <lb/>il y a beaucoup trop de voyageurs principalement <lb/>des militaires pour ne pas être serré il faudrait <lb/>prendre le train à son premier départ et venir <lb/>dans ces conditions au moins une ou 2 heures <lb/>à l'avance. Sûrement que vous avez dû vous <lb/>fatiguer de faire un si long voyage.<ref type="note" target="#F_delta_1854_20_1_Salonique_14-12-1915_notea"/>
-                     <pb n="6" facs="#BDIC_FD_1854_20_1_125"/><fw type="pageNum" rend="alignCenter">4</fw>Ah que vous êtes bien gentille comtesse de vous <lb/>occuper autant de <rs type="person" ref="#Horel_Louis">mon pauvre frère</rs>. Il a eu <lb/>un an de grâce et il est toujours proposé pour <lb/>la conditionnelle ce qui fait qu'il peut sortir <lb/>d'un jour à l'autre si seulement ça pouvait <lb/>être vrai qu'il puisse aller combattre comme <lb/>ses camarades quelle joie pour lui quand <lb/>il apprendrait cette nouvelle pour la tante, <lb/>il n'y a qu'elle et moi qui pouvions nous en occuper <lb/>du <rs type="person" ref="#Horel_Louis">frère</rs> mes parents par ailleurs ne savent <lb/>ni lire ni écrire et ne connaissent personne <lb/>si nous ne serions pas là tous les <lb/>deux il serait malheureux comme <lb/>tout. Enfin espérons qu'un jour <lb/>à venir il sera heureux comme <lb/>nous une fois qu'il aura racheté <lb/>sa peine. Je vous remercie beaucoup de <lb/>votre bon cœur <persName ref="#Comtesse_Forest">comtesse</persName> un petit ami qui ne vous <add place="marginRight" rend="vertical"><sic>oublieras</sic> jamais</add></p>
+                     <pb n="6" facs="#BDIC_FD_1854_20_1_125"/><fw type="pageNum" rend="alignCenter">4</fw>Ah que vous êtes bien gentille comtesse de vous <lb/>occuper autant de <rs type="person" ref="#Horel_Louis">mon pauvre frère</rs>. Il a eu <lb/>un an de grâce et il est toujours proposé pour <lb/>la conditionnelle ce qui fait qu'il peut sortir <lb/>d'un jour à l'autre si seulement ça pouvait <lb/>être vrai qu'il puisse aller combattre comme <lb/>ses camarades quelle joie pour lui quand <lb/>il apprendrait cette nouvelle pour la tante, <lb/>il n'y a qu'elle et moi qui pouvions nous en occuper <lb/>du <rs type="person" ref="#Horel_Louis">frère</rs> mes parents par ailleurs ne savent <lb/>ni lire ni écrire et ne connaissent personne <lb/>si nous ne serions pas là tous les <lb/>deux il serait malheureux comme <lb/>tout. Enfin espérons qu'un jour <lb/>à venir il sera heureux comme <lb/>nous une fois qu'il aura racheté <lb/>sa peine. Je vous remercie beaucoup de <lb/>votre bon cœur <persName ref="#Comtesse_Forest">comtesse</persName><pc type="supplied">.</pc>
+                     <seg type="closer">Un petit ami qui ne vous <add place="marginRight" rend="vertical"><sic>oublieras</sic> jamais</add><pc type="supplied">,</pc></seg></p>
                   <closer>
                      <signed><add place="marginRight" rend="vertical"><persName ref="#Horel"><forename>A.</forename>
                               <surname>Horel</surname>.</persName></add></signed>
@@ -1845,7 +1854,8 @@
          </back>
       </text>
    </TEI>
-   <TEI xml:id="F_delta_1854_20_1_Salonique_15-05-1915"><!-- RMQ OK -->
+   <TEI xml:id="F_delta_1854_20_1_Salonique_15-05-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -2039,7 +2049,8 @@
                   <lb/>Il me dit qu'il fait les démarches nécessaires <lb/>pour le faire sortir et pour aller au front sur <lb/>ses demandes car comme <rs type="person" ref="#Horel_Louis">mon frère</rs> me dit <lb/>j'aime 20 fois mieux aller au front servir ma <lb/>patrie me faire <sic>tué</sic> si il le faut que de <lb/>faire un mois de plus dans cette prison de <lb/><placeName ref="#Melun">Melun</placeName> j'ai rendu réponse à <persName ref="#G_Locke"><choice>
                         <abbr>M<hi rend="superscript">ieur</hi></abbr>
                         <expan>monsieur</expan>
-                     </choice> Locke</persName> et lui <lb/><sic>est</sic> <sic>remercier</sic> infiniment d'avoir bien voulu <lb/>s'en occuper car je crois que <rs type="person" ref="#Horel_Louis">mon frère</rs> lui <lb/>a écrit une lettre il lui a <sic>expliquer</sic> ce qu'il y <lb/>avait à faire pour le faire sortir<pc type="supplied">.</pc></p>
+                     </choice> Locke</persName> et lui <lb/><sic>est</sic>
+                  <sic>remercier</sic> infiniment d'avoir bien voulu <lb/>s'en occuper car je crois que <rs type="person" ref="#Horel_Louis">mon frère</rs> lui <lb/>a écrit une lettre il lui a <sic>expliquer</sic> ce qu'il y <lb/>avait à faire pour le faire sortir<pc type="supplied">.</pc></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_067" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_068"/>
                <p><fw type="pageNum" rend="alignLeft">(2)</fw>Ça le met en colère de voir de ses camarades <lb/>internés comme lui à <placeName ref="#Melun">Melun</placeName> s'en aller au front <lb/>et n'avoir fait seulement que 1 an sur 5 ans <lb/>qu'ils avaient à faire enfin ne nous tracassons <lb/>pas la dessus espérons que <persName ref="#G_Locke">monsieur Locke</persName>
@@ -2231,6 +2242,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Salonique_16-11-1915">
+      <!--RMQ OK-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -2327,20 +2339,22 @@
                <!--REPRENDRE-->
                <p>Je profite que j'ai un petit instant pour vous envoyer de <lb/>mes nouvelles qui sont très bonnes pour le moment et <lb/>je désire qu'à l'arrivée de mes 2 cartes que vous vous <lb/>trouviez de même ainsi que votre fille. Je vous fais <lb/>savoir que nous avons quitté <placeName ref="#Port_Iero">Port Iéro</placeName>
                   <date when="1915-11-13T12:30:00">le 13 à 12h30</date>
-                  <lb/>pour <placeName ref="#Salonique">Salonique</placeName> où nous sommes arrivés le <date when="1915-11-14">14 au soir</date>
-                  <lb/>nous sommes ici pour remplacer <name type="navire" ref="#Charlemagne">le Charlemagne</name>
-                  <lb/>qui doit <sic>rentré</sic> en <placeName ref="#France">France</placeName> pour quelques petites réparations <lb/>ici au moins il y a du mouvement avec tous ces bateaux <lb/>qui arrivent tous les jours chargés de troupes ce <lb/>matin il est arrivé 2 grands courriers français <lb/>chargés de troupes et de matériel hier il est arrivé <lb/>15 ou 8 cargots français et anglais chargés eux <lb/>aussi de troupes et de canon de 75 il y a un <lb/>mouvement terrible à terre avec toute la troupe<pc type="supplied">.</pc>
+                  <lb/>pour <placeName ref="#Salonique">Salonique</placeName> où nous sommes arrivés le <date when="1915-11-14">14 au soir</date><pc type="supplied">.</pc>
+                  <lb/>Nous sommes ici pour remplacer <name type="navire" ref="#Charlemagne">le Charlemagne</name>
+                  <lb/>qui doit <sic>rentré</sic> en <placeName ref="#France">France</placeName> pour quelques petites réparations<pc type="supplied">.</pc>
+                  <lb/>Ici au moins il y a du mouvement avec tous ces bateaux <lb/>qui arrivent tous les jours chargés de troupes ce <lb/>matin il est arrivé 2 grands courriers français <lb/>chargés de troupes et de matériel hier il est arrivé <lb/>15 ou 8 cargots français et anglais chargés eux <lb/>aussi de troupes et de canon de 75 il y a un <lb/>mouvement terrible à terre avec toute la troupe<pc type="supplied">.</pc>
                   <pb n="3" facs="#BDIC_FD_1854_20_1_151" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_152"/><fw type="pageNum" rend="alignCenter">2</fw>Qu'il y a de grecs mobilisés<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note1"/> il y a environ 100000 <supplied reason="omitted">hommes</supplied> des <lb/>troupes françaises et anglaises il y en a en quantité <lb/>enfin on ne peut pas faire un pas dans la ville sans <lb/>rencontrer un militaire ce sont les trains qui <lb/>marchent beaucoup par ici<ref type="note" target="#F_delta_1854_20_1_Salonique_16-11-1915_note2"/> nuit et jour ils font <lb/>le va-et-vient <sic>chargé</sic> de troupes de <placeName ref="#Salonique">Salonique</placeName> à <lb/>la frontière serbe. Je crois que ça va pour le mieux <lb/>avant hier un chalutier français a arrêté une barcasse <lb/>dans laquelle il y avait 41 turcs <del rend="overline">et</del>
                   <del rend="overline">1</del> dont 11 officiers <lb/>avec armes et minutions le chalutier a coulé la <lb/>barcasse et les a fait prisonniers. Le bateau qui <lb/>nous a remplacé à <placeName ref="#Port_Iero">Port Iéro</placeName> est <name type="navire" ref="#Dupleix">le Dupleix</name>. J'ai <lb/>bien écrit à <persName ref="#G_Locke"><choice>
                         <abbr>M<hi rend="superscript">ieur</hi></abbr>
                         <expan>monsieur</expan>
                      </choice> G Locke</persName> avocat à la cour d'appel <lb/>mais vous avez oublié comtesse de me dire à laquelle <lb/>de cour d'appel il se trouve je lui ai adressé la lettre <lb/>à la cour d'appel de <placeName ref="#Paris">Paris</placeName> je pense que si ce n'est pas <lb/>là on lui la fera bien parvenir.</p>
                <closer>
-                  <salute><add place="postcard_1 marginTop" rend="reverse">un petit ami qui ne vous <sic>oublieras</sic> <lb/>jamais<pc type="supplied">,</pc></add></salute>
+                  <salute><add place="postcard_1 marginTop" rend="reverse">Un petit ami qui ne vous <sic>oublieras</sic>
+                        <lb/>jamais<pc type="supplied">,</pc></add></salute>
                   <signed><add type="signed" place="postcard_1 marginTop" rend="reverse"><persName ref="#Horel"><forename>A</forename>
                            <surname>Horel</surname></persName>
                         <lb/><address>
-                           <addrLine>toujours la même adresse<pc type="supplied">.</pc></addrLine>
+                           <addrLine>Toujours la même adresse<pc type="supplied">.</pc></addrLine>
                         </address></add></signed>
                </closer>
             </div>
@@ -2816,7 +2830,8 @@
                         </choice> 1915</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
                <p>Je rends réponse à votre aimable lettre que j'ai reçu hier avec <lb/>grand plaisir. Surtout de savoir que l'air de <placeName ref="#Sanary">Sanary</placeName>
-                  <lb/>faisait du bien pour votre fille. C'est dommage que vous <lb/>soyez toujours souffrante mais je pense qu'un peu de <lb/>soleil du midi pourra vous faire du bien. Prenez courage <lb/>et vous verrez comtesse que la santé viendra aussi. <lb/>Pour moi je ne peux mieux me porter qu'en ce moment. <lb/>Il est fortement question depuis 2 ou 3 jours de nous <lb/>envoyer à <placeName ref="#Toulon">Toulon</placeName> pour une quarantaine de jours <lb/>pour prendre 2 canons de 100 pour remplacer les 4 <lb/>canons de 47 que nous avons débarqués qui vont servir <lb/>à mettre sur les <sic>cargots</sic> qui vont faire le commerce <lb/>si nous y allons à <placeName ref="#Toulon">Toulon</placeName> prendre ces canons ce sera <lb/>pour aller dans <placeName ref="#Canal_Suez">le canal de Suez</placeName> pour empêcher <lb/>les Turcs de le franchir si c'est vrai là nous serons <lb/>heureux pendant tout le restant de la guerre. <gap reason="missing"/></p>
+                  <lb/>faisait du bien pour votre fille. C'est dommage que vous <lb/>soyez toujours souffrante mais je pense qu'un peu de <lb/>soleil du midi pourra vous faire du bien. Prenez courage <lb/>et vous verrez comtesse que la santé viendra aussi. <lb/>Pour moi je ne peux mieux me porter qu'en ce moment. <lb/>Il est fortement question depuis 2 ou 3 jours de nous <lb/>envoyer à <placeName ref="#Toulon">Toulon</placeName> pour une quarantaine de jours <lb/>pour prendre 2 canons de 100 pour remplacer les 4 <lb/>canons de 47 que nous avons débarqués qui vont servir <lb/>à mettre sur les <sic>cargots</sic> qui vont faire le commerce <lb/>si nous y allons à <placeName ref="#Toulon">Toulon</placeName> prendre ces canons ce sera <lb/>pour aller dans <placeName ref="#Canal_Suez">le canal de Suez</placeName> pour empêcher <lb/>les Turcs de le franchir si c'est vrai là nous serons <lb/>heureux pendant tout le restant de la guerre.</p>
+               <gap reason="missing"/>
             </div>
          </body>
       </text>
@@ -3234,6 +3249,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Salonique_23-11-1915">
+      <!--RMQ OK-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -3274,10 +3290,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, un cachet à date illisible <stamp type="postmark">
-                                 <gap reason="illegible" agent="rubbing"/>
-                              </stamp>. </p>
+                           <p>2 cartes postales et une enveloppe. L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso, un cachet à date illisible<stamp type="postmark"/>.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -3331,7 +3344,7 @@
                            <expan>novembre</expan>
                         </choice> 1915</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
-               <p>Ayant trouvé un camarade assez complaisant pour <lb/>m'envoyer un panorama de terre je profite que j'ai <lb/>un petit moment pour l'expédier. Car nous marins <lb/>ou quartiers maîtres nous n'avons pas le droit d'y <lb/>descendre à cause que <date when="1915-11-13">il y a 10 jours</date> de cela des marins <lb/>anglais français italiens et russes sont rentrés <lb/>au consulat allemand dans cette ville et <sic>on</sic>
+               <p>Ayant trouvé un camarade assez complaisant pour <lb/>m'envoyer un panorama de terre je profite que j'ai <lb/>un petit moment pour l'expédier. Car nous marins <lb/>ou quartiers maîtres nous n'avons pas le droit d'y <lb/>descendre à cause que <date when="1915-11-13">il y a 10 jours</date> de cela des marins <lb/>anglais<pc type="supplied">,</pc> français<pc type="supplied">,</pc> italiens et russes sont rentrés <lb/>au consulat allemand dans cette ville et <sic>on</sic>
                   <sic>tous</sic> cassé <lb/>chez lui. Depuis les marins n'ont plus le droit d'y <lb/>aller ce qui fait que quand vous avez besoin de <lb/>quelque chose vous êtes obligé d'avoir recours à <lb/>Pierre et à Paul pour vous rendre un <sic>maeheureux</sic>
                   <lb/>service. Heureusement pour moi que j'ai un camarade <lb/>qui mange à la même table que moi qui est patron du <pb n="3"/><fw type="pageNum" rend="alignCenter">.2.</fw>petit canot à vapeur. Le matin <lb/>quand il va envoyer les cuisiniers <lb/>à terre il me fait les commiss<lb rend="hyphen" type="marked"/>ions nécessaires. Toutes les cartes <lb/>postales que je vous <sic>envoi</sic>
                   <lb/>comtesse c'est lui qui me les <lb/>porte de terre. Il y a un <lb/>ordre qui a paru à bord auj<lb rend="hyphen" type="marked"/>ourd'hui demandant des <lb/><sic>volaires</sic> pour les autos canons <lb/>pour aller sur le front serbe <lb/>rien que des canonniers j'y <lb/>ai mis mon nom le <abbr>1<hi rend="superscript">er</hi></abbr> en tête <lb/>de liste. Nous allons voir <lb/>si ils veulent m'y envoyer <lb/>J'ai à vous apprendre que <placeName ref="#Grece">la Grèce</placeName> a <sic>démobiliser</sic><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_note1"/> ce <cb/><address>
@@ -3340,8 +3353,7 @@
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_23-11-1915_notea"/></addrLine>
-                  </address>
-                  <pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <sic><persName ref="#Kitchener">Lord Kichner</persName></sic> qui prend le commandement des troupes <lb/>de l'armée d'Orient mais il sera en sous ordre du <sic><persName ref="#Sarrail">général <lb/>Sarail</persName></sic>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
+                  </address><pb n="4"/><fw type="pageNum" rend="alignCenter">3</fw>matin. Il faut qu'ils soient lâches tout de même ces Grecs. <lb/>Il y a <sic><persName ref="#Kitchener">Lord Kichner</persName></sic> qui prend le commandement des troupes <lb/>de l'armée d'Orient mais il sera en sous ordre du <sic><persName ref="#Sarrail">général <lb/>Sarail</persName></sic>. Je ne sais pas si il fait si froid à <placeName ref="#Beaune">Beaune</placeName> qu'ici mais <lb/>bon sang de bon sang il fait un froid de chien par ici le malheureux <lb/>qui n'aurait pas de quoi se couvrir la nuit étant de veille <lb/>contre les sous-marins il en <sic>mourait</sic> du froid qu'il fait. <lb/>Heureusement que moi j'ai fait toutes mes provisions néces<lb rend="hyphen" type="marked"/>ssaires <add place="above">à <placeName ref="#Toulon">Toulon</placeName></add> contre le froid. Des sabots je m'en suis fait venir <lb/>une paire de la maison avec des chaussures <sic>bourés</sic>
                   <supplied reason="omitted">et</supplied> un <lb/>cache nez. J'ai tout ce qu'il faut pour pouvoir résister à <lb/>n'<sic>apporte</sic> quel hiver. Rien de nouveau à vous annoncer par <lb/>ailleurs. Que de vous souhaiter <del rend="overline">et</del> une bonne santé ainsi <lb/>que votre demoiselle. Car tant qu'à la mienne on ne peut <lb/>être mieux portant un petit ami qui ne vous <sic>oublieras</sic> jamais,</p>
                <closer>
                   <signed rend="vertical"><persName ref="#Horel"><forename>Armand</forename>
@@ -3385,7 +3397,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a">Adresse placée sur le second volet de la carte postale et sur l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="superscript">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre <persName ref="Skoudoulis">Skoudoulis</persName> que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="superscript">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre, <persName ref="Skoudoulis">Skoudoulis</persName>, que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre, une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222" status="draft"/>
                </note>
             </div>
          </back>
@@ -4055,6 +4067,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Salonique_30-11-1915">
+      <!--RMQ OK-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -4095,7 +4108,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>4 cartes postales.</p>
+                           <p>3 cartes postales et une carte-lettre.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -4155,23 +4168,14 @@
                      <date when="1915-11-30">le 30 novembre 1915</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
                <p>Je vous <sic>envoi</sic> quelques petits détails au sujet du temps <lb/>qu'il fait à <placeName ref="#Salonique">Salonique</placeName>, tous ces jours ici il n'a fait que <lb/><sic>tombé</sic> de la neige les montagnes en sont complètement <lb/>couvertes en plus il fait un vent terrible. Preuve que le <lb/><sic>bar<add place="above">h</add>omêtre</sic> est tombé à 3 degrés au dessous de zéro. <lb/>Je crois que c'est déjà un petit commencement d'hiver <lb/>je les <sic>plaind</sic> nos pauvres soldats sous leurs malh<lb rend="hyphen" type="marked"/>eureuses tentes il est vrai qu'ils sont bien <sic>couvert</sic>
-                  <lb/>mais le plus à plaindre pour eux c'est les pieds <lb/>nous autres aussi <sic>le marin</sic> nous souffrons beau<lb rend="hyphen"/>coup du froid. Car nous sommes en faction à un <lb/>canon des 2 heures entières le nez au vent. Quand <lb/>nous quittons ce poste pénible pour aller nous <lb/>coucher il est impossible de nous réchauffer les <lb/>pieds. Car à bord la nuit c'est défendu de marcher <lb/>sur le pont pour ne pas empêcher son camarade </p>
-               <pb n="3" facs="#BDIC_FD_1854_20_1_143" type="postcardBreak"/>
-               <pb n="4" facs="#BDIC_FD_1854_20_1_144"/>
-               <p><fw type="pageNum" rend="alignCenter">2</fw>qui se trouve dessous de dormir. Nous sommes <lb/><sic>obligé</sic> de rester <sic>planté</sic> 2 heures avec ce système <lb/>on est forcé d'avoir les pieds plus ou moins <sic>froid</sic>
-                  <lb/>pas <sic>plutard</sic> que hier pour mon compte j'ai fait <lb/>4 heures de service sur la passerelle avec mes <lb/>hommes à une pièce de canon pour veiller contre <lb/>les sous-marins une fois terminé ces 4 heures je <lb/>suis parti me coucher j'avais les pieds gelés <lb/>j'ai été au moins deux heures dans mon hamac <lb/>sans pouvoir me les réchauffer pourtant j'étais <lb/>bien chaussé. J'avais dans les pieds 2 paires <lb/>de chaussettes une paire de chaussons bourrés <lb/>et une paire de sabot. Il n'y a pas moyen de <lb/>tenir la chaleur le vent passe à travers les <lb/>chaussettes. Aujourd'hui la neige a tout de même <lb/><sic>commencée</sic> à <sic>cessé</sic> de tomber. Ce n'est pas dommage. <lb/>Et dire que nous sommes qu'au commencement </p>
-               <pb n="5" facs="#BDIC_FD_1854_20_1_141" type="postcardBreak"/>
-               <p>
-                  <address>
+                  <lb/>mais le plus à plaindre pour eux c'est les pieds <lb/>nous autres aussi <sic>le marin</sic> nous souffrons beau<lb rend="hyphen"/>coup du froid. Car nous sommes en faction à un <lb/>canon des 2 heures entières le nez au vent. Quand <lb/>nous quittons ce poste pénible pour aller nous <lb/>coucher il est impossible de nous réchauffer les <lb/>pieds. Car à bord la nuit c'est défendu de marcher <lb/>sur le pont pour ne pas empêcher son camarade <pb n="3" facs="#BDIC_FD_1854_20_1_143" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_144"/><fw type="pageNum" rend="alignCenter">2</fw>qui se trouve dessous de dormir. Nous sommes <lb/><sic>obligé</sic> de rester <sic>planté</sic> 2 heures avec ce système <lb/>on est forcé d'avoir les pieds plus ou moins <sic>froid</sic><pc type="supplied">.</pc>
+                  <lb/>Pas <sic>plutard</sic> que hier pour mon compte j'ai fait <lb/>4 heures de service sur la passerelle avec mes <lb/>hommes à une pièce de canon pour veiller contre <lb/>les sous-marins une fois terminé ces 4 heures je <lb/>suis parti me coucher j'avais les pieds gelés <lb/>j'ai été au moins deux heures dans mon hamac <lb/>sans pouvoir me les réchauffer pourtant j'étais <lb/>bien chaussé. J'avais dans les pieds 2 paires <lb/>de chaussettes une paire de chaussons bourrés <lb/>et une paire de sabot. Il n'y a pas moyen de <lb/>tenir la chaleur le vent passe à travers les <lb/>chaussettes. Aujourd'hui la neige a tout de même <lb/><sic>commencée</sic> à <sic>cessé</sic> de tomber. Ce n'est pas dommage. <lb/>Et dire que nous sommes qu'au commencement <pb n="5" facs="#BDIC_FD_1854_20_1_141" type="postcardBreak"/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine>48 rue de la Comedie <surplus reason="repeated">48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_30-11-1915_notea"/></addrLine>
-                  </address>
-               </p>
-               <pb n="5" facs="#BDIC_FD_1854_20_1_142"/>
-               <p><fw type="pageNum" rend="alignCenter">3</fw>de l'hiver nous n'avons pas encore fini nos souffrances <lb/>ce sera un<del rend="overline">e</del> hiver rude pour nous dans ces Balkans. <lb/>Des troupes il en arrive tous les jours. De <placeName ref="#Port_Said">Port-Saïd</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_30-11-1915_note1"/>
+                  </address><pb n="5" facs="#BDIC_FD_1854_20_1_142"/><fw type="pageNum" rend="alignCenter">3</fw>de l'hiver nous n'avons pas encore fini nos souffrances <lb/>ce sera un<del rend="overline">e</del> hiver rude pour nous dans ces Balkans. <lb/>Des troupes il en arrive tous les jours. De <placeName ref="#Port_Said">Port-Saïd</placeName><ref type="note" target="#F_delta_1854_20_1_Salonique_30-11-1915_note1"/>
                   <lb/>il doit <sic>arrivé</sic> 38 cargots chargés de troupes <lb/>anglaises environ 50 à 60 mille hommes. Ce sont <lb/>les troupes qui se trouvaient échelonnées sur tout <lb/><placeName ref="#Canal_Suez">le canal de Suez</placeName>. De <placeName ref="#France">France</placeName> il en arrive aussi tous <lb/>les jours ainsi que du matériel en masse. Il en <lb/>faut pour ces maudits Bulgares pour les dérouter <lb/>complètement. Rien autre à vous dire pour <lb/>le moment un petit ami qui ne vous oublieras <lb/>jamais. Je <del rend="overline"><unclear>su</unclear></del> vous souhaite une bonne santé <lb/>ainsi qu'à votre demoiselle car tant qu'à la <lb/>mienne elle est parfaite.</p>
                <postscript n="1">
                   <p>Je n'ai toujours pas <lb/>de réponse de <persName ref="#G_Locke">monsieur G Locke</persName> avocat à la <lb/>cour d'appel.</p>
@@ -4179,7 +4183,7 @@
                <pb n="6" facs="#BDIC_FD_1854_20_1_139"/>
                <pb n="7" facs="#BDIC_FD_1854_20_1_140" type="postcardBreak"/>
                <postscript n="2">
-                  <p><fw type="pageNum" rend="alignCenter">.3.</fw>Juste je fermais l'enveloppe sur mes cartes que je reçois une <lb/>lettre de vous qui m'a fait un très grand plaisir surtout <lb/>de vous savoir toujours en <sic>exellente</sic> santé car tant qu'à <lb/>moi je me trouve de même. Je ne manquerai pas ce soir <lb/>de faire une prière qui portera peut être bonheur à <lb/><rs type="person" ref="#Horel_Louis">mon malheureux</rs> qui n'a guère de chance. Je viens de <lb/>recevoir une lettre de lui il commence à se désoler de voir <lb/>tous les jours de ses camarades qui sont rejetés et pour <lb/>lui jusqu'ici encore rien comme il me dit j'attends d'un <lb/>jour à l'autre cette mauvaise nouvelle la tante chaque <lb/>fois qu'elle lui écrit essaye de le consoler mais il n'y a plus <lb/>rien à faire il n'y a pas moyen moi je m'en vais lui écrire <lb/>aujourd'hui et lui dire qu'il prenne patience et du courage <lb/>car comme me dit la tante il aura sûrement une diminution <lb/>de peine mais ça sera long. Il est vrai que ça commence <lb/>beaucoup à s'allonger car voila 2 mois passés que l'on <lb/>s'est occupé de lui. Par la même occasion je vais vous <lb/>adresser la lettre à votre nouvelle adresse.</p>
+                  <p><fw type="pageNum" rend="alignCenter">.3.</fw>Juste je fermais l'enveloppe sur mes cartes que je reçois une <lb/>lettre de vous qui m'a fait un très grand plaisir surtout <lb/>de vous savoir toujours en <sic>exellente</sic> santé car tant qu'à <lb/>moi je me trouve de même. Je ne manquerai pas ce soir <lb/>de faire une prière qui portera peut être bonheur à <lb/><rs type="person" ref="#Horel_Louis">mon malheureux <supplied>frère</supplied></rs> qui n'a guère de chance. Je viens de <lb/>recevoir une lettre de lui il commence à se désoler de voir <lb/>tous les jours de ses camarades qui sont rejetés et pour <lb/>lui jusqu'ici encore rien comme il me dit j'attends d'un <lb/>jour à l'autre cette mauvaise nouvelle la tante chaque <lb/>fois qu'elle lui écrit essaye de le consoler mais il n'y a plus <lb/>rien à faire il n'y a pas moyen moi je m'en vais lui écrire <lb/>aujourd'hui et lui dire qu'il prenne patience et du courage <lb/>car comme me dit la tante il aura sûrement une diminution <lb/>de peine mais ça sera long. Il est vrai que ça commence <lb/>beaucoup à s'allonger car voila 2 mois passés que l'on <lb/>s'est occupé de lui. Par la même occasion je vais vous <lb/>adresser la lettre à votre nouvelle adresse.</p>
                </postscript>
             </div>
          </body>
@@ -4435,6 +4439,7 @@
    </TEI>
    <!-- Port Iero -->
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_03-11-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -4532,10 +4537,11 @@
                         </choice> 1915</date></dateline>
                   <salute><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
                <p>Ces jours derniers <name type="navire" ref="#Goeland">le chalutier français le Goéland</name> a capturé <lb/>sur la côte d'Asie 12 contrebandiers qui se trouvaient <lb/>dans une barcasse dans laquelle ces messieurs avaient <lb/>12 boeufs qu'ils tuaient un à un quand ils trouvaient <lb/>un <sic>sous-marins</sic> boche. Nous leurs avons <sic>confisquer</sic>
-                  <lb/>le tout et nous les avons fait renfermer. Ce même <lb/>jour il a été pris une petite pirogue chargée de <lb/>poissons qui voguait sur la mer attendant qu'un sous-<lb/>marin se relève de plongée <lb/>paré<del rend="overline">e</del> à l'approvisionner <lb/>dans cette petite pirogue il <lb/>y avait 2 hommes nous les <lb/>avons fait prisonniers presque <lb/>tous les jours les chalutiers <lb/>en capture<pc type="supplied">.</pc>
+                  <lb/>le tout et nous les avons fait renfermer. Ce même <lb/>jour il a été pris une petite pirogue chargée de <lb/>poissons qui voguait sur la mer attendant qu'un sous-<lb/>marin se relève de plongée <lb/>paré<del rend="overline">e</del> à l'approvisionner<pc type="supplied">.</pc>
+                  <lb/>Dans cette petite pirogue il <lb/>y avait 2 hommes nous les <lb/>avons fait prisonniers presque <lb/>tous les jours les chalutiers <lb/>en capture<pc type="supplied">.</pc>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
-                     <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
+                     <addrLine>48 rue de la Comédie<surplus reason="repeated"> 48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_03-11-1915_notea"/></addrLine>
@@ -4545,10 +4551,10 @@
                <p><fw type="pageNum" rend="alignCenter">2.</fw>Par ailleurs rien de nouveau <lb/>il fait un temps superbe depuis <lb/>quelques jours il fait même <lb/>chaud. De pluie il n'en tombe <lb/>plus. Je suis toujours en bonne <lb/>santé et souhaite qu'à l'arrivée <lb/>de mes 2 cartes. comtesse que <lb/>vous vous trouviez de même <lb/>ne voyant rien autre chose <lb/>à vous dire pour le moment <lb/>je termine mes 2 cartes en <lb/>vous envoyant mes meilleurs <lb/>amitiés.</p>
                <closer><signed><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName></signed>
-                  <lb/><salute>toujours la même adresse.</salute>
+                  <lb/><salute>Toujours la même adresse.</salute>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
-                     <addrLine>48 rue de la Comédie <surplus reason="repeated">48</surplus></addrLine>
+                     <addrLine>48 rue de la Comédie<surplus reason="repeated"> 48</surplus></addrLine>
                      <addrLine><placeName ref="#Beaune">Beaune</placeName></addrLine>
                      <addrLine><placeName ref="#Cote_Dor">Côte-d'Or</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
@@ -4563,6 +4569,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -4644,7 +4651,7 @@
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_176" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_176.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/15c6b00b69"/>
          <graphic xml:id="BDIC_FD_1854_20_1_173" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_173.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/98c1f168a2">
-            <desc>Village Molivo- Mételin</desc>
+            <desc>Village Molivo-Mételin</desc>
          </graphic>
          <graphic xml:id="BDIC_FD_1854_20_1_174" url="http://argonnaute.u-paris10.fr/medias/customer_3/archives/lettres_soldats_jpg/BDIC_FD_1854_20_1_174.jpg http://argonnaute.u-paris10.fr/search/result/#viewer_watch:a011403267952w0U19V/4fc3e948f8"/>
       </facsimile>
@@ -4659,11 +4666,11 @@
                            <expan>octobre</expan>
                         </choice> 1915</date></dateline>
                   <lb/><salute rend="alignCenter"><persName ref="#Comtesse_Forest">Comtesse</persName>.</salute></opener>
-               <p>Je rends réponse à votre aimable lettre que je viens de <sic>reçevoir</sic> à l'instant je <lb/>serais enchanté de pouvoir vous donner des nouvelles de vos neveux mais <lb/>pour le moment cela m'est impossible car je suis à 16 heures des <placeName ref="#Dardanelles">Dardanelles</placeName>
-                  <lb/>nous sommes dans une île grecque je ne sais pas encore combien de <lb/>temps nous y restons. Je serais heureux de m'en aller car de nouvelles <lb/>nous n'en avons pas souvent. Voilà 15 jours que nous sommes <lb/>ici nous avons eu une seule fois <supplied reason="omitted">du</supplied> courrier c'est tout de même <lb/>trop peu enfin espérons que les prochains courriers seront plus <lb/>réguliers. Avec tout cela il y a encore eu un courrier français <lb/>de coulé et 3 anglais par ces maudits boches qui ne méritent <lb/>pas un autre nom. Peut être que dans ce courrier j'avais quelques <lb/>lettres <sic>tempi</sic> il vaut mieux que ce soit un courrier qu'un cuirassé <lb/>car sur un cuirassé il y a 7 à 800 hommes tandis que sur ce courrier <lb/>il y avait au plus 80 hommes. Voilà encore une nation de plus <lb/>contre nous ces salauds de Bulgares<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1"/>. Mais je cois qu'ils ne <lb/>seront pas les seuls <placeName ref="#Roumanie">la Roumanie</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2"/> et <placeName ref="#Grece">la Grèce</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3"/> vont sûrement <lb/>se mettre de la partie alors ça <sic>équilibra</sic> un peu de chaque coté <lb/>je viens de recevoir une lettre de <rs type="person" ref="#Horel_Louis">mon malheureux frère</rs> il me</p>
-               <pb n="3" facs="#BDIC_FD_1854_20_1_173" type="postcardBreak"/>
-               <pb n="4" facs="#BDIC_FD_1854_20_1_174"/>
-               <p><fw type="pageNum" rend="alignCenter">2.</fw>dit qu'il n'y a encore rien pour lui que pourtant il trouve drôle de <lb/>voir des camarades de son atelier partir Il y en a 7 qui sont partis <lb/>le mois dernier lui ça lui semble drôle de rien avoir pour lui <lb/>du <persName ref="#Le_Mire">Mire de Villers</persName> je n'ai encore pas eu de réponse c'est qu'il <lb/>lui tarde de sortir de là-dedans. Sur sa lettre il me disait <lb/>qu'il aurait été vous voir s'il venait qu'à sortir moi je lui ai <lb/>répondu que vous n'habitiez plus <placeName ref="#Paris">Paris</placeName> mais ça ne fait rien <lb/>il pourrait quand même aller jusqu'à chez vous. Comme <lb/>nouvelles de la guerre je ne connais toujours rien. Ici pour nous <lb/>c'est fini jamais nous n'arriverons à passer le détroit il est <lb/>trop miné et d'ailleurs il est infranchissable notre seul travail <lb/>est de leur tenir tête avec nos troupes de terre de manière à ce qu'ils <lb/>n'avancent pas. Mais je crois que nous allons tenter un autre coup <lb/>par <placeName ref="#Salonique">Salonique</placeName> avec de nouvelles troupes<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4"/> là nous réussirons peut <lb/>être à faire quelque chose de <unclear><del rend="overline">bons</del></unclear> bon mais par mer c'est fini<lb/>Je suis toujours en parfaite santé et souhaite que vous vous trouvez <lb/>de même à l'arrivée de mes cartes. Le <date when="1915-10-07">7 <choice>
+               <p>Je rends réponse à votre aimable lettre que je viens de <sic>reçevoir</sic> à l'instant je <lb/>serais enchanté de pouvoir vous donner des nouvelles de vos neveux mais <lb/>pour le moment cela m'est impossible car je suis à 16 heures des <placeName ref="#Dardanelles">Dardanelles</placeName><pc type="supplied">.</pc>
+                  <lb/>Nous sommes dans une île grecque je ne sais pas encore combien de <lb/>temps nous y restons. Je serais heureux de m'en aller car de nouvelles <lb/>nous n'en avons pas souvent. Voilà 15 jours que nous sommes <lb/>ici nous avons eu une seule fois <supplied reason="omitted">du</supplied> courrier c'est tout de même <lb/>trop peu enfin espérons que les prochains courriers seront plus <lb/>réguliers. Avec tout cela il y a encore eu un courrier français <lb/>de coulé et 3 anglais par ces maudits boches qui ne méritent <lb/>pas un autre nom. Peut être que dans ce courrier j'avais quelques <lb/>lettres <sic>tempi</sic> il vaut mieux que ce soit un courrier qu'un cuirassé <lb/>car sur un cuirassé il y a 7 à 800 hommes tandis que sur ce courrier <lb/>il y avait au plus 80 hommes. Voilà encore une nation de plus <lb/>contre nous ces salauds de Bulgares<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note1"/>. Mais je cois qu'ils ne <lb/>seront pas les seuls <placeName ref="#Roumanie">la Roumanie</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note2"/> et <placeName ref="#Grece">la Grèce</placeName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note3"/> vont sûrement <lb/>se mettre de la partie alors ça <sic>équilibra</sic> un peu de chaque coté<pc type="supplied">.</pc>
+                  <lb/>Je viens de recevoir une lettre de <rs type="person" ref="#Horel_Louis">mon malheureux frère</rs> il me <pb n="3" facs="#BDIC_FD_1854_20_1_173" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_174"/><fw type="pageNum" rend="alignCenter">2.</fw>dit qu'il n'y a encore rien pour lui que pourtant il trouve drôle de <lb/>voir des camarades de son atelier partir il y en a 7 qui sont partis <lb/>le mois dernier lui ça lui semble drôle de rien avoir pour lui<pc type="supplied">.</pc>
+                  <lb/>Du <persName ref="#Le_Mire">Mire de Villers</persName> je n'ai encore pas eu de réponse c'est qu'il <lb/>lui tarde de sortir de là-dedans. Sur sa lettre il me disait <lb/>qu'il aurait été vous voir s'il venait qu'à sortir moi je lui ai <lb/>répondu que vous n'habitiez plus <placeName ref="#Paris">Paris</placeName> mais ça ne fait rien <lb/>il pourrait quand même aller jusqu'à chez vous. Comme <lb/>nouvelles de la guerre je ne connais toujours rien. Ici pour nous <lb/>c'est fini jamais nous n'arriverons à passer le détroit il est <lb/>trop miné et d'ailleurs il est infranchissable notre seul travail <lb/>est de leur tenir tête avec nos troupes de terre de manière à ce qu'ils <lb/>n'avancent pas. Mais je crois que nous allons tenter un autre coup <lb/>par <placeName ref="#Salonique">Salonique</placeName> avec de nouvelles troupes<ref type="note" target="#F_delta_1854_20_1_Port_Iero_09-10-1915_note4"/> là nous réussirons peut <lb/>être à faire quelque chose de <unclear><del rend="overline">bons</del></unclear> bon mais par mer c'est fini<pc type="supplied">.</pc>
+                  <lb/>Je suis toujours en parfaite santé et souhaite que vous vous trouvez <lb/>de même à l'arrivée de mes cartes. Le <date when="1915-10-07">7 <choice>
                         <abbr>8<hi rend="superscript">bre</hi></abbr>
                         <expan>octobre</expan>
                      </choice></date> nous avons enterrer <lb/>un de nos camarades un matelot mécanicien mort de la <lb/><sic>dyssenterie</sic> le pauvre malheureux il est bien loin des siens.</p>
@@ -4685,6 +4692,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -4725,10 +4733,9 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>2 cartes postales et une enveloppe.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso <stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied>
+                           <p>2 cartes postales et une enveloppe. L'enveloppe présente les cachets suivants : 1) au recto, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><orgName>Marine française Service à la mer</orgName></stamp> et la représentation d'une ancre marine ; 2) au verso <stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied>
                                  <gap/>
-                                 <date when="1915-11-21" cert="medium">21-11 <gap/></date>.</stamp> ; 3) au verso, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine.</p>
+                                 <date when="1915-11-21" cert="medium">21-11<gap/></date></stamp> ; 3) au verso, à l'encre noire, un cachet de forme circulaire comportant la mention : <stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp> et la représentation d'une ancre marine.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -4787,12 +4794,11 @@
                         </choice> 1915</date></dateline>
                   <lb/><salute rend="alignCenter"><persName ref="#Comtesse_Forest">Comtesse</persName></salute></opener>
                <p>Je m'empresse de rendre réponse à votre aimable lettre qui <lb/>m'a fait un très grand plaisir et vous remercie beaucoup <lb/>pour le cantique du soldat <del rend="overline">c</del> chrétien que vous m'avez <lb/>fait parvenir dans cette lettre tous les jours je lis quelques <lb/>paragraphes que vous m'avez indiqué avec une plume. <lb/>Il est très intéressant. Vous me dites que vous devez <lb/>venir <sic>habité</sic>
-                  <placeName ref="#Sanary">Sanary</placeName>. C'est bien près de <placeName ref="#Toulon">Toulon</placeName> à 10 <lb/>minutes de train c'est la <abbr>2<hi rend="superscript">eme</hi></abbr> station avant d'arriver <lb/>à <placeName ref="#Toulon">Toulon</placeName>. C'est dommage que je ne sois pas là en ce <lb/>moment car j'aurais été sûrement vous voir en <lb/>permission de 24 heures. Je souhaite de tout cœur <lb/>une prompte guérison à votre demoiselle. Et pour <lb/>vous comtesse une bonne santé. Ces jours derniers <lb/>il est arrivé malheur à nos sous-marins dans <lb/><placeName ref="#Marmara">la mer de Marmara</placeName> il y a <name type="navire" ref="#Turquoise">le sous-marin français <lb/>Turquoise</name> qui a été pris dans les filets<pc type="supplied">.</pc></p>
-               <pb n="3" facs="#BDIC_FD_1854_20_1_155" type="postcardBreak"/>
-               <pb n="4" facs="#BDIC_FD_1854_20_1_156"/>
-               <p><fw type="pageNum" rend="alignCenter">.2.</fw>Son équipage est sauvé mais malheureusement ils sont <lb/>tous fait prisonniers mais les Turcs n'ont pas eu le bonheur <lb/>d'avoir notre sous-marin entre leurs mains car avant de <lb/>se rendre ils l'ont coulé<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note1"/>. En plus il y a aussi le sous-<lb/><sic>marins</sic> anglais qui avait fait tant d'exploits dans <placeName ref="#Marmara">la <lb/>mer de Marmara</placeName> celui qui avait coulé le cuirassé turc <lb/>et bien d'autres bateaux il a été perdu corps et bien personne <lb/>de sauvé. Du 5<hi rend="superscript">eme</hi> dépôt qui est <placeName ref="#Toulon">Toulon</placeName> il est parti 5000 <lb/>marins qui viennent une fois <sic>habillé</sic> en colonial, sur le <lb/>front serbe pour faire face à ces salauds de Bulgares <lb/>le marin dans ce parti va sûrement encore se faire voir <lb/>un marin un tout petit peu <sic>exité</sic> par la boisson n'a <lb/>peur de rien va au danger comme s'en aller dans <lb/>un bal de noce de tous les autres dépôts il en est parti <lb/>aussi enfin en tout il y a environ 10000 hommes marins<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note2"/>.</p>
+                  <placeName ref="#Sanary">Sanary</placeName>. C'est bien près de <placeName ref="#Toulon">Toulon</placeName> à 10 <lb/>minutes de train c'est la <abbr>2<hi rend="superscript">eme</hi></abbr> station avant d'arriver <lb/>à <placeName ref="#Toulon">Toulon</placeName>. C'est dommage que je ne sois pas là en ce <lb/>moment car j'aurais été sûrement vous voir en <lb/>permission de 24 heures. Je souhaite de tout cœur <lb/>une prompte guérison à votre demoiselle. Et pour <lb/>vous comtesse une bonne santé. Ces jours derniers <lb/>il est arrivé malheur à nos sous-marins dans <lb/><placeName ref="#Marmara">la mer de Marmara</placeName> il y a <name type="navire" ref="#Turquoise">le sous-marin français <lb/>Turquoise</name> qui a été pris dans les filets<pc type="supplied">.</pc>
+                  <pb n="3" facs="#BDIC_FD_1854_20_1_155" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_156"/><fw type="pageNum" rend="alignCenter">.2.</fw>Son équipage est sauvé mais malheureusement ils sont <lb/>tous fait prisonniers mais les Turcs n'ont pas eu le bonheur <lb/>d'avoir notre sous-marin entre leurs mains car avant de <lb/>se rendre ils l'ont coulé<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note1"/>. En plus il y a aussi le sous-<lb/><sic>marins</sic> anglais qui avait fait tant d'exploits dans <placeName ref="#Marmara">la <lb/>mer de Marmara</placeName> celui qui avait coulé le cuirassé turc <lb/>et bien d'autres bateaux il a été perdu corps et bien personne <lb/>de sauvé. Du 5<hi rend="superscript">eme</hi> dépôt qui est <placeName ref="#Toulon">Toulon</placeName> il est parti 5000 <lb/>marins qui viennent une fois <sic>habillé</sic> en colonial, sur le <lb/>front serbe pour faire face à ces salauds de Bulgares<pc type="supplied">.</pc>
+                  <lb/>Le marin dans ce parti va sûrement encore se faire voir <lb/>un marin un tout petit peu <sic>exité</sic> par la boisson n'a <lb/>peur de rien va au danger comme s'en aller dans <lb/>un bal de noce<pc type="supplied">.</pc> De tous les autres dépôts il en est parti <lb/>aussi enfin en tout il y a environ 10000 hommes marins<ref type="note" target="#F_delta_1854_20_1_Port_Iero_10-11-1915_note2"/>.</p>
                <closer>
-                  <salute>rien autre chose à vous dire pour le moment un petit ami qui ne <lb/>vous <sic>oublieras</sic> jamais,</salute>
+                  <salute>Rien autre chose à vous dire pour le moment un petit ami qui ne <lb/>vous <sic>oublieras</sic> jamais,</salute>
                   <signed><persName ref="#Horel"><forename>A</forename>. <surname>H</surname>.</persName></signed>
                </closer>
                <postscript>
@@ -4826,14 +4832,14 @@
                            <abbr>qmtre</abbr>
                            <expan>quartier maître</expan>
                         </choice> canonnier à bord du <name type="navire" ref="#H_IV">Henri IV</name> aux <placeName ref="#Dardanelles">Dardanelles</placeName></addrLine>
-                  </address><stamp type="postmark" subtype="arrival"><supplied><placeName>Sanary Var</placeName></supplied>
+                  </address><stamp type="postmark" subtype="arrival"><supplied><placeName ref="#Sanary">Sanary Var</placeName></supplied>
                      <gap/>
                      <date when="1915-11-21" cert="medium">21-11 <gap/></date></stamp><stamp type="armee"><supplied><orgName>Marine française Service à la mer</orgName></supplied></stamp></p>
             </div>
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé, cannoné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé. Cannoné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
                </note>
                <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseilles</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front" status="draft"/></note>
             </div>
@@ -4841,6 +4847,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915">
+      <!--RMQ OK-->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -4881,7 +4888,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>2 cartes postales.</p>
+                           <p>2 cartes postales. La seconde présente une petite croix ajoutée par Armand Horel sur le recto.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -4963,7 +4970,7 @@
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address></p>
                <closer>
-                  <salute>Votre petit ami tout <lb/>dévoué</salute>
+                  <salute>Votre petit ami tout <lb/>dévoué<pc type="supplied">,</pc></salute>
                   <lb/>
                   <signed><persName ref="#Horel"><surname>Horel</surname>
                         <forename>Armand</forename></persName></signed>
@@ -4980,6 +4987,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_27-10-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -5088,6 +5096,7 @@
       </text>
    </TEI>
    <TEI xml:id="F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -5177,7 +5186,7 @@
                <p>Un bonjour de <placeName ref="#Port_Iero">Port <lb/>Iéro</placeName> d'un petit ami qui <lb/>ne vous oubliera jamais.</p>
                <closer><signed><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName><ref type="note" target="#F_delta_1854_20_1_Port_Iero_dateUnk_a27-10_b3-11_notea"/></signed>
-                  <lb/><salute>toujours la même adresse.</salute>
+                  <lb/><salute>Toujours la même adresse.</salute>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forest</persName>
                      <addrLine><placeName ref="#Bonne_Menoge">Bonne-<choice>
@@ -5189,8 +5198,7 @@
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
                   </address></closer>
                <postscript n="1">
-                  <p>J'ai été content de ce courrier <lb/>car j'ai reçu de bonnes nouvelles <lb/>de la maison mes deux petites nièces <lb/>sont en excellente santé <lb/>elles sont hors de danger <lb/>de cette mauvaise <lb/>rougeole qui a <sic>regnée</sic>
-                     <lb/>chez nous pendant <lb/>1 mois environ<pc type="supplied">.</pc></p>
+                  <p>J'ai été content de ce courrier <lb/>car j'ai reçu de bonnes nouvelles <lb/>de la maison mes deux petites nièces <lb/>sont en excellente santé <lb/>elles sont hors de danger <lb/>de cette mauvaise <lb/>rougeole qui a regnée <lb/>chez nous pendant <lb/>1 mois environ<pc type="supplied">.</pc></p>
                </postscript>
             </div>
          </body>
@@ -5204,6 +5212,7 @@
    </TEI>
    <!-- Mytilene -->
    <TEI xml:id="F_delta_1854_20_1_Mytilene_06-10-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -5244,7 +5253,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>1 carte postale.</p>
+                           <p>1 carte postale</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -5305,7 +5314,8 @@
                            </choice>-Menoge</placeName></addrLine>
                      <addrLine><placeName ref="#Haute_Savoie">Haute-Savoie</placeName></addrLine>
                      <addrLine><placeName ref="#France">France</placeName></addrLine>
-                  </address><gap reason="missing"/></p>
+                  </address></p>
+               <gap reason="missing"/>
             </div>
          </body>
          <back>
@@ -5317,6 +5327,7 @@
    </TEI>
    <!-- Moudros -->
    <TEI xml:id="F_delta_1854_20_1_Moudros_03-09-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -5357,7 +5368,7 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>3 cartes postales.</p>
+                           <p>3 cartes postales</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -5416,7 +5427,7 @@
                   <lb/><salute rend="alignCenter"><persName ref="#Comtesse_Forest">Ma brave comtesse</persName></salute></opener>
                <p>Je vous <sic>envoi</sic> ces quelques mots <lb/>pour vous dire que je suis <lb/>arrivé à bon port sans incident <lb/>ni avarie au bâtiment. Nous <lb/>avons <supplied reason="omitted">eu</supplied> un temps superbe pendant <lb/>toute notre traversée de <placeName ref="#Toulon">Toulon</placeName>
                   <lb/>à <placeName ref="#Moudros">Moudros</placeName><ref type="note" target="#F_delta_1854_20_1_Moudros_03-09-1915_note1"/>. Hier au soir nous <lb/>avons rencontré 2 sous-marins <lb/>anglais qui étaient <sic>accompagné</sic>
-                  <lb/>par deux remorqueurs et qui <lb/>faisaient route pour les <placeName ref="#Dardanelles">Dar<lb rend="hyphen" type="marked"/>danelles</placeName>. Quel bonheur pour <lb/>nous que ce soit pas 2 allemands <lb/>ou autrichiens autrement ça aurait <lb/>sûrement changé de note<pc type="supplied">.</pc>
+                  <lb/>par deux remorqueurs et qui <lb/>faisaient route pour <placeName ref="#Dardanelles">les Dar<lb rend="hyphen" type="marked"/>danelles</placeName>. Quel bonheur pour <lb/>nous que ce soit pas 2 allemands <lb/>ou autrichiens autrement ça aurait <lb/>sûrement changé de note<pc type="supplied">.</pc>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de la Forêst</persName>
                      <addrLine><placeName ref="#Bonne_Menoge">Bonne-<choice>
@@ -5428,8 +5439,8 @@
                   </address></p>
                <pb n="3" facs="#BDIC_FD_1854_20_1_187" type="postcardBreak"/>
                <pb n="4" facs="#BDIC_FD_1854_20_1_188"/>
-               <p><fw type="pageNum" rend="alignLeft">.2.</fw>Pour votre commission <lb/>comtesse je ferai tout mon <lb/>possible pour vous la transmettre <lb/>pas peut être de suite mais <lb/>tôt ou tard si ils faisaient <lb/>comme la dernière fois que <lb/>nous étions <w rend="aggl">là</w><w>bàs</w> ils ont <lb/>envoyé 2 quartiers maîtres <lb/>fusiliers et un major canonnier <lb/>à terre aux <placeName ref="#Dardanelles">Dardanelles</placeName>
-                  <lb/>je ferai faire votre commission <lb/>par l'un d'eux mais en tous <lb/>les cas je vais faire mon <lb/>possible en même temps <lb/>que de vous écrire <persName ref="#Comtesse_Forest">comtesse</persName><pc type="supplied">.</pc>
+               <p><fw type="pageNum" rend="alignLeft">.2.</fw>Pour votre commission <lb/>comtesse je ferai tout mon <lb/>possible pour vous la transmettre <lb/>pas peut être de suite mais <lb/>tôt ou tard si ils faisaient <lb/>comme la dernière fois que <lb/>nous étions là-bàs ils ont <lb/>envoyé 2 quartiers maîtres <lb/>fusiliers et un major canonnier <lb/>à terre aux <placeName ref="#Dardanelles">Dardanelles</placeName>
+                  <lb/>je ferai faire votre commission <lb/>par l'un d'eux mais en tous <lb/>les cas je vais faire mon <lb/>possible. En même temps <lb/>que de vous écrire <persName ref="#Comtesse_Forest">comtesse</persName><pc type="supplied">.</pc>
                   <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></addrLine>
@@ -5441,7 +5452,7 @@
                <p><fw type="pageNum" rend="alignLeft">.3.</fw>Je vais envoyer comme vous <lb/>me l'avez dit sur votre lettre <lb/>quelques lignes à <persName ref="#Le_Mire"><choice>
                         <abbr>M<hi rend="superscript">ieur</hi></abbr>
                         <abbr>monsieur</abbr>
-                     </choice> Le Mire <lb/>de Viller</persName>. Et je lui expliquerai <lb/>textuellement comme vous <lb/>m'avez dit de lui dire. Jamais <lb/>je vous payerai les services <lb/>que vous me rendez au sujet <lb/>de mon frère je vous serai <lb/>toujours redevable. Je vous <lb/>souhaite comtesse une <lb/>bonne santé et une prompte <lb/>guérison pour votre bras <lb/>toujours malade. Un petit <lb/>ami qui ne vous oublieras <lb/>jamais</p>
+                     </choice> Le Mire <lb/>de Viller</persName>. Et je lui expliquerai <lb/>textuellement comme vous <lb/>m'avez dit de lui dire. Jamais <lb/>je vous payerai les services <lb/>que vous me rendez au sujet <lb/>de <rs type="person" ref="#Horel_Louis">mon frère</rs> je vous serai <lb/>toujours redevable. Je vous <lb/>souhaite comtesse une <lb/>bonne santé et une prompte <lb/>guérison pour votre bras <lb/>toujours malade. Un petit <lb/>ami qui ne vous oublieras <lb/>jamais<pc type="supplied">,</pc></p>
                <closer><signed><persName ref="#Horel"><forename>Armand</forename>
                         <surname>Horel</surname></persName></signed>
                   <cb/><address>
@@ -5466,6 +5477,7 @@
    </TEI>
    <!-- Imbros -->
    <TEI xml:id="F_delta_1854_20_1_Imbros_23-09-1915">
+      <!-- RMQ OK -->
       <teiHeader type="text">
          <fileDesc>
             <titleStmt>
@@ -5506,10 +5518,10 @@
                   <physDesc>
                      <objectDesc>
                         <supportDesc>
-                           <p>2 cartes postales et une enveloppe. L'enveloppe présente une découpe circulaire au recto.</p>
-                           <p>L'enveloppe présente les cachets suivants : 1) au recto, un cachet circulaire, à l'encre noire, dont on devine qu'il contient les mentions : <stamp type="armee"><supplied><orgName>Marine Française Service à la Mer</orgName></supplied></stamp> et la représentation d'une ancre marine ; 2) toujours au recto, un autre cachet illisible, certainement un cachet à date <stamp type="postmark">
+                           <p>2 cartes postales et une enveloppe. Cette dernière présente une découpe circulaire au recto.</p>
+                           <p>L'enveloppe comporte les cachets suivants : 1) au recto, un cachet circulaire, à l'encre noire, dont on devine qu'il contient les mentions : <stamp type="armee"><supplied><orgName>Marine Française Service à la Mer</orgName></supplied></stamp> et la représentation d'une ancre marine ; 2) toujours au recto, un autre cachet illisible, certainement un cachet à date <stamp type="postmark">
                                  <gap reason="illegible" agent="rubbing"/>
-                              </stamp> ; 3) au verso, un autre cachet à date quasiment illisible, sur lequel on devenir tout de même la mention :<stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp>, la date est illisible.</p>
+                              </stamp> ; 3) au verso, un autre cachet à date quasiment illisible sur lequel on devenir tout de même la mention : <stamp type="postmark"><supplied><placeName ref="#Bonne_Menoge">Bonne-sur-Menoge</placeName></supplied></stamp>, la date est illisible.</p>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
@@ -5570,7 +5582,7 @@
                <p>Ayant un petit moment devant moi <lb/>je profite pour vous envoyer quelques <lb/>petites nouvelles de guerre. Nous <lb/>sommes <sic>appareiller</sic> pour <placeName ref="#Imbros">l'île <lb/>d'Imbros</placeName><ref type="note" target="#F_delta_1854_20_1_Imbros_23-09-1915_note1"/> qui se trouve juste à <lb/><sic><placeName ref="#Golf_Saros">l'embouchure du golfe de Sarros</placeName></sic>. <lb/>Figurez vous que <date when="1915-09-16">le 16 <choice>
                         <abbr>7<hi rend="superscript">bre</hi></abbr>
                         <expan>septembre</expan>
-                     </choice></date> vers <lb/>7 <hi rend="superscript">1/2</hi> du matin tout en nous lavant <lb/>la figure qui est ce que nous aper<lb rend="hyphen" type="marked"/>çevons qui planait au dessus de <lb/>notre tête <pc type="supplied">?</pc> Un <sic>aréoplane</sic> boche il <lb/>a <sic>laisser</sic> tomber 3 bombes sur le <cb/><address>
+                     </choice></date> vers <lb/>7 <hi rend="superscript">1/2</hi> du matin tout en nous lavant <lb/>la figure qui est ce que nous aper<lb rend="hyphen" type="marked"/>çevons qui planait au dessus de <lb/>notre tête un <sic>aréoplane</sic> boche il <lb/>a <sic>laisser</sic> tomber 3 bombes sur le <cb/><address>
                      <persName ref="#Comtesse_Forest" type="addressee">Comtesse L. de La Forêst</persName>
                      <addrLine><placeName ref="#Bonne_Menoge">Bonne-<choice>
                               <abbr>s/</abbr>
@@ -5636,7 +5648,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a">Adresse présente sur les deux cartes postales et l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">À l'issue des guerres balkaniques, <placeName ref="#Imbros">l'île d'Imbros</placeName> est restée sous domination ottomane.</note>
+               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">À l'issue des guerres balkaniques <placeName ref="#Imbros">l'île d'Imbros</placeName> est restée sous domination ottomane.</note>
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connaît des problèmes logistiques et sanitaires importants.<bibl corresp="#Senat_Decker" status="draft"/></note>
             </div>
          </back>

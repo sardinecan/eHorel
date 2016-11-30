@@ -110,7 +110,7 @@
                             <div class="large-4 columns">
                                 <ul class="no-bullet">
                                     <li class="head">Données matérielles :</li>
-                                    <li><span class="bold"><xsl:text>support : </xsl:text></span><xsl:value-of select=".//tei:supportDesc/tei:p"/></li>
+                                    <li><span class="bold"><xsl:text>support : </xsl:text></span><xsl:apply-templates select=".//tei:supportDesc/tei:p"/></li>
                                 </ul>
                             </div>
                             <div class="large-4 columns">
@@ -192,10 +192,21 @@
         <p class="text-center"><xsl:apply-templates select="tei:salute"/></p>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='letter']/tei:p">
+    <xsl:template match="tei:div[@type='letter']//tei:p">
+        <xsl:if test=".//tei:seg[@type='dateline']">
+            <p class="text-right"><xsl:apply-templates select=".//tei:seg[@type='dateline']" mode="affichage"/></p>
+        </xsl:if>
+        <xsl:if test=".//tei:seg[@type='salute']">
+            <p class="text-center"><xsl:apply-templates select=".//tei:seg[@type='salute']" mode="affichage"/></p>
+        </xsl:if>
         <p><xsl:apply-templates/></p>
+        <xsl:if test=".//tei:seg[@type='closer']">
+            <p><xsl:apply-templates select=".//tei:seg[@type='closer']" mode="affichage"/></p>
+        </xsl:if>
     </xsl:template>
     
+    <xsl:template match="tei:seg[@type]"/>
+    <xsl:template match="tei:seg[@type]" mode="affichage"><xsl:apply-templates/></xsl:template>
     <xsl:template match="tei:closer/tei:salute">
         <p><xsl:apply-templates/></p>
     </xsl:template>
@@ -257,7 +268,7 @@
         <xsl:variable name="lien"><xsl:value-of select=" substring-after($url,' ')"/></xsl:variable>
         <xsl:for-each select=".">
             <li class="orbit-slide">
-                <a href="{$lien}"><img src="{$source}" alt="image"/></a>
+                <a href="{$lien}" target="_blanck"><img src="{$source}" alt="image"/></a>
                 <xsl:if test="//tei:graphic[@xml:id=$facs]/tei:desc">
                     <figcaption class="orbit-caption"><xsl:value-of select="//tei:graphic[@xml:id=$facs]/tei:desc"/></figcaption>
                 </xsl:if>
@@ -355,7 +366,7 @@
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='letter' or @type='note']//tei:persName | tei:div[@type='letter' or @type='note']//tei:rs[@type='person']">
+    <xsl:template match="tei:div[@type='letter' or @type='note' or @type='enveloppe']//tei:persName | tei:div[@type='letter' or @type='note' or @type='enveloppe']//tei:rs[@type='person']">
         <xsl:variable name="ref" select="@ref"/>
         <xsl:variable name="id" select="substring-after(@ref,'#')"/>
         <xsl:variable name="tooltip">
@@ -367,7 +378,7 @@
         <a data-tooltip="true" aria-haspopup="true" title="{$tooltip}" class="has-tip" href="index_edition.html{$ref}"><xsl:apply-templates/></a>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='letter' or @type='note']//tei:placeName">
+    <xsl:template match="tei:div[@type='letter' or @type='note' or @type='enveloppe']//tei:placeName">
         <xsl:variable name="ref" select="@ref"/>
         <xsl:variable name="id" select="substring-after(@ref,'#')"/>
         <xsl:variable name="tooltip">
@@ -378,7 +389,7 @@
         <a data-tooltip="true" aria-haspopup="true" title="{$tooltip}" class="has-tip" href="index_edition.html{$ref}"><xsl:apply-templates/></a>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='letter' or @type='note']//tei:name">
+    <xsl:template match="tei:div[@type='letter' or @type='note' or @type='enveloppe']//tei:name">
         <xsl:variable name="ref" select="@ref"/>
         <xsl:variable name="id" select="substring-after(@ref,'#')"/>
         <xsl:variable name="tooltip">
@@ -619,6 +630,8 @@
         </ul>
     </xsl:template>
     
+    <xsl:template match="tei:teiHeader//tei:stamp"><xsl:apply-templates/></xsl:template>
+    
     <!--<xsl:template match="tei:text//tei:gap">
         <xsl:choose>
             <xsl:when test="@reason='missing'">
@@ -639,7 +652,13 @@
     <xsl:template match="tei:subst"><xsl:apply-templates select="tei:add"/></xsl:template>
     <xsl:template match="tei:sic"><xsl:apply-templates/><xsl:text> </xsl:text><span class="italic"><xsl:text>(sic)</xsl:text></span></xsl:template>
     <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
-    <xsl:template match="tei:gap"><xsl:text>[...]</xsl:text></xsl:template>
+    <xsl:template match="tei:unclear"><xsl:apply-templates/><xsl:text> </xsl:text><span class="italic"><xsl:text>(?)</xsl:text></span></xsl:template>
+    <xsl:template match="tei:gap">
+        <xsl:choose>
+            <xsl:when test="@reason='missing'"><p class="text-center"><xsl:text>[...]</xsl:text></p></xsl:when>
+            <xsl:otherwise><xsl:text>[...]</xsl:text></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template match="tei:del">
         <xsl:choose>
             <xsl:when test="ancestor::tei:address"><span class="del"><xsl:apply-templates/></span></xsl:when>
