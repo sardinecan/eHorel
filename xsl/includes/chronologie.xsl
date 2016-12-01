@@ -36,7 +36,10 @@
                                 <li class="bold">Légende :</li>
                                 <li><img src="js/timeline/dist/src/api/images/boat.png" alt="boat"/> interventions maritimes <img src="js/timeline/dist/src/api/images/explosion.png" alt="explosion"/> interventions terrestres <img src="js/timeline/dist/src/api/images/dark-red-circle.png" alt="point rouge"/> événements divers <img src="js/timeline/dist/src/api/images/lettre.png" alt="lettre"/> lettres envoyées</li>
                             </ul>
-                            <div id="tl"></div>
+                            <div id="timelineGroup">
+                                <div class="timelineButton"><div class="timelineButtonPrev"><input type="button" id="backToBack" value="&lt;"/></div><div class="timelineButtonNext"><input type="button" id="backToFuture" value="&gt;"/></div></div>
+                                <div id="tl"></div>
+                            </div>
                             <!--<div id="frise"><xsl:comment>pour traitement xslt</xsl:comment></div>-->
                         </div>
                     </div>

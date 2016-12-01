@@ -16,11 +16,52 @@
                     <div class="row">
                         <xsl:apply-templates select="tei:div[@type='about']"/>
                     </div>
+                    <xsl:apply-templates select="//tei:listBibl" mode="bibl"/>
                     <xsl:copy-of select="$footer"/>
                     <xsl:copy-of select="$js"/>
                 </body>
             </html>
         </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template match="tei:listBibl" mode="bibl">
+        <div class="row">
+            <div class="large-8 large-offset-4 columns">
+                <h2>Bibliographie</h2>
+                <ul class="no-bullet">
+                    <xsl:for-each select="tei:bibl">
+                        <xsl:sort select="tei:author[1] | tei:title[not(ancestor::tei:bibl/tei:author)]" order="ascending" case-order="upper-first"/>
+                        <li>
+                            <xsl:for-each select="./*">
+                                <xsl:choose>
+                                    <xsl:when test="position() != last()"><xsl:apply-templates select="." mode="bibl"/><xsl:text>, </xsl:text></xsl:when>
+                                    <xsl:otherwise><xsl:apply-templates select="." mode="bibl"/><xsl:text>.</xsl:text></xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </div>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:author[ancestor::tei:listBibl]" mode="bibl">
+        <xsl:choose>
+            <xsl:when test="tei:surname"><span class="persName"><xsl:apply-templates select="tei:surname"/></span><xsl:text> (</xsl:text><xsl:apply-templates select="tei:forename"/><xsl:text>)</xsl:text></xsl:when>
+            <xsl:when test="tei:orgName"><span class="persName"><xsl:apply-templates select="tei:orgName"></xsl:apply-templates></span></xsl:when>
+            <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:title[ancestor::tei:listBibl]" mode="bibl">
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:bibl[@type='monographie']"><span class="italic"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="ancestor::tei:bibl[@type='article' or @type='dossier']"><xsl:text>« </xsl:text><span class="italic"><xsl:apply-templates/></span><xsl:text> »</xsl:text></xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[ancestor::tei:listBibl]" mode="bibl">
+        <a href="{@target}" target="_blank"><span class="persName">url</span></a>
     </xsl:template>
     
     <xsl:template match="tei:div[@type='about']">

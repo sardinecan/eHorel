@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/oddHorel.tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader type="text">
       <fileDesc>
@@ -1073,60 +1072,89 @@
             </listPerson>
             <listBibl xml:id="bibl">
                <bibl type="monographie" xml:id="Roche_flotte">
-                  <author><forename>Jean-Michel</forename><surname>Roche</surname></author>
+                  <author><surname>Roche</surname><forename>Jean-Michel</forename></author>
                   <title>Dictionnaire des bâtiments de la flotte de guerre française de Colbert à nos jours</title>
-                  <date when="2005">2005</date>
                   <placeName>Toulon</placeName>
+                  <date when="2005">2005</date>
+               </bibl>
+               <bibl type="monographie" xml:id="regle_typo">
+                  <author><orgName>Imprimerie nationale</orgName></author>
+                  <title>Lexique des règles typographique en usage à l'Imprimerie nationale</title>
+                  <placeName>Paris</placeName>
+                  <date when="2002">2002</date>
+               </bibl>
+               <bibl type="monographie" xml:id="edition_texte_comtep">
+                  <author><surname>Nougaret</surname><forename>Christine</forename></author>
+                  <author><surname>Parinet</surname><forename>Élisabeth</forename></author>
+                  <title>L'édition critique des textes contemporains XIXe-XXIIe siècle.</title>
+                  <placeName>Paris</placeName>
+                  <editor>Les manuels de l'École des chartes</editor>
+                  <date when="2015">2015</date>
+               </bibl>
+               <bibl type="monographie" xml:id="xml_concentre">
+                  <author><surname>Harold</surname><forename>Elliotte Rusty</forename></author>
+                  <author><surname>Means</surname><forename>W. Scott</forename></author>
+                  <title>XML en concentré</title>
+                  <placeName>Paris</placeName>
+                  <editor>O'reilly</editor>
+                  <date when="2005">2005</date>
+               </bibl>
+               <bibl type="monographie" xml:id="Desenclos1">
+                  <author><surname>Desenclos</surname><forename>Camille</forename></author>
+                  <title>L'ambassade extraordinaire du duc d'Angoulême, comte de Béthune et abbé de Préaux vers les princes et potentats de l'empire (1620-1621), mémoire de master 2</title>
+                  <placeName>Paris</placeName>
+                  <editor>École nationale des chartes</editor>
+                  <date when="2005">2005</date>
                </bibl>
                <bibl type="article" xml:id="Cochet_Orient">
-                  <author><forename>François</forename><surname>Cochet</surname></author>
+                  <author><surname>Cochet</surname><forename>François</forename></author>
                   <title>L'armée d'Orient, des expériences combattantes loin de Verdun</title>
-                  <editor n="81">Cahiers de la Mediterranée</editor>
+                  <editor n="81">Cahiers de la Méditerranée</editor>
                   <date when="2010">2010</date>
                   <ref target="http://cdlm.revues.org/5498?lang=en"/>
                </bibl>
                <bibl type="article" xml:id="Andurain_Gouraud">
-                  <author><forename>Andurain</forename><nameLink>d'</nameLink><surname>Julie</surname></author>
+                  <author><surname>Andurain</surname><forename>Julie d'</forename></author>
                   <title>Le général Gouraud, chef du corps expéditionnaire des Dardanelles en 1915</title>
                   <editor n="258">Revue historique des armées</editor>
                   <date when="2010">2010</date>
-                  <ref target="http://rha.revues.org/6921#text"/>
+                  <ref type="extLink" target="http://rha.revues.org/6921#text"/>
                </bibl>
                <bibl type="dossier" xml:id="Bulgarie_centenaire">
                   <title>La Bulgarie dans les collections de l'ECPAD</title>
                   <editor>Mission centenaire</editor>
                   <date when="2012">2012</date>
-                  <ref target="http://centenaire.org/fr/bulgarie/la-bulgarie-dans-les-collections-de-lecpad"/>
+                  <ref type="extLink" target="http://centenaire.org/fr/bulgarie/la-bulgarie-dans-les-collections-de-lecpad"/>
                </bibl>
                <bibl type="dossier" xml:id="Roumanie_centenaire">
-                  <title>La Roumanie dans la Grande Guerre : des affrontements aux monuments</title>
-                  <!--<author><orgName>Ambassade de France en Roumanie</orgName></author>-->
+                  <author><orgName>Ambassade de France en Roumanie</orgName></author>
+                  <title>La Roumanie dans la Grande Guerre : des affrontements aux monuments</title>
                   <editor>Mission centenaire</editor>
                   <date when="2013">2013</date>
-                  <ref target="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments"/>
+                  <ref type="extLink" target="http://centenaire.org/fr/dans-le-mondeeurope/roumanie/la-roumanie-dans-la-grande-guerre-des-affrontements-aux-monuments"/>
                </bibl>
                <bibl type="dossier" xml:id="Grece_centenaire">
                   <title>La Grèce dans les collections de l'ECPAD</title>
                   <editor>Mission centenaire</editor>
                   <date when="2012">2012</date>
-                  <ref target="http://centenaire.org/fr/dans-le-monde/europe/grece/la-grece-dans-les-collections-de-lecpad"/>
+                  <ref type="extLink" target="http://centenaire.org/fr/dans-le-monde/europe/grece/la-grece-dans-les-collections-de-lecpad"/>
                </bibl>
                <bibl type="dossier" xml:id="Senat_Decker">
-                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>
+                  <title>1914-1918 : La grande guerre vue des commissions du Sénat</title>
                   <editor>Sénat</editor>
-                  <ref target="http://www.senat.fr/evenement/archives/D48/risq.html"/>
+                  <ref type="extLink" target="http://www.senat.fr/evenement/archives/D48/risq.html"/>
                </bibl>
                <bibl type="dossier" xml:id="Front_orient_centenaire">
-                  <title>1914-1918 : LA GRANDE GUERRE VUE DES COMMISSIONS DU SENAT</title>
                   <author><forename>Max</forename><surname>Schiavon</surname></author>
-                  <editor>Mission centnaire</editor>
-                  <ref target="http://centenaire.org/fr/espace-scientifique/pays-belligerants/le-front-dorient-1915-1918#2"/>
+                  <title>1914-1918 : La grande guerre vue des commissions du Sénat</title>
+                  <editor>Mission centenaire</editor>
+                  <ref type="extLink" target="http://centenaire.org/fr/espace-scientifique/pays-belligerants/le-front-dorient-1915-1918#2"/>
                </bibl>
                <bibl type="monographie" xml:id="Schiavon_front">
-                  <title type="title">Le Front d'Orient</title><title type="subtitle">Du désastre des Dardanelles à la victoire finale <date from="1915" to="1918">1915-1918</date></title>
+                  <title type="title">Le front d'Orient</title><title type="subtitle">Du désastre des Dardanelles à la victoire finale <date from="1915" to="1918">1915-1918</date></title>
                   <author><forename>Max</forename><surname>Schiavon</surname></author>
-                  <editor>Tallandier</editor>
                   <placeName>Paris</placeName>
+                  <editor>Tallandier</editor>
                   <date when="2014">2014</date>
                </bibl>
             </listBibl>

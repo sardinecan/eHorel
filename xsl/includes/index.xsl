@@ -95,8 +95,8 @@
                 </xsl:choose>
             </xsl:for-each>
             <xsl:choose>
-                <xsl:when test="tei:desc"><xsl:text>, </xsl:text><xsl:apply-templates select="tei:desc"/><xsl:text>.</xsl:text></xsl:when>
-                <xsl:otherwise><xsl:text>.</xsl:text></xsl:otherwise>
+                <xsl:when test="tei:desc"><xsl:text>, </xsl:text><xsl:apply-templates select="tei:desc"/><!--<xsl:text>.</xsl:text>--></xsl:when>
+                <xsl:otherwise><!--<xsl:text>.</xsl:text>--></xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
     </xsl:template>
@@ -125,7 +125,7 @@
                             <xsl:when test="position() != last()">
                                 <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
                             </xsl:when>
-                            <xsl:otherwise><xsl:apply-templates select="."/><xsl:text>.</xsl:text></xsl:otherwise>
+                            <xsl:otherwise><xsl:apply-templates select="."/><!--<xsl:text>.</xsl:text>--></xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>
                 </xsl:when>

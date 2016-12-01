@@ -11,11 +11,10 @@
             <title>Correspondance d'Armand Horel</title>
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <!--feuilles de style-->  
+            <!--feuilles de style-->
+            <link rel="stylesheet" href="js/leaflet/leaflet.css" />
             <link rel="stylesheet" href="style/foundation/foundation.css" />
             <link rel="stylesheet" type="text/css" href="style/foundation/app.css"/>
-            <link rel="stylesheet" href="js/leaflet/leaflet.css" />
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
         </head>
     </xsl:variable>
     
@@ -24,7 +23,7 @@
             <img src="images/photos_site/logo_bdic.gif" alt="logo_BDIC"/>
             <div class="large-12" data-sticky-container="true">
                 <div class="nav sticky" data-sticky="true" data-top-anchor="responsive-menu:top" data-margin-top="0">
-                    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="small">
                         <button class="menu-icon" type="button" data-toggle="true"><!--button pour foundation responsive--></button>
                         <div class="title-bar-title">Menu</div>
                     </div>
@@ -34,7 +33,7 @@
                                 <li><a href="http://www.bdic.fr/">BDIC</a></li>
                                 <li><a href="index.html">Accueil</a></li>
                                 <li>
-                                    <a href="#" class="subMenu">Correspondance d'Armand Horel</a>
+                                    <a href="F_delta_1854_20_1_Salonique_15-05-1915.html" class="subMenu">Correspondance d'Armand Horel</a>
                                     <ul class="vertical menu">
                                         <li>
                                             <a href="expediteurs.html">Accès par correspondants</a>
@@ -122,6 +121,8 @@
     
     <xsl:variable name="js">
         <script src="js/foundation/vendor/jquery.js"></script>
+        <script src="js/perso/timelineButton.js"></script>
+        <script src="js/perso/timelineButton.jquery.js"></script>
         <script src="js/foundation/vendor/what-input.js"></script>
         <script src="js/foundation/vendor/foundation.min.js"></script>
         <script src="js/foundation/app.js"></script>
