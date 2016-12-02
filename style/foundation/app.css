@@ -192,29 +192,32 @@ li.tabs-title a{
     background-color: red;
 }
 
-#timelineGroup {
-    position:relative;
+#timelineGroup{
+    position: relative;
 }
 
-.timelineButton {
-    position:absolute;
-    width:100%;
-    z-index:1000;
-    top :35%;
+.timelineButton{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    top: 35%;
 }
 
-.timelineButtonPrev, .timelineButtonNext {
-    display:inline-block;
+.timelineButtonPrev,
+.timelineButtonNext{
+    display: inline-block;
 }
 
 .timelineButtonNext{
-    text-align:right;
-    float:right;
+    text-align: right;
+    float: right;
 }
 
-#backToBack, #backToFuture {;
+#backToBack,
+#backToFuture{
     font-size: 30px;
     background-color: rgba(208, 208, 208, 0.5);
-    color:white;
+    color: white;
+    border: none; /* Green */
 
 }

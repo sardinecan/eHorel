@@ -155,32 +155,30 @@
     </xsl:template>
     
     <xsl:template match="tei:correspAction">
-        <div class="large-6 medium-6 column"><em><xsl:value-of select="tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:value-of select="tei:persName[@type='deliveredTo']"/></em></div>
-        <div class="large-6 medium-6 column"><em class="float-right"><xsl:value-of select="tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:date"/></em></div>
+        <div class="large-6 medium-6 column"><xsl:value-of select="tei:persName[@type='sentBy']"/><xsl:text> à </xsl:text><xsl:value-of select="tei:persName[@type='deliveredTo']"/></div>
+        <div class="large-6 medium-6 column"><span class="float-right"><xsl:value-of select="tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:date"/></span></div>
     </xsl:template>
     
     <xsl:template match="tei:div[@type='letter']/@ana">
-        <em>
-            <span class="smallcaps"><xsl:text>Objets : </xsl:text></span>
-            <xsl:variable name="ana" select="."/>
-            <xsl:choose>
-                <xsl:when test="substring-before(.,' ')">
-                    <xsl:for-each select="tokenize(.,' ')">
-                        <xsl:variable name="anaTokenized" select="substring-after(.,'#')"/>
-                        <!-- RMQ appel de la variable route pour retrouver un nœud que la fonction tokenize() fait perdre. -->
-                        <xsl:value-of select="$root//tei:interp[@xml:id=$anaTokenized]"/>
-                        <xsl:choose>
-                            <xsl:when test="position() != last()"><xsl:text>, </xsl:text></xsl:when>
-                            <xsl:otherwise><xsl:text>.</xsl:text></xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:for-each>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:variable name="ana" select="substring-after($ana,'#')"/>
-                    <xsl:value-of select="//tei:interp[@xml:id=$ana]"/><xsl:text>.</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </em>
+        <span class="smallcaps"><xsl:text>Objets : </xsl:text></span>
+        <xsl:variable name="ana" select="."/>
+        <xsl:choose>
+            <xsl:when test="substring-before(.,' ')">
+                <xsl:for-each select="tokenize(.,' ')">
+                    <xsl:variable name="anaTokenized" select="substring-after(.,'#')"/>
+                    <!-- RMQ appel de la variable route pour retrouver un nœud que la fonction tokenize() fait perdre. -->
+                    <xsl:value-of select="$root//tei:interp[@xml:id=$anaTokenized]"/>
+                    <xsl:choose>
+                        <xsl:when test="position() != last()"><xsl:text>, </xsl:text></xsl:when>
+                        <xsl:otherwise><xsl:text>.</xsl:text></xsl:otherwise>
+                    </xsl:choose>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="ana" select="substring-after($ana,'#')"/>
+                <xsl:value-of select="//tei:interp[@xml:id=$ana]"/><xsl:text>.</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:div[@type='letter']">
