@@ -24,8 +24,8 @@
                                             <li>
                                                 <a href="#" class="subMenu">Correspondance d'Armand Horel</a>
                                                 <ul class="vertical menu">
-                                                    <li><a href="expediteurs.html">Accès par correspondants</a></li>
                                                     <li><a href="chronologie.html">Accès chronologique</a></li>
+                                                    <li><a href="thematiques.html">Accès thématique</a></li>
                                                     <li><a href="cartographie.html">Accès géographique</a></li>
                                                 </ul>
                                             </li>

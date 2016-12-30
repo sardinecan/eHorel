@@ -5,7 +5,7 @@
     exclude-result-prefixes="tei" version="2.0">
     
     <xsl:template match="//tei:teiCorpus" mode="expediteurs">
-        <xsl:result-document encoding="UTF-8" href="expediteurs.html">
+        <xsl:result-document encoding="UTF-8" href="thematiques.html">
             <!-- pour déclaration DOCTYPE html 5 : -->
             <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
             <html>
@@ -15,8 +15,9 @@
                     <xsl:copy-of select="$headerSlide"/>
                     <div class="row">
                         <div class="large-12">
-                            <h2>Accès par correspondants</h2>
+                            <h1>Accès thématique</h1>
                             <p>La correspondance est ici classée par expéditeur. 43 lettres ont été traitées jusqu'à présent. Seule une lettre n'est pas de la main d'Armand Horel, elle a été écrite par son frère Louis. Les lettres sont ensuite classées chronologiquement et les envois non datés sont regroupés en fin de liste.</p>
+                            <h2>Expéditeurs</h2>
                             <ul class="menu vertical" data-accordion-menu="true">
                                 <xsl:for-each-group select="tei:TEI" group-by="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']/@ref">
                                     <li>
@@ -38,6 +39,30 @@
                                         </ul>
                                     </li>
                                 </xsl:for-each-group>
+                            </ul>
+                        </div>
+                        <div class="large-12">
+                            <h2>Thèmes</h2>
+                            <ul class="menu vertical" data-accordion-menu="true">
+                                <xsl:for-each select="//tei:interp">
+                                    <xsl:sort select="."/>
+                                    <xsl:variable name="id" select="@xml:id"/>
+                                    <li>
+                                        <a class="entree" href="#"><xsl:value-of select="concat(upper-case(substring(.,1,1)),substring(., 2),' '[not(last())])"/></a>
+                                        <ul class="no-bullet content">
+                                            <xsl:for-each select="//tei:TEI[descendant::tei:div[@type='letter'][@ana]]">
+                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
+                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
+                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
+                                                <xsl:variable name="ana" select=".//tei:div[@type='letter']/@ana"/>
+                                                <xsl:variable name="href" select="@xml:id"/>
+                                                <xsl:if test="contains($ana, $id)">
+                                                    <li><a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']"/> à <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/></a></li>
+                                                </xsl:if>
+                                            </xsl:for-each>
+                                        </ul>
+                                    </li>
+                                </xsl:for-each>
                             </ul>
                         </div>
                     </div>

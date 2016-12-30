@@ -15,6 +15,11 @@
             <link rel="stylesheet" href="js/leaflet/leaflet.css" />
             <link rel="stylesheet" href="style/foundation/foundation.css" />
             <link rel="stylesheet" type="text/css" href="style/foundation/app.css"/>
+            <link rel="stylesheet" href="style/owl/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"/>
+            <script src="js/foundation/vendor/jquery.js"></script>
+            <script src="js/owl/owl.carousel.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet"/>
         </head>
     </xsl:variable>
     
@@ -35,11 +40,8 @@
                                 <li>
                                     <a href="F_delta_1854_20_1_Salonique_15-05-1915.html" class="subMenu">Correspondance d'Armand Horel</a>
                                     <ul class="vertical menu">
-                                        <li>
-                                            <a href="expediteurs.html">Accès par correspondants</a>
-                                            <!--<ul class="vertical menu"><xsl:apply-templates select="tei:teiCorpus"/></ul>-->
-                                        </li>
                                         <li><a href="chronologie.html">Accès chronologique</a></li>
+                                        <li><a href="thematiques.html">Accès thématique</a></li>
                                         <li><a href="cartographie.html">Accès géographique</a></li>
                                     </ul>
                                 </li>
@@ -120,7 +122,19 @@
     </xsl:variable>
     
     <xsl:variable name="js">
-        <script src="js/foundation/vendor/jquery.js"></script>
+        <script>
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+            items:1,
+            margin:10,
+            autoHeight:true,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            nav:true
+            })
+        </script>
         <script src="js/perso/timelineButton.js"></script>
         <script src="js/perso/timelineButton.jquery.js"></script>
         <script src="js/foundation/vendor/what-input.js"></script>

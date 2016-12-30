@@ -46,9 +46,9 @@
                             <div class="medium-12 large-4 columns">
                                 <div class="orbit" role="region" aria-label="cartes postales" data-orbit="true">
                                     <header>Cliquez sur les images pour consulter l'intégralité du fonds numérisé.</header>
-                                    <ul class="orbit-container">
-                                        <button class="orbit-previous"><!--<span class="show-for-sr">Previous Slide</span>-->&#9664;&#xFE0E;</button>
-                                        <button class="orbit-next"><!--<span class="show-for-sr">Next Slide</span>-->&#9654;&#xFE0E;</button>
+                                    <ul class="owl-carousel owl-theme no-bullet">
+                                        <!--<button class="orbit-previous"><!-\-<span class="show-for-sr">Previous Slide</span>-\->&#9664;&#xFE0E;</button>
+                                        <button class="orbit-next"><!-\-<span class="show-for-sr">Next Slide</span>-\->&#9654;&#xFE0E;</button>-->
                                         <xsl:apply-templates select=".//tei:pb[@facs]" mode="affichage"/>
                                     </ul>
                                 </div>
@@ -247,10 +247,12 @@
     </xsl:template>
     
     <xsl:template match="tei:postscript[position()=1]">
-        <p><xsl:text>[PS </xsl:text><xsl:if test="ancestor::tei:TEI//tei:postscript[2]"><xsl:text>1</xsl:text></xsl:if><xsl:text> :] </xsl:text><xsl:apply-templates/></p>
+        <p><xsl:text>[PS </xsl:text><xsl:if test="ancestor::tei:TEI//tei:postscript[2]"><xsl:text>1</xsl:text></xsl:if><xsl:text> :] </xsl:text></p>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:postscript[position()!=1]">
-        <p><xsl:text>[PS </xsl:text><xsl:value-of select="@n"/><xsl:text> :] </xsl:text><xsl:apply-templates/></p>
+        <p><xsl:text>[PS </xsl:text><xsl:value-of select="@n"/><xsl:text> :] </xsl:text></p>
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="tei:choice"><xsl:apply-templates select="tei:expan"/></xsl:template>
@@ -272,7 +274,7 @@
         <xsl:variable name="source"><xsl:value-of select=" substring-before($url,' ')"/></xsl:variable>
         <xsl:variable name="lien"><xsl:value-of select=" substring-after($url,' ')"/></xsl:variable>
         <xsl:for-each select=".">
-            <li class="orbit-slide">
+            <li>
                 <a href="{$lien}" target="_blanck"><img src="{$source}" alt="image"/></a>
                 <xsl:if test="//tei:graphic[@xml:id=$facs]/tei:desc">
                     <figcaption class="orbit-caption"><xsl:value-of select="//tei:graphic[@xml:id=$facs]/tei:desc"/></figcaption>

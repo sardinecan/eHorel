@@ -8,7 +8,7 @@
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="no" encoding="UTF-8"/>
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes" encoding="UTF-8" name="html"/>
     <xsl:output method="text" indent="yes" encoding="UTF-8" name="text"/>
-    <xsl:template match="/">
+    <xsl:template match="/" name="html">
         <!-- pour déclaration DOCTYPE html 5 : -->
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -51,10 +51,10 @@
             </xsl:for-each>
         </div>
         <div class="large-8 columns"> 
-            <h1>Correspondance d'Armand Horel, un marin dans la campagne d'orient</h1>
+            <h1>La correspondance d'Armand Horel</h1>
             <xsl:for-each select="./tei:div[not(@type)]">
                 <xsl:if test="tei:head">
-                    <h2 class="subheader"><xsl:apply-templates select="tei:head"/></h2>
+                    <h2><xsl:apply-templates select="tei:head"/></h2>
                 </xsl:if>
                 <xsl:for-each select="tei:p">
                     <p><xsl:apply-templates/></p>
@@ -94,7 +94,7 @@
     
     <xsl:template match="tei:editorialDecl">
         <div class="large-8 large-offset-4 columns">
-            <h2 class="subheader">Principes éditoriaux</h2>
+            <h2>Principes éditoriaux</h2>
             <h3 class="subheader">Normalisation</h3>
             <p><xsl:apply-templates select="tei:normalization"/></p>
             <h3 class="subheader">Ponctuation</h3>

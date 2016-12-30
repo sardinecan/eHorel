@@ -418,7 +418,8 @@ html{
 body{
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+    font-family: open sans;
     font-weight: normal;
     line-height: 1.5;
     color: #0a0a0a;
@@ -1668,10 +1669,12 @@ h3,
 h4,
 h5,
 h6{
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-weight: normal;
+    /*font-family: arvo;*/
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
     font-style: normal;
-    color: inherit;
+    color: rgb(68, 68, 68);
+    /*color: #404040;*/
     text-rendering: optimizeLegibility;
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -1693,6 +1696,7 @@ h1{
 
 h2{
     font-size: 1.25rem;
+    margin-top:50px;
 }
 
 h3{
