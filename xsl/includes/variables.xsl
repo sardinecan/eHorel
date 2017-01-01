@@ -19,7 +19,9 @@
             <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"/>
             <script src="js/foundation/vendor/jquery.js"></script>
             <script src="js/owl/owl.carousel.js"></script>
-            <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
         </head>
     </xsl:variable>
     

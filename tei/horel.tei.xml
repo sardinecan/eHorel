@@ -101,7 +101,7 @@
       <front>
          <div type="introduction">
             <div>
-               <p>Avant toute chose, il nous semble important de présenter aux lecteurs le contexte dans lequel cette publication a été élaborée. L'édition électronique de la correspondance d'<persName ref="#Horel">Armand Horel</persName> s'inscrit autour d'une réflexion sur les apports des technologies numériques dans l'édition de sources historiques. Réalisée dans le cadre d'un mémoire de fin d'études, elle a surtout permis l'élaboration d'un modèle d'édition électronique de correspondances de guerre en XML-TEI, que nous tenons à partager avec tous les chercheurs qui souhaiteraient entreprendre de tels travaux.</p>
+               <p>Avant toute chose, il nous semble important de présenter aux lecteurs le contexte dans lequel cette publication a été élaborée. L'édition électronique de la correspondance d'<persName ref="#Horel">Armand Horel</persName> s'inscrit autour d'une réflexion sur les apports des technologies numériques dans l'édition des sources historiques. Réalisée dans le cadre d'un mémoire de fin d'études, elle a surtout permis l'élaboration d'un modèle d'édition électronique de correspondances en XML-TEI que nous tenons à partager avec toutes les personnes qui souhaiteraient entreprendre de tels travaux.</p>
             </div>
             <div>
                <head>La correspondance</head>
@@ -109,15 +109,15 @@
             </div>
             <div>
                <head>Armand Horel</head>
-               <p><persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né <date when="1889-09-03">le 3 septembre 1889</date> à <placeName>Caudan dans le Morbihan</placeName>. Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer, se savent ni lire ni écrire. Engagé volontaire dans la marine en <date when="1907">1907</date> alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName> au troisième dépôt des équipages de la Flotte comme apprenti canonnier. <date when="1908-08-12">Le 12 août 1908</date>, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. Il est reçu matelot de 2<hi rend="superscript">e</hi> classe canonnier breveté <date when="1908-11-01">le 1<hi rend="superscript">er</hi> novembre de la même année</date>. Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="superscript">e</hi> classe, il est finalement affecté à différentes compagnies de gendarmerie maritime à partir d'<date when="1913-04">avril 1913</date>.</p>
+               <p><persName ref="#Horel">Jean-Louis-Armand Horel</persName> est né <date when="1889-09-03">le 3 septembre 1889</date> à <placeName>Caudan dans le Morbihan</placeName>. Ses parents, <persName>Guillaume-Marie Horel</persName> et <persName>Marie-Jeanne Trédec</persName>, respectivement menuisier et femme au foyer, ne savent ni lire ni écrire. Engagé volontaire dans la marine en <date when="1907">1907</date> alors qu'il n'a que dix-huit ans, il est incorporé à <placeName ref="#Lorient">Lorient</placeName> au troisième dépôt des équipages de la Flotte comme apprenti canonnier. <date when="1908-08-12">Le 12 août 1908</date>, il est blessé en service commandé sur la « <name type="navire" ref="#Couronne">Couronne</name> » et se voit remettre la médaille militaire. Il est reçu matelot de 2<hi rend="superscript">e</hi> classe canonnier breveté <date when="1908-11-01">le 1<hi rend="superscript">er</hi> novembre de la même année</date>. Réengagé pour trois ans en 1912 en tant que quartier-maître canonnier de 2<hi rend="superscript">e</hi> classe, il est finalement affecté à différentes compagnies de gendarmerie maritime à partir d'<date when="1913-04">avril 1913</date>.</p>
                <p>Lorsque la guerre éclate, <persName ref="#Horel">Armand Horel</persName> est réintégré dans les unités combattantes <date when="1914-08-02">dès le 2 août 1914</date>. Jusqu'à sa démobilisation <date when="1919-03-19">le 19 mars 1919</date>, il servira sur différents bâtiments de la Flotte française ; d'abord durant la campagne des <placeName ref="#Dardanelles">Dardanelles</placeName>, puis à <placeName ref="#Salonique">Salonique</placeName>, <placeName ref="#Corfou">Corfou</placeName> et <placeName ref="#Patras">Patras</placeName>.</p>
                <p>À travers ces cartes, <persName ref="#Horel">Armand Horel</persName> nous raconte son quotidien de marin français, témoin du théâtre d'opérations du front d'Orient. <date when="1915-08">À partir d'août 1915</date>, et jusqu'à son retour à la vie civile, il entretient une correspondance relativement suivie avec <persName ref="#Comtesse_Forest">la comtesse de La Forest</persName>. Il y relate certains faits marquants du conflit comme l'entrée en guerre de <placeName ref="#Bulgarie">la Bulgarie</placeName>, le développement de la guerre sous-marine ou l'épisode de grippe espagnole de <date when="1918">1918</date>. Il évoque aussi son frère aîné, <persName ref="#Horel_Louis">Louis</persName>, incarcéré <date when="1912">depuis 1912</date> pour « désertion à l'intérieur en temps de paix », que la comtesse participera à faire libérer. Ce dernier, gracié en <date when="1916">novembre 1916</date> afin de « pouvoir aller défendre son pays », sera incorporé dans le 1<hi rend="superscript">er</hi> bataillon d'infanterie légère d’Afrique. Il sera tué à l'ennemi devant <placeName>Bantigny</placeName> dans la Somme le <date when="1918-04-05">5 avril 1918</date>.</p>
                <p>Au-delà de cet ensemble épistolaire, ce fonds présente aussi une belle collection de cartes postales d'Orient dont certaines sont en couleur.</p>
             </div>
             <div>
                <head>L'édition électronique</head>
-               <p>Lors de la mise en place de ce projet, plusieurs fonds ont été présélectionnés afin de déterminer celui qui présenterait le plus d'intérêt pour notre entreprise. Les écrits d'<persName ref="#Horel">Armand Horel</persName> ont été retenus pour plusieurs raisons : tout d'abord parce que l'auteur a servi dans la marine française durant toute la campagne d'Orient, dont nous commémorons le centenaire cette année (2015) ; ensuite, parce que ce théâtre d'opération reste encore moins étudié que le front occidental ou russe ; enfin, et concernant les aspects numériques de l'édition, ce fonds présentait un certain nombre d'enjeux ou de cas de figure qu'il était intéressant de traiter : la géolocalisation, la multiplicité des supports d'écriture, etc.</p>
-               <p>Une attention particulière a été accordée à l'indexation et aux points d'entrée dans le texte. Chaque lettre a ainsi été géolocalisée afin d'offrir un double accès chrono-géographique. Les personnes, lieux et bâtiments de flotte ont été, dans la mesure du possible, identifiés et reliés à un index. Ces termes se présentent sous la forme de mots soulignés dans le texte, le survol de ces derniers permet l'affichage des informations rattachées dans une info-bulle. Ce sont également des liens qui autorisent un accès direct à l'index.</p>
+               <p>Lors de la mise en place de ce projet, plusieurs fonds ont été présélectionnés afin de déterminer celui qui présenterait le plus d'intérêt pour notre entreprise. Les écrits d'<persName ref="#Horel">Armand Horel</persName> ont été retenus pour plusieurs raisons : tout d'abord parce que l'auteur a servi dans la marine française durant toute la campagne d'Orient, dont nous commémorons le centenaire cette année (2015) ; ensuite, parce que ce théâtre d'opération reste méconnu du grand public ; enfin, et concernant les aspects numériques de l'édition, ce fonds présentait un certain nombre d'enjeux ou de cas de figure qu'il était intéressant de traiter : la géolocalisation, la multiplicité des supports d'écriture, etc.</p>
+               <p>Une attention particulière a été accordée à l'indexation et aux points d'entrée dans le texte. Ainsi, ce ne sont pas moins de trois types d'accès qui sont proposés : chronologique, géographique et thématique. Les personnes, lieux et bâtiments de flotte ont été, dans la mesure du possible, identifiés et reliés à un index. Ces termes se présentent sous la forme de mots soulignés dans le texte, le survol de ces derniers permet l'affichage des informations rattachées dans une info-bulle. Ce sont également des liens qui autorisent un accès direct à l'index.</p>
                <p>Les fichiers sources de cette édition sont disponibles librement sur notre dépôt <ref type="extLink" target="https://github.com/sardinecan/TEIcorrespondances_horel">github</ref>.</p>
             </div>
             <div type="ressourcesExt">
@@ -160,7 +160,7 @@
       </front>
       <body>
          <div type="list_index">
-            <p>Cet index contient les noms de personnes, lieux et bâtiments de flotte mentionnés dans la correspondance d'<persName ref="#Horel">Armand Horel</persName>. Des liens permettent d'accéder directement aux correspondances souhaitées.</p>
+            <p>Cet index contient les noms de personnes, lieux et bâtiments de flotte mentionnés dans la correspondance d'<persName ref="#Horel">Armand Horel</persName>. Des liens permettent d'accéder directement aux lettres souhaitées.</p>
             <p>Les noms géographiques (en italique), à l'exception des pays, ont été complétés par leur coordonnées géographiques. Lorsqu'il s'agit de lieux étrangers, la mention du pays est systématiquement rappelée. Dans l'éventualité d'une orthographe multiple acceptée, un renvoi est opéré vers la forme la plus courante. Enfin, lorsque le nom du lieu a évolué depuis la rédaction des lettres, c'est la forme ancienne qui constitue la vedette ; elle est suivie du nom actuel.</p>
             <p>Les entrées d'index concernant les personnes (en petites capitales) ont été complétées, lorsque cela était possible, par des informations permettant de préciser leur lien de parenté, leur rôle, ou leur fonction.</p>
             <p>Le même traitement a été appliqué aux navires (entre guillemets).</p>
@@ -172,10 +172,10 @@
          <div type="about">
             <div>
                <p>L'édition de la correspondance d’Armand Horel a permis l'élaboration d'un modèle d'édition électronique en XML-TEI.</p>
-               <p>Le projet de la Text Encoding Initiative (TEI) est né de la volonté d'offrir à la communauté universitaire un format d'encodage pour les documents textuels afin de faciliter les échanges. Lors d'une conférence organisée à Poughkeepsie près de New-York en 1987, des professionnels du secteur se sont accordés sur la nécessité d'uniformiser certaines pratiques. Ils formulèrent un ensemble de recommandations allant dans ce sens, tout en insistant sur le besoin d'élaborer un format d'échange standard de données. Celui-ci devait reposer sur une syntaxe et un schéma prédéfinis, tout en garantissant, autant que possible, la compatibilité avec les standards existants.</p>
+               <p>Le projet de la <hi rend="italic">Text Encoding Initiative</hi> (TEI) est né de la volonté d'offrir à la communauté universitaire un format d'encodage pour les documents textuels afin de faciliter les échanges. Lors d'une conférence organisée à Poughkeepsie près de New-York en 1987, des professionnels du secteur se sont accordés sur la nécessité d'uniformiser certaines pratiques. Ils formulèrent un ensemble de recommandations allant dans ce sens, tout en insistant sur le besoin d'élaborer un format d'échange standard de données. Celui-ci devait reposer sur une syntaxe et un schéma prédéfinis, tout en garantissant, autant que possible, la compatibilité avec les standards existants.</p>
                <p>La TEI s'est très vite imposée comme le modèle d'édition électronique pour la publication des sources primaires. La cinquième version de la TEI (P5) repose maintenant sur XML, un langage informatique structuré compréhensible par l'homme et la machine. Contrairement au format web (HTML) ou aux logiciels de traitement de texte, XML permet de se concentrer sur la structure et le contenu d'un texte, indépendamment de sa mise en forme.</p>
                <p>Le consortium TEI a rapidement privilégié la publication de <hi rend="italic">guidelines</hi> (recommandations) à celle d'un véritable standard. Ses champs d'application étant relativement étendus (ouvrages imprimés anciens, textes médiévaux, cours écrits ou oraux, etc.), la TEI propose non pas tant un schéma fixe, mais plutôt un cadre de développement modulable selon les besoins du projet. Ainsi, chaque module répond à une problématique que l'on est libre d'inclure ou non.</p>
-               <p>Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au respect des sources, à l'identification et l'indexation des noms (personnes et lieux), ainsi qu'aux différents points d'entrées du texte (chronologique, géographique, par destinataire, etc.). Le schéma et sa documentation sont mis à la disposition de tous et sont réutilisables librement. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer la lecture des <hi rend="italic">guidelines</hi>, mais il présente la méthode de travail qui a été la notre lors du développement de ce projet.</p>
+               <p>Dans le cadre de ce projet dédié à l'édition électronique des correspondances de guerre, nous avons réalisé une personnalisation du schéma TEI afin d'uniformiser au maximum les pratiques d'encodage et permettre ainsi d'automatiser le traitement des documents numériques produits. Ce travail a été réalisé à l'occasion d'un stage de fin d'études. Une attention toute particulière a été accordée au respect des sources, à l'identification et l'indexation des noms (personnes et lieux), ainsi qu'aux différents points d'entrées du texte (chronologique, géographique, thématique). Le schéma et sa documentation sont mis à la disposition de tous et sont réutilisables librement. Un manuel d'encodage a été rédigé, il n'a pas vocation à remplacer la lecture des <hi rend="italic">guidelines</hi>, mais il présente la méthode de travail qui a été la notre lors du développement de ce projet.</p>
             </div>
             <div>
                <head>Techniques</head>
@@ -195,7 +195,7 @@
             <div>
                <head>Remerciements</head>
                <p>Tout d’abord, je souhaite adresser toute ma gratitude à madame Frédérique Joannic-Seta, directrice adjointe de la BDIC, pour avoir rendu ce stage possible.</p>
-               <p>Je souhaite également remercier Jean-Baptiste Camps, tuteur pédagogique et responsable du master « technologies numériques appliquées à l’histoire » pour son enseignement et ses conseils avisés à propos du langage XML.</p>
+               <p>Je souhaite également remercier Jean-Baptiste Camps, tuteur pédagogique et responsable du master « technologies numériques appliquées à l’histoire », pour son enseignement et ses conseils avisés à propos du langage XML.</p>
                <p>Enfin, Je me dois également de remercier Emmanuel Château-Dutier pour son soutien et ses encouragements. Puis, que Camille Desenclos, Patrick Latour et Lionel Maurel acceptent ici ma gratitude pour leur soutien et leurs précieux conseils.</p>
             </div>
             <div type="ressourcesExt">
@@ -362,7 +362,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du <placeName ref="#Dardanelles">détroit des Dardanelles</placeName>, mais ici aussi les combats s'enlisent. L'envoi d'un corps expéditionnaire sur <placeName ref="#Gallipoli">la presqu'île de Gallipoli</placeName> en avril n'y changera rien. Une seconde offensive terrestre est planifiée en août, mais la priorité donnée au front occidental limite l'envoi des renforts ; c'est un nouvel échec. Une partie des troupes est finalement redéployée sur <placeName ref="#Salonique">le front de Salonique</placeName> en septembre, alors que l'évacuation est décidée en décembre.<bibl corresp="#Cochet_Orient" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Toulon_8-08-1915_note1" n="1">En février 1915, les forces de l'Entente tentent de reprendre l'initiative avec une attaque maritime du <placeName ref="#Dardanelles">détroit des Dardanelles</placeName>, mais ici aussi les combats s'enlisent. L'envoi d'un corps expéditionnaire sur <placeName ref="#Gallipoli">la presqu'île de Gallipoli</placeName> en avril n'y changera rien. Une seconde offensive terrestre est planifiée en août, mais la priorité donnée au front occidental limite l'envoi des renforts ; c'est un nouvel échec. Une partie des troupes est finalement redéployée sur <placeName ref="#Salonique">le front de Salonique</placeName> en septembre, alors que l'évacuation est décidée en décembre.<bibl corresp="#Cochet_Orient"/></note>
             </div>
          </back>
       </text>
@@ -510,7 +510,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1">Officiellement neutre, le gouvernement grec de <persName ref="#Venizelos">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur <placeName ref="#Lemnos">les îles de Lemnos</placeName>, <placeName ref="#Mytilene">Mytilène</placeName> et <placeName ref="#Tenedos">Ténédos</placeName>.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Toulon_29-08-1915_note1" n="1">Officiellement neutre, le gouvernement grec de <persName ref="#Venizelos">Venizélos</persName> laisse toutefois les alliés installer leurs bases de transit sur <placeName ref="#Lemnos">les îles de Lemnos</placeName>, <placeName ref="#Mytilene">Mytilène</placeName> et <placeName ref="#Tenedos">Ténédos</placeName>.<bibl corresp="#Schiavon_front"/></note>
             </div>
          </back>
       </text>
@@ -1180,7 +1180,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_notea" n="a">La correspondance se poursuit au recto de cette carte-lettre.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">L'ordre de retraite générale des troupes serbes est donné par <persName ref="#Putnik">le voïvode Putnik</persName> le 25 novembre 1915. C'est en réalité toute une partie de la population qui fuit l'avancée des troupes ennemies.<bibl corresp="#Schiavon_front" n="150" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_07-12-1915_note1" n="1">L'ordre de retraite générale des troupes serbes est donné par <persName ref="#Putnik">le voïvode Putnik</persName> le 25 novembre 1915. C'est en réalité toute une partie de la population qui fuit l'avancée des troupes ennemies.<bibl corresp="#Schiavon_front" n="150"/></note>
             </div>
          </back>
       </text>
@@ -1329,7 +1329,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d’Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_09-04-1916_note1" n="1">Les premiers mois de l'année 1916 sont assez calmes sur le front d’Orient. Les Allemands refusent de passer la frontière grec pour ne pas faire basculer les forces helléniques dans le camps adverse. Les combats sont essentiellement le fait de patrouilles et on tente d'obtenir des renseignements en capturant des prisonniers.<bibl corresp="#Schiavon_front" n="178"/>
                </note>
             </div>
          </back>
@@ -1716,8 +1716,8 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_notea" n="a">La correspondance se poursuit au recto de cette carte-lettre.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d’Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les Grecs restent une menace pour les troupes alliées.<!-- Page 143 : la conservation de Salonique est une priorité--><bibl corresp="#Schiavon_front" n="222" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note1" n="1">Mi-novembre, le rapport de force s'inverse avec l'arrivée d'une troisième division bulgare. <persName ref="#Joffre">Le généralissime Joffre</persName> pense que les troupes françaises ne doivent pas battre en retraite immédiatement afin d'apporter un soutien aux Serbes et rester crédible face aux États encore neutres. Le gouvernement français laisse le choix à la responsabilité au <persName ref="#Sarrail">général Sarrail</persName> commandant l'armée d’Orient. Il adopte dans un premier temps un position défensive avant de prévenir ses généraux, le 20 novembre, qu'une retraite est envisagée. C'est finalement un « recul par échelon successif » qui est décidé le 3 décembre afin de ralentir la progression des troupes ennemies et de ramener un maximum d'équipement.<bibl corresp="#Schiavon_front" n="147"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_14-12-1915_note2" n="2">Malgré l'accord trouvé quelques semaines plus tôt, la situation n'a pas véritablement évoluée et les Grecs restent une menace pour les troupes alliées.<!-- Page 143 : la conservation de Salonique est une priorité--><bibl corresp="#Schiavon_front" n="222"/></note>
             </div>
          </back>
       </text>
@@ -1868,7 +1868,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_notea" n="a">Adresse présente sur toutes les cartes de la correspondance et sur l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">Malgré les relances du <persName ref="#Joffre">généralissime Joffre</persName>, <persName ref="#Sarrail">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyens et souhaite mener une attaque à l'automne. Ce dernier estime que l'armée serbe ne sera opérationnelle qu'à l'été, lorsque la température interdira une offensive importante.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_15-04-1916_note1" n="1">Malgré les relances du <persName ref="#Joffre">généralissime Joffre</persName>, <persName ref="#Sarrail">Sarrail</persName> rechigne à lui transmettre ses plans d'opérations. Il réclame plus de moyens et souhaite mener une attaque à l'automne. Ce dernier estime que l'armée serbe ne sera opérationnelle qu'à l'été, lorsque la température interdira une offensive importante.<bibl corresp="#Schiavon_front" n="180"/>
                </note>
             </div>
          </back>
@@ -2256,7 +2256,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_16-03-1916_note1" n="1">La région est marécageuse et si en quelques mois la longueur du camp retranché a atteint les cent vingt kilomètres, sa défense ne permet pas d'avoir une densité de troupes importante sur toute sont étendue. L'armée s'attache donc à l'amélioration des voies de communication, routes et chemins de fer, afin de gagner en mobilité.<bibl corresp="#Schiavon_front" n="169" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-03-1916_note1" n="1">La région est marécageuse et si en quelques mois la longueur du camp retranché a atteint les cent vingt kilomètres, sa défense ne permet pas d'avoir une densité de troupes importante sur toute sont étendue. L'armée s'attache donc à l'amélioration des voies de communication, routes et chemins de fer, afin de gagner en mobilité.<bibl corresp="#Schiavon_front" n="169"/>
                </note>
             </div>
          </back>
@@ -2376,8 +2376,8 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">En octobre, et malgré un accord entre les deux nations, <persName ref="#Constantin">le roi Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de <placeName ref="#Serbie">la Serbie</placeName> arguant que cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à <placeName ref="#Bulgarie">la Bulgarie</placeName> — en raison de la menace allemande et austro-hongroise — l'accord était devenu caduc. À la demande du <persName ref="#Venizelos">premier ministre grec Venizélos</persName>, les alliés acceptent de soutenir les Serbes et d'envoyer des troupes. Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.<bibl corresp="#Schiavon_front" n="224" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à <placeName ref="#Serbie">la Serbie</placeName> est un réseau à voie unique : seuls six trains — dans les deux sens — peuvent faire le voyage dans la journée.<bibl corresp="#Schiavon_front" n="248" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note1" n="1">En octobre, et malgré un accord entre les deux nations, <persName ref="#Constantin">le roi Constantin</persName> avait refusé de mobiliser ses troupes aux côtés de <placeName ref="#Serbie">la Serbie</placeName> arguant que cette dernière n'étant pas en mesure d'aligner cent cinquante mille hommes face à <placeName ref="#Bulgarie">la Bulgarie</placeName> — en raison de la menace allemande et austro-hongroise — l'accord était devenu caduc. À la demande du <persName ref="#Venizelos">premier ministre grec Venizélos</persName>, les alliés acceptent de soutenir les Serbes et d'envoyer des troupes. Son argument ne tenant plus, <persName ref="#Constantin">Constantin</persName> est contraint de mobiliser ses troupes.<bibl corresp="#Schiavon_front" n="224"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_16-11-1915_note2" n="2">Le réseau ferroviaire liant <placeName ref="#Salonique">Salonique</placeName> à <placeName ref="#Serbie">la Serbie</placeName> est un réseau à voie unique : seuls six trains — dans les deux sens — peuvent faire le voyage dans la journée.<bibl corresp="#Schiavon_front" n="248"/></note>
             </div>
          </back>
       </text>
@@ -2496,7 +2496,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">Suite à la retraite fin 1915 des troupes serbes, ces dernières sont envoyées sur <placeName ref="#Corfou">l'île de Corfou</placeName> afin d'y être soignées et ré-équipées. Fin février, l'île compte déjà plus de cent trente mille hommes.<bibl corresp="#Schiavon_front" n="156" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_17-03-1916_note1" n="1">Suite à la retraite fin 1915 des troupes serbes, ces dernières sont envoyées sur <placeName ref="#Corfou">l'île de Corfou</placeName> afin d'y être soignées et ré-équipées. Fin février, l'île compte déjà plus de cent trente mille hommes.<bibl corresp="#Schiavon_front" n="156"/>
                </note>
             </div>
          </back>
@@ -3132,7 +3132,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note1" n="1">La baïonnette française est caractérisée par une lame cruciforme censée causer d'importantes hémorragies lorsque, plantée dans le corps de son adversaire, le soldat faisait pivoter son arme d'un quart de tour.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2">Suite à la retraite serbe et au rapatriement des troupes sur <placeName ref="#Corfou">l'île de Corfou</placeName>, les autorités françaises décident de prendre en charge l'équipement des troupes serbes alors que les Britanniques s'occuperont du ravitaillement.<bibl corresp="#Schiavon_front" n="156" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_21-04-1916_note2" n="2">Suite à la retraite serbe et au rapatriement des troupes sur <placeName ref="#Corfou">l'île de Corfou</placeName>, les autorités françaises décident de prendre en charge l'équipement des troupes serbes alors que les Britanniques s'occuperont du ravitaillement.<bibl corresp="#Schiavon_front" n="156"/>
                </note>
             </div>
          </back>
@@ -3409,7 +3409,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_notea" n="a">Adresse placée sur le second volet de la carte postale et sur l'enveloppe.</note>
-               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="superscript">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre, <persName ref="Skoudoulis">Skoudoulis</persName>, que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre, une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_23-11-1915_note1" n="1">Favorable à une alliance avec les puissances centrales, <persName ref="#Constantin">Constantin I<hi rend="superscript">er</hi></persName>, qui a renvoyé <persName ref="#Venizelos">Elefthérios Venizélos</persName> pour avoir laissé les troupes de l'Entente débarquer à <placeName ref="#Salonique">Salonique</placeName>, fait savoir le 9 novembre 1915 par son nouveau premier ministre, <persName ref="Skoudoulis">Skoudoulis</persName>, que <placeName ref="#Grece">la Grèce</placeName> souhaite « désarmer toutes les troupes étrangères se trouvant sur le territoire grec ». Le 21 novembre, une escadre française prend position devant <placeName ref="#Milos">Milos</placeName>. Le 23, une note est envoyée au gouvernement grec le pressant d'adopter une posture neutre et bienveillante. Un accord est finalement trouvé : les troupes grecques doivent quitter <placeName ref="#Salonique">la région de Salonique</placeName>.<bibl corresp="#Schiavon_front" n="222"/>
                </note>
             </div>
          </back>
@@ -3786,7 +3786,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1">En juin 1916, <persName ref="#Joffre">le généralissime Joffre</persName>, lassé par l'inaction de <persName ref="#Sarrail">Sarrail</persName>, ordonnera que ce dernier prépare des actions offensives contre les Bulgares pour le début août afin d'appuyer la mobilisation de <placeName ref="#Roumanie">la Roumanie</placeName>.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Salonique_27-04-1916_note1" n="1">En juin 1916, <persName ref="#Joffre">le généralissime Joffre</persName>, lassé par l'inaction de <persName ref="#Sarrail">Sarrail</persName>, ordonnera que ce dernier prépare des actions offensives contre les Bulgares pour le début août afin d'appuyer la mobilisation de <placeName ref="#Roumanie">la Roumanie</placeName>.<bibl corresp="#Schiavon_front"/></note>
             </div>
          </back>
       </text>
@@ -4065,7 +4065,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d’Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_28-03-1916_note1" n="1">En mars la situation a changé sur le front oriental. Une partie des troupes allemandes a été redéployée sur le front occidental en préparation de la bataille de <placeName ref="#Verdun">Verdun</placeName>. <persName ref="#Joffre">Le généralissime Joffre</persName> est favorable à une offensive dans la mesure ou Anglais et Russes prévoient d'attaquer dans la Somme et sur le front Est. <persName ref="#Sarrail">Le général Sarrail,</persName>, toujours en charge de l'armée d’Orient, réclame quant à lui toujours plus de moyens, surestimant les forces ennemies.<bibl corresp="#Schiavon_front" n="180"/>
                </note>
             </div>
          </back>
@@ -4327,7 +4327,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">Si les alliés dominent sur les mers, il en est tout autre chose en dessous. Les sous-marins allemands resteront une menace importante pour les navires de l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.<bibl corresp="#Schiavon_front" n="159" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Salonique_31-01-1916_note1" n="1">Si les alliés dominent sur les mers, il en est tout autre chose en dessous. Les sous-marins allemands resteront une menace importante pour les navires de l'Entente. Les alliés n'auront de cesse de tenter de réduire les trajets par mer afin de limiter les risques.<bibl corresp="#Schiavon_front" n="159"/>
                </note>
             </div>
          </back>
@@ -4689,10 +4689,10 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l’Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l’Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">Devant faire face à des divisions internes aboutissant au «schisme national», <placeName ref="#Grece">la Grèce</placeName> n'entrera véritablement en guerre qu'à l'été 1917.<bibl corresp="#Grece_centenaire" status="draft"/></note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4">La campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> est un échec pour les alliés. <placeName ref="#Serbie">La Serbie</placeName>, menacée par <placeName ref="#Bulgarie">la Bulgarie</placeName>, devient un prétexte au désengagement des troupes sans donner l'impression d'avoir à faire face à un échec important.<bibl corresp="#Schiavon_front" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note1" n="1">Après des négociations concernant les bénéfices qu'elle pourrait tirer de son engagement dans le conflit, <placeName ref="#Bulgarie">la Bulgarie</placeName> signe un accord secret avec l’Alliance le 4 septembre 1915. Le 23, elle décrète la mobilisation générale.<bibl corresp="#Schiavon_front"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note2" n="2"><placeName ref="#Roumanie">La Roumanie</placeName> ne déclarera la guerre à <placeName ref="#Autriche_Hongrie">l’Autriche-Hongrie</placeName> qu'en août 1916.<bibl corresp="#Roumanie_centenaire"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note3" n="3">Devant faire face à des divisions internes aboutissant au «schisme national», <placeName ref="#Grece">la Grèce</placeName> n'entrera véritablement en guerre qu'à l'été 1917.<bibl corresp="#Grece_centenaire"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_09-10-1915_note4" n="4">La campagne des <placeName ref="#Dardanelles">Dardanelles</placeName> est un échec pour les alliés. <placeName ref="#Serbie">La Serbie</placeName>, menacée par <placeName ref="#Bulgarie">la Bulgarie</placeName>, devient un prétexte au désengagement des troupes sans donner l'impression d'avoir à faire face à un échec important.<bibl corresp="#Schiavon_front"/>
                </note>
             </div>
          </back>
@@ -4846,9 +4846,9 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé. Canonné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note1" n="1">Le « <name type="navire" ref="#Turquoise">Turquoise</name> » n'a en réalité pas été coulé. Canonné et forcé à faire surface, <persName ref="#Ravenel">le lieutenant de vaisseau Ravenel</persName> et son équipage sont contraints de se rendre. Le sous-marin sera remorqué, armé et utilisé à des fins de propagande par l'armée turque.<bibl corresp="#Roche_flotte"/>
                </note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseille</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_10-11-1915_note2" n="2">Les troupes françaises partent de <placeName ref="#Marseille">Marseille</placeName> et <placeName ref="#Toulon">Toulon</placeName>. Durant le trajet, qui prend en moyenne une semaine, le convoi est escorté afin d'assurer la protection des hommes, qui ne savent souvent pas ce qui les attend.<bibl corresp="#Schiavon_front"/></note>
             </div>
          </back>
       </text>
@@ -4987,7 +4987,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_notea" n="a">Adresse présente sur toutes les cartes postales. </note>
-               <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.<bibl corresp="#Schiavon_front" n="132" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Port_Iero_20-10-1915_note1" n="1">Le corps expéditionnaire ne parviendra pas à s'affranchir des problèmes logistiques.<bibl corresp="#Schiavon_front" n="132"/>
                </note>
             </div>
          </back>
@@ -5327,7 +5327,7 @@
          </body>
          <back>
             <div type="note">
-               <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"><placeName ref="#Mytilene">La ville de Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au sud de l'entrée du <placeName ref="#Dardanelles">détroit des Dardanelles.</placeName> Elle est séparée des côtes turques par <placeName ref="#Mytilene">le détroit de Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.<bibl corresp="#Schiavon_front" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Mytilene_06-10-1915_note1" n="1"><placeName ref="#Mytilene">La ville de Mytilène</placeName> (l'île de Lesbos en mer Égée) est située à une centaine de kilomètres au sud de l'entrée du <placeName ref="#Dardanelles">détroit des Dardanelles.</placeName> Elle est séparée des côtes turques par <placeName ref="#Mytilene">le détroit de Mytilène</placeName>. Le gouvernement grec autorise les alliés à l'utiliser comme base de transit dès le printemps 1915.<bibl corresp="#Schiavon_front"/></note>
             </div>
          </back>
       </text>
@@ -5476,7 +5476,7 @@
          <back>
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_notea" n="a">Adresse présente sur toutes les cartes postales.</note>
-               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d’Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il œuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud" status="draft"/>
+               <note xml:id="F_delta_1854_20_1_Moudros_03-09-1915_note1" n="1">En mai 1915, <persName ref="#Gouraud">le général Gouraud</persName>, commandant le corps expéditionnaire d’Orient, cherche des alternatives à la prise de <placeName ref="#Gallipoli">Gallipoli</placeName>. Il œuvre pour une installation des troupes française sur <placeName ref="#Mytilene">l'île de Mytilène</placeName>, au sud-ouest de <placeName ref="#Lemnos">Lemnos</placeName>, mais le gouvernement français refuse sa requête pour ne pas froisser la neutralité grecque.<bibl corresp="#Andurain_Gouraud"/>
                </note>
             </div>
          </back>
@@ -5653,7 +5653,7 @@
             <div type="note">
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_notea" n="a">Adresse présente sur les deux cartes postales et l'enveloppe.</note>
                <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note1" n="1">À l'issue des guerres balkaniques <placeName ref="#Imbros">l'île d'Imbros</placeName> est restée sous domination ottomane.</note>
-               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connaît des problèmes logistiques et sanitaires importants.<bibl corresp="#Senat_Decker" status="draft"/></note>
+               <note xml:id="F_delta_1854_20_1_Imbros_23-09-1915_note2" n="2">L'expédition des <placeName ref="#Dardanelles">Dardanelles</placeName> connaît des problèmes logistiques et sanitaires importants.<bibl corresp="#Senat_Decker"/></note>
             </div>
          </back>
       </text>

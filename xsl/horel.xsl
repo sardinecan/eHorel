@@ -5,10 +5,10 @@
     
     <!--<xsl:output method="xml" indent="yes" omit-xml-declaration="no" encoding="UTF-8"/>
     <xsl:output method="html" indent="yes" omit-xml-declaration="no" encoding="UTF-8" name="html"/>-->
-    <xsl:output method="xhtml" indent="yes" omit-xml-declaration="no" encoding="UTF-8"/>
+    <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes" encoding="UTF-8"/>
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes" encoding="UTF-8" name="html"/>
     <xsl:output method="text" indent="yes" encoding="UTF-8" name="text"/>
-    <xsl:template match="/" name="html">
+    <xsl:template match="/">
         <!-- pour déclaration DOCTYPE html 5 : -->
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>

@@ -109,6 +109,8 @@ header{
     /*border: 1px solid #aaa;*/
     margin-bottom: 20px;
     font-size: 12px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(68,68,68);
 }
 
 .timeline-event-bubble-time{ /*supprime les dates dans les event popup*/
@@ -146,6 +148,7 @@ li[id]:hover{
 
 li[id] li{
     color: rgb(68, 68, 68);
+    font-size: 1.2em;
 }
 
 .menuCarto{
@@ -167,14 +170,15 @@ li.tabs-title a{
 }
 
 .bold{
-    font-weight: bold;
+    font-family: 'Raleway', serif;
+    /*font-weight: bold;*/
     color:rgb(68, 68, 68);
 }
 
 .head{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Raleway', serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color:rgb(68, 68, 68);
     border-bottom: 2px solid rgb(208, 208, 208);
 }

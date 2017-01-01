@@ -14,9 +14,10 @@
                     <xsl:copy-of select="$header"/>
                     <xsl:copy-of select="$headerSlide"/>
                     <div class="row">
-                        <div class="large-12">
+                        <div class="large-12 columns">
                             <h1>Accès thématique</h1>
-                            <p>La correspondance est ici classée par expéditeur. 43 lettres ont été traitées jusqu'à présent. Seule une lettre n'est pas de la main d'Armand Horel, elle a été écrite par son frère Louis. Les lettres sont ensuite classées chronologiquement et les envois non datés sont regroupés en fin de liste.</p>
+                            <p>L'accès thématique regroupe les lettres au regard de leur expéditeur et suivant les thèmes abordés au sein de chacune d'elles.</p>
+<!--                            <p>La correspondance est ici classée par expéditeur. 43 lettres ont été traitées jusqu'à présent. Seule une lettre n'est pas de la main d'Armand Horel, elle a été écrite par son frère Louis. Les lettres sont ensuite classées chronologiquement et les envois non datés sont regroupés en fin de liste.</p>-->
                             <h2>Expéditeurs</h2>
                             <ul class="menu vertical" data-accordion-menu="true">
                                 <xsl:for-each-group select="tei:TEI" group-by="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']/@ref">
@@ -41,7 +42,7 @@
                                 </xsl:for-each-group>
                             </ul>
                         </div>
-                        <div class="large-12">
+                        <div class="large-12 columns">
                             <h2>Thèmes</h2>
                             <ul class="menu vertical" data-accordion-menu="true">
                                 <xsl:for-each select="//tei:interp">

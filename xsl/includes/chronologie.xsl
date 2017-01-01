@@ -95,7 +95,10 @@
                     <!--feuilles de style-->  
                     <link rel="stylesheet" href="style/foundation/foundation.css" />
                     <link rel="stylesheet" type="text/css" href="style/foundation/app.css"/>
-                    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+                    <!--<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet"/>-->
                     <link rel="stylesheet" href="js/timeline/dist/timeline.min.css"/>
                     
                     <script src="js/foundation/vendor/jquery.js">/*pour transformation xslt*/</script>
@@ -109,7 +112,7 @@
                     <xsl:copy-of select="$headerSlide"/>
                     <div class="row">
                         <div class="large-12 columns">
-                            <h2>Accès chronologique</h2>
+                            <h1>Accès chronologique</h1>
                             <p>Cette frise propose un accès chronologique à la correspondances d'Armand Horel. Elle est complétée par quelques événements importants du conflit permettant de la replacer dans son contexte.</p>
                             <ul class="no-bullet">
                                 <li class="bold">Légende :</li>

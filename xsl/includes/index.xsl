@@ -14,7 +14,7 @@
                     <xsl:copy-of select="$header"/>
                     <xsl:copy-of select="$headerSlide"/>
                     <div class="row">
-                        <div class="large-12">
+                        <div class="large-12 columns">
                             <xsl:apply-templates select="tei:div[@type='list_index']"/>
                         </div>
                     </div>

@@ -331,7 +331,10 @@ div.simileAjax-bubble-close{
 
 .timeline-event-label{
     color: #F6F6F6;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+    font-size: 13px;
 }
 
 .timeline-event-tape,

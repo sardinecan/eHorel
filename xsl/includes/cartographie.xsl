@@ -53,6 +53,19 @@
                         id: 'mapbox.streets'
                         }).addTo(map);
                         
+                        var greenIcon = L.icon({
+                        iconUrl: 'images/icon/envelope.png',
+                        //shadowUrl: 'leaf-shadow.png', 
+                        //iconRetinaUrl: "marker-icon-2x.png", 
+                        //shadowUrl: "marker-shadow.png", 
+                        //iconSize:[25, 41],
+                        iconSize:[40, 26],
+                        //iconAnchor:[12, 41], 
+                        popupAnchor:[1, -34], 
+                        tooltipAnchor:[16, -28], 
+                        //shadowSize:[41, 41]
+                        });
+                        
                         var popupLocation1 = new L.LatLng(41.508577297439324, 15.64453125);
                         
                         var popupContent1 = "<p>Sur cette carte, chaque lettre est géolocalisée en fonction de son lieu d'envoi. Cliquez sur les vignettes pour accéder à la correspondance.</p>",
@@ -65,9 +78,9 @@
                         
                         <xsl:for-each select="//tei:place[descendant::tei:geo]">
                             <xsl:variable name="id" select="concat('#',@xml:id)"/>
-                            <xsl:text>var marker</xsl:text><xsl:value-of select="normalize-space(@xml:id)"/><xsl:text> = L.marker([</xsl:text><xsl:value-of select=".//tei:geo"/><xsl:text>]).addTo(map);</xsl:text>
+                            <xsl:text>var marker</xsl:text><xsl:value-of select="normalize-space(@xml:id)"/><xsl:text> = L.marker([</xsl:text><xsl:value-of select=".//tei:geo"/><xsl:text>], {icon: greenIcon}).addTo(map);</xsl:text>
                             <xsl:text>marker</xsl:text><xsl:value-of select="normalize-space(@xml:id)"/><xsl:text>.bindPopup('</xsl:text>&lt;span&gt;<xsl:value-of select="./tei:placeName[1]"/>&lt;/span&gt;&lt;hr/&gt;&lt;ul class="no-bullet"&gt;<xsl:for-each select="//tei:correspAction[descendant::tei:placeName[@ref=$id]]"><xsl:sort select="./tei:date/@notBefore"/><xsl:sort select="./tei:date/@when"/><xsl:sort select="./tei:date[not(@notBefore)]"/>&lt;li&gt;&lt;a href="<xsl:value-of select="concat(ancestor::tei:TEI/@xml:id,'.html')"/>"&gt;<xsl:value-of select="./tei:persName[@type='sentBy']"/> à <xsl:value-of select="./tei:persName[@type='deliveredTo']"/>, <xsl:value-of select="./tei:date"/>&lt;/a&gt;&lt;/li&gt;</xsl:for-each>&lt;/ul&gt;<xsl:text>', {</xsl:text>
-                            <xsl:text>maxWidth: 300, minWidth: 250, maxHeight: 260, autoPan: true, closeButton: true, autoPanPadding:[5, 5]});</xsl:text>
+                            <xsl:text>maxWidth: 500, minWidth: 400, maxHeight: 260, autoPan: true, closeButton: true, autoPanPadding:[5, 5]});</xsl:text>
                         </xsl:for-each>
                         /*ajouter pour ouvrir une popup automatique au chargement de la carte ".openPopup()";*/
                     </xsl:result-document>
