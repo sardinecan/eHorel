@@ -17,6 +17,7 @@
                         <xsl:apply-templates select="tei:div[@type='about']"/>
                     </div>
                     <xsl:apply-templates select="//tei:listBibl" mode="bibl"/>
+                    <xsl:apply-templates select="tei:div[@type='about']/tei:div[./tei:head='Équipe']"/>
                     <xsl:copy-of select="$footer"/>
                     <xsl:copy-of select="$js"/>
                 </body>
@@ -77,12 +78,23 @@
         </div>
         <div class="large-8 columns"> 
             <h1>Édition électronique de correspondance</h1>
-            <xsl:for-each select="tei:div[not(@type='ressourcesExt')]">
+            <xsl:for-each select="tei:div[not(@type='ressourcesExt')][not(./tei:head='Équipe')]">
                 <xsl:if test="tei:head"><h2><xsl:apply-templates select="tei:head"/></h2></xsl:if>
                 <xsl:for-each select="tei:p | tei:list">
                     <p><xsl:apply-templates select="."/></p>
                 </xsl:for-each>
             </xsl:for-each>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:div[@type='about']/tei:div[./tei:head='Équipe']">
+        <div class="row">
+            <div class="large-8 large-offset-4 columns">
+                <xsl:if test="tei:head"><h2><xsl:apply-templates select="tei:head"/></h2></xsl:if>
+                <xsl:for-each select="tei:p | tei:list">
+                    <p><xsl:apply-templates select="."/></p>
+                </xsl:for-each>
+            </div>
         </div>
     </xsl:template>
     
