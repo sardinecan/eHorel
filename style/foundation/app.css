@@ -110,7 +110,7 @@ header{
     margin-bottom: 20px;
     font-size: 12px;
     border-radius: 3px;
-    box-shadow: 2px 2px 2px rgb(68,68,68);
+    box-shadow: 2px 2px 2px rgb(68, 68, 68);
 }
 
 .timeline-event-bubble-time{ /*supprime les dates dans les event popup*/
@@ -172,14 +172,14 @@ li.tabs-title a{
 .bold{
     font-family: 'Raleway', serif;
     /*font-weight: bold;*/
-    color:rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
 }
 
 .head{
     font-family: 'Raleway', serif;
     font-weight: bold;
     font-size: 1.2em;
-    color:rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
     border-bottom: 2px solid rgb(208, 208, 208);
 }
 

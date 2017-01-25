@@ -118,7 +118,7 @@
                <head>L'édition électronique</head>
                <p>Lors de la mise en place de ce projet, plusieurs fonds ont été présélectionnés afin de déterminer celui qui présenterait le plus d'intérêt pour notre entreprise. Les écrits d'<persName ref="#Horel">Armand Horel</persName> ont été retenus pour plusieurs raisons : tout d'abord parce que l'auteur a servi dans la marine française durant toute la campagne d'Orient, dont nous commémorons le centenaire cette année (2015) ; ensuite, parce que ce théâtre d'opération reste méconnu du grand public ; enfin, et concernant les aspects numériques de l'édition, ce fonds présentait un certain nombre d'enjeux ou de cas de figure qu'il était intéressant de traiter : la géolocalisation, la multiplicité des supports d'écriture, etc.</p>
                <p>Une attention particulière a été accordée à l'indexation et aux points d'entrée dans le texte. Ainsi, ce ne sont pas moins de trois types d'accès qui sont proposés : chronologique, géographique et thématique. Les personnes, lieux et bâtiments de flotte ont été, dans la mesure du possible, identifiés et reliés à un index. Ces termes se présentent sous la forme de mots soulignés dans le texte, le survol de ces derniers permet l'affichage des informations rattachées dans une info-bulle. Ce sont également des liens qui autorisent un accès direct à l'index.</p>
-               <p>Les fichiers sources de cette édition sont disponibles librement sur notre dépôt <ref type="extLink" target="https://github.com/sardinecan/TEIcorrespondances_horel">github</ref>.</p>
+               <p>Les fichiers sources de cette édition sont disponibles librement sur notre dépôt <ref type="extLink" target="https://github.com/sardinecan/horel"><!--RMQ Ancien rep -->github</ref>.</p>
             </div>
             <div type="ressourcesExt">
                <list>
@@ -200,7 +200,7 @@
             </div>
             <div type="ressourcesExt">
                <list xml:id="liens_documentation">
-                  <item><ref type="extLink" target="../../SCHEMA/bdic_modelisation.rng">Répertoire github du projet</ref></item>
+                  <item><ref type="extLink" target="https://github.com/sardinecan/horel">Répertoire github du projet</ref></item>
                </list>
             </div>
          </div>
@@ -744,7 +744,7 @@
                   <supplied>depuis</supplied> ce voyage je <lb/>m'empresse de vous en envoyer des miennes que <lb/>je suis toujours en bonne santé et désire qu'à <lb/>l'arrivée de ces 2 cartes que vous en êtes de même <lb/>ainsi que votre fille et petite fille. Dans le <lb/>dernier raid d'avions boches qu'il y a eu ces <lb/>jours derniers le nombre de morts est de 50 <lb/>grecs et de 11 poilus tués par les bombes <lb/>mais aussi ils ne sont pas <sic>retourner</sic> tous <lb/>idem car il y a eu 4 d'abattus<pc type="supplied">.</pc> Le lendemain <lb/>ils ont voulu revenir ils n'ont pas pu nos <lb/>soldats ont eu descendu 2 et les ont <sic>obligé</sic>
                   <lb/>à faire demi tour 3 jours avant il y a eu <lb/>2 autres de <sic>descendu</sic> dans nos lignes ce <lb/>qui leurs fait 8 de <sic>descendu</sic> contre nous un seul<pc type="supplied">.</pc>
                   <pb n="3" facs="#BDIC_FD_1854_20_1_031" type="postcardBreak"/><pb n="4" facs="#BDIC_FD_1854_20_1_032"/><fw type="pageNum" rend="alignRight">(2)</fw>Mais c'est bizarre à chaque fois que<del rend="overline">s</del> ces <sic>aréoplanes</sic>
-                  <lb/>boches viennent nous rendre visite nous ne <lb/>sommes jamais là nous somme toujours en mer <lb/>et heureusement pour nous car leur dernier <lb/>raid qu'ils ont fait ils ont juste <sic>lancer</sic> des <lb/>bombes à l'endroit où nous allons mouiller <lb/>quand nous sommes de repos. Et sûrement que <lb/>si nous avions été <sic>mouillé</sic> il y aurait eu <lb/>plusieurs tués à mon bord peut être <lb/>moi le premier mais en tous les cas nous <lb/>l'avons toujours <sic>épargner</sic>. Par ailleurs rien <lb/>de nouveau. Pour la commission que j'ai à faire <lb/>pour vos deux neveux je ne pourrai la <lb/>faire que dans une huitaine de jours <lb/>et je ferai tout mon possible pour les trouver<pc type="supplied">.</pc>
+                  <lb/>boches viennent nous rendre visite nous ne <lb/>sommes jamais là nous sommes toujours en mer <lb/>et heureusement pour nous car leur dernier <lb/>raid qu'ils ont fait ils ont juste <sic>lancer</sic> des <lb/>bombes à l'endroit où nous allons mouiller <lb/>quand nous sommes de repos. Et sûrement que <lb/>si nous avions été <sic>mouillé</sic> il y aurait eu <lb/>plusieurs tués à mon bord peut être <lb/>moi le premier mais en tous les cas nous <lb/>l'avons toujours <sic>épargner</sic>. Par ailleurs rien <lb/>de nouveau. Pour la commission que j'ai à faire <lb/>pour vos deux neveux je ne pourrai la <lb/>faire que dans une huitaine de jours <lb/>et je ferai tout mon possible pour les trouver<pc type="supplied">.</pc>
                   <lb/>Rien autre chose à vous dire pour le moment<pc type="supplied">.</pc></p>
                <closer>
                   <salute>Un petit ami qui ne vous <sic>oublieras</sic> jamais<pc type="supplied">,</pc></salute>

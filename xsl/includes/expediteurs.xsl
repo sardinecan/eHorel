@@ -22,6 +22,7 @@
                             <ul class="menu vertical" data-accordion-menu="true">
                                 <xsl:for-each-group select="tei:TEI" group-by="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']/@ref">
                                     <li>
+                                        <xsl:attribute name="id"><xsl:value-of select="generate-id()"/></xsl:attribute>
                                         <xsl:variable name="numLetter" select="count(//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy'][@ref=current-grouping-key()])"/>
                                         <a class="entree" href="#"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy'][@ref=current-grouping-key()]"/> : <xsl:value-of select="$numLetter"/> lettre<xsl:if test="$numLetter &gt; 1"><xsl:text>s</xsl:text></xsl:if> envoyée<xsl:if test="$numLetter &gt; 1"><xsl:text>s</xsl:text></xsl:if><xsl:text> </xsl:text>
                                             <xsl:choose>
@@ -29,14 +30,21 @@
                                                 <xsl:otherwise><xsl:value-of select="current-group()//tei:correspAction/tei:date"/></xsl:otherwise>
                                             </xsl:choose>
                                         </a>
-                                        <ul class="no-bullet content">
-                                            <xsl:for-each select="current-group()">
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
-                                                <xsl:variable name="href" select="@xml:id"/>
-                                                <li><a href="{$href}.html">à <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/></a></li>
-                                            </xsl:for-each>
+                                        <ul class="index no-bullet content">
+                                            <li>
+                                                <xsl:for-each select="current-group()">
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
+                                                    <xsl:variable name="href" select="@xml:id"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="position() != last()">
+                                                            <a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, à </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/></a><xsl:text> — </xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:otherwise><a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/></a><xsl:text>.</xsl:text></xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:for-each>
+                                            </li>
                                         </ul>
                                     </li>
                                 </xsl:for-each-group>
@@ -48,19 +56,25 @@
                                 <xsl:for-each select="//tei:interp">
                                     <xsl:sort select="."/>
                                     <xsl:variable name="id" select="@xml:id"/>
-                                    <li>
+                                    <li id="{$id}">
                                         <a class="entree" href="#"><xsl:value-of select="concat(upper-case(substring(.,1,1)),substring(., 2),' '[not(last())])"/></a>
-                                        <ul class="no-bullet content">
-                                            <xsl:for-each select="//tei:TEI[descendant::tei:div[@type='letter'][@ana]]">
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
-                                                <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
-                                                <xsl:variable name="ana" select=".//tei:div[@type='letter']/@ana"/>
-                                                <xsl:variable name="href" select="@xml:id"/>
-                                                <xsl:if test="contains($ana, $id)">
-                                                    <li><a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']"/> à <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/></a></li>
-                                                </xsl:if>
-                                            </xsl:for-each>
+                                        <ul class="index no-bullet content">
+                                            <li>
+                                                <xsl:for-each select="//tei:TEI[descendant::tei:div[@type='letter'][contains(@ana,$id)]]">
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore"/>
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when"/>
+                                                    <xsl:sort select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date[not(@notBefore)]"/>
+                                                    <xsl:variable name="ana" select=".//tei:div[@type='letter']/@ana"/>
+                                                    <xsl:variable name="href" select="@xml:id"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="position() != last()"><a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']"/> à <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/></a><xsl:text> — </xsl:text></xsl:when>
+                                                        <xsl:otherwise><a href="{$href}.html"><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='sentBy']"/> à <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:persName[@type='deliveredTo']"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:placeName"/><xsl:text>, </xsl:text><xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date"/></a><xsl:text>.</xsl:text></xsl:otherwise>
+                                                    </xsl:choose>
+                                                    <!--<xsl:if test="contains($ana, $id)">
+                                                        
+                                                    </xsl:if>-->
+                                                </xsl:for-each>
+                                            </li>
                                         </ul>
                                     </li>
                                 </xsl:for-each>
